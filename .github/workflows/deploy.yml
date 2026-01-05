@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - data-integrity
   workflow_dispatch:
 
 jobs:
@@ -23,6 +24,9 @@ jobs:
 
       - name: Install dependencies
         run: npm install --legacy-peer-deps  
+
+      - name: Check for duplicate project IDs
+        run: node scripts/check-duplicate-ids.js
 
       - name: Handle import internal shared dependency
         run: npm install glob@^9 --legacy-peer-deps && node ./scripts/ciAddTsIgnore.mjs       

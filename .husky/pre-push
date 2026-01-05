@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Check for duplicate project IDs before pushing
+# This catches duplicates even if pre-commit was bypassed with --no-verify
+node scripts/check-duplicate-ids.js

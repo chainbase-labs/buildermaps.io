@@ -1,4 +1,5 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
 
-npm exec pretty-quick --staged && npm exec concurrently npm:test npm:lint
+# Check for duplicate project IDs in staged files
+node scripts/check-duplicate-ids.js

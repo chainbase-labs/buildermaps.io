@@ -10,6 +10,7 @@
     "build:maps": "node scripts/build-maps.js",
     "watch:maps": "node scripts/watch-maps.js",
     "verify:maps": "node scripts/verify-data.js",
+    "check:duplicate-ids": "node scripts/check-duplicate-ids.js",
     "split:maps": "node scripts/split-data.js",
     "analyze": "node scripts/webpack-with-build-time.js --mode=production --env analyze",
     "lint": "eslint src --ext js,ts,tsx",
