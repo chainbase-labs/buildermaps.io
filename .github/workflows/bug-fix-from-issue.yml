@@ -74,26 +74,30 @@ jobs:
           Respond in a structured format that can be used directly in a GitHub comment."
 
           # Call GitHub Models API
+          PROMPT_JSON=$(jq -Rs . <<< "$PROMPT")
+
           RESPONSE=$(curl -s -X POST "https://models.github.ai/inference/chat/completions" \
             -H "Content-Type: application/json" \
             -H "Authorization: Bearer $GITHUB_TOKEN" \
             -d "{
-              \"model\": \"gpt-5\",
+              \"model\": \"openai/gpt-5\",
               \"messages\": [
                 {
                   \"role\": \"user\",
-                  \"content\": \"$PROMPT\"
+                  \"content\": $PROMPT_JSON
                 }
               ],
               \"max_tokens\": 1500,
               \"temperature\": 0.3
             }")
 
-          # Extract the response content
-          ANALYSIS=$(echo $RESPONSE | jq -r '.choices[0].message.content' 2>/dev/null || echo "Failed to parse GitHub Models API response")
+          echo "RAW RESPONSE:"
+          echo "$RESPONSE"
+
+          ANALYSIS=$(echo "$RESPONSE" | jq -r '.choices[0].message.content[0].text')
 
           if [ -z "$ANALYSIS" ] || [ "$ANALYSIS" == "null" ]; then
-            ANALYSIS="❌ Failed to get analysis from GitHub Models API. Please check the GitHub token permissions and try again."
+            ANALYSIS="❌ Failed to parse GitHub Models API response. Raw response: $RESPONSE"
           fi
 
           # Save analysis to output
