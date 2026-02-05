@@ -1,0 +1,182 @@
+name: Bug Fix from Issue (GitHub Models)
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  bug-fix:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20.9.0"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm install --legacy-peer-deps
+
+      - name: Check if label is bug-fixing
+        id: check_label
+        run: |
+          LABEL_NAME="${{ github.event.label.name }}"
+          echo "Label added: $LABEL_NAME"
+          if [ "$LABEL_NAME" == "bug-fixing" ]; then
+            echo "valid_label=true" >> $GITHUB_OUTPUT
+            echo "✅ Bug fixing label detected: $LABEL_NAME"
+          else
+            echo "valid_label=false" >> $GITHUB_OUTPUT
+            echo "⚠️ Skipping: Label '$LABEL_NAME' is not bug-fixing"
+            exit 0
+          fi
+
+      - name: Read and analyze issue content
+        id: analyze_issue
+        if: steps.check_label.outputs.valid_label == 'true'
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "🔍 Analyzing issue #$ISSUE_NUMBER: $ISSUE_TITLE"
+          echo "Issue content:"
+          echo "$ISSUE_BODY"
+          echo ""
+
+          # Create a prompt for GitHub Models to analyze the bug
+          PROMPT="You are a senior frontend developer helping to fix a bug in a React/TypeScript project called BuilderMaps.io. Analyze this GitHub issue and provide specific recommendations for fixing the bug:
+
+          Issue Title: $ISSUE_TITLE
+
+          Issue Body:
+          $ISSUE_BODY
+
+          Please provide:
+          1. A clear summary of what the bug is
+          2. Potential root causes based on the description
+          3. Specific code changes needed (file paths and code snippets)
+          4. Testing recommendations
+
+          Respond in a structured format that can be used directly in a GitHub comment."
+
+          # Call GitHub Models API
+          RESPONSE=$(curl -s -X POST "https://models.github.ai/inference" \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            -d "{
+              \"model\": \"gpt-5\",
+              \"messages\": [
+                {
+                  \"role\": \"user\",
+                  \"content\": \"$PROMPT\"
+                }
+              ],
+              \"max_tokens\": 1500,
+              \"temperature\": 0.3
+            }")
+
+          # Extract the response content
+          ANALYSIS=$(echo $RESPONSE | jq -r '.choices[0].message.content' 2>/dev/null || echo "Failed to parse GitHub Models API response")
+
+          if [ -z "$ANALYSIS" ] || [ "$ANALYSIS" == "null" ]; then
+            ANALYSIS="❌ Failed to get analysis from GitHub Models API. Please check the GitHub token permissions and try again."
+          fi
+
+          # Save analysis to output
+          echo "analysis<<EOF" >> $GITHUB_OUTPUT
+          echo "$ANALYSIS" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Run tests to establish baseline
+        id: run_tests
+        if: steps.analyze_issue.outcome == 'success'
+        run: |
+          echo "🧪 Running tests to establish baseline..."
+          npm test -- --passWithNoTests --verbose
+
+      - name: Analyze codebase for potential fixes
+        id: code_analysis
+        if: steps.run_tests.outcome == 'success'
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "🔬 Analyzing codebase for potential bug locations..."
+
+          # Get relevant files based on issue content
+          ISSUE_CONTENT="$ISSUE_TITLE $ISSUE_BODY"
+
+          # Look for file references in the issue
+          FILES_MENTIONED=$(echo "$ISSUE_CONTENT" | grep -oE '\b(src|public|scripts)/[^\s]*\.(ts|tsx|js|jsx|json)\b' | sort | uniq || echo "")
+
+          if [ -n "$FILES_MENTIONED" ]; then
+            echo "📁 Files mentioned in issue:"
+            echo "$FILES_MENTIONED"
+            echo ""
+
+            # Check if these files exist
+            for file in $FILES_MENTIONED; do
+              if [ -f "$file" ]; then
+                echo "✅ $file exists"
+                # Could add code analysis here
+              else
+                echo "❌ $file not found"
+              fi
+            done
+          fi
+
+      - name: Create bug fix suggestion comment
+        if: steps.analyze_issue.outcome == 'success'
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const analysis = `${{ steps.analyze_issue.outputs.analysis }}`;
+
+            const comment = `## 🔧 Bug Analysis & Fix Suggestions
+
+            ${analysis}
+
+            ---
+            *This analysis was generated automatically using GitHub Models (GPT-5) to help identify and fix the bug. Please review the suggestions and implement the appropriate fixes.*
+
+            ### Next Steps:
+            1. Review the analysis above
+            2. Implement the suggested code changes
+            3. Test the fix thoroughly
+            4. Remove the \`bug-fixing\` label once resolved
+
+            If you need more specific help, please provide additional context about the error messages or expected behavior.`;
+
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment
+            });
+
+      - name: Comment on analysis failure
+        if: failure() && steps.check_label.outputs.valid_label == 'true'
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '❌ Failed to analyze the bug. Please check the workflow logs for details. You may need to verify the GitHub token permissions for Models API access.'
+            });
