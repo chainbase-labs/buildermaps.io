@@ -49,18 +49,18 @@ jobs:
 
           PROMPT="You are an autonomous senior developer.
 
-Fix the bug described below.
+          Fix the bug described below.
 
-Output ONLY unified diff patch.
-No explanations.
-No markdown.
+          Output ONLY unified diff patch.
+          No explanations.
+          No markdown.
 
-Issue Title:
-$ISSUE_TITLE
+          Issue Title:
+          $ISSUE_TITLE
 
-Issue Body:
-$ISSUE_BODY
-"
+          Issue Body:
+          $ISSUE_BODY
+          "
 
           PROMPT_JSON=$(jq -Rs . <<< "$PROMPT")
 
