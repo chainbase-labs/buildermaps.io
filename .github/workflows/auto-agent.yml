@@ -1,4 +1,4 @@
-name: Auto Copilot Agent
+name: Auto Trigger Copilot Agent
 
 permissions:
   issues: write
@@ -15,10 +15,7 @@ jobs:
 
     steps:
 
-      - name: Checkout repo
-        uses: actions/checkout@v4    
-
-      - name: Check for bug-fixing label
+      - name: Check bug-fixing label
         id: check
         run: |
           LABELS='${{ toJson(github.event.issue.labels) }}'
@@ -29,13 +26,17 @@ jobs:
             echo "trigger=false" >> $GITHUB_OUTPUT
           fi
 
-      - name: Trigger Copilot Agent
+      # ⭐ 不使用 gh issue comment（减少失败）
+      - name: Trigger Copilot via GitHub API
         if: steps.check.outputs.trigger == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ISSUE_NUMBER: ${{ github.event.issue.number }}
         run: |
-          echo "Triggering Copilot agent..."
 
-          gh issue comment $ISSUE_NUMBER \
-            --body "@copilot please read this issue and automatically fix the bug. Modify the codebase and create a PR."
+          curl -X POST \
+          -H "Authorization: Bearer $GH_TOKEN" \
+          -H "Accept: application/vnd.github+json" \
+          https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments \
+          -d '{
+            "body": "@copilot fix this issue and create a pull request"
+          }'
