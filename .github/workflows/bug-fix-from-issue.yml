@@ -7,7 +7,7 @@ on:
 jobs:
   assign-to-copilot:
     runs-on: ubuntu-latest
-    if: github.event.label.name == 'bug-fix'
+    if: github.event.label.name == 'bug-fixing'
     
     steps:
       - name: Assign issue to Copilot
