@@ -70,7 +70,7 @@ jobs:
 
       - name: Apply AST edits
         run: |
-          node apply-ast.js
+          node scripts/apply-ast.js
 
       - name: Commit & PR
         env:
