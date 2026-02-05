@@ -1,4 +1,4 @@
-name: JSON Edit AI Agent
+name: AST AI Agent
 
 permissions:
   contents: write
@@ -10,7 +10,7 @@ on:
     types: [opened, labeled]
 
 jobs:
-  json-agent:
+  ast-agent:
     runs-on: ubuntu-latest
 
     steps:
@@ -26,38 +26,33 @@ jobs:
       - uses: actions/checkout@v4
         if: steps.check.outputs.trigger == 'true'
 
-      - name: Setup git
+      - name: Install deps
         run: |
-          git config user.name "json-ai-agent"
-          git config user.email "ai@agent.com"
+          npm install ts-morph
 
-      - name: Generate JSON edits
+      - name: Generate AST edits
         env:
           ISSUE_BODY: ${{ github.event.issue.body }}
           ISSUE_TITLE: ${{ github.event.issue.title }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
 
-          FILE_TREE=$(git ls-files | head -n 200)
+          PROMPT="Return JSON AST actions only.
 
-          PROMPT="Return ONLY JSON array.
+          Example:
+
+          [
+          {
+            \"action\":\"add_import\",
+            \"file\":\"src/App.tsx\",
+            \"import\":\"useEffect\",
+            \"from\":\"react\"
+          }
+          ]
 
           Issue:
           $ISSUE_TITLE
           $ISSUE_BODY
-
-          Files:
-          $FILE_TREE
-
-          Format:
-
-          [
-            {
-              \"file\":\"path\",
-              \"search\":\"exact old code\",
-              \"replace\":\"new code\"
-            }
-          ]
           "
 
           BODY=$(jq -n --arg content "$PROMPT" '{
@@ -71,33 +66,24 @@ jobs:
             -H "Content-Type: application/json" \
             -d @-)
 
-          echo "$RESPONSE"
+          echo "$RESPONSE" | jq -r '.choices[0].message.content[0].text' > ast.json
 
-          echo "$RESPONSE" | jq -r '.choices[0].message.content[0].text' > edits.json
-
-      - name: Apply JSON edits
+      - name: Apply AST edits
         run: |
+          node apply-ast.js
 
-          git checkout -b ai-fix-${{ github.event.issue.number }}
-
-          jq -c '.[]' edits.json | while read edit; do
-
-            FILE=$(echo "$edit" | jq -r '.file')
-            SEARCH=$(echo "$edit" | jq -r '.search')
-            REPLACE=$(echo "$edit" | jq -r '.replace')
-
-            if [ -f "$FILE" ]; then
-              echo "Editing $FILE"
-              sed -i "s|$SEARCH|$REPLACE|g" "$FILE"
-            fi
-          done
-
-          git add .
-          git commit -m "JSON edit AI fix"
-          git push origin HEAD
-
-      - name: Create PR
+      - name: Commit & PR
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh pr create --title "JSON AI fix" --body "Automated fix"
+          git config user.name "ast-agent"
+          git config user.email "ai@agent.com"
+
+          git checkout -b ai-fix-${{ github.event.issue.number }}
+
+          git add .
+          git commit -m "AST AI fix"
+
+          git push origin HEAD
+
+          gh pr create --title "AST AI Fix" --body "AST-based auto fix"
