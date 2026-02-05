@@ -28,7 +28,7 @@ jobs:
 
       - name: Install deps
         run: |
-          npm install ts-morph
+          npm install ts-morph --legacy-peer-deps  
 
       - name: Generate AST edits
         env:
