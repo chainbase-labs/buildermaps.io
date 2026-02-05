@@ -74,7 +74,7 @@ jobs:
           Respond in a structured format that can be used directly in a GitHub comment."
 
           # Call GitHub Models API
-          RESPONSE=$(curl -s -X POST "https://models.github.ai/inference" \
+          RESPONSE=$(curl -s -X POST "https://models.github.ai/inference/chat/completions" \
             -H "Content-Type: application/json" \
             -H "Authorization: Bearer $GITHUB_TOKEN" \
             -d "{
