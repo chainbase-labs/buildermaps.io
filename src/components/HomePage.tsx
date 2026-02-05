@@ -158,23 +158,7 @@ export function HomePage({ categories, onCategoryClick }: HomePageProps) {
           </div>
         </section>
 
-        <section className="mt-16">
-          <h2 className="mb-6 border-b border-gray-200 pb-2 text-2xl linux-libertine-bold">
-            Contributing
-          </h2>
-          <div className="space-y-5 text-gray-800">
-            <p>
-              BuilderMaps.io is an <strong>open-source project</strong> and welcomes contributions from the community. You can contribute by:
-            </p>
-            <ul className="list-disc list-inside space-y-2 ml-2">
-              <li>Submitting new projects for inclusion in the landscape</li>
-              <li>Updating project information and verifying accuracy</li>
-              <li>Suggesting new categories or subcategories</li>
-              <li>Contributing code improvements via GitHub</li>
-              <li>Supporting the project through grants</li>
-            </ul>
-          </div>
-        </section>
+
       </div>
 
     </div>
