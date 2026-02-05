@@ -1,4 +1,4 @@
-name: AST AI Agent
+name: AST Loop AI Agent
 
 permissions:
   contents: write
@@ -10,7 +10,7 @@ on:
     types: [opened, labeled]
 
 jobs:
-  ast-agent:
+  ast-loop:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,63 +27,81 @@ jobs:
         if: steps.check.outputs.trigger == 'true'
 
       - name: Install deps
-        run: |
-          npm install ts-morph --legacy-peer-deps  
+        run: npm install ts-morph
 
-      - name: Generate AST edits
+      - name: Setup git
+        run: |
+          git config user.name "ast-loop-agent"
+          git config user.email "ai@agent.com"
+
+      - name: AI loop
         env:
           ISSUE_BODY: ${{ github.event.issue.body }}
           ISSUE_TITLE: ${{ github.event.issue.title }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
 
-          PROMPT="Return JSON AST actions only.
+          git checkout -b ai-fix-${{ github.event.issue.number }}
 
-          Example:
+          ERROR=""
 
-          [
-          {
-            \"action\":\"add_import\",
-            \"file\":\"src/App.tsx\",
-            \"import\":\"useEffect\",
-            \"from\":\"react\"
-          }
-          ]
+          for i in 1 2 3; do
 
-          Issue:
-          $ISSUE_TITLE
-          $ISSUE_BODY
-          "
+            echo "===== LOOP $i ====="
 
-          BODY=$(jq -n --arg content "$PROMPT" '{
-            model:"openai/gpt-5",
-            messages:[{role:"user",content:$content}]
-          }')
+            PROMPT="Return JSON AST edits.
 
-          RESPONSE=$(echo "$BODY" | curl -s \
-            https://models.github.ai/inference/chat/completions \
-            -H "Authorization: Bearer $GITHUB_TOKEN" \
-            -H "Content-Type: application/json" \
-            -d @-)
+            Issue:
+            $ISSUE_TITLE
+            $ISSUE_BODY
 
-          echo "$RESPONSE" | jq -r '.choices[0].message.content[0].text' > ast.json
+            Last error:
+            $ERROR
 
-      - name: Apply AST edits
-        run: |
-          node scripts/apply-ast.js
+            Format:
+            [
+              {\"action\":\"add_import\",\"file\":\"src/App.tsx\",\"import\":\"useEffect\",\"from\":\"react\"}
+            ]"
+
+            BODY=$(jq -n --arg content "$PROMPT" '{
+              model:"openai/gpt-5",
+              messages:[{role:"user",content:$content}]
+            }')
+
+            RESPONSE=$(echo "$BODY" | curl -s \
+              https://models.github.ai/inference/chat/completions \
+              -H "Authorization: Bearer $GITHUB_TOKEN" \
+              -H "Content-Type: application/json" \
+              -d @-)
+
+            RAW=$(echo "$RESPONSE" | jq -r '
+              .choices[0].message.content
+              | if type=="string" then .
+                else map(.text) | join("")
+                end
+            ')
+
+            RAW=$(echo "$RAW" | sed 's/```json//g' | sed 's/```//g')
+
+            echo "$RAW" > ast.json
+
+            node scripts/apply-ast.js || true
+
+            npm run build || ERROR=$(npm run build 2>&1)
+
+            if [ -z "$ERROR" ]; then
+              echo "Build success"
+              break
+            fi
+
+          done
 
       - name: Commit & PR
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config user.name "ast-agent"
-          git config user.email "ai@agent.com"
-
-          git checkout -b ai-fix-${{ github.event.issue.number }}
-
           git add .
-          git commit -m "AST AI fix"
-
+          git commit -m "AST loop AI fix" || echo "No changes"
           git push origin HEAD
 
-          gh pr create --title "AST AI Fix" --body "AST-based auto fix"
+          gh pr create --title "AST Loop AI Fix" --body "Self-healing AST agent"
