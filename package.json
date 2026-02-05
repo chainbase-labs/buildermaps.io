@@ -108,6 +108,7 @@
     "single-spa": "^5.9.3",
     "single-spa-react": "^6.0.2",
     "tailwind-merge": "^2.6.0",
+    "ts-morph": "^27.0.2",
     "urlcat": "^3.1.0",
     "zustand": "^5.0.5"
   },
