@@ -1,75 +1,118 @@
-name: Assign to Copilot with Verification
+name: Repo Aware AI Agent
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
 
 on:
   issues:
-    types: [labeled]
+    types: [opened, labeled]
 
 jobs:
-  assign-to-copilot:
+  repo-agent:
     runs-on: ubuntu-latest
-    if: contains(github.event.issue.labels.*.name, 'bug-fix')
-    
+
     steps:
-      - name: Assign and verify Copilot
-        uses: actions/github-script@v7
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const issue_number = context.issue.number;
-            const owner = context.repo.owner;
-            const repo = context.repo.repo;
-            
-            try {
-              // Try to assign to Copilot
-              await github.rest.issues.addAssignees({
-                owner,
-                repo,
-                issue_number,
-                assignees: ['copilot']
-              });
-              
-              console.log('✅ Assignment request sent');
-              
-              // Wait and verify
-              await new Promise(resolve => setTimeout(resolve, 3000));
-              
-              const { data: updatedIssue } = await github.rest.issues.get({
-                owner,
-                repo,
-                issue_number
-              });
-              
-              const isCopilotAssigned = updatedIssue.assignees.some(a => a.login === 'copilot');
-              
-              if (isCopilotAssigned) {
-                console.log('✅ Copilot successfully assigned!');
-                await github.rest.issues.createComment({
-                  owner,
-                  repo,
-                  issue_number,
-                  body: '✅ Copilot has been assigned and will create a PR shortly.'
-                });
-              } else {
-                console.log('❌ Copilot assignment failed - feature may not be enabled');
-                await github.rest.issues.createComment({
-                  owner,
-                  repo,
-                  issue_number,
-                  body: '⚠️ Failed to assign to Copilot. Please check:\n\n' +
-                        '1. Copilot coding agent is enabled for this repository\n' +
-                        '2. You have a valid Copilot Pro/Business/Enterprise subscription\n' +
-                        '3. See: https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-for-organization/add-copilot-coding-agent'
-                });
-                core.setFailed('Copilot assignment verification failed');
-              }
-              
-            } catch (error) {
-              console.error('❌ Error:', error.message);
-              await github.rest.issues.createComment({
-                owner,
-                repo,
-                issue_number,
-                body: `❌ Error assigning to Copilot: ${error.message}\n\nPlease enable Copilot coding agent for this repository.`
-              });
-              throw error;
-            }
+
+      - name: Check label
+        id: check
+        run: |
+          LABELS='${{ toJson(github.event.issue.labels) }}'
+          if echo "$LABELS" | grep -q "bug-fixing"; then
+            echo "trigger=true" >> $GITHUB_OUTPUT
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.check.outputs.trigger == 'true'
+
+      - name: Install ripgrep
+        run: sudo apt-get install ripgrep -y
+
+      - name: Planner (decide search query)
+        if: steps.check.outputs.trigger == 'true'
+        id: planner
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+
+          PROMPT="Return ONE search keyword only.
+
+          Issue:
+          $ISSUE_TITLE
+          $ISSUE_BODY"
+
+          BODY=$(jq -n --arg content "$PROMPT" '{
+            model:"openai/gpt-5",
+            messages:[{role:"user",content:$content}]
+          }')
+
+          RESPONSE=$(echo "$BODY" | curl -s \
+            https://models.github.ai/inference/chat/completions \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d @-)
+
+          QUERY=$(echo "$RESPONSE" | jq -r '.choices[0].message.content[0].text')
+
+          echo "query=$QUERY" >> $GITHUB_OUTPUT
+
+      - name: Search repo
+        id: search
+        run: |
+          rg "${{ steps.planner.outputs.query }}" -l | head -n 10 > files.txt
+
+      - name: Load context
+        run: |
+          CONTEXT=""
+          for f in $(cat files.txt); do
+            CONTEXT="$CONTEXT\nFILE:$f\n$(cat $f)"
+          done
+          echo "$CONTEXT" > context.txt
+
+      - name: Generate patch
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+
+          CODE=$(cat context.txt)
+
+          PROMPT="Return ONLY unified diff.
+
+          Issue:
+          $ISSUE_TITLE
+          $ISSUE_BODY
+
+          Code:
+          $CODE"
+
+          BODY=$(jq -n --arg content "$PROMPT" '{
+            model:"openai/gpt-4o-mini",
+            messages:[{role:"user",content:$content}]
+          }')
+
+          RESPONSE=$(echo "$BODY" | curl -s \
+            https://models.github.ai/inference/chat/completions \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d @-)
+
+          echo "$RESPONSE" | jq -r '.choices[0].message.content[0].text' > fix.diff
+
+      - name: Apply patch
+        run: |
+          git checkout -b ai-fix-${{ github.event.issue.number }}
+          git apply fix.diff
+          git add .
+          git commit -m "Repo-aware AI fix"
+          git push origin HEAD
+
+      - name: Create PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr create --title "Repo-aware AI fix" --body "Auto fix"
