@@ -27,7 +27,7 @@ jobs:
         if: steps.check.outputs.trigger == 'true'
 
       - name: Install deps
-        run: npm install ts-morph
+        run: npm install ts-morph --legacy-peer-deps  
 
       - name: Setup git
         run: |
