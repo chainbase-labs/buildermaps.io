@@ -1,8 +1,8 @@
-name: Auto-assign to Copilot with checks
+name: Assign to Copilot with Verification
 
 on:
   issues:
-    types: [labeled, opened]
+    types: [labeled]
 
 jobs:
   assign-to-copilot:
@@ -10,7 +10,7 @@ jobs:
     if: contains(github.event.issue.labels.*.name, 'bug-fix')
     
     steps:
-      - name: Check and assign Copilot
+      - name: Assign and verify Copilot
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -19,30 +19,8 @@ jobs:
             const owner = context.repo.owner;
             const repo = context.repo.repo;
             
-            // Get current issue details
-            const { data: issue } = await github.rest.issues.get({
-              owner,
-              repo,
-              issue_number
-            });
-            
-            // Check if Copilot is already assigned
-            const assignees = issue.assignees.map(a => a.login);
-            const isCopilotAssigned = assignees.includes('copilot');
-            
-            console.log(`Current assignees: ${assignees.join(', ')}`);
-            console.log(`Is Copilot assigned: ${isCopilotAssigned}`);
-            
-            if (isCopilotAssigned) {
-              console.log('✅ Copilot is already assigned to this issue');
-              await github.rest.issues.createComment({
-                owner,
-                repo,
-                issue_number,
-                body: '✅ Copilot is already working on this issue.'
-              });
-            } else {
-              console.log('➕ Assigning issue to Copilot...');
+            try {
+              // Try to assign to Copilot
               await github.rest.issues.addAssignees({
                 owner,
                 repo,
@@ -50,12 +28,48 @@ jobs:
                 assignees: ['copilot']
               });
               
+              console.log('✅ Assignment request sent');
+              
+              // Wait and verify
+              await new Promise(resolve => setTimeout(resolve, 3000));
+              
+              const { data: updatedIssue } = await github.rest.issues.get({
+                owner,
+                repo,
+                issue_number
+              });
+              
+              const isCopilotAssigned = updatedIssue.assignees.some(a => a.login === 'copilot');
+              
+              if (isCopilotAssigned) {
+                console.log('✅ Copilot successfully assigned!');
+                await github.rest.issues.createComment({
+                  owner,
+                  repo,
+                  issue_number,
+                  body: '✅ Copilot has been assigned and will create a PR shortly.'
+                });
+              } else {
+                console.log('❌ Copilot assignment failed - feature may not be enabled');
+                await github.rest.issues.createComment({
+                  owner,
+                  repo,
+                  issue_number,
+                  body: '⚠️ Failed to assign to Copilot. Please check:\n\n' +
+                        '1. Copilot coding agent is enabled for this repository\n' +
+                        '2. You have a valid Copilot Pro/Business/Enterprise subscription\n' +
+                        '3. See: https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-for-organization/add-copilot-coding-agent'
+                });
+                core.setFailed('Copilot assignment verification failed');
+              }
+              
+            } catch (error) {
+              console.error('❌ Error:', error.message);
               await github.rest.issues.createComment({
                 owner,
                 repo,
                 issue_number,
-                body: '🤖 This issue has been automatically assigned to Copilot for resolution.'
+                body: `❌ Error assigning to Copilot: ${error.message}\n\nPlease enable Copilot coding agent for this repository.`
               });
-              
-              console.log('✅ Successfully assigned to Copilot');
+              throw error;
             }
