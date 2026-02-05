@@ -1,4 +1,4 @@
-name: Repo Aware AI Agent
+name: JSON Edit AI Agent
 
 permissions:
   contents: write
@@ -10,7 +10,7 @@ on:
     types: [opened, labeled]
 
 jobs:
-  repo-agent:
+  json-agent:
     runs-on: ubuntu-latest
 
     steps:
@@ -26,23 +26,39 @@ jobs:
       - uses: actions/checkout@v4
         if: steps.check.outputs.trigger == 'true'
 
-      - name: Install ripgrep
-        run: sudo apt-get install ripgrep -y
+      - name: Setup git
+        run: |
+          git config user.name "json-ai-agent"
+          git config user.email "ai@agent.com"
 
-      - name: Planner (decide search query)
-        if: steps.check.outputs.trigger == 'true'
-        id: planner
+      - name: Generate JSON edits
         env:
           ISSUE_BODY: ${{ github.event.issue.body }}
           ISSUE_TITLE: ${{ github.event.issue.title }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
 
-          PROMPT="Return ONE search keyword only.
+          FILE_TREE=$(git ls-files | head -n 200)
+
+          PROMPT="Return ONLY JSON array.
 
           Issue:
           $ISSUE_TITLE
-          $ISSUE_BODY"
+          $ISSUE_BODY
+
+          Files:
+          $FILE_TREE
+
+          Format:
+
+          [
+            {
+              \"file\":\"path\",
+              \"search\":\"exact old code\",
+              \"replace\":\"new code\"
+            }
+          ]
+          "
 
           BODY=$(jq -n --arg content "$PROMPT" '{
             model:"openai/gpt-5",
@@ -55,64 +71,33 @@ jobs:
             -H "Content-Type: application/json" \
             -d @-)
 
-          QUERY=$(echo "$RESPONSE" | jq -r '.choices[0].message.content[0].text')
+          echo "$RESPONSE"
 
-          echo "query=$QUERY" >> $GITHUB_OUTPUT
+          echo "$RESPONSE" | jq -r '.choices[0].message.content[0].text' > edits.json
 
-      - name: Search repo
-        id: search
-        run: |
-          rg "${{ steps.planner.outputs.query }}" -l | head -n 10 > files.txt
-
-      - name: Load context
-        run: |
-          CONTEXT=""
-          for f in $(cat files.txt); do
-            CONTEXT="$CONTEXT\nFILE:$f\n$(cat $f)"
-          done
-          echo "$CONTEXT" > context.txt
-
-      - name: Generate patch
-        env:
-          ISSUE_BODY: ${{ github.event.issue.body }}
-          ISSUE_TITLE: ${{ github.event.issue.title }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Apply JSON edits
         run: |
 
-          CODE=$(cat context.txt)
-
-          PROMPT="Return ONLY unified diff.
-
-          Issue:
-          $ISSUE_TITLE
-          $ISSUE_BODY
-
-          Code:
-          $CODE"
-
-          BODY=$(jq -n --arg content "$PROMPT" '{
-            model:"openai/gpt-4o-mini",
-            messages:[{role:"user",content:$content}]
-          }')
-
-          RESPONSE=$(echo "$BODY" | curl -s \
-            https://models.github.ai/inference/chat/completions \
-            -H "Authorization: Bearer $GITHUB_TOKEN" \
-            -H "Content-Type: application/json" \
-            -d @-)
-
-          echo "$RESPONSE" | jq -r '.choices[0].message.content[0].text' > fix.diff
-
-      - name: Apply patch
-        run: |
           git checkout -b ai-fix-${{ github.event.issue.number }}
-          git apply fix.diff
+
+          jq -c '.[]' edits.json | while read edit; do
+
+            FILE=$(echo "$edit" | jq -r '.file')
+            SEARCH=$(echo "$edit" | jq -r '.search')
+            REPLACE=$(echo "$edit" | jq -r '.replace')
+
+            if [ -f "$FILE" ]; then
+              echo "Editing $FILE"
+              sed -i "s|$SEARCH|$REPLACE|g" "$FILE"
+            fi
+          done
+
           git add .
-          git commit -m "Repo-aware AI fix"
+          git commit -m "JSON edit AI fix"
           git push origin HEAD
 
       - name: Create PR
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh pr create --title "Repo-aware AI fix" --body "Auto fix"
+          gh pr create --title "JSON AI fix" --body "Automated fix"
