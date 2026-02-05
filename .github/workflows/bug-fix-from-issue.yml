@@ -1,4 +1,4 @@
-name: Auto-assign bug issues to Copilot
+name: Auto-assign to Copilot using CLI
 
 on:
   issues:
@@ -10,14 +10,10 @@ jobs:
     if: github.event.label.name == 'bug-fixing'
     
     steps:
-      - name: Assign issue to Copilot
-        uses: actions/github-script@v7
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            await github.rest.issues.addAssignees({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              assignees: ['copilot']
-            });
+      - name: Assign to Copilot
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue edit ${{ github.event.issue.number }} \
+            --repo ${{ github.repository }} \
+            --add-assignee copilot
