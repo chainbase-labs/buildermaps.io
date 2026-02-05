@@ -1,0 +1,38 @@
+name: Auto Copilot Agent
+
+permissions:
+  issues: write
+  contents: write
+  pull-requests: write
+
+on:
+  issues:
+    types: [opened, labeled]
+
+jobs:
+  trigger-agent:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Check for bug-fixing label
+        id: check
+        run: |
+          LABELS='${{ toJson(github.event.issue.labels) }}'
+
+          if echo "$LABELS" | grep -q "bug-fixing"; then
+            echo "trigger=true" >> $GITHUB_OUTPUT
+          else
+            echo "trigger=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Trigger Copilot Agent
+        if: steps.check.outputs.trigger == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          echo "Triggering Copilot agent..."
+
+          gh issue comment $ISSUE_NUMBER \
+            --body "@copilot please read this issue and automatically fix the bug. Modify the codebase and create a PR."
