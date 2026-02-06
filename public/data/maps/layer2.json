@@ -1,0 +1,13 @@
+{
+  "sector": "Layer2",
+  "types": [
+    {
+      "id": "rollup",
+      "name": "Rollup",
+      "projects": [
+        "arbitrum",
+        "optimism"
+      ]
+    }
+  ]
+}
