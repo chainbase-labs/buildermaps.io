@@ -61,7 +61,7 @@ jobs:
           "
 
           BODY=$(jq -n --arg content "$PROMPT" '{
-            model:"claude-4-5-opus",
+            model:"anthropic/claude-4.5-opus",
             messages:[{role:"user",content:$content}]
           }')
 
