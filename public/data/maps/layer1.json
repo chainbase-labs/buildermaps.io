@@ -1,0 +1,13 @@
+{
+  "sector": "Layer1",
+  "types": [
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "projects": [
+        "ethereum",
+        "solana"
+      ]
+    }
+  ]
+}

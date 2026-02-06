@@ -1,0 +1,11 @@
+{
+  "id": "aave",
+  "name": "Aave",
+  "description": "DeFi lending protocol for supplying and borrowing crypto assets.",
+  "links": {
+    "homepage": "https://aave.com",
+    "twitter": "https://x.com/AaveAave",
+    "github": "https://github.com/aave",
+    "logo": "/imgs/DeFi/Lending/aave.png"
+  }
+}
