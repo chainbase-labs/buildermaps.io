@@ -1,4 +1,4 @@
-name: AST Loop AI Agent
+name: Claude GitHub Models Agent
 
 permissions:
   contents: write
@@ -10,12 +10,12 @@ on:
     types: [opened, labeled]
 
 jobs:
-  ast-loop:
+  claude-agent:
     runs-on: ubuntu-latest
 
     steps:
 
-      - name: Check label
+      - name: Check bug label
         id: check
         run: |
           LABELS='${{ toJson(github.event.issue.labels) }}'
@@ -26,82 +26,69 @@ jobs:
       - uses: actions/checkout@v4
         if: steps.check.outputs.trigger == 'true'
 
-      - name: Install deps
-        run: npm install ts-morph --legacy-peer-deps  
-
       - name: Setup git
         run: |
-          git config user.name "ast-loop-agent"
+          git config user.name "claude-agent"
           git config user.email "ai@agent.com"
 
-      - name: AI loop
+      - name: Generate fix via Claude (GitHub Models)
         env:
           ISSUE_BODY: ${{ github.event.issue.body }}
           ISSUE_TITLE: ${{ github.event.issue.title }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
 
-          git checkout -b ai-fix-${{ github.event.issue.number }}-run-${{ github.run_id }}
+          PROMPT="You are an autonomous coding agent.
 
-          ERROR=""
+          Read repository files.
 
-          for i in 1 2 3; do
+          Fix the bug described below.
 
-            echo "===== LOOP $i ====="
+          Modify code directly.
 
-            PROMPT="Return JSON AST edits.
+          Issue:
+          $ISSUE_TITLE
 
-            Issue:
-            $ISSUE_TITLE
-            $ISSUE_BODY
+          $ISSUE_BODY
+          "
 
-            Last error:
-            $ERROR
+          BODY=$(jq -n --arg content "$PROMPT" '{
+            model:"anthropic/claude-3.5-sonnet",
+            messages:[{role:"user",content:$content}]
+          }')
 
-            Format:
-            [
-              {\"action\":\"add_import\",\"file\":\"src/App.tsx\",\"import\":\"useEffect\",\"from\":\"react\"}
-            ]"
+          RESPONSE=$(echo "$BODY" | curl -s \
+            https://models.github.ai/inference/chat/completions \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d @-)
 
-            BODY=$(jq -n --arg content "$PROMPT" '{
-              model:"openai/gpt-5",
-              messages:[{role:"user",content:$content}]
-            }')
+          echo "$RESPONSE"
 
-            RESPONSE=$(echo "$BODY" | curl -s \
-              https://models.github.ai/inference/chat/completions \
-              -H "Authorization: Bearer $GITHUB_TOKEN" \
-              -H "Content-Type: application/json" \
-              -d @-)
+          RESULT=$(echo "$RESPONSE" | jq -r '
+            .choices[0].message.content
+            | if type=="string" then .
+              else map(.text) | join("")
+              end
+          ')
 
-            RAW=$(echo "$RESPONSE" | jq -r '
-              .choices[0].message.content
-              | if type=="string" then .
-                else map(.text) | join("")
-                end
-            ')
+          echo "$RESULT" > ai-output.txt
 
-            RAW=$(echo "$RAW" | sed 's/```json//g' | sed 's/```//g')
+      - name: Apply changes
+        run: |
+          git checkout -b claude-fix-${{ github.run_id }}
 
-            echo "$RAW" > ast.json
+          # example: let AI output shell commands
+          bash ai-output.txt || true
 
-            node scripts/apply-ast.js || true
-
-            npm run build || ERROR=$(npm run build 2>&1)
-
-            if [ -z "$ERROR" ]; then
-              echo "Build success"
-              break
-            fi
-
-          done
-
-      - name: Commit & PR
+      - name: Commit and PR
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git add .
-          git commit -m "AST loop AI fix" || echo "No changes"
+          git commit -m "Claude GitHub Models auto fix" || echo "No changes"
           git push origin HEAD
 
-          gh pr create --title "AST Loop AI Fix" --body "Self-healing AST agent"
+          gh pr create \
+            --title "Claude auto fix" \
+            --body "Generated via GitHub Models Claude"
