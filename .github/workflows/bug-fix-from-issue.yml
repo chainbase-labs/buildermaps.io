@@ -23,6 +23,18 @@ jobs:
             echo "trigger=true" >> $GITHUB_OUTPUT
           fi
 
+      - name: List available GitHub Models
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+
+          echo "===== Available GitHub Models ====="
+
+          curl -s https://models.github.ai/inference/models \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            -H "Content-Type: application/json" \
+            | jq .
+
       - uses: actions/checkout@v4
         if: steps.check.outputs.trigger == 'true'
 
@@ -53,7 +65,7 @@ jobs:
           "
 
           BODY=$(jq -n --arg content "$PROMPT" '{
-            model:"anthropic/claude-3.5-sonnet",
+            model:"anthropic/claude-4.5-sonnet",
             messages:[{role:"user",content:$content}]
           }')
 
