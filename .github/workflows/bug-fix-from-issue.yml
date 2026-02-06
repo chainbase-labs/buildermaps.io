@@ -71,12 +71,12 @@ jobs:
             -H "Content-Type: application/json" \
             -d @-)
 
-          echo "$RESPONSE"
+          echo "RESPONSE:$RESPONSE"
 
           RESULT=$(echo "$RESPONSE" | jq -r '
             .choices[0].message.content
             | if type=="string" then .
-              else map(.text) | join("")
+              else (.[]? | select(.type=="output_text") | .text)
               end
           ')
 
