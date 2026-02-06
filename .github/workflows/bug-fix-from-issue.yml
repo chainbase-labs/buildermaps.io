@@ -23,13 +23,13 @@ jobs:
             echo "trigger=true" >> $GITHUB_OUTPUT
           fi
 
-      - name: Check models
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          curl -s https://models.github.ai/inference/models \
-            -H "Authorization: Bearer $GITHUB_TOKEN" \
-            | jq '.data[].id'
+      # - name: Check models
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   run: |
+      #     curl -s https://models.github.ai/inference/models \
+      #       -H "Authorization: Bearer $GITHUB_TOKEN" \
+      #       | jq .
 
       - uses: actions/checkout@v4
         if: steps.check.outputs.trigger == 'true'
@@ -61,7 +61,7 @@ jobs:
           "
 
           BODY=$(jq -n --arg content "$PROMPT" '{
-            model:"anthropic/claude-opus-4",
+            model:"claude-4-5-opus",
             messages:[{role:"user",content:$content}]
           }')
 
