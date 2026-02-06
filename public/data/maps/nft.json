@@ -1,0 +1,13 @@
+{
+  "sector": "NFT",
+  "types": [
+    {
+      "id": "marketplace",
+      "name": "Marketplace",
+      "projects": [
+        "blur",
+        "opensea"
+      ]
+    }
+  ]
+}
