@@ -30,7 +30,7 @@ jobs:
 
           echo "===== Available GitHub Models ====="
 
-          curl -s https://models.github.ai/inference/models \
+          curl -s https://models.github.ai/models \
             -H "Authorization: Bearer $GITHUB_TOKEN" \
             -H "Content-Type: application/json" \
             | jq .
