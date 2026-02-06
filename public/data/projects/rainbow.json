@@ -1,0 +1,10 @@
+{
+  "id": "rainbow",
+  "name": "Rainbow",
+  "description": "Mobile-first Ethereum wallet with NFT and DeFi support.",
+  "links": {
+    "homepage": "https://rainbow.me",
+    "twitter": "https://x.com/rainbowdotme",
+    "github": "https://github.com/rainbow-me"
+  }
+}
