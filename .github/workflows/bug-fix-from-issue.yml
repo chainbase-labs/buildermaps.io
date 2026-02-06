@@ -23,6 +23,14 @@ jobs:
             echo "trigger=true" >> $GITHUB_OUTPUT
           fi
 
+      - name: Check models
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -s https://models.github.ai/inference/models \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            | jq '.data[].id'
+
       - uses: actions/checkout@v4
         if: steps.check.outputs.trigger == 'true'
 
