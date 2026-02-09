@@ -1,0 +1,19 @@
+{
+  "sector": "DeFi",
+  "types": [
+    {
+      "id": "dex",
+      "name": "DEX",
+      "projects": [
+        "uniswap"
+      ]
+    },
+    {
+      "id": "lending",
+      "name": "Lending",
+      "projects": [
+        "aave"
+      ]
+    }
+  ]
+}
