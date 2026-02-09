@@ -1,0 +1,11 @@
+{
+  "id": "optimism",
+  "name": "Optimism",
+  "description": "Ethereum Layer 2 optimistic rollup focused on public goods.",
+  "links": {
+    "homepage": "https://optimism.io",
+    "twitter": "https://x.com/Optimism",
+    "github": "https://github.com/ethereum-optimism",
+    "logo": "/imgs/Layer2/Rollup/optimism.png"
+  }
+}
