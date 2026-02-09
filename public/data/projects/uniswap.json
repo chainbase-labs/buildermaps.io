@@ -1,0 +1,11 @@
+{
+  "id": "uniswap",
+  "name": "Uniswap",
+  "description": "Decentralized exchange protocol for automated token swaps.",
+  "links": {
+    "homepage": "https://uniswap.org",
+    "twitter": "https://x.com/Uniswap",
+    "github": "https://github.com/Uniswap",
+    "logo": "/imgs/DeFi/DEX/uniswap.png"
+  }
+}

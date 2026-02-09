@@ -1,0 +1,19 @@
+{
+  "sector": "Infrastructure",
+  "types": [
+    {
+      "id": "oracle",
+      "name": "Oracle",
+      "projects": [
+        "chainlink"
+      ]
+    },
+    {
+      "id": "indexing",
+      "name": "Indexing",
+      "projects": [
+        "the-graph"
+      ]
+    }
+  ]
+}

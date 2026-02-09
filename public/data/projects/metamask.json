@@ -1,0 +1,11 @@
+{
+  "id": "metamask",
+  "name": "MetaMask",
+  "description": "Self-custodial wallet for interacting with Ethereum and Web3.",
+  "links": {
+    "homepage": "https://metamask.io",
+    "twitter": "https://x.com/MetaMask",
+    "github": "https://github.com/MetaMask",
+    "logo": "/imgs/Wallet/EOA/metamask.png"
+  }
+}
