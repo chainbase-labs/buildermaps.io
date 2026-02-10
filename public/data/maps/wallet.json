@@ -1,0 +1,13 @@
+{
+  "sector": "Wallet",
+  "types": [
+    {
+      "id": "eoa",
+      "name": "EOA",
+      "projects": [
+        "metamask",
+        "rainbow"
+      ]
+    }
+  ]
+}
