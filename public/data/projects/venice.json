@@ -1,11 +1,11 @@
 {
   "id": "venice",
   "name": "Venice",
-  "description": "Try Venice.ai for free. Generate text, images, characters and video using private and unbiased AI.",
+  "description": "VPN/privacy layer for AI models – anonymized inference and cost reduction.",
   "location": "",
   "links": {
-    "logo": "/imgs/Base/AIAgent/venice.png",
-    "homepage": "https://venice.ai/",
+    "logo": "/imgs/OpenClaw/Compute&Data/venice.png",
+    "homepage": "https://askvenice.ai/",
     "twitter": "https://x.com/AskVenice",
     "github": ""
   }

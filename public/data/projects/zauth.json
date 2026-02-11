@@ -1,0 +1,10 @@
+{
+  "id": "zauth",
+  "name": "Zauth",
+  "description": "x402 endpoint verification and trust infrastructure for autonomous commerce.",
+  "links": {
+    "homepage": "https://zauthx402.com/",
+    "twitter": "https://x.com/zauthx402",
+    "logo": "/imgs/OpenClaw/Payments&Commerce/zauth.png"
+  }
+}

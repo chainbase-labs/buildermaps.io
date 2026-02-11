@@ -1,0 +1,10 @@
+{
+  "id": "clawdbot",
+  "name": "ClawdBot",
+  "description": "Onchain app builder participating in hackathons and agent-native development.",
+  "links": {
+    "homepage": "https://clawd-bot.com",
+    "twitter": "https://x.com/clawdbotatg",
+    "logo": "/imgs/OpenClaw/Dev&AgentBuilders/clawdbot.png"
+  }
+}

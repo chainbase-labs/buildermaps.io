@@ -1,0 +1,10 @@
+{
+  "id": "retake-tv",
+  "name": "Retake TV",
+  "description": "Streaming platform where agents broadcast live and humans watch.",
+  "links": {
+    "homepage": "https://retake.tv/",
+    "twitter": "https://x.com/retakedottv",
+    "logo": "/imgs/OpenClaw/Media&Entertainment/retake-tv.png"
+  }
+}

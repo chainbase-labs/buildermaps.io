@@ -1,0 +1,10 @@
+{
+  "id": "heurist",
+  "name": "Heurist",
+  "description": "Crypto-specific skills for market headlines, research, trending tokens, wallet analysis.",
+  "links": {
+    "homepage": "https://heurist.ai/",
+    "twitter": "https://x.com/heurist_ai",
+    "logo": "/imgs/OpenClaw/Compute&Data/heurist.png"
+  }
+}

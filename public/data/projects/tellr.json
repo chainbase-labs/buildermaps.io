@@ -1,0 +1,9 @@
+{
+  "id": "tellr",
+  "name": "Tellr",
+  "description": "Autonomous agent launchpad that auto-tokenizes launches via Bankr integration.",
+  "links": {
+    "twitter": "https://x.com/tellrbot",
+    "logo": "/imgs/OpenClaw/Launchpads/tellr.png"
+  }
+}

@@ -1,10 +1,10 @@
 {
   "id": "wachai",
   "name": "WachAI",
-  "description": "The Verification Protocol for AI Agents",
+  "description": "Mandates for deterministic agent agreements building reputation.",
   "location": "",
   "links": {
-    "logo": "/imgs/ERC-8004/DevelopersTooling/wachai.png",
+    "logo": "/imgs/OpenClaw/Security&Trust/wachai.png",
     "homepage": "https://wach.ai/",
     "twitter": "https://x.com/Wach_AI",
     "github": ""

@@ -1,0 +1,10 @@
+{
+  "id": "claw-direct",
+  "name": "Claw Direct",
+  "description": "Directory of agent experiences and onchain interactions.",
+  "links": {
+    "homepage": "https://clawdirect.com/",
+    "twitter": "https://x.com/davidnoelromas",
+    "logo": "/imgs/OpenClaw/Aggregators&Discovery/claw-direct.png"
+  }
+}
