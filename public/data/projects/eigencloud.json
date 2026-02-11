@@ -1,7 +1,7 @@
 {
   "id": "eigencloud",
   "name": "EigenCloud",
-  "description": "EigenLayer verifiable cloud platform, EigenDA 50MB/s throughput, EigenVerify ZK proofs, EigenCompute orchestration layer",
+  "description": "Verifiable computation with TEE execution and deterministic AI inference.",
   "founded": 2024,
   "funding": null,
   "links": {

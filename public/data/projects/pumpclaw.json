@@ -1,0 +1,10 @@
+{
+  "id": "pumpclaw",
+  "name": "PumpClaw",
+  "description": "Token launchpad with ERC-8004 identity integration for agents.",
+  "links": {
+    "homepage": "https://pumpclaw.com/",
+    "twitter": "https://x.com/clawd800",
+    "logo": "/imgs/OpenClaw/Launchpads/pumpclaw.png"
+  }
+}

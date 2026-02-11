@@ -1,0 +1,9 @@
+{
+  "id": "felix-craft",
+  "name": "Felix Craft",
+  "description": "Hosted agent stack offering text, voice, memory, and tools deployment without complex configuration.",
+  "links": {
+    "twitter": "https://x.com/FelixCraftAI",
+    "logo": "/imgs/OpenClaw/Infrastructure/felix-craft.png"
+  }
+}
