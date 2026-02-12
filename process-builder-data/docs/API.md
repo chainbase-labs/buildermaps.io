@@ -8,15 +8,15 @@ Main function to process a CSV file and generate JSON output.
 
 #### Parameters
 
-| Parameter | Type | Default | Description |
-|-----------|------|---------|-------------|
-| `csv_path` | str | - | Path to input CSV file |
-| `output_dir` | str | - | Path to output directory |
-| `verbose` | bool | False | Enable verbose output |
-| `quiet` | bool | False | Suppress output except errors |
-| `skip_logos` | bool | False | Skip logo downloading |
-| `skip_descriptions` | bool | False | Skip fetching website descriptions when missing (use placeholder instead) |
-| `rate_limit` | float | 0.5 | Delay between requests in seconds |
+| Parameter           | Type  | Default | Description                                                               |
+| ------------------- | ----- | ------- | ------------------------------------------------------------------------- |
+| `csv_path`          | str   | -       | Path to input CSV file                                                    |
+| `output_dir`        | str   | -       | Path to output directory                                                  |
+| `verbose`           | bool  | False   | Enable verbose output                                                     |
+| `quiet`             | bool  | False   | Suppress output except errors                                             |
+| `skip_logos`        | bool  | False   | Skip logo downloading                                                     |
+| `skip_descriptions` | bool  | False   | Skip fetching website descriptions when missing (use placeholder instead) |
+| `rate_limit`        | float | 0.5     | Delay between requests in seconds                                         |
 
 #### Returns
 
@@ -41,9 +41,9 @@ Convert text to slug format (kebab-case).
 
 #### Parameters
 
-| Parameter | Type | Description |
-|-----------|------|-------------|
-| `text` | str | Text to convert |
+| Parameter | Type | Description     |
+| --------- | ---- | --------------- |
+| `text`    | str  | Text to convert |
 
 #### Returns
 
@@ -63,11 +63,11 @@ Download Twitter/X avatar using unavatar API.
 
 #### Parameters
 
-| Parameter | Type | Description |
-|-----------|------|-------------|
-| `twitter_url` | str | Twitter/X profile URL |
-| `save_path` | str | Path to save the logo |
-| `verbose` | bool | Enable verbose output |
+| Parameter     | Type | Description           |
+| ------------- | ---- | --------------------- |
+| `twitter_url` | str  | Twitter/X profile URL |
+| `save_path`   | str  | Path to save the logo |
+| `verbose`     | bool | Enable verbose output |
 
 #### Returns
 
@@ -79,9 +79,9 @@ Fetch description from website meta tags.
 
 #### Parameters
 
-| Parameter | Type | Description |
-|-----------|------|-------------|
-| `url` | str | Website URL |
+| Parameter | Type | Description           |
+| --------- | ---- | --------------------- |
+| `url`     | str  | Website URL           |
 | `verbose` | bool | Enable verbose output |
 
 #### Returns

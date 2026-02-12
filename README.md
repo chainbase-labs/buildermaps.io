@@ -25,14 +25,17 @@ To develop and test BuilderMaps locally:
 1. **Visit the testnet environment**: Open [https://net-static-dev.chainbasehq.com/buildermaps](https://net-static-dev.chainbasehq.com/buildermaps) in your browser
 
 2. **Install dependencies**:
+
    ```bash
    npm install --legacy-peer-deps
    ```
 
 3. **Start the development server**:
+
    ```bash
    npm start
    ```
+
    This will start a local development server at `http://localhost:8080/`
 
 4. **Configure the browser to use your local build**:
@@ -43,9 +46,8 @@ To develop and test BuilderMaps locally:
      - **Key**: `import-map-override:@chainbase-labs/buildermaps-io`
      - **Value**: `http://localhost:8080/chainbase-labs-buildermaps-io.js`
    - Refresh the page to load your local changes
-  
-<img width="1402" height="415" alt="image" src="https://github.com/user-attachments/assets/a907fd80-6a1b-43a4-aa68-cf1cf46cc68b" />
 
+<img width="1402" height="415" alt="image" src="https://github.com/user-attachments/assets/a907fd80-6a1b-43a4-aa68-cf1cf46cc68b" />
 
 Now you can make changes to the codebase and see them reflected in the testnet environment by reloading the page.
 
@@ -58,6 +60,7 @@ BuilderMaps uses a split data structure for better maintainability:
 - **Generated**: `builder-maps.json` is automatically generated in CI from the split data
 
 This structure makes it easier to:
+
 - Add or update individual projects without editing a large file
 - Manage sector/type mappings separately
 - Avoid merge conflicts when multiple contributors work simultaneously
@@ -65,6 +68,7 @@ This structure makes it easier to:
 ## Adding a New Project
 
 To add a new project, you need to:
+
 1. Create a project file in `public/data/projects/`
 2. Add the project to the appropriate map file(s) in `public/data/maps/`
 
@@ -73,6 +77,7 @@ To add a new project, you need to:
 Create a new JSON file in `public/data/projects/` with the project ID as the filename:
 
 **File Location:**
+
 ```
 public/data/projects/project-id.json
 ```
@@ -107,6 +112,7 @@ public/data/projects/project-id.json
 Add the project ID to the appropriate sector map file(s) in `public/data/maps/`. Each map file represents a sector and contains types with their associated projects.
 
 **File Location:**
+
 ```
 public/data/maps/sector-name.json
 ```
@@ -120,17 +126,14 @@ public/data/maps/sector-name.json
     {
       "id": "type-id",
       "name": "Type Name",
-      "projects": [
-        "project-id-1",
-        "project-id-2",
-        "project-id-3"
-      ]
+      "projects": ["project-id-1", "project-id-2", "project-id-3"]
     }
   ]
 }
 ```
 
 **Example Map File** (`public/data/maps/x402.json`):
+
 ```json
 {
   "sector": "x402",
@@ -138,17 +141,12 @@ public/data/maps/sector-name.json
     {
       "id": "consumer-apps",
       "name": "Consumer Apps",
-      "projects": [
-        "example-project",
-        "another-project"
-      ]
+      "projects": ["example-project", "another-project"]
     },
     {
       "id": "infra-devtools",
       "name": "Infra & Devtools",
-      "projects": [
-        "dev-tool-project"
-      ]
+      "projects": ["dev-tool-project"]
     }
   ]
 }
@@ -159,10 +157,12 @@ public/data/maps/sector-name.json
 #### Project File Fields
 
 **Required Fields:**
+
 - **`id`** (string): Unique identifier for the project (must match filename, lowercase kebab-case)
 - **`name`** (string): The official name of the project
 
 **Optional Fields:**
+
 - **`description`** (string): A brief description of what the project does
 - **`founded`** (number | null): The year the project was founded (e.g., 2020). Use `null` if unknown
 - **`funding`** (number | string | null): Total funding amount (e.g., 1000000 or "Series A"). Use `null` if unknown
@@ -192,6 +192,7 @@ public/data/maps/sector-name.json
 #### Example 1: Simple Project
 
 **Project File** (`public/data/projects/example-project.json`):
+
 ```json
 {
   "id": "example-project",
@@ -208,6 +209,7 @@ public/data/maps/sector-name.json
 ```
 
 **Map File Update** (add to `public/data/maps/x402.json`):
+
 ```json
 {
   "sector": "x402",
@@ -215,10 +217,7 @@ public/data/maps/sector-name.json
     {
       "id": "consumer-apps",
       "name": "Consumer Apps",
-      "projects": [
-        "example-project",
-        "other-existing-projects"
-      ]
+      "projects": ["example-project", "other-existing-projects"]
     }
   ]
 }
@@ -229,6 +228,7 @@ public/data/maps/sector-name.json
 A project can belong to multiple sectors by adding its ID to multiple map files.
 
 **Project File** (`public/data/projects/multi-sector-project.json`):
+
 ```json
 {
   "id": "multi-sector-project",
@@ -246,6 +246,7 @@ A project can belong to multiple sectors by adding its ID to multiple map files.
 ```
 
 **Add to `public/data/maps/stablecoins.json`:**
+
 ```json
 {
   "sector": "Stablecoins",
@@ -253,16 +254,14 @@ A project can belong to multiple sectors by adding its ID to multiple map files.
     {
       "id": "infra",
       "name": "Infra",
-      "projects": [
-        "multi-sector-project",
-        "other-projects"
-      ]
+      "projects": ["multi-sector-project", "other-projects"]
     }
   ]
 }
 ```
 
 **Add to `public/data/maps/x402.json`:**
+
 ```json
 {
   "sector": "x402",
@@ -270,10 +269,7 @@ A project can belong to multiple sectors by adding its ID to multiple map files.
     {
       "id": "wallet-payments",
       "name": "Wallet & Payments",
-      "projects": [
-        "multi-sector-project",
-        "other-projects"
-      ]
+      "projects": ["multi-sector-project", "other-projects"]
     }
   ]
 }
@@ -284,6 +280,7 @@ A project can belong to multiple sectors by adding its ID to multiple map files.
 A project can belong to multiple types within the same sector by adding its ID to multiple type arrays:
 
 **Project File** (`public/data/projects/complex-project.json`):
+
 ```json
 {
   "id": "complex-project",
@@ -299,6 +296,7 @@ A project can belong to multiple types within the same sector by adding its ID t
 ```
 
 **Add to `public/data/maps/x402.json` (in multiple types):**
+
 ```json
 {
   "sector": "x402",
@@ -306,18 +304,12 @@ A project can belong to multiple types within the same sector by adding its ID t
     {
       "id": "infra-devtools",
       "name": "Infra & Devtools",
-      "projects": [
-        "complex-project",
-        "other-projects"
-      ]
+      "projects": ["complex-project", "other-projects"]
     },
     {
       "id": "consumer-apps",
       "name": "Consumer Apps",
-      "projects": [
-        "complex-project",
-        "other-projects"
-      ]
+      "projects": ["complex-project", "other-projects"]
     }
   ]
 }
@@ -328,48 +320,55 @@ A project can belong to multiple types within the same sector by adding its ID t
 1. **Fork the repository** on GitHub
 
 2. **Clone your fork** locally:
-   
+
    **Option A: Using Command Line**
+
    ```bash
    git clone https://github.com/YOUR_USERNAME/buildermaps.io.git
    cd buildermaps.io
    ```
-   
+
    **Option B: Using GitHub Desktop**
+
    - Go to your fork's page on GitHub
    - Click the green "Code" button
    - Select "Open with GitHub Desktop"
    - Choose a local path and click "Clone"
 
 3. **Create the project file**:
+
    - Create a new file in `public/data/projects/` with the format `project-id.json`
    - Use lowercase, kebab-case for the project ID (e.g., `my-awesome-project.json`)
    - Copy the structure from an existing project file and modify it
 
 4. **Add project to map file(s)**:
+
    - Open the appropriate map file(s) in `public/data/maps/` (e.g., `x402.json`, `stablecoins.json`)
    - Find the relevant type(s) and add your project ID to the `projects` array
    - If the project belongs to multiple sectors or types, add it to each relevant map file/type
 
 5. **Validate JSON syntax**: Ensure your JSON files are valid. You can use:
+
    - An online JSON validator
    - Your code editor's JSON validation
-   - Command line: 
+   - Command line:
      ```bash
      node -e "JSON.parse(require('fs').readFileSync('public/data/projects/your-project-id.json', 'utf8'))"
      node -e "JSON.parse(require('fs').readFileSync('public/data/maps/sector-name.json', 'utf8'))"
      ```
 
 6. **Commit your changes**:
-   
+
    **Option A: Using Command Line**
+
    ```bash
    git add public/data/projects/your-project-id.json
    git add public/data/maps/sector-name.json
    git commit -m "Add [Project Name] to BuilderMaps"
    ```
-   
+
    **Option B: Using GitHub Desktop**
+
    - Open GitHub Desktop
    - You should see your changes listed in the left sidebar
    - Select the project file and map file(s) to stage them
@@ -377,32 +376,36 @@ A project can belong to multiple types within the same sector by adding its ID t
    - Click "Commit to main" (or your branch name)
 
 7. **Push to your fork**:
-   
+
    **Option A: Using Command Line**
+
    ```bash
    git push origin master
    ```
-   
+
    **Option B: Using GitHub Desktop**
+
    - Click the "Push origin" button in the top toolbar
    - Or go to Repository → Push
 
 8. **Create a Pull Request** on GitHub with:
-    - A clear title describing the addition
-    - A description of the project being added
-    - Any relevant links or context
+   - A clear title describing the addition
+   - A description of the project being added
+   - Any relevant links or context
 
 ### Uploading Logo Images
 
 To upload a project logo image:
 
 1. **Place your logo image** in the `/public/imgs/` directory:
+
    ```bash
    # Example: Save your logo as project-name.jpg in the imgs folder
    # The file should be at: public/imgs/project-name.jpg
    ```
 
 2. **Reference the image** in your project file using a path starting with `/imgs/`:
+
    ```json
    {
      "links": {
@@ -418,7 +421,8 @@ To upload a project logo image:
    git commit -m "Add [Project Name] with logo to BuilderMaps"
    ```
 
-**Note**: 
+**Note**:
+
 - Use common image formats (`.jpg`, `.png`, `.webp`, etc.)
 - Keep file names descriptive and lowercase (e.g., `my-project-logo.jpg`)
 - The path must start with `/imgs/` (not `/public/imgs/`)
@@ -429,12 +433,12 @@ To upload a project logo image:
 1. **Project IDs**: Use lowercase, kebab-case format (e.g., `my-awesome-project`). The ID should be descriptive and match the filename
 2. **Project Names**: Use the official, commonly recognized name of the project
 3. **Descriptions**: Keep descriptions concise (1-2 sentences) and factual
-4. **Sectors & Types**: 
+4. **Sectors & Types**:
    - Use existing sector and type names when possible
    - Check existing map files to see available sectors and types
    - If you need a new category, mention it in your PR description
    - Type IDs should be lowercase kebab-case (e.g., `consumer-apps`)
-5. **Logo Images**: 
+5. **Logo Images**:
    - **Preferred**: Upload logo images to `/public/imgs/` and reference them with `/imgs/filename.jpg` in the project file
    - **Alternative**: Use direct external image URLs (ending in .jpg, .png, etc.) rather than HTML pages
    - Use descriptive, lowercase filenames for uploaded logos
@@ -447,6 +451,7 @@ To upload a project logo image:
 ### Common Sectors
 
 Based on the current data, common sectors include:
+
 - `x402`
 - `Stablecoins`
 - `Public Chain`
@@ -455,6 +460,7 @@ Based on the current data, common sectors include:
 ### Common Types (Subcategories)
 
 Common types vary by sector but include:
+
 - `Infra` / `Infra & Devtools`
 - `Consumer Apps`
 - `Wallet & Payments`
@@ -481,6 +487,7 @@ To update an existing project:
 ## Data Generation
 
 The `builder-maps.json` file is automatically generated during CI/CD from the split data structure:
+
 - Individual project files in `public/data/projects/`
 - Sector map files in `public/data/maps/`
 
@@ -496,6 +503,7 @@ You don't need to manually create or edit `builder-maps.json`. It's generated be
 ## Questions?
 
 If you have questions about contributing:
+
 - Open an issue on GitHub
 - Check existing issues and pull requests for similar questions
 - Review the codebase to understand how data is processed
@@ -507,4 +515,3 @@ This project is open source. Please check the LICENSE file for details.
 ---
 
 **Thank you for contributing to BuilderMaps!** Your contributions help make crypto ecosystem data more accessible and transparent for everyone.
-

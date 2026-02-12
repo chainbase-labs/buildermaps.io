@@ -1,5 +1,12 @@
 import { useMemo } from "react";
-import { Navigate, Route, Routes, useLocation, useNavigate, useParams } from "react-router-dom";
+import {
+  Navigate,
+  Route,
+  Routes,
+  useLocation,
+  useNavigate,
+  useParams,
+} from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 
 import { fetchCategories, type Category } from "./lib/category-utils";
@@ -10,7 +17,11 @@ import "./styles/global.css";
 
 function HomeRoute() {
   const navigate = useNavigate();
-  const { data: categories, isLoading, error } = useQuery({
+  const {
+    data: categories,
+    isLoading,
+    error,
+  } = useQuery({
     queryKey: ["categories"],
     queryFn: fetchCategories,
   });
@@ -26,7 +37,9 @@ function HomeRoute() {
   if (error) {
     return (
       <div className="flex min-h-screen items-center justify-center">
-        <div className="text-red-600">Failed to load data. Please try again later.</div>
+        <div className="text-red-600">
+          Failed to load data. Please try again later.
+        </div>
       </div>
     );
   }
@@ -49,7 +62,11 @@ function HomeRoute() {
 function CategoryRoute() {
   const { categoryId } = useParams();
   const navigate = useNavigate();
-  const { data: categories, isLoading, error } = useQuery({
+  const {
+    data: categories,
+    isLoading,
+    error,
+  } = useQuery({
     queryKey: ["categories"],
     queryFn: fetchCategories,
   });
@@ -70,7 +87,9 @@ function CategoryRoute() {
   if (error) {
     return (
       <div className="flex min-h-screen items-center justify-center">
-        <div className="text-red-600">Failed to load data. Please try again later.</div>
+        <div className="text-red-600">
+          Failed to load data. Please try again later.
+        </div>
       </div>
     );
   }

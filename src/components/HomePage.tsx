@@ -1,6 +1,10 @@
 import { ArrowRight, Github, Plus } from "lucide-react";
 
-import { countCategoryProjects, countTotalProjects, type Category } from "../lib/category-utils";
+import {
+  countCategoryProjects,
+  countTotalProjects,
+  type Category,
+} from "../lib/category-utils";
 import { Button } from "./ui/button";
 import { UserMenu } from "./UserMenu";
 import { useSubmitProjectModal } from "./SubmitProjectModal";
@@ -13,15 +17,15 @@ interface HomePageProps {
 export function HomePage({ categories, onCategoryClick }: HomePageProps) {
   const { setOpen } = useSubmitProjectModal();
   const lastUpdated = process.env.LAST_BUILD_TIME ?? "Unknown";
-  
+
   // Filter out "Uncategorized" category
   const filteredCategories = categories.filter(
-    (category) => category.name.toLowerCase() !== 'uncategorized'
+    (category) => category.name.toLowerCase() !== "uncategorized"
   );
-  
+
   const totalProjects = countTotalProjects(filteredCategories);
   const totalCategories = filteredCategories.length;
-  
+
   // Sort categories by project count (descending)
   const sortedCategories = [...filteredCategories].sort((a, b) => {
     const countA = countCategoryProjects(a);
@@ -46,7 +50,7 @@ export function HomePage({ categories, onCategoryClick }: HomePageProps) {
                   window.open(
                     "https://github.com/chainbase-labs/buildermaps.io",
                     "_blank",
-                    "noopener",
+                    "noopener"
                   );
                 }}
               >
@@ -93,15 +97,30 @@ export function HomePage({ categories, onCategoryClick }: HomePageProps) {
           </h2>
           <div className="space-y-5 leading-relaxed text-gray-800">
             <p className="!mb-4">
-              <strong>BuilderMaps is a public good that maps the crypto landscape.</strong>{' '}
-              Most industry ecosystem maps come from VCs showing their portfolio or media outlets pushing their own content. Data platforms lock things behind paywalls. You see pieces, not the whole picture.
+              <strong>
+                BuilderMaps is a public good that maps the crypto landscape.
+              </strong>{" "}
+              Most industry ecosystem maps come from VCs showing their portfolio
+              or media outlets pushing their own content. Data platforms lock
+              things behind paywalls. You see pieces, not the whole picture.
             </p>
             <p className="!mb-4">
-              <strong>Initiated and sponsored by Chainbase, BuilderMaps is built as an open database.</strong> Anyone can add projects, update info, or explore what exists. All edits are tracked and verifiable. No company controls it, no one decides what gets shown.
-              Over time it becomes a shared reference for understanding how crypto is actually structured and who's building what.
+              <strong>
+                Initiated and sponsored by Chainbase, BuilderMaps is built as an
+                open database.
+              </strong>{" "}
+              Anyone can add projects, update info, or explore what exists. All
+              edits are tracked and verifiable. No company controls it, no one
+              decides what gets shown. Over time it becomes a shared reference
+              for understanding how crypto is actually structured and who's
+              building what.
             </p>
             <p className="!mb-4">
-              Currently tracking <strong>{totalProjects} projects</strong> across <strong>{totalCategories} major categories</strong>, BuilderMaps serves as a comprehensive reference for understanding the competitive landscape and participant relationships within the cryptocurrency ecosystem.
+              Currently tracking <strong>{totalProjects} projects</strong>{" "}
+              across <strong>{totalCategories} major categories</strong>,
+              BuilderMaps serves as a comprehensive reference for understanding
+              the competitive landscape and participant relationships within the
+              cryptocurrency ecosystem.
             </p>
           </div>
         </section>
@@ -141,20 +160,30 @@ export function HomePage({ categories, onCategoryClick }: HomePageProps) {
             How It Works
           </h2>
           <div className="space-y-5 text-gray-800">
-          <div className="space-y-5 text-gray-800">
-            <div>
-              <strong>1. Community-Driven Curation:</strong> Projects are submitted and verified by community contributors, ensuring comprehensive coverage of the crypto ecosystem.
+            <div className="space-y-5 text-gray-800">
+              <div>
+                <strong>1. Community-Driven Curation:</strong> Projects are
+                submitted and verified by community contributors, ensuring
+                comprehensive coverage of the crypto ecosystem.
+              </div>
+              <div>
+                <strong>2. Systematic Categorization:</strong> Each project is
+                carefully categorized into relevant sectors and subcategories,
+                following a systematic framework similar to VC research
+                methodologies.
+              </div>
+              <div>
+                <strong>3. Visual Landscape Maps:</strong> Interactive
+                visualizations help users quickly understand market structures,
+                identify key players, and discover emerging projects in each
+                sector.
+              </div>
+              <div>
+                <strong>4. Public Goods Model:</strong> BuilderMaps operates as
+                a public goods project, relying on grants and community support
+                to maintain independence and comprehensive coverage.
+              </div>
             </div>
-            <div>
-              <strong>2. Systematic Categorization:</strong> Each project is carefully categorized into relevant sectors and subcategories, following a systematic framework similar to VC research methodologies.
-            </div>
-            <div>
-              <strong>3. Visual Landscape Maps:</strong> Interactive visualizations help users quickly understand market structures, identify key players, and discover emerging projects in each sector.
-            </div>
-            <div>
-              <strong>4. Public Goods Model:</strong> BuilderMaps operates as a public goods project, relying on grants and community support to maintain independence and comprehensive coverage.
-            </div>
-          </div>
           </div>
         </section>
 
@@ -164,7 +193,8 @@ export function HomePage({ categories, onCategoryClick }: HomePageProps) {
           </h2>
           <div className="space-y-5 text-gray-800">
             <p>
-              BuilderMaps.io is an <strong>open-source project</strong> and welcomes contributions from the community. You can contribute by:
+              BuilderMaps.io is an <strong>open-source project</strong> and
+              welcomes contributions from the community. You can contribute by:
             </p>
             <ul className="list-disc list-inside space-y-2 ml-2">
               <li>Submitting new projects for inclusion in the landscape</li>
@@ -176,8 +206,6 @@ export function HomePage({ categories, onCategoryClick }: HomePageProps) {
           </div>
         </section>
       </div>
-
     </div>
   );
 }
-

@@ -2,7 +2,6 @@
 
 @custom-variant dark (&:is(.dark *));
 
-
 :root {
   --font-size: 16px;
   --background: #ffffff;
@@ -147,7 +146,7 @@
       font-weight: var(--font-weight-medium);
       line-height: 1.5;
       font-family: ui-sans-serif, system-ui, sans-serif !important;
-    } 
+    }
 
     h3 {
       font-size: var(--text-lg);
@@ -203,6 +202,5 @@ html {
 
   .linux-libertine-bold {
     font-family: Linux Libertine Bold, ui-sans-serif, system-ui, sans-serif;
-  }  
+  }
 }
-

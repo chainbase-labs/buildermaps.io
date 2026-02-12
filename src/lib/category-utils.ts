@@ -165,14 +165,12 @@ function processBuilderMapsData(builderMaps: BuilderMapEntry[]): Category[] {
     }
   });
 
-  return Array.from(categoryAccumulator.values()).map(
-    (record) => ({
-      ...record.category,
-      subcategories: record.category.subcategories.map((subcategory) => ({
-        ...subcategory,
-      })),
-    }),
-  );
+  return Array.from(categoryAccumulator.values()).map((record) => ({
+    ...record.category,
+    subcategories: record.category.subcategories.map((subcategory) => ({
+      ...subcategory,
+    })),
+  }));
 }
 
 /**
@@ -183,9 +181,17 @@ function processBuilderMapsData(builderMaps: BuilderMapEntry[]): Category[] {
 function buildFromLocalData(): BuilderMapEntry[] {
   // Use webpack's require.context to load all JSON files
   // @ts-ignore - require.context is a webpack feature
-  const projectsContext = require.context("../../public/data/projects", false, /\.json$/);
+  const projectsContext = require.context(
+    "../../public/data/projects",
+    false,
+    /\.json$/
+  );
   // @ts-ignore - require.context is a webpack feature
-  const mapsContext = require.context("../../public/data/maps", false, /\.json$/);
+  const mapsContext = require.context(
+    "../../public/data/maps",
+    false,
+    /\.json$/
+  );
 
   // Load all projects
   const projects = new Map<string, any>();
@@ -198,28 +204,30 @@ function buildFromLocalData(): BuilderMapEntry[] {
 
   // Load all maps and build the data structure
   const projectSectors = new Map<string, SectorEntry[]>();
-  
+
   mapsContext.keys().forEach((key: string) => {
     const mapData = mapsContext(key);
     if (!mapData || !mapData.sector) return;
-    
+
     const sectorName = mapData.sector;
     const types = mapData.types || [];
 
     types.forEach((type: { id: string; name: string; projects: string[] }) => {
       if (!type || !type.name) return;
-      
+
       const typeName = type.name;
       const projectIds = type.projects || [];
 
       projectIds.forEach((projectId: string) => {
         if (!projectId) return;
-        
+
         if (!projectSectors.has(projectId)) {
           projectSectors.set(projectId, []);
         }
 
-        let sectorEntry = projectSectors.get(projectId)!.find(s => s.sector === sectorName);
+        let sectorEntry = projectSectors
+          .get(projectId)!
+          .find((s) => s.sector === sectorName);
 
         if (sectorEntry) {
           if (!sectorEntry.types.includes(typeName)) {
@@ -228,7 +236,7 @@ function buildFromLocalData(): BuilderMapEntry[] {
         } else {
           projectSectors.get(projectId)!.push({
             sector: sectorName,
-            types: [typeName]
+            types: [typeName],
           });
         }
       });
@@ -237,7 +245,7 @@ function buildFromLocalData(): BuilderMapEntry[] {
 
   // Build the final structure
   const builderMaps: BuilderMapEntry[] = [];
-  
+
   for (const [projectId, sectors] of projectSectors) {
     const project = projects.get(projectId);
     if (!project) {
@@ -251,7 +259,7 @@ function buildFromLocalData(): BuilderMapEntry[] {
       sectors: sectors,
       founded: project.founded ?? null,
       funding: project.funding ?? null,
-      links: project.links || {}
+      links: project.links || {},
     });
   }
 
@@ -270,18 +278,21 @@ export async function fetchCategories(): Promise<Category[]> {
     const builderMaps = buildFromLocalData();
     return processBuilderMapsData(builderMaps);
   }
-  
+
   // In production, fetch from OSS (path depends on hostname)
   const hostname = window.location.hostname;
-  const dataPath = hostname === "net-static-dev.chainbasehq.com"
-    ? "https://net-static-dev.chainbasehq.com/public/buildermaps/test/data/builder-maps.json"
-    : hostname.endsWith("buildermaps.io")
+  const dataPath =
+    hostname === "net-static-dev.chainbasehq.com"
+      ? "https://net-static-dev.chainbasehq.com/public/buildermaps/test/data/builder-maps.json"
+      : hostname.endsWith("buildermaps.io")
       ? "https://net-static-dev.chainbasehq.com/public/buildermaps/data/builder-maps.json"
       : "https://net-static-dev.chainbasehq.com/public/buildermaps/data/builder-maps.json";
 
   const response = await fetch(dataPath);
   if (!response.ok) {
-    throw new Error(`Failed to fetch builder maps data: ${response.statusText}`);
+    throw new Error(
+      `Failed to fetch builder maps data: ${response.statusText}`
+    );
   }
   const builderMaps: BuilderMapEntry[] = await response.json();
   return processBuilderMapsData(builderMaps);
@@ -294,14 +305,14 @@ export function countSubcategoryProjects(subcategory: Subcategory): number {
 export function countCategoryProjects(category: Category): number {
   return category.subcategories.reduce(
     (total, subcategory) => total + countSubcategoryProjects(subcategory),
-    0,
+    0
   );
 }
 
 export function countTotalProjects(categories: Category[]): number {
   return categories.reduce(
     (total, category) => total + countCategoryProjects(category),
-    0,
+    0
   );
 }
 
@@ -312,14 +323,13 @@ export function sortProjects(projects: Project[]): Project[] {
   return [...projects].sort((a, b) => {
     const aStartsWithNumber = /^\d/.test(a.name.trim());
     const bStartsWithNumber = /^\d/.test(b.name.trim());
-    
+
     // If both start with numbers or both don't, sort alphabetically
     if (aStartsWithNumber === bStartsWithNumber) {
-      return a.name.localeCompare(b.name, undefined, { sensitivity: 'base' });
+      return a.name.localeCompare(b.name, undefined, { sensitivity: "base" });
     }
-    
+
     // If only one starts with a number, put it at the end
     return aStartsWithNumber ? 1 : -1;
   });
 }
-

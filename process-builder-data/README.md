@@ -101,21 +101,21 @@ optional arguments:
 
 ### Required Columns
 
-| Column | Description | Example |
-|--------|-------------|---------|
-| `name` | Project name | "Ethereum" |
-| `sector` | Project sector/category | "Layer1" |
-| `type` | Project type/subcategory | "Infrastructure" |
-| `website` | Project homepage URL | "https://ethereum.org" |
+| Column    | Description              | Example                |
+| --------- | ------------------------ | ---------------------- |
+| `name`    | Project name             | "Ethereum"             |
+| `sector`  | Project sector/category  | "Layer1"               |
+| `type`    | Project type/subcategory | "Infrastructure"       |
+| `website` | Project homepage URL     | "https://ethereum.org" |
 
 ### Optional Columns
 
-| Column | Description | Example |
-|--------|-------------|---------|
-| `x` or `twitter` | Twitter/X profile URL | "https://x.com/ethereum" |
-| `github` | GitHub repository URL | "https://github.com/ethereum" |
-| `description` | Project description (auto-fetched if empty) | "Decentralized platform..." |
-| `location` | Project location/region | "Global" |
+| Column           | Description                                 | Example                       |
+| ---------------- | ------------------------------------------- | ----------------------------- |
+| `x` or `twitter` | Twitter/X profile URL                       | "https://x.com/ethereum"      |
+| `github`         | GitHub repository URL                       | "https://github.com/ethereum" |
+| `description`    | Project description (auto-fetched if empty) | "Decentralized platform..."   |
+| `location`       | Project location/region                     | "Global"                      |
 
 ### Example CSV
 

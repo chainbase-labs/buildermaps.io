@@ -81,12 +81,7 @@
     {
       "id": "identity",
       "name": "Identity",
-      "projects": [
-        "idos",
-        "zkme",
-        "privado-id",
-        "humanity-protocol"
-      ]
+      "projects": ["idos", "zkme", "privado-id", "humanity-protocol"]
     },
     {
       "id": "l1-l2",
@@ -114,12 +109,7 @@
     {
       "id": "mixers",
       "name": "Mixers",
-      "projects": [
-        "tornado-cash",
-        "umbra",
-        "mixoor",
-        "split-swap"
-      ]
+      "projects": ["tornado-cash", "umbra", "mixoor", "split-swap"]
     },
     {
       "id": "network",
@@ -136,30 +126,17 @@
     {
       "id": "os",
       "name": "OS",
-      "projects": [
-        "zos",
-        "ghostwareos"
-      ]
+      "projects": ["zos", "ghostwareos"]
     },
     {
       "id": "private-messaging",
       "name": "Private Messaging",
-      "projects": [
-        "dmail",
-        "secure",
-        "session",
-        "anonmesh"
-      ]
+      "projects": ["dmail", "secure", "session", "anonmesh"]
     },
     {
       "id": "zk",
       "name": "ZK ",
-      "projects": [
-        "anoma",
-        "veilcash",
-        "brevis",
-        "specter-protocol"
-      ]
+      "projects": ["anoma", "veilcash", "brevis", "specter-protocol"]
     }
   ]
 }

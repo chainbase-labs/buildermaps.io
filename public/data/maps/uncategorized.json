@@ -4,30 +4,22 @@
     {
       "id": "general",
       "name": "General",
-      "projects": [
-        "four-pillars"
-      ]
+      "projects": ["four-pillars"]
     },
     {
       "id": "identity",
       "name": "Identity",
-      "projects": [
-        "karrier-one"
-      ]
+      "projects": ["karrier-one"]
     },
     {
       "id": "payments",
       "name": "Payments",
-      "projects": [
-        "spritz-finance"
-      ]
+      "projects": ["spritz-finance"]
     },
     {
       "id": "walrus",
       "name": "Walrus",
-      "projects": [
-        "tusky"
-      ]
+      "projects": ["tusky"]
     }
   ]
 }

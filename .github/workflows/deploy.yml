@@ -23,18 +23,18 @@ jobs:
           cache: "npm"
 
       - name: Install dependencies
-        run: npm install --legacy-peer-deps  
+        run: npm install --legacy-peer-deps
 
       - name: Check for duplicate project IDs
         run: node scripts/check-duplicate-ids.js
 
       - name: Handle import internal shared dependency
-        run: npm install glob@^9 --legacy-peer-deps && node ./scripts/ciAddTsIgnore.mjs       
+        run: npm install glob@^9 --legacy-peer-deps && node ./scripts/ciAddTsIgnore.mjs
 
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.x'
+          python-version: "3.x"
 
       - name: Install OSSUtil
         run: |
@@ -44,15 +44,15 @@ jobs:
 
       - name: Configure OSSUtil
         run: |
-          ./ossutil64 config -e oss-ap-southeast-1.aliyuncs.com -i ${{ secrets.ALI_ACCESS_KEY_ID }} -k ${{ secrets.ALI_ACCESS_KEY_SECRET }}         
-          
-      - name: Download import-map.cdn.json from OSS 
-        run: ./ossutil64 cp ${{ vars.ALI_MICRO_FE_OFFICIAL_BUCKET_OSS_URL}}/import-map.cdn.json ./import-map.cdn.json           
+          ./ossutil64 config -e oss-ap-southeast-1.aliyuncs.com -i ${{ secrets.ALI_ACCESS_KEY_ID }} -k ${{ secrets.ALI_ACCESS_KEY_SECRET }}
+
+      - name: Download import-map.cdn.json from OSS
+        run: ./ossutil64 cp ${{ vars.ALI_MICRO_FE_OFFICIAL_BUCKET_OSS_URL}}/import-map.cdn.json ./import-map.cdn.json
 
       - name: Extract shared module names from import-map
         run: |
           jq '.imports | keys | join(",")' import-map.cdn.json > shared-modules.txt
-          echo "SHARED_MODULES=$(cat shared-modules.txt)" >> $GITHUB_ENV  
+          echo "SHARED_MODULES=$(cat shared-modules.txt)" >> $GITHUB_ENV
 
       - name: Build builder-maps.json
         run: npm run build:maps
@@ -60,7 +60,7 @@ jobs:
       - name: Build
         run: npm run build --legacy-peer-deps
         env:
-          SHARED_MODULES: ${{ env.SHARED_MODULES }}        
+          SHARED_MODULES: ${{ env.SHARED_MODULES }}
 
       - name: Get git commit hash
         id: git_hash
@@ -89,7 +89,7 @@ jobs:
 
       - name: Upload public assets to prod OSS
         run: |
-          ./ossutil64 cp -r public/imgs/ "${{ vars.ALI_MICRO_FE_OFFICIAL_BUCKET_OSS_URL}}/public/buildermaps/imgs/" --meta="Cache-Control:max-age=31536000" --update        
+          ./ossutil64 cp -r public/imgs/ "${{ vars.ALI_MICRO_FE_OFFICIAL_BUCKET_OSS_URL}}/public/buildermaps/imgs/" --meta="Cache-Control:max-age=31536000" --update
 
       - name: Upload public assets to prod OSS
         run: |
@@ -109,11 +109,11 @@ jobs:
         run: |
           PACKAGE_NAME=$(jq -r '.name' package.json)
           echo "Package name: $PACKAGE_NAME"
-          echo "PACKAGE_NAME=$PACKAGE_NAME" >> $GITHUB_ENV    
+          echo "PACKAGE_NAME=$PACKAGE_NAME" >> $GITHUB_ENV
 
       - name: Use Package Name
         run: |
-          echo "Using package name: $PACKAGE_NAME"          
+          echo "Using package name: $PACKAGE_NAME"
 
       - name: Compose NEW_URL for this build
         run: |
@@ -128,7 +128,7 @@ jobs:
           access-key-id: ${{ secrets.ALI_ACCESS_KEY_ID }}
           access-key-secret: ${{ secrets.ALI_ACCESS_KEY_SECRET }}
           instance-id: cri-a4wmsz77ru5o7hub
-   
+
       - name: Update import-map.json (CAS safe)
         run: |
           docker run --rm \
@@ -153,5 +153,3 @@ jobs:
             -e NEW_URL='${{ env.NEW_URL }}' \
             -e SAFE_PREFIXES='https://net-static-dev.chainbasehq.com/' \
             chainbase-registry.ap-southeast-1.cr.aliyuncs.com/chainbase-online/micro-fe-imd:latest
-
-

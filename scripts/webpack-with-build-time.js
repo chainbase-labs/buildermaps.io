@@ -1,12 +1,12 @@
-'use strict';
+"use strict";
 
-const { spawnSync, spawn } = require('node:child_process');
-const fs = require('fs');
-const path = require('path');
-const chokidar = require('chokidar');
+const { spawnSync, spawn } = require("node:child_process");
+const fs = require("fs");
+const path = require("path");
+const chokidar = require("chokidar");
 
 // Check for duplicate files (files with " copy" in the name)
-const PROJECTS_DIR = path.join(__dirname, '../public/data/projects');
+const PROJECTS_DIR = path.join(__dirname, "../public/data/projects");
 
 function checkForDuplicateFiles() {
   if (!fs.existsSync(PROJECTS_DIR)) {
@@ -14,20 +14,22 @@ function checkForDuplicateFiles() {
   }
 
   const files = fs.readdirSync(PROJECTS_DIR);
-  const duplicateFiles = files.filter(file => file.includes(' copy'));
+  const duplicateFiles = files.filter((file) => file.includes(" copy"));
 
   return {
     hasDuplicates: duplicateFiles.length > 0,
-    files: duplicateFiles
+    files: duplicateFiles,
   };
 }
 
 function reportDuplicateFiles(files) {
-  console.error('\n❌ Error: Found duplicate files in public/data/projects/:\n');
-  files.forEach(file => {
+  console.error(
+    "\n❌ Error: Found duplicate files in public/data/projects/:\n"
+  );
+  files.forEach((file) => {
     console.error(`   - ${file}`);
   });
-  console.error('\n💡 Please remove or rename these duplicate files.\n');
+  console.error("\n💡 Please remove or rename these duplicate files.\n");
 }
 
 // Check for duplicate files before starting webpack
@@ -37,17 +39,18 @@ if (duplicateCheck.hasDuplicates) {
   process.exit(1);
 }
 
-const webpackCli = require.resolve('webpack-cli/bin/cli.js');
+const webpackCli = require.resolve("webpack-cli/bin/cli.js");
 const args = process.argv.slice(2);
 
 // Check if we're in development/serve mode
-const isDevelopment = args.includes('serve') || args.includes('--mode=development');
+const isDevelopment =
+  args.includes("serve") || args.includes("--mode=development");
 
-const formattedBuildTime = new Date().toLocaleDateString('en-US', {
-  year: 'numeric',
-  month: 'long',
-  day: 'numeric',
-  timeZone: 'UTC',
+const formattedBuildTime = new Date().toLocaleDateString("en-US", {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+  timeZone: "UTC",
 });
 
 const env = {
@@ -70,24 +73,26 @@ if (isDevelopment) {
     const duplicateCheck = checkForDuplicateFiles();
     if (duplicateCheck.hasDuplicates) {
       isExiting = true;
-      
+
       // Clear periodic check
       if (periodicCheckInterval) {
         clearInterval(periodicCheckInterval);
         periodicCheckInterval = null;
       }
-      
+
       // Clear any pending timeout
       if (checkTimeout) {
         clearTimeout(checkTimeout);
         checkTimeout = null;
       }
-      
+
       reportDuplicateFiles(duplicateCheck.files);
       // Kill webpack process and exit
       if (webpackChild) {
-        console.error('\n🛑 Stopping webpack build due to duplicate file error.\n');
-        webpackChild.kill('SIGTERM');
+        console.error(
+          "\n🛑 Stopping webpack build due to duplicate file error.\n"
+        );
+        webpackChild.kill("SIGTERM");
         // Give it a moment to clean up, then force exit
         setTimeout(() => {
           if (watcher) {
@@ -108,9 +113,9 @@ if (isDevelopment) {
   });
 
   // Check on file additions - check immediately and also after a short delay
-  watcher.on('add', (filePath) => {
+  watcher.on("add", (filePath) => {
     const fileName = path.basename(filePath);
-    if (fileName.includes(' copy')) {
+    if (fileName.includes(" copy")) {
       handleDuplicateError();
     } else {
       // Also check after a short delay in case of race conditions
@@ -120,17 +125,17 @@ if (isDevelopment) {
       checkTimeout = setTimeout(() => handleDuplicateError(), 100);
     }
   });
-  
+
   // Also check on file changes (in case file is renamed to include " copy")
-  watcher.on('change', () => {
+  watcher.on("change", () => {
     if (checkTimeout) {
       clearTimeout(checkTimeout);
     }
     checkTimeout = setTimeout(() => handleDuplicateError(), 100);
   });
 
-  watcher.on('error', (error) => {
-    console.error('Watcher error:', error);
+  watcher.on("error", (error) => {
+    console.error("Watcher error:", error);
   });
 
   // Periodic check every 500ms to catch any duplicates that might have been missed
@@ -145,7 +150,7 @@ if (isDevelopment) {
 // Use spawnSync for production builds (blocking)
 if (isDevelopment) {
   webpackChild = spawn(process.execPath, [webpackCli, ...args], {
-    stdio: 'inherit',
+    stdio: "inherit",
     env,
   });
 
@@ -164,27 +169,27 @@ if (isDevelopment) {
     }
   };
 
-  webpackChild.on('exit', (code) => {
+  webpackChild.on("exit", (code) => {
     cleanup();
     process.exit(code ?? 1);
   });
 
-  process.on('SIGINT', () => {
+  process.on("SIGINT", () => {
     cleanup();
     if (webpackChild) {
-      webpackChild.kill('SIGINT');
+      webpackChild.kill("SIGINT");
     }
   });
 
-  process.on('SIGTERM', () => {
+  process.on("SIGTERM", () => {
     cleanup();
     if (webpackChild) {
-      webpackChild.kill('SIGTERM');
+      webpackChild.kill("SIGTERM");
     }
   });
 } else {
   const result = spawnSync(process.execPath, [webpackCli, ...args], {
-    stdio: 'inherit',
+    stdio: "inherit",
     env,
   });
 
@@ -196,4 +201,3 @@ if (isDevelopment) {
     process.exit(result.status ?? 1);
   }
 }
-

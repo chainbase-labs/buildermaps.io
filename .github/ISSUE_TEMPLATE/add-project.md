@@ -6,15 +6,17 @@ labels: ["project:add"]
 assignees: []
 ---
 
-Thanks for contributing to **BuilderMaps** 
+Thanks for contributing to **BuilderMaps**
 To add a new project, **both Step 1 and Step 2 are required**.
 
 ---
 
 ## Step 1: Project file
+
 **Location:** `public/data/projects/<project-id>.json`
 
 ### Requirements
+
 - `id` must be **lowercase kebab-case**
 - `id` must match the filename (without `.json`)
 - Unknown values should be `null`
@@ -44,6 +46,7 @@ Paste the **complete project JSON** below:
 ```
 
 ## Step 2: Add Project to Map File(s)
+
 **Location:** `public/data/maps/<sector>.json`
 
 ### What to provide

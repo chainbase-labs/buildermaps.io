@@ -1,5 +1,12 @@
 import { useMemo, useRef, useState } from "react";
-import { Building2, Globe, Github, Twitter, Linkedin, Download } from "lucide-react";
+import {
+  Building2,
+  Globe,
+  Github,
+  Twitter,
+  Linkedin,
+  Download,
+} from "lucide-react";
 import { FaTelegram, FaDiscord, FaReddit } from "react-icons/fa";
 import { SiMedium } from "react-icons/si";
 import * as htmlToImage from "html-to-image";
@@ -7,7 +14,10 @@ import * as htmlToImage from "html-to-image";
 import type { Category, Project, Subcategory } from "../lib/category-utils";
 import { countSubcategoryProjects, sortProjects } from "../lib/category-utils";
 import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
-import { getProductionImageUrl, getLocalhostFallback } from "../utils/image-fallback";
+import {
+  getProductionImageUrl,
+  getLocalhostFallback,
+} from "../utils/image-fallback";
 
 // Used by html-to-image when any logo URL fails (e.g. temporary 404 from third-party hosts).
 const EXPORT_IMAGE_PLACEHOLDER =
@@ -31,7 +41,9 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
   const mapExportRef = exportRef || internalExportRef;
 
   const [exportingKey, setExportingKey] = useState<string | null>(null);
-  const [hoveredSubcategoryKey, setHoveredSubcategoryKey] = useState<string | null>(null);
+  const [hoveredSubcategoryKey, setHoveredSubcategoryKey] = useState<
+    string | null
+  >(null);
   const [exportingWholeMap, setExportingWholeMap] = useState(false);
   const [hoveredMapBox, setHoveredMapBox] = useState(false);
 
@@ -40,260 +52,279 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
       (a, b) => countSubcategoryProjects(b) - countSubcategoryProjects(a)
     );
   }, [category.subcategories]);
-async function exportSubcategoryPng(subcategory: Subcategory) {
-  const key = `${category.name}__${subcategory.name}`;
-  const node = subcatRefs.current[key];
-  if (!node) return;
+  async function exportSubcategoryPng(subcategory: Subcategory) {
+    const key = `${category.name}__${subcategory.name}`;
+    const node = subcatRefs.current[key];
+    if (!node) return;
 
-  try {
-    setOpenPopoverId(null);
-    setExportingKey(key);
+    try {
+      setOpenPopoverId(null);
+      setExportingKey(key);
 
-    await new Promise((r) => requestAnimationFrame(r));
+      await new Promise((r) => requestAnimationFrame(r));
 
-    // Get computed styles and dimensions from the original node
-    const computedStyle = window.getComputedStyle(node);
-    const rect = node.getBoundingClientRect();
+      // Get computed styles and dimensions from the original node
+      const computedStyle = window.getComputedStyle(node);
+      const rect = node.getBoundingClientRect();
 
-    // Create an off-screen container for cloning (visible but positioned off-screen)
-    const invisibleContainer = document.createElement("div");
-    invisibleContainer.setAttribute('data-export-container', 'true');
-    invisibleContainer.style.position = "fixed";
-    invisibleContainer.style.left = "-9999px";
-    invisibleContainer.style.top = "0";
-    invisibleContainer.style.width = `${rect.width}px`;
-    invisibleContainer.style.height = "auto"; // Allow container to expand for footer
-    invisibleContainer.style.minHeight = `${rect.height}px`;
-    invisibleContainer.style.overflow = "visible";
-    invisibleContainer.style.pointerEvents = "none";
-    invisibleContainer.style.zIndex = "-9999";
-    invisibleContainer.style.visibility = "visible";
-    invisibleContainer.style.opacity = "1";
-    invisibleContainer.style.backgroundColor = "#ffffff";
-    document.body.appendChild(invisibleContainer);
+      // Create an off-screen container for cloning (visible but positioned off-screen)
+      const invisibleContainer = document.createElement("div");
+      invisibleContainer.setAttribute("data-export-container", "true");
+      invisibleContainer.style.position = "fixed";
+      invisibleContainer.style.left = "-9999px";
+      invisibleContainer.style.top = "0";
+      invisibleContainer.style.width = `${rect.width}px`;
+      invisibleContainer.style.height = "auto"; // Allow container to expand for footer
+      invisibleContainer.style.minHeight = `${rect.height}px`;
+      invisibleContainer.style.overflow = "visible";
+      invisibleContainer.style.pointerEvents = "none";
+      invisibleContainer.style.zIndex = "-9999";
+      invisibleContainer.style.visibility = "visible";
+      invisibleContainer.style.opacity = "1";
+      invisibleContainer.style.backgroundColor = "#ffffff";
+      document.body.appendChild(invisibleContainer);
 
-    // Clone the entire element (not just its children)
-    const clonedNode = node.cloneNode(true) as HTMLDivElement;
-    
-    // Copy computed styles to the clone
-    clonedNode.style.width = `${rect.width}px`;
-    clonedNode.style.height = "auto"; // Allow height to expand for footer
-    clonedNode.style.minHeight = `${rect.height}px`;
-    clonedNode.style.position = "relative";
-    clonedNode.style.visibility = "visible";
-    clonedNode.style.opacity = "1";
-    
-    // Hide the export button in the clone
-    const exportButton = clonedNode.querySelector('button[data-export-button]') as HTMLButtonElement | null;
-    if (exportButton) {
-      exportButton.style.display = 'none';
-    }
+      // Clone the entire element (not just its children)
+      const clonedNode = node.cloneNode(true) as HTMLDivElement;
 
-    // Update the subcategory title to include category name
-    const subcategoryTitle = clonedNode.querySelector('h3');
-    if (subcategoryTitle) {
-      subcategoryTitle.textContent = `${category.name} Ecosystem Map - ${subcategory.name}`;
-    }
-    
-    // Ensure inner content div doesn't have overflow constraints
-    const innerContentDiv = clonedNode.querySelector('div[class*="border"]') as HTMLDivElement | null;
-    if (innerContentDiv) {
-      innerContentDiv.style.overflow = "visible";
-      innerContentDiv.style.height = "auto";
-    }
+      // Copy computed styles to the clone
+      clonedNode.style.width = `${rect.width}px`;
+      clonedNode.style.height = "auto"; // Allow height to expand for footer
+      clonedNode.style.minHeight = `${rect.height}px`;
+      clonedNode.style.position = "relative";
+      clonedNode.style.visibility = "visible";
+      clonedNode.style.opacity = "1";
 
-    // Add watermark to the clone
-    const watermark = document.createElement("div");
-    watermark.innerText = "BuilderMaps.io";
-    watermark.style.position = "absolute";
-    watermark.style.inset = "0";
-    watermark.style.display = "flex";
-    watermark.style.alignItems = "center";
-    watermark.style.justifyContent = "center";
-    watermark.style.pointerEvents = "none";
-    watermark.style.userSelect = "none";
-    watermark.style.fontSize = "64px";
-    watermark.style.fontWeight = "700";
-    watermark.style.opacity = "0.08";
-    watermark.style.transform = "rotate(-12deg)";
-    watermark.style.color = "#000";
-    watermark.style.zIndex = "50";
+      // Hide the export button in the clone
+      const exportButton = clonedNode.querySelector(
+        "button[data-export-button]"
+      ) as HTMLButtonElement | null;
+      if (exportButton) {
+        exportButton.style.display = "none";
+      }
 
-    clonedNode.appendChild(watermark);
+      // Update the subcategory title to include category name
+      const subcategoryTitle = clonedNode.querySelector("h3");
+      if (subcategoryTitle) {
+        subcategoryTitle.textContent = `${category.name} Ecosystem Map - ${subcategory.name}`;
+      }
 
-    // Add footer to the innerContentDiv
-    if (innerContentDiv) {
-      const formatDate = () => {
-        const today = new Date();
-        const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-        const month = months[today.getMonth()];
-        const day = today.getDate();
-        const year = today.getFullYear();
-        return `${month} ${day},${year}`;
-      };
+      // Ensure inner content div doesn't have overflow constraints
+      const innerContentDiv = clonedNode.querySelector(
+        'div[class*="border"]'
+      ) as HTMLDivElement | null;
+      if (innerContentDiv) {
+        innerContentDiv.style.overflow = "visible";
+        innerContentDiv.style.height = "auto";
+      }
 
-      const footer = document.createElement("footer");
-      footer.style.paddingTop = "1rem";
-      footer.style.paddingBottom = "1rem";
-      footer.style.width = "100%";
-      footer.style.position = "relative";
-      footer.style.zIndex = "10";
-      
-      const footerContainer = document.createElement("div");
-      footerContainer.style.maxWidth = "100%";
-      footerContainer.style.marginLeft = "auto";
-      footerContainer.style.marginRight = "auto";
-      footerContainer.style.paddingLeft = "1rem";
-      footerContainer.style.paddingRight = "1rem";
-      
-      const footerGrid = document.createElement("div");
-      footerGrid.style.display = "grid";
-      footerGrid.style.gridTemplateColumns = "auto 1fr 1fr"; // Date shrinks, Source and Disclaimer share remaining space
-      footerGrid.style.gap = "1rem";
-      footerGrid.style.fontSize = "0.875rem";
-      footerGrid.style.color = "#4b5563";
-      footerGrid.style.paddingTop = "0.5rem";
-      
-      // Date
-      const dateDiv = document.createElement("div");
-      dateDiv.style.textAlign = "left";
-      dateDiv.style.whiteSpace = "nowrap";
-      dateDiv.textContent = `Date: ${formatDate()}`;
-      
-      // Source
-      const sourceDiv = document.createElement("div");
-      sourceDiv.style.textAlign = "center";
-      sourceDiv.style.whiteSpace = "nowrap";
-      const sourceText = document.createTextNode("Source: buildermaps.io ");
-      const sourceLink = document.createElement("a");
-      sourceLink.href = "https://x.com/ChainbaseHQ";
-      sourceLink.target = "_blank";
-      sourceLink.rel = "noopener noreferrer";
-      sourceLink.style.color = "#2563eb";
-      sourceLink.style.textDecoration = "none";
-      sourceLink.textContent = "@ChainbaseHQ";
-      sourceDiv.appendChild(sourceText);
-      sourceDiv.appendChild(sourceLink);
-      
-      // Disclaimer
-      const disclaimerDiv = document.createElement("div");
-      disclaimerDiv.style.textAlign = "right";
-      disclaimerDiv.style.whiteSpace = "nowrap";
-      disclaimerDiv.textContent = "Disclaimer: Listed ≠ endorsement. DYOR.";
-      
-      footerGrid.appendChild(dateDiv);
-      footerGrid.appendChild(sourceDiv);
-      footerGrid.appendChild(disclaimerDiv);
-      footerContainer.appendChild(footerGrid);
-      footer.appendChild(footerContainer);
-      
-      innerContentDiv.appendChild(footer);
-    }
+      // Add watermark to the clone
+      const watermark = document.createElement("div");
+      watermark.innerText = "BuilderMaps.io";
+      watermark.style.position = "absolute";
+      watermark.style.inset = "0";
+      watermark.style.display = "flex";
+      watermark.style.alignItems = "center";
+      watermark.style.justifyContent = "center";
+      watermark.style.pointerEvents = "none";
+      watermark.style.userSelect = "none";
+      watermark.style.fontSize = "64px";
+      watermark.style.fontWeight = "700";
+      watermark.style.opacity = "0.08";
+      watermark.style.transform = "rotate(-12deg)";
+      watermark.style.color = "#000";
+      watermark.style.zIndex = "50";
 
-    // Append the clone to the container
-    invisibleContainer.appendChild(clonedNode);
+      clonedNode.appendChild(watermark);
 
-    // Wait for the clone to be rendered and images to load
-    await new Promise((r) => requestAnimationFrame(r));
-    await new Promise((r) => requestAnimationFrame(r));
-    await new Promise((r) => setTimeout(r, 200));
-    
-    // Wait for footer to be fully rendered, then check width and adjust layout
-    await new Promise((r) => requestAnimationFrame(r));
-    await new Promise((r) => setTimeout(r, 100));
-    
-    // Check if footer needs vertical layout (if width is too narrow)
-    if (innerContentDiv) {
-      const footerGrid = innerContentDiv.querySelector('footer > div > div[style*="grid"]') as HTMLDivElement | null;
-      if (footerGrid) {
-        const footerRect = footerGrid.getBoundingClientRect();
-        const dateDiv = footerGrid.children[0] as HTMLElement;
-        const sourceDiv = footerGrid.children[1] as HTMLElement;
-        const disclaimerDiv = footerGrid.children[2] as HTMLElement;
-        
-        // Estimate minimum width needed (rough estimate: ~600px for 3 columns)
-        const minWidthForHorizontal = 600;
-        
-        if (footerRect.width < minWidthForHorizontal) {
-          // Switch to vertical layout
-          footerGrid.style.gridTemplateColumns = "1fr";
-          footerGrid.style.gap = "0.5rem";
-          dateDiv.style.textAlign = "left";
-          sourceDiv.style.textAlign = "left";
-          disclaimerDiv.style.textAlign = "left";
+      // Add footer to the innerContentDiv
+      if (innerContentDiv) {
+        const formatDate = () => {
+          const today = new Date();
+          const months = [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec",
+          ];
+          const month = months[today.getMonth()];
+          const day = today.getDate();
+          const year = today.getFullYear();
+          return `${month} ${day},${year}`;
+        };
+
+        const footer = document.createElement("footer");
+        footer.style.paddingTop = "1rem";
+        footer.style.paddingBottom = "1rem";
+        footer.style.width = "100%";
+        footer.style.position = "relative";
+        footer.style.zIndex = "10";
+
+        const footerContainer = document.createElement("div");
+        footerContainer.style.maxWidth = "100%";
+        footerContainer.style.marginLeft = "auto";
+        footerContainer.style.marginRight = "auto";
+        footerContainer.style.paddingLeft = "1rem";
+        footerContainer.style.paddingRight = "1rem";
+
+        const footerGrid = document.createElement("div");
+        footerGrid.style.display = "grid";
+        footerGrid.style.gridTemplateColumns = "auto 1fr 1fr"; // Date shrinks, Source and Disclaimer share remaining space
+        footerGrid.style.gap = "1rem";
+        footerGrid.style.fontSize = "0.875rem";
+        footerGrid.style.color = "#4b5563";
+        footerGrid.style.paddingTop = "0.5rem";
+
+        // Date
+        const dateDiv = document.createElement("div");
+        dateDiv.style.textAlign = "left";
+        dateDiv.style.whiteSpace = "nowrap";
+        dateDiv.textContent = `Date: ${formatDate()}`;
+
+        // Source
+        const sourceDiv = document.createElement("div");
+        sourceDiv.style.textAlign = "center";
+        sourceDiv.style.whiteSpace = "nowrap";
+        const sourceText = document.createTextNode("Source: buildermaps.io ");
+        const sourceLink = document.createElement("a");
+        sourceLink.href = "https://x.com/ChainbaseHQ";
+        sourceLink.target = "_blank";
+        sourceLink.rel = "noopener noreferrer";
+        sourceLink.style.color = "#2563eb";
+        sourceLink.style.textDecoration = "none";
+        sourceLink.textContent = "@ChainbaseHQ";
+        sourceDiv.appendChild(sourceText);
+        sourceDiv.appendChild(sourceLink);
+
+        // Disclaimer
+        const disclaimerDiv = document.createElement("div");
+        disclaimerDiv.style.textAlign = "right";
+        disclaimerDiv.style.whiteSpace = "nowrap";
+        disclaimerDiv.textContent = "Disclaimer: Listed ≠ endorsement. DYOR.";
+
+        footerGrid.appendChild(dateDiv);
+        footerGrid.appendChild(sourceDiv);
+        footerGrid.appendChild(disclaimerDiv);
+        footerContainer.appendChild(footerGrid);
+        footer.appendChild(footerContainer);
+
+        innerContentDiv.appendChild(footer);
+      }
+
+      // Append the clone to the container
+      invisibleContainer.appendChild(clonedNode);
+
+      // Wait for the clone to be rendered and images to load
+      await new Promise((r) => requestAnimationFrame(r));
+      await new Promise((r) => requestAnimationFrame(r));
+      await new Promise((r) => setTimeout(r, 200));
+
+      // Wait for footer to be fully rendered, then check width and adjust layout
+      await new Promise((r) => requestAnimationFrame(r));
+      await new Promise((r) => setTimeout(r, 100));
+
+      // Check if footer needs vertical layout (if width is too narrow)
+      if (innerContentDiv) {
+        const footerGrid = innerContentDiv.querySelector(
+          'footer > div > div[style*="grid"]'
+        ) as HTMLDivElement | null;
+        if (footerGrid) {
+          const footerRect = footerGrid.getBoundingClientRect();
+          const dateDiv = footerGrid.children[0] as HTMLElement;
+          const sourceDiv = footerGrid.children[1] as HTMLElement;
+          const disclaimerDiv = footerGrid.children[2] as HTMLElement;
+
+          // Estimate minimum width needed (rough estimate: ~600px for 3 columns)
+          const minWidthForHorizontal = 600;
+
+          if (footerRect.width < minWidthForHorizontal) {
+            // Switch to vertical layout
+            footerGrid.style.gridTemplateColumns = "1fr";
+            footerGrid.style.gap = "0.5rem";
+            dateDiv.style.textAlign = "left";
+            sourceDiv.style.textAlign = "left";
+            disclaimerDiv.style.textAlign = "left";
+          }
         }
       }
-    }
-    
-    // Wait for all images in the clone to load at full resolution
-    const images = clonedNode.querySelectorAll('img');
-    if (images.length > 0) {
-      await Promise.all(
-        Array.from(images).map(
-          (img) =>
-            new Promise<void>((resolve) => {
-              // Ensure images are loaded at full resolution
-              if (img.complete && img.naturalWidth > 0) {
-                resolve();
-              } else {
-                const timeout = setTimeout(() => resolve(), 3000); // Timeout after 3s
-                img.onload = () => {
-                  clearTimeout(timeout);
+
+      // Wait for all images in the clone to load at full resolution
+      const images = clonedNode.querySelectorAll("img");
+      if (images.length > 0) {
+        await Promise.all(
+          Array.from(images).map(
+            (img) =>
+              new Promise<void>((resolve) => {
+                // Ensure images are loaded at full resolution
+                if (img.complete && img.naturalWidth > 0) {
                   resolve();
-                };
-                img.onerror = () => {
-                  clearTimeout(timeout);
-                  resolve(); // Continue even if image fails
-                };
-              }
-            })
-        )
-      );
+                } else {
+                  const timeout = setTimeout(() => resolve(), 3000); // Timeout after 3s
+                  img.onload = () => {
+                    clearTimeout(timeout);
+                    resolve();
+                  };
+                  img.onerror = () => {
+                    clearTimeout(timeout);
+                    resolve(); // Continue even if image fails
+                  };
+                }
+              })
+          )
+        );
+      }
+
+      // Additional wait to ensure everything is fully rendered
+      await new Promise((r) => setTimeout(r, 100));
+
+      // Get the final height including footer and update container
+      const finalRect = clonedNode.getBoundingClientRect();
+      clonedNode.style.height = `${finalRect.height}px`;
+      invisibleContainer.style.height = `${finalRect.height}px`;
+
+      // Use higher pixel ratio for better image quality (3-4x for crisp images)
+      const basePixelRatio = window.devicePixelRatio || 1;
+      const pixelRatio = Math.min(4, Math.max(3, basePixelRatio * 2));
+
+      // Export the cloned node which now includes the footer
+      const dataUrl = await htmlToImage.toPng(clonedNode, {
+        cacheBust: false,
+        backgroundColor: "#ffffff",
+        pixelRatio: pixelRatio,
+        imagePlaceholder: EXPORT_IMAGE_PLACEHOLDER,
+      });
+
+      const safe = (s: string) =>
+        s.replace(/[\/\\?%*:|"<>]/g, "-").replace(/\s+/g, "-");
+
+      const a = document.createElement("a");
+      a.href = dataUrl;
+      a.download = `${safe(category.name)}-${safe(subcategory.name)}.png`;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+
+      // Clean up: remove the invisible container and clone
+      invisibleContainer.remove();
+      setExportingKey(null);
+    } catch (err) {
+      console.error("Export failed:", err);
+      // Clean up container in case of error
+      const container = document.querySelector("[data-export-container]");
+      if (container) {
+        container.remove();
+      }
+      setExportingKey(null);
     }
-    
-    // Additional wait to ensure everything is fully rendered
-    await new Promise((r) => setTimeout(r, 100));
-    
-    // Get the final height including footer and update container
-    const finalRect = clonedNode.getBoundingClientRect();
-    clonedNode.style.height = `${finalRect.height}px`;
-    invisibleContainer.style.height = `${finalRect.height}px`;
-
-    // Use higher pixel ratio for better image quality (3-4x for crisp images)
-    const basePixelRatio = window.devicePixelRatio || 1;
-    const pixelRatio = Math.min(4, Math.max(3, basePixelRatio * 2));
-    
-    // Export the cloned node which now includes the footer
-    const dataUrl = await htmlToImage.toPng(clonedNode, {
-      cacheBust: false,
-      backgroundColor: "#ffffff",
-      pixelRatio: pixelRatio,
-      imagePlaceholder: EXPORT_IMAGE_PLACEHOLDER,
-    });
-
-    const safe = (s: string) =>
-      s.replace(/[\/\\?%*:|"<>]/g, "-").replace(/\s+/g, "-");
-
-    const a = document.createElement("a");
-    a.href = dataUrl;
-    a.download = `${safe(category.name)}-${safe(subcategory.name)}.png`;
-    document.body.appendChild(a);
-    a.click();
-    a.remove();
-
-    // Clean up: remove the invisible container and clone
-    invisibleContainer.remove();
-    setExportingKey(null);
-  } catch (err) {
-    console.error("Export failed:", err);
-    // Clean up container in case of error
-    const container = document.querySelector('[data-export-container]');
-    if (container) {
-      container.remove();
-    }
-    setExportingKey(null);
   }
-}
 
   const exportWholeMap = async () => {
     console.log("exportWholeMap called");
@@ -307,120 +338,124 @@ async function exportSubcategoryPng(subcategory: Subcategory) {
     try {
       setExportingWholeMap(true);
 
-    await new Promise((r) => requestAnimationFrame(r));
+      await new Promise((r) => requestAnimationFrame(r));
 
-    // Get computed styles and dimensions from the original node
-    const rect = node.getBoundingClientRect();
+      // Get computed styles and dimensions from the original node
+      const rect = node.getBoundingClientRect();
 
-    // Create an off-screen container for cloning (visible but positioned off-screen)
-    const invisibleContainer = document.createElement("div");
-    invisibleContainer.setAttribute('data-export-container', 'true');
-    invisibleContainer.style.position = "fixed";
-    invisibleContainer.style.left = "-9999px";
-    invisibleContainer.style.top = "0";
-    invisibleContainer.style.width = `${rect.width}px`;
-    invisibleContainer.style.height = `${rect.height}px`;
-    invisibleContainer.style.overflow = "visible";
-    invisibleContainer.style.pointerEvents = "none";
-    invisibleContainer.style.zIndex = "-9999";
-    invisibleContainer.style.visibility = "visible";
-    invisibleContainer.style.opacity = "1";
-    invisibleContainer.style.backgroundColor = "#ffffff";
-    document.body.appendChild(invisibleContainer);
+      // Create an off-screen container for cloning (visible but positioned off-screen)
+      const invisibleContainer = document.createElement("div");
+      invisibleContainer.setAttribute("data-export-container", "true");
+      invisibleContainer.style.position = "fixed";
+      invisibleContainer.style.left = "-9999px";
+      invisibleContainer.style.top = "0";
+      invisibleContainer.style.width = `${rect.width}px`;
+      invisibleContainer.style.height = `${rect.height}px`;
+      invisibleContainer.style.overflow = "visible";
+      invisibleContainer.style.pointerEvents = "none";
+      invisibleContainer.style.zIndex = "-9999";
+      invisibleContainer.style.visibility = "visible";
+      invisibleContainer.style.opacity = "1";
+      invisibleContainer.style.backgroundColor = "#ffffff";
+      document.body.appendChild(invisibleContainer);
 
-    // Clone the entire element (not just its children)
-    const clonedNode = node.cloneNode(true) as HTMLDivElement;
-    
-    // Copy computed styles to the clone
-    clonedNode.style.width = `${rect.width}px`;
-    clonedNode.style.height = `${rect.height}px`;
-    clonedNode.style.position = "relative";
-    clonedNode.style.visibility = "visible";
-    clonedNode.style.opacity = "1";
-    
-    // Hide all export buttons in the clone (both subcategory and main map export buttons)
-    const exportButtons = clonedNode.querySelectorAll('button[data-export-button], button[data-export-whole-map-button]');
-    exportButtons.forEach(button => {
-      (button as HTMLElement).style.display = 'none';
-    });
+      // Clone the entire element (not just its children)
+      const clonedNode = node.cloneNode(true) as HTMLDivElement;
 
-    // Append the clone to the container
-    invisibleContainer.appendChild(clonedNode);
+      // Copy computed styles to the clone
+      clonedNode.style.width = `${rect.width}px`;
+      clonedNode.style.height = `${rect.height}px`;
+      clonedNode.style.position = "relative";
+      clonedNode.style.visibility = "visible";
+      clonedNode.style.opacity = "1";
 
-    // Wait for the clone to be rendered and images to load
-    await new Promise((r) => requestAnimationFrame(r));
-    await new Promise((r) => requestAnimationFrame(r));
-    await new Promise((r) => setTimeout(r, 200));
-    
-    // Wait for all images in the clone to load at full resolution
-    const images = clonedNode.querySelectorAll('img');
-    if (images.length > 0) {
-      await Promise.all(
-        Array.from(images).map(
-          (img) =>
-            new Promise<void>((resolve) => {
-              // Ensure images are loaded at full resolution
-              if (img.complete && img.naturalWidth > 0) {
-                resolve();
-              } else {
-                const timeout = setTimeout(() => resolve(), 3000); // Timeout after 3s
-                img.onload = () => {
-                  clearTimeout(timeout);
-                  resolve();
-                };
-                img.onerror = () => {
-                  clearTimeout(timeout);
-                  resolve(); // Continue even if image fails
-                };
-              }
-            })
-        )
+      // Hide all export buttons in the clone (both subcategory and main map export buttons)
+      const exportButtons = clonedNode.querySelectorAll(
+        "button[data-export-button], button[data-export-whole-map-button]"
       );
-    }
-    
-    // Additional wait to ensure everything is fully rendered
-    await new Promise((r) => setTimeout(r, 100));
+      exportButtons.forEach((button) => {
+        (button as HTMLElement).style.display = "none";
+      });
 
-    // Use higher pixel ratio for better image quality (3-4x for crisp images)
-    const basePixelRatio = window.devicePixelRatio || 1;
-    const pixelRatio = Math.min(4, Math.max(3, basePixelRatio * 2));
-    
-    const dataUrl = await htmlToImage.toPng(clonedNode, {
-      cacheBust: false,
-      backgroundColor: "#ffffff",
-      pixelRatio: pixelRatio,
-      imagePlaceholder: EXPORT_IMAGE_PLACEHOLDER,
-    });
+      // Append the clone to the container
+      invisibleContainer.appendChild(clonedNode);
 
-    const safe = (s: string) =>
-      s.replace(/[\/\\?%*:|"<>]/g, "-").replace(/\s+/g, "-");
+      // Wait for the clone to be rendered and images to load
+      await new Promise((r) => requestAnimationFrame(r));
+      await new Promise((r) => requestAnimationFrame(r));
+      await new Promise((r) => setTimeout(r, 200));
 
-    const a = document.createElement("a");
-    a.href = dataUrl;
-    a.download = `${safe(category.name)}-Ecosystem-Map.png`;
-    document.body.appendChild(a);
-    a.click();
-    a.remove();
+      // Wait for all images in the clone to load at full resolution
+      const images = clonedNode.querySelectorAll("img");
+      if (images.length > 0) {
+        await Promise.all(
+          Array.from(images).map(
+            (img) =>
+              new Promise<void>((resolve) => {
+                // Ensure images are loaded at full resolution
+                if (img.complete && img.naturalWidth > 0) {
+                  resolve();
+                } else {
+                  const timeout = setTimeout(() => resolve(), 3000); // Timeout after 3s
+                  img.onload = () => {
+                    clearTimeout(timeout);
+                    resolve();
+                  };
+                  img.onerror = () => {
+                    clearTimeout(timeout);
+                    resolve(); // Continue even if image fails
+                  };
+                }
+              })
+          )
+        );
+      }
 
-    // Clean up: remove the invisible container and clone
-    invisibleContainer.remove();
-    setExportingWholeMap(false);
-  } catch (err) {
-    console.error("Export failed:", err);
-    // Clean up container in case of error
-    const container = document.querySelector('[data-export-container]');
-    if (container) {
-      container.remove();
-    }
-    setExportingWholeMap(false);
+      // Additional wait to ensure everything is fully rendered
+      await new Promise((r) => setTimeout(r, 100));
+
+      // Use higher pixel ratio for better image quality (3-4x for crisp images)
+      const basePixelRatio = window.devicePixelRatio || 1;
+      const pixelRatio = Math.min(4, Math.max(3, basePixelRatio * 2));
+
+      const dataUrl = await htmlToImage.toPng(clonedNode, {
+        cacheBust: false,
+        backgroundColor: "#ffffff",
+        pixelRatio: pixelRatio,
+        imagePlaceholder: EXPORT_IMAGE_PLACEHOLDER,
+      });
+
+      const safe = (s: string) =>
+        s.replace(/[\/\\?%*:|"<>]/g, "-").replace(/\s+/g, "-");
+
+      const a = document.createElement("a");
+      a.href = dataUrl;
+      a.download = `${safe(category.name)}-Ecosystem-Map.png`;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+
+      // Clean up: remove the invisible container and clone
+      invisibleContainer.remove();
+      setExportingWholeMap(false);
+    } catch (err) {
+      console.error("Export failed:", err);
+      // Clean up container in case of error
+      const container = document.querySelector("[data-export-container]");
+      if (container) {
+        container.remove();
+      }
+      setExportingWholeMap(false);
     }
   };
 
-  const subcategoryItems = sortedSubcategories.map((subcategory, sortIndex) => ({
-    subcategory,
-    sortIndex,
-    projectCount: countSubcategoryProjects(subcategory),
-  }));
+  const subcategoryItems = sortedSubcategories.map(
+    (subcategory, sortIndex) => ({
+      subcategory,
+      sortIndex,
+      projectCount: countSubcategoryProjects(subcategory),
+    })
+  );
 
   const compactSubcategories = subcategoryItems.filter(
     (item) => item.projectCount < 6
@@ -443,7 +478,9 @@ async function exportSubcategoryPng(subcategory: Subcategory) {
       <div
         key={refKey}
         ref={setSubcatRef(refKey)}
-        className={`relative ${isCompactSubcategory ? "py-4 px-2" : "p-4"} ${columnSpanClass} justify-self-start self-end w-fit max-w-full`}
+        className={`relative ${
+          isCompactSubcategory ? "py-4 px-2" : "p-4"
+        } ${columnSpanClass} justify-self-start self-end w-fit max-w-full`}
         onMouseEnter={() => setHoveredSubcategoryKey(refKey)}
         onMouseLeave={() => setHoveredSubcategoryKey(null)}
       >
@@ -457,11 +494,11 @@ async function exportSubcategoryPng(subcategory: Subcategory) {
             data-export-button
             onClick={() => exportSubcategoryPng(subcategory)}
             disabled={isExporting || exportingWholeMap}
-            style={exportingWholeMap ? { display: 'none' } : undefined}
+            style={exportingWholeMap ? { display: "none" } : undefined}
             className={`cursor-pointer absolute right-3 top-3 z-50 inline-flex items-center gap-1 rounded border border-black bg-white px-2 py-1 text-xs text-black hover:bg-gray-50 disabled:opacity-60 transition-opacity duration-200 ${
-              isHovered 
-                ? 'md:opacity-80 max-md:opacity-80' 
-                : 'md:opacity-0 max-md:opacity-80'
+              isHovered
+                ? "md:opacity-80 max-md:opacity-80"
+                : "md:opacity-0 max-md:opacity-80"
             }`}
             title="Export this section"
           >
@@ -516,7 +553,7 @@ async function exportSubcategoryPng(subcategory: Subcategory) {
           onClick={() => exportWholeMap()}
           disabled={exportingWholeMap}
           className={`inline-flex items-center gap-1.5 rounded border cursor-pointer border-black bg-white px-3 py-1.5 text-sm text-black hover:bg-gray-50 disabled:opacity-60 transition-opacity duration-200 max-[568px]:px-2 max-[568px]:py-1 max-[568px]:text-xs ${
-            hoveredMapBox ? 'md:opacity-80' : 'md:opacity-0'
+            hoveredMapBox ? "md:opacity-80" : "md:opacity-0"
           } max-md:opacity-80`}
           title="Export entire ecosystem map"
         >
@@ -611,7 +648,6 @@ async function exportSubcategoryPng(subcategory: Subcategory) {
   );
 }
 
-
 function ProjectLogo({
   project,
   categoryName,
@@ -629,7 +665,7 @@ function ProjectLogo({
   const uniqueId = `${project.id}-${categoryName}-${subcategoryName}`;
   const isOpen = openPopoverId === uniqueId;
   const [imageError, setImageError] = useState(false);
-  
+
   return (
     <Popover
       open={isOpen}
@@ -655,8 +691,11 @@ function ProjectLogo({
                   className="h-full w-full object-contain rounded-full"
                   onError={(e) => {
                     const img = e.currentTarget;
-                    const fallback = getLocalhostFallback(project.logoUrl || "");
-                    const attempted = img.dataset.localFallbackAttempted === "1";
+                    const fallback = getLocalhostFallback(
+                      project.logoUrl || ""
+                    );
+                    const attempted =
+                      img.dataset.localFallbackAttempted === "1";
 
                     if (!attempted && fallback && img.src !== fallback) {
                       img.dataset.localFallbackAttempted = "1";
@@ -878,7 +917,20 @@ function getSubcategoryStyle(index: number) {
 
 function formatDate() {
   const today = new Date();
-  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const months = [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+  ];
   const month = months[today.getMonth()];
   const day = today.getDate();
   const year = today.getFullYear();
@@ -887,15 +939,15 @@ function formatDate() {
 
 function formatProjectName(name: string, maxLength: number = 20): string {
   // Remove parenthetical content
-  let formatted = name.replace(/\s*\([^)]*\)/g, '');
-  
+  let formatted = name.replace(/\s*\([^)]*\)/g, "");
+
   // If length exceeds maxLength, remove last word repeatedly
   while (formatted.length > maxLength) {
     const words = formatted.trim().split(/\s+/);
     if (words.length <= 1) break; // Can't remove more words
     words.pop(); // Remove last word
-    formatted = words.join(' ');
+    formatted = words.join(" ");
   }
-  
+
   return formatted;
 }

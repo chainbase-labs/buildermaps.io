@@ -5,7 +5,10 @@ import { SiMedium } from "react-icons/si";
 
 import type { Category, Project } from "../lib/category-utils";
 import { sortProjects } from "../lib/category-utils";
-import { getProductionImageUrl, getLocalhostFallback } from "../utils/image-fallback";
+import {
+  getProductionImageUrl,
+  getLocalhostFallback,
+} from "../utils/image-fallback";
 
 interface CardViewProps {
   category: Category;
@@ -29,7 +32,9 @@ export function CardView({ category }: CardViewProps) {
       {groups.map((group) => (
         <div key={group.title} className="space-y-5">
           <div className="border-l-4 border-blue-500 bg-blue-50/80 px-5 py-3">
-            <h3 className="text-sm text-blue-900 linux-libertine">{group.title}</h3>
+            <h3 className="text-sm text-blue-900 linux-libertine">
+              {group.title}
+            </h3>
           </div>
           <div className="space-y-8">
             {group.sections.map((section) => (
@@ -229,4 +234,3 @@ function ProjectCard({
     </div>
   );
 }
-

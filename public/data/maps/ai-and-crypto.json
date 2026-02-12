@@ -77,13 +77,7 @@
     {
       "id": "inference",
       "name": "Inference",
-      "projects": [
-        "aizel-network",
-        "giza",
-        "hyperbolic",
-        "kuzu",
-        "wayfinder"
-      ]
+      "projects": ["aizel-network", "giza", "hyperbolic", "kuzu", "wayfinder"]
     },
     {
       "id": "infra",

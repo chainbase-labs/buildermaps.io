@@ -1,18 +1,18 @@
-
 export function getProductionImageUrl(imageUrl: string): string {
   // Check if we're on net-static-dev.chainbasehq.com/buildermaps
-  const isNetStaticDev = window.location.hostname === 'net-static-dev.chainbasehq.com';
-  const isBuildermapsPath = window.location.pathname.startsWith('/buildermaps');
-  
+  const isNetStaticDev =
+    window.location.hostname === "net-static-dev.chainbasehq.com";
+  const isBuildermapsPath = window.location.pathname.startsWith("/buildermaps");
+
   if (!isNetStaticDev || !isBuildermapsPath) {
     return imageUrl;
   }
 
   // Check if it's a relative path like /imgs/alphakek.jpg
-  if (imageUrl.startsWith('/imgs/')) {
-    const filename = imageUrl.replace('/imgs/', '');
+  if (imageUrl.startsWith("/imgs/")) {
+    const filename = imageUrl.replace("/imgs/", "");
     // Ensure '+' in path segments is encoded as '%2B'
-    const safeFilename = filename.replace(/\+/g, '%2B');
+    const safeFilename = filename.replace(/\+/g, "%2B");
     return `https://net-static-dev.chainbasehq.com/public/buildermaps/imgs/${safeFilename}`;
   }
 
@@ -20,12 +20,12 @@ export function getProductionImageUrl(imageUrl: string): string {
   return imageUrl;
 }
 
-
 export function getLocalhostFallback(imageUrl: string): string | null {
   // Check if we're on net-static-dev.chainbasehq.com/buildermaps
-  const isNetStaticDev = window.location.hostname === 'net-static-dev.chainbasehq.com';
-  const isBuildermapsPath = window.location.pathname.startsWith('/buildermaps');
-  
+  const isNetStaticDev =
+    window.location.hostname === "net-static-dev.chainbasehq.com";
+  const isBuildermapsPath = window.location.pathname.startsWith("/buildermaps");
+
   if (!isNetStaticDev || !isBuildermapsPath) {
     return null;
   }
@@ -33,14 +33,15 @@ export function getLocalhostFallback(imageUrl: string): string | null {
   let filename: string;
 
   // Check if it's a net-static-dev.chainbasehq.com/public/buildermaps/imgs/ URL
-  const productionPattern = /^https?:\/\/net-static-dev\.chainbasehq\.com\/public\/buildermaps\/imgs\/(.+)$/i;
+  const productionPattern =
+    /^https?:\/\/net-static-dev\.chainbasehq\.com\/public\/buildermaps\/imgs\/(.+)$/i;
   const productionMatch = imageUrl.match(productionPattern);
-  
+
   if (productionMatch) {
     filename = productionMatch[1];
-  } else if (imageUrl.startsWith('/imgs/')) {
+  } else if (imageUrl.startsWith("/imgs/")) {
     // It's a relative path like /imgs/alphakek.jpg
-    filename = imageUrl.replace('/imgs/', '');
+    filename = imageUrl.replace("/imgs/", "");
   } else {
     return null;
   }
@@ -48,4 +49,3 @@ export function getLocalhostFallback(imageUrl: string): string | null {
   // Hardcoded localhost:8080
   return `http://localhost:8080/imgs/${filename}`;
 }
-

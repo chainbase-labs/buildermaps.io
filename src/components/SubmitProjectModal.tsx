@@ -1,47 +1,104 @@
-import { useState, useEffect, createContext, useContext, ReactNode, useRef } from 'react';
-import { Modal, Box, IconButton, Typography } from '@mui/material';
-import { Close as CloseIcon } from '@mui/icons-material';
-import { useForm } from 'react-hook-form';
-import { useQuery } from '@tanstack/react-query';
-import { fetchCategories, type Category, type Subcategory } from '../lib/category-utils';
-import { Button } from './ui/button';
-import { Input } from './ui/input';
-import { Textarea } from './ui/textarea';
-import { Label } from './ui/label';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from './ui/card';
-import { Link as LinkIcon, Plus, Check } from 'lucide-react';
-import toast from 'react-hot-toast';
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from './ui/dialog';
+import {
+  useState,
+  useEffect,
+  createContext,
+  useContext,
+  ReactNode,
+  useRef,
+} from "react";
+import { Modal, Box, IconButton, Typography } from "@mui/material";
+import { Close as CloseIcon } from "@mui/icons-material";
+import { useForm } from "react-hook-form";
+import { useQuery } from "@tanstack/react-query";
+import {
+  fetchCategories,
+  type Category,
+  type Subcategory,
+} from "../lib/category-utils";
+import { Button } from "./ui/button";
+import { Input } from "./ui/input";
+import { Textarea } from "./ui/textarea";
+import { Label } from "./ui/label";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "./ui/select";
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+  CardDescription,
+} from "./ui/card";
+import { Link as LinkIcon, Plus, Check } from "lucide-react";
+import toast from "react-hot-toast";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "./ui/dialog";
 
 // Context for managing modal state
 interface SubmitProjectModalContextType {
   open: boolean;
-  setOpen: (open: boolean, initialValues?: { categoryId?: string; subcategoryName?: string; lockCategory?: boolean }) => void;
+  setOpen: (
+    open: boolean,
+    initialValues?: {
+      categoryId?: string;
+      subcategoryName?: string;
+      lockCategory?: boolean;
+    }
+  ) => void;
   initialValues: { categoryId?: string; subcategoryName?: string };
   lockCategory: boolean;
 }
 
-const SubmitProjectModalContext = createContext<SubmitProjectModalContextType | undefined>(undefined);
+const SubmitProjectModalContext = createContext<
+  SubmitProjectModalContextType | undefined
+>(undefined);
 
 export function useSubmitProjectModal() {
   const context = useContext(SubmitProjectModalContext);
   if (!context) {
-    throw new Error('useSubmitProjectModal must be used within SubmitProjectModalProvider');
+    throw new Error(
+      "useSubmitProjectModal must be used within SubmitProjectModalProvider"
+    );
   }
   return context;
 }
 
 // Provider component
-export function SubmitProjectModalProvider({ children }: { children: ReactNode }) {
+export function SubmitProjectModalProvider({
+  children,
+}: {
+  children: ReactNode;
+}) {
   const [open, setOpen] = useState(false);
-  const [initialValues, setInitialValues] = useState<{ categoryId?: string; subcategoryName?: string }>({});
+  const [initialValues, setInitialValues] = useState<{
+    categoryId?: string;
+    subcategoryName?: string;
+  }>({});
   const [lockCategory, setLockCategory] = useState(false);
 
-  const handleSetOpen = (isOpen: boolean, values?: { categoryId?: string; subcategoryName?: string; lockCategory?: boolean }) => {
+  const handleSetOpen = (
+    isOpen: boolean,
+    values?: {
+      categoryId?: string;
+      subcategoryName?: string;
+      lockCategory?: boolean;
+    }
+  ) => {
     setOpen(isOpen);
     if (isOpen && values) {
-      setInitialValues({ categoryId: values.categoryId, subcategoryName: values.subcategoryName });
+      setInitialValues({
+        categoryId: values.categoryId,
+        subcategoryName: values.subcategoryName,
+      });
       setLockCategory(values.lockCategory || false);
     } else if (!isOpen) {
       setInitialValues({});
@@ -50,7 +107,9 @@ export function SubmitProjectModalProvider({ children }: { children: ReactNode }
   };
 
   return (
-    <SubmitProjectModalContext.Provider value={{ open, setOpen: handleSetOpen, initialValues, lockCategory }}>
+    <SubmitProjectModalContext.Provider
+      value={{ open, setOpen: handleSetOpen, initialValues, lockCategory }}
+    >
       {children}
       <SubmitProjectModalContent />
     </SubmitProjectModalContext.Provider>
@@ -61,7 +120,11 @@ export function SubmitProjectModalProvider({ children }: { children: ReactNode }
 function loadAllProjects(): any[] {
   try {
     // @ts-ignore - require.context is a webpack feature
-    const projectsContext = require.context("../../public/data/projects", false, /\.json$/);
+    const projectsContext = require.context(
+      "../../public/data/projects",
+      false,
+      /\.json$/
+    );
     const projects: any[] = [];
     projectsContext.keys().forEach((key: string) => {
       const project = projectsContext(key);
@@ -71,7 +134,7 @@ function loadAllProjects(): any[] {
     });
     return projects;
   } catch (error) {
-    console.error('Error loading projects:', error);
+    console.error("Error loading projects:", error);
     return [];
   }
 }
@@ -81,20 +144,22 @@ function searchProjectByName(projectName: string): any | null {
   if (!projectName || projectName.trim().length === 0) {
     return null;
   }
-  
+
   const projects = loadAllProjects();
   const normalizedSearchName = projectName.trim().toLowerCase();
-  
+
   // Try exact match first (case-insensitive)
-  let match = projects.find(p => p.name && p.name.toLowerCase() === normalizedSearchName);
-  
+  let match = projects.find(
+    (p) => p.name && p.name.toLowerCase() === normalizedSearchName
+  );
+
   // If no exact match, try partial match
   if (!match) {
-    match = projects.find(p => 
-      p.name && p.name.toLowerCase().includes(normalizedSearchName)
+    match = projects.find(
+      (p) => p.name && p.name.toLowerCase().includes(normalizedSearchName)
     );
   }
-  
+
   return match || null;
 }
 
@@ -103,41 +168,54 @@ function normalizeLogoUrl(url: string): string {
   if (!url || !url.trim()) {
     return url;
   }
-  
+
   const trimmedUrl = url.trim();
-  
+
   // If it starts with '/', add the buildermaps.io domain
-  if (trimmedUrl.startsWith('/')) {
+  if (trimmedUrl.startsWith("/")) {
     return `https://buildermaps.io${trimmedUrl}`;
   }
-  
+
   // If it's already a full URL, return as is
   return trimmedUrl;
 }
 
 // Modal content component
 function SubmitProjectModalContent() {
-  const { open, setOpen, initialValues, lockCategory } = useSubmitProjectModal();
-  const [logoPreview, setLogoPreview] = useState<string>('');
+  const { open, setOpen, initialValues, lockCategory } =
+    useSubmitProjectModal();
+  const [logoPreview, setLogoPreview] = useState<string>("");
   const [categoryData, setCategoryData] = useState<Category[]>([]);
-  const [selectedCategory, setSelectedCategory] = useState<Category | null>(null);
-  const [selectedSubcategory, setSelectedSubcategory] = useState<Subcategory | null>(null);
+  const [selectedCategory, setSelectedCategory] = useState<Category | null>(
+    null
+  );
+  const [selectedSubcategory, setSelectedSubcategory] =
+    useState<Subcategory | null>(null);
   const [initialValuesApplied, setInitialValuesApplied] = useState(false);
   const [isAutoFilling, setIsAutoFilling] = useState(false);
   const searchTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const lastAutoFilledProjectNameRef = useRef<string | null>(null);
-  const originalAutoFilledValuesRef = useRef<Partial<ProjectFormData> | null>(null);
+  const originalAutoFilledValuesRef = useRef<Partial<ProjectFormData> | null>(
+    null
+  );
   const originalProjectJsonRef = useRef<any | null>(null);
-  const originalCategoryRef = useRef<{ categoryId: string; subcategoryName: string } | null>(null);
-  
+  const originalCategoryRef = useRef<{
+    categoryId: string;
+    subcategoryName: string;
+  } | null>(null);
+
   // New category/subcategory dialogs
   const [newCategoryDialog, setNewCategoryDialog] = useState(false);
   const [newSubcategoryDialog, setNewSubcategoryDialog] = useState(false);
-  const [newCategoryName, setNewCategoryName] = useState('');
-  const [newSubcategoryName, setNewSubcategoryName] = useState('');
+  const [newCategoryName, setNewCategoryName] = useState("");
+  const [newSubcategoryName, setNewSubcategoryName] = useState("");
 
-  const { data: categories, isLoading, error } = useQuery({
-    queryKey: ['categories'],
+  const {
+    data: categories,
+    isLoading,
+    error,
+  } = useQuery({
+    queryKey: ["categories"],
     queryFn: fetchCategories,
   });
 
@@ -165,18 +243,18 @@ function SubmitProjectModalContent() {
     formState: { errors },
   } = useForm<ProjectFormData>();
 
-  const watchCategoryId = watch('categoryId');
-  const watchSubcategoryName = watch('subcategoryName');
-  const watchLogoUrl = watch('logo');
-  const watchProjectName = watch('name');
-  const watchDescription = watch('description');
-  const watchFounded = watch('founded');
-  const watchRaised = watch('raised');
-  const watchWebsite = watch('website');
-  const watchTwitter = watch('twitter');
-  const watchGithub = watch('github');
-  const watchLocation = watch('location');
-  
+  const watchCategoryId = watch("categoryId");
+  const watchSubcategoryName = watch("subcategoryName");
+  const watchLogoUrl = watch("logo");
+  const watchProjectName = watch("name");
+  const watchDescription = watch("description");
+  const watchFounded = watch("founded");
+  const watchRaised = watch("raised");
+  const watchWebsite = watch("website");
+  const watchTwitter = watch("twitter");
+  const watchGithub = watch("github");
+  const watchLocation = watch("location");
+
   // Watch all form values to trigger re-renders when they change
   const allFormValues = watch();
 
@@ -184,7 +262,7 @@ function SubmitProjectModalContent() {
   useEffect(() => {
     if (!open) {
       reset();
-      setLogoPreview('');
+      setLogoPreview("");
       setSelectedCategory(null);
       setSelectedSubcategory(null);
       setInitialValuesApplied(false);
@@ -214,12 +292,16 @@ function SubmitProjectModalContent() {
     }
 
     // Don't search if name is empty or if we're currently auto-filling
-    if (!watchProjectName || watchProjectName.trim().length === 0 || isAutoFilling) {
+    if (
+      !watchProjectName ||
+      watchProjectName.trim().length === 0 ||
+      isAutoFilling
+    ) {
       return;
     }
 
     const normalizedName = watchProjectName.trim().toLowerCase();
-    
+
     // Don't search if we've already auto-filled for this exact project name
     // This prevents infinite loops when setValue triggers re-renders
     if (lastAutoFilledProjectNameRef.current === normalizedName) {
@@ -229,70 +311,71 @@ function SubmitProjectModalContent() {
     // Set up debounced search (3 seconds)
     searchTimeoutRef.current = setTimeout(() => {
       const matchedProject = searchProjectByName(watchProjectName);
-      
+
       if (matchedProject) {
         // Mark that we've auto-filled for this project name
         lastAutoFilledProjectNameRef.current = normalizedName;
         // Immediately clear original values to ensure button is disabled
         originalAutoFilledValuesRef.current = null;
         setIsAutoFilling(true);
-        
+
         // Auto-fill form fields
         if (matchedProject.description) {
-          setValue('description', matchedProject.description);
+          setValue("description", matchedProject.description);
         }
-        
+
         if (matchedProject.founded) {
-          setValue('founded', String(matchedProject.founded));
+          setValue("founded", String(matchedProject.founded));
         }
-        
+
         if (matchedProject.funding) {
           // Format funding value for display
           const funding = matchedProject.funding;
-          if (typeof funding === 'number') {
+          if (typeof funding === "number") {
             if (funding >= 1000000000) {
-              setValue('raised', `$${(funding / 1000000000).toFixed(1)}B`);
+              setValue("raised", `$${(funding / 1000000000).toFixed(1)}B`);
             } else if (funding >= 1000000) {
-              setValue('raised', `$${(funding / 1000000).toFixed(1)}M`);
+              setValue("raised", `$${(funding / 1000000).toFixed(1)}M`);
             } else if (funding >= 1000) {
-              setValue('raised', `$${(funding / 1000).toFixed(1)}K`);
+              setValue("raised", `$${(funding / 1000).toFixed(1)}K`);
             } else {
-              setValue('raised', `$${funding}`);
+              setValue("raised", `$${funding}`);
             }
           } else {
-            setValue('raised', String(funding));
+            setValue("raised", String(funding));
           }
         }
-        
+
         if (matchedProject.links) {
           if (matchedProject.links.homepage) {
-            setValue('website', matchedProject.links.homepage);
+            setValue("website", matchedProject.links.homepage);
           }
           if (matchedProject.links.logo) {
-            setValue('logo', normalizeLogoUrl(matchedProject.links.logo));
+            setValue("logo", normalizeLogoUrl(matchedProject.links.logo));
           }
           if (matchedProject.links.twitter) {
-            setValue('twitter', matchedProject.links.twitter);
+            setValue("twitter", matchedProject.links.twitter);
           }
           if (matchedProject.links.github) {
-            setValue('github', matchedProject.links.github);
+            setValue("github", matchedProject.links.github);
           }
         }
-        
+
         // Prepare original values for comparison
-        let foundCategoryId = '';
-        let foundSubcategoryName = '';
-        
+        let foundCategoryId = "";
+        let foundSubcategoryName = "";
+
         // Try to find and set category/subcategory if available
         if (categoryData.length > 0) {
           // Search through categories to find where this project belongs
           let found = false;
-          
+
           for (const category of categoryData) {
             if (found) break;
             for (const subcategory of category.subcategories) {
               const projectInSubcategory = subcategory.projects.find(
-                p => p.id === matchedProject.id || p.name === matchedProject.name
+                (p) =>
+                  p.id === matchedProject.id || p.name === matchedProject.name
               );
               if (projectInSubcategory) {
                 foundCategoryId = category.id;
@@ -302,37 +385,37 @@ function SubmitProjectModalContent() {
               }
             }
           }
-          
+
           // Set category first, then subcategory after a delay to ensure category is set
           if (found) {
             // Set category first
-            setValue('categoryId', foundCategoryId);
+            setValue("categoryId", foundCategoryId);
             // Use a small delay to ensure category is set first before setting subcategory
             // This also allows the selectedCategory state to update before we set the subcategory
             setTimeout(() => {
-              setValue('subcategoryName', foundSubcategoryName);
+              setValue("subcategoryName", foundSubcategoryName);
             }, 200);
           }
         }
 
         // Calculate formatted funding value
-        const formattedFunding = matchedProject.funding 
-          ? (typeof matchedProject.funding === 'number'
-            ? (matchedProject.funding >= 1000000000
+        const formattedFunding = matchedProject.funding
+          ? typeof matchedProject.funding === "number"
+            ? matchedProject.funding >= 1000000000
               ? `$${(matchedProject.funding / 1000000000).toFixed(1)}B`
               : matchedProject.funding >= 1000000
               ? `$${(matchedProject.funding / 1000000).toFixed(1)}M`
               : matchedProject.funding >= 1000
               ? `$${(matchedProject.funding / 1000).toFixed(1)}K`
-              : `$${matchedProject.funding}`)
-            : String(matchedProject.funding))
-          : '';
+              : `$${matchedProject.funding}`
+            : String(matchedProject.funding)
+          : "";
 
         // Store original project JSON for comparison
         originalProjectJsonRef.current = {
           id: matchedProject.id,
           name: matchedProject.name,
-          description: matchedProject.description || '',
+          description: matchedProject.description || "",
           founded: matchedProject.founded ?? null,
           funding: matchedProject.funding ?? null,
           links: matchedProject.links || {},
@@ -353,27 +436,27 @@ function SubmitProjectModalContent() {
           // Get the actual current form values to ensure we capture exactly what was set
           const currentFormValues = getValues();
           const originalValues: Partial<ProjectFormData> = {
-            name: currentFormValues.name || '',
-            description: currentFormValues.description || '',
-            founded: currentFormValues.founded || '',
-            raised: currentFormValues.raised || '',
-            website: currentFormValues.website || '',
-            logo: currentFormValues.logo || '',
-            twitter: currentFormValues.twitter || '',
-            github: currentFormValues.github || '',
-            categoryId: currentFormValues.categoryId || '',
-            subcategoryName: currentFormValues.subcategoryName || '',
-            location: currentFormValues.location || '', // Location might be empty, that's fine
+            name: currentFormValues.name || "",
+            description: currentFormValues.description || "",
+            founded: currentFormValues.founded || "",
+            raised: currentFormValues.raised || "",
+            website: currentFormValues.website || "",
+            logo: currentFormValues.logo || "",
+            twitter: currentFormValues.twitter || "",
+            github: currentFormValues.github || "",
+            categoryId: currentFormValues.categoryId || "",
+            subcategoryName: currentFormValues.subcategoryName || "",
+            location: currentFormValues.location || "", // Location might be empty, that's fine
           };
           originalAutoFilledValuesRef.current = originalValues;
           setIsAutoFilling(false);
         }, 400);
-        
+
         toast.success(`Found existing project: ${matchedProject.name}.`, {
           duration: 4000,
         });
       }
-      
+
       searchTimeoutRef.current = null;
     }, 1000);
 
@@ -404,47 +487,68 @@ function SubmitProjectModalContent() {
   useEffect(() => {
     if (open && initialValues.categoryId && !initialValuesApplied) {
       // Use categoryData if available, otherwise use categories directly
-      const dataToUse = categoryData.length > 0 ? categoryData : (categories || []);
-      
+      const dataToUse =
+        categoryData.length > 0 ? categoryData : categories || [];
+
       if (dataToUse.length > 0) {
         // Check if the category exists
-        const categoryExists = dataToUse.some(cat => cat.id === initialValues.categoryId);
+        const categoryExists = dataToUse.some(
+          (cat) => cat.id === initialValues.categoryId
+        );
         if (categoryExists) {
-          setValue('categoryId', initialValues.categoryId);
+          setValue("categoryId", initialValues.categoryId);
           setInitialValuesApplied(true);
           if (initialValues.subcategoryName) {
             // Use a small delay to ensure category is set first
             const timer = setTimeout(() => {
-              setValue('subcategoryName', initialValues.subcategoryName!);
+              setValue("subcategoryName", initialValues.subcategoryName!);
             }, 100);
             return () => clearTimeout(timer);
           }
         }
       }
     }
-  }, [open, initialValues.categoryId, initialValues.subcategoryName, categoryData, categories, setValue, initialValuesApplied]);
+  }, [
+    open,
+    initialValues.categoryId,
+    initialValues.subcategoryName,
+    categoryData,
+    categories,
+    setValue,
+    initialValuesApplied,
+  ]);
 
   // Update selected category when category changes
   useEffect(() => {
     if (watchCategoryId && categoryData.length > 0) {
-      const category = categoryData.find(cat => cat.id === watchCategoryId);
+      const category = categoryData.find((cat) => cat.id === watchCategoryId);
       setSelectedCategory(category || null);
       // Only clear subcategory if we're not setting an initial value and not auto-filling
-      if (!initialValues.subcategoryName || watchCategoryId !== initialValues.categoryId) {
+      if (
+        !initialValues.subcategoryName ||
+        watchCategoryId !== initialValues.categoryId
+      ) {
         // Don't clear if we're currently auto-filling or if subcategory is already set
         if (!isAutoFilling && !watchSubcategoryName) {
-          setValue('subcategoryName', '');
+          setValue("subcategoryName", "");
           setSelectedSubcategory(null);
         }
       }
     }
-  }, [watchCategoryId, categoryData, setValue, initialValues, isAutoFilling, watchSubcategoryName]);
+  }, [
+    watchCategoryId,
+    categoryData,
+    setValue,
+    initialValues,
+    isAutoFilling,
+    watchSubcategoryName,
+  ]);
 
   // Update selected subcategory
   useEffect(() => {
     if (selectedCategory && watchSubcategoryName) {
       const subcat = selectedCategory.subcategories.find(
-        sub => sub.name === watchSubcategoryName
+        (sub) => sub.name === watchSubcategoryName
       );
       setSelectedSubcategory(subcat || null);
     }
@@ -452,30 +556,30 @@ function SubmitProjectModalContent() {
 
   const handleAddNewCategory = () => {
     if (!newCategoryName.trim()) {
-      toast.error('Please enter a category name');
+      toast.error("Please enter a category name");
       return;
     }
 
     const newCategory: Category = {
-      id: newCategoryName.toLowerCase().replace(/\s+/g, '-'),
+      id: newCategoryName.toLowerCase().replace(/\s+/g, "-"),
       name: newCategoryName,
       subcategories: [],
     };
 
     setCategoryData([...categoryData, newCategory]);
-    setValue('categoryId', newCategory.id);
-    setNewCategoryName('');
+    setValue("categoryId", newCategory.id);
+    setNewCategoryName("");
     setNewCategoryDialog(false);
-    toast.success('Category added successfully');
+    toast.success("Category added successfully");
   };
 
   const handleAddNewSubcategory = () => {
     if (!selectedCategory) {
-      toast.error('Please select a category first');
+      toast.error("Please select a category first");
       return;
     }
     if (!newSubcategoryName.trim()) {
-      toast.error('Please enter a subcategory name');
+      toast.error("Please enter a subcategory name");
       return;
     }
 
@@ -484,7 +588,7 @@ function SubmitProjectModalContent() {
       projects: [],
     };
 
-    const updatedCategories = categoryData.map(cat => {
+    const updatedCategories = categoryData.map((cat) => {
       if (cat.id === selectedCategory.id) {
         return {
           ...cat,
@@ -495,20 +599,19 @@ function SubmitProjectModalContent() {
     });
 
     setCategoryData(updatedCategories);
-    setValue('subcategoryName', newSubcategoryName);
-    setNewSubcategoryName('');
+    setValue("subcategoryName", newSubcategoryName);
+    setNewSubcategoryName("");
     setNewSubcategoryDialog(false);
-    toast.success('Subcategory added successfully');
+    toast.success("Subcategory added successfully");
   };
-
 
   // Helper function to convert string to kebab-case
   const slugify = (text: string): string => {
     return text
       .toLowerCase()
-      .replace(/&/g, 'and')
-      .replace(/[^a-z0-9]+/g, '-')
-      .replace(/^-+|-+$/g, '');
+      .replace(/&/g, "and")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "");
   };
 
   // Helper function to parse funding value
@@ -518,9 +621,9 @@ function SubmitProjectModalContent() {
     const numberMatch = value.match(/[\d.]+/);
     if (numberMatch) {
       const num = parseFloat(numberMatch[0]);
-      if (value.toUpperCase().includes('B')) return num * 1000000000;
-      if (value.toUpperCase().includes('M')) return num * 1000000;
-      if (value.toUpperCase().includes('K')) return num * 1000;
+      if (value.toUpperCase().includes("B")) return num * 1000000000;
+      if (value.toUpperCase().includes("M")) return num * 1000000;
+      if (value.toUpperCase().includes("K")) return num * 1000;
       return num;
     }
     // If it's a funding round like "Series A", return as string
@@ -539,40 +642,64 @@ function SubmitProjectModalContent() {
     const original = originalAutoFilledValuesRef.current;
     // If no original values yet, consider form as unchanged (button stays disabled)
     if (!original) return false;
-    
+
     // Normalize values for comparison (trim and handle empty strings)
     const normalize = (val: string | undefined | null): string => {
-      return (val || '').trim();
+      return (val || "").trim();
     };
 
     // Compare all fields using current form values from watch()
     const current = allFormValues;
-    
+
     // Compare each field - return true if any field has changed
     // Handle undefined/null values by using || '' to ensure comparison works
-    if (normalize(current.name || '') !== normalize(original.name || '')) return true;
-    if (normalize(current.description || '') !== normalize(original.description || '')) return true;
-    if (normalize(current.founded || '') !== normalize(original.founded || '')) return true;
-    if (normalize(current.raised || '') !== normalize(original.raised || '')) return true;
-    if (normalize(current.website || '') !== normalize(original.website || '')) return true;
-    if (normalize(current.logo || '') !== normalize(original.logo || '')) return true;
-    if (normalize(current.twitter || '') !== normalize(original.twitter || '')) return true;
-    if (normalize(current.github || '') !== normalize(original.github || '')) return true;
-    if (normalize(current.categoryId || '') !== normalize(original.categoryId || '')) return true;
-    if (normalize(current.subcategoryName || '') !== normalize(original.subcategoryName || '')) return true;
+    if (normalize(current.name || "") !== normalize(original.name || ""))
+      return true;
+    if (
+      normalize(current.description || "") !==
+      normalize(original.description || "")
+    )
+      return true;
+    if (normalize(current.founded || "") !== normalize(original.founded || ""))
+      return true;
+    if (normalize(current.raised || "") !== normalize(original.raised || ""))
+      return true;
+    if (normalize(current.website || "") !== normalize(original.website || ""))
+      return true;
+    if (normalize(current.logo || "") !== normalize(original.logo || ""))
+      return true;
+    if (normalize(current.twitter || "") !== normalize(original.twitter || ""))
+      return true;
+    if (normalize(current.github || "") !== normalize(original.github || ""))
+      return true;
+    if (
+      normalize(current.categoryId || "") !==
+      normalize(original.categoryId || "")
+    )
+      return true;
+    if (
+      normalize(current.subcategoryName || "") !==
+      normalize(original.subcategoryName || "")
+    )
+      return true;
     // Include location in comparison
-    if (normalize(current.location || '') !== normalize(original.location || '')) return true;
-    
+    if (
+      normalize(current.location || "") !== normalize(original.location || "")
+    )
+      return true;
+
     return false;
   };
-  
+
   // Check if we're in update mode
-  const isUpdateMode = lastAutoFilledProjectNameRef.current === (watchProjectName?.trim().toLowerCase() || '');
-  
+  const isUpdateMode =
+    lastAutoFilledProjectNameRef.current ===
+    (watchProjectName?.trim().toLowerCase() || "");
+
   // Check if form has changed (only relevant in update mode)
   // In update mode: disabled if no changes, enabled if changes
   const formHasChanged = hasFormChanged();
-  
+
   // Button should be disabled if:
   // - We're in update mode AND form hasn't changed
   const shouldDisableButton = isUpdateMode && !formHasChanged;
@@ -589,7 +716,7 @@ function SubmitProjectModalContent() {
     const projectJson = {
       id: projectId,
       name: data.name,
-      description: data.description || '',
+      description: data.description || "",
       founded: parseFounded(data.founded),
       funding: parseFunding(data.raised),
       links: {
@@ -601,99 +728,168 @@ function SubmitProjectModalContent() {
     };
 
     // Build map JSON snippet
-    const selectedCategoryObj = categoryData.find(cat => cat.id === data.categoryId);
+    const selectedCategoryObj = categoryData.find(
+      (cat) => cat.id === data.categoryId
+    );
     const sectorName = selectedCategoryObj?.name || data.categoryId;
     const typeName = data.subcategoryName;
     const typeId = slugify(typeName);
 
     // Build GitHub issue URL
-    const title = encodeURIComponent(isUpdate ? `Update Project: ${data.name}` : `Add Project: ${data.name}`);
-    const labels = encodeURIComponent(isUpdate ? 'project:update' : 'project:add');
-    
-    let body = '';
-    
+    const title = encodeURIComponent(
+      isUpdate ? `Update Project: ${data.name}` : `Add Project: ${data.name}`
+    );
+    const labels = encodeURIComponent(
+      isUpdate ? "project:update" : "project:add"
+    );
+
+    let body = "";
+
     if (isUpdate && originalProjectJsonRef.current) {
       // Generate diff for update
       const original = originalProjectJsonRef.current;
       const changes: string[] = [];
-      
+
       // Compare project fields (skip name as it shouldn't change in update mode)
       if (projectJson.description !== original.description) {
-        changes.push(`- **Description**: "${original.description}" → "${projectJson.description}"`);
+        changes.push(
+          `- **Description**: "${original.description}" → "${projectJson.description}"`
+        );
       }
       if (projectJson.founded !== original.founded) {
-        changes.push(`- **Founded**: ${original.founded ?? 'null'} → ${projectJson.founded ?? 'null'}`);
+        changes.push(
+          `- **Founded**: ${original.founded ?? "null"} → ${
+            projectJson.founded ?? "null"
+          }`
+        );
       }
-      if (JSON.stringify(projectJson.funding) !== JSON.stringify(original.funding)) {
-        changes.push(`- **Funding**: ${JSON.stringify(original.funding)} → ${JSON.stringify(projectJson.funding)}`);
+      if (
+        JSON.stringify(projectJson.funding) !== JSON.stringify(original.funding)
+      ) {
+        changes.push(
+          `- **Funding**: ${JSON.stringify(
+            original.funding
+          )} → ${JSON.stringify(projectJson.funding)}`
+        );
       }
-      
+
       // Compare links - only show if actually changed
       const originalLinks: any = original.links || {};
       const newLinks: any = projectJson.links || {};
-      
+
       // Normalize logo URLs for comparison (remove domain prefix for comparison)
       const normalizeLogoForComparison = (url: string | undefined): string => {
-        if (!url) return '';
+        if (!url) return "";
         // Remove https://buildermaps.io prefix if present for comparison
-        return url.replace(/^https:\/\/buildermaps\.io/, '').trim();
+        return url.replace(/^https:\/\/buildermaps\.io/, "").trim();
       };
-      
-      const originalHomepage = (originalLinks.homepage || '').trim();
-      const newHomepage = (newLinks.homepage || '').trim();
-      if (originalHomepage !== newHomepage && !(originalHomepage === '' && newHomepage === '')) {
-        changes.push(`- **Homepage**: "${originalHomepage || '(empty)'}" → "${newHomepage || '(empty)'}"`);
+
+      const originalHomepage = (originalLinks.homepage || "").trim();
+      const newHomepage = (newLinks.homepage || "").trim();
+      if (
+        originalHomepage !== newHomepage &&
+        !(originalHomepage === "" && newHomepage === "")
+      ) {
+        changes.push(
+          `- **Homepage**: "${originalHomepage || "(empty)"}" → "${
+            newHomepage || "(empty)"
+          }"`
+        );
       }
-      
+
       const originalLogo = normalizeLogoForComparison(originalLinks.logo);
       const newLogo = normalizeLogoForComparison(newLinks.logo);
-      if (originalLogo !== newLogo && !(originalLogo === '' && newLogo === '')) {
+      if (
+        originalLogo !== newLogo &&
+        !(originalLogo === "" && newLogo === "")
+      ) {
         // Remove https://buildermaps.io prefix for display in issue
-        const displayOriginalLogo = originalLinks.logo ? originalLinks.logo.replace(/^https:\/\/buildermaps\.io/, '') : '(empty)';
-        const displayNewLogo = newLinks.logo ? newLinks.logo.replace(/^https:\/\/buildermaps\.io/, '') : '(empty)';
-        changes.push(`- **Logo**: "${displayOriginalLogo}" → "${displayNewLogo}"`);
+        const displayOriginalLogo = originalLinks.logo
+          ? originalLinks.logo.replace(/^https:\/\/buildermaps\.io/, "")
+          : "(empty)";
+        const displayNewLogo = newLinks.logo
+          ? newLinks.logo.replace(/^https:\/\/buildermaps\.io/, "")
+          : "(empty)";
+        changes.push(
+          `- **Logo**: "${displayOriginalLogo}" → "${displayNewLogo}"`
+        );
       }
-      
-      const originalTwitter = (originalLinks.twitter || '').trim();
-      const newTwitter = (newLinks.twitter || '').trim();
-      if (originalTwitter !== newTwitter && !(originalTwitter === '' && newTwitter === '')) {
-        changes.push(`- **Twitter**: "${originalTwitter || '(empty)'}" → "${newTwitter || '(empty)'}"`);
+
+      const originalTwitter = (originalLinks.twitter || "").trim();
+      const newTwitter = (newLinks.twitter || "").trim();
+      if (
+        originalTwitter !== newTwitter &&
+        !(originalTwitter === "" && newTwitter === "")
+      ) {
+        changes.push(
+          `- **Twitter**: "${originalTwitter || "(empty)"}" → "${
+            newTwitter || "(empty)"
+          }"`
+        );
       }
-      
-      const originalGithub = (originalLinks.github || '').trim();
-      const newGithub = (newLinks.github || '').trim();
-      if (originalGithub !== newGithub && !(originalGithub === '' && newGithub === '')) {
-        changes.push(`- **GitHub**: "${originalGithub || '(empty)'}" → "${newGithub || '(empty)'}"`);
+
+      const originalGithub = (originalLinks.github || "").trim();
+      const newGithub = (newLinks.github || "").trim();
+      if (
+        originalGithub !== newGithub &&
+        !(originalGithub === "" && newGithub === "")
+      ) {
+        changes.push(
+          `- **GitHub**: "${originalGithub || "(empty)"}" → "${
+            newGithub || "(empty)"
+          }"`
+        );
       }
-      
+
       // Compare location (stored in form values, not in project JSON)
       const originalValues = originalAutoFilledValuesRef.current;
       if (originalValues) {
-        const originalLocation = (originalValues.location || '').trim();
-        const newLocation = (data.location || '').trim();
-        if (originalLocation !== newLocation && !(originalLocation === '' && newLocation === '')) {
-          changes.push(`- **Location**: "${originalLocation || '(empty)'}" → "${newLocation || '(empty)'}"`);
+        const originalLocation = (originalValues.location || "").trim();
+        const newLocation = (data.location || "").trim();
+        if (
+          originalLocation !== newLocation &&
+          !(originalLocation === "" && newLocation === "")
+        ) {
+          changes.push(
+            `- **Location**: "${originalLocation || "(empty)"}" → "${
+              newLocation || "(empty)"
+            }"`
+          );
         }
       }
-      
+
       // Compare category/subcategory
       const originalCategory = originalCategoryRef.current;
       if (originalCategory) {
         if (data.categoryId !== originalCategory.categoryId) {
-          const oldCategory = categoryData.find(cat => cat.id === originalCategory.categoryId);
-          const newCategory = categoryData.find(cat => cat.id === data.categoryId);
-          changes.push(`- **Category**: "${oldCategory?.name || originalCategory.categoryId}" → "${newCategory?.name || data.categoryId}"`);
+          const oldCategory = categoryData.find(
+            (cat) => cat.id === originalCategory.categoryId
+          );
+          const newCategory = categoryData.find(
+            (cat) => cat.id === data.categoryId
+          );
+          changes.push(
+            `- **Category**: "${
+              oldCategory?.name || originalCategory.categoryId
+            }" → "${newCategory?.name || data.categoryId}"`
+          );
         }
         if (data.subcategoryName !== originalCategory.subcategoryName) {
-          changes.push(`- **Subcategory**: "${originalCategory.subcategoryName}" → "${data.subcategoryName}"`);
+          changes.push(
+            `- **Subcategory**: "${originalCategory.subcategoryName}" → "${data.subcategoryName}"`
+          );
         }
       }
-      
+
       body = `Please review the following changes to the project:
 
 ## Changes Made
 
-${changes.length > 0 ? changes.join('\n') : '- No changes detected (please verify manually)'}
+${
+  changes.length > 0
+    ? changes.join("\n")
+    : "- No changes detected (please verify manually)"
+}
 
 Thank you for your time.
 `;
@@ -705,7 +901,9 @@ Thank you for your time.
 ${JSON.stringify(projectJson, null, 2)}
 \`\`\`
 
-Step 2: Please add this project to the appropriate sector and type map. Find the map file \`public/data/maps/${slugify(sectorName)}.json\` and add \`"${projectId}"\` to the \`projects\` array of the type with \`id: "${typeId}"\` (name: "${typeName}").
+Step 2: Please add this project to the appropriate sector and type map. Find the map file \`public/data/maps/${slugify(
+        sectorName
+      )}.json\` and add \`"${projectId}"\` to the \`projects\` array of the type with \`id: "${typeId}"\` (name: "${typeName}").
 
 Example - add \`"${projectId}"\` to the projects array:
 
@@ -727,15 +925,15 @@ Example - add \`"${projectId}"\` to the projects array:
 \`\`\`
 `;
     }
-    
+
     const encodedBody = encodeURIComponent(body);
 
     const githubUrl = `https://github.com/chainbase-labs/buildermaps.io/issues/new?title=${title}&labels=${labels}&body=${encodedBody}`;
 
     // Open GitHub issue in new tab
-    window.open(githubUrl, '_blank');
+    window.open(githubUrl, "_blank");
 
-    toast.success('Opening GitHub issue...', {
+    toast.success("Opening GitHub issue...", {
       duration: 3000,
     });
     setOpen(false);
@@ -751,9 +949,9 @@ Example - add \`"${projectId}"\` to the projects array:
       onClose={handleClose}
       aria-labelledby="submit-project-modal-title"
       sx={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
         padding: 2,
         zIndex: 1300,
       }}
@@ -761,37 +959,41 @@ Example - add \`"${projectId}"\` to the projects array:
     >
       <Box
         sx={{
-          position: 'relative',
-          width: '100%',
-          maxWidth: '900px',
-          maxHeight: '90vh',
-          bgcolor: 'background.paper',
+          position: "relative",
+          width: "100%",
+          maxWidth: "900px",
+          maxHeight: "90vh",
+          bgcolor: "background.paper",
           borderRadius: 2,
           boxShadow: 24,
-          overflow: 'hidden',
-          display: 'flex',
-          flexDirection: 'column',
+          overflow: "hidden",
+          display: "flex",
+          flexDirection: "column",
         }}
       >
         {/* Header */}
         <Box
           sx={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'space-between',
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
             p: 2,
             borderBottom: 1,
-            borderColor: 'divider',
+            borderColor: "divider",
           }}
         >
-          <Typography id="submit-project-modal-title" variant="h6" component="h2">
+          <Typography
+            id="submit-project-modal-title"
+            variant="h6"
+            component="h2"
+          >
             Submit Project
           </Typography>
           <IconButton
             aria-label="close"
             onClick={handleClose}
             sx={{
-              color: 'text.secondary',
+              color: "text.secondary",
             }}
           >
             <CloseIcon />
@@ -801,19 +1003,21 @@ Example - add \`"${projectId}"\` to the projects array:
         {/* Content - Scrollable */}
         <Box
           sx={{
-            overflowY: 'auto',
+            overflowY: "auto",
             flex: 1,
-            p: 0
+            p: 0,
           }}
         >
           {isLoading && (
-            <Box sx={{ display: 'flex', justifyContent: 'center', py: 4 }}>
-              <Typography color="text.secondary">Loading categories...</Typography>
+            <Box sx={{ display: "flex", justifyContent: "center", py: 4 }}>
+              <Typography color="text.secondary">
+                Loading categories...
+              </Typography>
             </Box>
           )}
 
           {error && (
-            <Box sx={{ p: 2, bgcolor: 'error.light', borderRadius: 1, mb: 2 }}>
+            <Box sx={{ p: 2, bgcolor: "error.light", borderRadius: 1, mb: 2 }}>
               <Typography color="error.dark">
                 Failed to load categories. Please try again later.
               </Typography>
@@ -822,10 +1026,11 @@ Example - add \`"${projectId}"\` to the projects array:
 
           {categories && (
             <div>
-              <CardHeader className='pb-6'>
+              <CardHeader className="pb-6">
                 <CardTitle>Project Information</CardTitle>
                 <CardDescription>
-                  Please fill in all required fields. Your submission will be reviewed before being added to the map.
+                  Please fill in all required fields. Your submission will be
+                  reviewed before being added to the map.
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -834,11 +1039,13 @@ Example - add \`"${projectId}"\` to the projects array:
                   <div className="space-y-2">
                     <Label htmlFor="logo">Project Logo URL</Label>
                     <Input
-                      {...register('logo')}
+                      {...register("logo")}
                       placeholder="https://example.com/logo.png"
                       className="w-full"
                     />
-                    <p className="text-xs text-gray-500">Enter the URL of your logo image</p>
+                    <p className="text-xs text-gray-500">
+                      Enter the URL of your logo image
+                    </p>
                     {logoPreview && (
                       <div className="mt-3 p-4 bg-white border-2 border-gray-200 rounded-lg flex items-center justify-center">
                         <img
@@ -855,19 +1062,23 @@ Example - add \`"${projectId}"\` to the projects array:
                     <div className="space-y-2">
                       <Label htmlFor="name">Project Name *</Label>
                       <Input
-                        {...register('name', { required: 'Project name is required' })}
+                        {...register("name", {
+                          required: "Project name is required",
+                        })}
                         placeholder="e.g., Circle"
-                        className={errors.name ? 'border-red-500' : ''}
+                        className={errors.name ? "border-red-500" : ""}
                       />
                       {errors.name && (
-                        <p className="text-xs text-red-600">{errors.name.message}</p>
+                        <p className="text-xs text-red-600">
+                          {errors.name.message}
+                        </p>
                       )}
                     </div>
 
                     <div className="space-y-2">
                       <Label htmlFor="location">Location</Label>
                       <Input
-                        {...register('location')}
+                        {...register("location")}
                         placeholder="e.g., United States"
                       />
                     </div>
@@ -876,13 +1087,17 @@ Example - add \`"${projectId}"\` to the projects array:
                   <div className="space-y-2">
                     <Label htmlFor="description">Description *</Label>
                     <Textarea
-                      {...register('description', { required: 'Description is required' })}
+                      {...register("description", {
+                        required: "Description is required",
+                      })}
                       placeholder="Describe your project in a few sentences..."
                       rows={4}
-                      className={errors.description ? 'border-red-500' : ''}
+                      className={errors.description ? "border-red-500" : ""}
                     />
                     {errors.description && (
-                      <p className="text-xs text-red-600">{errors.description.message}</p>
+                      <p className="text-xs text-red-600">
+                        {errors.description.message}
+                      </p>
                     )}
                   </div>
 
@@ -890,7 +1105,7 @@ Example - add \`"${projectId}"\` to the projects array:
                     <div className="space-y-2">
                       <Label htmlFor="founded">Founded Year</Label>
                       <Input
-                        {...register('founded')}
+                        {...register("founded")}
                         placeholder="e.g., 2020"
                         type="text"
                       />
@@ -899,7 +1114,7 @@ Example - add \`"${projectId}"\` to the projects array:
                     <div className="space-y-2">
                       <Label htmlFor="raised">Funding Raised</Label>
                       <Input
-                        {...register('raised')}
+                        {...register("raised")}
                         placeholder="e.g., $10M"
                         type="text"
                       />
@@ -909,17 +1124,17 @@ Example - add \`"${projectId}"\` to the projects array:
                   {/* Category Selection */}
                   <div className="space-y-4 p-4 bg-gray-50 rounded-lg border-2 border-gray-200">
                     <h3 className="text-sm text-gray-900">Categories *</h3>
-                    
+
                     {/* Primary Category */}
                     <div className="space-y-2">
                       <Label htmlFor="categoryId">Primary Category *</Label>
                       <Select
-                        value={watch('categoryId') || ''}
-                        onValueChange={(value) => setValue('categoryId', value)}
+                        value={watch("categoryId") || ""}
+                        onValueChange={(value) => setValue("categoryId", value)}
                         disabled={lockCategory}
                       >
-                        <SelectTrigger 
-                          className={errors.categoryId ? 'border-red-500' : ''}
+                        <SelectTrigger
+                          className={errors.categoryId ? "border-red-500" : ""}
                           disabled={lockCategory}
                         >
                           <SelectValue placeholder="Select a category" />
@@ -940,22 +1155,34 @@ Example - add \`"${projectId}"\` to the projects array:
                       </Select>
                       <input
                         type="hidden"
-                        {...register('categoryId', { required: 'Primary category is required' })}
+                        {...register("categoryId", {
+                          required: "Primary category is required",
+                        })}
                       />
                       {errors.categoryId && (
-                        <p className="text-xs text-red-600">{errors.categoryId.message}</p>
+                        <p className="text-xs text-red-600">
+                          {errors.categoryId.message}
+                        </p>
                       )}
                     </div>
 
                     {/* Secondary Category */}
                     {selectedCategory && (
                       <div className="space-y-2">
-                        <Label htmlFor="subcategoryName">Secondary Category *</Label>
+                        <Label htmlFor="subcategoryName">
+                          Secondary Category *
+                        </Label>
                         <Select
-                          value={watch('subcategoryName') || ''}
-                          onValueChange={(value) => setValue('subcategoryName', value)}
+                          value={watch("subcategoryName") || ""}
+                          onValueChange={(value) =>
+                            setValue("subcategoryName", value)
+                          }
                         >
-                          <SelectTrigger className={errors.subcategoryName ? 'border-red-500' : ''}>
+                          <SelectTrigger
+                            className={
+                              errors.subcategoryName ? "border-red-500" : ""
+                            }
+                          >
                             <SelectValue placeholder="Select a subcategory" />
                           </SelectTrigger>
                           <SelectContent className="z-[9999]">
@@ -968,25 +1195,28 @@ Example - add \`"${projectId}"\` to the projects array:
                         </Select>
                         <input
                           type="hidden"
-                          {...register('subcategoryName', { required: 'Secondary category is required' })}
+                          {...register("subcategoryName", {
+                            required: "Secondary category is required",
+                          })}
                         />
                         {errors.subcategoryName && (
-                          <p className="text-xs text-red-600">{errors.subcategoryName.message}</p>
+                          <p className="text-xs text-red-600">
+                            {errors.subcategoryName.message}
+                          </p>
                         )}
                       </div>
                     )}
-
                   </div>
 
                   {/* Links */}
                   <div className="space-y-4">
                     <h3 className="text-sm text-gray-900">Links</h3>
-                    
+
                     <div className="space-y-2">
                       <Label htmlFor="website">Website</Label>
                       <div className="relative">
                         <Input
-                          {...register('website')}
+                          {...register("website")}
                           placeholder="https://example.com"
                           type="url"
                           className="pl-8"
@@ -999,7 +1229,7 @@ Example - add \`"${projectId}"\` to the projects array:
                       <Label htmlFor="twitter">X (Twitter)</Label>
                       <div className="relative">
                         <Input
-                          {...register('twitter')}
+                          {...register("twitter")}
                           placeholder="https://x.com/username"
                           type="url"
                           className="pl-8"
@@ -1012,7 +1242,7 @@ Example - add \`"${projectId}"\` to the projects array:
                       <Label htmlFor="github">GitHub</Label>
                       <div className="relative">
                         <Input
-                          {...register('github')}
+                          {...register("github")}
                           placeholder="https://github.com/username"
                           type="url"
                           className="pl-8"
@@ -1024,14 +1254,18 @@ Example - add \`"${projectId}"\` to the projects array:
 
                   {/* Submit Button */}
                   <div className="flex gap-3 pt-4">
-                    <Button 
-                      type="submit" 
+                    <Button
+                      type="submit"
                       className="flex-1"
                       disabled={shouldDisableButton}
                     >
-                      {isUpdateMode ? 'Update Project' : 'Submit Project'}
+                      {isUpdateMode ? "Update Project" : "Submit Project"}
                     </Button>
-                    <Button type="button" variant="outline" onClick={handleClose}>
+                    <Button
+                      type="button"
+                      variant="outline"
+                      onClick={handleClose}
+                    >
                       Cancel
                     </Button>
                   </div>

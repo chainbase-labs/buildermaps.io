@@ -4,17 +4,12 @@
     {
       "id": "btcfi",
       "name": "BTCfi",
-      "projects": [
-        "fiamma"
-      ]
+      "projects": ["fiamma"]
     },
     {
       "id": "block-explorer",
       "name": "Block Explorer",
-      "projects": [
-        "hemera",
-        "layerhub"
-      ]
+      "projects": ["hemera", "layerhub"]
     },
     {
       "id": "cross-chain",
@@ -31,9 +26,7 @@
     {
       "id": "custodian",
       "name": "Custodian",
-      "projects": [
-        "anchorage-digital"
-      ]
+      "projects": ["anchorage-digital"]
     },
     {
       "id": "dex",
@@ -49,51 +42,32 @@
     {
       "id": "indexer",
       "name": "Indexer",
-      "projects": [
-        "goldsky"
-      ]
+      "projects": ["goldsky"]
     },
     {
       "id": "lst",
       "name": "LST",
-      "projects": [
-        "bifrost",
-        "pharos-verse"
-      ]
+      "projects": ["bifrost", "pharos-verse"]
     },
     {
       "id": "lending",
       "name": "Lending",
-      "projects": [
-        "morpho",
-        "openfi"
-      ]
+      "projects": ["morpho", "openfi"]
     },
     {
       "id": "multisig",
       "name": "Multisig",
-      "projects": [
-        "safe-wallet"
-      ]
+      "projects": ["safe-wallet"]
     },
     {
       "id": "oracle",
       "name": "Oracle",
-      "projects": [
-        "supra",
-        "blocksense"
-      ]
+      "projects": ["supra", "blocksense"]
     },
     {
       "id": "others",
       "name": "Others",
-      "projects": [
-        "grandline",
-        "pns",
-        "gotchipus",
-        "goosebox",
-        "primus"
-      ]
+      "projects": ["grandline", "pns", "gotchipus", "goosebox", "primus"]
     },
     {
       "id": "payment",
@@ -111,19 +85,12 @@
     {
       "id": "perpdex",
       "name": "Perpdex",
-      "projects": [
-        "fufuture",
-        "brokex-protocol",
-        "elfi"
-      ]
+      "projects": ["fufuture", "brokex-protocol", "elfi"]
     },
     {
       "id": "rpc",
       "name": "RPC",
-      "projects": [
-        "zan",
-        "nirvana-labs"
-      ]
+      "projects": ["zan", "nirvana-labs"]
     },
     {
       "id": "rwa",
@@ -157,20 +124,12 @@
     {
       "id": "wallet",
       "name": "Wallet",
-      "projects": [
-        "okx-wallet",
-        "bitget-wallet",
-        "topnod"
-      ]
+      "projects": ["okx-wallet", "bitget-wallet", "topnod"]
     },
     {
       "id": "yield-farming",
       "name": "Yield Farming",
-      "projects": [
-        "autostaking",
-        "termmax",
-        "cian"
-      ]
+      "projects": ["autostaking", "termmax", "cian"]
     }
   ]
 }

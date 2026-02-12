@@ -5,28 +5,28 @@
  * - maps/: 每个sector的映射关系
  */
 
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
 // 路径配置
-const DATA_DIR = path.join(__dirname, '../public/data');
-const INPUT_FILE = path.join(DATA_DIR, 'builder-maps.json');
-const PROJECTS_DIR = path.join(DATA_DIR, 'projects');
-const MAPS_DIR = path.join(DATA_DIR, 'maps');
+const DATA_DIR = path.join(__dirname, "../public/data");
+const INPUT_FILE = path.join(DATA_DIR, "builder-maps.json");
+const PROJECTS_DIR = path.join(DATA_DIR, "projects");
+const MAPS_DIR = path.join(DATA_DIR, "maps");
 
 // 工具函数：生成slug ID
 function slugify(value) {
   return value
     .toLowerCase()
-    .replace(/&/g, 'and')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
 }
 
 // 主函数
 function splitData() {
-  console.log('📖 读取原始数据...');
-  const builderMaps = JSON.parse(fs.readFileSync(INPUT_FILE, 'utf-8'));
+  console.log("📖 读取原始数据...");
+  const builderMaps = JSON.parse(fs.readFileSync(INPUT_FILE, "utf-8"));
 
   console.log(`✅ 加载了 ${builderMaps.length} 个项目条目`);
 
@@ -34,7 +34,7 @@ function splitData() {
   const projects = new Map();
   const sectorMaps = new Map();
 
-  console.log('\n🔄 处理数据...');
+  console.log("\n🔄 处理数据...");
 
   builderMaps.forEach((entry, index) => {
     const projectId = entry.name ? slugify(entry.name) : `project-${index}`;
@@ -43,10 +43,10 @@ function splitData() {
     const projectData = {
       id: projectId,
       name: entry.name,
-      description: entry.description || '',
+      description: entry.description || "",
       founded: entry.founded ?? null,
       funding: entry.funding ?? null,
-      links: entry.links || {}
+      links: entry.links || {},
     };
 
     // 存储项目（避免重复）
@@ -56,24 +56,24 @@ function splitData() {
 
     // 处理sectors映射
     const sectors = entry.sectors || [];
-    sectors.forEach(sectorEntry => {
-      const sectorName = sectorEntry.sector?.trim() || 'Uncategorized';
+    sectors.forEach((sectorEntry) => {
+      const sectorName = sectorEntry.sector?.trim() || "Uncategorized";
       const sectorId = slugify(sectorName);
 
       // 获取或创建sector映射
       if (!sectorMaps.has(sectorId)) {
         sectorMaps.set(sectorId, {
           sector: sectorName,
-          types: new Map() // 使用Map存储，key为type name，value为type对象
+          types: new Map(), // 使用Map存储，key为type name，value为type对象
         });
       }
 
       const sectorMap = sectorMaps.get(sectorId);
 
       // 处理每个type
-      const types = sectorEntry.types || ['General'];
-      types.forEach(typeName => {
-        const typeNameTrimmed = typeName.trim() || 'General';
+      const types = sectorEntry.types || ["General"];
+      types.forEach((typeName) => {
+        const typeNameTrimmed = typeName.trim() || "General";
         const typeId = slugify(typeNameTrimmed);
 
         // 获取或创建type对象
@@ -81,7 +81,7 @@ function splitData() {
           sectorMap.types.set(typeNameTrimmed, {
             id: typeId,
             name: typeNameTrimmed,
-            projects: []
+            projects: [],
           });
         }
 
@@ -115,15 +115,15 @@ function splitData() {
 
     // 将Map转换为数组，对每个type下的项目ID进行排序，并按type name排序
     const sortedTypes = Array.from(sectorMap.types.values())
-      .map(type => ({
+      .map((type) => ({
         ...type,
-        projects: type.projects.sort()
+        projects: type.projects.sort(),
       }))
       .sort((a, b) => a.name.localeCompare(b.name));
 
     const output = {
       sector: sectorMap.sector,
-      types: sortedTypes
+      types: sortedTypes,
     };
 
     fs.writeFileSync(filePath, JSON.stringify(output, null, 2));
@@ -131,28 +131,33 @@ function splitData() {
   console.log(`✅ 完成写入 ${sectorMaps.size} 个映射文件`);
 
   // 统计信息
-  console.log('\n📊 拆分统计：');
+  console.log("\n📊 拆分统计：");
   console.log(`   - 总项目数：${projects.size}`);
   console.log(`   - Sector数量：${sectorMaps.size}`);
 
   // 列出所有sectors
-  console.log('\n📋 Sector列表：');
+  console.log("\n📋 Sector列表：");
   for (const [sectorId, sectorMap] of sectorMaps) {
-    const totalProjects = Array.from(sectorMap.types.values()).reduce((sum, type) => sum + type.projects.length, 0);
+    const totalProjects = Array.from(sectorMap.types.values()).reduce(
+      (sum, type) => sum + type.projects.length,
+      0
+    );
     const typeCount = sectorMap.types.size;
-    console.log(`   - ${sectorMap.sector} (${typeCount} 个types, ${totalProjects} 个项目)`);
+    console.log(
+      `   - ${sectorMap.sector} (${typeCount} 个types, ${totalProjects} 个项目)`
+    );
     Array.from(sectorMap.types.values()).forEach((type) => {
       console.log(`     * ${type.name}: ${type.projects.length} 个项目`);
     });
   }
 
-  console.log('\n✨ 数据拆分完成！');
+  console.log("\n✨ 数据拆分完成！");
 }
 
 // 执行拆分
 try {
   splitData();
 } catch (error) {
-  console.error('❌ 拆分失败:', error);
+  console.error("❌ 拆分失败:", error);
   process.exit(1);
 }

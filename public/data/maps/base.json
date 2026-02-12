@@ -94,34 +94,17 @@
     {
       "id": "meme",
       "name": "Meme",
-      "projects": [
-        "brett",
-        "mog",
-        "mr-miggles",
-        "ski-mask-dog",
-        "toshi"
-      ]
+      "projects": ["brett", "mog", "mr-miggles", "ski-mask-dog", "toshi"]
     },
     {
       "id": "nft",
       "name": "NFT",
-      "projects": [
-        "element",
-        "lootex",
-        "magic-eden",
-        "opensea",
-        "rarible"
-      ]
+      "projects": ["element", "lootex", "magic-eden", "opensea", "rarible"]
     },
     {
       "id": "wallet",
       "name": "Wallet",
-      "projects": [
-        "base-app",
-        "flipp",
-        "rabby-wallet",
-        "wigwam"
-      ]
+      "projects": ["base-app", "flipp", "rabby-wallet", "wigwam"]
     }
   ]
 }

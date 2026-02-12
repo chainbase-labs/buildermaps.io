@@ -3,22 +3,24 @@
  * Validates that newly added/modified project files don't have IDs that already exist
  */
 
-const fs = require('fs');
-const path = require('path');
-const { execSync } = require('child_process');
+const fs = require("fs");
+const path = require("path");
+const { execSync } = require("child_process");
 
-const PROJECTS_DIR = path.join(__dirname, '../public/data/projects');
-const MAPS_DIR = path.join(__dirname, '../public/data/maps');
+const PROJECTS_DIR = path.join(__dirname, "../public/data/projects");
+const MAPS_DIR = path.join(__dirname, "../public/data/maps");
 
 function getAllExistingProjectIds() {
-  const projectFiles = fs.readdirSync(PROJECTS_DIR).filter(f => f.endsWith('.json'));
+  const projectFiles = fs
+    .readdirSync(PROJECTS_DIR)
+    .filter((f) => f.endsWith(".json"));
   const projectIds = new Map(); // Map<id, filename>
 
-  projectFiles.forEach(file => {
+  projectFiles.forEach((file) => {
     try {
       const filePath = path.join(PROJECTS_DIR, file);
-      const projectData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-      
+      const projectData = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+
       if (projectData.id) {
         // If ID already exists, track both files
         if (projectIds.has(projectData.id)) {
@@ -40,16 +42,19 @@ function getAllExistingProjectIds() {
 function getStagedProjectFiles() {
   try {
     // Get staged files that are in the projects directory
-    const output = execSync('git diff --cached --name-only --diff-filter=ACMR', {
-      encoding: 'utf-8',
-      cwd: path.join(__dirname, '..')
-    });
+    const output = execSync(
+      "git diff --cached --name-only --diff-filter=ACMR",
+      {
+        encoding: "utf-8",
+        cwd: path.join(__dirname, ".."),
+      }
+    );
 
     const stagedFiles = output
-      .split('\n')
-      .filter(file => file.trim())
-      .filter(file => file.startsWith('public/data/projects/'))
-      .filter(file => file.endsWith('.json'));
+      .split("\n")
+      .filter((file) => file.trim())
+      .filter((file) => file.startsWith("public/data/projects/"))
+      .filter((file) => file.endsWith(".json"));
 
     return stagedFiles;
   } catch (error) {
@@ -61,16 +66,19 @@ function getStagedProjectFiles() {
 function getStagedMapFiles() {
   try {
     // Get staged files that are in the maps directory
-    const output = execSync('git diff --cached --name-only --diff-filter=ACMR', {
-      encoding: 'utf-8',
-      cwd: path.join(__dirname, '..')
-    });
+    const output = execSync(
+      "git diff --cached --name-only --diff-filter=ACMR",
+      {
+        encoding: "utf-8",
+        cwd: path.join(__dirname, ".."),
+      }
+    );
 
     const stagedFiles = output
-      .split('\n')
-      .filter(file => file.trim())
-      .filter(file => file.startsWith('public/data/maps/'))
-      .filter(file => file.endsWith('.json'));
+      .split("\n")
+      .filter((file) => file.trim())
+      .filter((file) => file.startsWith("public/data/maps/"))
+      .filter((file) => file.endsWith(".json"));
 
     return stagedFiles;
   } catch (error) {
@@ -80,18 +88,18 @@ function getStagedMapFiles() {
 }
 
 function checkMapsForDuplicates(existingProjectIds) {
-  console.log('🗺️  Checking maps files for duplicate project IDs...\n');
+  console.log("🗺️  Checking maps files for duplicate project IDs...\n");
 
-  const mapFiles = fs.readdirSync(MAPS_DIR).filter(f => f.endsWith('.json'));
+  const mapFiles = fs.readdirSync(MAPS_DIR).filter((f) => f.endsWith(".json"));
   const errors = [];
   const missingProjects = [];
 
-  mapFiles.forEach(mapFile => {
+  mapFiles.forEach((mapFile) => {
     try {
       const mapPath = path.join(MAPS_DIR, mapFile);
-      const mapData = JSON.parse(fs.readFileSync(mapPath, 'utf-8'));
-      
-      const sector = mapData.sector || 'Unknown';
+      const mapData = JSON.parse(fs.readFileSync(mapPath, "utf-8"));
+
+      const sector = mapData.sector || "Unknown";
 
       // Check each type's projects array individually for duplicates
       if (mapData.types && Array.isArray(mapData.types)) {
@@ -101,13 +109,16 @@ function checkMapsForDuplicates(existingProjectIds) {
             // Check for duplicates within this specific projects array
             const projectIdCounts = new Map();
             const projectIdIndices = new Map();
-            
+
             type.projects.forEach((projectId, projectIndex) => {
               if (!projectIdCounts.has(projectId)) {
                 projectIdCounts.set(projectId, 0);
                 projectIdIndices.set(projectId, []);
               }
-              projectIdCounts.set(projectId, projectIdCounts.get(projectId) + 1);
+              projectIdCounts.set(
+                projectId,
+                projectIdCounts.get(projectId) + 1
+              );
               projectIdIndices.get(projectId).push(projectIndex);
 
               // Check if project exists in projects directory
@@ -116,7 +127,7 @@ function checkMapsForDuplicates(existingProjectIds) {
                   mapFile: mapFile,
                   sector: sector,
                   projectId: projectId,
-                  type: typeName
+                  type: typeName,
                 });
               }
             });
@@ -131,7 +142,7 @@ function checkMapsForDuplicates(existingProjectIds) {
                   projectId: projectId,
                   type: typeName,
                   count: count,
-                  indices: indices
+                  indices: indices,
                 });
               }
             });
@@ -141,28 +152,34 @@ function checkMapsForDuplicates(existingProjectIds) {
     } catch (error) {
       errors.push({
         mapFile: mapFile,
-        error: `Invalid JSON: ${error.message}`
+        error: `Invalid JSON: ${error.message}`,
       });
     }
   });
 
   if (errors.length > 0) {
-    console.log('❌ Found duplicate project IDs within projects arrays:\n');
-    errors.forEach(err => {
+    console.log("❌ Found duplicate project IDs within projects arrays:\n");
+    errors.forEach((err) => {
       if (err.error) {
         console.log(`   - ${err.mapFile}: ${err.error}`);
       } else {
         console.log(`   - ${err.mapFile} (${err.sector}):`);
-        console.log(`     Project ID "${err.projectId}" appears ${err.count} times in "${err.type}" at indices: ${err.indices.join(', ')}`);
+        console.log(
+          `     Project ID "${err.projectId}" appears ${err.count} times in "${
+            err.type
+          }" at indices: ${err.indices.join(", ")}`
+        );
       }
     });
-    console.log('');
+    console.log("");
   }
 
   if (missingProjects.length > 0) {
-    console.log('❌ Found project IDs in maps that don\'t exist in projects directory:\n');
+    console.log(
+      "❌ Found project IDs in maps that don't exist in projects directory:\n"
+    );
     const missingByMap = new Map();
-    missingProjects.forEach(missing => {
+    missingProjects.forEach((missing) => {
       const key = missing.mapFile;
       if (!missingByMap.has(key)) {
         missingByMap.set(key, []);
@@ -172,24 +189,26 @@ function checkMapsForDuplicates(existingProjectIds) {
 
     missingByMap.forEach((missingList, mapFile) => {
       console.log(`   - ${mapFile}:`);
-      missingList.forEach(missing => {
-        console.log(`     • "${missing.projectId}" in ${missing.type} (does not exist in projects/)`);
+      missingList.forEach((missing) => {
+        console.log(
+          `     • "${missing.projectId}" in ${missing.type} (does not exist in projects/)`
+        );
       });
     });
-    console.log('');
+    console.log("");
   }
 
   return errors.length === 0 && missingProjects.length === 0;
 }
 
 function checkDuplicateIds() {
-  console.log('🔍 Checking for duplicate project IDs...\n');
+  console.log("🔍 Checking for duplicate project IDs...\n");
 
   // Get all existing project IDs
   const existingIds = getAllExistingProjectIds();
-  
+
   let hasErrors = false;
-  
+
   // First, check for duplicates already in the repository
   const repositoryDuplicates = [];
   existingIds.forEach((files, id) => {
@@ -197,17 +216,17 @@ function checkDuplicateIds() {
     if (fileArray.length > 1) {
       repositoryDuplicates.push({
         id: id,
-        files: fileArray
+        files: fileArray,
       });
     }
   });
 
   if (repositoryDuplicates.length > 0) {
-    console.log('❌ Found duplicate project IDs already in the repository:\n');
-    repositoryDuplicates.forEach(dup => {
-      console.log(`   - ID "${dup.id}" found in: ${dup.files.join(', ')}`);
+    console.log("❌ Found duplicate project IDs already in the repository:\n");
+    repositoryDuplicates.forEach((dup) => {
+      console.log(`   - ID "${dup.id}" found in: ${dup.files.join(", ")}`);
     });
-    console.log('');
+    console.log("");
     hasErrors = true;
   } else {
     console.log(`📦 Found ${existingIds.size} existing project IDs \n`);
@@ -221,7 +240,7 @@ function checkDuplicateIds() {
 
   // Get staged project files
   const stagedFiles = getStagedProjectFiles();
-  
+
   // Get staged map files
   const stagedMapFiles = getStagedMapFiles();
 
@@ -231,9 +250,9 @@ function checkDuplicateIds() {
   // Check staged map files
   if (stagedMapFiles.length > 0) {
     console.log(`📝 Checking ${stagedMapFiles.length} staged map file(s):\n`);
-    
-    stagedMapFiles.forEach(relativePath => {
-      const filePath = path.join(__dirname, '..', relativePath);
+
+    stagedMapFiles.forEach((relativePath) => {
+      const filePath = path.join(__dirname, "..", relativePath);
       const fileName = path.basename(relativePath);
 
       try {
@@ -242,8 +261,8 @@ function checkDuplicateIds() {
           return;
         }
 
-        const mapData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-        const sector = mapData.sector || 'Unknown';
+        const mapData = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+        const sector = mapData.sector || "Unknown";
         let totalUniqueIds = 0;
 
         if (mapData.types && Array.isArray(mapData.types)) {
@@ -258,14 +277,17 @@ function checkDuplicateIds() {
                   projectIdCounts.set(projectId, 0);
                   projectIdIndices.set(projectId, []);
                 }
-                projectIdCounts.set(projectId, projectIdCounts.get(projectId) + 1);
+                projectIdCounts.set(
+                  projectId,
+                  projectIdCounts.get(projectId) + 1
+                );
                 projectIdIndices.get(projectId).push(projectIndex);
 
                 // Check if project exists
                 if (!existingIds.has(projectId)) {
                   errors.push({
                     file: fileName,
-                    error: `Project ID "${projectId}" in ${typeName} does not exist in projects directory`
+                    error: `Project ID "${projectId}" in ${typeName} does not exist in projects directory`,
                   });
                 }
               });
@@ -278,7 +300,9 @@ function checkDuplicateIds() {
                   const indices = projectIdIndices.get(projectId);
                   errors.push({
                     file: fileName,
-                    error: `Project ID "${projectId}" appears ${count} times in "${typeName}" at indices: ${indices.join(', ')}`
+                    error: `Project ID "${projectId}" appears ${count} times in "${typeName}" at indices: ${indices.join(
+                      ", "
+                    )}`,
                   });
                 }
               });
@@ -286,26 +310,35 @@ function checkDuplicateIds() {
           });
         }
 
-        if (totalUniqueIds > 0 && errors.filter(e => e.file === fileName && !e.error.includes('does not exist')).length === 0) {
-          console.log(`   ✅ ${fileName} (${sector}): ${totalUniqueIds} unique project IDs across all types`);
+        if (
+          totalUniqueIds > 0 &&
+          errors.filter(
+            (e) => e.file === fileName && !e.error.includes("does not exist")
+          ).length === 0
+        ) {
+          console.log(
+            `   ✅ ${fileName} (${sector}): ${totalUniqueIds} unique project IDs across all types`
+          );
         }
       } catch (error) {
         errors.push({
           file: fileName,
-          error: `Invalid JSON: ${error.message}`
+          error: `Invalid JSON: ${error.message}`,
         });
         console.log(`   ❌ ${fileName}: Invalid JSON - ${error.message}`);
       }
     });
-    console.log('');
+    console.log("");
   }
 
   if (stagedFiles.length === 0 && stagedMapFiles.length === 0) {
     if (hasErrors) {
-      console.log('💡 Please fix the errors above before committing.\n');
+      console.log("💡 Please fix the errors above before committing.\n");
       return false;
     }
-    console.log('✅ No project or map files staged for commit. Repository is clean.\n');
+    console.log(
+      "✅ No project or map files staged for commit. Repository is clean.\n"
+    );
     return true;
   }
 
@@ -313,8 +346,8 @@ function checkDuplicateIds() {
 
   const newIds = new Map(); // Track IDs in staged files
 
-  stagedFiles.forEach(relativePath => {
-    const filePath = path.join(__dirname, '..', relativePath);
+  stagedFiles.forEach((relativePath) => {
+    const filePath = path.join(__dirname, "..", relativePath);
     const fileName = path.basename(relativePath);
 
     try {
@@ -324,13 +357,13 @@ function checkDuplicateIds() {
         return;
       }
 
-      const projectData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+      const projectData = JSON.parse(fs.readFileSync(filePath, "utf-8"));
       const projectId = projectData.id;
 
       if (!projectId) {
         errors.push({
           file: fileName,
-          error: 'Missing "id" field'
+          error: 'Missing "id" field',
         });
         console.log(`   ❌ ${fileName}: Missing "id" field`);
         return;
@@ -342,9 +375,11 @@ function checkDuplicateIds() {
         errors.push({
           file: fileName,
           id: projectId,
-          error: `Duplicate ID in staged files: also found in ${existingFile}`
+          error: `Duplicate ID in staged files: also found in ${existingFile}`,
         });
-        console.log(`   ❌ ${fileName}: Duplicate ID "${projectId}" (also in ${existingFile})`);
+        console.log(
+          `   ❌ ${fileName}: Duplicate ID "${projectId}" (also in ${existingFile})`
+        );
       } else {
         newIds.set(projectId, fileName);
       }
@@ -353,20 +388,24 @@ function checkDuplicateIds() {
       if (existingIds.has(projectId)) {
         const existingFile = existingIds.get(projectId);
         // existingFile could be a string or array (if duplicates exist, but we already checked for that)
-        const existingFilePath = Array.isArray(existingFile) 
-          ? existingFile[0] 
+        const existingFilePath = Array.isArray(existingFile)
+          ? existingFile[0]
           : existingFile;
-        
+
         // Only error if it's a different file
         if (existingFilePath !== fileName) {
           errors.push({
             file: fileName,
             id: projectId,
-            error: `Project ID "${projectId}" already exists in ${existingFilePath}`
+            error: `Project ID "${projectId}" already exists in ${existingFilePath}`,
           });
-          console.log(`   ❌ ${fileName}: Project ID "${projectId}" already exists in ${existingFilePath}`);
+          console.log(
+            `   ❌ ${fileName}: Project ID "${projectId}" already exists in ${existingFilePath}`
+          );
         } else {
-          console.log(`   ✅ ${fileName}: ID "${projectId}" (updating existing project)`);
+          console.log(
+            `   ✅ ${fileName}: ID "${projectId}" (updating existing project)`
+          );
         }
       } else {
         console.log(`   ✅ ${fileName}: ID "${projectId}" (new project)`);
@@ -374,29 +413,29 @@ function checkDuplicateIds() {
     } catch (error) {
       errors.push({
         file: fileName,
-        error: `Invalid JSON: ${error.message}`
+        error: `Invalid JSON: ${error.message}`,
       });
       console.log(`   ❌ ${fileName}: Invalid JSON - ${error.message}`);
     }
   });
 
-  console.log('');
+  console.log("");
 
   if (errors.length > 0) {
-    console.log('❌ Validation failed:\n');
-    errors.forEach(err => {
+    console.log("❌ Validation failed:\n");
+    errors.forEach((err) => {
       console.log(`   - ${err.file}: ${err.error}`);
     });
-    console.log('');
+    console.log("");
     hasErrors = true;
   }
 
   if (hasErrors) {
-    console.log('💡 Please fix the errors above before committing.\n');
+    console.log("💡 Please fix the errors above before committing.\n");
     return false;
   }
 
-  console.log('✅ All project IDs are unique in both projects and maps!\n');
+  console.log("✅ All project IDs are unique in both projects and maps!\n");
   return true;
 }
 
@@ -405,6 +444,6 @@ try {
   const isValid = checkDuplicateIds();
   process.exit(isValid ? 0 : 1);
 } catch (error) {
-  console.error('❌ Error checking duplicate IDs:', error);
+  console.error("❌ Error checking duplicate IDs:", error);
   process.exit(1);
 }

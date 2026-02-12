@@ -45,12 +45,7 @@
     {
       "id": "customisable",
       "name": "Customisable",
-      "projects": [
-        "9lives",
-        "buzzing",
-        "seer",
-        "sportstensor"
-      ]
+      "projects": ["9lives", "buzzing", "seer", "sportstensor"]
     },
     {
       "id": "infra",

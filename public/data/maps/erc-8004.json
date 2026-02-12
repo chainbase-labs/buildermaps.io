@@ -39,13 +39,7 @@
     {
       "id": "agents-orchestration",
       "name": "Agents Orchestration",
-      "projects": [
-        "ampersend",
-        "karum",
-        "mother",
-        "praxis",
-        "questflow"
-      ]
+      "projects": ["ampersend", "karum", "mother", "praxis", "questflow"]
     },
     {
       "id": "blockchains",
@@ -91,19 +85,12 @@
     {
       "id": "frameworks",
       "name": "Frameworks",
-      "projects": [
-        "elizaos",
-        "khorus",
-        "virtuals-protocol"
-      ]
+      "projects": ["elizaos", "khorus", "virtuals-protocol"]
     },
     {
       "id": "identity-and-reputation",
       "name": "Identity and Reputation",
-      "projects": [
-        "ens",
-        "ethos"
-      ]
+      "projects": ["ens", "ethos"]
     },
     {
       "id": "infrastructure",
@@ -146,10 +133,7 @@
     {
       "id": "storage",
       "name": "Storage",
-      "projects": [
-        "filecoin",
-        "pinata"
-      ]
+      "projects": ["filecoin", "pinata"]
     }
   ]
 }

@@ -1,11 +1,5 @@
 import { useMemo, useState } from "react";
-import {
-  ArrowLeft,
-  LayoutGrid,
-  LayoutList,
-  Plus,
-  Search,
-} from "lucide-react";
+import { ArrowLeft, LayoutGrid, LayoutList, Plus, Search } from "lucide-react";
 
 import {
   countCategoryProjects,
@@ -31,10 +25,11 @@ export function CategoryPage({ category, onBack }: CategoryPageProps) {
   const handleSubmitProject = () => {
     // Pre-fill with current category
     // If there's only one subcategory, pre-fill that too
-    const subcategoryName = category.subcategories.length === 1 
-      ? category.subcategories[0].name 
-      : undefined;
-    
+    const subcategoryName =
+      category.subcategories.length === 1
+        ? category.subcategories[0].name
+        : undefined;
+
     setOpen(true, {
       categoryId: category.id,
       subcategoryName: subcategoryName,
@@ -44,7 +39,7 @@ export function CategoryPage({ category, onBack }: CategoryPageProps) {
 
   const filteredCategory = useMemo(
     () => filterCategory(category, searchQuery),
-    [category, searchQuery],
+    [category, searchQuery]
   );
 
   return (
@@ -104,16 +99,20 @@ export function CategoryPage({ category, onBack }: CategoryPageProps) {
         </div>
       </header>
 
-      <main className={`container mx-auto px-6 py-8 ${view === "landscape" ? "max-[568px]:px-0" : ""}`}>
+      <main
+        className={`container mx-auto px-6 py-8 ${
+          view === "landscape" ? "max-[568px]:px-0" : ""
+        }`}
+      >
         {view === "landscape" ? (
           <div className="max-[568px]:px-3">
             <div className="mb-8 rounded border-l-4 border-blue-500 bg-blue-50 p-5">
               <div className="space-y-2 text-gray-800">
                 <p>
                   <strong>Community Contribution:</strong> This landscape is
-                  maintained by the community. Help improve the map by submitting
-                  new projects, updating existing information, or suggesting
-                  categorization improvements.
+                  maintained by the community. Help improve the map by
+                  submitting new projects, updating existing information, or
+                  suggesting categorization improvements.
                 </p>
                 <p className="text-sm">
                   All changes are proposed via GitHub pull requests to ensure
@@ -160,10 +159,7 @@ function filterCategory(category: Category, query: string): Category {
 
   const filteredSubcategories = category.subcategories
     .map((subcategory) => filterSubcategory(subcategory, normalizedQuery))
-    .filter(
-      (subcat): subcat is Subcategory =>
-        subcat.projects.length > 0,
-    );
+    .filter((subcat): subcat is Subcategory => subcat.projects.length > 0);
 
   return {
     ...category,
@@ -173,7 +169,7 @@ function filterCategory(category: Category, query: string): Category {
 
 function filterSubcategory(
   subcategory: Subcategory,
-  query: string,
+  query: string
 ): Subcategory {
   const matches = subcategory.projects.filter((project) => {
     return (
@@ -187,4 +183,3 @@ function filterSubcategory(
     projects: matches,
   };
 }
-
