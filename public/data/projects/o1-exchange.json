@@ -4,6 +4,7 @@
   "description": "Onchain exchange for spot, perps, and prediction markets.",
   "links": {
     "homepage": "https://o1.exchange/",
-    "twitter": "https://x.com/o1_exchange"
+    "twitter": "https://x.com/o1_exchange",
+    "logo": "/imgs/OpenClaw/Trading&DeFAI/o1-exchange.png"
   }
 }
