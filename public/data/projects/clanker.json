@@ -1,0 +1,10 @@
+{
+  "id": "clanker",
+  "name": "Clanker",
+  "description": "Token launch infrastructure powering most agent token deployments and launches on Base.",
+  "links": {
+    "homepage": "https://clanker.world/",
+    "twitter": "https://x.com/clanker_world",
+    "logo": "/imgs/OpenClaw/Infrastructure/clanker.png"
+  }
+}

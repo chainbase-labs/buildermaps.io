@@ -1,12 +1,12 @@
 {
   "id": "bankr",
   "name": "Bankr",
-  "description": "Bankr AI crypto bot Base natural language trading BNKR token X/Farcaster social DeFi 100% revenue sharing x402 payments",
+  "description": "AI crypto banker providing wallets, trading, DeFi access, skills execution, and token issuance for agents.",
   "founded": 2024,
   "funding": null,
   "links": {
-    "homepage": "https://bankr.bot/",
-    "logo": "https://s2.loli.net/2025/11/24/MWBY43dJfRymbk2.jpg",
+    "homepage": "https://bankr.bot",
+    "logo": "/imgs/OpenClaw/Infrastructure/bankr.png",
     "twitter": "https://x.com/bankrbot"
   }
 }

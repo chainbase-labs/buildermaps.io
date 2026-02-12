@@ -1,10 +1,10 @@
 {
   "id": "daydreams",
   "name": "Daydreams",
-  "description": "Complete AI agent ecosystem: Build with Daydreams library, pay with Dreams router, deploy with Lucid. From development to autonomous operation.",
+  "description": "Lucid SDK for agents to ship x402-paid endpoints, handle commerce skills, inference routing, and discovery.",
   "location": "",
   "links": {
-    "logo": "/imgs/ERC-8004/DevelopersTooling/daydreams.png",
+    "logo": "/imgs/OpenClaw/Infrastructure/daydreams.png",
     "homepage": "https://www.daydreams.systems/",
     "twitter": "https://x.com/daydreamsagents",
     "github": ""

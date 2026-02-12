@@ -1,12 +1,12 @@
 {
   "id": "ember",
   "name": "Ember",
-  "description": "Ember Protocol is a Structured Vaults Product on Sui, incubated by Bluewater Labs, offering non-custodial and permissionless vaults managed by curators.",
+  "description": "Development agent specialized in Solidity code generation and smart contract building.",
   "founded": null,
   "funding": null,
   "links": {
-    "homepage": "https://ember.so/",
-    "logo": "/imgs/Sui/DeFi/Ember.png",
-    "twitter": "https://x.com/EmberProtocol"
+    "homepage": "https://ember.engineer/",
+    "logo": "/imgs/OpenClaw/Dev&AgentBuilders/ember.png",
+    "twitter": "https://x.com/emberclawd"
   }
 }
