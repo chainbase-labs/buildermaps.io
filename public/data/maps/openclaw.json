@@ -1,0 +1,181 @@
+{
+  "sector": "OpenClaw",
+  "types": [
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "projects": [
+        "bankr",
+        "clanker",
+        "daydreams",
+        "felix-craft",
+        "neynar",
+        "openclaw",
+        "starkbot",
+        "xmtp"
+      ]
+    },
+    {
+      "id": "gaming-and-npc-agents",
+      "name": "Gaming & NPC Agents",
+      "projects": [
+        "clawra",
+        "molt-chess"
+      ]
+    },
+    {
+      "id": "dev-and-agent-builders",
+      "name": "Dev & Agent Builders",
+      "projects": [
+        "axiom",
+        "clawapp",
+        "clawdbot",
+        "cybercentry",
+        "ember",
+        "mit-molt"
+      ]
+    },
+    {
+      "id": "messaging",
+      "name": "Messaging",
+      "projects": [
+        "agent-relay",
+        "moltline"
+      ]
+    },
+    {
+      "id": "launchpads",
+      "name": "Launchpads",
+      "projects": [
+        "clawnch",
+        "creatorbid",
+        "frame",
+        "moltlaunch",
+        "pumpclaw",
+        "tellr"
+      ]
+    },
+    {
+      "id": "prediction-markets-attention",
+      "name": "Prediction Markets + Attention",
+      "projects": [
+        "claito",
+        "clawarena",
+        "clawdict",
+        "qrcoin"
+      ]
+    },
+    {
+      "id": "standards-and-protocols",
+      "name": "Standards & Protocols",
+      "projects": [
+        "acp",
+        "erc-8004",
+        "x402"
+      ]
+    },
+    {
+      "id": "payments-and-commerce",
+      "name": "Payments & Commerce",
+      "projects": [
+        "b402",
+        "x402-layer",
+        "zauth"
+      ]
+    },
+    {
+      "id": "compute-and-data",
+      "name": "Compute & Data",
+      "projects": [
+        "claw-cloud",
+        "conway-research",
+        "eigencloud",
+        "heurist",
+        "reppo",
+        "venice"
+      ]
+    },
+    {
+      "id": "security-and-trust",
+      "name": "Security & Trust",
+      "projects": [
+        "chaosclaw",
+        "prompintel",
+        "regent",
+        "wachai"
+      ]
+    },
+    {
+      "id": "aggregators-and-discovery",
+      "name": "Aggregators & Discovery",
+      "projects": [
+        "claw-direct",
+        "clawnews",
+        "hotmolts",
+        "moltecosystem"
+      ]
+    },
+    {
+      "id": "media-and-entertainment",
+      "name": "Media & Entertainment",
+      "projects": [
+        "clawbazaar",
+        "forgeai",
+        "molt-space",
+        "retake-tv"
+      ]
+    },
+    {
+      "id": "work-and-marketplaces",
+      "name": "Work & Marketplaces",
+      "projects": [
+        "clawmart",
+        "headless",
+        "molten",
+        "moltroad",
+        "openworkceo",
+        "rentahuman"
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other",
+      "projects": [
+        "clawlancers",
+        "clawshi",
+        "dx-rg",
+        "spredd"
+      ]
+    },
+    {
+      "id": "the-molt-society",
+      "name": "The \"Molt\" Society",
+      "projects": [
+        "4claw",
+        "clawcaster",
+        "clawdr",
+        "clawdvine",
+        "clawk",
+        "lobchan",
+        "moltmatch",
+        "moltx",
+        "shellmates"
+      ]
+    },
+    {
+      "id": "trading-and-defai",
+      "name": "Trading & DeFAI",
+      "projects": [
+        "clawdx",
+        "definitivefi",
+        "heyelsa",
+        "javlis",
+        "merklemoltbot",
+        "minara",
+        "o1-exchange",
+        "polyclaw",
+        "zyfai"
+      ]
+    }
+  ]
+}

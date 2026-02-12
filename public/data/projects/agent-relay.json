@@ -1,0 +1,9 @@
+{
+  "id": "agent-relay",
+  "name": "Agent Relay",
+  "description": "Slack-like tool for agent swarms, open-source human-agent workflows and coordination.",
+  "links": {
+    "twitter": "https://x.com/agent_relay",
+    "logo": "/imgs/OpenClaw/Messaging/agent-relay.png"
+  }
+}

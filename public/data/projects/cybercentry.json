@@ -1,0 +1,10 @@
+{
+  "id": "cybercentry",
+  "name": "Cybercentry",
+  "description": "Security verification and auditing for tokens, wallets, code, and web apps in agent environments.",
+  "links": {
+    "homepage": "https://cybercentry.com",
+    "twitter": "https://x.com/cybercentry",
+    "logo": "/imgs/OpenClaw/Dev&AgentBuilders/cybercentry.png"
+  }
+}

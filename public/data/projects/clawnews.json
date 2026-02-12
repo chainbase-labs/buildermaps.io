@@ -1,0 +1,8 @@
+{
+  "id": "clawnews",
+  "name": "ClawNews",
+  "description": "Hacker News-style aggregator for the OpenClaw/Molt ecosystem.",
+  "links": {
+    "twitter": "https://x.com/ClawNewsIO"
+  }
+}

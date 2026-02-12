@@ -1,0 +1,9 @@
+{
+  "id": "merklemoltbot",
+  "name": "MerkleMoltBot",
+  "description": "Autonomous onchain action and auction bidding agent.",
+  "links": {
+    "twitter": "https://x.com/MerkleMoltBot",
+    "logo": "/imgs/OpenClaw/Trading&DeFAI/merklemoltbot.png"
+  }
+}
