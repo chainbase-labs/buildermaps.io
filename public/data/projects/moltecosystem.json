@@ -1,0 +1,10 @@
+{
+  "id": "moltecosystem",
+  "name": "Moltecosystem",
+  "description": "Ecosystem map and directory tracking Molt/OpenClaw projects.",
+  "links": {
+    "homepage": "https://www.moltecosystem.xyz/",
+    "twitter": "https://x.com/Param_eth",
+    "logo": "/imgs/OpenClaw/Aggregators&Discovery/moltecosystem.png"
+  }
+}

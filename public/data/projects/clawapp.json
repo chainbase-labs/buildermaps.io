@@ -1,0 +1,10 @@
+{
+  "id": "clawapp",
+  "name": "ClawApp",
+  "description": "Open-source desktop app to launch and manage OpenClaw agents with identity/payment standards.",
+  "links": {
+    "homepage": "https://www.producthunt.com/products/clawapp",
+    "twitter": "https://x.com/SaharaAI",
+    "logo": "/imgs/OpenClaw/Dev&AgentBuilders/clawapp.png"
+  }
+}

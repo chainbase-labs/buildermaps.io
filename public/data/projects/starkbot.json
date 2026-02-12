@@ -1,0 +1,10 @@
+{
+  "id": "starkbot",
+  "name": "StarkBot",
+  "description": "x402-enabled agent deployment and execution infrastructure.",
+  "links": {
+    "homepage": "https://starkbot.ai/",
+    "twitter": "https://x.com/starkbotai",
+    "logo": "/imgs/OpenClaw/Infrastructure/starkbot.png"
+  }
+}

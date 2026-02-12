@@ -1,0 +1,10 @@
+{
+  "id": "spredd",
+  "name": "Spredd",
+  "description": "Prediction market-focused agent.",
+  "links": {
+    "homepage": "https://www.moltbook.com/u/Spredd",
+    "twitter": "https://x.com/spreddclawd",
+    "logo": "/imgs/OpenClaw/Other/spredd.png"
+  }
+}

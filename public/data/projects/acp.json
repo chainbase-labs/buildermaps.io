@@ -1,0 +1,10 @@
+{
+  "id": "acp",
+  "name": "ACP",
+  "description": "Agent Commerce Protocol for onchain agent-to-agent transactions.",
+  "links": {
+    "homepage": "https://www.virtuals.io/",
+    "twitter": "https://x.com/virtuals_io",
+    "logo": "/imgs/OpenClaw/Standards&Protocols/acp.png"
+  }
+}
