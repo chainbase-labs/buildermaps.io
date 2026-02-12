@@ -1,0 +1,20 @@
+{
+  "sector": "OpenClaw",
+  "types": [
+    {
+      "id": "standards-and-protocols",
+      "name": "Standards & Protocols",
+      "projects": [
+        "erc-8004",
+        "x402"
+      ]
+    },
+    {
+      "id": "aggregators-and-discovery",
+      "name": "Aggregators & Discovery",
+      "projects": [
+        "hotmolts"
+      ]
+    }
+  ]
+}

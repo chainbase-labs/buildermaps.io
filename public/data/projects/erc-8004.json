@@ -1,0 +1,8 @@
+{
+  "id": "erc-8004",
+  "name": "ERC-8004",
+  "description": "Onchain identity and discovery standard for autonomous agents.",
+  "links": {
+    "logo": "/imgs/OpenClaw/Standards&Protocols/erc-8004.png"
+  }
+}
