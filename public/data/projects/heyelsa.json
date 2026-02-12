@@ -1,11 +1,11 @@
 {
   "id": "heyelsa",
   "name": "HeyElsa",
-  "description": "HeyElsa is an AI-powered assistant for Web3, helping users navigate crypto and DeFi with natural language interactions.",
+  "description": "x402-powered DeFi agent for trades, portfolios, multi-chain swaps.",
   "location": "",
   "links": {
-    "logo": "/imgs/Base/AIAgent/heyelsa.png",
-    "homepage": "https://app.heyelsa.ai/",
+    "logo": "/imgs/OpenClaw/Trading&DeFAI/heyelsa.png",
+    "homepage": "https://heyelsa.ai/",
     "twitter": "https://x.com/HeyElsaAI",
     "github": ""
   }

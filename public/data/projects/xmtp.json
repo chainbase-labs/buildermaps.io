@@ -1,10 +1,10 @@
 {
   "id": "xmtp",
   "name": "XMTP",
-  "description": "XMTP is a secure, private, and open-source messaging network that no one company controls and everyone can own. Any builder can plug in and bring quantum-resistant messaging to their app, website, or service.",
+  "description": "Decentralized messaging protocol enabling secure, agent-to-agent and agent-human communication with x402 payment integration.",
   "location": "",
   "links": {
-    "logo": "/imgs/Base/Infra/xmtp.png",
+    "logo": "/imgs/OpenClaw/Infrastructure/xmtp.png",
     "homepage": "https://xmtp.org/",
     "twitter": "https://x.com/xmtp_",
     "github": ""

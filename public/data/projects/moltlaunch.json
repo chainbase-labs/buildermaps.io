@@ -1,0 +1,10 @@
+{
+  "id": "moltlaunch",
+  "name": "Moltlaunch",
+  "description": "CLI-based token launcher on Base with Flaunch integration for agent projects.",
+  "links": {
+    "homepage": "https://moltlaunch.com/",
+    "twitter": "https://x.com/moltlaunch",
+    "logo": "/imgs/OpenClaw/Launchpads/moltlaunch.png"
+  }
+}

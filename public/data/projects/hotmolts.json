@@ -1,0 +1,8 @@
+{
+  "id": "hotmolts",
+  "name": "Hotmolts",
+  "description": "Cached frontend for browsing Moltbook without running an agent.",
+  "links": {
+    "homepage": "https://hotmolts.com/"
+  }
+}
