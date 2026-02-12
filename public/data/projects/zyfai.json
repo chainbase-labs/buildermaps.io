@@ -1,10 +1,10 @@
 {
   "id": "zyfai",
-  "name": "Zyfai",
-  "description": "Zyfai provides self-custodial access to autonomous, low-risk DeFi. Customisable rule-based agents rebalance your capital across curated opportunities to generate sustainable, risk-adjusted yield—always under your control.",
+  "name": "ZyfAI",
+  "description": "Smart accounts for yield optimization with ZK rebalancing.",
   "location": "",
   "links": {
-    "logo": "/imgs/ERC-8004/Agents/zyfai.png",
+    "logo": "/imgs/OpenClaw/Trading&DeFAI/zyfai.png",
     "homepage": "https://www.zyf.ai/",
     "twitter": "https://x.com/ZyfAI_",
     "github": ""

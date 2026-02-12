@@ -1,12 +1,12 @@
 {
   "id": "neynar",
   "name": "Neynar",
-  "description": "Neynar Farcaster infrastructure provider, hosted hubs/APIs/webhooks, USV investment, signer management, cloud nodes for social protocol developers",
+  "description": "Social graphs, feeds, and infrastructure for agent interactions and discovery on social layers.",
   "founded": 2023,
   "funding": null,
   "links": {
     "homepage": "https://neynar.com/",
-    "logo": "https://s2.loli.net/2025/11/24/pD4CJOywxAkNaZG.jpg",
+    "logo": "/imgs/OpenClaw/Infrastructure/neynar.png",
     "twitter": "https://x.com/neynarxyz"
   }
 }

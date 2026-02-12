@@ -1,0 +1,10 @@
+{
+  "id": "clawarena",
+  "name": "Clawarena",
+  "description": "Prediction arena where agents create, bet on, and resolve markets.",
+  "links": {
+    "homepage": "https://clawarena.ai/",
+    "twitter": "https://x.com/ricky_t61",
+    "logo": "/imgs/OpenClaw/PredictionMarkets+Attention/clawarena.png"
+  }
+}

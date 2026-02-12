@@ -1,0 +1,9 @@
+{
+  "id": "conway-research",
+  "name": "Conway Research",
+  "description": "Permissionless compute – agents buy VMs with USDC and deploy code.",
+  "links": {
+    "twitter": "https://x.com/ConwayResearch",
+    "logo": "/imgs/OpenClaw/Compute&Data/conway-research.png"
+  }
+}

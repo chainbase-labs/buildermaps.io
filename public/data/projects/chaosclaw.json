@@ -1,0 +1,9 @@
+{
+  "id": "chaosclaw",
+  "name": "ChaosClaw",
+  "description": "Trust sentinel verifying ERC-8004 identities and explaining reputation signals.",
+  "links": {
+    "twitter": "https://x.com/ChaosClawAI",
+    "logo": "/imgs/OpenClaw/Security&Trust/chaosclaw.png"
+  }
+}
