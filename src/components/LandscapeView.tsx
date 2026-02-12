@@ -443,15 +443,13 @@ async function exportSubcategoryPng(subcategory: Subcategory) {
       <div
         key={refKey}
         ref={setSubcatRef(refKey)}
-        className={`relative ${isCompactSubcategory ? "py-4 px-2" : "p-4"} ${columnSpanClass} ${
-          isCompactSubcategory ? "justify-self-start self-end w-fit max-w-full" : ""
-        }`}
+        className={`relative ${isCompactSubcategory ? "py-4 px-2" : "p-4"} ${columnSpanClass} justify-self-start self-end w-fit max-w-full`}
         onMouseEnter={() => setHoveredSubcategoryKey(refKey)}
         onMouseLeave={() => setHoveredSubcategoryKey(null)}
       >
         <div
-          className={`relative border border-black rounded ${background} px-2 pb-2 pt-7 max-[968px]:col-span-12 max-[568px]:px-2 max-[568px]:pb-1 ${
-            isCompactSubcategory ? "inline-block w-fit max-w-full px-0" : ""
+          className={`relative border border-black rounded ${background} px-2 pb-2 pt-7 max-[968px]:col-span-12 max-[568px]:px-2 max-[568px]:pb-1 inline-block w-fit max-w-full ${
+            isCompactSubcategory ? "px-0" : ""
           }`}
         >
           <button
@@ -576,7 +574,7 @@ async function exportSubcategoryPng(subcategory: Subcategory) {
               ? "bg-white"
               : getSubcategoryStyle(sortIndex).bg;
 
-            const columnSpanClass = "max-md:col-span-6 col-span-3";
+            const columnSpanClass = "";
 
             return renderSubcategoryCard(
               subcategory,
