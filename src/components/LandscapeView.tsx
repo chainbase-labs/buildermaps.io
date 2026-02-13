@@ -467,7 +467,6 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
   const renderSubcategoryCard = (
     subcategory: Subcategory,
     background: string,
-    columnSpanClass: string,
     isCompactSubcategory: boolean
   ) => {
     const refKey = `${category.name}__${subcategory.name}`;
@@ -575,7 +574,7 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
             ? "bg-white"
             : getSubcategoryStyle(sortIndex).bg;
 
-          return renderSubcategoryCard(subcategory, background, "", false);
+          return renderSubcategoryCard(subcategory, background, false);
         })}
       </div>
 
@@ -589,14 +588,7 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
               ? "bg-white"
               : getSubcategoryStyle(sortIndex).bg;
 
-            const columnSpanClass = "";
-
-            return renderSubcategoryCard(
-              subcategory,
-              background,
-              columnSpanClass,
-              true
-            );
+            return renderSubcategoryCard(subcategory, background, true);
           })}
         </div>
       )}
