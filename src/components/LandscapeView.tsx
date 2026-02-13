@@ -479,7 +479,7 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
         ref={setSubcatRef(refKey)}
         className={`relative ${
           isCompactSubcategory ? "py-4 px-2" : "p-4"
-        } w-fit max-w-full`}
+        } w-fit max-w-[50%]`}
         onMouseEnter={() => setHoveredSubcategoryKey(refKey)}
         onMouseLeave={() => setHoveredSubcategoryKey(null)}
       >
