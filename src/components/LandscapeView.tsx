@@ -457,17 +457,9 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
     })
   );
 
-  const compactSubcategories = subcategoryItems.filter(
-    (item) => item.projectCount < 6
-  );
-  const regularSubcategories = subcategoryItems.filter(
-    (item) => item.projectCount >= 6
-  );
-
   const renderSubcategoryCard = (
     subcategory: Subcategory,
-    background: string,
-    isCompactSubcategory: boolean
+    background: string
   ) => {
     const refKey = `${category.name}__${subcategory.name}`;
     const isExporting = exportingKey === refKey;
@@ -477,16 +469,12 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
       <div
         key={refKey}
         ref={setSubcatRef(refKey)}
-        className={`relative ${
-          isCompactSubcategory ? "py-4 px-2" : "p-4"
-        } w-fit max-w-[50%]`}
+        className="relative p-4 w-fit max-w-[50%]"
         onMouseEnter={() => setHoveredSubcategoryKey(refKey)}
         onMouseLeave={() => setHoveredSubcategoryKey(null)}
       >
         <div
-          className={`relative border border-black rounded ${background} px-2 pb-2 pt-7 max-[968px]:col-span-12 max-[568px]:px-2 max-[568px]:pb-1 inline-block w-fit max-w-full ${
-            isCompactSubcategory ? "px-0" : ""
-          }`}
+          className={`relative border border-black rounded ${background} px-2 pb-2 pt-7 max-[968px]:col-span-12 max-[568px]:px-2 max-[568px]:pb-1 inline-block w-fit max-w-full`}
         >
           <button
             type="button"
@@ -566,7 +554,7 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
       </h2>
 
       <div className="relative z-0 flex flex-wrap gap-0">
-        {regularSubcategories.map((item) => {
+        {subcategoryItems.map((item) => {
           const { subcategory, sortIndex } = item;
           const hasDirectProjects =
             subcategory.projects && subcategory.projects.length > 0;
@@ -574,24 +562,9 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
             ? "bg-white"
             : getSubcategoryStyle(sortIndex).bg;
 
-          return renderSubcategoryCard(subcategory, background, false);
+          return renderSubcategoryCard(subcategory, background);
         })}
       </div>
-
-      {compactSubcategories.length > 0 && (
-        <div className="relative flex flex-wrap">
-          {compactSubcategories.map((item) => {
-            const { subcategory, sortIndex } = item;
-            const hasDirectProjects =
-              subcategory.projects && subcategory.projects.length > 0;
-            const background = hasDirectProjects
-              ? "bg-white"
-              : getSubcategoryStyle(sortIndex).bg;
-
-            return renderSubcategoryCard(subcategory, background, true);
-          })}
-        </div>
-      )}
 
       <footer className="pt-4 g-gray-50">
         <div className="container mx-auto">
