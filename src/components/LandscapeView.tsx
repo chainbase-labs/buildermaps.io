@@ -480,7 +480,7 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
         ref={setSubcatRef(refKey)}
         className={`relative ${
           isCompactSubcategory ? "py-4 px-2" : "p-4"
-        } ${columnSpanClass} justify-self-start self-end w-fit max-w-full`}
+        } w-fit max-w-full`}
         onMouseEnter={() => setHoveredSubcategoryKey(refKey)}
         onMouseLeave={() => setHoveredSubcategoryKey(null)}
       >
@@ -566,38 +566,16 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
         {category.name} Ecosystem Map
       </h2>
 
-      <div className="relative z-0 grid grid-cols-8 gap-0 max-[768px]:grid-cols-4">
-        {regularSubcategories.map((item, index) => {
-          const { subcategory, sortIndex, projectCount } = item;
+      <div className="relative z-0 flex flex-wrap gap-0">
+        {regularSubcategories.map((item) => {
+          const { subcategory, sortIndex } = item;
           const hasDirectProjects =
             subcategory.projects && subcategory.projects.length > 0;
           const background = hasDirectProjects
             ? "bg-white"
             : getSubcategoryStyle(sortIndex).bg;
 
-          const isEven = index % 2 === 0;
-          const siblingIndex = isEven ? index + 1 : index - 1;
-          const siblingCount =
-            siblingIndex >= 0 && siblingIndex < regularSubcategories.length
-              ? regularSubcategories[siblingIndex].projectCount
-              : null;
-          const hasSameCountAsSibling =
-            siblingCount !== null && projectCount === siblingCount;
-
-          const desktopColumnSpan = hasSameCountAsSibling
-            ? "col-span-4"
-            : isEven
-            ? "col-span-5"
-            : "col-span-3";
-
-          const columnSpanClass = `max-md:col-span-4 ${desktopColumnSpan}`;
-
-          return renderSubcategoryCard(
-            subcategory,
-            background,
-            columnSpanClass,
-            false
-          );
+          return renderSubcategoryCard(subcategory, background, "", false);
         })}
       </div>
 
