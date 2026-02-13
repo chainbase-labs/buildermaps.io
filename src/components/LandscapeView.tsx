@@ -479,7 +479,7 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
         key={refKey}
         ref={setSubcatRef(refKey)}
         className={`relative ${
-          isCompactSubcategory ? "py-2 px-1" : "p-2"
+          isCompactSubcategory ? "py-4 px-2" : "p-4"
         } ${columnSpanClass} justify-self-start self-end w-fit max-w-full`}
         onMouseEnter={() => setHoveredSubcategoryKey(refKey)}
         onMouseLeave={() => setHoveredSubcategoryKey(null)}
@@ -566,7 +566,7 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
         {category.name} Ecosystem Map
       </h2>
 
-      <div className="relative z-0 grid grid-cols-12 gap-0 max-[768px]:grid-cols-6">
+      <div className="relative z-0 grid grid-cols-8 gap-0 max-[768px]:grid-cols-4">
         {regularSubcategories.map((item, index) => {
           const { subcategory, sortIndex, projectCount } = item;
           const hasDirectProjects =
@@ -585,12 +585,12 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
             siblingCount !== null && projectCount === siblingCount;
 
           const desktopColumnSpan = hasSameCountAsSibling
-            ? "col-span-6"
+            ? "col-span-4"
             : isEven
-            ? "col-span-7"
-            : "col-span-5";
+            ? "col-span-5"
+            : "col-span-3";
 
-          const columnSpanClass = `max-md:col-span-6 ${desktopColumnSpan}`;
+          const columnSpanClass = `max-md:col-span-4 ${desktopColumnSpan}`;
 
           return renderSubcategoryCard(
             subcategory,
