@@ -406,6 +406,7 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
       });
 
       // Wait for layout to settle after dimension fixes
+      // 200ms allows browser to complete reflow and repaint
       await new Promise((r) => requestAnimationFrame(r));
       await new Promise((r) => setTimeout(r, 200));
 
