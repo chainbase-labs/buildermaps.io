@@ -384,6 +384,7 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
       invisibleContainer.appendChild(clonedNode);
 
       // Wait for the clone to be rendered
+      // Two frames needed: first for DOM insertion, second for layout calculation
       await new Promise((r) => requestAnimationFrame(r));
       await new Promise((r) => requestAnimationFrame(r));
 
