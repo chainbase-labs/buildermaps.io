@@ -2,7 +2,6 @@ import { useMemo, useState } from "react";
 import { ArrowLeft, LayoutGrid, LayoutList, Plus, Search } from "lucide-react";
 
 import {
-  countCategoryProjects,
   type Category,
   type Subcategory,
 } from "../lib/category-utils";
