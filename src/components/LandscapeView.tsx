@@ -388,9 +388,9 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
       await new Promise((r) => requestAnimationFrame(r));
 
       // Fix subcategory boxes to maintain their layout during export
-      // Find all subcategory boxes (divs with border class inside the cloned node)
+      // Find all subcategory boxes using the data attribute
       const subcategoryBoxes = clonedNode.querySelectorAll(
-        'div[class*="border-black"][class*="rounded"]'
+        "[data-subcategory-box]"
       );
       subcategoryBoxes.forEach((box) => {
         const htmlBox = box as HTMLElement;
@@ -501,6 +501,7 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
         onMouseLeave={() => setHoveredSubcategoryKey(null)}
       >
         <div
+          data-subcategory-box
           className={`relative border border-black rounded ${background} px-1 pb-2 pt-7 max-[968px]:col-span-12 max-[568px]:px-2 max-[568px]:pb-1 inline-block w-fit max-w-full`}
         >
           <button
