@@ -618,7 +618,7 @@ function ProjectLogo({
     >
       <PopoverTrigger asChild>
         <div
-          className="group relative z-20 h-[96px] w-fit max-[568px]:h-[90px] cursor-pointer max-[568px]:cursor-default max-[568px]:pointer-events-none"
+          className="group relative z-20 h-[96px] w-fit max-[568px]:h-[90px] max-[568px]:w-[90px] cursor-pointer max-[568px]:cursor-default max-[568px]:pointer-events-none"
           title={project.name}
         >
           <div
