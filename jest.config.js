@@ -20,5 +20,5 @@ module.exports = {
   coverageDirectory: "coverage",
   coverageReporters: ["text", "lcov", "html"],
   testPathIgnorePatterns: ["/node_modules/", "/dist/"],
-  transformIgnorePatterns: ["/node_modules/(?!(lodash-es)/)"],
+  transformIgnorePatterns: ["/node_modules/"],
 };
