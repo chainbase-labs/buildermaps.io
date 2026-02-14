@@ -372,15 +372,6 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
       clonedNode.style.visibility = "visible";
       clonedNode.style.opacity = "1";
 
-      // Ensure the cloned node and its children don't have overflow constraints
-      clonedNode.style.overflow = "visible";
-
-      // Find all inner divs and make them visible to prevent content clipping
-      const allDivs = clonedNode.querySelectorAll("div");
-      allDivs.forEach((div) => {
-        (div as HTMLElement).style.overflow = "visible";
-      });
-
       // Hide all export buttons in the clone (both subcategory and main map export buttons)
       const exportButtons = clonedNode.querySelectorAll(
         "button[data-export-button], button[data-export-whole-map-button]"
@@ -392,8 +383,28 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
       // Append the clone to the container
       invisibleContainer.appendChild(clonedNode);
 
-      // Wait for the clone to be rendered and images to load
+      // Wait for the clone to be rendered
       await new Promise((r) => requestAnimationFrame(r));
+      await new Promise((r) => requestAnimationFrame(r));
+
+      // Fix subcategory boxes to maintain their layout during export
+      // Find all subcategory boxes (divs with border class inside the cloned node)
+      const subcategoryBoxes = clonedNode.querySelectorAll(
+        'div[class*="border-black"][class*="rounded"]'
+      );
+      subcategoryBoxes.forEach((box) => {
+        const htmlBox = box as HTMLElement;
+        // Get the computed dimensions to lock them in
+        const boxRect = htmlBox.getBoundingClientRect();
+        if (boxRect.width > 0 && boxRect.height > 0) {
+          htmlBox.style.width = `${boxRect.width}px`;
+          htmlBox.style.minHeight = `${boxRect.height}px`;
+          // Ensure content doesn't overflow the box
+          htmlBox.style.overflow = "hidden";
+        }
+      });
+
+      // Wait for layout to settle after dimension fixes
       await new Promise((r) => requestAnimationFrame(r));
       await new Promise((r) => setTimeout(r, 200));
 
