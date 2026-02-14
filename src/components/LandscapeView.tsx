@@ -471,7 +471,7 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
       <div
         key={refKey}
         ref={setSubcatRef(refKey)}
-        className={`relative py-4 px-1 w-fit ${maxWidthClass}`}
+        className={`relative py-4 px-1 w-fit ${maxWidthClass} max-[568px]:max-w-full`}
         onMouseEnter={() => setHoveredSubcategoryKey(refKey)}
         onMouseLeave={() => setHoveredSubcategoryKey(null)}
       >
