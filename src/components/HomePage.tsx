@@ -6,7 +6,6 @@ import {
   type Category,
 } from "../lib/category-utils";
 import { Button } from "./ui/button";
-import { UserMenu } from "./UserMenu";
 import { useSubmitProjectModal } from "./SubmitProjectModal";
 
 interface HomePageProps {
@@ -66,7 +65,6 @@ export function HomePage({ categories, onCategoryClick }: HomePageProps) {
                 <Plus className="h-4 w-4" />
                 Submit Project
               </Button>
-              <UserMenu />
             </div>
           </div>
         </div>
