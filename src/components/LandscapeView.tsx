@@ -466,6 +466,7 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
     const isHovered = hoveredSubcategoryKey === refKey;
     const projectCount = countSubcategoryProjects(subcategory);
     const maxWidthClass = projectCount > 9 ? "max-w-[50%]" : "max-w-[70%]";
+    const wrapClass = projectCount < 5 ? "flex-nowrap" : "flex-wrap";
 
     return (
       <div
@@ -501,7 +502,7 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
             </h3>
           </div>
 
-          <div className="flex flex-wrap">
+          <div className={`flex ${wrapClass}`}>
             {sortProjects(subcategory.projects || []).map((project) => {
               const uniqueKey = `${project.id}-${category.name}-${subcategory.name}`;
               return (
