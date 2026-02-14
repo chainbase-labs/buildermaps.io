@@ -375,13 +375,10 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
       // Ensure the cloned node and its children don't have overflow constraints
       clonedNode.style.overflow = "visible";
 
-      // Find all inner divs that might have overflow constraints and make them visible
+      // Find all inner divs and make them visible to prevent content clipping
       const allDivs = clonedNode.querySelectorAll("div");
       allDivs.forEach((div) => {
-        const computedStyle = window.getComputedStyle(div);
-        if (computedStyle.overflow !== "visible") {
-          (div as HTMLElement).style.overflow = "visible";
-        }
+        (div as HTMLElement).style.overflow = "visible";
       });
 
       // Hide all export buttons in the clone (both subcategory and main map export buttons)
