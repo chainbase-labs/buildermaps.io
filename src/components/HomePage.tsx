@@ -36,11 +36,11 @@ export function HomePage({ categories, onCategoryClick }: HomePageProps) {
     <div className="min-h-screen bg-white">
       <div className="border-b bg-white">
         <div className="container mx-auto px-6 py-3 max-[568px]:px-3 max-[568px]:py-4">
-          <div className="mx-auto flex max-w-6xl items-center justify-between gap-3">
-            <div className="text-lg font-semibold text-gray-900">
+          <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 max-[568px]:gap-2">
+            <div className="text-lg font-semibold text-gray-900 shrink-0">
               BuilderMaps
             </div>
-            <div className="flex items-center gap-3 max-[568px]:gap-2">
+            <div className="flex items-center gap-3 max-[568px]:gap-2 shrink-0">
               <Button
                 variant="outline"
                 size="sm"
