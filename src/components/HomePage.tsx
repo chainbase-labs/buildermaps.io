@@ -35,16 +35,16 @@ export function HomePage({ categories, onCategoryClick }: HomePageProps) {
   return (
     <div className="min-h-screen bg-white">
       <div className="border-b bg-white">
-        <div className="container mx-auto px-6 py-3">
-          <div className="mx-auto flex max-w-6xl items-center justify-between">
-            <div className="text-lg font-semibold text-gray-900">
+        <div className="container mx-auto px-6 py-3 max-[568px]:px-3 max-[568px]:py-4">
+          <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 max-[568px]:flex-wrap">
+            <div className="text-lg font-semibold text-gray-900 max-[568px]:mb-2">
               BuilderMaps
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 max-[568px]:gap-2 max-[568px]:w-full max-[568px]:justify-end">
               <Button
                 variant="outline"
                 size="sm"
-                className="gap-2 border-gray-300"
+                className="gap-2 border-gray-300 max-[568px]:text-xs max-[568px]:px-2"
                 onClick={() => {
                   window.open(
                     "https://github.com/chainbase-labs/buildermaps.io",
@@ -53,17 +53,19 @@ export function HomePage({ categories, onCategoryClick }: HomePageProps) {
                   );
                 }}
               >
-                <Github className="h-4 w-4" />
-                View on GitHub
+                <Github className="h-4 w-4 max-[568px]:h-3 max-[568px]:w-3" />
+                <span className="max-[568px]:hidden">View on GitHub</span>
+                <span className="hidden max-[568px]:inline">GitHub</span>
               </Button>
               <Button
                 variant="outline"
                 size="sm"
-                className="gap-2 border-gray-300"
+                className="gap-2 border-gray-300 max-[568px]:text-xs max-[568px]:px-2"
                 onClick={() => setOpen(true)}
               >
-                <Plus className="h-4 w-4" />
-                Submit Project
+                <Plus className="h-4 w-4 max-[568px]:h-3 max-[568px]:w-3" />
+                <span className="max-[568px]:hidden">Submit Project</span>
+                <span className="hidden max-[568px]:inline">Submit</span>
               </Button>
             </div>
           </div>
