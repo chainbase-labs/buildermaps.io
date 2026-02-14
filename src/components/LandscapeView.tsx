@@ -23,6 +23,9 @@ import {
 const EXPORT_IMAGE_PLACEHOLDER =
   "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' viewBox='0 0 56 56'%3E%3Ccircle cx='28' cy='28' r='27' fill='%23f3f4f6' stroke='%23d1d5db'/%3E%3Crect x='17' y='22' width='22' height='16' rx='3' fill='%239ca3af'/%3E%3C/svg%3E";
 
+// Threshold for project count below which flex-wrap is disabled to prevent overflow
+const PROJECT_WRAP_THRESHOLD = 5;
+
 interface LandscapeViewProps {
   category: Category;
   exportRef?: React.RefObject<HTMLDivElement>;
@@ -466,7 +469,8 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
     const isHovered = hoveredSubcategoryKey === refKey;
     const projectCount = countSubcategoryProjects(subcategory);
     const maxWidthClass = projectCount > 9 ? "max-w-[50%]" : "max-w-[70%]";
-    const wrapClass = projectCount < 5 ? "flex-nowrap" : "flex-wrap";
+    const wrapClass =
+      projectCount < PROJECT_WRAP_THRESHOLD ? "flex-nowrap" : "flex-wrap";
 
     return (
       <div
