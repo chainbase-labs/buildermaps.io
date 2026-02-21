@@ -1,0 +1,38 @@
+name: Copilot setup steps
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/copilot-setup-steps.yml  
+
+permissions:
+  contents: read
+  pull-requests: read  
+
+jobs:
+  copilot-setup-steps:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20.9.0"
+          cache: "npm"
+          registry-url: https://npm.pkg.github.com/          
+          cache-dependency-path: |
+            **/package-lock.json
+
+      - name: Log npm cache status
+        run: |
+          if [ "${{ steps.node-cache.outputs.cache-hit }}" = "true" ]; then
+            echo "✅ npm cache hit — using cached dependencies."
+          else
+            echo "⚠️ npm cache miss — installing dependencies from scratch."
+          fi            
+
+      - name: Install dependencies
+        run: npm ci
