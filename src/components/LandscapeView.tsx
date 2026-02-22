@@ -490,7 +490,12 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
     const isExporting = exportingKey === refKey;
     const isHovered = hoveredSubcategoryKey === refKey;
     const projectCount = countSubcategoryProjects(subcategory);
-    const maxWidthClass = projectCount > 9 ? "max-w-[50%]" : "max-w-[70%]";
+    const maxWidthClass =
+      projectCount > 20
+        ? "max-w-full"
+        : projectCount > 9
+        ? "max-w-[50%]"
+        : "max-w-[70%]";
     const wrapClass =
       projectCount < PROJECT_WRAP_THRESHOLD ? "flex-nowrap" : "flex-wrap";
 
