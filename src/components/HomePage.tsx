@@ -25,12 +25,10 @@ export function HomePage({ categories, onCategoryClick }: HomePageProps) {
   const totalProjects = countTotalProjects(filteredCategories);
   const totalCategories = filteredCategories.length;
 
-  // Sort categories by project count (descending)
-  const sortedCategories = [...filteredCategories].sort((a, b) => {
-    const countA = countCategoryProjects(a);
-    const countB = countCategoryProjects(b);
-    return countB - countA;
-  });
+  // Sort categories alphabetically
+  const sortedCategories = [...filteredCategories].sort((a, b) =>
+    a.name.localeCompare(b.name)
+  );
 
   return (
     <div className="min-h-screen bg-white">
