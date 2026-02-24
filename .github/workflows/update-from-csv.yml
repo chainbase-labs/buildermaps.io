@@ -119,12 +119,12 @@ jobs:
         if: steps.check_label.outputs.valid_label == 'true'
         uses: actions/setup-node@v4
         with:
-          node-version: "20.9.0"
+          node-version: "latest"
           cache: "npm"
 
       - name: Install Node dependencies
         if: steps.check_label.outputs.valid_label == 'true'
-        run: npm install --legacy-peer-deps
+        run: npm install
 
       - name: Check for duplicate project IDs
         if: steps.check_label.outputs.valid_label == 'true'
@@ -217,11 +217,11 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20.9.0"
+          node-version: "latest"
           cache: "npm"
 
       - name: Install dependencies
-        run: npm install --legacy-peer-deps
+        run: npm install
 
       - name: Build builder-maps.json
         run: npm run build:maps

@@ -11,7 +11,7 @@ This is a React-based TypeScript repository that provides an interactive ecosyst
 - Run `npm run check:duplicate-ids` to ensure no duplicate project IDs exist
 
 ### Development Flow
-- **Install dependencies**: `npm install --legacy-peer-deps`
+- **Install dependencies**: `npm install`
 - **Start dev server**: `npm start` (runs on http://localhost:8080)
 - **Build for production**: `npm run build` (includes both webpack build and maps generation)
 - **Build data only**: `npm run build:maps` (generates builder-maps.json from split data)
@@ -141,8 +141,8 @@ This is a React-based TypeScript repository that provides an interactive ecosyst
 - **`postcss.config.cjs`**: PostCSS and Tailwind configuration
 
 ### Development Environment
-- **Node.js**: v20.9.0 (as specified in CI workflow)
-- **Package Manager**: npm with `--legacy-peer-deps` flag required
+- **Node.js**: latest (as specified in CI workflow)
+- **Package Manager**: npm (configured via `.npmrc`)
 - **Local Testing**: Use testnet environment at https://net-static-dev.chainbasehq.com/buildermaps
 - **Local Override**: Configure browser local storage to point to `http://localhost:8080/chainbase-labs-buildermaps-io.js`
 
@@ -192,7 +192,7 @@ npm test
 
 ## Important Notes
 
-1. **Legacy Peer Deps**: Always use `--legacy-peer-deps` flag with npm commands due to dependency conflicts
+1. **Legacy Peer Deps**: Configured via `.npmrc` (`legacy-peer-deps=true`)
 2. **Single-SPA**: This app uses single-spa micro-frontend architecture
 3. **Import Maps**: The app is loaded via import maps in the parent application
 4. **Data Updates via Issues**: GitHub issues can automatically update project data using workflow automation

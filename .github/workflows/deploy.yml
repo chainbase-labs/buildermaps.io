@@ -18,18 +18,18 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20.9.0"
+          node-version: "latest"
           registry-url: https://npm.pkg.github.com/
           cache: "npm"
 
       - name: Install dependencies
-        run: npm install --legacy-peer-deps
+        run: npm install
 
       - name: Check for duplicate project IDs
         run: node scripts/check-duplicate-ids.js
 
       - name: Handle import internal shared dependency
-        run: npm install glob@^9 --legacy-peer-deps && node ./scripts/ciAddTsIgnore.mjs
+        run: npm install glob@^9 && node ./scripts/ciAddTsIgnore.mjs
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -58,7 +58,7 @@ jobs:
         run: npm run build:maps
 
       - name: Build
-        run: npm run build --legacy-peer-deps
+        run: npm run build
         env:
           SHARED_MODULES: ${{ env.SHARED_MODULES }}
 
