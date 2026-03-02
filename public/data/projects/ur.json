@@ -1,0 +1,9 @@
+{
+  "id": "ur",
+  "name": "UR",
+  "description": "Blockchain-based neobank from Mantle providing multi-currency accounts, Mastercard debit cards, and fiat-crypto integration",
+  "links": {
+    "twitter": "https://x.com/UR_global",
+    "logo": "/imgs/OpenClaw/NeoBank/ur.png"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "gnosis-app",
+  "name": "Gnosis App",
+  "description": "Self custodial neo banking platform for digital assets.",
+  "links": {
+    "homepage": "https://t.co/htm1wxU1DH",
+    "twitter": "https://x.com/gnosisapp",
+    "logo": "/imgs/OpenClaw/NeoBank/gnosis-app.png"
+  }
+}

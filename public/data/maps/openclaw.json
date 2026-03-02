@@ -177,6 +177,123 @@
         "polyclaw",
         "zyfai"
       ]
+    },
+    {
+      "id": "neobank",
+      "name": "NeoBank",
+      "projects": [
+        "avici",
+        "cypher",
+        "ether-fi",
+        "eversend",
+        "fasset",
+        "fiat24",
+        "fizen",
+        "fuse-wallet",
+        "galaxyone",
+        "gnosis-app",
+        "holyheld",
+        "kast",
+        "kolo",
+        "krak",
+        "lava",
+        "lemon-argentina",
+        "lulo",
+        "minipay",
+        "nexo",
+        "pyra",
+        "redotpay",
+        "stables",
+        "tap",
+        "thorwallet",
+        "tria",
+        "tuyo",
+        "ur",
+        "vpay",
+        "wirex"
+      ]
+    },
+    {
+      "id": "cex-cards",
+      "name": "CEX Cards",
+      "projects": [
+        "binance",
+        "bitget",
+        "bybit",
+        "coinbase",
+        "crypto",
+        "gate",
+        "kraken",
+        "okx"
+      ]
+    },
+    {
+      "id": "upcoming-neobanks",
+      "name": "Upcoming Neobanks",
+      "projects": [
+        "fasqon",
+        "moto",
+        "neobankless",
+        "plasma",
+        "stealf",
+        "superform",
+        "veera",
+        "zoth"
+      ]
+    },
+    {
+      "id": "business-neobanks",
+      "name": "Business Neobanks",
+      "projects": [
+        "allscale",
+        "coinflow",
+        "coinshift",
+        "crossmint",
+        "gnosis-business",
+        "infini",
+        "request-finance",
+        "slash",
+        "sphere-labs",
+        "squads-labs",
+        "utila",
+        "xmoney"
+      ]
+    },
+    {
+      "id": "crypto-cards",
+      "name": "Crypto Cards",
+      "projects": [
+        "1inch",
+        "avalanche-card",
+        "moonwell",
+        "osmosis",
+        "solcard"
+      ]
+    },
+    {
+      "id": "fintech",
+      "name": "Fintech",
+      "projects": [
+        "cash",
+        "paypal",
+        "revolut",
+        "robinhood",
+        "stripe",
+        "venmo"
+      ]
+    },
+    {
+      "id": "wallet",
+      "name": "Wallet",
+      "projects": [
+        "ledger",
+        "metamask",
+        "phantom",
+        "ready",
+        "safepal",
+        "solflare",
+        "telegram"
+      ]
     }
   ]
 }

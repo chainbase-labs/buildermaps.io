@@ -1,0 +1,10 @@
+{
+  "id": "solcard",
+  "name": "SolCard",
+  "description": "Solana powered crypto debit card.",
+  "links": {
+    "homepage": "https://t.co/5GGVv8rJ7i",
+    "twitter": "https://x.com/solcard",
+    "logo": "/imgs/OpenClaw/CryptoCards/solcard.png"
+  }
+}

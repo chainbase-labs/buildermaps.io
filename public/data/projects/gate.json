@@ -1,0 +1,10 @@
+{
+  "id": "gate",
+  "name": "Gate",
+  "description": "Layer two network for instant settlements.",
+  "links": {
+    "homepage": "https://t.co/n6TTplHYun",
+    "twitter": "https://x.com/Gate",
+    "logo": "/imgs/OpenClaw/CEXCards/gate.png"
+  }
+}

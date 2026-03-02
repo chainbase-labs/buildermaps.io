@@ -1,0 +1,10 @@
+{
+  "id": "avici",
+  "name": "Avici",
+  "description": "Solana-based self-custodial crypto neobank with Visa cards and virtual bank accounts for fiat-crypto bridging.",
+  "links": {
+    "homepage": "https://t.co/NUo7sHJtZN",
+    "twitter": "https://x.com/AviciMoney",
+    "logo": "/imgs/OpenClaw/NeoBank/avici.png"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "minipay",
+  "name": "Minipay",
+  "description": "Self-custodial stablecoin wallet on Celo for instant, borderless payments and transfers using phone numbers",
+  "links": {
+    "homepage": "https://t.co/BCVyD6EMuS",
+    "twitter": "https://x.com/minipay",
+    "logo": "/imgs/OpenClaw/NeoBank/minipay.png"
+  }
+}

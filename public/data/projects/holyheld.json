@@ -1,0 +1,10 @@
+{
+  "id": "holyheld",
+  "name": "holyheld",
+  "description": "On-chain crypto debit card and neobank for wallet spending with IBAN, Apple/Google Pay, and USDC cashback.",
+  "links": {
+    "homepage": "https://holyheld.com/",
+    "twitter": "https://x.com/holyheld",
+    "logo": "/imgs/OpenClaw/NeoBank/holyheld.png"
+  }
+}

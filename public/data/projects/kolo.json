@@ -1,0 +1,10 @@
+{
+  "id": "kolo",
+  "name": "Kolo",
+  "description": "Non-custodial crypto wallet for spending via virtual cards and direct SEPA bank transfers.",
+  "links": {
+    "homepage": "https://t.co/DCsdzf1faT",
+    "twitter": "https://x.com/KoloHub",
+    "logo": "/imgs/OpenClaw/NeoBank/kolo.png"
+  }
+}

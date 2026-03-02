@@ -1,0 +1,10 @@
+{
+  "id": "venmo",
+  "name": "Venmo",
+  "description": "Social peer to peer mobile payment application.",
+  "links": {
+    "homepage": "https://t.co/gu4x7OhOMk",
+    "twitter": "https://x.com/Venmo",
+    "logo": "/imgs/OpenClaw/Fintech/venmo.png"
+  }
+}

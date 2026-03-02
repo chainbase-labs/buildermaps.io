@@ -1,0 +1,10 @@
+{
+  "id": "thorwallet",
+  "name": "THORWallet",
+  "description": "Non custodial decentralized exchange app for native cross chain swaps.",
+  "links": {
+    "homepage": "https://t.co/Usu9wj3X7u",
+    "twitter": "https://x.com/Thorwallet",
+    "logo": "/imgs/OpenClaw/NeoBank/thorwallet.png"
+  }
+}

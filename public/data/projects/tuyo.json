@@ -1,0 +1,10 @@
+{
+  "id": "tuyo",
+  "name": "Tuyo",
+  "description": "Self-custodial finance app for holding, earning, and spending USDC with a crypto debit card",
+  "links": {
+    "homepage": "https://t.co/F1ygRxFksJ",
+    "twitter": "https://x.com/itstuyo",
+    "logo": "/imgs/OpenClaw/NeoBank/tuyo.png"
+  }
+}

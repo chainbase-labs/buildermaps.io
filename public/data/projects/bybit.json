@@ -1,0 +1,10 @@
+{
+  "id": "bybit",
+  "name": "Bybit",
+  "description": "Mastercard debit card for crypto",
+  "links": {
+    "homepage": "https://t.co/xWi8kDIQpj",
+    "twitter": "https://x.com/Bybit_Official",
+    "logo": "/imgs/OpenClaw/CEXCards/bybit.png"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "fuse-wallet",
+  "name": "Fuse wallet",
+  "description": "Solana-based smart wallet for secure asset management and stablecoin spending via debit cards.",
+  "links": {
+    "homepage": "https://t.co/e84m8JlAbx",
+    "twitter": "https://x.com/fusewallet",
+    "logo": "/imgs/OpenClaw/NeoBank/fuse-wallet.png"
+  }
+}

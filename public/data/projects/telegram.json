@@ -1,0 +1,10 @@
+{
+  "id": "telegram",
+  "name": "Telegram",
+  "description": "Integrated crypto wallet within messaging platform.",
+  "links": {
+    "homepage": "https://t.co/zHAc9lS7Jy",
+    "twitter": "https://x.com/telegram",
+    "logo": "/imgs/OpenClaw/Wallet/telegram.png"
+  }
+}

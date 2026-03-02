@@ -1,0 +1,10 @@
+{
+  "id": "vpay",
+  "name": "vPay",
+  "description": "Streamlined cryptocurrency payment gateway tailored for merchant transactions.",
+  "links": {
+    "homepage": "https://t.co/6DGzf33U7n",
+    "twitter": "https://x.com/vPay_Global",
+    "logo": "/imgs/OpenClaw/NeoBank/vpay.png"
+  }
+}

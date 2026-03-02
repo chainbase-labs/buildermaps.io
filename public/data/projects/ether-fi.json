@@ -1,0 +1,10 @@
+{
+  "id": "ether-fi",
+  "name": "Ether.Fi",
+  "description": "Non-custodial Ethereum liquid staking protocol for ETH rewards and liquidity via eETH tokens.",
+  "links": {
+    "homepage": "https://www.ether.fi/",
+    "twitter": "https://x.com/EtherFi",
+    "logo": "/imgs/OpenClaw/NeoBank/ether-fi.png"
+  }
+}

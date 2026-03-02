@@ -1,0 +1,10 @@
+{
+  "id": "avalanche-card",
+  "name": "Avalanche Card",
+  "description": "Avalanche native crypto debit card.",
+  "links": {
+    "homepage": "https://t.co/5mMugB1EQC",
+    "twitter": "https://x.com/TheAvaxCard",
+    "logo": "/imgs/OpenClaw/CryptoCards/avalanche-card.png"
+  }
+}

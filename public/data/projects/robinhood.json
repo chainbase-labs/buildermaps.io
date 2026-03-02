@@ -1,0 +1,10 @@
+{
+  "id": "robinhood",
+  "name": "Robinhood",
+  "description": "Commission free retail investing and trading platform.",
+  "links": {
+    "homepage": "https://t.co/C4XQjnMCgq",
+    "twitter": "https://x.com/RobinhoodApp",
+    "logo": "/imgs/OpenClaw/Fintech/robinhood.png"
+  }
+}

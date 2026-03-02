@@ -1,11 +1,12 @@
 {
   "id": "xmoney",
   "name": "xMoney",
-  "description": "Digital payment infrastructure bridging traditional finance with cryptocurrency solutions",
+  "description": "Comprehensive crypto and fiat payment gateway.",
   "founded": null,
   "funding": null,
   "links": {
-    "logo": "https://s2.loli.net/2025/11/24/6yBeG5xjhvLmktM.jpg",
-    "twitter": "https://x.com/XMoney"
+    "logo": "/imgs/OpenClaw/BusinessNeobanks/xmoney.png",
+    "twitter": "https://x.com/xMoney_com",
+    "homepage": "https://t.co/piAYduh74h"
   }
 }

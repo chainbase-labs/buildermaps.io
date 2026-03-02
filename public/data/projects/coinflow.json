@@ -1,0 +1,10 @@
+{
+  "id": "coinflow",
+  "name": "Coinflow",
+  "description": "Web3 payment gateway for fiat transactions.",
+  "links": {
+    "homepage": "https://t.co/JxUmACGE4D",
+    "twitter": "https://x.com/CoinflowLabs",
+    "logo": "/imgs/OpenClaw/BusinessNeobanks/coinflow.png"
+  }
+}

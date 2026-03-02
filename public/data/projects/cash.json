@@ -1,13 +1,13 @@
 {
   "id": "cash",
-  "name": "CASH",
-  "description": "Solana stablecoin fully backed 1:1 by USD reserves via Bridge and Stripe",
+  "name": "Cash",
+  "description": "Mobile finance app for payments and crypto investing.",
   "founded": 2025,
   "funding": null,
   "links": {
-    "homepage": "https://www.usecash.xyz/",
-    "logo": "https://s2.loli.net/2025/11/24/OzoMnENH8AWemcF.jpg",
-    "twitter": "https://x.com/useCASH",
+    "homepage": "https://t.co/zno1wJuuuS",
+    "logo": "/imgs/OpenClaw/Fintech/cash.png",
+    "twitter": "https://x.com/CashApp",
     "telegram": "https://t.me/phantomwallet",
     "discord": "https://discord.gg/phantom",
     "reddit": "https://phantom.app"

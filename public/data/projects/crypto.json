@@ -1,0 +1,10 @@
+{
+  "id": "crypto",
+  "name": "Crypto",
+  "description": "Crypto neobank, debit cards for global spending, and integrated fiat-crypto services.",
+  "links": {
+    "homepage": "https://t.co/8S7PpFXx1q",
+    "twitter": "https://x.com/cryptocom",
+    "logo": "/imgs/OpenClaw/CEXCards/crypto.png"
+  }
+}

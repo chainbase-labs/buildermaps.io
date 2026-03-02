@@ -1,0 +1,10 @@
+{
+  "id": "metamask",
+  "name": "MetaMask",
+  "description": "Leading self custodial Web3 wallet and gateway.",
+  "links": {
+    "homepage": "https://t.co/8UNUrlaqUe",
+    "twitter": "https://x.com/MetaMask",
+    "logo": "/imgs/OpenClaw/Wallet/metamask.png"
+  }
+}

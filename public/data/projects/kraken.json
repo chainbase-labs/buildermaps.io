@@ -1,0 +1,10 @@
+{
+  "id": "kraken",
+  "name": "Kraken",
+  "description": "Global money app with debit cards",
+  "links": {
+    "homepage": "https://t.co/1Vim26q40l",
+    "twitter": "https://x.com/krakenfx",
+    "logo": "/imgs/OpenClaw/CEXCards/kraken.png"
+  }
+}

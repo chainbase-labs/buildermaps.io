@@ -1,0 +1,10 @@
+{
+  "id": "ledger",
+  "name": "Ledger",
+  "description": "Hardware wallet ecosystem for secure crypto storage.",
+  "links": {
+    "homepage": "https://t.co/BhVF5Ms96R",
+    "twitter": "https://x.com/Ledger",
+    "logo": "/imgs/OpenClaw/Wallet/ledger.png"
+  }
+}

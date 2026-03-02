@@ -1,0 +1,10 @@
+{
+  "id": "gnosis-business",
+  "name": "Gnosis Business",
+  "description": "Smart contract multisig treasury management.",
+  "links": {
+    "homepage": "https://t.co/RhziNOxaso",
+    "twitter": "https://x.com/gnosisbusiness",
+    "logo": "/imgs/OpenClaw/BusinessNeobanks/gnosis-business.png"
+  }
+}

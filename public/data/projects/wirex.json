@@ -1,0 +1,10 @@
+{
+  "id": "wirex",
+  "name": "Wirex",
+  "description": "Crypto wallet and neobank with cards, exchange, yield products, and global transfers for fiat and stablecoins",
+  "links": {
+    "homepage": "https://help.wirexapp.com/",
+    "twitter": "https://x.com/wirexapp",
+    "logo": "/imgs/OpenClaw/NeoBank/wirex.png"
+  }
+}

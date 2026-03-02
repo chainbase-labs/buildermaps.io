@@ -1,0 +1,10 @@
+{
+  "id": "tap",
+  "name": "Tap",
+  "description": "Integrated crypto application combining trading with prepaid card spending.",
+  "links": {
+    "homepage": "https://t.co/SUCIeJms6Z",
+    "twitter": "https://x.com/Tap_Fintech",
+    "logo": "/imgs/OpenClaw/NeoBank/tap.png"
+  }
+}

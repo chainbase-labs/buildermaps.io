@@ -1,0 +1,10 @@
+{
+  "id": "pyra",
+  "name": "Pyra",
+  "description": "Asset-based neobank that invests entire paycheck in yield-generating assets on Solana while enabling spending via DeFi loans and Visa cards",
+  "links": {
+    "homepage": "https://t.co/wKZipYnATb",
+    "twitter": "https://x.com/GetPyra",
+    "logo": "/imgs/OpenClaw/NeoBank/pyra.png"
+  }
+}

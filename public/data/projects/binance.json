@@ -1,0 +1,10 @@
+{
+  "id": "binance",
+  "name": "Binance",
+  "description": "Visa debit card for seamless crypto spending,global acceptance, and automatic fiat conversion.",
+  "links": {
+    "homepage": "https://t.co/1not5QbiqF",
+    "twitter": "https://x.com/binance",
+    "logo": "/imgs/OpenClaw/CEXCards/binance.png"
+  }
+}
