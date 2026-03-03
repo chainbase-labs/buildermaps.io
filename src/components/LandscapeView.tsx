@@ -441,11 +441,6 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
       // Additional wait to ensure everything is fully rendered
       await new Promise((r) => setTimeout(r, 100));
 
-      // Ensure export includes full content (including footer)
-      const finalRect = clonedNode.getBoundingClientRect();
-      clonedNode.style.height = `${finalRect.height}px`;
-      invisibleContainer.style.height = `${finalRect.height}px`;
-
       // Use higher pixel ratio for better image quality (3-4x for crisp images)
       const basePixelRatio = window.devicePixelRatio || 1;
       const pixelRatio = Math.min(4, Math.max(3, basePixelRatio * 2));
