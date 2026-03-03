@@ -353,7 +353,8 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
       invisibleContainer.style.left = "-9999px";
       invisibleContainer.style.top = "0";
       invisibleContainer.style.width = `${rect.width}px`;
-      invisibleContainer.style.height = `${rect.height}px`;
+      invisibleContainer.style.height = "auto";
+      invisibleContainer.style.minHeight = `${rect.height}px`;
       invisibleContainer.style.overflow = "visible";
       invisibleContainer.style.pointerEvents = "none";
       invisibleContainer.style.zIndex = "-9999";
@@ -367,7 +368,8 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
 
       // Copy computed styles to the clone
       clonedNode.style.width = `${rect.width}px`;
-      clonedNode.style.height = `${rect.height}px`;
+      clonedNode.style.height = "auto";
+      clonedNode.style.minHeight = `${rect.height}px`;
       clonedNode.style.position = "relative";
       clonedNode.style.visibility = "visible";
       clonedNode.style.opacity = "1";
@@ -400,8 +402,8 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
         if (boxRect.width > 0 && boxRect.height > 0) {
           htmlBox.style.width = `${boxRect.width}px`;
           htmlBox.style.minHeight = `${boxRect.height}px`;
-          // Ensure content doesn't overflow the box
-          htmlBox.style.overflow = "hidden";
+          // Keep title badges visible above borders
+          htmlBox.style.overflow = "visible";
         }
       });
 
@@ -438,6 +440,11 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
 
       // Additional wait to ensure everything is fully rendered
       await new Promise((r) => setTimeout(r, 100));
+
+      // Ensure export includes full content (including footer)
+      const finalRect = clonedNode.getBoundingClientRect();
+      clonedNode.style.height = `${finalRect.height}px`;
+      invisibleContainer.style.height = `${finalRect.height}px`;
 
       // Use higher pixel ratio for better image quality (3-4x for crisp images)
       const basePixelRatio = window.devicePixelRatio || 1;
