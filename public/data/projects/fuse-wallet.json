@@ -1,0 +1,10 @@
+{
+  "id": "fuse-wallet",
+  "name": "Fuse wallet",
+  "description": "Solana-based smart wallet for secure asset management and stablecoin spending via debit cards.",
+  "links": {
+    "homepage": "https://t.co/e84m8JlAbx",
+    "logo": "https://pbs.twimg.com/profile_images/1713852160956391424/GWfuLXjU_400x400.jpg",
+    "twitter": "https://x.com/fusewallet"
+  }
+}
