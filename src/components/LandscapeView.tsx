@@ -50,6 +50,49 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
   const [exportingWholeMap, setExportingWholeMap] = useState(false);
   const [hoveredMapBox, setHoveredMapBox] = useState(false);
 
+  const waitForExportImages = async (container: HTMLElement) => {
+    const images = container.querySelectorAll("img");
+    if (images.length === 0) return;
+
+    await Promise.all(
+      Array.from(images).map(
+        (img) =>
+          new Promise<void>((resolve) => {
+            let settled = false;
+            const done = () => {
+              if (settled) return;
+              settled = true;
+              resolve();
+            };
+
+            const decodeAndDone = () => {
+              if (typeof img.decode === "function") {
+                img.decode().catch(() => undefined).finally(done);
+                return;
+              }
+              done();
+            };
+
+            if (img.complete && img.naturalWidth > 0) {
+              decodeAndDone();
+              return;
+            }
+
+            // Whole-map exports include many logos; allow longer for slower image loads.
+            const timeout = setTimeout(done, 10000);
+            img.onload = () => {
+              clearTimeout(timeout);
+              decodeAndDone();
+            };
+            img.onerror = () => {
+              clearTimeout(timeout);
+              done();
+            };
+          })
+      )
+    );
+  };
+
   const sortedSubcategories = useMemo(() => {
     return [...category.subcategories].sort(
       (a, b) => countSubcategoryProjects(b) - countSubcategoryProjects(a)
@@ -260,30 +303,7 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
       }
 
       // Wait for all images in the clone to load at full resolution
-      const images = clonedNode.querySelectorAll("img");
-      if (images.length > 0) {
-        await Promise.all(
-          Array.from(images).map(
-            (img) =>
-              new Promise<void>((resolve) => {
-                // Ensure images are loaded at full resolution
-                if (img.complete && img.naturalWidth > 0) {
-                  resolve();
-                } else {
-                  const timeout = setTimeout(() => resolve(), 3000); // Timeout after 3s
-                  img.onload = () => {
-                    clearTimeout(timeout);
-                    resolve();
-                  };
-                  img.onerror = () => {
-                    clearTimeout(timeout);
-                    resolve(); // Continue even if image fails
-                  };
-                }
-              })
-          )
-        );
-      }
+      await waitForExportImages(clonedNode);
 
       // Additional wait to ensure everything is fully rendered
       await new Promise((r) => setTimeout(r, 100));
@@ -413,30 +433,7 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
       await new Promise((r) => setTimeout(r, 200));
 
       // Wait for all images in the clone to load at full resolution
-      const images = clonedNode.querySelectorAll("img");
-      if (images.length > 0) {
-        await Promise.all(
-          Array.from(images).map(
-            (img) =>
-              new Promise<void>((resolve) => {
-                // Ensure images are loaded at full resolution
-                if (img.complete && img.naturalWidth > 0) {
-                  resolve();
-                } else {
-                  const timeout = setTimeout(() => resolve(), 3000); // Timeout after 3s
-                  img.onload = () => {
-                    clearTimeout(timeout);
-                    resolve();
-                  };
-                  img.onerror = () => {
-                    clearTimeout(timeout);
-                    resolve(); // Continue even if image fails
-                  };
-                }
-              })
-          )
-        );
-      }
+      await waitForExportImages(clonedNode);
 
       // Additional wait to ensure everything is fully rendered
       await new Promise((r) => setTimeout(r, 100));
