@@ -1,12 +1,12 @@
 {
   "id": "ethereum",
   "name": "Ethereum",
-  "description": "Ethereum is a global, decentralized platform for money and new kinds of applications. On Ethereum, you can write code that controls money, and build applications accessible anywhere in the world.",
+  "description": "Foundational smart contract platform serving as the primary settlement layer for decentralized finance and autonomous agents.",
   "founded": null,
   "funding": null,
   "links": {
-    "homepage": "https://ethereum.org/",
-    "logo": "https://s2.loli.net/2025/11/24/ABEJCz7q62g1KlN.jpg",
+    "homepage": "https://t.co/0zgmE9mGLJ",
+    "logo": "/imgs/Agentic Finance/Blockchains&Stablecoins/ethereum.png",
     "twitter": "https://x.com/ethereum"
   }
 }

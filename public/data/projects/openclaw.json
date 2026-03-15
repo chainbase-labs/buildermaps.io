@@ -1,10 +1,10 @@
 {
   "id": "openclaw",
-  "name": "OpenClaw",
-  "description": "Core open-source framework for building persistent, autonomous AI agents that act on behalf of users or independently.",
+  "name": "Openclaw",
+  "description": "Core open-source framework laying the groundwork for persistent AI agents capable of independent user representation.",
   "links": {
-    "homepage": "https://openclaw.ai/",
+    "homepage": "https://t.co/PuzGLMmjps",
     "twitter": "https://x.com/openclaw",
-    "logo": "/imgs/OpenClaw/Infrastructure/openclaw.png"
+    "logo": "/imgs/Agentic Finance/AgentFrameworks&Tooling/openclaw.png"
   }
 }

@@ -1,9 +1,10 @@
 {
   "id": "b402",
   "name": "b402",
-  "description": "Private agent payments using Railgun ZK proofs.",
+  "description": "Protocol purpose built to process micro transactions and monetization logic for artificial intelligence entities.",
   "links": {
     "twitter": "https://x.com/b402ai",
-    "logo": "/imgs/OpenClaw/Payments&Commerce/b402.png"
+    "logo": "/imgs/Agentic Finance/AgenticPayments/b402.png",
+    "homepage": "https://t.co/XDhOYQmErU"
   }
 }

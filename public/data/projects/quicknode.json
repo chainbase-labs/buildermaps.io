@@ -1,13 +1,13 @@
 {
   "id": "quicknode",
-  "name": "QuickNode",
-  "description": "$105,000,000 ",
+  "name": "Quicknode",
+  "description": "Lightning-fast blockchain infrastructure providing the essential RPC endpoints needed to power responsive Web3 applications.",
   "founded": null,
   "funding": null,
   "links": {
-    "homepage": "https://www.quicknode.com/",
-    "logo": "/imgs/Data/Infra/QuickNode.jpg",
-    "twitter": "https://x.com/QuickNode",
+    "homepage": "https://t.co/3OKink8Weg",
+    "logo": "/imgs/Agentic Finance/AgentFrameworks&Tooling/quicknode.png",
+    "twitter": "https://x.com/Quicknode",
     "github": ""
   }
 }

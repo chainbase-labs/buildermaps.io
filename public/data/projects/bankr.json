@@ -1,12 +1,12 @@
 {
   "id": "bankr",
   "name": "Bankr",
-  "description": "AI crypto banker providing wallets, trading, DeFi access, skills execution, and token issuance for agents.",
+  "description": "Automated crypto companion simplifying decentralized finance access and token execution for autonomous entities.",
   "founded": 2024,
   "funding": null,
   "links": {
-    "homepage": "https://bankr.bot",
-    "logo": "/imgs/OpenClaw/Infrastructure/bankr.png",
+    "homepage": "https://t.co/dCU9XyyD9S",
+    "logo": "/imgs/Agentic Finance/Applications/bankr.png",
     "twitter": "https://x.com/bankrbot"
   }
 }

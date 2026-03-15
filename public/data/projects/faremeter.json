@@ -1,0 +1,10 @@
+{
+  "id": "faremeter",
+  "name": "faremeter",
+  "description": "Dynamic pricing oracle ensuring fair value exchange and real-time fee calculation for machine-to-machine interactions.",
+  "links": {
+    "homepage": "https://t.co/bqNLI3MVoD",
+    "twitter": "https://x.com/faremeterxyz",
+    "logo": "/imgs/Agentic Finance/AgentFrameworks&Tooling/faremeter.png"
+  }
+}

@@ -1,12 +1,12 @@
 {
   "id": "polymarket",
   "name": "Polymarket",
-  "description": "World's largest prediction market on Ethereum/Polygon for global events trading",
+  "description": "Decentralized prediction market platform allowing users and algorithms to trade on the outcome of real-world events.",
   "founded": 2020,
   "funding": 74000000,
   "links": {
-    "homepage": "https://polymarket.com/",
-    "logo": "/imgs/prediction_markets/Binary/Polymarket.jpg",
+    "homepage": "https://t.co/tO2XOjEYHw",
+    "logo": "/imgs/Agentic Finance/Applications/polymarket.png",
     "twitter": "https://x.com/Polymarket",
     "reddit": "https://polymarket.com"
   }

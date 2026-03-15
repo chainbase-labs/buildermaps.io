@@ -1,13 +1,13 @@
 {
   "id": "artemis",
   "name": "Artemis",
-  "description": "Artemis is an institutional data platform for digital assets, transforming blockchain data into actionable insights.",
+  "description": "Institutional crypto fundamentals platform translating raw onchain metrics into actionable market intelligence.",
   "founded": null,
   "funding": null,
   "links": {
-    "logo": "/imgs/Sui/Analytics/Artemis.png",
+    "logo": "/imgs/Agentic Finance/Analytics&Verifiability/artemis.png",
     "twitter": "https://x.com/artemis",
-    "homepage": "https://www.artemis.xyz/",
+    "homepage": "https://t.co/cbCbSxsAnv",
     "discord": "https://discord.gg/Vsjpghdhb3"
   }
 }

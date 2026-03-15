@@ -1,0 +1,10 @@
+{
+  "id": "inflow",
+  "name": "InFlow",
+  "description": "Specialized monetary protocol managing continuous value streams and micro-payments for persistent agent operations.",
+  "links": {
+    "homepage": "https://t.co/F3hfZrEIE5",
+    "twitter": "https://x.com/inflowpayai",
+    "logo": "/imgs/Agentic Finance/AgentFrameworks&Tooling/inflow.png"
+  }
+}
