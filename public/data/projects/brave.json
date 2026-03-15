@@ -1,0 +1,11 @@
+{
+  "id": "brave",
+  "name": "Brave",
+  "description": "Privacy-first web browser integrating native crypto rewards and seamless digital asset management.",
+  "location": "Global",
+  "links": {
+    "homepage": "https://brave.com/",
+    "logo": "https://pbs.twimg.com/profile_images/1951131044171644928/7RtvNuKF_400x400.jpg",
+    "twitter": "https://x.com/brave"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "agentmail",
+  "name": "AgentMail",
+  "description": "Decentralized communication protocol built to manage asynchronous messaging between automated nodes.",
+  "location": "Global",
+  "links": {
+    "homepage": "https://agentmail.to/",
+    "logo": "https://pbs.twimg.com/profile_images/2011871521569193989/GLg_lb47_400x400.jpg",
+    "twitter": "https://x.com/agentmail"
+  }
+}

@@ -177,6 +177,45 @@
         "polyclaw",
         "zyfai"
       ]
+    },
+    {
+      "id": "security",
+      "name": "Security",
+      "projects": [
+        "slowmist",
+        "goplus"
+      ]
+    },
+    {
+      "id": "wallet-and-transaction",
+      "name": "Wallet & Transaction",
+      "projects": [
+        "binance",
+        "bitget-wallet",
+        "coinbase-developer-platform",
+        "bnb-chain-mcp",
+        "byreal",
+        "okx-onchainos",
+        "moonpay-agents",
+        "crossmint-lobstercash",
+        "uniswap",
+        "phantom"
+      ]
+    },
+    {
+      "id": "skill",
+      "name": "Skill",
+      "projects": [
+        "fourmeme",
+        "nansen",
+        "coinank",
+        "6551news",
+        "chainbase",
+        "agentmail",
+        "tavily",
+        "brave",
+        "xhunt"
+      ]
     }
   ]
 }
