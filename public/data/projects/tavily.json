@@ -1,0 +1,10 @@
+{
+  "id": "tavily",
+  "name": "Tavily",
+  "description": "Search engine API explicitly optimized for rapid and precise artificial intelligence information retrieval.",
+  "links": {
+    "homepage": "https://t.co/3G3PfcFZlq",
+    "twitter": "https://x.com/tavilyai",
+    "logo": "/imgs/OpenClaw/skill/tavily.png"
+  }
+}

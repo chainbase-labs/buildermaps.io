@@ -1,0 +1,10 @@
+{
+  "id": "uniswap",
+  "name": "Uniswap",
+  "description": "Industry leading decentralized exchange protocol facilitating automated token swaps and liquidity provision.",
+  "links": {
+    "homepage": "https://t.co/w0UQ9WNNZJ",
+    "twitter": "https://x.com/Uniswap",
+    "logo": "/imgs/OpenClaw/Wallet&Transaction/uniswap.png"
+  }
+}

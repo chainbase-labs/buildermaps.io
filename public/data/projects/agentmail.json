@@ -1,0 +1,10 @@
+{
+  "id": "agentmail",
+  "name": "AgentMail",
+  "description": "Decentralized communication protocol built to manage asynchronous messaging between automated nodes.",
+  "links": {
+    "homepage": "https://t.co/chEkQdZzFX",
+    "twitter": "https://x.com/agentmail",
+    "logo": "/imgs/OpenClaw/skill/agentmail.png"
+  }
+}

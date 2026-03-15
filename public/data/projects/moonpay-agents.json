@@ -1,0 +1,10 @@
+{
+  "id": "moonpay-agents",
+  "name": "MoonPay Agents",
+  "description": "Intelligent fiat-to-crypto gateway automating seamless digital asset purchasing processes.",
+  "links": {
+    "homepage": "https://t.co/vgqtWU0qWQ",
+    "twitter": "https://x.com/moonpay",
+    "logo": "/imgs/OpenClaw/Wallet&Transaction/moonpay-agents.png"
+  }
+}
