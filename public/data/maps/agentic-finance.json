@@ -1,0 +1,133 @@
+{
+  "sector": "Agentic Finance",
+  "types": [
+    {
+      "id": "agentic-payments",
+      "name": "Agentic Payments",
+      "projects": [
+        "coinbase",
+        "stripe",
+        "circle",
+        "crossmint",
+        "lobster-cash",
+        "natural",
+        "moonpay",
+        "agent-cash",
+        "bridge",
+        "bvnk",
+        "b402",
+        "skyfire",
+        "debridge",
+        "payman",
+        "paypal",
+        "superfluid"
+      ]
+    },
+    {
+      "id": "agent-cards",
+      "name": "Agent Cards",
+      "projects": [
+        "visa",
+        "mastercard",
+        "stripe",
+        "ramp-labs",
+        "metamask",
+        "slash",
+        "agent-card"
+      ]
+    },
+    {
+      "id": "agent-wallets",
+      "name": "Agent Wallets",
+      "projects": [
+        "coinbase",
+        "sponge",
+        "privy",
+        "turnkey",
+        "phantom",
+        "openfort",
+        "alchemy",
+        "thirdweb",
+        "dynamic",
+        "locus"
+      ]
+    },
+    {
+      "id": "agent-frameworks-and-tooling",
+      "name": "Agent Frameworks & Tooling",
+      "projects": [
+        "virtuals-protocol",
+        "nevermined",
+        "openserv",
+        "faremeter",
+        "conway-research",
+        "relai",
+        "dexter-ai",
+        "daydreams",
+        "payai",
+        "merit-systems",
+        "questflow",
+        "heurist",
+        "inflow",
+        "openclaw",
+        "quicknode"
+      ]
+    },
+    {
+      "id": "agentic-commerce",
+      "name": "Agentic Commerce",
+      "projects": [
+        "purch",
+        "cloudflare",
+        "shopify",
+        "openai",
+        "perplexity",
+        "basis-theory"
+      ]
+    },
+    {
+      "id": "analytics-and-verifiability",
+      "name": "Analytics & Verifiability",
+      "projects": [
+        "allium",
+        "artemis",
+        "t54-ai",
+        "very-ai",
+        "x402scan",
+        "vestauth"
+      ]
+    },
+    {
+      "id": "applications",
+      "name": "Applications",
+      "projects": [
+        "bankr",
+        "foundry",
+        "clawpump",
+        "lifi",
+        "polymarket",
+        "dflow",
+        "boba",
+        "kraken",
+        "pagga",
+        "heysorin"
+      ]
+    },
+    {
+      "id": "blockchains-and-stablecoins",
+      "name": "Blockchains & Stablecoins",
+      "projects": [
+        "base",
+        "solana",
+        "ethereum",
+        "polygon",
+        "near",
+        "stellar",
+        "tempo",
+        "kite-ai",
+        "tether",
+        "monad"
+      ]
+    }
+  ]
+}

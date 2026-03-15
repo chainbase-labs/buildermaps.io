@@ -1,0 +1,10 @@
+{
+  "id": "purch",
+  "name": "Purch",
+  "description": "Embedded checkout solution transforming digital intent into immediate onchain purchases.",
+  "links": {
+    "homepage": "https://trypurch.com/",
+    "logo": "/imgs/agentic-finance/purch.jpg",
+    "twitter": "https://x.com/trypurch"
+  }
+}

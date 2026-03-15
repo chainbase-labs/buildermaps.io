@@ -1,0 +1,10 @@
+{
+  "id": "agent-card",
+  "name": "AgentCard",
+  "description": "Dedicated infrastructure equipping artificial intelligence programs with tangible real world spending capabilities.",
+  "links": {
+    "homepage": "https://agentcard.ai/",
+    "logo": "/imgs/agentic-finance/agent-card.jpg",
+    "twitter": "https://x.com/agentcardai"
+  }
+}

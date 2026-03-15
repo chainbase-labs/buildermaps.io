@@ -1,0 +1,10 @@
+{
+  "id": "privy",
+  "name": "Privy",
+  "description": "Developer framework delivering embedded secure authentication and hidden wallets for programmatic applications.",
+  "links": {
+    "homepage": "https://privy.io/",
+    "logo": "/imgs/agentic-finance/privy.jpg",
+    "twitter": "https://x.com/privy_io"
+  }
+}

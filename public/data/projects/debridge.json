@@ -1,0 +1,10 @@
+{
+  "id": "debridge",
+  "name": "deBridge",
+  "description": "Interoperability network facilitating secure cross chain asset transfers for automated decentralized applications.",
+  "links": {
+    "homepage": "https://debridge.finance/",
+    "logo": "/imgs/agentic-finance/debridge.jpg",
+    "twitter": "https://x.com/debridge"
+  }
+}

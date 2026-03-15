@@ -1,0 +1,10 @@
+{
+  "id": "perplexity",
+  "name": "Perplexity",
+  "description": "AI-powered conversational search engine redefining information discovery through real-time internet syntheses.",
+  "links": {
+    "homepage": "https://www.perplexity.ai/",
+    "logo": "/imgs/agentic-finance/perplexity.jpg",
+    "twitter": "https://x.com/perplexity_ai"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "skyfire",
+  "name": "Skyfire",
+  "description": "Financial bedrock allowing autonomous programs to securely manage and execute programmatic spendings.",
+  "links": {
+    "homepage": "https://skyfire.xyz/",
+    "logo": "/imgs/agentic-finance/skyfire.jpg",
+    "twitter": "https://x.com/trySkyfire"
+  }
+}

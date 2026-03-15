@@ -1,0 +1,10 @@
+{
+  "id": "superfluid",
+  "name": "superfluid.eth",
+  "description": "Innovative smart contract framework enabling real time continuous token streaming for automated treasury operations.",
+  "links": {
+    "homepage": "https://www.superfluid.finance/",
+    "logo": "/imgs/agentic-finance/superfluid.jpg",
+    "twitter": "https://x.com/Superfluid_HQ"
+  }
+}

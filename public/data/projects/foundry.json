@@ -1,0 +1,10 @@
+{
+  "id": "foundry",
+  "name": "Foundry",
+  "description": "Comprehensive smart contract development toolchain empowering the robust construction of decentralized financial applications.",
+  "links": {
+    "homepage": "https://getfoundry.sh/",
+    "logo": "/imgs/agentic-finance/foundry.jpg",
+    "twitter": "https://x.com/getFoundry"
+  }
+}

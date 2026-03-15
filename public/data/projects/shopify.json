@@ -1,0 +1,10 @@
+{
+  "id": "shopify",
+  "name": "Shopify",
+  "description": "E-commerce giant opening its robust APIs to facilitate automated and agent-driven retail experiences.",
+  "links": {
+    "homepage": "https://www.shopify.com/",
+    "logo": "/imgs/agentic-finance/shopify.jpg",
+    "twitter": "https://x.com/Shopify"
+  }
+}
