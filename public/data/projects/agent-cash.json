@@ -1,0 +1,10 @@
+{
+  "id": "agent-cash",
+  "name": "AgentCash",
+  "description": "Specialized payment layer empowering artificial intelligence nodes to execute independent financial maneuvers.",
+  "links": {
+    "homepage": "https://agentcash.dev/",
+    "logo": "/imgs/agentic-finance/agent-cash.jpg",
+    "twitter": "https://x.com/agentcashdev"
+  }
+}

@@ -1,4 +1,25 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
 
-npm exec pretty-quick --staged && npm exec concurrently npm:test npm:lint
+# Check for duplicate project IDs in staged files
+
+# Load nvm if available (common on macOS/Linux)
+if [ -s "$HOME/.nvm/nvm.sh" ]; then
+  . "$HOME/.nvm/nvm.sh"
+fi
+
+# Load node from common installation paths
+if [ -f "$HOME/.zshrc" ]; then
+  # Try to source zshrc to get PATH (but skip interactive parts)
+  export PATH="$PATH:/usr/local/bin:/opt/homebrew/bin:$HOME/.local/bin"
+fi
+
+# Find and run node
+NODE_CMD=$(command -v node 2>/dev/null)
+if [ -n "$NODE_CMD" ]; then
+  "$NODE_CMD" scripts/check-duplicate-ids.js
+else
+  echo "Error: node command not found. Please ensure Node.js is installed and in your PATH."
+  echo "You may need to run: export PATH=\"\$PATH:$(dirname $(which node))\""
+  exit 1
+fi

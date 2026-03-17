@@ -1,0 +1,15 @@
+{
+  "id": "gusd",
+  "name": "GUSD",
+  "description": "NYDFS-regulated stablecoin backed by cash and short-term U.S. Treasury bills",
+  "founded": 2018,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.gemini.com/",
+    "logo": "https://s2.loli.net/2025/11/24/6ZoxQFmaCs3GXyW.jpg",
+    "twitter": "https://x.com/Gemini",
+    "telegram": "https://t.me/gemini_official",
+    "linkedin": "https://www.linkedin.com/company/gemini",
+    "reddit": "https://www.gemini.com/dollar"
+  }
+}

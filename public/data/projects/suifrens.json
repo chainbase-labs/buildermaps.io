@@ -1,0 +1,13 @@
+{
+  "id": "suifrens",
+  "name": "SuiFrens",
+  "description": "SuiFrens are principally a demonstration of Sui Move capabilities, bringing to life the composability, extensibility, and dynamism of digital assets on Sui.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "logo": "/imgs/Sui/Games/SuiFrens.png",
+    "twitter": "",
+    "homepage": "https://suifrens.com/",
+    "discord": "https://discord.gg/Vsjpghdhb3"
+  }
+}

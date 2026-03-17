@@ -1,0 +1,13 @@
+{
+  "id": "infura",
+  "name": "Infura",
+  "description": "ConsenSys Ethereum infrastructure API, 430K+ developers, Web3 API for Ethereum/IPFS/Polygon/Linea, powers MetaMask/ENS/OpenZeppelin",
+  "founded": 2016,
+  "funding": null,
+  "links": {
+    "homepage": "http://www.infura.io",
+    "logo": "/imgs/Data/Infra/Infura.jpg",
+    "twitter": "https://x.com/infura_io",
+    "github": ""
+  }
+}

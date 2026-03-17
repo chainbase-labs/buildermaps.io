@@ -1,0 +1,12 @@
+{
+  "id": "foreseelol",
+  "name": "Foreseelol",
+  "description": "Social prediction market.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://foresee.lol/",
+    "twitter": "https://x.com/foreseelol",
+    "logo": "/imgs/prediction_markets/Social Prediction/Foreseelol.png"
+  }
+}

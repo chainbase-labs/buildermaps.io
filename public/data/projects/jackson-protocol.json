@@ -1,0 +1,12 @@
+{
+  "id": "jackson-protocol",
+  "name": "Jackson Protocol",
+  "description": "Jackson Protocol is a decentralized gaming protocol on Sui creating a player-driven Web3 gaming ecosystem with shared infrastructure.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://jackson.io/",
+    "logo": "/imgs/Sui/GameFi/Jackson Protocol.png",
+    "twitter": "https://x.com/JacksonProtocol"
+  }
+}

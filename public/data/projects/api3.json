@@ -1,0 +1,12 @@
+{
+  "id": "api3",
+  "name": "API3",
+  "description": "First-party oracle network for dApps.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://api3.org/",
+    "twitter": "https://x.com/Api3DAO",
+    "logo": "/imgs/prediction_markets/Infra/API3.jpg"
+  }
+}

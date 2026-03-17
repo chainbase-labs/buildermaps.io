@@ -1,0 +1,11 @@
+{
+  "id": "manta",
+  "name": "Manta ",
+  "description": "Manta Network is the largest modular L2, bringing the highest throughput and lowest fees to enable scalable adoption for over 200 decentralized applications. Secured by Celestia and OP Stack.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/l1-l2/manta.png",
+    "homepage": "https://manta.network/",
+    "twitter": "https://x.com/MantaNetwork"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "penumbra",
+  "name": "Penumbra",
+  "description": "Penumbra is a fully private proof-of-stake blockchain with private trading and staking.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/defi-wallets/penumbra.png",
+    "homepage": "http://dex.penumbra.zone/tournament",
+    "twitter": "https://x.com/penumbrazone"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "suiscan-explorer",
+  "name": "Suiscan Explorer",
+  "description": "Suiscan is a feature-rich block explorer and analytics platform for Sui, providing detailed insights into transactions, addresses, and network activity.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "logo": "/imgs/Sui/Analytics/Suiscan Explorer.png",
+    "twitter": "https://x.com/suiscanofficial",
+    "homepage": "https://suiscan.xyz/mainnet/home",
+    "discord": "https://discord.gg/Vsjpghdhb3"
+  }
+}

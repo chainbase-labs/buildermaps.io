@@ -1,0 +1,11 @@
+{
+  "id": "elfi",
+  "name": "ELFi",
+  "description": "ELFi is a DeFi P2Pool trading platform offering 1000x leverage, ultra portfolio margin, zero-risk stablecoin pool&high yeild, and deep liquidity. Trade trending perpetuals with fast execution and onchain transparency.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/perpdex/elfi.png",
+    "homepage": "https://elfi.xyz",
+    "twitter": "https://x.com/ELFiProtocol"
+  }
+}

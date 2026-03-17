@@ -1,0 +1,12 @@
+{
+  "id": "silverback",
+  "name": "Silverback",
+  "description": "Silverback Interface: Trade on Base with deep liquidity, MEV-aware routing, and seamless token swaps.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/AgentFi/silverback.png",
+    "homepage": "https://www.silverbackdefi.app/",
+    "twitter": "https://x.com/SilverbackDefi",
+    "github": ""
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "dexter-ai",
+  "name": "Dexter AI",
+  "description": "Intelligent trading companion built on Solana to automate complex DeFi strategies and optimize portfolio management.",
+  "links": {
+    "homepage": "https://dexterai.sol/",
+    "logo": "/imgs/agentic-finance/dexter-ai.jpg",
+    "twitter": "https://x.com/dexteraisol"
+  }
+}

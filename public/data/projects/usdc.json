@@ -1,0 +1,16 @@
+{
+  "id": "usdc",
+  "name": "USDC",
+  "description": "Fully reserved stablecoin backed by cash and short-term U.S. Treasuries",
+  "founded": 2018,
+  "funding": 1100000000,
+  "links": {
+    "homepage": "https://www.circle.com/usdc",
+    "logo": "https://s2.loli.net/2025/11/24/LtxdPgFVrzC4o1a.png",
+    "twitter": "https://x.com/circle",
+    "telegram": "https://t.me/circle",
+    "discord": "https://discord.gg/circle",
+    "linkedin": "https://www.linkedin.com/company/circle-internet-financial",
+    "reddit": "https://www.circle.com/usdc"
+  }
+}

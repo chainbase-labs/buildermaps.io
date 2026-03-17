@@ -1,0 +1,12 @@
+{
+  "id": "x402scan",
+  "name": "x402scan",
+  "description": "Explore the x402 ecosystem. View transactions, sellers, origins and resources. Explore the future of agentic commerce.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.x402scan.com/",
+    "logo": "/imgs/agentic-finance/x402scan.jpg",
+    "twitter": "https://x.com/x402scan"
+  }
+}

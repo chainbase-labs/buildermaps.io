@@ -1,0 +1,13 @@
+{
+  "id": "bluff",
+  "name": "Bluff",
+  "description": "First AI-powered prediction market transforming predictions into liquid markets where conviction gets tested",
+  "founded": 2024,
+  "funding": null,
+  "links": {
+    "homepage": "https://callmybluff.io/",
+    "logo": "/imgs/prediction_markets/Social Prediction/Bluff.jpg",
+    "twitter": "https://x.com/CallMyBluff_io",
+    "telegram": "https://t.me/bluffcat_off"
+  }
+}

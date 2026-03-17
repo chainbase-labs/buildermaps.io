@@ -1,0 +1,13 @@
+{
+  "id": "lighthouse",
+  "name": "Lighthouse",
+  "description": "Lighthouse Filecoin permanent storage protocol IPFS decentralized data preservation encryption",
+  "founded": 2021,
+  "funding": null,
+  "links": {
+    "homepage": "https://lighthouse.storage/",
+    "logo": "/imgs/AI_Crypto/Data/Lighthouse.jpg",
+    "twitter": "https://x.com/LighthouseWeb3",
+    "github": ""
+  }
+}

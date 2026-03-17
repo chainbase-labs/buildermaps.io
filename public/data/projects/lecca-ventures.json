@@ -1,0 +1,11 @@
+{
+  "id": "lecca-ventures",
+  "name": "LECCA Ventures",
+  "description": "Singapore-based venture fund investing in blockchain startups.",
+  "location": "Singapore",
+  "links": {
+    "logo": "/imgs/asian-vc/lecca-ventures.jpg",
+    "homepage": "https://leccaventures.com/",
+    "twitter": "https://x.com/LECCAVentures"
+  }
+}

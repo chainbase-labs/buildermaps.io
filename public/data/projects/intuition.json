@@ -1,0 +1,12 @@
+{
+  "id": "intuition",
+  "name": "Intuition",
+  "description": "Your Intuition, available everywhere.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/Infra/intuition.png",
+    "homepage": "https://www.intuition.systems/",
+    "twitter": "https://x.com/0xIntuition",
+    "github": ""
+  }
+}

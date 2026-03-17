@@ -1,0 +1,13 @@
+{
+  "id": "suivision",
+  "name": "SuiVision",
+  "description": "SuiVision is a comprehensive block explorer for the Sui network, providing detailed insights into transactions, accounts, objects, packages, and validators.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "logo": "/imgs/Sui/Analytics/SuiVision.png",
+    "twitter": "https://x.com/blockvisionhq",
+    "homepage": "https://suivision.xyz/",
+    "discord": "https://discord.gg/Vsjpghdhb3"
+  }
+}

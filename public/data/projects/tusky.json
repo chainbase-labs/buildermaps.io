@@ -1,0 +1,13 @@
+{
+  "id": "tusky",
+  "name": "Tusky",
+  "description": "Tusky is a decentralized storage platform built on Walrus, offering end-to-end encryption, powerful file management, and a seamless user experience.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "logo": "/imgs/sui_ecosystem/Walrus/Tusky.jpg",
+    "twitter": "https://x.com/TuskyTools",
+    "homepage": "https://tusky.io/",
+    "discord": "https://discord.gg/Vsjpghdhb3"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "spout-finance",
+  "name": "Spout Finance",
+  "description": "Spout Finance is a RWA platform tokenizing efficient collateral assets and building the next generation of collateral infrastructure",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/rwa/spout-finance.png",
+    "homepage": "https://www.spout.finance/",
+    "twitter": "https://x.com/0xspout"
+  }
+}

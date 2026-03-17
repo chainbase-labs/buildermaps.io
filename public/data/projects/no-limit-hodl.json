@@ -1,0 +1,11 @@
+{
+  "id": "no-limit-hodl",
+  "name": "No Limit Hodl",
+  "description": "Crypto investment fund focused on long-term holdings.",
+  "location": "Asia",
+  "links": {
+    "logo": "/imgs/asian-vc/no-limit-hodl.jpg",
+    "homepage": "https://nlh.xyz/",
+    "twitter": "https://x.com/nolimithodl"
+  }
+}

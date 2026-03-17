@@ -1,0 +1,12 @@
+{
+  "id": "alphafi",
+  "name": "AlphaFi",
+  "description": "AlphaFi is a yield aggregation platform on the Sui blockchain, designed to optimize yields for users by leveraging top protocols and automatically compounding deposits.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://alphafi.xyz/",
+    "logo": "/imgs/Sui/DeFi/AlphaFi.png",
+    "twitter": "https://x.com/alphafisui"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "axiom",
+  "name": "Axiom",
+  "description": "Onchain application builder focused on agent tools and hackathon projects.",
+  "links": {
+    "homepage": "https://www.clawbots",
+    "twitter": "https://x.com/AxiomBot",
+    "logo": "/imgs/OpenClaw/Dev&AgentBuilders/axiom.png"
+  }
+}

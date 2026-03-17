@@ -1,0 +1,11 @@
+{
+  "id": "humanity-protocol",
+  "name": "Humanity Protocol",
+  "description": "Humanity Protocol powers secure, private and Sybil-resistant decentralized identity on blockchain. It’s time Humans take control - join us now!",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/identity/humanity-protocol.png",
+    "homepage": "https://www.humanity.org/",
+    "twitter": "https://x.com/Humanityprot"
+  }
+}

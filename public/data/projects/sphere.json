@@ -1,0 +1,14 @@
+{
+  "id": "sphere",
+  "name": "Sphere",
+  "description": "Global stablecoin payments API with $5M funding from Coinbase and Kraken Ventures",
+  "founded": 2022,
+  "funding": 5000000,
+  "links": {
+    "homepage": "https://spherepay.co",
+    "logo": "https://s2.loli.net/2025/11/24/uac9WSnvRsOKfyF.jpg",
+    "twitter": "https://x.com/sphere_labs",
+    "telegram": "https://t.me/javsphere_start",
+    "youtube": "https://spherepay.co"
+  }
+}

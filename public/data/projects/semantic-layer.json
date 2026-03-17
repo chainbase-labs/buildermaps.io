@@ -1,0 +1,12 @@
+{
+  "id": "semantic-layer",
+  "name": "Semantic Layer",
+  "description": "Semantic Layer is bringing better incentive alignment to dApps, enabling MEV internalization and sequencing sovereignty.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/Infrastructure/semantic-layer.png",
+    "homepage": "https://www.semanticlayer.io/",
+    "twitter": "https://x.com/semanticlayer",
+    "github": ""
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "avail",
+  "name": "Avail",
+  "description": "Avail is a modular blockchain for data availability, providing a secure foundation for rollups and other scaling solutions.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/Infra/avail.png",
+    "homepage": "https://availproject.org/",
+    "twitter": "https://x.com/AvailProject",
+    "github": ""
+  }
+}

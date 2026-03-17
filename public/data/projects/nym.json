@@ -1,0 +1,11 @@
+{
+  "id": "nym",
+  "name": "Nym",
+  "description": "Stay private online with Nym’s decentralized VPN. Block trackers, hide your IP, and browse safely—now 75% off, try free VPN trial",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/network/nym.png",
+    "homepage": "https://nym.com/",
+    "twitter": "https://x.com/nym"
+  }
+}

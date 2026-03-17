@@ -1,0 +1,136 @@
+{
+  "sector": "x402",
+  "types": [
+    {
+      "id": "chains-protocols",
+      "name": "Chains & Protocols",
+      "projects": [
+        "aeon",
+        "altlayer",
+        "ar-io-network",
+        "avalanche",
+        "base",
+        "cambrian-network",
+        "eigencloud",
+        "hedera",
+        "mantle",
+        "near",
+        "peaq",
+        "polygon",
+        "skale",
+        "solana",
+        "sui"
+      ]
+    },
+    {
+      "id": "cloud-edge-infra",
+      "name": "Cloud & Edge Infra",
+      "projects": [
+        "anthropic",
+        "aurracloud",
+        "aws",
+        "cloudflare",
+        "google-cloud",
+        "vercel"
+      ]
+    },
+    {
+      "id": "consumer-apps",
+      "name": "Consumer Apps",
+      "projects": [
+        "402rush-fun",
+        "aixbt",
+        "anchorbrowser",
+        "cod3x",
+        "ekai",
+        "heurist-ai",
+        "otto-ai",
+        "questflow",
+        "sim",
+        "slesh",
+        "snack-money",
+        "tip-md",
+        "vibe-game"
+      ]
+    },
+    {
+      "id": "emerging",
+      "name": "Emerging",
+      "projects": [
+        "4mica",
+        "bond-credit",
+        "flow",
+        "jatayu-vortex",
+        "locus",
+        "roba-labs",
+        "supermission"
+      ]
+    },
+    {
+      "id": "identity-access",
+      "name": "Identity & Access",
+      "projects": [
+        "cloudflare",
+        "cred-protocol",
+        "ethereum",
+        "kite-ai",
+        "pieverse",
+        "snack-money"
+      ]
+    },
+    {
+      "id": "indexing-data",
+      "name": "Indexing & Data",
+      "projects": [
+        "apify",
+        "chainbase",
+        "firecrawl",
+        "gloria-ai",
+        "indexing-co",
+        "load-network",
+        "neynar",
+        "pinata",
+        "radr-fun",
+        "switchboard",
+        "x402scan"
+      ]
+    },
+    {
+      "id": "infra-devtools",
+      "name": "Infra & Devtools",
+      "projects": [
+        "0xgasless",
+        "1shot-api",
+        "alphakek",
+        "bankr",
+        "chaoschain",
+        "corbits",
+        "crossmint",
+        "dark",
+        "fluora",
+        "hyperware",
+        "latinum",
+        "mcpay",
+        "meridian",
+        "mogami",
+        "nodekit",
+        "polymer-labs",
+        "thirdweb"
+      ]
+    },
+    {
+      "id": "wallet-payments",
+      "name": "Wallet & Payments",
+      "projects": [
+        "across",
+        "alchemy",
+        "circle",
+        "coinbase",
+        "crossmint",
+        "payai",
+        "stripe",
+        "visa"
+      ]
+    }
+  ]
+}

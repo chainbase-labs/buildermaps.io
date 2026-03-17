@@ -1,0 +1,11 @@
+{
+  "id": "binance-labs",
+  "name": "YZi Labs",
+  "description": "YZi Labs - Venture arm investing in Web3, AI, and biotech with solid fundamentals.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/asian-vc/binance-labs.jpg",
+    "homepage": "https://yzilabs.com",
+    "twitter": "https://x.com/BinanceLabs"
+  }
+}

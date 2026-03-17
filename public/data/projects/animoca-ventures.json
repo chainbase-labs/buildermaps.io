@@ -1,0 +1,11 @@
+{
+  "id": "animoca-ventures",
+  "name": "Animoca Ventures",
+  "description": "Investment arm of Animoca Brands focused on Web3 gaming and metaverse.",
+  "location": "Hong Kong",
+  "links": {
+    "logo": "/imgs/asian-vc/animoca-ventures.png",
+    "homepage": "https://animoca.ventures/",
+    "twitter": "https://x.com/AnimocaVentures"
+  }
+}

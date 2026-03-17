@@ -1,0 +1,12 @@
+{
+  "id": "minara-ai",
+  "name": "Minara AI",
+  "description": "AI-powered virtual CFO for digital finance. Features no-code agent factory, automated trading autopilot, and smart money tracking with natural language strategy creation.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/Agents/minara-ai.png",
+    "homepage": "https://minara.ai/",
+    "twitter": "https://x.com/minara",
+    "github": ""
+  }
+}

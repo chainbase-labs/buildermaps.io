@@ -1,0 +1,11 @@
+{
+  "id": "neoweave",
+  "name": "NeoWeave",
+  "description": "Get money through open source",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/payment/neoweave.png",
+    "homepage": "https://neoweave.tech/",
+    "twitter": "https://x.com/neoweave"
+  }
+}

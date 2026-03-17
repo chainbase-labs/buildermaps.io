@@ -1,0 +1,13 @@
+{
+  "id": "moralis",
+  "name": "Moralis",
+  "description": "Comprehensive suite of Web3 Data APIs and development tools simplifying dApp creation with real-time data on NFTs, tokens, and cross-chain compatibility.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://moralis.com/",
+    "logo": "/imgs/Data/Infra/Moralis.jpg",
+    "twitter": "https://x.com/moralisdevs",
+    "github": ""
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ferra",
+  "name": "Ferra",
+  "description": "Ferra is a dynamic liquidity layer built natively on the Sui network, combining DLMM, CLMM, and DAMM engines for optimal liquidity.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://ferra.ag/",
+    "logo": "/imgs/Sui/DeFi/Ferra.png",
+    "twitter": "https://x.com/ferra_protocol"
+  }
+}

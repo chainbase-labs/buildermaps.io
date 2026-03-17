@@ -1,0 +1,11 @@
+{
+  "id": "moonpay-agents",
+  "name": "MoonPay Agents",
+  "description": "Intelligent fiat-to-crypto gateway automating seamless digital asset purchasing processes.",
+  "location": "Global",
+  "links": {
+    "homepage": "https://www.moonpay.com/",
+    "logo": "https://pbs.twimg.com/profile_images/1974903278400872448/XgE1PBG6_400x400.jpg",
+    "twitter": "https://x.com/moonpay"
+  }
+}

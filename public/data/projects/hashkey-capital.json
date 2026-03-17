@@ -1,0 +1,11 @@
+{
+  "id": "hashkey-capital",
+  "name": "HashKey Capital",
+  "description": "Hong Kong-based digital asset investment fund.",
+  "location": "Hong Kong",
+  "links": {
+    "logo": "/imgs/asian-vc/hashkey-capital.jpg",
+    "homepage": "https://hashkey.capital/",
+    "twitter": "https://x.com/HashKey_Capital"
+  }
+}

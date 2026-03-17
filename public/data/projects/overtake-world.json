@@ -1,0 +1,12 @@
+{
+  "id": "overtake-world",
+  "name": "Overtake World",
+  "description": "Overtake World is a peer-to-peer marketplace on Sui for trading game items, accounts, and currencies.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://overtake.world/",
+    "logo": "/imgs/Sui/Marketplace/Overtake World.png",
+    "twitter": "https://x.com/overtake_world"
+  }
+}

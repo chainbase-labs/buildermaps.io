@@ -1,0 +1,12 @@
+{
+  "id": "overtime",
+  "name": "Overtime",
+  "description": "Decentralized sports prediction market built on Thales protocol, operating on Optimism, Arbitrum, and Base.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.overtime.io/",
+    "twitter": "https://x.com/Overtime_io",
+    "logo": "/imgs/prediction_markets/Binary/Overtime.jpg"
+  }
+}

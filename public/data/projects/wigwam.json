@@ -1,0 +1,12 @@
+{
+  "id": "wigwam",
+  "name": "Wigwam",
+  "description": "The only web3 wallet you need! Secure, DeFi-friendly, Mobile & Extension. EVM and Solana blockchains. Store, buy, send, swap, and analyze tokens easily.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/Wallet/wigwam.png",
+    "homepage": "https://wigwam.app/",
+    "twitter": "https://x.com/wigwam_app",
+    "github": ""
+  }
+}

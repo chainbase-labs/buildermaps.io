@@ -1,0 +1,16 @@
+{
+  "id": "azuro",
+  "name": "azuro",
+  "description": "Decentralized prediction market infrastructure on EVM chains with vAMM model",
+  "founded": 2021,
+  "funding": 11000000,
+  "links": {
+    "homepage": "https://azuro.org/",
+    "logo": "/imgs/prediction_markets/Infra/azuro.jpg",
+    "twitter": "https://x.com/azuroprotocol",
+    "medium": "https://azuroprotocol.medium.com",
+    "linkedin": "https://www.linkedin.com/company/azuroprotocol",
+    "reddit": "https://azuro.org",
+    "github": "https://github.com/azuroprotocol"
+  }
+}

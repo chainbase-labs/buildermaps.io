@@ -1,0 +1,12 @@
+{
+  "id": "sui-agents-suia",
+  "name": "SUI Agents (SUIA)",
+  "description": "SUI Agents empowers users to create, tokenize, and trade AI Agents on the Sui blockchain.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://suiagents.ai/",
+    "logo": "/imgs/Sui/Ai/SUIAgentsSUIA.png",
+    "twitter": "https://x.com/SUI_agents"
+  }
+}

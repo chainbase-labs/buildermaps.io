@@ -1,0 +1,12 @@
+{
+  "id": "supertrip",
+  "name": "SuperTrip",
+  "description": "Play SuperTrip.Land â an indie trippy browser-based multiplayer FPS with psychedelic arenas, unique weapons, and no installs.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/GameFi/supertrip.png",
+    "homepage": "https://supertrip.land/",
+    "twitter": "https://x.com/SuperTrip64",
+    "github": ""
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "suilend",
+  "name": "Suilend",
+  "description": "Suilend is a decentralized lending protocol on Sui, allowing users to earn interest by lending their crypto assets or obtain loans by providing collateral.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://suilend.fi/",
+    "logo": "/imgs/Sui/DeFi/Suilend.png",
+    "twitter": "https://x.com/suilendprotocol"
+  }
+}

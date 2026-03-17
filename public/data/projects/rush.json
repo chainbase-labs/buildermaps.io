@@ -1,0 +1,12 @@
+{
+  "id": "rush",
+  "name": "Rush",
+  "description": "Prediction market platform.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://rush.trade/",
+    "twitter": "https://x.com/rush_trade_app",
+    "logo": "/imgs/prediction_markets/Multiple-Choice/Rush.jpg"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "robin-markets",
+  "name": "Robin Markets",
+  "description": "Prediction market platform.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://robin.markets/",
+    "twitter": "https://x.com/robinmarketsxyz",
+    "logo": "/imgs/prediction_markets/Others/Robin Markets.png"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "zephyr-protocol",
+  "name": "Zephyr Protocol",
+  "description": "The Untraceable Over-Collateralized Stablecoin Protocol",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/cash/zephyr-protocol.png",
+    "homepage": "https://zephyrprotocol.com/",
+    "twitter": "https://x.com/zephyr_org"
+  }
+}

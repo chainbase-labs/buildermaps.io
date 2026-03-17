@@ -1,0 +1,11 @@
+{
+  "id": "horizen",
+  "name": "Horizen",
+  "description": "Horizen is an EVM-native, privacy-first blockchain ecosystem on Base, enabling regulatory-compliant, auditable private execution for onchain business and applications.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/l1-l2/horizen.png",
+    "homepage": "https://horizen.io/",
+    "twitter": "https://x.com/horizenglobal"
+  }
+}

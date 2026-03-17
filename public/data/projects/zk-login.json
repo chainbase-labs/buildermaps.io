@@ -1,0 +1,12 @@
+{
+  "id": "zk-login",
+  "name": "ZK Login",
+  "description": "ZK Login allows users to access Sui applications using Web2 credentials like Google or Facebook via zero-knowledge proofs.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://sui.io/zklogin",
+    "logo": "/imgs/Sui/Infra  Tools/ZK Login.png",
+    "twitter": ""
+  }
+}

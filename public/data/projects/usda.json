@@ -1,0 +1,15 @@
+{
+  "id": "usda",
+  "name": "USDA",
+  "description": "BTC-backed stablecoin with 8% fixed borrow rate and 15% APY on staked USDa",
+  "founded": 2024,
+  "funding": 10000000,
+  "links": {
+    "homepage": "https://alphapartner.vip/",
+    "logo": "https://s2.loli.net/2025/11/24/FWtgEXNmkI7UvqL.png",
+    "twitter": "https://x.com/APalphalabs",
+    "telegram": "https://t.me/AvalonLabs_Official",
+    "linkedin": "https://www.linkedin.com/company/avalon-labs",
+    "reddit": "https://avalonfinance.xyz"
+  }
+}

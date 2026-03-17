@@ -1,0 +1,12 @@
+{
+  "id": "polyfocus",
+  "name": "Polyfocus",
+  "description": "Prediction market bot interface.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://t.me/polyfocusbot",
+    "twitter": "https://x.com/PolyfocusBot",
+    "logo": "/imgs/prediction_markets/Bot Inferface/Polyfocus.jpg"
+  }
+}

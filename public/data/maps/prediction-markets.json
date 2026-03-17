@@ -1,0 +1,142 @@
+{
+  "sector": "Prediction Markets",
+  "types": [
+    {
+      "id": "binary",
+      "name": "Binary",
+      "projects": [
+        "actions",
+        "betmoar",
+        "bodega",
+        "brkt",
+        "fliq",
+        "football-fun",
+        "glimpse",
+        "hilomarket",
+        "kalshi",
+        "limitless",
+        "myriad-markets",
+        "opinion",
+        "overtime",
+        "polymarket",
+        "predict",
+        "tradefox",
+        "truemarkets",
+        "xo-market"
+      ]
+    },
+    {
+      "id": "bot-inferface",
+      "name": "Bot Inferface",
+      "projects": [
+        "cobot",
+        "flipr",
+        "forcazt",
+        "kash",
+        "legend",
+        "okbet",
+        "olympus",
+        "polycule",
+        "polyfocus",
+        "polyquant",
+        "rocket"
+      ]
+    },
+    {
+      "id": "customisable",
+      "name": "Customisable",
+      "projects": ["9lives", "buzzing", "seer", "sportstensor"]
+    },
+    {
+      "id": "infra",
+      "name": "Infra",
+      "projects": [
+        "api3",
+        "augur",
+        "azuro",
+        "chainlink",
+        "covalent",
+        "dune",
+        "pyth",
+        "rain",
+        "redstone",
+        "switchboard",
+        "tellor",
+        "uma",
+        "verso"
+      ]
+    },
+    {
+      "id": "multiple-choice",
+      "name": "Multiple-Choice",
+      "projects": [
+        "based",
+        "betvibe",
+        "castora",
+        "chomp",
+        "dgbet",
+        "early-bird",
+        "euphoria",
+        "feentime",
+        "footballfun",
+        "mashdotfun",
+        "metaculus",
+        "narrative",
+        "noise",
+        "picasso-markets",
+        "precog",
+        "rarebetsports",
+        "rush",
+        "signal",
+        "sui-market",
+        "trendle",
+        "trepa",
+        "tweem",
+        "uranus",
+        "vibes",
+        "zeitgeistpm"
+      ]
+    },
+    {
+      "id": "others",
+      "name": "Others",
+      "projects": [
+        "agent-ted",
+        "bravado-trade",
+        "butter",
+        "firefly",
+        "giraft",
+        "multiplier",
+        "noise",
+        "polyburg",
+        "polyinsider",
+        "predictfolio",
+        "robin-markets",
+        "the-metagame",
+        "upshot"
+      ]
+    },
+    {
+      "id": "social-prediction",
+      "name": "Social Prediction",
+      "projects": [
+        "bento-fun",
+        "bluff",
+        "caddy",
+        "dripit",
+        "entrave",
+        "fireplace",
+        "foreseelol",
+        "hedgehog",
+        "hookt",
+        "joust",
+        "loudio",
+        "nostradamus",
+        "onit",
+        "poll",
+        "predx",
+        "wannafun"
+      ]
+    }
+  ]
+}

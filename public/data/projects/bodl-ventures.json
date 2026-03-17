@@ -1,0 +1,11 @@
+{
+  "id": "bodl-ventures",
+  "name": "Bodl Ventures",
+  "description": "Crypto venture fund supporting Web3 builders.",
+  "location": "Asia",
+  "links": {
+    "logo": "/imgs/asian-vc/bodl-ventures.jpg",
+    "homepage": "https://bodl.xyz/",
+    "twitter": "https://x.com/fishkiller"
+  }
+}

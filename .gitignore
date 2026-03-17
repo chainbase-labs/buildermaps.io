@@ -4,7 +4,7 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
+.vincent/
 # Runtime data
 pids
 *.pid
@@ -60,6 +60,10 @@ typings/
 # next.js build output
 .next
 dist
+.tmp
+
+# Generated files
+public/data/builder-maps.json
 
 # Editor directories and files
 .idea
@@ -70,3 +74,4 @@ dist
 *.sln
 *.sw?
 .DS_Store
+BuilderMaps Website Design

@@ -1,0 +1,10 @@
+{
+  "id": "openserv",
+  "name": "OpenServ",
+  "description": "Collaborative gig economy platform connecting users with AI agents to accomplish diverse technical and creative tasks.",
+  "links": {
+    "homepage": "https://openserv.ai/",
+    "logo": "/imgs/agentic-finance/openserv.png",
+    "twitter": "https://x.com/openservai"
+  }
+}

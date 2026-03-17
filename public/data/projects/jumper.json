@@ -1,0 +1,11 @@
+{
+  "id": "jumper",
+  "name": "Jumper",
+  "description": "Move, deploy and manage your capital with Jumper. Fast swaps, capital deployment, and portfolio management in one smart app.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/cross-chain/jumper.png",
+    "homepage": "https://jumper.exchange",
+    "twitter": "https://x.com/JumperExchange"
+  }
+}

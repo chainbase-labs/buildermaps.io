@@ -1,0 +1,12 @@
+{
+  "id": "rarible",
+  "name": "Rarible",
+  "description": "Explore NFTs across all supported blockchains. Trade, collect, and discover digital assets on Ethereum, Base, Arbitrum, Polygon, and more.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/NFT/rarible.png",
+    "homepage": "https://rarible.com/all",
+    "twitter": "https://x.com/rarible",
+    "github": ""
+  }
+}

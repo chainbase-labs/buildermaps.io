@@ -1,0 +1,13 @@
+{
+  "id": "nownodes",
+  "name": "Nownodes",
+  "description": "Blockchain-as-a-Service (BaaS) for 110+ networks, 99.95% uptime, RPC nodes/explorers API, shared/dedicated node infrastructure",
+  "founded": 2019,
+  "funding": null,
+  "links": {
+    "homepage": "http://nownodes.io",
+    "logo": "/imgs/Data/Infra/NOWNodes.jpg",
+    "twitter": "https://x.com/NOWNodes",
+    "github": ""
+  }
+}

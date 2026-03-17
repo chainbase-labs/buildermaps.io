@@ -1,0 +1,11 @@
+{
+  "id": "fufuture",
+  "name": "FuFuture",
+  "description": "FuFuture is a perpetual DEX on Pharos offering leveraged trading.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/perpdex/fufuture.png",
+    "homepage": "https://fufuture.io/",
+    "twitter": "https://x.com/fufuture_io"
+  }
+}

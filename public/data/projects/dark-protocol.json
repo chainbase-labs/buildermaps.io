@@ -1,0 +1,11 @@
+{
+  "id": "dark-protocol",
+  "name": "Dark Protocol",
+  "description": "Futarchy Governed Privacy Protocol on Solana Network - darkprotocolhq",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/defi-wallets/dark-protocol.png",
+    "homepage": "https://github.com/darkprotocolhq",
+    "twitter": "https://x.com/privateLP"
+  }
+}

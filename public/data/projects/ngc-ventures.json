@@ -1,0 +1,11 @@
+{
+  "id": "ngc-ventures",
+  "name": "NGC Ventures",
+  "description": "Singapore-based blockchain venture capital.",
+  "location": "Singapore",
+  "links": {
+    "logo": "/imgs/asian-vc/ngc-ventures.jpg",
+    "homepage": "https://ngc.fund/",
+    "twitter": "https://x.com/NGC_Ventures"
+  }
+}

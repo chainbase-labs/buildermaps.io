@@ -1,0 +1,11 @@
+{
+  "id": "coti",
+  "name": "COTI",
+  "description": "COTI is a layer 1 blockchain designed for payments with privacy and scalability features.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/l1-l2/coti.png",
+    "homepage": "https://coti.io/",
+    "twitter": "https://x.com/COTInetwork"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "paypal",
+  "name": "PayPal",
+  "description": "Global digital payment and money transfer platform.",
+  "links": {
+    "homepage": "https://t.co/Ff8bpM4Qiu",
+    "logo": "/imgs/agentic-finance/paypal.jpg",
+    "twitter": "https://x.com/PayPal"
+  }
+}

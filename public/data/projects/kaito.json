@@ -1,0 +1,13 @@
+{
+  "id": "kaito",
+  "name": "Kaito",
+  "description": "Kaito AI crypto intelligence $10.8M funding Dragonfly $87.5M valuation, Kaito Pro $833/month hedge fund tool, Yaps attention tokens, founded 2022",
+  "founded": 2022,
+  "funding": 10800000,
+  "links": {
+    "homepage": "https://yaps.kaito.ai/user",
+    "logo": "/imgs/Base/ConsumerApp/kaito.png",
+    "twitter": "https://x.com/KaitoAI",
+    "github": ""
+  }
+}

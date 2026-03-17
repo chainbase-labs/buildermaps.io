@@ -1,0 +1,12 @@
+{
+  "id": "polyburg",
+  "name": "Polyburg",
+  "description": "Prediction market platform.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://polyburg.com/",
+    "twitter": "https://x.com/polyburg",
+    "logo": "/imgs/prediction_markets/Others/Polyburg.jpg"
+  }
+}

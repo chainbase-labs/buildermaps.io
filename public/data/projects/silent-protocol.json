@@ -1,0 +1,11 @@
+{
+  "id": "silent-protocol",
+  "name": "Silent Protocol",
+  "description": "Hyperdrive rewards you for entering the ghost layer, built on the EZEE framework. The ghost layer is an ethereum centric encryption layer, that allows you to securely store and transfer your assets. You will also be able to interact with Odapps in the near future.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/confidential-compute/silent-protocol.png",
+    "homepage": "https://app.silentprotocol.org/",
+    "twitter": "https://x.com/silentdao_"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "mcpay",
+  "name": "MCPay",
+  "description": "MCpay MCP Server payment layer x402 micropayments Sei blockchain sub-400ms finality agent-to-agent transactions pay-per-call",
+  "founded": 2024,
+  "funding": null,
+  "links": {
+    "homepage": "https://mcpay.tech/",
+    "logo": "https://s2.loli.net/2025/11/24/soHPXmzDlgSt6Jr.jpg",
+    "twitter": "https://x.com/mcpaytech",
+    "telegram": "https://t.me/mcpay_tech"
+  }
+}

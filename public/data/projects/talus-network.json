@@ -1,0 +1,12 @@
+{
+  "id": "talus-network",
+  "name": "Talus Network",
+  "description": "Talus Network is a Layer 1 blockchain for autonomous AI agents, built with Move on Sui.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.talus.network/",
+    "logo": "/imgs/Sui/Ai/TalusNetwork.png",
+    "twitter": "https://x.com/TalusNetwork"
+  }
+}

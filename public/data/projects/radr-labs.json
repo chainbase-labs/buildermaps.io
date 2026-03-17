@@ -1,0 +1,11 @@
+{
+  "id": "radr-labs",
+  "name": "Radr Labs",
+  "description": "Experience true financial freedom. Accept private payments, protect user privacy, and transact confidently with zero-knowledge proof technology on Solana.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/apps/radr-labs.png",
+    "homepage": "https://www.radrlabs.io/shadowpay",
+    "twitter": "https://x.com/radrdotfun"
+  }
+}

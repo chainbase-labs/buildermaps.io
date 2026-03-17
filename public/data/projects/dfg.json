@@ -1,0 +1,11 @@
+{
+  "id": "dfg",
+  "name": "DFG",
+  "description": "Digital Finance Group - blockchain investment firm.",
+  "location": "Singapore",
+  "links": {
+    "logo": "/imgs/asian-vc/dfg.jpg",
+    "homepage": "https://www.dfg.group/",
+    "twitter": "https://x.com/DFG__Official"
+  }
+}

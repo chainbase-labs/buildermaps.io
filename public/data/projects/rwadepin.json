@@ -1,0 +1,12 @@
+{
+  "id": "rwadepin",
+  "name": "RWADepin",
+  "description": "Facilitates the tokenization, trading, and yield generation of real-world assets (RWA) on Sui.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://rwadepin.io/",
+    "logo": "/imgs/Sui/RWA/rwadepin.png",
+    "twitter": "https://x.com/rwadepin"
+  }
+}

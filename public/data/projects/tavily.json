@@ -1,0 +1,11 @@
+{
+  "id": "tavily",
+  "name": "Tavily",
+  "description": "Search engine API explicitly optimized for rapid and precise artificial intelligence information retrieval.",
+  "location": "Global",
+  "links": {
+    "homepage": "https://tavily.com/",
+    "logo": "https://pbs.twimg.com/profile_images/2011521237198020608/x2GjanfP_400x400.jpg",
+    "twitter": "https://x.com/tavilyai"
+  }
+}

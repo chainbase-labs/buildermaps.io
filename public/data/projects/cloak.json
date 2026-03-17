@@ -1,0 +1,11 @@
+{
+  "id": "cloak",
+  "name": "Cloak",
+  "description": "Cloak is the privacy execution layer on Solana, enabling zero-knowledge private transactions with decentralized Proof-of-Work validators that guarantee fairness and liquidity.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/apps/cloak.png",
+    "homepage": "https://bento.me/cloaklabz",
+    "twitter": "https://x.com/cloak_xyz"
+  }
+}

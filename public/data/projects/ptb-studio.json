@@ -1,0 +1,13 @@
+{
+  "id": "ptb-studio",
+  "name": "PTB Studio",
+  "description": "PTB Studio is a visual composition tool for Sui PTBs, designed to help learners and developers easily build, manage, and execute PTBs.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "logo": "/imgs/Sui/InfraTools/PTB Studio.png",
+    "twitter": "https://x.com/zktx_io",
+    "homepage": "https://ptb-builder.walrus.site",
+    "discord": "https://discord.gg/Vsjpghdhb3"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "polycule",
+  "name": "Polycule",
+  "description": "Prediction market bot interface.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.polycule.trade/",
+    "twitter": "https://x.com/polycule_bot",
+    "logo": "/imgs/prediction_markets/Bot Inferface/Polycule.jpg"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "baboon-vc",
+  "name": "Baboon VC",
+  "description": "Early-stage crypto venture fund.",
+  "location": "Asia",
+  "links": {
+    "logo": "/imgs/asian-vc/baboon-vc.jpg",
+    "homepage": "https://www.baboon.vc/",
+    "twitter": "https://x.com/BaboonVC"
+  }
+}

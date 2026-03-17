@@ -1,0 +1,11 @@
+{
+  "id": "okx-ventures",
+  "name": "OKX Ventures",
+  "description": "Investment arm of OKX exchange focused on Web3.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/asian-vc/okx-ventures.jpg",
+    "homepage": "https://www.okx.com/ventures",
+    "twitter": "https://x.com/OKX_Ventures"
+  }
+}

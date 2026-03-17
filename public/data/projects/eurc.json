@@ -1,0 +1,16 @@
+{
+  "id": "eurc",
+  "name": "EURC",
+  "description": "MiCA-compliant euro stablecoin backed 100% by euro reserves in EEA",
+  "founded": 2022,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.circle.com/",
+    "logo": "https://s2.loli.net/2025/11/24/4vRgkwnjWY1o5bs.png",
+    "twitter": "https://x.com/circle",
+    "telegram": "https://t.me/circle",
+    "discord": "https://discord.gg/circle",
+    "linkedin": "https://www.linkedin.com/company/circle-internet-financial",
+    "reddit": "https://www.circle.com/eurc"
+  }
+}

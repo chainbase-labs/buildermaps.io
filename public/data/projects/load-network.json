@@ -1,0 +1,12 @@
+{
+  "id": "load-network",
+  "name": "Load Network",
+  "description": "Decentralized storage network with x402 micropayments for ANS-104 DataItems and private objects",
+  "founded": 2023,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.load.network/",
+    "logo": "https://s2.loli.net/2025/11/24/MXRNiH75xcrW8Qy.jpg",
+    "twitter": "https://x.com/useload"
+  }
+}

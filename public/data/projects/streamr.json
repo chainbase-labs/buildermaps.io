@@ -1,0 +1,13 @@
+{
+  "id": "streamr",
+  "name": "Streamr",
+  "description": "Real-time data network with $30M ICO 2018, Gnosis/Polygon deployment, decentralized pub/sub infrastructure for data streams",
+  "founded": 2017,
+  "funding": 30000000,
+  "links": {
+    "homepage": "https://streamr.network",
+    "logo": "/imgs/Data/Indexing/Streamr.jpg",
+    "twitter": "https://x.com/Streamr",
+    "github": ""
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ens",
+  "name": "ENS",
+  "description": "Welcome to the new internet.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/IdentityandReputation/ens.png",
+    "homepage": "https://ens.domains/",
+    "twitter": "https://x.com/ensdomains",
+    "github": ""
+  }
+}

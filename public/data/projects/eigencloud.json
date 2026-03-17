@@ -1,0 +1,12 @@
+{
+  "id": "eigencloud",
+  "name": "EigenCloud",
+  "description": "Verifiable computation with TEE execution and deterministic AI inference.",
+  "founded": 2024,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.eigencloud.xyz/",
+    "logo": "/imgs/OpenClaw/Compute&Data/eigencloud.png",
+    "twitter": "https://x.com/eigencloud"
+  }
+}

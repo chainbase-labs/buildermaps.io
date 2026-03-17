@@ -1,0 +1,12 @@
+{
+  "id": "sportstensor",
+  "name": "Sportstensor",
+  "description": "Sports prediction market.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.sportstensor.com/",
+    "twitter": "https://x.com/sportstensor",
+    "logo": "/imgs/prediction_markets/Customisable/Sportstensor.jpg"
+  }
+}

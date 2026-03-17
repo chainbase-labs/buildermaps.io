@@ -1,0 +1,13 @@
+{
+  "id": "archway",
+  "name": "Archway",
+  "description": "Archway Cosmos SDK blockchain developer rewards protocol, smart contract incentives, IBC-enabled, CosmWasm contracts, launched Aug 2023",
+  "founded": 2021,
+  "funding": null,
+  "links": {
+    "homepage": "https://archway.io/",
+    "logo": "/imgs/Data/Indexing/Archway.jpg",
+    "twitter": "https://x.com/archwayHQ",
+    "github": ""
+  }
+}

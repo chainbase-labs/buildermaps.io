@@ -1,0 +1,11 @@
+{
+  "id": "orbiter",
+  "name": "Orbiter",
+  "description": "Bridge and swap crypto assets quickly, affordably, and securely across Arbitrum, Base, Optimism, Solana, BNB Chain, Polygon, Ethereum, and more blockchain ecosystems with Orbiter.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/cross-chain/orbiter.png",
+    "homepage": "https://www.orbiter.finance/",
+    "twitter": "https://x.com/Orbiter_Finance"
+  }
+}

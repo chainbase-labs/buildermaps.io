@@ -1,0 +1,13 @@
+{
+  "id": "aizel-network",
+  "name": "AIZel Network",
+  "description": "Integrating on-chain AI with blockchain infrastructure using TEEs and MPC for verifiable and trustless AI findings, building a DePIN for secure ML models.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://aizelnetwork.com/",
+    "logo": "/imgs/AI_Crypto/Inference/AIZel Network.jpg",
+    "twitter": "https://x.com/aizel_network",
+    "github": ""
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "glimpse",
+  "name": "Glimpse",
+  "description": "Prediction market platform focused on forecasting the future of finance and aggregating crowd wisdom.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.glimpse.trading/",
+    "twitter": "https://x.com/BTCPredMrkt",
+    "logo": "/imgs/prediction_markets/Binary/Glimpse.jpg"
+  }
+}

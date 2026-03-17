@@ -1,0 +1,12 @@
+{
+  "id": "dmarz",
+  "name": "dmarz",
+  "description": "AI agent researcher and developer focused on Trusted Execution Environments (TEEs) for secure agent infrastructure and verifiable computation.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/Agents/dmarz.png",
+    "homepage": "https://www.dmarz.xyz/",
+    "twitter": "https://x.com/DistributedMarz",
+    "github": ""
+  }
+}

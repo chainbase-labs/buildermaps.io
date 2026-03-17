@@ -1,0 +1,13 @@
+{
+  "id": "figment",
+  "name": "Figment",
+  "description": "Institutional blockchain staking provider with $17B+ assets staked across 50+ networks, backed by C1 Fund, Anchorage",
+  "founded": 2018,
+  "funding": 163840000,
+  "links": {
+    "homepage": "https://figment.io/",
+    "logo": "/imgs/Data/Infra/Figment.jpg",
+    "twitter": "https://x.com/Figment_io",
+    "github": ""
+  }
+}

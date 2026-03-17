@@ -1,0 +1,11 @@
+{
+  "id": "fenbushi-capital",
+  "name": "Fenbushi Capital",
+  "description": "China's first blockchain-focused venture capital firm.",
+  "location": "Shanghai, China",
+  "links": {
+    "logo": "/imgs/asian-vc/fenbushi-capital.jpg",
+    "homepage": "https://fenbushi.vc/",
+    "twitter": "https://x.com/fenbushi"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "cred-protocol",
+  "name": "Cred Protocol",
+  "description": "Decentralized credit score quantifying on-chain lending risk using transparent blockchain data",
+  "founded": 2023,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.credprotocol.com/",
+    "logo": "https://s2.loli.net/2025/11/24/g6xOL2Y4GfPcebw.jpg",
+    "twitter": "https://x.com/cred_protocol",
+    "telegram": "https://t.me/Decred",
+    "medium": "https://medium.com/@credprotocol"
+  }
+}

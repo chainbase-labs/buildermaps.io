@@ -1,0 +1,12 @@
+{
+  "id": "index-network",
+  "name": "Index Network",
+  "description": "You know that moment when you meet the right person and your next move clicks into place? That sense of magic? You shouldn't have to wait for luck. Index helps your others find you.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/MarketplacesandDiscovery/index-network.png",
+    "homepage": "https://index.network/",
+    "twitter": "https://x.com/indexnetwork_",
+    "github": ""
+  }
+}

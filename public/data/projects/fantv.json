@@ -1,0 +1,12 @@
+{
+  "id": "fantv",
+  "name": "FanTV",
+  "description": "Social video streaming platform empowering creators and viewers.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://fantv.world/",
+    "logo": "/imgs/Sui/SocialFi/FanTV.png",
+    "twitter": "https://x.com/FanTV_official"
+  }
+}

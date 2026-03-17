@@ -1,0 +1,12 @@
+{
+  "id": "basevol",
+  "name": "BaseVol",
+  "description": "Lightning leverage, Instant 100x in minutes",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/Infra/basevol.png",
+    "homepage": "https://www.basevol.com/",
+    "twitter": "https://x.com/BaseVolApp",
+    "github": ""
+  }
+}

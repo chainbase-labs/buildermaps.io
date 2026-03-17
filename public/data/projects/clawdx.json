@@ -1,0 +1,10 @@
+{
+  "id": "clawdx",
+  "name": "ClawdX",
+  "description": "AI trading agent with MoltyScan (Etherscan-like for agents).",
+  "links": {
+    "homepage": "https://clawdx.com",
+    "twitter": "https://x.com/ClawdX_",
+    "logo": "/imgs/OpenClaw/Trading&DeFAI/clawdx-1.png"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "euclid-protocol",
+  "name": "Euclid Protocol",
+  "description": "Euclid Protocol is a unified liquidity layer for cross-chain DeFi.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/dex/euclid-protocol.png",
+    "homepage": "https://www.euclidprotocol.io/",
+    "twitter": "https://x.com/EuclidProtocol"
+  }
+}

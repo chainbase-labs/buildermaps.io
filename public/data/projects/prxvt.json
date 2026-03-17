@@ -1,0 +1,11 @@
+{
+  "id": "prxvt",
+  "name": "PRXVT",
+  "description": "Privacy-first infrastructure for AI agents. Building privacy-preserving protocols for the agent economy, starting with x402 payment privacy.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/confidential-compute/prxvt.png",
+    "homepage": "https://www.prxvt.com/",
+    "twitter": "https://x.com/PRXVTai"
+  }
+}

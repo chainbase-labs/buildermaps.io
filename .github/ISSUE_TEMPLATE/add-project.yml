@@ -1,0 +1,118 @@
+name: "Add a Project to BuilderMaps"
+description: "Submit a new Web3 project to BuilderMaps (with project JSON + map placement)."
+title: "Add Project: <project-name>"
+labels: ["data:add-project"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing to **BuilderMaps**!
+
+        Please provide:
+        - **Step 1**: A complete `public/data/projects/<id>.json`
+        - **Step 2**: Where to place it in `public/data/maps/<sector>.json`
+
+        Tip: You can also submit this form via a prefilled URL link.
+
+  # -------------------------
+  # Step 1: Project JSON
+  # -------------------------
+  - type: input
+    id: project_id
+    attributes:
+      label: Project ID (kebab-case)
+      description: Must match filename: `public/data/projects/<project-id>.json`
+      placeholder: my-awesome-project
+    validations:
+      required: true
+
+  - type: input
+    id: project_name
+    attributes:
+      label: Project Name
+      placeholder: My Awesome Project
+    validations:
+      required: true
+
+  - type: textarea
+    id: project_json
+    attributes:
+      label: Step 1 — Project file JSON (REQUIRED)
+      description: Paste the complete JSON you want added to `public/data/projects/<id>.json`.
+      render: json
+      value: |
+        {
+          "id": "project-id",
+          "name": "Project Name",
+          "description": "Brief description of the project",
+          "founded": 2020,
+          "funding": 1000000,
+          "links": {
+            "homepage": "https://example.com",
+            "logo": "/imgs/project-logo.jpg",
+            "twitter": "https://x.com/username",
+            "telegram": "https://t.me/username",
+            "discord": "https://discord.gg/invite",
+            "medium": "https://medium.com/@username",
+            "github": "https://github.com/username",
+            "linkedin": "https://www.linkedin.com/company/companyname",
+            "reddit": "https://reddit.com/r/subreddit"
+          }
+        }
+    validations:
+      required: true
+
+  # -------------------------
+  # Step 2: Add to Map file(s)
+  # -------------------------
+  - type: input
+    id: sector_file
+    attributes:
+      label: Step 2 — Sector map file
+      description: Which sector map file to update in `public/data/maps/` (filename only).
+      placeholder: x402.json
+    validations:
+      required: true
+
+  - type: input
+    id: type_id
+    attributes:
+      label: Step 2 — Type ID in that sector
+      description: The `types[].id` you want to add the project into (kebab-case).
+      placeholder: consumer-apps
+    validations:
+      required: true
+
+  - type: textarea
+    id: map_change
+    attributes:
+      label: Step 2 — Map change snippet (REQUIRED)
+      description: Paste the minimal snippet or describe exactly where to add the project ID in `public/data/maps/<sector>.json`.
+      render: json
+      value: |
+        {
+          "sector": "x402",
+          "types": [
+            {
+              "id": "consumer-apps",
+              "projects": [
+                "existing-project-1",
+                "project-id"
+              ]
+            }
+          ]
+        }
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: My `project_json.id` matches `project_id` and the filename.
+          required: true
+        - label: I used full URLs with https:// in links (when applicable).
+          required: true
+        - label: I included Step 2 map placement info (sector + type + snippet).
+          required: true

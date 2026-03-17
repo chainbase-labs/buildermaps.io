@@ -1,0 +1,12 @@
+{
+  "id": "pinata",
+  "name": "Pinata",
+  "description": "IPFS file storage and media management for Web3, Dedicated Gateways, Submarine.me token gating, NFT metadata hosting",
+  "founded": 2018,
+  "funding": null,
+  "links": {
+    "homepage": "https://pinata.cloud/",
+    "logo": "https://s2.loli.net/2025/11/24/sMIFqrdEQXz4T5k.jpg",
+    "twitter": "https://x.com/pinatacloud"
+  }
+}

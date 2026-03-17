@@ -1,0 +1,11 @@
+{
+  "id": "folius-ventures",
+  "name": "Folius Ventures",
+  "description": "Tokyo-based crypto-native investment fund.",
+  "location": "Tokyo, Japan",
+  "links": {
+    "logo": "/imgs/asian-vc/folius-ventures.jpg",
+    "homepage": "https://www.folius.ventures/",
+    "twitter": "https://x.com/foliusventures"
+  }
+}

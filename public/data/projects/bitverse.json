@@ -1,0 +1,11 @@
+{
+  "id": "bitverse",
+  "name": "Bitverse",
+  "description": "First PerpDEX on Pharos Network, Smoothest, Safest, The first-ever Trinity Token",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/dex/bitverse.png",
+    "homepage": "https://www.bitverse.zone/",
+    "twitter": "https://x.com/BitverseApp"
+  }
+}

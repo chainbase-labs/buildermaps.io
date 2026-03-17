@@ -1,0 +1,11 @@
+{
+  "id": "appworks",
+  "name": "AppWorks",
+  "description": "Leading startup accelerator in Taiwan and Southeast Asia.",
+  "location": "Taiwan",
+  "links": {
+    "homepage": "https://appworks.tw/",
+    "logo": "/imgs/asian-vc/appworks.jpg",
+    "twitter": "https://x.com/AppWorks"
+  }
+}

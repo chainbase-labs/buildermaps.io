@@ -1,0 +1,11 @@
+{
+  "id": "moveflow",
+  "name": "MoveFlow",
+  "description": "MoveFlow is a multi-chain token distribution protocol designed to streamline token vesting, airdrops, payroll, and treasury operations.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/payment/moveflow.png",
+    "homepage": "https://www.moveflow.xyz/",
+    "twitter": "https://x.com/moveflowlabs_"
+  }
+}

@@ -1,0 +1,248 @@
+name: Update Data from CSV Attachment
+
+permissions:
+  contents: write
+  issues: write
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  update-data-from-csv:
+    runs-on: ubuntu-latest
+    outputs:
+      branch_name: ${{ steps.commit.outputs.branch_name }}
+      no_changes: ${{ steps.commit.outputs.no_changes }}
+
+    steps:
+      - name: Check if label is update-from-csv
+        id: check_label
+        run: |
+          LABEL_NAME="${{ github.event.label.name }}"
+          echo "Label added: $LABEL_NAME"
+          if [ "$LABEL_NAME" = "update-from-csv" ]; then
+            echo "valid_label=true" >> "$GITHUB_OUTPUT"
+            echo "✅ Valid label detected: $LABEL_NAME"
+          else
+            echo "valid_label=false" >> "$GITHUB_OUTPUT"
+            echo "⚠️ Skipping: Label '$LABEL_NAME' is not update-from-csv"
+            exit 0
+          fi
+
+      - name: Check out code
+        if: steps.check_label.outputs.valid_label == 'true'
+        uses: actions/checkout@v4
+        with:
+          # Use a PAT so the branch push can trigger other workflows (push from GITHUB_TOKEN is suppressed).
+          # Create a repo/org secret named `CSV_PUSH_TOKEN` with `repo` scope.
+          token: ${{ secrets.CSV_PUSH_TOKEN }}
+          fetch-depth: 0
+
+      - name: Create working branch for this run
+        if: steps.check_label.outputs.valid_label == 'true'
+        env:
+          BRANCH_NAME: "chore/update-from-csv-issue-${{ github.event.issue.number }}-${{ github.run_id }}"
+        run: |
+          set -e
+          # Explicitly create/checkout the target branch for this run.
+          # On workflow re-runs, the branch may already exist remotely; base on it to avoid non-fast-forward pushes.
+          git fetch origin "refs/heads/$BRANCH_NAME:refs/remotes/origin/$BRANCH_NAME" || true
+          if git show-ref --verify --quiet "refs/remotes/origin/$BRANCH_NAME"; then
+            echo "Remote branch exists: origin/$BRANCH_NAME (reusing it)"
+            git checkout -B "$BRANCH_NAME" "origin/$BRANCH_NAME"
+          else
+            echo "Remote branch does not exist: creating $BRANCH_NAME from current checkout"
+            git checkout -b "$BRANCH_NAME"
+          fi
+
+      - name: Extract CSV attachment URL from issue body
+        if: steps.check_label.outputs.valid_label == 'true'
+        id: csv
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          python - <<'PY'
+          import os, re, sys
+          body = os.environ.get("ISSUE_BODY", "") or ""
+          # Match markdown links or bare URLs that end with .csv (common for issue attachments)
+          patterns = [
+              r"\((https?://[^)\s]+\.csv(?:\?[^)\s]+)?)\)",
+              r"(https?://\S+\.csv(?:\?\S+)?)",
+          ]
+          url = None
+          for p in patterns:
+              m = re.search(p, body, flags=re.IGNORECASE)
+              if m:
+                  url = m.group(1)
+                  break
+          if not url:
+              print("No .csv attachment URL found in issue body.", file=sys.stderr)
+              sys.exit(1)
+          print(f"Found CSV URL: {url}")
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
+              f.write(f"csv_url={url}\n")
+          PY
+
+      - name: Download CSV attachment
+        if: steps.check_label.outputs.valid_label == 'true'
+        env:
+          CSV_URL: ${{ steps.csv.outputs.csv_url }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p .tmp
+          curl -L \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            -H "Accept: application/octet-stream" \
+            "$CSV_URL" \
+            -o .tmp/input.csv
+          test -s .tmp/input.csv
+
+      - name: Set up Python
+        if: steps.check_label.outputs.valid_label == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          # No pip dependencies are installed in this workflow (stdlib-only script),
+          # so avoid enabling pip cache to prevent post-job cache errors.
+
+      - name: Install Python dependencies (for logo download)
+        if: steps.check_label.outputs.valid_label == 'true'
+        run: pip install -r process-builder-data/requirements.txt
+
+      - name: Apply CSV into public/data (merge, no deletions)
+        if: steps.check_label.outputs.valid_label == 'true'
+        run: |
+          python process-builder-data/apply_to_buildermaps.py .tmp/input.csv --repo-root . --download-logos --logo-overwrite --rate-limit 0.2
+
+      - name: Setup Node.js
+        if: steps.check_label.outputs.valid_label == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: "latest"
+          cache: "npm"
+
+      - name: Install Node dependencies
+        if: steps.check_label.outputs.valid_label == 'true'
+        run: npm install
+
+      - name: Check for duplicate project IDs
+        if: steps.check_label.outputs.valid_label == 'true'
+        run: node scripts/check-duplicate-ids.js
+
+      - name: Verify data integrity
+        if: steps.check_label.outputs.valid_label == 'true'
+        run: npm run verify:maps
+
+      - name: Build builder-maps.json
+        if: steps.check_label.outputs.valid_label == 'true'
+        run: npm run build:maps
+
+      - name: Commit changes to a branch
+        if: steps.check_label.outputs.valid_label == 'true'
+        id: commit
+        env:
+          BRANCH_NAME: "chore/update-from-csv-issue-${{ github.event.issue.number }}-${{ github.run_id }}"
+        run: |
+          set -e
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          git add public/data/ public/imgs/
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            echo "no_changes=true" >> "$GITHUB_OUTPUT"
+            echo "branch_name=$BRANCH_NAME" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          git commit -m "chore(data): update from csv issue #${{ github.event.issue.number }}"
+
+          # Push. On re-runs, the remote branch may already exist and may have moved.
+          # If push is rejected, rebase onto latest remote head and retry once.
+          if git push --set-upstream origin "$BRANCH_NAME"; then
+            echo "Pushed successfully"
+          else
+            echo "Push rejected (likely non-fast-forward). Rebasing onto origin/$BRANCH_NAME and retrying..."
+            git fetch origin "refs/heads/$BRANCH_NAME:refs/remotes/origin/$BRANCH_NAME" || true
+            if git show-ref --verify --quiet "refs/remotes/origin/$BRANCH_NAME"; then
+              git rebase "origin/$BRANCH_NAME"
+            fi
+            git push --set-upstream origin "$BRANCH_NAME"
+          fi
+
+          echo "no_changes=false" >> "$GITHUB_OUTPUT"
+          echo "branch_name=$BRANCH_NAME" >> "$GITHUB_OUTPUT"
+
+      - name: Comment on issue with PR link
+        if: steps.check_label.outputs.valid_label == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const branchName = `${{ steps.commit.outputs.branch_name }}`.trim()
+            const noChanges = `${{ steps.commit.outputs.no_changes }}`.trim() === 'true'
+
+            if (noChanges) {
+              await github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: `✅ No data changes detected from the attached CSV. (Branch: \`${branchName}\`)\n\nTo apply an override patch later: comment the patch CSV link + this branch name, then add label \`patch-csv\`.`
+              })
+              return
+            }
+
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `✅ CSV updates pushed to branch: \`${branchName}\`.\n\nTo apply an override patch later: comment the patch CSV link + this branch name, then add label \`patch-csv\`.`
+            })
+
+  deploy-test-data:
+    name: Deploy Test Data to OSS (same run)
+    needs: update-data-from-csv
+    if: needs.update-data-from-csv.outputs.no_changes != 'true' && needs.update-data-from-csv.outputs.branch_name != ''
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out generated branch
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.CSV_PUSH_TOKEN }}
+          ref: ${{ needs.update-data-from-csv.outputs.branch_name }}
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "latest"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build builder-maps.json
+        run: npm run build:maps
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install OSSUtil
+        run: |
+          pip install oss2
+          wget http://gosspublic.alicdn.com/ossutil/1.7.18/ossutil64
+          chmod 755 ossutil64
+
+      - name: Configure OSSUtil
+        run: |
+          ./ossutil64 config -e oss-ap-southeast-1.aliyuncs.com -i ${{ secrets.ALI_ACCESS_KEY_ID }} -k ${{ secrets.ALI_ACCESS_KEY_SECRET }}
+
+      - name: Upload test assets/data to OSS (public/buildermaps/test/*)
+        run: |
+          ./ossutil64 cp -r public/imgs/ "${{ vars.ALI_MICRO_FE_OFFICIAL_BUCKET_OSS_URL}}/public/buildermaps/test/imgs/" --meta="Cache-Control:max-age=31536000" --update
+          ./ossutil64 cp -r public/data/ "${{ vars.ALI_MICRO_FE_OFFICIAL_BUCKET_OSS_URL}}/public/buildermaps/test/data/" --meta="Cache-Control:no-cache" --update
+          ./ossutil64 cp public/data/builder-maps.json "${{ vars.ALI_MICRO_FE_OFFICIAL_BUCKET_OSS_URL}}/public/buildermaps/test/data/builder-maps.json" --meta="Cache-Control:no-cache" --update

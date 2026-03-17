@@ -1,0 +1,13 @@
+{
+  "id": "rysk",
+  "name": "RYSK",
+  "description": "DeFi options protocol with Dynamic Hedging Vault (DHV) AMM, $1.8M funding from Lemniscap, Arbitrum Foundation grant",
+  "founded": 2022,
+  "funding": 1800000,
+  "links": {
+    "homepage": "http://rysk.finance",
+    "logo": "/imgs/AI_Crypto/Data/RYSK.jpg",
+    "twitter": "https://x.com/ryskfinance",
+    "github": ""
+  }
+}

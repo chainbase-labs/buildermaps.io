@@ -1,0 +1,11 @@
+{
+  "id": "the-spartan-group",
+  "name": "The Spartan Group",
+  "description": "Web3 investment firm and advisory group based in Asia.",
+  "location": "Hong Kong / Singapore",
+  "links": {
+    "logo": "/imgs/asian-vc/the-spartan-group.jpg",
+    "homepage": "https://www.spartangroup.io/",
+    "twitter": "https://x.com/TheSpartanGroup"
+  }
+}

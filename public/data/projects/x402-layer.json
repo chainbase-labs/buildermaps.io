@@ -1,0 +1,9 @@
+{
+  "id": "x402-layer",
+  "name": "x402 Layer",
+  "description": "Layer enabling agents to sell services autonomously via x402 endpoints and pricing.",
+  "links": {
+    "twitter": "https://x.com/x402_Layer",
+    "logo": "/imgs/OpenClaw/Payments&Commerce/x402-layer.png"
+  }
+}

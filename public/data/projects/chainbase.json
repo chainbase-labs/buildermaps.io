@@ -1,0 +1,14 @@
+{
+  "id": "chainbase",
+  "name": "Chainbase",
+  "description": "AI-oriented hyperdata network transforming on-chain signals into structured verifiable AI-enabled data.",
+  "founded": 2022,
+  "funding": null,
+  "links": {
+    "homepage": "https://chainbase.com/",
+    "logo": "/imgs/Sui/Analytics/Chainbase.png",
+    "twitter": "https://x.com/ChainbaseHQ",
+    "telegram": "https://t.me/ChainbaseNetwork",
+    "reddit": "https://chainbase.com"
+  }
+}

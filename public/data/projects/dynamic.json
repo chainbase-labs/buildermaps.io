@@ -1,0 +1,10 @@
+{
+  "id": "dynamic",
+  "name": "Dynamic",
+  "description": "Frictionless authentication layer providing intelligent multi-chain wallet onboarding for modern Web3 users and programs.",
+  "links": {
+    "homepage": "https://dynamic.xyz/",
+    "logo": "/imgs/agentic-finance/dynamic.png",
+    "twitter": "https://x.com/dynamic_xyz"
+  }
+}

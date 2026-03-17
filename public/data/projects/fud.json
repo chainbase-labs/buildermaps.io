@@ -1,0 +1,13 @@
+{
+  "id": "fud",
+  "name": "FUD",
+  "description": "FUD is the OG meme on Sui.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "logo": "/imgs/Sui/Meme/FUD.png",
+    "twitter": "https://x.com/fudthepug",
+    "homepage": "https://fudthepug.com/",
+    "discord": "https://discord.gg/Vsjpghdhb3"
+  }
+}

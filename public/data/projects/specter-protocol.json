@@ -1,0 +1,11 @@
+{
+  "id": "specter-protocol",
+  "name": "Specter Protocol",
+  "description": "Specter Protocol provides privacy solutions using zero-knowledge proofs.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/zk/specter-protocol.png",
+    "homepage": "https://www.specterprotocol.com/",
+    "twitter": "https://x.com/SpecterZK"
+  }
+}

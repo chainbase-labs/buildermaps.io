@@ -1,0 +1,12 @@
+{
+  "id": "bucket",
+  "name": "Bucket",
+  "description": "Bucket Protocol is a Collateralized Debt Position (CDP) protocol on Sui that allows users to deposit crypto assets and borrow the BUCK stablecoin at 0% interest.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://bucketprotocol.io/",
+    "logo": "/imgs/Sui/DeFi/Bucket.png",
+    "twitter": "https://x.com/bucket_protocol"
+  }
+}

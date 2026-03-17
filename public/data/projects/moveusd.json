@@ -1,0 +1,13 @@
+{
+  "id": "moveusd",
+  "name": "MoveUSD",
+  "description": "U.S.-regulated deposit token backed 1:1 by USD with Treasury Bills yield integration",
+  "founded": 2024,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.cfxlabs.com/",
+    "logo": "https://s2.loli.net/2025/11/24/HfN9s2XKy54cuxY.png",
+    "twitter": "https://x.com/moveusd",
+    "reddit": "https://docs.moveusd.com"
+  }
+}

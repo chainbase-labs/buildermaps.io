@@ -1,0 +1,15 @@
+{
+  "id": "uma",
+  "name": "UMA",
+  "description": "Universal Market Access optimistic oracle for DeFi derivatives, $7.9M funding from Placeholder, Coinbase Ventures, Dragonfly",
+  "founded": 2018,
+  "funding": 7900000,
+  "links": {
+    "homepage": "https://uma.xyz/",
+    "twitter": "https://x.com/UMAprotocol",
+    "github": "https://github.com/UMAprotocol",
+    "telegram": "https://t.me/HumanityProt",
+    "linkedin": "https://www.linkedin.com/company/umaproject",
+    "logo": "/imgs/prediction_markets/Infra/UMA.jpg"
+  }
+}

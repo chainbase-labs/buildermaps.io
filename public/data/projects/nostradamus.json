@@ -1,0 +1,13 @@
+{
+  "id": "nostradamus",
+  "name": "Nostradamus",
+  "description": "Blockchain-based prediction market platform inspired by Nostradamus, powered by ChainLink Oracle for real-time market updates",
+  "founded": 2024,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.imnostradamus.com/",
+    "twitter": "https://x.com/SeerNostradamus",
+    "telegram": "https://t.me/projectnostradamuschannel",
+    "logo": "/imgs/prediction_markets/Social Prediction/Nostradamus.jpg"
+  }
+}

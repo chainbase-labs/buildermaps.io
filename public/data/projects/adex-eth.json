@@ -1,0 +1,12 @@
+{
+  "id": "adex-eth",
+  "name": "AdEx.eth",
+  "description": "AdEx AURA is the AI agent framework that helps you navigate Web3. Automate DeFi strategies, NFT mints, claim airdrops, and maximize rewards with AI-driven recommendations.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/AgentFi/adex-eth.png",
+    "homepage": "https://www.adex.network/",
+    "twitter": "https://x.com/AdEx_Network",
+    "github": ""
+  }
+}

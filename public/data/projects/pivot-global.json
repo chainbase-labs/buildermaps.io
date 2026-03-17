@@ -1,0 +1,11 @@
+{
+  "id": "pivot-global",
+  "name": "Pivot Global",
+  "description": "Asia-focused blockchain investment firm.",
+  "location": "Asia",
+  "links": {
+    "logo": "/imgs/asian-vc/pivot-global.jpg",
+    "homepage": "https://pivotglobal.xyz/main",
+    "twitter": "https://x.com/pivotglobal_xyz"
+  }
+}

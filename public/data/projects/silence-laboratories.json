@@ -1,0 +1,12 @@
+{
+  "id": "silence-laboratories",
+  "name": "Silence Laboratories",
+  "description": "The versatile toolkit for MPC-TSS and Privacy-Preserving Compute. Enabling enterprises to adopt Threshold Signatures and Secure Computations.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/DevelopersTooling/silence-laboratories.png",
+    "homepage": "https://silencelaboratories.com/?utm_source=twitter",
+    "twitter": "https://x.com/silencelabs_sl",
+    "github": ""
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "hubble-ai",
+  "name": "Hubble AI",
+  "description": "Empowering AI agents and quants with real-time on-chain intelligence. Features customizable data streams, whale tracking, and agent-native infrastructure (ERC-8004).",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/AgentFi/hubble-ai.png",
+    "homepage": "https://www.hubble.xyz/",
+    "twitter": "https://x.com/MeetHubble",
+    "github": ""
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "tornado-cash",
+  "name": "Tornado Cash",
+  "description": "Tornado Cash is a decentralized privacy solution for Ethereum using zero-knowledge proofs.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/mixers/tornado-cash.png",
+    "homepage": "https://tornadocash-eth.ipns.dweb.link/",
+    "twitter": "https://x.com/TornadoCash"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "payy",
+  "name": "Payy",
+  "description": "Payy is building onchain consumer banking. We're vertically integrating stablecoins, a privacy-preserving blockchain, global fiat ramps and DeFi — all accessible through a simple app.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/defi-wallets/payy.png",
+    "homepage": "https://payy.link/",
+    "twitter": "https://x.com/payy_link"
+  }
+}

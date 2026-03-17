@@ -1,0 +1,11 @@
+{
+  "id": "comma3-ventures",
+  "name": "Comma3 Ventures",
+  "description": "Taiwan-based Web3 venture fund.",
+  "location": "Taiwan",
+  "links": {
+    "logo": "/imgs/asian-vc/comma3-ventures.jpg",
+    "homepage": "https://comma3.co/",
+    "twitter": "https://x.com/comma3vc"
+  }
+}

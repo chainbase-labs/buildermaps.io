@@ -1,0 +1,15 @@
+{
+  "id": "musd",
+  "name": "mUSD",
+  "description": "First wallet-native stablecoin backed 1:1 by short-term U.S. Treasury bills",
+  "founded": 2025,
+  "funding": null,
+  "links": {
+    "homepage": "https://metamask.io/price/metamask-usd",
+    "logo": "https://s2.loli.net/2025/11/24/Ra4orFhitUZIg19.png",
+    "twitter": "https://x.com/MetaMask",
+    "telegram": "https://t.me/metamask",
+    "discord": "https://discord.gg/metamask",
+    "reddit": "https://metamask.io"
+  }
+}

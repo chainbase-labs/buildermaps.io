@@ -1,0 +1,13 @@
+{
+  "id": "gauntlet",
+  "name": "Gauntlet",
+  "description": "DeFi risk management and economic modeling platform, $44.94M funding from Paradigm/Polychain/Ribbit, 400M+ data points daily",
+  "founded": 2018,
+  "funding": 44940000,
+  "links": {
+    "homepage": "http://gauntlet.xyz",
+    "logo": "/imgs/Data/Marketplaces/Gauntlet.jpg",
+    "twitter": "https://x.com/gauntlet_xyz",
+    "github": ""
+  }
+}

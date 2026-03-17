@@ -1,0 +1,142 @@
+{
+  "sector": "Privacy",
+  "types": [
+    {
+      "id": "apps",
+      "name": "Apps",
+      "projects": [
+        "melee",
+        "pythia",
+        "cloak",
+        "decred",
+        "radr-labs",
+        "anoncoin"
+      ]
+    },
+    {
+      "id": "cash",
+      "name": "Cash",
+      "projects": [
+        "dash",
+        "firo",
+        "monero",
+        "pirate-chain",
+        "pivx",
+        "zcash",
+        "zano",
+        "neptune-cash",
+        "zephyr-protocol",
+        "ghost",
+        "verge",
+        "poseidon",
+        "xelis",
+        "freedom-dollar"
+      ]
+    },
+    {
+      "id": "confidential-compute",
+      "name": "Confidential Compute",
+      "projects": [
+        "arcium",
+        "fhenix",
+        "hyli",
+        "iexec-rlc",
+        "inco",
+        "layeredge",
+        "lit-protocol",
+        "nillion",
+        "phala",
+        "silent-protocol",
+        "taceo",
+        "zkml",
+        "zama",
+        "privasea-ai",
+        "arpa-network",
+        "fairblock",
+        "dop",
+        "prxvt",
+        "magicblock"
+      ]
+    },
+    {
+      "id": "defi-wallets",
+      "name": "DeFi & Wallets",
+      "projects": [
+        "beam",
+        "conceal",
+        "encifher",
+        "hinkal",
+        "payy",
+        "penumbra",
+        "railgun",
+        "panther-protocol",
+        "dark-protocol",
+        "vanish",
+        "houdini-swap",
+        "darklake",
+        "privily",
+        "subly"
+      ]
+    },
+    {
+      "id": "identity",
+      "name": "Identity",
+      "projects": ["idos", "zkme", "privado-id", "humanity-protocol"]
+    },
+    {
+      "id": "l1-l2",
+      "name": "L1 / L2",
+      "projects": [
+        "aleo",
+        "aleph-zero",
+        "aztec",
+        "coti",
+        "oasis",
+        "dusk",
+        "telos",
+        "manta",
+        "mina-protocol",
+        "rayls",
+        "secret-network",
+        "canton-network",
+        "concordium",
+        "particl",
+        "horizen",
+        "ten",
+        "confidential-layer"
+      ]
+    },
+    {
+      "id": "mixers",
+      "name": "Mixers",
+      "projects": ["tornado-cash", "umbra", "mixoor", "split-swap"]
+    },
+    {
+      "id": "network",
+      "name": "Network ",
+      "projects": [
+        "nym",
+        "hopr",
+        "omnia-protocol",
+        "anyone",
+        "mysterium-network",
+        "beldex"
+      ]
+    },
+    {
+      "id": "os",
+      "name": "OS",
+      "projects": ["zos", "ghostwareos"]
+    },
+    {
+      "id": "private-messaging",
+      "name": "Private Messaging",
+      "projects": ["dmail", "secure", "session", "anonmesh"]
+    },
+    {
+      "id": "zk",
+      "name": "ZK ",
+      "projects": ["anoma", "veilcash", "brevis", "specter-protocol"]
+    }
+  ]
+}

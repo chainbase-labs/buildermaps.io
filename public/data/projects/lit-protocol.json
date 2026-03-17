@@ -1,0 +1,11 @@
+{
+  "id": "lit-protocol",
+  "name": "Lit Protocol",
+  "description": "Lit is a key management network for decentralized signing and encryption. Create apps and wallets that use secrets without single points of failure.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/confidential-compute/lit-protocol.png",
+    "homepage": "https://www.litprotocol.com/",
+    "twitter": "https://x.com/LitProtocol"
+  }
+}

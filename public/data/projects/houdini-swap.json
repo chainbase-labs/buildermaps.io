@@ -1,0 +1,11 @@
+{
+  "id": "houdini-swap",
+  "name": "Houdini Swap",
+  "description": "Crypto’s best compliant privacy. Swap non-custodially across 100+ chains. Transact Freely. Stay Private.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/defi-wallets/houdini-swap.png",
+    "homepage": "https://houdiniswap.com/",
+    "twitter": "https://x.com/HoudiniSwap"
+  }
+}

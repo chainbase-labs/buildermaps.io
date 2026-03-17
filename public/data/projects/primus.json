@@ -1,0 +1,11 @@
+{
+  "id": "primus",
+  "name": "Primus",
+  "description": "Make the world’s data useful onchain",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/others/primus.png",
+    "homepage": "https://pay.primuslabs.xyz/?chain=pharostestnet",
+    "twitter": "https://x.com/primus_labs"
+  }
+}

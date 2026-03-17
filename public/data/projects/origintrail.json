@@ -1,0 +1,13 @@
+{
+  "id": "origintrail",
+  "name": "OriginTrail",
+  "description": "Open-source Web3 infrastructure combining blockchain with a Decentralized Knowledge Graph (DKG) to manage and verify data about real-world assets.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://origintrail.io/",
+    "logo": "/imgs/Data/Provenance/OriginTrail.jpg",
+    "twitter": "https://x.com/origin_trail",
+    "github": ""
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "canton-network",
+  "name": "Canton Network",
+  "description": "The only public blockchain in the financial industry with on-chain privacy essential to the seamless movement of assets and capital on decentralized open rails",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/l1-l2/canton-network.png",
+    "homepage": "https://www.canton.network/",
+    "twitter": "https://x.com/CantonNetwork"
+  }
+}

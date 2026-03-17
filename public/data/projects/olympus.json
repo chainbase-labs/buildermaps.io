@@ -1,0 +1,13 @@
+{
+  "id": "olympus",
+  "name": "Olympus",
+  "description": "Prediction market bot interface.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://olympusx.app/",
+    "twitter": "https://x.com/olympusappX",
+    "linktree": "https://linktr.ee/olympusapp",
+    "logo": "/imgs/prediction_markets/Bot Inferface/Olympus.jpg"
+  }
+}

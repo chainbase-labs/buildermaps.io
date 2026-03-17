@@ -1,0 +1,14 @@
+{
+  "id": "hedgehog",
+  "name": "Hedgehog",
+  "description": "Permissionless prediction markets on Solana with pooled liquidity AMM model for instant settlement",
+  "founded": 2023,
+  "funding": 3500000,
+  "links": {
+    "homepage": "https://www.hedgehog.markets/",
+    "twitter": "https://x.com/HedgehogMarket",
+    "github": "https://github.com/Hedgehog-Markets",
+    "telegram": "https://t.me/hedgysonic",
+    "logo": "/imgs/prediction_markets/Social Prediction/Hedgehog.jpg"
+  }
+}

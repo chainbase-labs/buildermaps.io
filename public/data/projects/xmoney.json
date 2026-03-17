@@ -1,0 +1,11 @@
+{
+  "id": "xmoney",
+  "name": "xMoney",
+  "description": "Digital payment infrastructure bridging traditional finance with cryptocurrency solutions",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "logo": "/imgs/xmoney.jpg",
+    "twitter": "https://x.com/XMoney"
+  }
+}

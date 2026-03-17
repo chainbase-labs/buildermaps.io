@@ -1,0 +1,11 @@
+{
+  "id": "mixoor",
+  "name": "Mixoor",
+  "description": "Easily transfer funds privately. No link, no trace, no mapping between wallets. Non-custodial. Open Source. Community driven",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/mixers/mixoor.png",
+    "homepage": "https://mixoor.fun/",
+    "twitter": "https://x.com/Mixoordotfun"
+  }
+}

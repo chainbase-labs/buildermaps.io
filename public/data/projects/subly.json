@@ -1,0 +1,11 @@
+{
+  "id": "subly",
+  "name": "Subly",
+  "description": "A privacy-first PayFi protocol for subscription apps. Turn DeFi yield into cash and pay for subscriptions automatically.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/defi-wallets/subly.png",
+    "homepage": "https://www.sublyfi.com/",
+    "twitter": "https://x.com/subly_fi"
+  }
+}

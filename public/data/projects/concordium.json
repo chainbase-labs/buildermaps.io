@@ -1,0 +1,11 @@
+{
+  "id": "concordium",
+  "name": "Concordium",
+  "description": "Concordium is a Layer-1 blockchain built for digital trust — embedding identity, privacy, and compliance into every transaction. Smart Money starts here",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/l1-l2/concordium.png",
+    "homepage": "https://www.concordium.com/",
+    "twitter": "https://x.com/Concordium"
+  }
+}

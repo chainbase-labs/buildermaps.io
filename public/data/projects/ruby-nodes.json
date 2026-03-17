@@ -1,0 +1,11 @@
+{
+  "id": "ruby-nodes",
+  "name": "Ruby Nodes ",
+  "description": "Ruby Nodes is a community of validators and delegators that are building the future of Web3.0. Stake with us to earn rewards and support the networks.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/validators/ruby-nodes.png",
+    "homepage": "https://rubynodes.io/",
+    "twitter": "https://x.com/RubyNodes"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "google-cloud",
+  "name": "Google Cloud",
+  "description": "Google Cloud Blockchain Node Engine for Web3, fully managed node hosting, Ethereum/Aptos/Arbitrum/Solana/Hedera validator, Coinbase/Dapper Labs",
+  "founded": 2022,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.googlecloudevents.com/",
+    "logo": "https://s2.loli.net/2025/11/24/tTrACk9Ilg6K5Ln.jpg",
+    "twitter": "https://x.com/googlecloud",
+    "telegram": "https://t.me/defiblockchain"
+  }
+}

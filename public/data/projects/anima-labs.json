@@ -1,0 +1,13 @@
+{
+  "id": "anima-labs",
+  "name": "Anima Labs",
+  "description": "Anima Labs is a Web3 studio_creating a permissionless hub for games, virtual worlds, and autonomous experiences on Sui.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "logo": "/imgs/Sui/Games/Anima Labs.png",
+    "twitter": "https://x.com/animalabs_io",
+    "homepage": "https://animalabs.io/",
+    "discord": "https://discord.gg/Vsjpghdhb3"
+  }
+}

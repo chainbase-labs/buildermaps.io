@@ -1,0 +1,10 @@
+{
+  "id": "dflow",
+  "name": "DFlow",
+  "description": "Protocol designed to securely route and monetize decentralized order flow for automated trading systems.",
+  "links": {
+    "homepage": "https://dflow.net/",
+    "logo": "/imgs/agentic-finance/dflow.jpg",
+    "twitter": "https://x.com/dflow"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "dash",
+  "name": "Dash ",
+  "description": "Dash gives you the freedom to move your money any way you want. Dash moves money anywhere, to anyone, instantly, for less than a cent.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/cash/dash.png",
+    "homepage": "https://www.dash.org/",
+    "twitter": "https://x.com/Dashpay"
+  }
+}

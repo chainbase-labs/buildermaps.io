@@ -1,0 +1,11 @@
+{
+  "id": "topnod",
+  "name": "TopNod",
+  "description": "Designed for anyone to easily manage their digital assets linked to real-world value.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/wallet/topnod.png",
+    "homepage": "https://topnod.com/",
+    "twitter": "https://x.com/Top_nod"
+  }
+}

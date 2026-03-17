@@ -1,0 +1,13 @@
+{
+  "id": "kaiko",
+  "name": "Kaiko",
+  "description": "Kaiko crypto market data provider since 2014, 100+ exchanges, WebSocket/REST API, Level 1/2 data, blockchain monitoring, indices, institutional-grade",
+  "founded": 2014,
+  "funding": null,
+  "links": {
+    "homepage": "http://www.kaiko.com",
+    "logo": "/imgs/Data/Analytics/Kaiko.jpg",
+    "twitter": "https://x.com/KaikoData",
+    "github": ""
+  }
+}

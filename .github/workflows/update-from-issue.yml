@@ -1,0 +1,142 @@
+name: Update Data from Issue
+
+permissions:
+  contents: write
+  issues: write
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "latest"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.x"
+
+      - name: Install OSSUtil
+        run: |
+          pip install oss2
+          wget http://gosspublic.alicdn.com/ossutil/1.7.18/ossutil64
+          chmod 755 ossutil64
+
+      - name: Configure OSSUtil
+        run: |
+          ./ossutil64 config -e oss-ap-southeast-1.aliyuncs.com -i ${{ secrets.ALI_ACCESS_KEY_ID }} -k ${{ secrets.ALI_ACCESS_KEY_SECRET }}
+
+      - name: Download current data from OSS
+        run: |
+          mkdir -p public/data/projects public/data/maps
+          ./ossutil64 cp -r ${{ vars.ALI_MICRO_FE_OFFICIAL_BUCKET_OSS_URL}}/public/buildermaps/data/projects/ public/data/projects/ --update || true
+          ./ossutil64 cp -r ${{ vars.ALI_MICRO_FE_OFFICIAL_BUCKET_OSS_URL}}/public/buildermaps/data/maps/ public/data/maps/ --update || true
+
+      - name: Check if label is project:add or project:update
+        id: check_label
+        run: |
+          LABEL_NAME="${{ github.event.label.name }}"
+          echo "Label added: $LABEL_NAME"
+          if [ "$LABEL_NAME" == "project:add" ] || [ "$LABEL_NAME" == "project:update" ]; then
+            echo "valid_label=true" >> $GITHUB_OUTPUT
+            echo "✅ Valid label detected: $LABEL_NAME"
+          else
+            echo "valid_label=false" >> $GITHUB_OUTPUT
+            echo "⚠️ Skipping: Label '$LABEL_NAME' is not project:add or project:update"
+            exit 0
+          fi
+
+      - name: Check issue labels and parse
+        id: parse_issue
+        if: steps.check_label.outputs.valid_label == 'true'
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_LABELS: ${{ toJson(github.event.issue.labels) }}
+        run: |
+          echo "Labels: $ISSUE_LABELS"
+          echo "Processing issue #${{ github.event.issue.number }}..."
+          node scripts/process-issue.js "$ISSUE_BODY" "$ISSUE_TITLE" "$ISSUE_LABELS"
+
+      - name: Check for duplicate project IDs
+        if: steps.parse_issue.outcome == 'success'
+        run: node scripts/check-duplicate-ids.js
+
+      - name: Build builder-maps.json
+        if: steps.parse_issue.outcome == 'success'
+        run: npm run build:maps
+
+      - name: Configure Git
+        if: steps.parse_issue.outcome == 'success'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: Commit and push changes
+        if: steps.parse_issue.outcome == 'success'
+        run: |
+          set -e
+
+          git add public/data/
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          ISSUE_NUMBER="${{ github.event.issue.number }}"
+          ISSUE_TITLE="${{ github.event.issue.title }}"
+
+          SAFE_TITLE="$(printf "%s" "$ISSUE_TITLE" | tr '\r\n' ' ' | sed 's/[[:space:]]\+/ /g' | cut -c1-80)"
+
+          git commit -m "chore(data): update from issue #${ISSUE_NUMBER} - ${SAFE_TITLE}" \
+                    -m "Triggered by issue #${ISSUE_NUMBER}"
+
+          git push origin HEAD:master
+
+      - name: Upload updated data to OSS
+        if: steps.parse_issue.outcome == 'success'
+        run: |
+          ./ossutil64 cp -r public/data/ "${{ vars.ALI_MICRO_FE_OFFICIAL_BUCKET_OSS_URL}}/public/buildermaps/data/" --meta="Cache-Control:no-cache" --update
+          ./ossutil64 cp public/data/builder-maps.json "${{ vars.ALI_MICRO_FE_OFFICIAL_BUCKET_OSS_URL}}/public/buildermaps/data/builder-maps.json" --meta="Cache-Control:no-cache" --update
+
+      - name: Comment on issue (success)
+        if: steps.check_label.outputs.valid_label == 'true' && steps.parse_issue.outcome == 'success' && success()
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '✅ Data has been successfully updated!'
+            })
+
+      - name: Comment on issue (error)
+        if: steps.check_label.outputs.valid_label == 'true' && failure()
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '❌ Failed to process the issue. Please check the workflow logs for details.'
+            })

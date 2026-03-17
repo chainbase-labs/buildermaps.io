@@ -1,0 +1,12 @@
+{
+  "id": "okbet",
+  "name": "Okbet",
+  "description": "Prediction market bot interface.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://tryokbet.com/",
+    "twitter": "https://x.com/tryokbet",
+    "logo": "/imgs/prediction_markets/Bot Inferface/Okbet.jpg"
+  }
+}

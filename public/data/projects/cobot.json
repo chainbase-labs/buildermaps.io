@@ -1,0 +1,12 @@
+{
+  "id": "cobot",
+  "name": "Cobot",
+  "description": "Prediction market bot interface.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://cobot.gg/",
+    "twitter": "https://x.com/cobotgg",
+    "logo": "/imgs/prediction_markets/Bot Inferface/Cobot.jpg"
+  }
+}

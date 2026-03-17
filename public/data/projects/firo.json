@@ -1,0 +1,11 @@
+{
+  "id": "firo",
+  "name": "Firo",
+  "description": "Firo is a digital currency with a focus on setting privacy standards.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/cash/firo.png",
+    "homepage": "https://firo.org/",
+    "twitter": "https://x.com/firoorg"
+  }
+}

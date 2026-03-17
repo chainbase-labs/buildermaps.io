@@ -1,0 +1,12 @@
+{
+  "id": "opensea",
+  "name": "OpenSea",
+  "description": "OpenSea, exchange everything — token trading and NFT marketplace. Welcome to the best place to discover, trade, and create onchain.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/NFT/opensea.png",
+    "homepage": "https://opensea.io/",
+    "twitter": "https://x.com/opensea",
+    "github": ""
+  }
+}

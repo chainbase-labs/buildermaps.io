@@ -1,0 +1,12 @@
+{
+  "id": "arbitrum",
+  "name": "Arbitrum",
+  "description": "Leading Ethereum Layer 2 scaling solution using Optimistic Rollup technology. Features Arbitrum One, Arbitrum Nova for gaming, and Arbitrum Orbit for custom L3 chains.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/Blockchains/arbitrum.png",
+    "homepage": "https://arbitrum.io/",
+    "twitter": "https://x.com/arbitrum",
+    "github": ""
+  }
+}

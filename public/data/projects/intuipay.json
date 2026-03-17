@@ -1,0 +1,11 @@
+{
+  "id": "intuipay",
+  "name": "IntuiPay",
+  "description": "Support global universities and pay tuition & make donation across borders — with speed, trust, and simplicity.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/payment/intuipay.png",
+    "homepage": "https://intuipay.xyz/",
+    "twitter": "https://x.com/intuipay"
+  }
+}

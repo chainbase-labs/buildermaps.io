@@ -1,0 +1,10 @@
+{
+  "id": "vestauth",
+  "name": "VestAuth",
+  "description": "Specialized protocol delivering robust identity and authorization frameworks for machine-driven financial interactions.",
+  "links": {
+    "homepage": "https://vestauth.com/",
+    "logo": "/imgs/agentic-finance/vestauth.jpg",
+    "twitter": "https://x.com/vestauthx"
+  }
+}

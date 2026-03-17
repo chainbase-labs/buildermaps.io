@@ -1,0 +1,13 @@
+{
+  "id": "cloudflare",
+  "name": "Cloudflare",
+  "description": "Cloudflare Web3 gateways for IPFS and Ethereum, DNSLink support, Workers script routing, read/write access to decentralized networks",
+  "founded": 2021,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.cloudflare.com/",
+    "logo": "/imgs/agentic-finance/cloudflare.jpg",
+    "twitter": "https://x.com/Cloudflare",
+    "discord": "https://discord.com/invite/cloudflaredev"
+  }
+}

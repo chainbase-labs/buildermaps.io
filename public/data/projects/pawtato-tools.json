@@ -1,0 +1,12 @@
+{
+  "id": "pawtato-tools",
+  "name": "Pawtato Tools",
+  "description": "Pawtato Tools provides a comprehensive dashboard for managing Sui ecosystem tokens, NFTs, and DeFi positions.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://pawtato.app/",
+    "logo": "/imgs/Sui/NFT/Pawtato Tools.png",
+    "twitter": "https://x.com/PawtatoFinance"
+  }
+}

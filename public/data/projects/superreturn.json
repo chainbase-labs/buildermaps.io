@@ -1,0 +1,11 @@
+{
+  "id": "superreturn",
+  "name": "SuperReturn",
+  "description": "Your AI Development Operations Platform",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/rwa/superreturn.png",
+    "homepage": "https://www.superreturn.ai/",
+    "twitter": "https://x.com/SuperReturnAI"
+  }
+}

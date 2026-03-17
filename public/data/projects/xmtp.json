@@ -1,0 +1,12 @@
+{
+  "id": "xmtp",
+  "name": "XMTP",
+  "description": "Decentralized messaging protocol enabling secure, agent-to-agent and agent-human communication with x402 payment integration.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/OpenClaw/Infrastructure/xmtp.png",
+    "homepage": "https://xmtp.org/",
+    "twitter": "https://x.com/xmtp_",
+    "github": ""
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "goldsky",
+  "name": "Goldsky",
+  "description": "Goldsky blockchain data indexing real-time subgraphs, Mirror pipelines, high-performance infrastructure, The Graph alternative",
+  "founded": 2022,
+  "funding": null,
+  "links": {
+    "homepage": "https://goldsky.com",
+    "logo": "/imgs/Data/Indexing/Goldsky.jpg",
+    "twitter": "https://x.com/goldskyio",
+    "github": ""
+  }
+}

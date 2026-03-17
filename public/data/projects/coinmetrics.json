@@ -1,0 +1,13 @@
+{
+  "id": "coinmetrics",
+  "name": "CoinMetrics",
+  "description": "Crypto intelligence data company providing network data, market data, indexes, and risk management services, acquired by Talos",
+  "founded": 2017,
+  "funding": 35000000,
+  "links": {
+    "homepage": "https://coinmetrics.io",
+    "logo": "/imgs/Data/Analytics/coinmetrics.jpg",
+    "twitter": "https://x.com/coinmetrics",
+    "github": ""
+  }
+}

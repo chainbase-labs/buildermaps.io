@@ -1,0 +1,12 @@
+{
+  "id": "hyperlane",
+  "name": "Hyperlane",
+  "description": "Hyperlane is the open interoperability framework for bridging, issuance, swaps, and message passing anywhere across 130+ blockchains and 7 VMs",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/Infra/hyperlane.png",
+    "homepage": "https://www.hyperlane.xyz/",
+    "twitter": "https://x.com/hyperlane",
+    "github": ""
+  }
+}

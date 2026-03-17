@@ -1,0 +1,12 @@
+{
+  "id": "dipcoin",
+  "name": "DipCoin",
+  "description": "DipCoin is a high-performance decentralized exchange (DEX) built on the Sui blockchain, offering perpetuals, swaps, and liquidity opportunities.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://dipcoin.io/",
+    "logo": "/imgs/Sui/DeFi/DipCoin.png",
+    "twitter": "https://x.com/DipCoinOfficial"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "pyth",
+  "name": "Pyth",
+  "description": "Pyth Network first-party oracle 400+ price feeds $100B volume, 50+ chains, 120+ data providers pull-based model, crypto/equities/FX/commodities",
+  "founded": 2021,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.pyth.network/",
+    "twitter": "https://x.com/PythNetwork",
+    "github": "https://github.com/pyth-network",
+    "linktree": "https://linktr.ee/pythnetwork",
+    "telegram": "https://t.me/Pyth_Network",
+    "logo": "/imgs/prediction_markets/Infra/Pyth.jpg"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "bold",
+  "name": "BOLD",
+  "description": "Liquity V2 overcollateralized stablecoin backed by ETH and LSTs with user-set interest rates",
+  "founded": 2025,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.liquity.org/",
+    "logo": "https://s2.loli.net/2025/11/24/xAHDyU3TRZmscEV.png",
+    "twitter": "https://x.com/LiquityProtocol",
+    "telegram": "https://t.me/liquityprotocol",
+    "discord": "https://discord.gg/liquity",
+    "reddit": "https://www.liquity.org"
+  }
+}

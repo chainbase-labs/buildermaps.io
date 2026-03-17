@@ -1,0 +1,13 @@
+{
+  "id": "hyperbolic",
+  "name": "Hyperbolic",
+  "description": "Decentralized GPU marketplace with $20M funding from Variant, Polychain, Proof of Sampling protocol, 75% cost savings, Hyper-dOS",
+  "founded": 2022,
+  "funding": 20000000,
+  "links": {
+    "homepage": "http://www.hyperbolic.ai",
+    "logo": "/imgs/AI_Crypto/Inference/Hyperbolic.jpg",
+    "twitter": "https://x.com/hyperbolic_labs",
+    "github": ""
+  }
+}

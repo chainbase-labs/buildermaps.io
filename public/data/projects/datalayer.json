@@ -1,0 +1,13 @@
+{
+  "id": "datalayer",
+  "name": "DataLayer",
+  "description": "Datalayer parallel localchains shared validator set data availability layer blockchain internet-scale Chia DataLayer Datai Network",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "http://datalayer.xyz",
+    "logo": "/imgs/Data/Infra/DataLayer.jpg",
+    "twitter": "https://x.com/datalayerxyz",
+    "github": ""
+  }
+}

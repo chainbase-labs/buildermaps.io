@@ -1,0 +1,13 @@
+{
+  "id": "messari",
+  "name": "Messari",
+  "description": "Messari crypto research & analytics, market intelligence, reports, token unlocks, fundraising data, Kaiko/Gemini integration, Pro/Enterprise tiers",
+  "founded": 2018,
+  "funding": null,
+  "links": {
+    "homepage": "https://messari.io",
+    "logo": "/imgs/Data/Analytics/Messari.jpg",
+    "twitter": "https://x.com/MessariCrypto",
+    "github": ""
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "kyros-ventures",
+  "name": "Kyros Ventures",
+  "description": "Vietnam-based Web3 investment and incubation firm.",
+  "location": "Vietnam",
+  "links": {
+    "logo": "/imgs/asian-vc/kyros-ventures.jpg",
+    "homepage": "https://kyros.ventures/",
+    "twitter": "https://x.com/KyrosVentures"
+  }
+}

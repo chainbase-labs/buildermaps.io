@@ -1,0 +1,12 @@
+{
+  "id": "kudo",
+  "name": "Kudo",
+  "description": "Agentic Covenant Framework enabling AI agents to make verifiable promises and agreements. Built the first credit card for AI agents on x402 protocol with TEE attestation.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/AgentFi/kudo.png",
+    "homepage": "https://www.kudo.archi/",
+    "twitter": "https://x.com/kudo_archi",
+    "github": ""
+  }
+}

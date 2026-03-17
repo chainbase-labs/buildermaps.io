@@ -1,0 +1,12 @@
+{
+  "id": "warden",
+  "name": "Warden",
+  "description": "Warden brings AI to web3, enabling any application, protocol or smart contract to integrate safe AI.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/Agents/warden.png",
+    "homepage": "https://wardenprotocol.org/",
+    "twitter": "https://x.com/wardenprotocol",
+    "github": ""
+  }
+}

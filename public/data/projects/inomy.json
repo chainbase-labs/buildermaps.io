@@ -1,0 +1,12 @@
+{
+  "id": "inomy",
+  "name": "inomy",
+  "description": "Discover and shop for products with AI-powered recommendations. Get personalized suggestions, compare prices, and find exactly what you're looking for.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/Agents/inomy.png",
+    "homepage": "https://testnet.inomy.shop/",
+    "twitter": "https://x.com/askinomy",
+    "github": ""
+  }
+}

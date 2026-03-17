@@ -1,0 +1,9 @@
+{
+  "id": "reppo",
+  "name": "Reppo",
+  "description": "Continuous learning via real-time data pipelines using prediction markets.",
+  "links": {
+    "twitter": "https://x.com/reppo",
+    "logo": "/imgs/OpenClaw/Compute&Data/reppo.png"
+  }
+}

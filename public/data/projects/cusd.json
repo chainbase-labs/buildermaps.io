@@ -1,0 +1,15 @@
+{
+  "id": "cusd",
+  "name": "cUSD",
+  "description": "Celo Dollar backed by basket of reserves with 4.01 collateralization ratio",
+  "founded": 2020,
+  "funding": null,
+  "links": {
+    "homepage": "https://celo.org/",
+    "logo": "https://s2.loli.net/2025/11/24/RqMd4TuD9Xi6p8H.png",
+    "twitter": "https://x.com/celoorg",
+    "telegram": "https://t.me/mentolabs",
+    "discord": "https://discord.gg/mento",
+    "reddit": "https://www.mento.org"
+  }
+}

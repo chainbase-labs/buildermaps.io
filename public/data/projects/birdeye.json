@@ -1,0 +1,13 @@
+{
+  "id": "birdeye",
+  "name": "Birdeye",
+  "description": "Birdeye is a blockchain data aggregator designed for traders, providing real-time market insights and data-driven analysis tools.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "logo": "/imgs/Sui/Analytics/Birdeye.png",
+    "twitter": "https://x.com/birdeye_so",
+    "homepage": "https://www.birdeye.so/",
+    "discord": "https://discord.gg/Vsjpghdhb3"
+  }
+}

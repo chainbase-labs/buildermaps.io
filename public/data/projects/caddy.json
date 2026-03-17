@@ -1,0 +1,11 @@
+{
+  "id": "caddy",
+  "name": "Caddy",
+  "description": "Social prediction market.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "twitter": "https://x.com/caddytrade",
+    "logo": "/imgs/prediction_markets/Social Prediction/Caddy.jpg"
+  }
+}

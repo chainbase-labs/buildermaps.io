@@ -1,0 +1,11 @@
+{
+  "id": "vanish",
+  "name": "Vanish",
+  "description": "Vanish - Enabling Compliant Private Trading on Solana \nProtect your Alpha. Trade with Vanish.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/defi-wallets/vanish.png",
+    "homepage": "https://www.vanish.trade/",
+    "twitter": "https://x.com/vanishTrade"
+  }
+}

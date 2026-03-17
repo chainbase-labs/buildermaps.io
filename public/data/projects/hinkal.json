@@ -1,0 +1,11 @@
+{
+  "id": "hinkal",
+  "name": "Hinkal",
+  "description": "Hinkal is an institutional-grade, self-custodial protocol designed to empower\n      users with full control over their on-chain assets, mirroring the secure standards of traditional\n      finance. It allows both individual and institutional users to manage assets and transact on major\n      dApps without publicly disclosing wallet addresses.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/defi-wallets/hinkal.png",
+    "homepage": "https://hinkal.pro/",
+    "twitter": "https://x.com/hinkal_protocol"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "payai",
+  "name": "PayAI",
+  "description": "Solana-based AI agent marketplace with PAYAI token, 1900% ATH surge, ElizaOS/libp2p/IPFS integration for agent transactions",
+  "founded": 2024,
+  "funding": null,
+  "links": {
+    "homepage": "https://payai.network/",
+    "logo": "/imgs/agentic-finance/payai.jpg",
+    "twitter": "https://x.com/PayAINetwork",
+    "telegram": "https://t.me/PayAINetwork"
+  }
+}

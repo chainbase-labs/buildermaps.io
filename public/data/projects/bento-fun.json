@@ -1,0 +1,11 @@
+{
+  "id": "bento-fun",
+  "name": "Bento.fun",
+  "description": "Social prediction market.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "twitter": "https://x.com/bentodotfun",
+    "logo": "/imgs/prediction_markets/Social Prediction/Bento.fun.jpg"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "fhenix",
+  "name": "Fhenix",
+  "description": "Fhenix brings encrypted computation to Ethereum, enabling private logic, seamless integrations, and full composability with Fully Homomorphic Encryption (FHE).",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/confidential-compute/fhenix.png",
+    "homepage": "https://www.fhenix.io/",
+    "twitter": "https://x.com/fhenix"
+  }
+}

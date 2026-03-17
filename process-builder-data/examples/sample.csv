@@ -1,0 +1,13 @@
+name,sector,type,website,x,github,location,description
+Ethereum,Layer1,Infrastructure,https://ethereum.org,https://x.com/ethereum,https://github.com/ethereum,Global,"Smart contract platform and decentralized computing network."
+Solana,Layer1,Infrastructure,https://solana.com,https://x.com/solana,https://github.com/solana-labs,Global,"High-performance blockchain designed for fast, low-cost applications."
+Uniswap,DeFi,DEX,https://uniswap.org,https://x.com/Uniswap,https://github.com/Uniswap,Global,"Decentralized exchange protocol for automated token swaps."
+Aave,DeFi,Lending,https://aave.com,https://x.com/AaveAave,https://github.com/aave,Global,"DeFi lending protocol for supplying and borrowing crypto assets."
+OpenSea,NFT,Marketplace,https://opensea.io,https://x.com/opensea,https://github.com/ProjectOpenSea,Global,"NFT marketplace for buying and selling digital collectibles."
+Blur,NFT,Marketplace,https://blur.io,https://x.com/blur_io,,Global,"NFT marketplace and aggregator focused on pro traders."
+Arbitrum,Layer2,Rollup,https://arbitrum.io,https://x.com/arbitrum,https://github.com/OffchainLabs,Global,"Ethereum Layer 2 optimistic rollup scaling network."
+Optimism,Layer2,Rollup,https://optimism.io,https://x.com/Optimism,https://github.com/ethereum-optimism,Global,"Ethereum Layer 2 optimistic rollup focused on public goods."
+MetaMask,Wallet,EOA,https://metamask.io,https://x.com/MetaMask,https://github.com/MetaMask,Global,"Self-custodial wallet for interacting with Ethereum and Web3."
+Rainbow,Wallet,EOA,https://rainbow.me,https://x.com/rainbowdotme,https://github.com/rainbow-me,Global,"Mobile-first Ethereum wallet with NFT and DeFi support."
+Chainlink,Infrastructure,Oracle,https://chain.link,https://x.com/chainlink,https://github.com/smartcontractkit,Global,"Decentralized oracle network connecting smart contracts to real-world data."
+The Graph,Infrastructure,Indexing,https://thegraph.com,https://x.com/graphprotocol,https://github.com/graphprotocol,Global,"Indexing protocol for querying blockchain data via subgraphs."

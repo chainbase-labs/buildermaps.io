@@ -1,0 +1,11 @@
+{
+  "id": "staking4all",
+  "name": "staking4all",
+  "description": "Staking4All provides reliable staking and validation services across multiple blockchain networks.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/validators/staking4all.png",
+    "homepage": "https://www.staking4all.org/",
+    "twitter": "https://x.com/staking4all"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "rayls",
+  "name": "Rayls",
+  "description": "Rayls is the most compliant blockchain infrastructure that enables real-world asset (RWAs) tokenisation, CBDCs, cross-border payments and access to regulated liquidity on public chain.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/l1-l2/rayls.png",
+    "homepage": "https://rayls.com",
+    "twitter": "https://x.com/RaylsLabs"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "arttoo",
+  "name": "Arttoo",
+  "description": "Blockchain-based art investment platform on Sui.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://arttoo.co.uk/",
+    "logo": "/imgs/Sui/RWA/arttoo.jpg",
+    "twitter": "https://x.com/arttoo_official"
+  }
+}

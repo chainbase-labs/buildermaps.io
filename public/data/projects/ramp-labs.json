@@ -1,0 +1,10 @@
+{
+  "id": "ramp-labs",
+  "name": "Ramp Labs",
+  "description": "Crypto infrastructure provider bridging digital assets with real world fiat card spending channels.",
+  "links": {
+    "homepage": "https://ramplabs.io/",
+    "logo": "/imgs/agentic-finance/ramp-labs.jpg",
+    "twitter": "https://x.com/RampLabs"
+  }
+}

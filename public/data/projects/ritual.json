@@ -1,0 +1,13 @@
+{
+  "id": "ritual",
+  "name": "Ritual",
+  "description": "Decentralized AI compute platform enabling protocols to integrate AI models on-chain",
+  "founded": 2023,
+  "funding": 25000000,
+  "links": {
+    "homepage": "https://ritual.net/",
+    "logo": "/imgs/AI_Crypto/Training/Ritual.jpg",
+    "twitter": "https://x.com/ritualnet",
+    "github": ""
+  }
+}

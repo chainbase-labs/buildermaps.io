@@ -1,0 +1,11 @@
+{
+  "id": "okx-wallet",
+  "name": "OKX Wallet ",
+  "description": "OKX Wallet is a multi-chain, non-custodial wallet that supports 80+ blockchains.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/wallet/okx-wallet.png",
+    "homepage": "https://web3.okx.com/",
+    "twitter": "https://x.com/wallet"
+  }
+}

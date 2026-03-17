@@ -1,0 +1,10 @@
+{
+  "id": "allium",
+  "name": "Allium",
+  "description": "Enterprise-grade data platform standardizing and indexing blockchain histories for advanced analytical queries.",
+  "links": {
+    "homepage": "https://allium.so/",
+    "logo": "/imgs/agentic-finance/allium.jpg",
+    "twitter": "https://x.com/AlliumLabs"
+  }
+}

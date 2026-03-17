@@ -1,0 +1,11 @@
+{
+  "id": "telos",
+  "name": "Telos",
+  "description": "Advancing Zero Knowledge technology to unlock real world use cases",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/l1-l2/telos.png",
+    "homepage": "https://www.telos.net/",
+    "twitter": "https://x.com/HelloTelos"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "zano",
+  "name": "Zano",
+  "description": "Zano is a privacy-focused cryptocurrency with confidential assets and smart contracts.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/cash/zano.png",
+    "homepage": "https://links.zano.org/",
+    "twitter": "https://x.com/zano_project"
+  }
+}

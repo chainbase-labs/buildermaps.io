@@ -1,0 +1,15 @@
+{
+  "id": "usdh",
+  "name": "USDH",
+  "description": "Hyperliquid native stablecoin backed by cash and U.S. Treasuries via BlackRock",
+  "founded": 2025,
+  "funding": null,
+  "links": {
+    "homepage": "https://app.hubbleprotocol.io/borrow",
+    "logo": "https://s2.loli.net/2025/11/24/NJGrASt4HKiqs2Z.jpg",
+    "twitter": "https://x.com/hubbleprotocol",
+    "telegram": "https://t.me/hyperliquid_official",
+    "discord": "https://discord.gg/hyperliquid",
+    "reddit": "https://hyperliquid.xyz"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "giverep",
+  "name": "GiveRep",
+  "description": "Decentralized reputation system on Sui.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://giverep.com/",
+    "logo": "/imgs/Sui/SocialFi/giverep.jpg",
+    "twitter": "https://x.com/GiveRep"
+  }
+}

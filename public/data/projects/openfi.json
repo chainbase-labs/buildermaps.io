@@ -1,0 +1,11 @@
+{
+  "id": "openfi",
+  "name": "OpenFi",
+  "description": "OpenFi is a decentralized lending and borrowing protocol built on multiple chains.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/lending/openfi.png",
+    "homepage": "https://app.open-fi.xyz/",
+    "twitter": "https://x.com/open_fi_"
+  }
+}

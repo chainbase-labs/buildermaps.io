@@ -1,0 +1,12 @@
+{
+  "id": "ampersend",
+  "name": "ampersend",
+  "description": "A new product laying the foundation for the emerging agent-to-agent economy",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/AgentsOrchestration/ampersend.png",
+    "homepage": "https://www.ampersend.ai/",
+    "twitter": "https://x.com/ampersend_ai",
+    "github": ""
+  }
+}

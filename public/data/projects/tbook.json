@@ -1,0 +1,12 @@
+{
+  "id": "tbook",
+  "name": "TBook",
+  "description": "TBook is a StableFi coordination layer connecting credentials to stablecoin and RWA distribution on Sui.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://tbook.com/",
+    "logo": "/imgs/Sui/Infra  Tools/TBook.png",
+    "twitter": "https://x.com/realtbook"
+  }
+}

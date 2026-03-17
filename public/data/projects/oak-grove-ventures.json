@@ -1,0 +1,11 @@
+{
+  "id": "oak-grove-ventures",
+  "name": "Oak Grove Ventures",
+  "description": "Blockchain-focused venture capital fund.",
+  "location": "Asia",
+  "links": {
+    "logo": "/imgs/asian-vc/oak-grove-ventures.jpg",
+    "homepage": "https://oakgrove.vc",
+    "twitter": "https://x.com/OakGroveVC"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "across",
+  "name": "Across",
+  "description": "Across Protocol optimistic cross-chain bridge, UMA oracle verification, intents-based, 60-80% lower gas costs, fast ETH/WBTC/USDC/USDT",
+  "founded": 2021,
+  "funding": null,
+  "links": {
+    "homepage": "https://across.to/",
+    "logo": "https://s2.loli.net/2025/11/24/3qVUcLWxPZkaC7g.jpg",
+    "twitter": "https://x.com/AcrossProtocol"
+  }
+}

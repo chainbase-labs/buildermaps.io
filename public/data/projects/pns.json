@@ -1,0 +1,11 @@
+{
+  "id": "pns",
+  "name": "PNS",
+  "description": "PNS (Pharos Name Service) is a decentralized naming system for Pharos network.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/others/pns.png",
+    "homepage": "https://test.pharosname.com/",
+    "twitter": "https://x.com/PNSDID"
+  }
+}

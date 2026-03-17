@@ -1,0 +1,13 @@
+{
+  "id": "sui",
+  "name": "Sui",
+  "description": "Next-generation L1 blockchain with high throughput and low latency powered by Move programming language from Mysten Labs",
+  "founded": 2022,
+  "funding": 336000000,
+  "links": {
+    "homepage": "https://sui.io/",
+    "logo": "https://s2.loli.net/2025/11/24/W9yihgFpYqnjE5X.jpg",
+    "twitter": "https://x.com/SuiNetwork",
+    "linkedin": "https://www.linkedin.com/company/mysten-labs"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "tellor",
+  "name": "Tellor",
+  "description": "Decentralized oracle protocol.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://tellor.io/",
+    "twitter": "https://x.com/WeAreTellor",
+    "logo": "/imgs/prediction_markets/Infra/Tellor.png"
+  }
+}

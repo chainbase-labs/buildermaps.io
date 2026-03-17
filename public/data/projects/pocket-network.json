@@ -1,0 +1,13 @@
+{
+  "id": "pocket-network",
+  "name": "Pocket Network",
+  "description": "Decentralized infrastructure protocol connecting blockchain applications with global node operators for reliable RPC access",
+  "founded": 2020,
+  "funding": 10000000,
+  "links": {
+    "homepage": "https://pocket.network/",
+    "logo": "/imgs/Data/Infra/Pocket Network.jpg",
+    "twitter": "https://x.com/POKTnetwork",
+    "github": ""
+  }
+}

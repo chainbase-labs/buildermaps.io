@@ -1,0 +1,13 @@
+{
+  "id": "nightly-wallet",
+  "name": "Nightly Wallet",
+  "description": "Multichain crypto wallet, your key to the metaverse, available on 11 blockchains.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "logo": "/imgs/Sui/Wallets/NightlyWallet.png",
+    "twitter": "",
+    "homepage": "https://fonts.gstatic.com",
+    "discord": "https://discord.gg/Vsjpghdhb3"
+  }
+}

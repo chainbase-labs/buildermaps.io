@@ -1,0 +1,12 @@
+{
+  "id": "moonbags",
+  "name": "Moonbags",
+  "description": "Moonbags is a no-code memecoin token launchpad on Sui facilitating instant token creation and fair launches.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://moonbags.io/",
+    "logo": "/imgs/Sui/Launchpad/Moonbags.png",
+    "twitter": "https://x.com/moonbags_io"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "brevis",
+  "name": "Brevis ",
+  "description": "Brevis is a ZK coprocessor for smart contracts enabling trustless cross-chain data access.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/zk/brevis.png",
+    "homepage": "brevis.network",
+    "twitter": "https://x.com/brevis_zk"
+  }
+}

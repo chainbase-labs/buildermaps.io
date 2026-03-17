@@ -1,0 +1,11 @@
+{
+  "id": "credit-scend",
+  "name": "Credit Scend",
+  "description": "Crypto investment and advisory firm.",
+  "location": "Asia",
+  "links": {
+    "logo": "/imgs/asian-vc/credit-scend.jpg",
+    "homepage": "https://creditscend.com/",
+    "twitter": "https://x.com/credit_scend"
+  }
+}

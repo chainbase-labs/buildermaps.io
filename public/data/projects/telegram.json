@@ -1,0 +1,10 @@
+{
+  "id": "telegram",
+  "name": "Telegram",
+  "description": "Integrated crypto wallet within messaging platform.",
+  "links": {
+    "homepage": "https://t.co/zHAc9lS7Jy",
+    "logo": "https://pbs.twimg.com/profile_images/1183117696730390529/LRDASku7_400x400.jpg",
+    "twitter": "https://x.com/telegram"
+  }
+}

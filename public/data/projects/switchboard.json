@@ -1,0 +1,13 @@
+{
+  "id": "switchboard",
+  "name": "Switchboard",
+  "description": "Multichain oracle protocol with permissionless design, TEE-based security, 10+ blockchains support, <100ms latency Surge streaming",
+  "founded": 2021,
+  "funding": 11200000,
+  "links": {
+    "homepage": "https://switchboard.xyz/",
+    "logo": "/imgs/prediction_markets/Infra/Switchboard.jpg",
+    "twitter": "https://x.com/switchboardxyz",
+    "github": "https://github.com/switchboard-xyz"
+  }
+}

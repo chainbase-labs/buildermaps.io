@@ -1,0 +1,11 @@
+{
+  "id": "borderless-capital",
+  "name": "Borderless Capital",
+  "description": "Algorand ecosystem-focused investment firm.",
+  "location": "Singapore",
+  "links": {
+    "logo": "/imgs/asian-vc/borderless-capital.jpg",
+    "homepage": "https://borderlesscapital.io/",
+    "twitter": "https://x.com/borderless_cap"
+  }
+}

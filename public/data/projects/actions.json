@@ -1,0 +1,12 @@
+{
+  "id": "actions",
+  "name": "Actions",
+  "description": "Prediction market built on Solana powered by Actions Protocol, combining Polymarket and pump.fun elements.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://actions.fun/",
+    "twitter": "https://x.com/actionsdotfun",
+    "logo": "/imgs/prediction_markets/Binary/Actions.jpg"
+  }
+}

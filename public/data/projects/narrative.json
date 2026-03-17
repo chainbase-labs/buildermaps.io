@@ -1,0 +1,12 @@
+{
+  "id": "narrative",
+  "name": "Narrative",
+  "description": "Prediction market platform.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "http://narrative.xyz/",
+    "logo": "/imgs/prediction_markets/Multiple-Choice/Narrative.png",
+    "twitter": "https://x.com/narrativexyz"
+  }
+}

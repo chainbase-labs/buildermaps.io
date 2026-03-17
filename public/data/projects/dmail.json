@@ -1,0 +1,11 @@
+{
+  "id": "dmail",
+  "name": "Dmail",
+  "description": "Dmail",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/private-messaging/dmail.png",
+    "homepage": "https://www.dmail.ai/",
+    "twitter": "https://x.com/Dmailofficial"
+  }
+}

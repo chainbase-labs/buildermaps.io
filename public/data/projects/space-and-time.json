@@ -1,0 +1,13 @@
+{
+  "id": "space-and-time",
+  "name": "Space and Time",
+  "description": "Web3-native data warehouse with zero-knowledge coprocessor for SQL queries joining on-chain and off-chain data",
+  "founded": 2022,
+  "funding": 50000000,
+  "links": {
+    "homepage": "https://www.spaceandtime.io",
+    "logo": "/imgs/Data/Indexing/Space and Time.jpg",
+    "twitter": "https://x.com/spaceandtime",
+    "github": ""
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "kalshi",
+  "name": "Kalshi",
+  "description": "First CFTC-regulated US prediction market exchange with $5B valuation",
+  "founded": 2018,
+  "funding": 485000000,
+  "links": {
+    "homepage": "https://kalshi.com/",
+    "logo": "/imgs/prediction_markets/Binary/Kalshi.jpg",
+    "twitter": "https://x.com/Kalshi",
+    "discord": "https://discord.com/invite/kalshi",
+    "reddit": "https://kalshi.com"
+  }
+}

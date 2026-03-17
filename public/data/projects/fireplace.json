@@ -1,0 +1,12 @@
+{
+  "id": "fireplace",
+  "name": "Fireplace",
+  "description": "Social prediction market.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://fireplace.gg/",
+    "twitter": "https://x.com/fireplacegg",
+    "logo": "/imgs/prediction_markets/Social Prediction/Fireplace.jpg"
+  }
+}

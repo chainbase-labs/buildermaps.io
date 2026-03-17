@@ -1,0 +1,14 @@
+{
+  "id": "covalent",
+  "name": "Covalent",
+  "description": "Covalent unified blockchain data API, 200+ chains indexed, GoldRush platform, modular infrastructure for AI agents, CQT token",
+  "founded": 2017,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.covalenthq.com/",
+    "twitter": "https://x.com/Covalent_HQ",
+    "github": "https://github.com/covalenthq",
+    "telegram": "https://t.me/CovalentHQ",
+    "logo": "/imgs/Data/Infra/Covalent.jpg"
+  }
+}

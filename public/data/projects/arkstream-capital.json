@@ -1,0 +1,11 @@
+{
+  "id": "arkstream-capital",
+  "name": "ArkStream Capital",
+  "description": "Crypto-native fund investing in DeFi and Web3 infrastructure.",
+  "location": "Asia",
+  "links": {
+    "logo": "/imgs/asian-vc/arkstream-capital.jpg",
+    "homepage": "https://www.arkstream.capital/",
+    "twitter": "https://x.com/ark_stream"
+  }
+}

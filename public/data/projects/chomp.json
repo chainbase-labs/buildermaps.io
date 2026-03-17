@@ -1,0 +1,13 @@
+{
+  "id": "chomp",
+  "name": "CHOMP",
+  "description": "Prediction market platform.",
+  "founded": 2024,
+  "funding": 8000000,
+  "links": {
+    "logo": "/imgs/prediction_markets/Multiple-Choice/CHOMP.jpg",
+    "twitter": "https://x.com/chompdotgames",
+    "telegram": "https://t.me/chompcoinxyz",
+    "linktree": "https://linktr.ee/chompdotgames"
+  }
+}

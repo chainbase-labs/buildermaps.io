@@ -1,0 +1,11 @@
+{
+  "id": "beldex",
+  "name": "Beldex",
+  "description": "Beldex is a privacy-focused blockchain ecosystem designed to secure and anonymize all aspects of a user's digital interaction.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/network/beldex.png",
+    "homepage": "https://www.beldex.io/",
+    "twitter": "https://x.com/BeldexCoin"
+  }
+}

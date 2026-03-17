@@ -1,0 +1,12 @@
+{
+  "id": "deepbook",
+  "name": "DeepBook",
+  "description": "DeepBook is a shared decentralized central limit order book (CLOB) built as foundational liquidity infrastructure on Sui.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://deepbook.tech/",
+    "logo": "/imgs/Sui/DeFi/DeepBook.png",
+    "twitter": "https://x.com/DeepBookonSui"
+  }
+}

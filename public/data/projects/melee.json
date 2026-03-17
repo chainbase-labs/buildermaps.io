@@ -1,0 +1,11 @@
+{
+  "id": "melee",
+  "name": "Melee",
+  "description": "Get early access to Melee – the viral prediction market built on Solana. Where Pump.fun meets Polymarket. Bet on anything.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/apps/melee.png",
+    "homepage": "https://alpha.melee.markets/",
+    "twitter": "https://x.com/meleemarkets"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "poap-studio",
+  "name": "POAP Studio",
+  "description": "POAP Studio is the trusted official Proof Of Attendance agency.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/Agents/poap-studio.png",
+    "homepage": "https://www.poap.studio/",
+    "twitter": "https://x.com/poapstudio",
+    "github": ""
+  }
+}

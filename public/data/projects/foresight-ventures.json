@@ -1,0 +1,11 @@
+{
+  "id": "foresight-ventures",
+  "name": "Foresight Ventures",
+  "description": "Crypto-native venture fund investing globally in Web3.",
+  "location": "Asia",
+  "links": {
+    "logo": "/imgs/asian-vc/foresight-ventures.png",
+    "homepage": "https://www.foresightventures.com/about",
+    "twitter": "https://x.com/ForesightVen"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "the-metagame",
+  "name": "The Metagame",
+  "description": "Prediction market platform.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.metagame.trade/",
+    "logo": "/imgs/prediction_markets/Others/The Metagame.jpg",
+    "twitter": "https://x.com/metagametrade"
+  }
+}

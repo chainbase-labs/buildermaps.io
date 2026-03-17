@@ -1,0 +1,11 @@
+{
+  "id": "iexec-rlc",
+  "name": "iExec RLC",
+  "description": "Add privacy to existing apps, or build new ones with privacy at the core.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/confidential-compute/iexec-rlc.png",
+    "homepage": "https://www.iex.ec/",
+    "twitter": "https://x.com/iEx_ec"
+  }
+}

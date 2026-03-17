@@ -1,0 +1,12 @@
+{
+  "id": "bluemove",
+  "name": "BlueMove",
+  "description": "BlueMove is a leading NFT marketplace and launchpad on Sui and Aptos.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://bluemove.net/",
+    "logo": "/imgs/Sui/Launchpad/BlueMove.png",
+    "twitter": "https://x.com/BlueMove_OA"
+  }
+}

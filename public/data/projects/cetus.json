@@ -1,0 +1,12 @@
+{
+  "id": "cetus",
+  "name": "Cetus",
+  "description": "Cetus is a pioneer DEX and concentrated liquidity protocol built on the Sui and Aptos blockchains, focusing on providing the best trading experience and superior liquidity efficiency.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://cetus.zone/",
+    "logo": "/imgs/Sui/DeFi/Cetus.png",
+    "twitter": "https://x.com/CetusProtocol"
+  }
+}

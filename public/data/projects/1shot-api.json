@@ -1,0 +1,12 @@
+{
+  "id": "1shot-api",
+  "name": "1Shot API",
+  "description": "Onchain automation layer for x402 payments, wallet delegations and smart contract automation via REST API",
+  "founded": 2023,
+  "funding": null,
+  "links": {
+    "homepage": "https://1shotapi.com/",
+    "logo": "https://s2.loli.net/2025/11/24/XeNDutWwb6kSPzm.jpg",
+    "twitter": "https://x.com/1shotapi"
+  }
+}

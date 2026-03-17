@@ -1,0 +1,12 @@
+{
+  "id": "turf",
+  "name": "TURF",
+  "description": "AI-powered DePIN for gaming on Avalanche L1. Features collector nodes for gameplay data, AI coaching agents, and tournament automation infrastructure.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/DataandContext/turf.png",
+    "homepage": "https://turf.network/",
+    "twitter": "https://x.com/turf_network",
+    "github": ""
+  }
+}

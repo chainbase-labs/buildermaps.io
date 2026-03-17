@@ -1,0 +1,14 @@
+{
+  "id": "opinion",
+  "name": "Opinion",
+  "description": "Prediction market platform.",
+  "founded": 2023,
+  "funding": 5000000,
+  "links": {
+    "homepage": "https://app.opinion.trade/",
+    "logo": "/imgs/prediction_markets/Binary/Opinion.jpg",
+    "twitter": "https://x.com/opinionlabsxyz",
+    "telegram": "https://t.me/OpinionFi",
+    "medium": "https://opinionlabs.medium.com"
+  }
+}

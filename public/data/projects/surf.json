@@ -1,0 +1,13 @@
+{
+  "id": "surf",
+  "name": "Surf",
+  "description": "Surf Wallet is a mobile-first smart wallet for the Sui, offering a secure and seamless way to store, transfer, and collect tokens and NFTs",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "logo": "/imgs/Sui/Wallets/Surf.png",
+    "twitter": "https://x.com/surf_wallet",
+    "homepage": "https://surf.tech/",
+    "discord": "https://discord.gg/Vsjpghdhb3"
+  }
+}

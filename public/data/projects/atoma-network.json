@@ -1,0 +1,13 @@
+{
+  "id": "atoma-network",
+  "name": "Atoma Network",
+  "description": "Decentralized full-stack AI cloud with privacy and verifiability.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "logo": "/imgs/Sui/AI/AtomaNetwork.jpg",
+    "twitter": "https://x.com/Atoma_Network",
+    "homepage": "https://atoma.ai/",
+    "discord": "https://discord.gg/Vsjpghdhb3"
+  }
+}

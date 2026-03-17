@@ -1,0 +1,11 @@
+{
+  "id": "allnodes",
+  "name": "Allnodes",
+  "description": "Non-custodial platform, which allows you to host nodes, stake coins and monitor blockchain addresses in a few clicks. Secure automated process, great prices, free trial!",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/validators/allnodes.png",
+    "homepage": "https://www.allnodes.com/",
+    "twitter": "https://x.com/Allnodes"
+  }
+}

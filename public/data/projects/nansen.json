@@ -1,0 +1,13 @@
+{
+  "id": "nansen",
+  "name": "Nansen",
+  "description": "Nansen on-chain analytics 20+ chains, 300M+ wallet labels 99% AI-inferred, 60TB data 1PB/day processing, Google Cloud BigQuery, Smart Money tracking",
+  "founded": 2019,
+  "funding": null,
+  "links": {
+    "homepage": "https://nsn.ai/explore",
+    "logo": "/imgs/Data/Analytics/Nansen.jpg",
+    "twitter": "https://x.com/nansen_ai",
+    "github": ""
+  }
+}

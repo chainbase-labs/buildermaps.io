@@ -1,0 +1,11 @@
+{
+  "id": "pythia",
+  "name": "Pythia",
+  "description": "Pythia Markets — coming soon",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/apps/pythia.png",
+    "homepage": "https://pythia.markets/",
+    "twitter": "https://x.com/pythiamarkets"
+  }
+}

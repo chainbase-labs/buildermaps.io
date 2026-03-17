@@ -1,0 +1,139 @@
+{
+  "sector": "ERC-8004",
+  "types": [
+    {
+      "id": "agentfi",
+      "name": "AgentFi",
+      "projects": [
+        "4mica",
+        "adex-eth",
+        "aeon-xyz",
+        "awe",
+        "bond-credit",
+        "cambrian-network",
+        "cod3x",
+        "hubble-ai",
+        "kudo",
+        "nevermined",
+        "pieverse",
+        "silverback",
+        "theoriq",
+        "thirdfy"
+      ]
+    },
+    {
+      "id": "agents",
+      "name": "Agents",
+      "projects": [
+        "dmarz",
+        "inomy",
+        "joai",
+        "minara-ai",
+        "otto-ai",
+        "poap-studio",
+        "privacymage",
+        "warden",
+        "zyfai"
+      ]
+    },
+    {
+      "id": "agents-orchestration",
+      "name": "Agents Orchestration",
+      "projects": ["ampersend", "karum", "mother", "praxis", "questflow"]
+    },
+    {
+      "id": "blockchains",
+      "name": "Blockchains",
+      "projects": [
+        "arbitrum",
+        "base",
+        "linea-eth",
+        "oasis",
+        "polygon",
+        "scroll",
+        "world"
+      ]
+    },
+    {
+      "id": "data-and-context",
+      "name": "Data and Context",
+      "projects": [
+        "bonfires-ai",
+        "lyneth-labs",
+        "rena-labs",
+        "terminal-3",
+        "turf",
+        "unibase"
+      ]
+    },
+    {
+      "id": "developers-tooling",
+      "name": "Developers Tooling",
+      "projects": [
+        "agent0-labs",
+        "chaoschain",
+        "collab-land",
+        "daydreams",
+        "mcpay",
+        "orgtrust-eth",
+        "silence-laboratories",
+        "thirdweb",
+        "wachai",
+        "x-portal"
+      ]
+    },
+    {
+      "id": "frameworks",
+      "name": "Frameworks",
+      "projects": ["elizaos", "khorus", "virtuals-protocol"]
+    },
+    {
+      "id": "identity-and-reputation",
+      "name": "Identity and Reputation",
+      "projects": ["ens", "ethos"]
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "projects": [
+        "eigencloud",
+        "ekai",
+        "giza",
+        "hashgraph",
+        "near",
+        "phala",
+        "semantic-layer",
+        "semiotic-labs",
+        "soon",
+        "trusta-ai",
+        "uos"
+      ]
+    },
+    {
+      "id": "marketplaces-and-discovery",
+      "name": "Marketplaces and Discovery",
+      "projects": [
+        "0xgasless",
+        "8004market",
+        "8004scan",
+        "8004tokens",
+        "aimo-network",
+        "alias",
+        "blockrunai",
+        "bonfires-ai",
+        "dappradar",
+        "index-network",
+        "metalos",
+        "olas",
+        "pakt",
+        "supermission",
+        "towns-protocol"
+      ]
+    },
+    {
+      "id": "storage",
+      "name": "Storage",
+      "projects": ["filecoin", "pinata"]
+    }
+  ]
+}

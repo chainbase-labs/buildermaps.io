@@ -1,0 +1,11 @@
+{
+  "id": "umbra",
+  "name": "Umbra",
+  "description": "Incognito mode for your finance",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/mixers/umbra.png",
+    "homepage": "https://www.umbraprivacy.com/",
+    "twitter": "https://x.com/UmbraPrivacy"
+  }
+}

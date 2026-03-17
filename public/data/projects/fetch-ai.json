@@ -1,0 +1,13 @@
+{
+  "id": "fetch-ai",
+  "name": "Fetch.ai",
+  "description": "Decentralized platform enabling Autonomous Economic Agents for AI-driven economic activities",
+  "founded": 2017,
+  "funding": 40000000,
+  "links": {
+    "homepage": "https://fetch.ai/",
+    "logo": "/imgs/Data/Marketplaces/Fetch.ai.jpg",
+    "twitter": "https://x.com/Fetch_ai",
+    "github": ""
+  }
+}

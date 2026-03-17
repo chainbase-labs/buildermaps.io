@@ -1,0 +1,12 @@
+{
+  "id": "slice",
+  "name": "Slice",
+  "description": "Discover the latest trends on Slice — the onchain commerce protocol. Shop best-selling stores and products, secured by Ethereum.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/Infra/slice.png",
+    "homepage": "https://shop.slice.so/",
+    "twitter": "https://x.com/slice__so",
+    "github": ""
+  }
+}

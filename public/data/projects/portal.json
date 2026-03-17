@@ -1,0 +1,12 @@
+{
+  "id": "portal",
+  "name": "Portal",
+  "description": "Portal Bridge, powered by Wormhole, facilitates multi-chain bridging to Sui from 22+ supported chains.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://portalbridge.com/",
+    "logo": "/imgs/Sui/Bridge/Portal.png",
+    "twitter": "https://x.com/portalbridge_"
+  }
+}

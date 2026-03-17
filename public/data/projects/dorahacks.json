@@ -1,0 +1,11 @@
+{
+  "id": "dorahacks",
+  "name": "DoraHacks",
+  "description": "Global hacker movement and open-source incentive platform.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/asian-vc/dorahacks.jpg",
+    "homepage": "https://dorahacks.io/",
+    "twitter": "https://x.com/DoraHacks"
+  }
+}

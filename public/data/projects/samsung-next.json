@@ -1,0 +1,11 @@
+{
+  "id": "samsung-next",
+  "name": "Samsung NEXT",
+  "description": "Samsung's venture arm investing in software and services innovation.",
+  "location": "Seoul, Korea",
+  "links": {
+    "logo": "/imgs/asian-vc/samsung-next.jpg",
+    "homepage": "https://www.samsungnext.com/",
+    "twitter": "https://x.com/SamsungNext"
+  }
+}

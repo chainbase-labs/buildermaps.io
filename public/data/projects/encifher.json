@@ -1,0 +1,11 @@
+{
+  "id": "encifher",
+  "name": "Encifher",
+  "description": "Trade privately on Solana",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/defi-wallets/encifher.png",
+    "homepage": "https://app.encifher.io/",
+    "twitter": "https://x.com/encifherio"
+  }
+}

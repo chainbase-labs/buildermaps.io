@@ -1,0 +1,13 @@
+{
+  "id": "hive",
+  "name": "Hive",
+  "description": "Hive blockchain social media DPoS 3-second transactions Steemit fork March 2020 HIVE rewards content creators decentralized apps",
+  "founded": 2020,
+  "funding": null,
+  "links": {
+    "homepage": "http://hive.io",
+    "logo": "/imgs/Data/Provenance/Hive.jpg",
+    "twitter": "https://x.com/hiveblocks",
+    "github": ""
+  }
+}

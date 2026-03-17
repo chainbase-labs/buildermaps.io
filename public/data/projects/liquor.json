@@ -1,0 +1,13 @@
+{
+  "id": "liquor",
+  "name": "Liquor",
+  "description": "Be liquor, my friend. New era of meme on Sui.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "logo": "/imgs/Sui/Meme/Liquor.png",
+    "twitter": "https://x.com/Beliquoronsui",
+    "homepage": "https://www.beliquoronsui.com/",
+    "discord": "https://discord.gg/Vsjpghdhb3"
+  }
+}

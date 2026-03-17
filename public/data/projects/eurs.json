@@ -1,0 +1,15 @@
+{
+  "id": "eurs",
+  "name": "EURS",
+  "description": "First euro stablecoin backed 1:1 by euros in Central Bank across 8 blockchains",
+  "founded": 2018,
+  "funding": null,
+  "links": {
+    "homepage": "https://stasis.net/",
+    "logo": "https://coin-images.coingecko.com/coins/images/5164/large/EURS_300x300.png?1696505680",
+    "twitter": "https://x.com/stasisnet",
+    "telegram": "https://t.me/stasisnet",
+    "linkedin": "https://www.linkedin.com/company/stasisnet",
+    "reddit": "https://eurs.stasis.net"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mint-ventures",
+  "name": "Mint Ventures",
+  "description": "Research-driven venture firm specializing in cryptocurrency and early-stage blockchain projects.",
+  "location": "Asia",
+  "links": {
+    "logo": "/imgs/asian-vc/mint-ventures.jpg",
+    "homepage": "https://research.mintventures.fund",
+    "twitter": "https://x.com/Mint_Ventures"
+  }
+}

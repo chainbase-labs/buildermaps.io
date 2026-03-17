@@ -1,0 +1,11 @@
+{
+  "id": "arc-the-community",
+  "name": "ARC the Community",
+  "description": "Asia-focused Web3 co-creation community.",
+  "location": "Asia",
+  "links": {
+    "logo": "/imgs/asian-vc/arc-the-community.jpg",
+    "homepage": "https://linktr.ee/arcthecommunity",
+    "twitter": "https://x.com/arcthecommunity"
+  }
+}

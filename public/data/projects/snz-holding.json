@@ -1,0 +1,11 @@
+{
+  "id": "snz-holding",
+  "name": "SNZ Holding",
+  "description": "Blockchain investment and incubation firm.",
+  "location": "Asia",
+  "links": {
+    "logo": "/imgs/asian-vc/snz-holding.png",
+    "homepage": "https://snzholding.com/",
+    "twitter": "https://x.com/snzholding"
+  }
+}

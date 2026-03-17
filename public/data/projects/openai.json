@@ -1,0 +1,10 @@
+{
+  "id": "openai",
+  "name": "OpenAI",
+  "description": "Pioneering artificial intelligence lab supplying the core foundational models that drive modern autonomous decision engines.",
+  "links": {
+    "homepage": "https://openai.com/",
+    "logo": "/imgs/agentic-finance/openai.jpg",
+    "twitter": "https://x.com/OpenAI"
+  }
+}

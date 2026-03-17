@@ -1,0 +1,12 @@
+{
+  "id": "trendle",
+  "name": "Trendle",
+  "description": "Prediction market platform.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://trendle.fi/",
+    "twitter": "https://x.com/TrendleFi",
+    "logo": "/imgs/prediction_markets/Multiple-Choice/Trendle.jpg"
+  }
+}

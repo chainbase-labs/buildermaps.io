@@ -1,0 +1,12 @@
+{
+  "id": "based",
+  "name": "Based",
+  "description": "Prediction market on Base.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://based.one/",
+    "twitter": "https://x.com/BasedOneX",
+    "logo": "/imgs/prediction_markets/Multiple-Choice/Based.jpg"
+  }
+}

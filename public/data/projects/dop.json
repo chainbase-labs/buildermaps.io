@@ -1,0 +1,11 @@
+{
+  "id": "dop",
+  "name": "DOP",
+  "description": "DOP empowers users by providing complete control over their data.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/confidential-compute/dop.png",
+    "homepage": "https://dop.org/",
+    "twitter": "https://x.com/dop_org"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "verso",
+  "name": "Verso",
+  "description": "Prediction market platform.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.verso.trading/",
+    "twitter": "https://x.com/VersoTrading",
+    "logo": "/imgs/prediction_markets/Infra/Verso.jpg"
+  }
+}

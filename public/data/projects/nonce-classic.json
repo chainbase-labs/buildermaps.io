@@ -1,0 +1,11 @@
+{
+  "id": "nonce-classic",
+  "name": "Nonce Classic",
+  "description": "Korean blockchain venture fund focused on Web3 infrastructure.",
+  "location": "Seoul, Korea",
+  "links": {
+    "logo": "/imgs/asian-vc/nonce-classic.jpg",
+    "homepage": "https://nonceclassic.org/",
+    "twitter": "https://x.com/nonceclassic"
+  }
+}

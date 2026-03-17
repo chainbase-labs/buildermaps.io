@@ -1,0 +1,11 @@
+{
+  "id": "privasea-ai",
+  "name": "Privasea AI",
+  "description": "The FheID app is a PoH (Proof of Human) technology that attests your human liveness.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/confidential-compute/privasea-ai.png",
+    "homepage": "https://www.privasea.ai/",
+    "twitter": "https://x.com/privasea"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "flipside",
+  "name": "Flipside",
+  "description": "Blockchain analytics platform with $65.3M funding ($50M Series A @ $350M valuation), Republic Capital led, SQL-based crypto data queries",
+  "founded": 2017,
+  "funding": 65300000,
+  "links": {
+    "homepage": "https://flipsidecrypto.xyz",
+    "logo": "/imgs/Data/Marketplaces/Flipside.jpg",
+    "twitter": "https://x.com/flipsidecrypto",
+    "github": ""
+  }
+}

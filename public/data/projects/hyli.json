@@ -1,0 +1,11 @@
+{
+  "id": "hyli",
+  "name": "Hyli",
+  "description": "Hyli enables builders and institutions to design private, compliant, and high-performance systems. Hyli combines Web2 scalability with blockchain reliability.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/confidential-compute/hyli.png",
+    "homepage": "https://www.hyli.org/",
+    "twitter": "https://x.com/hyli_org"
+  }
+}

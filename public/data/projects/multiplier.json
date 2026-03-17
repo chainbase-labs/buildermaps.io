@@ -1,0 +1,12 @@
+{
+  "id": "multiplier",
+  "name": "Multiplier",
+  "description": "Prediction market platform.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://app.multiplier.fun/",
+    "logo": "/imgs/prediction_markets/Others/Multiplier.jpg",
+    "twitter": "https://x.com/multiplierfun"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "zkme",
+  "name": "zkMe",
+  "description": "Through an end-to-end zero-knowledge proof process, zkMe provides a secure and private way to verify on and offline credentials.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/identity/zkme.png",
+    "homepage": "https://www.zk.me/",
+    "twitter": "https://x.com/zkme_"
+  }
+}

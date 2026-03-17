@@ -1,0 +1,12 @@
+{
+  "id": "base-app",
+  "name": "Base app",
+  "description": "Countless ways to earn with the everything app from Base. One place to trade, create, build, discover, and chat securely.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/Wallet/base-app.png",
+    "homepage": "https://join.base.app/",
+    "twitter": "https://x.com/baseapp",
+    "github": ""
+  }
+}

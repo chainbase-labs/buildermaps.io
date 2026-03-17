@@ -1,0 +1,12 @@
+{
+  "id": "hashgraph",
+  "name": "Hashgraph",
+  "description": "Join the HOL Points Portal to score auditable HCS-20 points on Hedera. Complete quests, win giveaways, and climb the leaderboard. Free to start.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/Infrastructure/hashgraph.png",
+    "homepage": "https://hol.org/points",
+    "twitter": "https://x.com/HashgraphOnline",
+    "github": ""
+  }
+}

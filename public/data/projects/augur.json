@@ -1,0 +1,14 @@
+{
+  "id": "augur",
+  "name": "Augur",
+  "description": "Pioneer decentralized prediction market on Ethereum with REP token governance",
+  "founded": 2014,
+  "funding": 5500000,
+  "links": {
+    "homepage": "https://augur.net/",
+    "logo": "/imgs/prediction_markets/Infra/Augur.png",
+    "twitter": "https://x.com/AugurProject",
+    "reddit": "https://docs.augur.net",
+    "github": "https://github.com/AugurProject"
+  }
+}

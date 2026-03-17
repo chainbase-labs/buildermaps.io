@@ -1,0 +1,12 @@
+{
+  "id": "joai",
+  "name": "JoAi",
+  "description": "AI Agents for Web3 and beyond. Use AI to interact with apps you use every day, automate tasks, and build any skill you need.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/Agents/joai.png",
+    "homepage": "https://joai.ai/",
+    "twitter": "https://x.com/JoAIAgents",
+    "github": ""
+  }
+}

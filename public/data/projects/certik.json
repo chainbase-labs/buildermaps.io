@@ -1,0 +1,13 @@
+{
+  "id": "certik",
+  "name": "CertiK",
+  "description": "Leading blockchain security firm providing auditing, real-time monitoring (Skynet), and formal verification services to enhance the security and reliability of Web3 projects.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "http://www.certik.com",
+    "logo": "/imgs/Data/Provenance/CertiK.jpg",
+    "twitter": "https://x.com/CertiK",
+    "github": ""
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "builderdao",
+  "name": "BuilderDAO",
+  "description": "Community-driven Web3 investment and builder collective.",
+  "location": "Asia",
+  "links": {
+    "logo": "/imgs/asian-vc/builderdao.jpg",
+    "homepage": "https://www.taiwanbuilderhouse.com/",
+    "twitter": "https://x.com/_BuilderDAO"
+  }
+}

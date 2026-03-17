@@ -1,0 +1,11 @@
+{
+  "id": "jsquare",
+  "name": "JSquare",
+  "description": "Singapore-based Web3 venture fund.",
+  "location": "Singapore",
+  "links": {
+    "logo": "/imgs/asian-vc/jsquare.jpg",
+    "homepage": "https://www.jsquare.co/",
+    "twitter": "https://x.com/JSquare_co"
+  }
+}

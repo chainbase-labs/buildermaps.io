@@ -1,0 +1,13 @@
+{
+  "id": "fliq",
+  "name": "Fliq",
+  "description": "Mobile-first, creator-led prediction market on Aptos making trading accessible via intuitive 'yes/no' questions.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.fliq.one/#",
+    "twitter": "https://x.com/predictonfliq",
+    "linktree": "https://linktr.ee/fliqpredictions",
+    "logo": "/imgs/prediction_markets/Binary/Fliq.jpg"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "plume-network",
+  "name": "Plume Network",
+  "description": "Modular blockchain specifically engineered for Real-World Assets (RWAs) and RWAfi.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.plumenetwork.io/",
+    "logo": "/imgs/Sui/RWA/plume-network.jpg",
+    "twitter": "https://x.com/plumenetwork"
+  }
+}

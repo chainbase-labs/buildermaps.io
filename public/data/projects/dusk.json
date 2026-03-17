@@ -1,0 +1,11 @@
+{
+  "id": "dusk",
+  "name": "Dusk",
+  "description": "Dusk is a regulated and decentralised network build for institutions, businesses and users.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/l1-l2/dusk.png",
+    "homepage": "https://dusk.network/",
+    "twitter": "https://x.com/DuskFoundation"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "avantis",
+  "name": "Avantis",
+  "description": "DeFi’s leverage hub for global assets. Trade FX, metals, commodities and crypto with up to 500x leverage and zero-fees.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/DeFi/avantis.png",
+    "homepage": "https://www.avantisfi.com/",
+    "twitter": "https://x.com/avantisfi",
+    "github": ""
+  }
+}

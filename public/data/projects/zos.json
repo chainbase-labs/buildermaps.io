@@ -1,0 +1,11 @@
+{
+  "id": "zos",
+  "name": "zOS",
+  "description": "zOS is a privacy-focused operating system designed for secure computing.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/os/zos.png",
+    "homepage": "https://zos.computer/",
+    "twitter": "https://x.com/zPrivacyOS"
+  }
+}

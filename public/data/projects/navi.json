@@ -1,0 +1,12 @@
+{
+  "id": "navi",
+  "name": "NAVI",
+  "description": "NAVI Protocol is the leading liquidity protocol on the Sui blockchain, enabling users to lend and borrow assets like SUI, USDC, USDT, wETH, and wBTC.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://naviprotocol.io/",
+    "logo": "/imgs/Sui/DeFi/NAVI.png",
+    "twitter": "https://x.com/navi_protocol"
+  }
+}

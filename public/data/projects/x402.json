@@ -1,0 +1,8 @@
+{
+  "id": "x402",
+  "name": "x402",
+  "description": "HTTP payment protocol allowing agents to pay for services via USDC micropayments.",
+  "links": {
+    "logo": "/imgs/OpenClaw/Standards&Protocols/x402.png"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "iota",
+  "name": "Iota",
+  "description": "IOTA distributed ledger Tangle DAG not blockchain, IoT focused, 4.6B supply post-Rebased May 2025, Jaguar/Bosch/STMicro PoCs, founded 2015",
+  "founded": 2015,
+  "funding": null,
+  "links": {
+    "homepage": "http://www.iota.org",
+    "logo": "/imgs/Data/Marketplaces/iota.jpg",
+    "twitter": "https://x.com/iota",
+    "github": ""
+  }
+}

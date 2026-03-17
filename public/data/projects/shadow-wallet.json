@@ -1,0 +1,13 @@
+{
+  "id": "shadow-wallet",
+  "name": "Shadow Wallet",
+  "description": "Shadow is a self-custodial Web3 wallet for DeFi and NFTs on the Sui blockchain.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "logo": "/imgs/Sui/Wallets/Shadow Wallet.png",
+    "twitter": "https://x.com/shadow_sui",
+    "homepage": "https://linktr.ee/shadow_app",
+    "discord": "https://discord.gg/Vsjpghdhb3"
+  }
+}

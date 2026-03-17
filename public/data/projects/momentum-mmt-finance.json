@@ -1,0 +1,12 @@
+{
+  "id": "momentum-mmt-finance",
+  "name": "Momentum (MMT Finance)",
+  "description": "Momentum Finance is a decentralized finance (DeFi) infrastructure platform built on the Sui Blockchain, featuring a concentrated-liquidity DEX and liquid staking.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://mmt.finance/",
+    "logo": "/imgs/Sui/DeFi/Momentum MMT Finance.png",
+    "twitter": "https://x.com/MMTFinance"
+  }
+}

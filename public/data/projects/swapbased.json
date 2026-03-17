@@ -1,0 +1,12 @@
+{
+  "id": "swapbased",
+  "name": "SwapBased",
+  "description": "SwapBased is the first automated liquidity protocol deployed on Base chain.\n      Since the launch, several features were added to the Swapbased ecosystem, including Concentrated Liquidity and Perpetuals.\n      Aside from Liquidity, SwapBased has its own Launchpad, Single Staking, and Lotterries for $BASE and $xBASE.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/DeFi/swapbased.png",
+    "homepage": "https://swapbased.finance/",
+    "twitter": "https://x.com/swap_based",
+    "github": ""
+  }
+}

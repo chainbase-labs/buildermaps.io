@@ -1,0 +1,13 @@
+{
+  "id": "precog",
+  "name": "Precog",
+  "description": "First open decentralized real-money prediction market on Solana with customizable resolver options",
+  "founded": 2024,
+  "funding": null,
+  "links": {
+    "homepage": "https://core.precog.market/",
+    "logo": "/imgs/prediction_markets/Multiple-Choice/Precog.jpg",
+    "twitter": "https://x.com/precogmarket",
+    "github": "https://github.com/coinmetrics"
+  }
+}

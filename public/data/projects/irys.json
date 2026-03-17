@@ -1,0 +1,13 @@
+{
+  "id": "irys",
+  "name": "Irys",
+  "description": "Layer-1 data chain making data programmable and actionable on-chain, unifying data storage and smart contract execution for dynamic, verifiable data usage.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://irys.xyz/",
+    "logo": "/imgs/Data/Provenance/Irys.jpg",
+    "twitter": "https://x.com/irys_xyz",
+    "github": ""
+  }
+}
