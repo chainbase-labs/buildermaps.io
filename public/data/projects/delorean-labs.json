@@ -1,0 +1,12 @@
+{
+  "id": "delorean-labs",
+  "name": "DeLorean Labs",
+  "description": "DeLorean Labs is the Web3 arm of DMC, building a tokenized ecosystem with digital collectibles and a marketplace on Sui.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://deloreanlabs.com/",
+    "logo": "/imgs/Sui/NFT/DeLorean Labs.png",
+    "twitter": "https://x.com/DeLoreanlabs"
+  }
+}

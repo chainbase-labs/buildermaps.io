@@ -1,0 +1,12 @@
+{
+  "id": "noodles-finance",
+  "name": "Noodles Finance",
+  "description": "Noodles Finance is a decentralized finance platform built on the Sui blockchain, designed to provide a fast trading and data analysis experience.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://noodles.fi/",
+    "logo": "/imgs/Sui/DeFi/Noodles Finance.png",
+    "twitter": "https://x.com/NoodlesFi"
+  }
+}

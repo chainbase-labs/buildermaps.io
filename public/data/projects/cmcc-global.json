@@ -1,0 +1,11 @@
+{
+  "id": "cmcc-global",
+  "name": "CMCC Global",
+  "description": "Hong Kong-based blockchain venture capital fund.",
+  "location": "Hong Kong",
+  "links": {
+    "logo": "/imgs/asian-vc/cmcc-global.jpg",
+    "homepage": "https://www.cmcc.vc/",
+    "twitter": "https://x.com/CMCC_Global"
+  }
+}

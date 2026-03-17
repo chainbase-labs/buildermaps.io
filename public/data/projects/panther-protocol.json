@@ -1,0 +1,11 @@
+{
+  "id": "panther-protocol",
+  "name": "Panther Protocol",
+  "description": "Building on-chain privacy infrastructure for VASP-licensed entities",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/defi-wallets/panther-protocol.png",
+    "homepage": "https://www.pantherprotocol.io/",
+    "twitter": "https://x.com/ZKPanther"
+  }
+}

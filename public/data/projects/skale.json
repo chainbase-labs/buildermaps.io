@@ -1,0 +1,13 @@
+{
+  "id": "skale",
+  "name": "SKALE",
+  "description": "SKALE Network elastic blockchain for gaming/AI/DeFi, gas-free, Ethereum sidechains, 8 chains per node, instant finality, on-chain file storage",
+  "founded": 2018,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.skale.space/",
+    "logo": "https://s2.loli.net/2025/11/24/DO7JQ395d1KWZhy.png",
+    "twitter": "https://x.com/SkaleNetwork",
+    "telegram": "https://t.me/skaleofficial"
+  }
+}

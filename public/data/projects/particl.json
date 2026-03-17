@@ -1,0 +1,11 @@
+{
+  "id": "particl",
+  "name": "Particl",
+  "description": "Cut off the middleman and live free with apps that respect your rights, freedoms, and privacy. A world of opportunities awaits you!",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/l1-l2/particl.png",
+    "homepage": "https://particl.io/",
+    "twitter": "https://x.com/ParticlProject"
+  }
+}

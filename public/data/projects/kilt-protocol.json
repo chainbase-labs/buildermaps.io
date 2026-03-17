@@ -1,0 +1,13 @@
+{
+  "id": "kilt-protocol",
+  "name": "KILT Protocol",
+  "description": "Polkadot parachain for decentralized identifiers and verifiable credentials following W3C standards",
+  "founded": 2021,
+  "funding": null,
+  "links": {
+    "homepage": "https://kilt.io/",
+    "logo": "/imgs/Data/Provenance/KILT Protocol.jpg",
+    "twitter": "https://x.com/Kiltprotocol",
+    "github": ""
+  }
+}

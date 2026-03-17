@@ -1,0 +1,11 @@
+{
+  "id": "hopr",
+  "name": "HOPR",
+  "description": "The HOPR protocol ensures everyone has control of their privacy and data.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/network/hopr.png",
+    "homepage": "https://hoprnet.org/",
+    "twitter": "https://x.com/hoprnet"
+  }
+}

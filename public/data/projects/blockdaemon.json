@@ -1,0 +1,13 @@
+{
+  "id": "blockdaemon",
+  "name": "Blockdaemon",
+  "description": "Blockdaemon institutional blockchain infrastructure $110B assets, 400+ institutions, 99.9% uptime, ISO 27001/SOC 2, multi-cloud 70+ POPs, #1 staking $10B",
+  "founded": 2017,
+  "funding": null,
+  "links": {
+    "homepage": "https://blockdaemon.com/",
+    "logo": "/imgs/Data/Infra/Blockdaemon.jpg",
+    "twitter": "https://x.com/BlockdaemonHQ",
+    "github": ""
+  }
+}

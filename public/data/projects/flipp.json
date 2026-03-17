@@ -1,0 +1,12 @@
+{
+  "id": "flipp",
+  "name": "Flipp",
+  "description": "Flipp is a next-generation crypto wallet focused on simplicity and security for everyday users.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/Wallet/flipp.png",
+    "homepage": "https://flipp.lol/",
+    "twitter": "https://x.com/flippplol",
+    "github": ""
+  }
+}

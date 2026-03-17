@@ -1,0 +1,12 @@
+{
+  "id": "8004scan",
+  "name": "8004scan",
+  "description": "Discover, create, and interact with autonomous agents on 8004scan. Browse agent listings, submit feedback, and track leaderboards.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/MarketplacesandDiscovery/8004scan.png",
+    "homepage": "https://www.8004scan.io/",
+    "twitter": "https://x.com/8004_scan",
+    "github": ""
+  }
+}

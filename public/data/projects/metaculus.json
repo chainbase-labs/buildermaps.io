@@ -1,0 +1,12 @@
+{
+  "id": "metaculus",
+  "name": "Metaculus",
+  "description": "Forecasting platform aggregating predictions on scientific and technological progress.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.metaculus.com/",
+    "twitter": "https://x.com/metaculus",
+    "logo": "/imgs/prediction_markets/Multiple-Choice/Metaculus.png"
+  }
+}

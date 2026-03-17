@@ -1,0 +1,11 @@
+{
+  "id": "superscrypt",
+  "name": "Superscrypt",
+  "description": "Temasek-backed crypto venture fund.",
+  "location": "Singapore",
+  "links": {
+    "logo": "/imgs/asian-vc/superscrypt.jpg",
+    "homepage": "https://www.superscrypt.xyz/",
+    "twitter": "https://x.com/Superscrypt"
+  }
+}

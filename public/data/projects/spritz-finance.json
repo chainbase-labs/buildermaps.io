@@ -1,0 +1,13 @@
+{
+  "id": "spritz-finance",
+  "name": "Spritz Finance",
+  "description": "Spritz is a crypto payments superapp, enabling users to buy, spend, and pay bills with crypto__ll directly from their wallets.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "logo": "/imgs/sui_ecosystem/Payments/SpritzFinance.png",
+    "twitter": "https://x.com/spritzfinance",
+    "homepage": "https://www.spritz.finance/",
+    "discord": "https://discord.gg/Vsjpghdhb3"
+  }
+}

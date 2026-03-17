@@ -1,0 +1,11 @@
+{
+  "id": "veilcash",
+  "name": "Veil.Cash",
+  "description": "Veil.cash - A privacy protocol on Base",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/zk/veilcash.png",
+    "homepage": "https://www.veil.cash/",
+    "twitter": "https://x.com/Veildotcash"
+  }
+}

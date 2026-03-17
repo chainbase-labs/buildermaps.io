@@ -1,0 +1,13 @@
+{
+  "id": "football-fun",
+  "name": "Football.Fun",
+  "description": "Sports prediction market focused on football matches.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://pro.football.fun/",
+    "logo": "/imgs/prediction_markets/Binary/Football.Fun.jpg",
+    "twitter": "https://x.com/footballdotfun",
+    "linktree": "https://linktr.ee/footballdotfun"
+  }
+}

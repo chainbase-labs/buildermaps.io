@@ -1,0 +1,13 @@
+{
+  "id": "kyve",
+  "name": "KYVE",
+  "description": "KYVE Network decentralized data lake L1 PoS blockchain, multi-chain Bitcoin/Cosmos/Solana data validation, Arweave storage, Ignite framework",
+  "founded": 2021,
+  "funding": null,
+  "links": {
+    "homepage": "https://kyve.network",
+    "logo": "/imgs/Data/Provenance/KYVE.jpg",
+    "twitter": "https://x.com/KYVENetwork",
+    "github": ""
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "darklake",
+  "name": "Darklake",
+  "description": "Darklake is a private liquidity layer enabling confidential DeFi transactions.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/defi-wallets/darklake.png",
+    "homepage": "https://darklake.fi/",
+    "twitter": "https://x.com/darklakefi"
+  }
+}

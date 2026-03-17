@@ -1,0 +1,12 @@
+{
+  "id": "neynar",
+  "name": "Neynar",
+  "description": "Social graphs, feeds, and infrastructure for agent interactions and discovery on social layers.",
+  "founded": 2023,
+  "funding": null,
+  "links": {
+    "homepage": "https://neynar.com/",
+    "logo": "/imgs/OpenClaw/Infrastructure/neynar.png",
+    "twitter": "https://x.com/neynarxyz"
+  }
+}

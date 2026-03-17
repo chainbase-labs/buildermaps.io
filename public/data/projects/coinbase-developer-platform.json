@@ -1,0 +1,11 @@
+{
+  "id": "coinbase-developer-platform",
+  "name": "Coinbase Developer Platform",
+  "description": "Robust suite of APIs and enterprise-grade tools for building scalable on-chain applications.",
+  "location": "Global",
+  "links": {
+    "homepage": "https://www.coinbase.com/developer-platform",
+    "logo": "https://pbs.twimg.com/profile_images/1963276257157840896/OiKkC0Je_400x400.jpg",
+    "twitter": "https://x.com/CoinbaseDev"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "axelar",
+  "name": "Axelar",
+  "description": "Axelar is the Gateway to Onchain Finance, a decentralized network and development platform securely connecting the world's blockchains and financial infrastructure.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/Infra/axelar.png",
+    "homepage": "https://www.axelar.network/",
+    "twitter": "https://x.com/axelar",
+    "github": ""
+  }
+}

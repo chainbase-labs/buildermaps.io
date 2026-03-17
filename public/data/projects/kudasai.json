@@ -1,0 +1,11 @@
+{
+  "id": "kudasai",
+  "name": "Kudasai",
+  "description": "community layer for blockchain",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/validators/kudasai.png",
+    "homepage": "https://kudasai.co.jp/",
+    "twitter": "https://x.com/kudasai_japan"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "filecoin",
+  "name": "Filecoin",
+  "description": "Decentralized storage network with 1.5 exbibytes stored by 3K providers, IPFS integration, Filecoin Foundation ecosystem funding",
+  "founded": 2017,
+  "funding": 257000000,
+  "links": {
+    "homepage": "https://filecoin.io/",
+    "logo": "/imgs/Data/Marketplaces/Filecoin.jpg",
+    "twitter": "https://x.com/Filecoin",
+    "github": ""
+  }
+}

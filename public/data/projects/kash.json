@@ -1,0 +1,12 @@
+{
+  "id": "kash",
+  "name": "kash",
+  "description": "AI-powered social prediction market on Base enabling permissionless market creation from X posts, decentralized betting platform",
+  "founded": 2024,
+  "funding": null,
+  "links": {
+    "homepage": "https://kash.bot/",
+    "logo": "/imgs/prediction_markets/Bot Inferface/kash.jpg",
+    "twitter": "https://x.com/kash_bot"
+  }
+}

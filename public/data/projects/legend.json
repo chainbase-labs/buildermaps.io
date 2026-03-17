@@ -1,0 +1,12 @@
+{
+  "id": "legend",
+  "name": "Legend",
+  "description": "Prediction market bot interface.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://legendstake.com/",
+    "twitter": "https://x.com/belegends_ok",
+    "logo": "/imgs/prediction_markets/Bot Inferface/Legend.jpg"
+  }
+}

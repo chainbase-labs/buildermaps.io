@@ -1,0 +1,11 @@
+{
+  "id": "privily",
+  "name": "Privily",
+  "description": "The Self-Custodial Privacy NeoBank.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/defi-wallets/privily.png",
+    "homepage": "https://privily.fi/",
+    "twitter": "https://x.com/Privily_fi"
+  }
+}

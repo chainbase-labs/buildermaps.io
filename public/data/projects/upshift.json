@@ -1,0 +1,12 @@
+{
+  "id": "upshift",
+  "name": "Upshift",
+  "description": "Upshift is a protocol that democratizes institutional lending, allowing users to earn yields from real institutional loans via Core Vaults.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://upshift.finance/",
+    "logo": "/imgs/Sui/DeFi/Upshift.png",
+    "twitter": "https://x.com/upshift_fi"
+  }
+}

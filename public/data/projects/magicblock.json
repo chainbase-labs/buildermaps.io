@@ -1,0 +1,11 @@
+{
+  "id": "magicblock",
+  "name": "MagicBlock",
+  "description": "Real-time Engine for decentralized games & applications on Solana.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/confidential-compute/magicblock.png",
+    "homepage": "https://www.magicblock.xyz/",
+    "twitter": "https://x.com/magicblock"
+  }
+}

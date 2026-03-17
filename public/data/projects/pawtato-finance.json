@@ -1,0 +1,12 @@
+{
+  "id": "pawtato-finance",
+  "name": "Pawtato Finance",
+  "description": "Pawtato Finance is a comprehensive DeFi utility platform built exclusively for the Sui blockchain, acting as a DeFi dApp aggregator and wallet manager.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://pawtato.finance/",
+    "logo": "/imgs/Sui/DeFi/Pawtato Finance.png",
+    "twitter": "https://x.com/PawtatoFinance"
+  }
+}

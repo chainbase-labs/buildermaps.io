@@ -1,0 +1,11 @@
+{
+  "id": "layeredge",
+  "name": "LayerEdge",
+  "description": "LayerEdge provides fast, low-cost verification of zero-knowledge/validity proofs, enabling scalable, permissionless innovation on Bitcoin, Ethereum, and other protocols.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/confidential-compute/layeredge.png",
+    "homepage": "https://layeredge.io/",
+    "twitter": "https://x.com/layeredge"
+  }
+}

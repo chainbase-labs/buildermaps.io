@@ -1,0 +1,12 @@
+{
+  "id": "magic-eden",
+  "name": "Magic Eden",
+  "description": "Discover, mint, buy & sell NFTs and digital collectibles on Magic Eden. Explore top collections & mint the latest NFT drops on the leading NFT marketplace.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/NFT/magic-eden.png",
+    "homepage": "https://magiceden.us/?gr",
+    "twitter": "https://x.com/MagicEden",
+    "github": ""
+  }
+}

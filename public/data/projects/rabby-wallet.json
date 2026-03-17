@@ -1,0 +1,12 @@
+{
+  "id": "rabby-wallet",
+  "name": "Rabby Wallet",
+  "description": "The game-changing wallet for Ethereum and all EVM chains",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/Wallet/rabby-wallet.png",
+    "homepage": "https://rabby.io/",
+    "twitter": "https://x.com/Rabby_io",
+    "github": ""
+  }
+}

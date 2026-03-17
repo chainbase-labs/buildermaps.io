@@ -1,0 +1,10 @@
+{
+  "id": "mastercard",
+  "name": "Mastercard",
+  "description": "Worldwide payment leader advancing digital asset utility and programmable corporate card solutions.",
+  "links": {
+    "homepage": "https://www.mastercard.com/",
+    "logo": "/imgs/agentic-finance/mastercard.jpg",
+    "twitter": "https://x.com/Mastercard"
+  }
+}

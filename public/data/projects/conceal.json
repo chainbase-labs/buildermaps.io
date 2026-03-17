@@ -1,0 +1,11 @@
+{
+  "id": "conceal",
+  "name": "Conceal",
+  "description": "Conceal Network is a private, decentralized blockchain with encrypted messaging and banking.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/defi-wallets/conceal.png",
+    "homepage": "https://conceal.network/",
+    "twitter": "https://x.com/ConcealNetwork"
+  }
+}

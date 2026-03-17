@@ -1,0 +1,11 @@
+{
+  "id": "mina-protocol",
+  "name": "Mina Protocol",
+  "description": "Discover Mina Protocol, the lightest blockchain designed for secure, scalable decentralized applications. Start building or learn more.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/l1-l2/mina-protocol.png",
+    "homepage": "https://minaprotocol.com/",
+    "twitter": "https://x.com/MinaProtocol"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "aftermath",
+  "name": "Aftermath",
+  "description": "Aftermath Finance is a decentralized trading platform built on Sui, offering a DEX aggregator, liquid staking (afSUI), and more.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://aftermath.finance/",
+    "logo": "/imgs/Sui/DeFi/Aftermath.png",
+    "twitter": "https://x.com/AftermathFi"
+  }
+}

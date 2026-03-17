@@ -1,0 +1,11 @@
+{
+  "id": "hashed-em",
+  "name": "Hashed EM",
+  "description": "Emerging markets focused arm of Hashed.",
+  "location": "Asia",
+  "links": {
+    "logo": "/imgs/asian-vc/hashed-em.jpg",
+    "homepage": "https://www.hashedem.com/",
+    "twitter": "https://x.com/HashedEM"
+  }
+}

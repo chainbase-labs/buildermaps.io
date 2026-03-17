@@ -1,0 +1,12 @@
+{
+  "id": "mr-miggles",
+  "name": "Mr. Miggles",
+  "description": "Discover miggles on Base blockchain. Learn about crypto wallets, blockchain technology, and join our community.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/Meme/mr-miggles.png",
+    "homepage": "https://www.miggles.io/",
+    "twitter": "https://x.com/MrMigglesOnBase",
+    "github": ""
+  }
+}

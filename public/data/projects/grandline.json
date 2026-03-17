@@ -1,0 +1,11 @@
+{
+  "id": "grandline",
+  "name": "Grandline",
+  "description": "Grandline is a DeFi application on Pharos network.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/others/grandline.png",
+    "homepage": "https://app.grandline.world/atlantic/mint/0x983f280af2d271244d08808ea023549278fdea9d",
+    "twitter": "https://x.com/grandline_world"
+  }
+}

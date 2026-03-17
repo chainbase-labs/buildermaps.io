@@ -1,0 +1,11 @@
+{
+  "id": "giraft",
+  "name": "Giraft",
+  "description": "Prediction market platform.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "twitter": "https://x.com/giraftsports",
+    "logo": "/imgs/prediction_markets/Others/Giraft.jpg"
+  }
+}

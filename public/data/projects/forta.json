@@ -1,0 +1,13 @@
+{
+  "id": "forta",
+  "name": "Forta",
+  "description": "Forta Network decentralized security monitoring, $23M a16z/Coinbase, Ethereum/Polygon, 99% precision, FORT token staking, launched 2021",
+  "founded": 2021,
+  "funding": 23000000,
+  "links": {
+    "homepage": "https://www.forta.org/",
+    "logo": "/imgs/AI_Crypto/DevelopmentTools/Forta.jpg",
+    "twitter": "https://x.com/FortaNetwork",
+    "github": ""
+  }
+}

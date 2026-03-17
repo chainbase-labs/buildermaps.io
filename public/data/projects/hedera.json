@@ -1,0 +1,14 @@
+{
+  "id": "hedera",
+  "name": "Hedera",
+  "description": "Hedera Hashgraph enterprise blockchain, 10K+ TPS, 3-5s finality, $0.0008 tx cost, Google/IBM council governance, aBFT consensus",
+  "founded": 2018,
+  "funding": null,
+  "links": {
+    "homepage": "https://hedera.com/",
+    "logo": "https://s2.loli.net/2025/11/24/LlBbgn2Sw8qv3dU.jpg",
+    "twitter": "https://x.com/hedera",
+    "telegram": "https://t.me/hederahashgraph",
+    "linkedin": "https://www.linkedin.com/company/hedera-hashgraph"
+  }
+}

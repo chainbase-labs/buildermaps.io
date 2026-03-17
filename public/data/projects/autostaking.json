@@ -1,0 +1,11 @@
+{
+  "id": "autostaking",
+  "name": "AutoStaking",
+  "description": "AutoStaking is an automated staking and yield optimization platform.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/yield-farming/autostaking.png",
+    "homepage": "https://autostaking.pro/?env=pharos",
+    "twitter": "https://x.com/auto_staking"
+  }
+}

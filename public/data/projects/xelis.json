@@ -1,0 +1,11 @@
+{
+  "id": "xelis",
+  "name": "XELIS",
+  "description": "XELIS is the world's first BlockDAG with Privacy, Speed, Scalability and Smart Contracts.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/cash/xelis.png",
+    "homepage": "https://xelis.io/",
+    "twitter": "https://x.com/xelis_project"
+  }
+}

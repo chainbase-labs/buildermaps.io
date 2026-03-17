@@ -1,0 +1,12 @@
+{
+  "id": "paragraph",
+  "name": "Paragraph",
+  "description": "Where writers share, grow, and get paid — one post at a time.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/ConsumerApp/paragraph.png",
+    "homepage": "https://paragraph.com/",
+    "twitter": "https://x.com/paragraph_xyz",
+    "github": ""
+  }
+}

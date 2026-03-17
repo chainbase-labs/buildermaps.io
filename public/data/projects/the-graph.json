@@ -1,0 +1,13 @@
+{
+  "id": "the-graph",
+  "name": "The Graph",
+  "description": "Decentralized protocol for indexing and querying blockchain data across 90+ networks",
+  "founded": 2018,
+  "funding": 67500000,
+  "links": {
+    "homepage": "https://thegraph.com",
+    "logo": "/imgs/Data/Indexing/The Graph.jpg",
+    "twitter": "https://x.com/graphprotocol",
+    "github": ""
+  }
+}

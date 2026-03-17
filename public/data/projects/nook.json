@@ -1,0 +1,12 @@
+{
+  "id": "nook",
+  "name": "Nook",
+  "description": "Nook is the high-yield app for everyone. Earn more with transparent, open markets - not middlemen.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/ConsumerApp/nook.png",
+    "homepage": "https://nookapp.xyz/",
+    "twitter": "https://x.com/nook_platform",
+    "github": ""
+  }
+}

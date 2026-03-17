@@ -1,0 +1,18 @@
+{
+  "id": "chainlink",
+  "name": "Chainlink",
+  "description": "Industry-standard decentralized oracle network connecting smart contracts with real-world data and off-chain computation",
+  "founded": 2017,
+  "funding": 32000000,
+  "links": {
+    "homepage": "https://chain.link/",
+    "twitter": "https://x.com/chainlink",
+    "github": "https://github.com/smartcontractkit",
+    "telegram": "https://t.me/chainlinkofficial",
+    "discord": "https://discord.com/invite/chainlink",
+    "linkedin": "https://www.linkedin.com/company/chainlink-labs",
+    "medium": "https://blog.chain.link",
+    "reddit": "https://reddit.com/r/chainlink",
+    "logo": "/imgs/prediction_markets/Infra/Chainlink.jpg"
+  }
+}

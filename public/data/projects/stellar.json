@@ -1,0 +1,10 @@
+{
+  "id": "stellar",
+  "name": "Stellar",
+  "description": "Specialized decentralized network designed to accelerate cross-border payments and seamless fiat-to-crypto tokenization.",
+  "links": {
+    "homepage": "https://stellar.org/",
+    "logo": "/imgs/agentic-finance/stellar.jpg",
+    "twitter": "https://x.com/StellarOrg"
+  }
+}

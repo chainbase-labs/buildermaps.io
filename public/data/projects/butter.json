@@ -1,0 +1,12 @@
+{
+  "id": "butter",
+  "name": "Butter",
+  "description": "Prediction market platform.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://app.butter.markets/request-access",
+    "twitter": "https://x.com/butterygg",
+    "logo": "/imgs/prediction_markets/Others/Butter.jpg"
+  }
+}

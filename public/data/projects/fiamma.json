@@ -1,0 +1,11 @@
+{
+  "id": "fiamma",
+  "name": "Fiamma",
+  "description": "Fiamma - the most trust-minimized, dynamic Bitcoin",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/btcfi/fiamma.png",
+    "homepage": "https://fiammalabs.io/",
+    "twitter": "https://x.com/fiamma_labs"
+  }
+}

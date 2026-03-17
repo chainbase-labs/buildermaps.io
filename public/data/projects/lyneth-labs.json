@@ -1,0 +1,12 @@
+{
+  "id": "lyneth-labs",
+  "name": "Lyneth Labs",
+  "description": "Decentralized economies don't scale without verifiable trust. We're building the infrastructure to make trust work when agents replace intermediaries.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/DataandContext/lyneth-labs.png",
+    "homepage": "https://lyneth.ai/",
+    "twitter": "https://x.com/LynethLabs",
+    "github": ""
+  }
+}

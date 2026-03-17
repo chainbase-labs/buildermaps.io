@@ -1,0 +1,12 @@
+{
+  "id": "senpi",
+  "name": "Senpi",
+  "description": "Mirror the world’s best Hyperliquid traders with AI precision. Auto-trade every token on Base — powered by Senpi intelligence.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/AIAgent/senpi.png",
+    "homepage": "https://senpi.ai/",
+    "twitter": "https://x.com/senpi_ai",
+    "github": ""
+  }
+}

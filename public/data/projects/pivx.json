@@ -1,0 +1,11 @@
+{
+  "id": "pivx",
+  "name": "PIVX",
+  "description": "PIVX is a privacy-focused, Proof of Stake digital crypto currency. Enjoy the freedom of optional privacy while sending and receiving funds. Optional SHIELD transactions offered by the zk-SNARKs Sapling protocol.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/cash/pivx.png",
+    "homepage": "https://pivx.org/",
+    "twitter": "https://x.com/_PIVX"
+  }
+}

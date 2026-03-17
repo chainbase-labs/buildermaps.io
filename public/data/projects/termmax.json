@@ -1,0 +1,11 @@
+{
+  "id": "termmax",
+  "name": "TermMax ",
+  "description": "TermMax is a DeFi platform offering structured yield products.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/yield-farming/termmax.png",
+    "homepage": "https://app.termmax.ts.finance/alpha/call-put",
+    "twitter": "https://x.com/TermMaxFi"
+  }
+}

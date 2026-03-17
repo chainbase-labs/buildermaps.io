@@ -1,0 +1,12 @@
+{
+  "id": "hilomarket",
+  "name": "Hilomarket",
+  "description": "Decentralized, user-driven prediction platform on HILO Chain allowing users to create and validate markets.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://hilomarket.com/",
+    "twitter": "https://x.com/Hilomarket",
+    "logo": "/imgs/prediction_markets/Binary/Hilomarket.jpg"
+  }
+}

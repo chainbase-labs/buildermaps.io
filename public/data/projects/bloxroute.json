@@ -1,0 +1,13 @@
+{
+  "id": "bloxroute",
+  "name": "BloXroute",
+  "description": "Blockchain Distribution Network (BDN) Layer 0 scaling solution, 400-600ms faster propagation, frontrunning protection, neutral infrastructure",
+  "founded": 2018,
+  "funding": null,
+  "links": {
+    "homepage": "https://bloxroute.com/",
+    "logo": "/imgs/Data/Infra/bloxroute.jpg",
+    "twitter": "https://x.com/bloxroute",
+    "github": ""
+  }
+}

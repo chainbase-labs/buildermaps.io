@@ -1,0 +1,14 @@
+{
+  "id": "tusd",
+  "name": "TUSD",
+  "description": "Fully backed stablecoin with reserves in cash and short-term T-bills",
+  "founded": 2018,
+  "funding": null,
+  "links": {
+    "homepage": "https://tusd.io/",
+    "logo": "https://s2.loli.net/2025/11/24/1Mk9bVeRFnpglhB.png",
+    "twitter": "https://x.com/tusdio",
+    "telegram": "https://t.me/tusdofficial",
+    "reddit": "https://tusd.io"
+  }
+}

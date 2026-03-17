@@ -1,0 +1,13 @@
+{
+  "id": "santiment",
+  "name": "Santiment",
+  "description": "Santiment crypto social analytics 1954+ assets, Twitter/Reddit/Telegram sentiment, Emerging Trends FUD/FOMO detection, on-chain+social datasets, founded 2017",
+  "founded": 2017,
+  "funding": null,
+  "links": {
+    "homepage": "https://app.santiment.net/pricing/&fpr=twitter",
+    "logo": "/imgs/Data/Analytics/Santiment.jpg",
+    "twitter": "https://x.com/santimentfeed",
+    "github": ""
+  }
+}

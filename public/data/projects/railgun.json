@@ -1,0 +1,11 @@
+{
+  "id": "railgun",
+  "name": "RAILGUN",
+  "description": "RAILGUN is a DeFi privacy toolkit powering a rich on-chain Zero-Knowledge privacy ecosystem.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/defi-wallets/railgun.png",
+    "homepage": "https://railgun.org/",
+    "twitter": "https://x.com/RAILGUN_Project"
+  }
+}

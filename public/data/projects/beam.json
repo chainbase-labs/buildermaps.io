@@ -1,0 +1,11 @@
+{
+  "id": "beam",
+  "name": "Beam",
+  "description": "Beam offers privacy, confidential assets, DeFi, NFTs, DEX, and a seamless user experience in a secure, decentralized environment.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/defi-wallets/beam.png",
+    "homepage": "https://beam.mw/",
+    "twitter": "https://x.com/beamprivacy"
+  }
+}

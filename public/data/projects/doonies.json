@@ -1,0 +1,12 @@
+{
+  "id": "doonies",
+  "name": "Doonies",
+  "description": "Los Doonies is a collection of 4,444 generative PFP NFTs on Sui, granting access to a private community and staking rewards.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.doonies.io/",
+    "logo": "/imgs/Sui/NFT/Doonies.png",
+    "twitter": "https://x.com/LosDoonies"
+  }
+}

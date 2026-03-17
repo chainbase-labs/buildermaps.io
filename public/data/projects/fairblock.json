@@ -1,0 +1,11 @@
+{
+  "id": "fairblock",
+  "name": "Fairblock",
+  "description": "Fairblock provides threshold encryption infrastructure for MEV protection and privacy.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/confidential-compute/fairblock.png",
+    "homepage": "https://www.fairblock.network/",
+    "twitter": "https://x.com/0xfairblock"
+  }
+}

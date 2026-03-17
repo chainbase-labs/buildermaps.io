@@ -1,0 +1,13 @@
+{
+  "id": "sui-name-service",
+  "name": "Sui Name Service",
+  "description": "Your web3 identity for all things Sui!",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "logo": "/imgs/Sui/InfraandTools/SuiNameService.png",
+    "twitter": "",
+    "homepage": "https://fonts.gstatic.com",
+    "discord": "https://discord.gg/Vsjpghdhb3"
+  }
+}

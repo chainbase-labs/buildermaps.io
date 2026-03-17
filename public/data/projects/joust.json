@@ -1,0 +1,12 @@
+{
+  "id": "joust",
+  "name": "Joust",
+  "description": "Prediction market platform.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://app.joustonline.com/home",
+    "logo": "/imgs/prediction_markets/Social Prediction/Joust.jpg",
+    "twitter": "https://x.com/joustlabs_"
+  }
+}

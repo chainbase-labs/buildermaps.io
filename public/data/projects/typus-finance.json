@@ -1,0 +1,12 @@
+{
+  "id": "typus-finance",
+  "name": "Typus Finance",
+  "description": "Typus Finance is a real yield infrastructure that integrates swap, lending, and derivatives on Sui, focusing on DeFi Option Vaults.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://typus.finance/",
+    "logo": "/imgs/Sui/DeFi/Typus Finance.png",
+    "twitter": "https://x.com/TypusFinance"
+  }
+}

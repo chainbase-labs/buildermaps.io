@@ -1,0 +1,11 @@
+{
+  "id": "taceo",
+  "name": "TACEO",
+  "description": "TACEO: A network for private shared state. Don't share your data. Powered by coSNARKs and multiparty computation.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/confidential-compute/taceo.png",
+    "homepage": "https://taceo.io/",
+    "twitter": "https://x.com/TACEO_IO"
+  }
+}

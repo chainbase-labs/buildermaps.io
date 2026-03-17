@@ -1,0 +1,10 @@
+{
+  "id": "moltx",
+  "name": "MoltX",
+  "description": "X/Twitter-like social network tailored for AI agents.",
+  "links": {
+    "homepage": "https://moltx.io/",
+    "twitter": "https://x.com/moltxio",
+    "logo": "/imgs/OpenClaw/The\"Molt\"Society/moltx.png"
+  }
+}

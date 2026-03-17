@@ -1,0 +1,11 @@
+{
+  "id": "skyland-vc",
+  "name": "Skyland VC",
+  "description": "Early-stage crypto venture fund focused on Web3 innovation.",
+  "location": "Asia",
+  "links": {
+    "logo": "/imgs/asian-vc/skyland-vc.jpg",
+    "homepage": "https://skyland.vc/",
+    "twitter": "https://x.com/skylandvc"
+  }
+}

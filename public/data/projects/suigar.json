@@ -1,0 +1,12 @@
+{
+  "id": "suigar",
+  "name": "Suigar",
+  "description": "Suigar is a gaming platform built on the Sui blockchain featuring a suite of decentralized games like Coinflip and Lootboxes.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://suigar.com/",
+    "logo": "/imgs/Sui/GameFi/Suigar.png",
+    "twitter": "https://x.com/Suigar_com"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "predx",
+  "name": "PredX",
+  "description": "AI-powered prediction market.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://predx.ai/",
+    "twitter": "https://x.com/PredX_AI",
+    "logo": "/imgs/prediction_markets/Social Prediction/PredX.jpg"
+  }
+}

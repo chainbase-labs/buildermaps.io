@@ -1,0 +1,13 @@
+{
+  "id": "brkt",
+  "name": "BRKT",
+  "description": "Decentralized prediction market platform offering binary and bracket-based predictions for sports and esports.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.brkt.gg/",
+    "twitter": "https://x.com/BRKTgg",
+    "linktree": "https://linktr.ee/brktgg",
+    "logo": "/imgs/prediction_markets/Binary/BRKT.jpg"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "anoncoin",
+  "name": "Anoncoin",
+  "description": "Memecoin launchpad for anonymous KOLs😉",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/apps/anoncoin.png",
+    "homepage": "https://anoncoin.it/",
+    "twitter": "https://x.com/anoncoinit"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "nous-research",
+  "name": "Nous Research",
+  "description": "Applied research group focused on open-source LLM architecture and human-centric language models",
+  "founded": 2023,
+  "funding": null,
+  "links": {
+    "homepage": "http://nousresearch.com",
+    "logo": "/imgs/AI_Crypto/Training/NousResearch.jpg",
+    "twitter": "https://x.com/NousResearch",
+    "github": ""
+  }
+}

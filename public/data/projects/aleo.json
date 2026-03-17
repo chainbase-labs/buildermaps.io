@@ -1,0 +1,11 @@
+{
+  "id": "aleo",
+  "name": "Aleo ",
+  "description": "Aleo is the ultimate solution for fully private applications. Discover the ultimate toolkit to write, run, and host private applications today.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/l1-l2/aleo.png",
+    "homepage": "https://aleo.org/",
+    "twitter": "https://x.com/AleoHQ"
+  }
+}

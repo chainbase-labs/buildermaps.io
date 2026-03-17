@@ -1,0 +1,11 @@
+{
+  "id": "supra",
+  "name": "Supra",
+  "description": "Supra is the world's highest-performing, fully vertically integrated L1 blockchain, and it's about to change everything.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/oracle/supra.png",
+    "homepage": "https://supra.com/",
+    "twitter": "https://x.com/SUPRA_Labs"
+  }
+}

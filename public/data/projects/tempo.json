@@ -1,0 +1,10 @@
+{
+  "id": "tempo",
+  "name": "Tempo",
+  "description": "Blockchain infrastructure engineered to optimize the speed and cost-efficiency of automated financial settlements.",
+  "links": {
+    "homepage": "https://tempo.finance/",
+    "logo": "/imgs/agentic-finance/tempo.jpg",
+    "twitter": "https://x.com/tempo"
+  }
+}

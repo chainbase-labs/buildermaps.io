@@ -1,0 +1,11 @@
+{
+  "id": "spicenet",
+  "name": "Spicenet",
+  "description": "Spicenet is a cross-chain infrastructure project in the crypto ecosystem.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/cross-chain/spicenet.png",
+    "homepage": "https://x.com/spicenet",
+    "twitter": "https://spicenet.io/"
+  }
+}

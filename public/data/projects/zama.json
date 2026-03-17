@@ -1,0 +1,11 @@
+{
+  "id": "zama",
+  "name": "Zama",
+  "description": "Zama is an open source cryptography company that builds state-of-the-art Fully Homomorphic Encryption (FHE) solutions for blockchain. The Zama Confidential Blockchain Protocol enables confidential smart contracts on any L1 or L2.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/confidential-compute/zama.png",
+    "homepage": "https://www.zama.org/",
+    "twitter": "https://x.com/zama"
+  }
+}

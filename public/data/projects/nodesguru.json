@@ -1,0 +1,11 @@
+{
+  "id": "nodesguru",
+  "name": "Nodes.Guru",
+  "description": "Fast, simple and secure blockchain solution to stake your crypto assets and earn yields. Stake with the best validator. High performance. Delivered.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/validators/nodesguru.png",
+    "homepage": "https://nodes.guru/",
+    "twitter": "https://x.com/NodesGuru"
+  }
+}

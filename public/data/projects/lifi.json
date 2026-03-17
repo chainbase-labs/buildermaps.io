@@ -1,0 +1,11 @@
+{
+  "id": "lifi",
+  "name": "LI.FI",
+  "description": "Advanced Bridge & DEX Aggregation - Drive multichain strategies with cross-chain data messaging and get users from everywhere.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/cross-chain/lifi.png",
+    "homepage": "https://li.fi/",
+    "twitter": "https://x.com/lifiprotocol"
+  }
+}

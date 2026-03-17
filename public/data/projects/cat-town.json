@@ -1,0 +1,12 @@
+{
+  "id": "cat-town",
+  "name": "Cat Town",
+  "description": "Your cozy onchain home. Play, collect & earn.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/GameFi/cat-town.png",
+    "homepage": "https://cat.town/",
+    "twitter": "https://x.com/CatTownBase",
+    "github": ""
+  }
+}

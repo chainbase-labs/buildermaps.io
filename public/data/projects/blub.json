@@ -1,0 +1,13 @@
+{
+  "id": "blub",
+  "name": "Blub",
+  "description": "A degen fish in the waters of the Sui ocean.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "logo": "/imgs/Sui/Meme/Blub.png",
+    "twitter": "https://x.com/blubsui",
+    "homepage": "https://www.blubsui.com/",
+    "discord": "https://discord.gg/Vsjpghdhb3"
+  }
+}

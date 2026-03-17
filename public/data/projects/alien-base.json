@@ -1,0 +1,12 @@
+{
+  "id": "alien-base",
+  "name": "Alien Base",
+  "description": "👽 Alien Base is building the Base trading hub for efficiently trading tokens and memecoins onchain. Offering aggregated liquidity, limit orders, yield farming and more, Alien technology helps you use Base to the fullest.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/DeFi/alien-base.png",
+    "homepage": "https://alienbase.xyz/",
+    "twitter": "https://x.com/alienbasedex",
+    "github": ""
+  }
+}

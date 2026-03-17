@@ -1,0 +1,12 @@
+{
+  "id": "predict",
+  "name": "Predict",
+  "description": "Mobile app allowing users to launch prediction markets, create predictions, and earn creator fees.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://usepredict.app/",
+    "twitter": "https://x.com/UsePredict",
+    "logo": "/imgs/prediction_markets/Binary/Predict.jpg"
+  }
+}

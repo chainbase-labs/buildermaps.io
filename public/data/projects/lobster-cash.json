@@ -1,0 +1,9 @@
+{
+  "id": "lobster-cash",
+  "name": "lobster.cash",
+  "description": "Decentralized protocol designed to facilitate frictionless token transfers and automated liquidity routing.",
+  "links": {
+    "homepage": "https://www.lobster.cash/",
+    "logo": "/imgs/agentic-finance/lobster-cash.svg"
+  }
+}

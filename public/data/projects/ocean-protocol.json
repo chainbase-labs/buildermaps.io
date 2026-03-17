@@ -1,0 +1,13 @@
+{
+  "id": "ocean-protocol",
+  "name": "Ocean Protocol",
+  "description": "Data marketplace enabling AI model and data monetization through tokenization while preserving privacy",
+  "founded": 2017,
+  "funding": 28000000,
+  "links": {
+    "homepage": "http://oceanprotocol.com",
+    "logo": "/imgs/Data/Marketplaces/Ocean Protocol.jpg",
+    "twitter": "https://x.com/oceanprotocol",
+    "github": ""
+  }
+}

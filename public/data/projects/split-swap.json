@@ -1,0 +1,11 @@
+{
+  "id": "split-swap",
+  "name": "Split Swap",
+  "description": "SplitSwap is a privacy-enhanced Solana L2 that lets you shield, swap, and send tokens discreetly. Protect your on-chain activity with private balances, anti-MEV execution, and multi-wallet distribution. Fast, secure, self-custodial.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/mixers/split-swap.png",
+    "homepage": "https://splitswap.pro/shield",
+    "twitter": "https://x.com/Split_Swap"
+  }
+}

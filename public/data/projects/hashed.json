@@ -1,0 +1,11 @@
+{
+  "id": "hashed",
+  "name": "Hashed",
+  "description": "Korea's leading blockchain-focused venture fund backing global Web3 projects.",
+  "location": "Seoul, Korea",
+  "links": {
+    "logo": "/imgs/asian-vc/hashed.jpg",
+    "homepage": "https://www.hashed.com/",
+    "twitter": "https://x.com/hashed_official"
+  }
+}

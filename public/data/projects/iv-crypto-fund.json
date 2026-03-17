@@ -1,0 +1,11 @@
+{
+  "id": "iv-crypto-fund",
+  "name": "IV Crypto Fund",
+  "description": "Crypto-native investment fund backing Web3 projects.",
+  "location": "Asia",
+  "links": {
+    "logo": "/imgs/asian-vc/iv-crypto-fund.jpg",
+    "homepage": "https://www.ivcrypto.io/",
+    "twitter": "https://x.com/ivcryptofund"
+  }
+}

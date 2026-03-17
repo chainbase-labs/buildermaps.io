@@ -1,0 +1,15 @@
+{
+  "id": "solana",
+  "name": "Solana",
+  "description": "High-performance blockchain for payments and DeFi",
+  "founded": 2020,
+  "funding": 314000000,
+  "links": {
+    "homepage": "https://solana.com/",
+    "logo": "https://s2.loli.net/2025/11/24/teOpUFhKSd4aT5x.jpg",
+    "twitter": "https://x.com/solana",
+    "discord": "https://discord.gg/solana",
+    "linkedin": "https://www.linkedin.com/company/solana-labs",
+    "youtube": "https://solana.com"
+  }
+}

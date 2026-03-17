@@ -1,0 +1,13 @@
+{
+  "id": "testmachine",
+  "name": "TestMachine",
+  "description": "TestMachine AI blockchain security $2M Michigan Founders Fund/Decasonic smart contract auditing real-time testing platform",
+  "founded": 2023,
+  "funding": null,
+  "links": {
+    "homepage": "http://testmachine.ai",
+    "logo": "/imgs/AI_Crypto/DevelopmentTools/TestMachine.jpg",
+    "twitter": "https://x.com/testmachine_ai",
+    "github": ""
+  }
+}

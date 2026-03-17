@@ -1,0 +1,12 @@
+{
+  "id": "world",
+  "name": "World",
+  "description": "Identity, finance and community for every human.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/Blockchains/world.png",
+    "homepage": "https://world.org/",
+    "twitter": "https://x.com/worldcoin",
+    "github": ""
+  }
+}

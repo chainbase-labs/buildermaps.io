@@ -1,0 +1,11 @@
+{
+  "id": "dwf-ventures",
+  "name": "DWF Ventures",
+  "description": "Investment arm of DWF Labs focused on Web3.",
+  "location": "Singapore",
+  "links": {
+    "logo": "/imgs/asian-vc/dwf-ventures.jpg",
+    "homepage": "https://www.dwf-labs.com/ventures",
+    "twitter": "https://x.com/DWFVentures"
+  }
+}

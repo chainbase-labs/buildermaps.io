@@ -1,0 +1,11 @@
+{
+  "id": "sevenx-ventures",
+  "name": "SevenX Ventures",
+  "description": "Asia-focused crypto fund investing in Web3 and DeFi protocols.",
+  "location": "Asia",
+  "links": {
+    "logo": "/imgs/asian-vc/sevenx-ventures.jpg",
+    "homepage": "https://www.7xvc.com/",
+    "twitter": "https://x.com/SevenXVentures"
+  }
+}

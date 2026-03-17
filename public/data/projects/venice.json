@@ -1,0 +1,12 @@
+{
+  "id": "venice",
+  "name": "Venice",
+  "description": "VPN/privacy layer for AI models – anonymized inference and cost reduction.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/OpenClaw/Compute&Data/venice.png",
+    "homepage": "https://askvenice.ai/",
+    "twitter": "https://x.com/AskVenice",
+    "github": ""
+  }
+}

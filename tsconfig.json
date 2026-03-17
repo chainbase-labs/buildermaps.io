@@ -2,8 +2,13 @@
   "extends": "ts-config-single-spa",
   "compilerOptions": {
     "jsx": "react-jsx",
-    "declarationDir": "dist"
+    "declarationDir": "dist",
+    "target": "ES2020",
+    "lib": ["DOM", "ES2020"],
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
   },
   "files": ["src/chainbase-labs-buildermaps-io.tsx"],
-  "include": ["src/**/*"],
+  "include": ["src/**/*"]
 }

@@ -1,0 +1,12 @@
+{
+  "id": "orgtrust-eth",
+  "name": "OrgTrust.eth",
+  "description": "The CommerceCore Ontology provides a structured framework to support intent-driven workflows and consumer value driven engagement by defining fundamental concepts and relationships for eCommerce-related activities. This ontology enables organizations to create more intelligent, context-aware, and",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/DevelopersTooling/orgtrust-eth.png",
+    "homepage": "https://www.richcanvas3.com/",
+    "twitter": "https://x.com/8004agent",
+    "github": ""
+  }
+}

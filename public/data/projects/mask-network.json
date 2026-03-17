@@ -1,0 +1,11 @@
+{
+  "id": "mask-network",
+  "name": "Mask Network",
+  "description": "Web3 social network protocol and investment entity.",
+  "location": "Asia",
+  "links": {
+    "logo": "/imgs/asian-vc/mask-network.jpg",
+    "homepage": "https://www.mask.io/",
+    "twitter": "https://x.com/masknetwork"
+  }
+}

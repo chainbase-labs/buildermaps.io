@@ -1,0 +1,11 @@
+{
+  "id": "session",
+  "name": "Session",
+  "description": "Session is an end-to-end encrypted messenger that minimizes metadata collection.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/private-messaging/session.png",
+    "homepage": "https://getsession.org/",
+    "twitter": "https://x.com/session_app"
+  }
+}

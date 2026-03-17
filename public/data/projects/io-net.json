@@ -1,0 +1,13 @@
+{
+  "id": "io-net",
+  "name": "io.net",
+  "description": "Decentralized GPU cloud for AI workloads, 25K+ nodes, 70-90% cost savings vs AWS/GCP, Solana-based, ParallelAI partnership",
+  "founded": 2023,
+  "funding": null,
+  "links": {
+    "homepage": "https://io.net",
+    "logo": "/imgs/AI_Crypto/Compute/io.net.jpg",
+    "twitter": "https://x.com/ionet",
+    "github": ""
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "aerodrome",
+  "name": "Aerodrome",
+  "description": "Aerodrome Finance: The central liquidity hub on Base network.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/DeFi/aerodrome.png",
+    "homepage": "https://aerodrome.finance/",
+    "twitter": "https://x.com/AerodromeFi",
+    "github": ""
+  }
+}

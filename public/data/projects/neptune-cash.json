@@ -1,0 +1,11 @@
+{
+  "id": "neptune-cash",
+  "name": "Neptune Cash",
+  "description": "Neptune Cash is a privacy-focused cryptocurrency with zero-knowledge proof technology.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/cash/neptune-cash.png",
+    "homepage": "http://airdrop-neptune.cash/",
+    "twitter": "https://x.com/NeptuneCash"
+  }
+}

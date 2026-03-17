@@ -1,0 +1,135 @@
+{
+  "sector": "Pharos",
+  "types": [
+    {
+      "id": "btcfi",
+      "name": "BTCfi",
+      "projects": ["fiamma"]
+    },
+    {
+      "id": "block-explorer",
+      "name": "Block Explorer",
+      "projects": ["hemera", "layerhub"]
+    },
+    {
+      "id": "cross-chain",
+      "name": "Cross-Chain",
+      "projects": [
+        "chainlink",
+        "orbiter",
+        "jumper",
+        "concero",
+        "lifi",
+        "spicenet"
+      ]
+    },
+    {
+      "id": "custodian",
+      "name": "Custodian",
+      "projects": ["anchorage-digital"]
+    },
+    {
+      "id": "dex",
+      "name": "DEX",
+      "projects": [
+        "bitverse",
+        "zenith",
+        "faroswap",
+        "euclid-protocol",
+        "zentrafi"
+      ]
+    },
+    {
+      "id": "indexer",
+      "name": "Indexer",
+      "projects": ["goldsky"]
+    },
+    {
+      "id": "lst",
+      "name": "LST",
+      "projects": ["bifrost", "pharos-verse"]
+    },
+    {
+      "id": "lending",
+      "name": "Lending",
+      "projects": ["morpho", "openfi"]
+    },
+    {
+      "id": "multisig",
+      "name": "Multisig",
+      "projects": ["safe-wallet"]
+    },
+    {
+      "id": "oracle",
+      "name": "Oracle",
+      "projects": ["supra", "blocksense"]
+    },
+    {
+      "id": "others",
+      "name": "Others",
+      "projects": ["grandline", "pns", "gotchipus", "goosebox", "primus"]
+    },
+    {
+      "id": "payment",
+      "name": "Payment",
+      "projects": [
+        "moveflow",
+        "intuipay",
+        "zkp2p",
+        "kaiju",
+        "payzoll",
+        "neoweave",
+        "arrival-x"
+      ]
+    },
+    {
+      "id": "perpdex",
+      "name": "Perpdex",
+      "projects": ["fufuture", "brokex-protocol", "elfi"]
+    },
+    {
+      "id": "rpc",
+      "name": "RPC",
+      "projects": ["zan", "nirvana-labs"]
+    },
+    {
+      "id": "rwa",
+      "name": "RWA",
+      "projects": [
+        "spout-finance",
+        "aquaflux",
+        "r2-protocol",
+        "asseto",
+        "r25",
+        "porto",
+        "superreturn"
+      ]
+    },
+    {
+      "id": "validators",
+      "name": "Validators",
+      "projects": [
+        "snz",
+        "hashkey-cloud",
+        "ruby-nodes",
+        "staking4all",
+        "alchemy",
+        "kudasai",
+        "certik",
+        "allnodes",
+        "nodesguru",
+        "bcw-group"
+      ]
+    },
+    {
+      "id": "wallet",
+      "name": "Wallet",
+      "projects": ["okx-wallet", "bitget-wallet", "topnod"]
+    },
+    {
+      "id": "yield-farming",
+      "name": "Yield Farming",
+      "projects": ["autostaking", "termmax", "cian"]
+    }
+  ]
+}

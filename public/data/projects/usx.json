@@ -1,0 +1,15 @@
+{
+  "id": "usx",
+  "name": "USX",
+  "description": "Solana stablecoin backed by USDC/USDT with yield from off-chain arbitrage",
+  "founded": 2025,
+  "funding": null,
+  "links": {
+    "homepage": "https://solstice.finance/",
+    "logo": "https://s2.loli.net/2025/11/24/LHTaIX7kRyrxqY6.png",
+    "twitter": "https://x.com/solsticefi",
+    "telegram": "https://t.me/solsticefinance",
+    "discord": "https://discord.gg/solstice",
+    "reddit": "https://solstice.finance"
+  }
+}

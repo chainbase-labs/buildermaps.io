@@ -1,0 +1,11 @@
+{
+  "id": "nillion",
+  "name": "Nillion",
+  "description": "Humanity's first blind computer for high value data",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/confidential-compute/nillion.png",
+    "homepage": "https://nillion.com/",
+    "twitter": "https://x.com/nillion"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "magma",
+  "name": "Magma",
+  "description": "Magma Finance is an adaptive liquidity layer and AMM DEX on the Sui Network, focused on solving the 'Launch-and-Sustain' problem for assets.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://magmafinance.io/",
+    "logo": "/imgs/Sui/DeFi/Magma.png",
+    "twitter": "https://x.com/Magma_Finance"
+  }
+}

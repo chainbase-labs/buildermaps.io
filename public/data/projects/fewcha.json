@@ -1,0 +1,13 @@
+{
+  "id": "fewcha",
+  "name": "Fewcha",
+  "description": "Fewcha is a non-custodial wallet built for the Move ecosystem (Sui & Aptos), offering secure, self-custody for tokens, NFTs, and DeFi assets.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "logo": "/imgs/Sui/Wallets/Fewcha.png",
+    "twitter": "https://x.com/fewchawallet",
+    "homepage": "https://fewcha.app/",
+    "discord": "https://discord.gg/Vsjpghdhb3"
+  }
+}

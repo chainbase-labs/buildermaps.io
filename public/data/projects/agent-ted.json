@@ -1,0 +1,13 @@
+{
+  "id": "agent-ted",
+  "name": "Agent Ted",
+  "description": "Prediction market bot interface.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://tedtech.ai/",
+    "twitter": "https://x.com/TheAgentTed",
+    "linktree": "https://linktr.ee/TheAgentTed",
+    "logo": "/imgs/prediction_markets/Others/Agent Ted.jpg"
+  }
+}

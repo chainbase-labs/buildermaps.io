@@ -1,0 +1,13 @@
+{
+  "id": "ika",
+  "name": "Ika",
+  "description": "Ika is the first sub-second MPC network on Sui.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "logo": "/imgs/Sui/InfraTools/Ika.png",
+    "twitter": "https://x.com/ikadotxyz",
+    "homepage": "https://ika.xyz/",
+    "discord": "https://discord.gg/Vsjpghdhb3"
+  }
+}

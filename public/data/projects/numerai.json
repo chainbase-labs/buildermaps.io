@@ -1,0 +1,13 @@
+{
+  "id": "numerai",
+  "name": "Numerai",
+  "description": "Numerai AI hedge fund 5.5K+ data scientists, crowdsourced ML models, NMR staking, $100M inflows 2022, 25.5% return 2024, founded 2015",
+  "founded": 2015,
+  "funding": 23000000,
+  "links": {
+    "homepage": "https://numer.ai",
+    "logo": "/imgs/Data/Marketplaces/numerai.jpg",
+    "twitter": "https://x.com/numerai",
+    "github": ""
+  }
+}

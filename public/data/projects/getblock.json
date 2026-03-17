@@ -1,0 +1,13 @@
+{
+  "id": "getblock",
+  "name": "GetBlock",
+  "description": "GetBlock Web3 RPC provider since 2019, 55+ blockchains, 99.99% uptime, REST/JSON-RPC/WebSocket APIs, full/archive nodes, 24/7 support",
+  "founded": 2019,
+  "funding": null,
+  "links": {
+    "homepage": "https://getblock.io/?utm_source=x&utm_medium=social/",
+    "logo": "/imgs/Data/Infra/GetBlock.jpg",
+    "twitter": "https://x.com/getblockio",
+    "github": ""
+  }
+}

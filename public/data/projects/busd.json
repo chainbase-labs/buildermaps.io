@@ -1,0 +1,15 @@
+{
+  "id": "busd",
+  "name": "BUSD",
+  "description": "Binance stablecoin backed by cash and U.S. Treasury bills (discontinued 2024)",
+  "founded": 2019,
+  "funding": null,
+  "links": {
+    "homepage": "https://bit.ly/BinanceCryptoApp",
+    "logo": "https://s2.loli.net/2025/11/24/kTs5fvCjpn9cWzm.png",
+    "twitter": "https://x.com/binance",
+    "telegram": "https://t.me/binanceexchange",
+    "linkedin": "https://www.linkedin.com/company/binance",
+    "reddit": "https://www.binance.com/en/busd"
+  }
+}

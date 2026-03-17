@@ -1,0 +1,11 @@
+{
+  "id": "mysterium-network",
+  "name": "Mysterium Network",
+  "description": "Mysterium Network is a decentralized VPN and privacy infrastructure built on blockchain.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/network/mysterium-network.png",
+    "homepage": "https://www.mysterium.network/",
+    "twitter": "https://x.com/MysteriumNet"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "arcium",
+  "name": "Arcium",
+  "description": "The encrypted supercomputer.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/confidential-compute/arcium.png",
+    "homepage": "https://www.arcium.com/",
+    "twitter": "https://x.com/Arcium"
+  }
+}

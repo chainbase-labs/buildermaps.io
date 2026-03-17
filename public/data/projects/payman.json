@@ -1,0 +1,10 @@
+{
+  "id": "payman",
+  "name": "Payman",
+  "description": "Gateway engineered specifically to grant artificial intelligence the ability to send and receive monetary value.",
+  "links": {
+    "homepage": "https://paymanai.com/",
+    "logo": "/imgs/agentic-finance/payman.jpg",
+    "twitter": "https://x.com/PaymanAI"
+  }
+}

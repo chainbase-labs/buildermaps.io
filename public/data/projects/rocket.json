@@ -1,0 +1,12 @@
+{
+  "id": "rocket",
+  "name": "Rocket",
+  "description": "Prediction market platform.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://userocket.app/",
+    "logo": "/imgs/prediction_markets/Bot Inferface/Rocket.jpg",
+    "twitter": "https://x.com/userocket_app"
+  }
+}

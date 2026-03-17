@@ -1,0 +1,12 @@
+{
+  "id": "flowx",
+  "name": "FlowX",
+  "description": "FlowX Finance is an ecosystem-focused decentralized exchange (DEX) and liquidity aggregator built on the Sui Blockchain.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://flowx.finance/",
+    "logo": "/imgs/Sui/DeFi/FlowX.png",
+    "twitter": "https://x.com/FlowX_finance"
+  }
+}

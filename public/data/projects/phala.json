@@ -1,0 +1,13 @@
+{
+  "id": "phala",
+  "name": "Phala",
+  "description": "Phala Network confidential smart contracts TEE-Blockchain hybrid, Polkadot parachain, dstack TEE framework, MPC/ZKP verification, AI Cloud computing",
+  "founded": 2018,
+  "funding": null,
+  "links": {
+    "homepage": "https://phala.com",
+    "logo": "/imgs/AI_Crypto/Compute/Phala.jpg",
+    "twitter": "https://x.com/PhalaNetwork",
+    "github": ""
+  }
+}

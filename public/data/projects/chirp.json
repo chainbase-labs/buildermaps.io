@@ -1,0 +1,13 @@
+{
+  "id": "chirp",
+  "name": "Chirp",
+  "description": "Chirp is a DePIN network and IoT ecosystem designed for real-world assets (RWA), enabling seamless communication between devices, the internet, and blockchain.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "logo": "/imgs/Sui/InfraTools/Chirp.png",
+    "twitter": "https://x.com/ChirpDeWi",
+    "homepage": "https://chirptoken.io/",
+    "discord": "https://discord.gg/Vsjpghdhb3"
+  }
+}

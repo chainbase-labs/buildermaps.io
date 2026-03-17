@@ -1,0 +1,11 @@
+{
+  "id": "aleph-zero",
+  "name": "Aleph Zero",
+  "description": "Aleph Zero is a layer 1 blockchain with built-in privacy features using zero-knowledge proofs.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/l1-l2/aleph-zero.png",
+    "homepage": "https://alephzero.org/",
+    "twitter": "https://x.com/Aleph__Zero"
+  }
+}

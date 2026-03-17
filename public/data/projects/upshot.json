@@ -1,0 +1,11 @@
+{
+  "id": "upshot",
+  "name": "Upshot",
+  "description": "Prediction market platform.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "logo": "/imgs/prediction_markets/Others/Upshot.jpg",
+    "twitter": "https://x.com/upshot_cards"
+  }
+}

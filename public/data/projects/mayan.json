@@ -1,0 +1,12 @@
+{
+  "id": "mayan",
+  "name": "Mayan",
+  "description": "Mayan Finance is a lightning-fast, intent-based cross-chain swap protocol supporting transfers between Sui, Solana, Ethereum, and more.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://mayan.finance/",
+    "logo": "/imgs/Sui/Bridge/Mayan.png",
+    "twitter": "https://x.com/MayanFinance"
+  }
+}

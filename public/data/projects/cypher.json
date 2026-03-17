@@ -1,0 +1,12 @@
+{
+  "id": "cypher",
+  "name": "Cypher",
+  "description": "Cypher Card offers a globally available crypto card for spending cryptocurrency like Ethereum and Solana. Easily convert crypto to fiat and spend worldwide.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/Infra/cypher.png",
+    "homepage": "https://cypherhq.io/card/?ref=X",
+    "twitter": "https://x.com/Cypher_HQ_",
+    "github": ""
+  }
+}

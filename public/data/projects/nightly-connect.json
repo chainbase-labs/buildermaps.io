@@ -1,0 +1,13 @@
+{
+  "id": "nightly-connect",
+  "name": "Nightly Connect",
+  "description": "Nightly Connect is a permissionless, open-source wallet adapter and bridge that simplifies wallet integration for dApps.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "logo": "/imgs/Sui/InfraTools/Nightly Connect.png",
+    "twitter": "https://x.com/NightlyConnect",
+    "homepage": "https://nightly.app/",
+    "discord": "https://discord.gg/Vsjpghdhb3"
+  }
+}

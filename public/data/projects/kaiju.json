@@ -1,0 +1,11 @@
+{
+  "id": "kaiju",
+  "name": "Kaiju",
+  "description": "At Kaiju Finance, we redefine DeFi lending by connecting on-chain borrowing with real-world payments. Unlike traditional lending protocols focusing solely on DeFi strategies, our payment-integrated lending model allows users to borrow against their crypto and spend seamlessly through our partnered payment systems.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/payment/kaiju.png",
+    "homepage": "https://www.kaiju.fi/",
+    "twitter": "https://x.com/kaijufinance"
+  }
+}

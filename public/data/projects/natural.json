@@ -1,0 +1,10 @@
+{
+  "id": "natural",
+  "name": "Natural",
+  "description": "Web3 gateway customized for handling programmable financial workflows and machine to machine settlements.",
+  "links": {
+    "homepage": "https://naturalpay.io/",
+    "logo": "/imgs/agentic-finance/natural.jpg",
+    "twitter": "https://x.com/naturalpay"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "blockberry-api",
+  "name": "Blockberry API",
+  "description": "Blockberry is a multichain API platform by Staketab, providing rich, reliable, and scalable blockchain data for Web3 applications.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "logo": "/imgs/Sui/Analytics/Blockberry API.png",
+    "twitter": "https://x.com/blockberry_api",
+    "homepage": "https://blockberry.one/",
+    "discord": "https://discord.gg/Vsjpghdhb3"
+  }
+}

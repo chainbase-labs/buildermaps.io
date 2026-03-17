@@ -1,0 +1,12 @@
+{
+  "id": "betmoar",
+  "name": "Betmoar",
+  "description": "Prediction market analytics and trading interface for Polymarket with UMA integration.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.betmoar.fun/",
+    "twitter": "https://x.com/betmoardotfun",
+    "logo": "/imgs/prediction_markets/Binary/Betmoar.jpg"
+  }
+}

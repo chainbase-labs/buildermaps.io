@@ -1,0 +1,12 @@
+{
+  "id": "bodega",
+  "name": "Bodega",
+  "description": "Open-source prediction market protocol on Cardano leveraging smart contracts for secure forecasting.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://v3.bodegamarket.io/",
+    "twitter": "https://x.com/BodegaCardano",
+    "logo": "/imgs/prediction_markets/Binary/Bodega.jpg"
+  }
+}

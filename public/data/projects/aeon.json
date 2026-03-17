@@ -1,0 +1,14 @@
+{
+  "id": "aeon",
+  "name": "AEON",
+  "description": "Aeon provides MPC wallet infrastructure for individual traders, venture funds and DAOs active onchain. Truly decentralised. Permissionless. More than just custody.",
+  "founded": 2014,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.aeon.cash/en/home",
+    "logo": "/imgs/Sui/Analytics/AEON.png",
+    "twitter": "https://twitter.com/aeonix_network",
+    "telegram": "https://t.me/aeonix_network",
+    "discord": "https://discord.gg/Vsjpghdhb3"
+  }
+}

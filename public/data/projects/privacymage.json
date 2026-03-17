@@ -1,0 +1,12 @@
+{
+  "id": "privacymage",
+  "name": "privacymage",
+  "description": "agentprivacy - just another mage swordsman",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/Agents/privacymage.png",
+    "homepage": "https://agentprivacy.ai/",
+    "twitter": "https://x.com/privacymage",
+    "github": ""
+  }
+}

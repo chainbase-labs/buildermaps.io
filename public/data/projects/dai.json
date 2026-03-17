@@ -1,0 +1,16 @@
+{
+  "id": "dai",
+  "name": "DAI",
+  "description": "Decentralized stablecoin backed by overcollateralized crypto assets via MakerDAO",
+  "founded": 2017,
+  "funding": null,
+  "links": {
+    "homepage": "https://makerdao.com/en/",
+    "logo": "https://s2.loli.net/2025/11/24/cZMKPE5aiuQV8vI.png",
+    "twitter": "https://x.com/MakerDAO",
+    "telegram": "https://t.me/makerdaoofficial",
+    "discord": "https://discord.gg/makerdao",
+    "linkedin": "https://www.linkedin.com/company/makerdao",
+    "reddit": "https://reddit.com/r/MakerDAO"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sector": "Uncategorized",
+  "types": [
+    {
+      "id": "general",
+      "name": "General",
+      "projects": ["four-pillars"]
+    },
+    {
+      "id": "identity",
+      "name": "Identity",
+      "projects": ["karrier-one"]
+    },
+    {
+      "id": "payments",
+      "name": "Payments",
+      "projects": ["spritz-finance"]
+    },
+    {
+      "id": "walrus",
+      "name": "Walrus",
+      "projects": ["tusky"]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "nirvana-labs",
+  "name": "Nirvana Labs",
+  "description": "High Clock Speed Compute. Low Latency Storage. Radically Cheaper Bandwidth.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/rpc/nirvana-labs.png",
+    "homepage": "https://nirvanalabs.io/",
+    "twitter": "https://x.com/nirvanalabsai"
+  }
+}

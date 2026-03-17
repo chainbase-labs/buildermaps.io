@@ -1,0 +1,13 @@
+{
+  "id": "lucky-kat",
+  "name": "Lucky Kat",
+  "description": "Lucky Kat Studio is an independent game development and publishing studio based in the Netherlands, known for its mobile pixel art games with a pop-culture twist. With a gameplay-first approach, the studio is expanding into the metaverse, creating engaging and accessible experiences.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "logo": "/imgs/Sui/Games/Lucky Kat.png",
+    "twitter": "https://x.com/LuckyKatStudios",
+    "homepage": "https://www.lucky-kat.com/",
+    "discord": "https://discord.gg/Vsjpghdhb3"
+  }
+}

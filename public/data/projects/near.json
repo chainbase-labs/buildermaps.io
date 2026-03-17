@@ -1,0 +1,13 @@
+{
+  "id": "near",
+  "name": "Near",
+  "description": "NEAR Protocol Layer 1 blockchain for AI, Nightshade sharding, climate-neutral, low fees, AI-native apps, user-owned agents, PoS consensus",
+  "founded": 2020,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.near.org/",
+    "logo": "/imgs/AI_Crypto/Infra/NEAR.jpg",
+    "twitter": "https://x.com/NEARProtocol",
+    "telegram": "https://t.me/cryptonear"
+  }
+}

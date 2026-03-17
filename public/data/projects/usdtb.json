@@ -1,0 +1,15 @@
+{
+  "id": "usdtb",
+  "name": "USDtb",
+  "description": "Treasury-backed stablecoin with 90% reserves in BlackRock's BUIDL fund",
+  "founded": 2024,
+  "funding": null,
+  "links": {
+    "homepage": "https://usdtb.money/",
+    "logo": "https://s2.loli.net/2025/11/24/qU1hP6yloAOINQ5.png",
+    "twitter": "https://x.com/ethena_labs",
+    "medium": "https://medium.com/ethena-labs",
+    "linkedin": "https://www.linkedin.com/company/ethena-labs",
+    "reddit": "https://usdtb.money"
+  }
+}

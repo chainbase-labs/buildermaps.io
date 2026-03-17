@@ -1,0 +1,12 @@
+{
+  "id": "linea-eth",
+  "name": "Linea.eth",
+  "description": "Linea is the Layer 2 network built from first principles to strengthen Ethereum and the entire ETH economy.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/Blockchains/linea-eth.png",
+    "homepage": "https://linea.build/",
+    "twitter": "https://x.com/LineaBuild",
+    "github": ""
+  }
+}

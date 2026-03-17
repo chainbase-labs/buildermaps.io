@@ -1,0 +1,14 @@
+{
+  "id": "aurracloud",
+  "name": "AurraCloud",
+  "description": "Aurora Cloud EVM deployment platform on NEAR Protocol, serverless functions and cloud infrastructure for Web3 developers",
+  "founded": 2020,
+  "funding": null,
+  "links": {
+    "homepage": "https://aurracloud.com/",
+    "logo": "https://s2.loli.net/2025/11/24/lVtLdmF8GS2jCQ3.jpg",
+    "twitter": "https://x.com/AurraCloud",
+    "telegram": "https://t.me/auroraisnear",
+    "discord": "https://discord.gg/auroralabs"
+  }
+}

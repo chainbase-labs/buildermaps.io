@@ -1,0 +1,11 @@
+{
+  "id": "privado-id",
+  "name": "Privado ID",
+  "description": "Privado ID provides privacy focused tools to put users in control of their identity across every digital surface. Make identity better.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/identity/privado-id.png",
+    "homepage": "https://www.privado.id/",
+    "twitter": "https://x.com/PrivadoID"
+  }
+}

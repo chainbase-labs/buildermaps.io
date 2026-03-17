@@ -1,0 +1,13 @@
+{
+  "id": "kuzu",
+  "name": "Kuzu",
+  "description": "KuzuDB embedded graph database MIT license Cypher queries not blockchain abandoned Oct 2025",
+  "founded": 2023,
+  "funding": null,
+  "links": {
+    "homepage": "https://kuzudb.com",
+    "logo": "/imgs/AI_Crypto/Inference/Kuzu.jpg",
+    "twitter": "https://x.com/kuzudb",
+    "github": ""
+  }
+}

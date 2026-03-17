@@ -1,0 +1,13 @@
+{
+  "id": "lens-protocol",
+  "name": "Lens Protocol",
+  "description": "Decentralized social graph on Polygon blockchain enabling Web3 social media platforms with user-owned content",
+  "founded": 2022,
+  "funding": 31000000,
+  "links": {
+    "homepage": "https://www.lens.xyz",
+    "logo": "/imgs/Data/Provenance/Lens Protocol.jpg",
+    "twitter": "https://x.com/LC",
+    "github": ""
+  }
+}

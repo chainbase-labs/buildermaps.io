@@ -1,0 +1,11 @@
+{
+  "id": "tbv",
+  "name": "TBV",
+  "description": "Taiwan-based blockchain venture fund.",
+  "location": "Asia",
+  "links": {
+    "logo": "/imgs/asian-vc/tbv.jpg",
+    "homepage": "https://www.tbv.xyz/",
+    "twitter": "https://x.com/tbvxyz"
+  }
+}

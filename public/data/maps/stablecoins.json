@@ -1,0 +1,97 @@
+{
+  "sector": "Stablecoins",
+  "types": [
+    {
+      "id": "crypto-backed",
+      "name": "Crypto Backed",
+      "projects": [
+        "bold",
+        "crvusd",
+        "dai",
+        "dola",
+        "dusd",
+        "frxusd",
+        "gho",
+        "iusd",
+        "lusd",
+        "usda",
+        "usdd",
+        "usde",
+        "usdf",
+        "usds",
+        "usr"
+      ]
+    },
+    {
+      "id": "infra",
+      "name": "Infra",
+      "projects": [
+        "3jane",
+        "acctual",
+        "alchemy-pay",
+        "bitwave",
+        "bridge",
+        "cedar",
+        "convex",
+        "curve",
+        "moonpay",
+        "neutrl",
+        "onramper",
+        "paxos",
+        "perena",
+        "reserve-protocol",
+        "sphere",
+        "stripe",
+        "transak",
+        "worldpay",
+        "xmoney"
+      ]
+    },
+    {
+      "id": "non-usd",
+      "name": "Non-USD",
+      "projects": [
+        "ceur",
+        "eura",
+        "eurc",
+        "eure",
+        "eurr",
+        "eurs",
+        "eurt",
+        "zchf"
+      ]
+    },
+    {
+      "id": "t-bills-backed",
+      "name": "T-Bills Backed",
+      "projects": [
+        "ausd",
+        "buidl",
+        "busd",
+        "cash",
+        "cusd",
+        "fdusd",
+        "gusd",
+        "jupusd",
+        "moveusd",
+        "musd",
+        "pusd",
+        "pyusd",
+        "rlusd",
+        "tusd",
+        "usd0",
+        "usd1",
+        "usdc",
+        "usdg",
+        "usdh",
+        "usdm",
+        "usdp",
+        "usdpt",
+        "usdt",
+        "usdtb",
+        "usx",
+        "xusd"
+      ]
+    }
+  ]
+}

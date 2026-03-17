@@ -1,0 +1,11 @@
+{
+  "id": "anoma",
+  "name": "Anoma",
+  "description": "Experience a smarter way to build and use blockchain apps. Anoma’s intent-centric distributed OS offers unmatched user and developer experiences for Web3.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/zk/anoma.png",
+    "homepage": "https://anoma.net/",
+    "twitter": "https://x.com/anoma"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "lunarcrush",
+  "name": "LunarCrush",
+  "description": "Social analytics platform for crypto/stocks with $5M Series A @ $30M valuation, Draper Round Table/Ince Capital led, AI-powered sentiment analysis",
+  "founded": 2019,
+  "funding": 5000000,
+  "links": {
+    "homepage": "https://LunarCrush.com",
+    "logo": "/imgs/Data/Analytics/LunarCrush.jpg",
+    "twitter": "https://x.com/LunarCrush",
+    "github": ""
+  }
+}

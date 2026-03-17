@@ -1,0 +1,12 @@
+{
+  "id": "flock",
+  "name": "FLock",
+  "description": "FLock is a decentralized AI training platform that enables collaborative machine learning on blockchain.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/Infra/flock.png",
+    "homepage": "https://flock.io/",
+    "twitter": "https://x.com/flock_io",
+    "github": ""
+  }
+}

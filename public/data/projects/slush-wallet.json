@@ -1,0 +1,12 @@
+{
+  "id": "slush-wallet",
+  "name": "Slush Wallet",
+  "description": "Slush Wallet is a wallet for the Sui ecosystem (formerly associated with Sui Wallet branding in some contexts or a new entrant).",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "",
+    "logo": "/imgs/Sui/Wallets/slush.jpg",
+    "twitter": ""
+  }
+}

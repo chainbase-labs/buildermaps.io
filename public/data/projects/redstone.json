@@ -1,0 +1,18 @@
+{
+  "id": "redstone",
+  "name": "RedStone",
+  "description": "Modular oracle infrastructure specializing in yield-bearing collateral for DeFi lending markets",
+  "founded": 2021,
+  "funding": 23000000,
+  "links": {
+    "homepage": "https://www.redstone.finance/",
+    "twitter": "https://x.com/redstone_defi",
+    "github": "https://github.com/redstone-finance",
+    "telegram": "https://t.me/redstoneoracles",
+    "discord": "https://discord.gg/PVxBZKFr46",
+    "linkedin": "https://www.linkedin.com/company/redstone-finance",
+    "medium": "https://medium.com/redstone-finance",
+    "reddit": "https://redstone.finance",
+    "logo": "/imgs/prediction_markets/Infra/RedStone.png"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "inco",
+  "name": "Inco",
+  "description": "Inco is the final layer of the blockchain stack, empowering smart contracts with confidentiality to unlock use cases and enable widespread web3 adoption.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/confidential-compute/inco.png",
+    "homepage": "https://www.inco.org/",
+    "twitter": "https://x.com/inconetwork"
+  }
+}

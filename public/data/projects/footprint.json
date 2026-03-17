@@ -1,0 +1,13 @@
+{
+  "id": "footprint",
+  "name": "Footprint",
+  "description": "Comprehensive blockchain data analytics platform simplifying and visualizing complex blockchain information for Web3, offering drag-and-drop tools and API access.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.footprint.network/",
+    "logo": "/imgs/Data/Infra/Footprint.jpg",
+    "twitter": "https://x.com/Footprint_Data",
+    "github": ""
+  }
+}

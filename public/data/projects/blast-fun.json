@@ -1,0 +1,12 @@
+{
+  "id": "blast-fun",
+  "name": "Blast.fun",
+  "description": "Blast.fun is a launchpad platform on Sui.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://blast.fun/",
+    "logo": "/imgs/Sui/Launchpad/Blastfun.png",
+    "twitter": "https://x.com/blastdotfun"
+  }
+}

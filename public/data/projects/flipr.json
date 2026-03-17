@@ -1,0 +1,12 @@
+{
+  "id": "flipr",
+  "name": "Flipr",
+  "description": "Prediction market platform.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://flipr.bot/",
+    "logo": "/imgs/prediction_markets/Bot Inferface/Flipr.jpg",
+    "twitter": "https://x.com/fliprbot"
+  }
+}

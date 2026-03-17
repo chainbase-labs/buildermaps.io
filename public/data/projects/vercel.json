@@ -1,0 +1,12 @@
+{
+  "id": "vercel",
+  "name": "Vercel",
+  "description": "Vercel frontend cloud platform Next.js creators, edge functions global deployment, serverless infrastructure developers, Guillermo Rauch founded 2015",
+  "founded": 2015,
+  "funding": null,
+  "links": {
+    "homepage": "https://vercel.com/",
+    "logo": "https://s2.loli.net/2025/11/24/hGLft2KX98uspBc.png",
+    "twitter": "https://x.com/vercel"
+  }
+}

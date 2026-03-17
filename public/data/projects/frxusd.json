@@ -1,0 +1,15 @@
+{
+  "id": "frxusd",
+  "name": "frxUSD",
+  "description": "Stablecoin backed by BlackRock's BUIDL fund with on-chain RWA yield",
+  "founded": 2021,
+  "funding": null,
+  "links": {
+    "homepage": "https://frax.com/",
+    "logo": "https://s2.loli.net/2025/11/24/n9VXhEDUoCxIGpA.png",
+    "twitter": "https://x.com/fraxfinance",
+    "telegram": "https://t.me/fraxfinance",
+    "linkedin": "https://www.linkedin.com/company/frax-finance",
+    "reddit": "https://app.frax.finance"
+  }
+}

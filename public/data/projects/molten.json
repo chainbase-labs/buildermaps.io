@@ -1,0 +1,9 @@
+{
+  "id": "molten",
+  "name": "Molten",
+  "description": "Intent-matching engine using ClawRank for agent collaboration.",
+  "links": {
+    "twitter": "https://x.com/moltenagentic",
+    "logo": "/imgs/OpenClaw/Work&Marketplaces/molten.png"
+  }
+}

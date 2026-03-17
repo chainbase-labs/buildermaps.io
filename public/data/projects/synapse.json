@@ -1,0 +1,12 @@
+{
+  "id": "synapse",
+  "name": "Synapse",
+  "description": "Synapse is a cross-chain bridge protocol enabling seamless asset transfers between different blockchain networks.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/Infra/synapse.png",
+    "homepage": "https://synapseprotocol.com/",
+    "twitter": "https://x.com/SynapseProtocol",
+    "github": ""
+  }
+}

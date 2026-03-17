@@ -1,0 +1,11 @@
+{
+  "id": "payzoll",
+  "name": "PayZoll",
+  "description": "PayZoll is a decentralized payment solution on Pharos network.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/payment/payzoll.png",
+    "homepage": "https://payzoll.xyz/",
+    "twitter": "https://x.com/PayZoll"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "predictfolio",
+  "name": "Predictfolio",
+  "description": "Prediction portfolio tracker.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://predictfolio.com/",
+    "twitter": "https://x.com/predictfolio",
+    "logo": "/imgs/prediction_markets/Others/Predictfolio.jpg"
+  }
+}

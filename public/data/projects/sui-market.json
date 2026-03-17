@@ -1,0 +1,11 @@
+{
+  "id": "sui-market",
+  "name": "Sui Market",
+  "description": "Prediction market on Sui.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "twitter": "https://x.com/SuiMarket_io",
+    "logo": "/imgs/prediction_markets/Multiple-Choice/Sui Market.png"
+  }
+}

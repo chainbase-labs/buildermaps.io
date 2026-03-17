@@ -1,0 +1,12 @@
+{
+  "id": "seal",
+  "name": "Seal",
+  "description": "Seal is a decentralized secrets management service built on Sui for securing sensitive data.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://seal.mystenlabs.com/",
+    "logo": "/imgs/Sui/Infra  Tools/Seal.png",
+    "twitter": ""
+  }
+}

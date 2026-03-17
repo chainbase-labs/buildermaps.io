@@ -1,0 +1,12 @@
+{
+  "id": "nautilus",
+  "name": "Nautilus",
+  "description": "Nautilus is a framework for secure and verifiable off-chain computation on Sui using TEEs.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://sui.io/nautilus",
+    "logo": "/imgs/Sui/Infra  Tools/Nautilus.png",
+    "twitter": ""
+  }
+}

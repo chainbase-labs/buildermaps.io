@@ -1,0 +1,16 @@
+{
+  "id": "avalanche",
+  "name": "Avalanche",
+  "description": "Platform for decentralized applications and custom blockchain networks with high throughput and low latency",
+  "founded": 2020,
+  "funding": 540000000,
+  "links": {
+    "homepage": "https://www.avax.network/",
+    "logo": "https://s2.loli.net/2025/11/24/JTDaqcHVnwSAuZi.jpg",
+    "twitter": "https://x.com/avax",
+    "telegram": "https://t.me/avalancheavax",
+    "discord": "https://discord.com/invite/avax",
+    "linkedin": "https://www.linkedin.com/company/ava-labs",
+    "reddit": "https://reddit.com/r/avax"
+  }
+}

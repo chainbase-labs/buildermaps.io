@@ -1,0 +1,12 @@
+{
+  "id": "townies",
+  "name": "Townies",
+  "description": "Townies is a social gaming platform where players build and manage virtual communities on blockchain.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/GameFi/townies.png",
+    "homepage": "https://app.townies.games/",
+    "twitter": "https://x.com/Townies_",
+    "github": ""
+  }
+}

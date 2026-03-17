@@ -1,0 +1,11 @@
+{
+  "id": "hashkey-cloud",
+  "name": "HashKey Cloud",
+  "description": "HashKey Cloud provides secure enterprise-grade staking and blockchain infrastructure services.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/validators/hashkey-cloud.png",
+    "homepage": "https://www.hashkey.cloud/",
+    "twitter": "https://x.com/HashKeyCloud"
+  }
+}

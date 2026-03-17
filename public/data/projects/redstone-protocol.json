@@ -1,0 +1,13 @@
+{
+  "id": "redstone-protocol",
+  "name": "Redstone Protocol",
+  "description": "Modular oracle infrastructure providing 1,100+ data feeds across 60+ blockchains for DeFi protocols",
+  "founded": 2020,
+  "funding": 22000000,
+  "links": {
+    "homepage": "https://redstone.finance/",
+    "logo": "/imgs/Data/Infra/Redstone Protocol.jpg",
+    "twitter": "https://x.com/redstone_defi",
+    "github": ""
+  }
+}

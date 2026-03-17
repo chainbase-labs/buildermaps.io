@@ -1,0 +1,11 @@
+{
+  "id": "ofr",
+  "name": "OFR",
+  "description": "Venture capital firm focused on Web3 and crypto investments.",
+  "location": "Asia",
+  "links": {
+    "logo": "/imgs/asian-vc/ofr.jpg",
+    "homepage": "https://ofr.asia/",
+    "twitter": "https://x.com/ofrfund"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "7k-aggregator",
+  "name": "7K Aggregator",
+  "description": "7K Aggregator is a dynamic trading route aggregator on Sui, designed to optimize user trading strategies by finding the best possible prices.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://7k.ag/",
+    "logo": "/imgs/Sui/DeFi/7KAggregator.jpg",
+    "twitter": "https://x.com/7k_ag_"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "layerhub",
+  "name": "layerHub",
+  "description": "Your wallet explorer",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/block-explorer/layerhub.png",
+    "homepage": "https://layerhub.xyz/",
+    "twitter": "https://x.com/layerhub"
+  }
+}

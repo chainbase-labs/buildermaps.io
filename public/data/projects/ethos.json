@@ -1,0 +1,12 @@
+{
+  "id": "ethos",
+  "name": "Ethos",
+  "description": "Reputation & credibility for crypto, driven by peer-to-peer reviews & secured by staked Ethereum. What’s your crypto credibility score?",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/IdentityandReputation/ethos.png",
+    "homepage": "https://app.ethos.network/",
+    "twitter": "https://x.com/ethos_network",
+    "github": ""
+  }
+}

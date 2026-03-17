@@ -1,0 +1,12 @@
+{
+  "id": "alias",
+  "name": "Alias",
+  "description": "AI agent application platform and ecosystem integrating independent apps and Telegram bots. First to implement ERC-8004 standard for on-chain AI agent identity.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/MarketplacesandDiscovery/alias.png",
+    "homepage": "https://www.aliasai.io/",
+    "twitter": "https://x.com/Alias_labs",
+    "github": ""
+  }
+}

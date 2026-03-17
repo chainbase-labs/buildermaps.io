@@ -1,0 +1,11 @@
+{
+  "id": "evg",
+  "name": "EVG",
+  "description": "Emerging Ventures Group - Asia-focused blockchain investment firm.",
+  "location": "Asia",
+  "links": {
+    "logo": "/imgs/asian-vc/evg.jpg",
+    "homepage": "https://www.evg.co/",
+    "twitter": "https://x.com/EVGHQ"
+  }
+}

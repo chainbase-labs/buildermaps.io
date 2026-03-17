@@ -1,0 +1,11 @@
+{
+  "id": "monero",
+  "name": "Monero ",
+  "description": "Monero is a privacy-focused cryptocurrency using ring signatures and stealth addresses for untraceable transactions.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/cash/monero.png",
+    "homepage": "https://www.getmonero.org/",
+    "twitter": "https://x.com/monero"
+  }
+}

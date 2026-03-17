@@ -1,0 +1,12 @@
+{
+  "id": "pakt",
+  "name": "Pakt",
+  "description": "Chat with AI to create your platform. Blockchain processes the transactions. You control your future.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/MarketplacesandDiscovery/pakt.png",
+    "homepage": "https://pakt.world/",
+    "twitter": "https://x.com/PaktWorld",
+    "github": ""
+  }
+}

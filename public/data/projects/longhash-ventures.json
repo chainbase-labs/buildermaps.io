@@ -1,0 +1,11 @@
+{
+  "id": "longhash-ventures",
+  "name": "LongHash Ventures",
+  "description": "Singapore-based Web3 accelerator and venture fund.",
+  "location": "Singapore",
+  "links": {
+    "logo": "/imgs/asian-vc/longhash-ventures.jpg",
+    "homepage": "https://www.longhash.vc/",
+    "twitter": "https://x.com/LongHashVC"
+  }
+}

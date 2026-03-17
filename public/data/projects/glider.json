@@ -1,0 +1,12 @@
+{
+  "id": "glider",
+  "name": "Glider",
+  "description": "Automate your onchain portfolio. Gas-free, non-custodial, and fully yours. Investing that finally feels effortless.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/Infra/glider.png",
+    "homepage": "https://glider.fi/",
+    "twitter": "https://x.com/glider_fi",
+    "github": ""
+  }
+}

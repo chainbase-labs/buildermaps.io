@@ -1,0 +1,12 @@
+{
+  "id": "polyquant",
+  "name": "Polyquant",
+  "description": "Prediction market bot interface.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://polyquantbuild.com/",
+    "twitter": "https://x.com/polyquant_build",
+    "logo": "/imgs/prediction_markets/Bot Inferface/Polyquant.jpg"
+  }
+}

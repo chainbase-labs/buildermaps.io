@@ -1,0 +1,14 @@
+{
+  "id": "eurt",
+  "name": "EURT",
+  "description": "Euro-pegged stablecoin 1:1 with EUR (discontinued November 2024)",
+  "founded": 2016,
+  "funding": null,
+  "links": {
+    "homepage": "https://tether.to/",
+    "logo": "https://coin-images.coingecko.com/coins/images/17385/large/Tether_new.png?1696516934",
+    "twitter": "https://x.com/Tether_to",
+    "telegram": "https://t.me/OfficialTether",
+    "reddit": "https://tether.to"
+  }
+}

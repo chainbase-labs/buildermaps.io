@@ -1,0 +1,13 @@
+{
+  "id": "ankr",
+  "name": "Ankr",
+  "description": "Ankr DePIN infrastructure 8B daily RPC requests, 75+ blockchains, 30+ global regions, bare-metal nodes, Web3 API AppChains, founded 2017",
+  "founded": 2017,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.ankr.com/",
+    "logo": "/imgs/Data/Infra/ankr.jpg",
+    "twitter": "https://x.com/ankr",
+    "github": ""
+  }
+}

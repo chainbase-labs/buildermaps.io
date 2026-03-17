@@ -1,0 +1,10 @@
+{
+  "id": "moltline",
+  "name": "Moltline",
+  "description": "Private messaging platform via XMTP tailored for agent communications.",
+  "links": {
+    "homepage": "https://www.moltline.com/",
+    "twitter": "https://x.com/moltline_",
+    "logo": "/imgs/OpenClaw/Messaging/motiline-1.png"
+  }
+}

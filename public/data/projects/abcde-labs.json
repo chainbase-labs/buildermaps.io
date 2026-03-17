@@ -1,0 +1,11 @@
+{
+  "id": "abcde-labs",
+  "name": "ABCDE Labs",
+  "description": "Crypto investment and research firm.",
+  "location": "Asia",
+  "links": {
+    "logo": "/imgs/asian-vc/abcde-labs.jpg",
+    "homepage": "https://www.abcde.com/",
+    "twitter": "https://x.com/ABCDELabs"
+  }
+}

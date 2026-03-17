@@ -1,0 +1,12 @@
+{
+  "id": "tallys",
+  "name": "Tallys",
+  "description": "Tallys NFTs signify membership in the Talus community, granting access to benefits within the decentralized AI Agent ecosystem.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://talus.network/",
+    "logo": "/imgs/Sui/NFT/Tallys.png",
+    "twitter": "https://x.com/TallysNFT"
+  }
+}

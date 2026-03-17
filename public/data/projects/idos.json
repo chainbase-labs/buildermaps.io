@@ -1,0 +1,11 @@
+{
+  "id": "idos",
+  "name": "idOS",
+  "description": "idOS is a decentralized identity layer enabling users to control their digital identity.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/identity/idos.png",
+    "homepage": "https://app.idos.network/",
+    "twitter": "https://x.com/idOS_network"
+  }
+}

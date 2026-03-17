@@ -1,0 +1,11 @@
+{
+  "id": "ten",
+  "name": "TEN",
+  "description": "The final network - a TEE-native execution layer for the new internet",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/l1-l2/ten.png",
+    "homepage": "https://ten.xyz/",
+    "twitter": "https://x.com/tenprotocol"
+  }
+}

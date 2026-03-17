@@ -1,0 +1,12 @@
+{
+  "id": "alphalend",
+  "name": "AlphaLend",
+  "description": "AlphaLend is a decentralized, non-custodial lending and borrowing protocol built on the Sui blockchain, part of the AlphaFi ecosystem.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://alphafi.xyz/",
+    "logo": "/imgs/Sui/DeFi/AlphaLend.png",
+    "twitter": "https://x.com/AlphaLendSui"
+  }
+}

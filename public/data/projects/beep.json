@@ -1,0 +1,12 @@
+{
+  "id": "beep",
+  "name": "Beep",
+  "description": "Beep is the Agentic Finance Protocol on Sui, designed for AI payments, A2A commerce, and yield generation.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://beep.sui.io/",
+    "logo": "/imgs/Sui/DeFi/Beep.png",
+    "twitter": "https://x.com/0xbeepit"
+  }
+}

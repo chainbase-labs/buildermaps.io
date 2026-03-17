@@ -1,0 +1,191 @@
+name: Patch Data from CSV (apply onto existing CSV branch)
+
+permissions:
+  contents: write
+  issues: write
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  patch-data-from-csv:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check if label is patch-csv
+        id: check_label
+        run: |
+          LABEL_NAME="${{ github.event.label.name }}"
+          echo "Label added: $LABEL_NAME"
+          if [ "$LABEL_NAME" = "patch-csv" ]; then
+            echo "valid_label=true" >> "$GITHUB_OUTPUT"
+            echo "✅ Valid label detected: $LABEL_NAME"
+          else
+            echo "valid_label=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+      - name: Extract branch name + patch CSV URL from issue comments/body
+        if: steps.check_label.outputs.valid_label == 'true'
+        id: meta
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const owner = context.repo.owner
+            const repo = context.repo.repo
+            const issue_number = context.issue.number
+
+            // Supports: chore/update-from-csv-issue-<issue>-<run_id>-<run_attempt>
+            // (and older variants without run_attempt)
+            const branchRe = /chore\/update-from-csv-issue-\d+-\d+(?:-\d+)*/g
+            const csvRe = /(https?:\/\/\S+\.csv(?:\?\S+)?)|(\(https?:\/\/[^)\s]+\.csv(?:\?[^)\s]+)?\))/i
+
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner,
+              repo,
+              issue_number,
+              per_page: 100,
+            })
+
+            // Search newest-first for a comment that contains BOTH a branch and a csv URL
+            let branchName = ""
+            let csvUrl = ""
+
+            for (const c of [...comments].reverse()) {
+              const body = c.body || ""
+              const branchMatch = body.match(branchRe)
+              const urlMatch = body.match(/https?:\/\/\S+\.csv(?:\?\S+)?/i)
+              if (branchMatch && branchMatch.length > 0 && urlMatch) {
+                branchName = branchMatch[0]
+                csvUrl = urlMatch[0]
+                break
+              }
+            }
+
+            // Fallback: if no csv URL in comments, try issue body
+            if (!csvUrl) {
+              const body = context.payload.issue?.body || ""
+              const urlMatch = body.match(/https?:\/\/\S+\.csv(?:\?\S+)?/i)
+              if (urlMatch) csvUrl = urlMatch[0]
+            }
+
+            if (!branchName) {
+              core.setFailed("Could not find a target branch name in issue comments. Add a comment containing the branch name, e.g. `chore/update-from-csv-issue-35-21895897843`.")
+              return
+            }
+            if (!csvUrl) {
+              core.setFailed("Could not find a .csv URL in issue comments/body. Attach a CSV to the issue or comment the CSV link.")
+              return
+            }
+
+            core.setOutput("branch_name", branchName)
+            core.setOutput("csv_url", csvUrl)
+
+      - name: Check out repo
+        if: steps.check_label.outputs.valid_label == 'true'
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.CSV_PUSH_TOKEN }}
+          fetch-depth: 0
+
+      - name: Download patch CSV
+        if: steps.check_label.outputs.valid_label == 'true'
+        env:
+          CSV_URL: ${{ steps.meta.outputs.csv_url }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p .tmp
+          echo "Downloading: $CSV_URL"
+          curl -L \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            -H "Accept: application/octet-stream" \
+            "$CSV_URL" \
+            -o .tmp/patch.csv
+          test -s .tmp/patch.csv
+
+      - name: Check out target branch
+        if: steps.check_label.outputs.valid_label == 'true'
+        env:
+          BRANCH_NAME: ${{ steps.meta.outputs.branch_name }}
+        run: |
+          set -e
+          git fetch origin "$BRANCH_NAME":"refs/remotes/origin/$BRANCH_NAME"
+          git checkout -B "$BRANCH_NAME" "origin/$BRANCH_NAME"
+
+      - name: Set up Python
+        if: steps.check_label.outputs.valid_label == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies (for logo download)
+        if: steps.check_label.outputs.valid_label == 'true'
+        run: pip install -r process-builder-data/requirements.txt
+
+      - name: Apply patch CSV into public/data (overwrite twitter/logo)
+        if: steps.check_label.outputs.valid_label == 'true'
+        run: |
+          python process-builder-data/apply_to_buildermaps.py .tmp/patch.csv --repo-root . --download-logos --logo-overwrite --rate-limit 0.2
+
+      - name: Setup Node.js
+        if: steps.check_label.outputs.valid_label == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: "latest"
+          cache: "npm"
+
+      - name: Install Node dependencies
+        if: steps.check_label.outputs.valid_label == 'true'
+        run: npm install
+
+      - name: Check for duplicate project IDs
+        if: steps.check_label.outputs.valid_label == 'true'
+        run: node scripts/check-duplicate-ids.js
+
+      - name: Verify data integrity
+        if: steps.check_label.outputs.valid_label == 'true'
+        run: npm run verify:maps
+
+      - name: Build builder-maps.json
+        if: steps.check_label.outputs.valid_label == 'true'
+        run: npm run build:maps
+
+      - name: Commit + push patch to same branch
+        if: steps.check_label.outputs.valid_label == 'true'
+        id: commit
+        env:
+          BRANCH_NAME: ${{ steps.meta.outputs.branch_name }}
+        run: |
+          set -e
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          git add public/data/ public/imgs/
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            echo "no_changes=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          git commit -m "chore(data): patch from csv (issue #${{ github.event.issue.number }})"
+          git push origin "$BRANCH_NAME"
+          echo "no_changes=false" >> "$GITHUB_OUTPUT"
+
+      - name: Comment on issue
+        if: steps.check_label.outputs.valid_label == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const branchName = `${{ steps.meta.outputs.branch_name }}`.trim()
+            const noChanges = `${{ steps.commit.outputs.no_changes }}`.trim() === 'true'
+            const msg = noChanges
+              ? `✅ Patch CSV applied: no data changes detected. (Branch: \`${branchName}\`)`
+              : `✅ Patch CSV applied and pushed to branch: \`${branchName}\`.`
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: msg
+            })

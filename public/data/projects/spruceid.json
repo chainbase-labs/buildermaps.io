@@ -1,0 +1,13 @@
+{
+  "id": "spruceid",
+  "name": "SpruceID",
+  "description": "Decentralized identity toolkit with $41.5M funding ($34M a16z-led Series A), Sign-In with Ethereum (EIP-4361), DHS $1.7M contract",
+  "founded": 2020,
+  "funding": 41500000,
+  "links": {
+    "homepage": "http://spruceid.com",
+    "logo": "/imgs/Data/Provenance/SpruceID.jpg",
+    "twitter": "https://x.com/SpruceID",
+    "github": ""
+  }
+}

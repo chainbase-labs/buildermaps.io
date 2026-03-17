@@ -1,0 +1,11 @@
+{
+  "id": "aztec",
+  "name": "Aztec",
+  "description": "Everything you can do on Ethereum - privately. Fully programmable end-to-end privacy is here with private smart contracts.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/l1-l2/aztec.png",
+    "homepage": "https://aztec.network/",
+    "twitter": "https://x.com/aztecnetwork"
+  }
+}

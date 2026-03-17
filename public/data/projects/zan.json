@@ -1,0 +1,11 @@
+{
+  "id": "zan",
+  "name": "ZAN",
+  "description": "Provides Node RPC, zk acceleration, eKYC, contract audits, and testnet faucets, reducing costs and enhancing security for DApps and projects.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/rpc/zan.png",
+    "homepage": "https://zan.top/",
+    "twitter": "https://x.com/zan_team"
+  }
+}

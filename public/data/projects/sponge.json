@@ -1,0 +1,10 @@
+{
+  "id": "sponge",
+  "name": "Sponge",
+  "description": "Specialized decentralized wallet crafted to securely hold and manage assets for autonomous entities.",
+  "links": {
+    "homepage": "https://sponge.finance/",
+    "logo": "/imgs/agentic-finance/sponge.jpg",
+    "twitter": "https://x.com/sponge_wallet"
+  }
+}

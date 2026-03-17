@@ -1,0 +1,11 @@
+{
+  "id": "secure",
+  "name": "SECURE",
+  "description": "Decentralized, metadata-free messaging protocol. End-to-end encryption with blockchain identity, cold storage wallets, and the innovative Ping-Pong Wake System for true privacy.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/private-messaging/secure.png",
+    "homepage": "https://securelegion.org/",
+    "twitter": "https://x.com/SecureLegion"
+  }
+}

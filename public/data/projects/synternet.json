@@ -1,0 +1,13 @@
+{
+  "id": "synternet",
+  "name": "Synternet",
+  "description": "Interoperable, real-time data infrastructure across blockchains, facilitating seamless decentralized data exchange and eliminating reliance on centralized APIs via a Data Layer.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.synternet.com/",
+    "logo": "/imgs/AI_Crypto/Data/Synternet.jpg",
+    "twitter": "https://x.com/synternet_com",
+    "github": ""
+  }
+}

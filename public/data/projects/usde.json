@@ -1,0 +1,15 @@
+{
+  "id": "usde",
+  "name": "USDe",
+  "description": "Synthetic dollar stablecoin backed by crypto and delta-hedged derivatives",
+  "founded": 2023,
+  "funding": 100000000,
+  "links": {
+    "homepage": "https://ethena.fi/",
+    "logo": "https://s2.loli.net/2025/11/24/RDif2CxB7MEqyWN.png",
+    "twitter": "https://x.com/ethena_labs",
+    "medium": "https://medium.com/ethena-labs",
+    "linkedin": "https://www.linkedin.com/company/ethena-labs",
+    "reddit": "https://ethena.fi"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "limitless",
+  "name": "Limitless",
+  "description": "Prediction market platform.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://limitless.exchange/advanced",
+    "logo": "/imgs/prediction_markets/Binary/Limitless.jpg",
+    "twitter": "https://x.com/trylimitless"
+  }
+}

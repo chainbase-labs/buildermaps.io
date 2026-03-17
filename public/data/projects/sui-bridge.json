@@ -1,0 +1,12 @@
+{
+  "id": "sui-bridge",
+  "name": "Sui Bridge",
+  "description": "Sui Bridge is the native bridge for the Sui network, facilitating asset transfers between Sui and other chains.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://bridge.sui.io/",
+    "logo": "/imgs/Sui/Bridge/Sui Bridge.png",
+    "twitter": ""
+  }
+}

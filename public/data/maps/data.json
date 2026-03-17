@@ -1,0 +1,111 @@
+{
+  "sector": "Data",
+  "types": [
+    {
+      "id": "analytics",
+      "name": "Analytics",
+      "projects": [
+        "arkham",
+        "blockdata",
+        "coinmetrics",
+        "cryptoquant",
+        "cryptorank",
+        "dapplooker",
+        "dappradar",
+        "defillama",
+        "glassnode",
+        "kaiko",
+        "lunarcrush",
+        "messari",
+        "nansen",
+        "santiment",
+        "sentora",
+        "token-terminal",
+        "tokeninsight"
+      ]
+    },
+    {
+      "id": "indexing",
+      "name": "Indexing",
+      "projects": [
+        "apilayer",
+        "archway",
+        "bitquery",
+        "glassnode",
+        "goldsky",
+        "space-and-time",
+        "streamr",
+        "subquery",
+        "the-graph"
+      ]
+    },
+    {
+      "id": "infra",
+      "name": "Infra",
+      "projects": [
+        "alchemy",
+        "ankr",
+        "blast",
+        "blockdaemon",
+        "bloxroute",
+        "chainbase",
+        "chainstack",
+        "covalent",
+        "datalayer",
+        "dune",
+        "figment",
+        "flipside",
+        "footprint",
+        "getblock",
+        "infura",
+        "moralis",
+        "nodereal",
+        "nownodes",
+        "pocket-network",
+        "quicknode",
+        "redstone-protocol",
+        "subquery"
+      ]
+    },
+    {
+      "id": "marketplaces",
+      "name": "Marketplaces",
+      "projects": [
+        "bitscrunch",
+        "blockdata",
+        "delphi",
+        "dtelecom",
+        "fetch-ai",
+        "filecoin",
+        "flipside",
+        "gauntlet",
+        "grass",
+        "iota",
+        "kaiko",
+        "nansen",
+        "numerai",
+        "ocean-protocol",
+        "story-protocol",
+        "token-terminal"
+      ]
+    },
+    {
+      "id": "provenance",
+      "name": "Provenance",
+      "projects": [
+        "certik",
+        "eigenlayer",
+        "fractal-id",
+        "hive",
+        "irys",
+        "kilt-protocol",
+        "kyve",
+        "lens-protocol",
+        "origintrail",
+        "safeheron",
+        "spruceid",
+        "verida"
+      ]
+    }
+  ]
+}

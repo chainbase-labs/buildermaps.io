@@ -1,0 +1,11 @@
+{
+  "id": "verge",
+  "name": "Verge",
+  "description": "Verge Currency A secure and user-friendly digital currency, built for everyday transactions.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/cash/verge.png",
+    "homepage": "https://vergecurrency.com/",
+    "twitter": "https://x.com/vergecurrency"
+  }
+}

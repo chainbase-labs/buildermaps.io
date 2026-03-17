@@ -1,0 +1,11 @@
+{
+  "id": "asseto",
+  "name": "Asseto",
+  "description": "Asseto is a RWA tokenization platform on Pharos enabling real-world asset financing.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/rwa/asseto.png",
+    "homepage": "https://asseto.finance/",
+    "twitter": "https://x.com/AssetoFinance"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "fisher8-capital",
+  "name": "Fisher8 Capital",
+  "description": "Crypto venture fund investing in early-stage projects.",
+  "location": "Asia",
+  "links": {
+    "logo": "/imgs/asian-vc/fisher8-capital.jpg",
+    "homepage": "https://fisher8.capital/",
+    "twitter": "https://x.com/fisher8cap"
+  }
+}

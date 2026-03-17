@@ -1,0 +1,11 @@
+{
+  "id": "freedom-dollar",
+  "name": "Freedom Dollar",
+  "description": "A transparent, over-collateralized stablecoin on Zano with real-time reserves",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/cash/freedom-dollar.png",
+    "homepage": "https://www.freedomdollar.com/en",
+    "twitter": "https://x.com/freedomdollar5"
+  }
+}

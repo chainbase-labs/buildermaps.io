@@ -1,0 +1,11 @@
+{
+  "id": "poseidon",
+  "name": "Poseidon",
+  "description": "Privacy protocol for Solana. Break on-chain links with zero-knowledge proofs. Deposit, shield, and withdraw with complete unlinkability.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/cash/poseidon.png",
+    "homepage": "https://poseidon.cash/",
+    "twitter": "https://x.com/poseidoncash"
+  }
+}

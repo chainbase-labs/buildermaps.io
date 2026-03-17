@@ -1,0 +1,12 @@
+{
+  "id": "quickswap",
+  "name": "QuickSwap",
+  "description": "Trade, provide liquidity, earn with farms, and access perps on Polygon & Base with deep liquidity and low fees.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/DeFi/quickswap.png",
+    "homepage": "https://dapp.quickswap.exchange/swap",
+    "twitter": "https://x.com/QuickswapDEX",
+    "github": ""
+  }
+}

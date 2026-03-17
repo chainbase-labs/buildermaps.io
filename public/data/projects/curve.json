@@ -1,0 +1,15 @@
+{
+  "id": "curve",
+  "name": "Curve",
+  "description": "Overcollateralized stablecoin with LLAMMA soft-liquidation mechanism",
+  "founded": 2023,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.curve.finance/",
+    "logo": "https://s2.loli.net/2025/11/24/muorMBUbiHth3aW.jpg",
+    "twitter": "https://x.com/CurveFinance",
+    "telegram": "https://t.me/curvefi",
+    "discord": "https://discord.gg/curve",
+    "reddit": "https://www.curve.finance"
+  }
+}

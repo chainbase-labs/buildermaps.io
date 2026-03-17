@@ -1,0 +1,11 @@
+{
+  "id": "hash-global",
+  "name": "Hash Global",
+  "description": "Global crypto investment fund.",
+  "location": "Asia",
+  "links": {
+    "logo": "/imgs/asian-vc/hash-global.jpg",
+    "homepage": "https://www.hashglobal.io/",
+    "twitter": "https://x.com/hashglobal"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "full-sail",
+  "name": "Full Sail",
+  "description": "Full Sail Finance is a decentralized exchange (DEX) deployed on the Sui blockchain, combining concentrated liquidity and dynamic fees.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://fullsail.finance/",
+    "logo": "/imgs/Sui/DeFi/Full Sail.png",
+    "twitter": "https://x.com/FullSailFi"
+  }
+}

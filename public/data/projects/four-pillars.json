@@ -1,0 +1,13 @@
+{
+  "id": "four-pillars",
+  "name": "Four Pillars",
+  "description": "Four Pillars is an institution-level blockchain research firm providing in-depth analysis on emerging trends, technologies, and narratives in crypto.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "logo": "/imgs/sui_ecosystem/Education/FourPillars.png",
+    "twitter": "https://x.com/FourPillarsFP",
+    "homepage": "https://4pillars.io/",
+    "discord": "https://discord.gg/Vsjpghdhb3"
+  }
+}

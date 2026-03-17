@@ -1,0 +1,13 @@
+{
+  "id": "safeheron",
+  "name": "Safeheron",
+  "description": "Safeheron MPC+TEE self-custody platform, institutional-grade, 100% private key control, 170+ institutions since 2021, open-source",
+  "founded": 2021,
+  "funding": null,
+  "links": {
+    "homepage": "https://safeheron.com",
+    "logo": "/imgs/Data/Provenance/Safeheron.jpg",
+    "twitter": "https://x.com/Safeheron",
+    "github": ""
+  }
+}

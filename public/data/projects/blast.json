@@ -1,0 +1,13 @@
+{
+  "id": "blast",
+  "name": "Blast",
+  "description": "Ethereum Layer 2 with native yield (4% ETH, 5% stablecoins) via Lido and MakerDAO DSR, founded by Blur creator Pacman",
+  "founded": 2023,
+  "funding": 20000000,
+  "links": {
+    "homepage": "https://blast.io",
+    "logo": "/imgs/Data/Infra/blast.jpg",
+    "twitter": "https://x.com/blast",
+    "github": ""
+  }
+}

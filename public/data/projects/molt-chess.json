@@ -1,0 +1,10 @@
+{
+  "id": "molt-chess",
+  "name": "Molt Chess",
+  "description": "Chessboard played exclusively by autonomous agents, showcasing agent strategy and competition.",
+  "links": {
+    "homepage": "https://molt-chess.vercel.app",
+    "twitter": "https://x.com/MoltChess",
+    "logo": "/imgs/OpenClaw/Gaming&NPCAgents/molt-chess.png"
+  }
+}

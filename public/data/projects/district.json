@@ -1,0 +1,12 @@
+{
+  "id": "district",
+  "name": "District",
+  "description": "The Launchpad for Builders",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/ConsumerApp/district.png",
+    "homepage": "https://www.district.xyz/",
+    "twitter": "https://x.com/districtxyz",
+    "github": ""
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "pharos-verse",
+  "name": "Pharos Verse",
+  "description": "The one-stop station for Pharos explorers and Coraluna holders. Begin your journey the right way with tools, guides, and interatives to navigate the Pharos testnet.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/lst/pharos-verse.png",
+    "homepage": "https://pharosverse.xyz/",
+    "twitter": "https://x.com/PHAROSVERSE"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "unibase",
+  "name": "Unibase",
+  "description": "Decentralized AI memory layer for autonomous agents. Features Membase long-term storage, AIP interoperability protocol, and zk-verified data availability for cross-platform agent collaboration.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/DataandContext/unibase.png",
+    "homepage": "https://www.unibase.com/",
+    "twitter": "https://x.com/Unibase_AI",
+    "github": ""
+  }
+}

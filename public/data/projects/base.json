@@ -1,0 +1,13 @@
+{
+  "id": "base",
+  "name": "Base",
+  "description": "Ethereum Layer 2 by Coinbase built on OP Stack offering 10x cheaper fees with EVM compatibility",
+  "founded": 2023,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.base.org/",
+    "logo": "https://s2.loli.net/2025/11/24/j9PX8xIDBROUmb3.jpg",
+    "twitter": "https://x.com/base",
+    "linkedin": "https://www.linkedin.com/company/buildwithbase"
+  }
+}

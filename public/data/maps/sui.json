@@ -1,0 +1,179 @@
+{
+  "sector": "Sui",
+  "types": [
+    {
+      "id": "ai",
+      "name": "AI",
+      "projects": ["stonefish-ai", "sui-agents-suia", "talus-network"]
+    },
+    {
+      "id": "data-analytics",
+      "name": "Data & Analytics",
+      "projects": [
+        "aeon",
+        "artemis",
+        "birdeye",
+        "blockberry-api",
+        "blockvision",
+        "chainbase",
+        "defillama",
+        "suiscan-explorer",
+        "suivision"
+      ]
+    },
+    {
+      "id": "bridge",
+      "name": "Bridge",
+      "projects": ["mayan", "portal", "sui-bridge"]
+    },
+    {
+      "id": "defi",
+      "name": "DeFi",
+      "projects": [
+        "suilend",
+        "navi",
+        "bluefin",
+        "haedal",
+        "bucket",
+        "ember",
+        "upshift",
+        "momentum-mmt-finance",
+        "cetus",
+        "pawtato-finance",
+        "beep",
+        "ferra",
+        "magma",
+        "aftermath",
+        "flowx",
+        "full-sail",
+        "noodles-finance",
+        "7k-aggregator",
+        "deepbook",
+        "alphafi",
+        "alphalend",
+        "kriya",
+        "typus-finance",
+        "scallop",
+        "dipcoin",
+        "volo"
+      ]
+    },
+    {
+      "id": "gamefi",
+      "name": "GameFi",
+      "projects": [
+        "suiplay",
+        "samurai-shodown-r",
+        "jackson-protocol",
+        "super-b",
+        "olympian-games",
+        "panzerdogs",
+        "ambrus-studio",
+        "xociety",
+        "cosmocadia",
+        "one-fight-arena",
+        "pebble-city",
+        "dark-times",
+        "double-up",
+        "suigar"
+      ]
+    },
+    {
+      "id": "infra-tools",
+      "name": "Infra&Tools",
+      "projects": [
+        "tbook",
+        "ika",
+        "walrus",
+        "sui-name-service",
+        "pyth",
+        "seal",
+        "nautilus",
+        "zk-login"
+      ]
+    },
+    {
+      "id": "launchpad",
+      "name": "Launchpad",
+      "projects": ["blast-fun", "bluemove", "moonbags"]
+    },
+    {
+      "id": "marketplace",
+      "name": "Marketplace",
+      "projects": ["bluemove", "overtake-world", "tradeport"]
+    },
+    {
+      "id": "meme-coins",
+      "name": "Meme Coins",
+      "projects": [
+        "fud",
+        "hippo",
+        "pugwif",
+        "dogsui",
+        "blub",
+        "hsui",
+        "scb",
+        "suieet"
+      ]
+    },
+    {
+      "id": "nft",
+      "name": "NFT",
+      "projects": [
+        "pawtato-heroes",
+        "pawtato-land",
+        "popkins-legendary-pack",
+        "tallys",
+        "prime-machin",
+        "mystic-yetis",
+        "the-mf-squid-market",
+        "pawtato-tools",
+        "doonies",
+        "suimilios",
+        "the-captains",
+        "aeon",
+        "delorean-labs",
+        "fuddies",
+        "rootlets",
+        "xociety-frontier"
+      ]
+    },
+    {
+      "id": "socialfi",
+      "name": "SocialFi",
+      "projects": [
+        "artipedia",
+        "coral-reef",
+        "quantum-temple",
+        "recrd",
+        "alkimi-exchange",
+        "giverep",
+        "fantv"
+      ]
+    },
+    {
+      "id": "rwa",
+      "name": "RWA",
+      "projects": [
+        "sagint-inc",
+        "rwadepin",
+        "creek-finance",
+        "arttoo",
+        "plume-network",
+        "matrixdock"
+      ]
+    },
+    {
+      "id": "wallets",
+      "name": "Wallets",
+      "projects": [
+        "fewcha",
+        "nightly-wallet",
+        "shadow-wallet",
+        "slush-wallet",
+        "suiet",
+        "surf"
+      ]
+    }
+  ]
+}

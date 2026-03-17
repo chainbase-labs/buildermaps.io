@@ -1,0 +1,12 @@
+{
+  "id": "dripit",
+  "name": "Dripit",
+  "description": "Social prediction market.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://dripit.io/",
+    "twitter": "https://x.com/dripit_io",
+    "logo": "/imgs/prediction_markets/Social Prediction/Dripit.jpg"
+  }
+}

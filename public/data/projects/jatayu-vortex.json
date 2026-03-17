@@ -1,0 +1,12 @@
+{
+  "id": "jatayu-vortex",
+  "name": "Jatayu Vortex",
+  "description": "The Distributed GPU LLM Inference Network. Route your prompts across a decentralized network of GPUs for low-latency, cost-efficient LLM inference.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://jatevo.ai/",
+    "logo": "https://s2.loli.net/2025/11/24/TcnpFqlJHPakLQd.jpg",
+    "twitter": "https://x.com/JatevoId"
+  }
+}

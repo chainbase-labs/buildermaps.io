@@ -1,0 +1,11 @@
+{
+  "id": "bcw-group",
+  "name": "BCW Group",
+  "description": "BCW Group is a blockchain infrastructure and investment firm focused on crypto validation.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/validators/bcw-group.png",
+    "homepage": "https://www.bcw.group/",
+    "twitter": "https://x.com/bcw_llc"
+  }
+}

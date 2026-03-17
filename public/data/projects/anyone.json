@@ -1,0 +1,11 @@
+{
+  "id": "anyone",
+  "name": "Anyone",
+  "description": "Anyone is a decentralized VPN powered by the Ator relay network for anonymous browsing.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/network/anyone.png",
+    "homepage": "https://www.anyone.io/",
+    "twitter": "https://x.com/AnyoneFDN"
+  }
+}

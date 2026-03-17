@@ -1,0 +1,113 @@
+{
+  "sector": "AI & Crypto",
+  "types": [
+    {
+      "id": "agents",
+      "name": "Agents",
+      "projects": [
+        "alethea-ai",
+        "fetch-ai",
+        "kaito",
+        "morpheus",
+        "myshell",
+        "olas",
+        "ora",
+        "talus",
+        "vana",
+        "wayfinder"
+      ]
+    },
+    {
+      "id": "compute",
+      "name": "Compute",
+      "projects": [
+        "aethir",
+        "akash",
+        "compute-labs",
+        "exabits",
+        "fluence",
+        "gensyn",
+        "grass",
+        "io-net",
+        "nesa",
+        "nosana",
+        "phala",
+        "render"
+      ]
+    },
+    {
+      "id": "data",
+      "name": "Data",
+      "projects": [
+        "3box",
+        "bittensor",
+        "cambrian",
+        "chainbase",
+        "codatta",
+        "dtelecom",
+        "fractal-id",
+        "kip-protocol",
+        "kite-ai",
+        "lighthouse",
+        "openledger",
+        "orbs",
+        "rysk",
+        "sahara-ai",
+        "space-and-time",
+        "spectral",
+        "story-protocol",
+        "synternet",
+        "teneo",
+        "the-graph"
+      ]
+    },
+    {
+      "id": "development-tools",
+      "name": "Development Tools",
+      "projects": [
+        "arkham",
+        "chaingpt",
+        "dune",
+        "forta",
+        "kaito",
+        "metatrust",
+        "testmachine"
+      ]
+    },
+    {
+      "id": "inference",
+      "name": "Inference",
+      "projects": ["aizel-network", "giza", "hyperbolic", "kuzu", "wayfinder"]
+    },
+    {
+      "id": "infra",
+      "name": "Infra",
+      "projects": [
+        "aizel-network",
+        "autonomys",
+        "bittensor",
+        "chaingpt",
+        "hypercycle",
+        "hyperspace",
+        "macrocosmos",
+        "near",
+        "pluralis",
+        "prime-intellect",
+        "ritual",
+        "sentient"
+      ]
+    },
+    {
+      "id": "training",
+      "name": "Training",
+      "projects": [
+        "autonomys",
+        "nous-research",
+        "pluralis",
+        "prime-intellect",
+        "ritual",
+        "sentient"
+      ]
+    }
+  ]
+}

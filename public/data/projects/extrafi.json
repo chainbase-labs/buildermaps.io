@@ -1,0 +1,12 @@
+{
+  "id": "extrafi",
+  "name": "Extrafi",
+  "description": "Extra Finance is a community-driven lending & leveraged yield farming protocol built on Optimism & Base.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/DeFi/extrafi.png",
+    "homepage": "https://app.extrafi.io/",
+    "twitter": "https://x.com/extrafi_io",
+    "github": ""
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "omnia-protocol",
+  "name": "OMNIA Protocol",
+  "description": "OMNIA private OS — the multi-chain, multi-RPC stealth layer for private Web3 access.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/network/omnia-protocol.png",
+    "homepage": "https://omniatech.io/",
+    "twitter": "https://x.com/omnia_protocol"
+  }
+}

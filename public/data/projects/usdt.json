@@ -1,0 +1,14 @@
+{
+  "id": "usdt",
+  "name": "USDT",
+  "description": "World's largest stablecoin backed by cash and U.S. Treasury bills",
+  "founded": 2014,
+  "funding": null,
+  "links": {
+    "homepage": "https://tether.to/",
+    "logo": "https://s2.loli.net/2025/11/24/U3A51hV8IdoRNOz.png",
+    "twitter": "https://x.com/tether_to",
+    "telegram": "https://t.me/OfficialTether",
+    "reddit": "https://tether.to"
+  }
+}

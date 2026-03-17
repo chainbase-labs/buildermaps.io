@@ -1,0 +1,11 @@
+{
+  "id": "oasis",
+  "name": "Oasis",
+  "description": "Oasis: Smart Privacy for Web3 & AI. Build a better Web3 on the only confidential EVM in production. Scalable & Secure. Interoperable by design.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/l1-l2/oasis.png",
+    "homepage": "https://oasis.net/",
+    "twitter": "https://x.com/OasisProtocol"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "blocksense",
+  "name": "Blocksense",
+  "description": "Blocksense powers verifiable services with trustless execution at internet scale. Built on zkSchellingCoin consensus, zkTLS feeds, and the Boundless Throughput Engine, it enables permissionless oracle scripts, verifiable AI inference, and scalable autonomous services across every chain.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/oracle/blocksense.png",
+    "homepage": "https://blocksense.network/",
+    "twitter": "https://x.com/blocksense_"
+  }
+}

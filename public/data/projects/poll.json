@@ -1,0 +1,12 @@
+{
+  "id": "poll",
+  "name": "Poll",
+  "description": "Social prediction market.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://app.poll.fun/",
+    "twitter": "https://x.com/polldotfun",
+    "logo": "/imgs/prediction_markets/Social Prediction/Poll.jpg"
+  }
+}

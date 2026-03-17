@@ -1,0 +1,12 @@
+{
+  "id": "towns-protocol",
+  "name": "Towns Protocol",
+  "description": "Towns is an open messaging protocol built on Base that powers private groups and decentralized finance.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/MarketplacesandDiscovery/towns-protocol.png",
+    "homepage": "https://www.towns.com/",
+    "twitter": "https://x.com/TownsProtocol",
+    "github": ""
+  }
+}

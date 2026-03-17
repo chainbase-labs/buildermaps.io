@@ -1,0 +1,12 @@
+{
+  "id": "tradefox",
+  "name": "Tradefox",
+  "description": "AI-powered prediction market platform.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://thetradefox.com/",
+    "twitter": "https://x.com/tradefoxai",
+    "logo": "/imgs/prediction_markets/Binary/Tradefox.jpg"
+  }
+}

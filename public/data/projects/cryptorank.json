@@ -1,0 +1,13 @@
+{
+  "id": "cryptorank",
+  "name": "CryptoRank",
+  "description": "CryptoRank crypto analytics 32K+ tokens, 1M+ users, VC funding analytics, IDO/IEO ROI tracking, Fear & Greed Index, public API 14K+ markets",
+  "founded": 2018,
+  "funding": null,
+  "links": {
+    "homepage": "https://cryptorank.io",
+    "logo": "/imgs/Data/Analytics/CryptoRank.jpg",
+    "twitter": "https://x.com/CryptoRank_io",
+    "github": ""
+  }
+}

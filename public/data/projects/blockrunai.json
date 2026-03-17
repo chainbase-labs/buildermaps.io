@@ -1,0 +1,12 @@
+{
+  "id": "blockrunai",
+  "name": "BlockRunAI",
+  "description": "The discovery layer for AI agents. Fund your agent. It discovers and pays for services autonomously.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/MarketplacesandDiscovery/blockrunai.png",
+    "homepage": "https://blockrun.ai/",
+    "twitter": "https://x.com/BlockRunAI",
+    "github": ""
+  }
+}

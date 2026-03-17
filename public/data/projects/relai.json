@@ -1,0 +1,10 @@
+{
+  "id": "relai",
+  "name": "RelAI",
+  "description": "Solana-based execution layer bridging artificial intelligence decision-making with rapid onchain transaction capabilities.",
+  "links": {
+    "homepage": "https://relai.network/",
+    "logo": "/imgs/agentic-finance/relai.jpg",
+    "twitter": "https://x.com/relayaisolana"
+  }
+}

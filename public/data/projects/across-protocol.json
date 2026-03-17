@@ -1,0 +1,12 @@
+{
+  "id": "across-protocol",
+  "name": "Across Protocol",
+  "description": "Bridge assets across Ethereum, BSC, Solana, Base, Arbitrum, Hyperliquid and many more. Fast, cheap, secure crosschain transfers powered by intents.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/Infra/across-protocol.png",
+    "homepage": "https://across.to/",
+    "twitter": "https://x.com/AcrossProtocol",
+    "github": ""
+  }
+}

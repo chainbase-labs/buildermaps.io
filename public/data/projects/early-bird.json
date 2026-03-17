@@ -1,0 +1,12 @@
+{
+  "id": "early-bird",
+  "name": "Early Bird",
+  "description": "Prediction market platform.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.joinearlybird.com/",
+    "twitter": "https://x.com/joinearlybird",
+    "logo": "/imgs/prediction_markets/Multiple-Choice/Early Bird.jpg"
+  }
+}

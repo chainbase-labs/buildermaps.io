@@ -1,0 +1,13 @@
+{
+  "id": "story-protocol",
+  "name": "Story Protocol",
+  "description": "Layer-1 blockchain for intellectual property tokenization making IP programmable, enforceable, and monetizable",
+  "founded": 2023,
+  "funding": 140000000,
+  "links": {
+    "homepage": "https://www.story.foundation/",
+    "logo": "/imgs/Data/Marketplaces/StoryProtocol.jpg",
+    "twitter": "https://x.com/StoryProtocol",
+    "github": ""
+  }
+}

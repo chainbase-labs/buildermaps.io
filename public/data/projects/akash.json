@@ -1,0 +1,13 @@
+{
+  "id": "akash",
+  "name": "Akash",
+  "description": "Decentralized cloud computing marketplace with $4.6M funding, $5M GPU incentive program 2024, permissionless deployment platform",
+  "founded": 2018,
+  "funding": 4600000,
+  "links": {
+    "homepage": "https://akash.network",
+    "logo": "/imgs/AI_Crypto/Compute/Akash.jpg",
+    "twitter": "https://x.com/akashnet",
+    "github": ""
+  }
+}

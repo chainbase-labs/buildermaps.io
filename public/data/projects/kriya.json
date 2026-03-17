@@ -1,0 +1,12 @@
+{
+  "id": "kriya",
+  "name": "Kriya",
+  "description": "Kriya is a one-stop DeFi protocol on Sui offering native AMM for Swaps, Limit Orders, Strategy Vaults, and Leveraged Perpetuals.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://kriya.finance/",
+    "logo": "/imgs/Sui/DeFi/Kriya.jpg",
+    "twitter": "https://x.com/kriya_finance"
+  }
+}

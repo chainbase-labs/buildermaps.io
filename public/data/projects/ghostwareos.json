@@ -1,0 +1,11 @@
+{
+  "id": "ghostwareos",
+  "name": "GhostWareOS",
+  "description": "GhostWareOS erases your fingerprint across comms, wallets, and identity layers. Run aliases. Route through relays. Leave no metadata behind.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/os/ghostwareos.png",
+    "homepage": "https://www.ghostwareos.com/",
+    "twitter": "https://x.com/GhostWareOS"
+  }
+}

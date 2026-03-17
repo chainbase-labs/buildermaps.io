@@ -1,0 +1,14 @@
+{
+  "id": "myriad-markets",
+  "name": "Myriad Markets",
+  "description": "Multichain prediction markets protocol with AMM model and browser extension for decentralized betting",
+  "founded": 2024,
+  "funding": null,
+  "links": {
+    "homepage": "https://myriad.markets/markets",
+    "logo": "/imgs/prediction_markets/Binary/Myriad Markets.jpg",
+    "twitter": "https://x.com/MyriadMarkets",
+    "telegram": "https://t.me/Myriadcoinofficial",
+    "github": "https://github.com/myriadteam"
+  }
+}

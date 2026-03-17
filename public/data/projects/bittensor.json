@@ -1,0 +1,13 @@
+{
+  "id": "bittensor",
+  "name": "Bittensor",
+  "description": "Blockchain-based decentralized machine learning network rewarding models with TAO tokens",
+  "founded": 2019,
+  "funding": null,
+  "links": {
+    "homepage": "https://bittensor.com/",
+    "logo": "/imgs/AI_Crypto/Data/Bittensor.jpg",
+    "twitter": "https://x.com/opentensor",
+    "github": ""
+  }
+}

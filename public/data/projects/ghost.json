@@ -1,0 +1,11 @@
+{
+  "id": "ghost",
+  "name": "Ghost",
+  "description": "GHOST is a Proof of Stake privacy coin to help make you nothing but a \"ghost\" when transacting online!",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/cash/ghost.png",
+    "homepage": "https://ipfs.ghostbyjohnmcafee.com/",
+    "twitter": "https://x.com/Ghost_Privacy"
+  }
+}

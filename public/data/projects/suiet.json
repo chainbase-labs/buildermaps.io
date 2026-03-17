@@ -1,0 +1,13 @@
+{
+  "id": "suiet",
+  "name": "Suiet",
+  "description": "Suiet is an open-source, self-custodial wallet built for the Sui blockchain, prioritizing privacy, security, and true ownership.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "logo": "/imgs/Sui/Wallets/Suiet.png",
+    "twitter": "https://x.com/suiet_wallet",
+    "homepage": "https://suiet.app/",
+    "discord": "https://discord.gg/Vsjpghdhb3"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "brokex-protocol",
+  "name": "Brokex Protocol",
+  "description": "Brokex Protocol is a next-generation decentralized trading protocol enabling users to securely and transparently trade over 500 assets — including stocks, forex, and commodities — directly on the Avalanche blockchain. With no deposits required, Brokex offers non-custodial access to real-time leverage trading through limit and market orders, powered by Pyth oracle and off-chain automation.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/perpdex/brokex-protocol.png",
+    "homepage": "https://brokex.trade/",
+    "twitter": "https://x.com/brokexfi"
+  }
+}

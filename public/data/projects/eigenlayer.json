@@ -1,0 +1,13 @@
+{
+  "id": "eigenlayer",
+  "name": "EigenLayer",
+  "description": "Ethereum restaking protocol enabling ETH stakers to secure additional protocols, with $19.3B TVL and EIGEN token launch Oct 2024",
+  "founded": 2023,
+  "funding": 150000000,
+  "links": {
+    "homepage": "https://www.eigencloud.xyz/",
+    "logo": "/imgs/Data/Provenance/EigenLayer.jpg",
+    "twitter": "https://x.com/eigencloud",
+    "github": ""
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "volo",
+  "name": "Volo",
+  "description": "Volo is a liquid staking protocol on Sui offering a decentralized and non-custodial way to stake SUI.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://volo.fi/",
+    "logo": "/imgs/Sui/DeFi/Volo.png",
+    "twitter": "https://x.com/volo_sui"
+  }
+}

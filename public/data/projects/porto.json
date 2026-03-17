@@ -1,0 +1,11 @@
+{
+  "id": "porto",
+  "name": "Porto",
+  "description": "The single port for liquid, productive assets.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/rwa/porto.png",
+    "homepage": "https://porto.capital/",
+    "twitter": "https://x.com/portodotcapital"
+  }
+}

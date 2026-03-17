@@ -1,0 +1,11 @@
+{
+  "id": "confidential-layer",
+  "name": "Confidential Layer",
+  "description": "Confidential Layer",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/l1-l2/confidential-layer.png",
+    "homepage": "https://confidentiallayer.com/",
+    "twitter": "https://x.com/ConfidentialLyr"
+  }
+}

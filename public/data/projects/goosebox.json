@@ -1,0 +1,11 @@
+{
+  "id": "goosebox",
+  "name": "GooseBox",
+  "description": "GooseBox is a blockchain gaming platform on Pharos network.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/others/goosebox.png",
+    "homepage": "https://www.gbox.game/",
+    "twitter": "https://x.com/GooseBoxGame"
+  }
+}

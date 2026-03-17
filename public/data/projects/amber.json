@@ -1,0 +1,11 @@
+{
+  "id": "amber",
+  "name": "Amber",
+  "description": "A leading digital asset platform providing liquidity and financial services.",
+  "location": "Singapore",
+  "links": {
+    "logo": "/imgs/asian-vc/amber.jpg",
+    "homepage": "https://www.ambr.io/sgp",
+    "twitter": "https://x.com/ambergroup_io"
+  }
+}

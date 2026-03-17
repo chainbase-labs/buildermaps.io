@@ -1,0 +1,11 @@
+{
+  "id": "faroswap",
+  "name": "FaroSwap",
+  "description": "FaroSwap is a decentralized exchange (DEX) on the Pharos network.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/dex/faroswap.png",
+    "homepage": "https://faroswap.xyz/",
+    "twitter": "https://x.com/FaroSwap"
+  }
+}

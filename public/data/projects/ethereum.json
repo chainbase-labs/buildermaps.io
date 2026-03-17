@@ -1,0 +1,12 @@
+{
+  "id": "ethereum",
+  "name": "Ethereum",
+  "description": "Ethereum is a global, decentralized platform for money and new kinds of applications. On Ethereum, you can write code that controls money, and build applications accessible anywhere in the world.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://ethereum.org/",
+    "logo": "https://s2.loli.net/2025/11/24/ABEJCz7q62g1KlN.jpg",
+    "twitter": "https://x.com/ethereum"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "mogami",
+  "name": "Mogami",
+  "description": "Mogami x402 Java SDK payment gateway facilitator machine-to-machine commerce API monetization",
+  "founded": 2024,
+  "funding": null,
+  "links": {
+    "homepage": "https://mogami.tech/",
+    "logo": "https://s2.loli.net/2025/11/24/WnBRNhDSXF2KpQs.png",
+    "twitter": "https://x.com/mogami_tech"
+  }
+}

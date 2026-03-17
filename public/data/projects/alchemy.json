@@ -1,0 +1,14 @@
+{
+  "id": "alchemy",
+  "name": "Alchemy",
+  "description": "Web3 developer platform with $10.2B valuation, $564M total funding from a16z, Lightspeed, Silver Lake, $5M Everyone Onchain Fund",
+  "founded": 2017,
+  "funding": 564000000,
+  "links": {
+    "homepage": "https://www.alchemy.com/",
+    "logo": "/imgs/Data/Infra/Alchemy.jpg",
+    "twitter": "https://x.com/Alchemy",
+    "telegram": "https://t.me/Alchemy_official",
+    "linkedin": "https://www.linkedin.com/company/alchemyinc"
+  }
+}

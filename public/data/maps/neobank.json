@@ -1,0 +1,109 @@
+{
+  "sector": "NeoBank",
+  "types": [
+    {
+      "id": "neobank",
+      "name": "NeoBank",
+      "projects": [
+        "ether-fi",
+        "holyheld",
+        "krak",
+        "ur",
+        "avici",
+        "tria",
+        "nexo",
+        "redotpay",
+        "kast",
+        "gnosis-app",
+        "minipay",
+        "wirex",
+        "fuse-wallet",
+        "fasset",
+        "galaxyone",
+        "lemon-argentina",
+        "lulo",
+        "cypher",
+        "kolo",
+        "eversend",
+        "fizen",
+        "tuyo",
+        "pyra",
+        "lava",
+        "thorwallet",
+        "stables",
+        "tap",
+        "vpay",
+        "fiat24"
+      ]
+    },
+    {
+      "id": "cex-cards",
+      "name": "CEX Cards",
+      "projects": [
+        "coinbase",
+        "binance",
+        "crypto",
+        "bybit",
+        "kraken",
+        "okx",
+        "bitget",
+        "gate"
+      ]
+    },
+    {
+      "id": "upcoming-neobanks",
+      "name": "Upcoming Neobanks",
+      "projects": [
+        "plasma",
+        "superform",
+        "neobankless",
+        "veera",
+        "moto",
+        "zoth",
+        "stealf",
+        "fasqon"
+      ]
+    },
+    {
+      "id": "business-neobanks",
+      "name": "Business Neobanks",
+      "projects": [
+        "gnosis-business",
+        "utila",
+        "sphere-labs",
+        "xmoney",
+        "crossmint",
+        "request-finance",
+        "coinshift",
+        "coinflow",
+        "squads-labs",
+        "allscale",
+        "slash",
+        "infini"
+      ]
+    },
+    {
+      "id": "crypto-cards",
+      "name": "Crypto Cards",
+      "projects": ["moonwell", "solcard", "avalanche-card", "1inch", "osmosis"]
+    },
+    {
+      "id": "fintech",
+      "name": "Fintech",
+      "projects": ["revolut", "stripe", "cash", "robinhood", "paypal", "venmo"]
+    },
+    {
+      "id": "wallet",
+      "name": "Wallet",
+      "projects": [
+        "metamask",
+        "solflare",
+        "ready",
+        "phantom",
+        "ledger",
+        "telegram",
+        "safepal"
+      ]
+    }
+  ]
+}

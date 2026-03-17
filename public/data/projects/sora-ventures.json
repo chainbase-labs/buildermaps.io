@@ -1,0 +1,11 @@
+{
+  "id": "sora-ventures",
+  "name": "Sora Ventures",
+  "description": "Blockchain-focused venture fund investing in digital assets.",
+  "location": "Hong Kong",
+  "links": {
+    "logo": "/imgs/asian-vc/sora-ventures.jpg",
+    "homepage": "https://sora.vc/",
+    "twitter": "https://x.com/sora_ventures"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "token-terminal",
+  "name": "Token Terminal",
+  "description": "Token Terminal crypto fundamentals analytics, traditional financial metrics P/E ratio, revenue/fees/earnings, GMV, treasury analytics, institutional-grade",
+  "founded": 2019,
+  "funding": null,
+  "links": {
+    "homepage": "https://tokenterminal.com",
+    "logo": "/imgs/Data/Analytics/tokenterminal.jpg",
+    "twitter": "https://x.com/tokenterminal",
+    "github": ""
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "praxis",
+  "name": "Praxis",
+  "description": "AI agent orchestration protocol with decentralized mesh networks. Enables A2A communication, swarm intelligence, and distributed consensus for multi-agent coordination via ERC-8004 standard.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/AgentsOrchestration/praxis.png",
+    "homepage": "",
+    "twitter": "https://x.com/Praxis_Protocol",
+    "github": ""
+  }
+}

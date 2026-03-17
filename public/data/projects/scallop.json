@@ -1,0 +1,12 @@
+{
+  "id": "scallop",
+  "name": "Scallop",
+  "description": "Scallop is the pioneering Next Generation Interest Rate Machine for the Sui ecosystem, offering a peer-to-peer money market with high-interest lending.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://scallop.io/",
+    "logo": "/imgs/Sui/DeFi/Scallop.png",
+    "twitter": "https://x.com/Scallop_io"
+  }
+}

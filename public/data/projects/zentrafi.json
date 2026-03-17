@@ -1,0 +1,11 @@
+{
+  "id": "zentrafi",
+  "name": "ZentraFi",
+  "description": "Trade, provide liquidity, and earn rewards on the leading DEX for Pharos blockchain",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/dex/zentrafi.png",
+    "homepage": "https://atlantic.zentrafi.xyz/",
+    "twitter": "https://x.com/zentrafi"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "bluefin",
+  "name": "Bluefin",
+  "description": "Bluefin is a decentralized exchange for trading perpetual swaps with high performance and low fees on Sui.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://bluefin.io/",
+    "logo": "/imgs/Sui/DeFi/Bluefin.png",
+    "twitter": "https://x.com/bluefinapp"
+  }
+}

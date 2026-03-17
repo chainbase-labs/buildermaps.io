@@ -1,0 +1,12 @@
+{
+  "id": "tradeport",
+  "name": "Tradeport",
+  "description": "Tradeport is a multi-chain NFT aggregator and marketplace supporting Sui.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://tradeport.xyz/",
+    "logo": "/imgs/Sui/Marketplace/Tradeport.png",
+    "twitter": "https://x.com/tradeportxyz"
+  }
+}

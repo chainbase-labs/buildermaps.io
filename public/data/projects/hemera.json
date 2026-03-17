@@ -1,0 +1,11 @@
+{
+  "id": "hemera",
+  "name": "Hemera",
+  "description": "Hemera is an enterprise-grade blockchain data layer providing real-time, reliable, and complete access to on-chain wallet, exchange, trade, and fund-flow data across multiple chains. Built for Layer 1s, Layer 2s, crypto trading firms, and institutions, Hemera delivers high-performance data infrastructure and customised solutions for on-chain analytics, monitoring, compliance, and intelligence.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/block-explorer/hemera.png",
+    "homepage": "https://www.thehemera.com/",
+    "twitter": "https://x.com/HemeraProtocol"
+  }
+}

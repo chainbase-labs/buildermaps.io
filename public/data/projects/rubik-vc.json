@@ -1,0 +1,11 @@
+{
+  "id": "rubik-vc",
+  "name": "Rubik VC",
+  "description": "Crypto venture fund focused on Web3 innovation.",
+  "location": "Asia",
+  "links": {
+    "logo": "/imgs/asian-vc/rubik-vc.jpg",
+    "homepage": "https://www.rubikvc.com/",
+    "twitter": "https://x.com/rubikvc"
+  }
+}

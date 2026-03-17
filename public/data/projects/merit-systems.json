@@ -1,0 +1,10 @@
+{
+  "id": "merit-systems",
+  "name": "Merit Systems",
+  "description": "Protocol establishing reputation and verifiable performance metrics for autonomous onchain actors.",
+  "links": {
+    "homepage": "https://meritsystems.io/",
+    "logo": "/imgs/agentic-finance/merit-systems.jpg",
+    "twitter": "https://x.com/merit_systems"
+  }
+}

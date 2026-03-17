@@ -1,0 +1,11 @@
+{
+  "id": "r2-protocol",
+  "name": "R2 Protocol",
+  "description": "R2 Protocol offers competitive yields through RWA-backed products. Earn ~5% APY with sR2USD (T-bill backed) or 10% APY with sR2USD+ (private credit backed). Low to medium risk DeFi solutions.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/rwa/r2-protocol.png",
+    "homepage": "https://www.r2.money/",
+    "twitter": "https://x.com/r2yield"
+  }
+}

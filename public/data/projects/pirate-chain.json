@@ -1,0 +1,11 @@
+{
+  "id": "pirate-chain",
+  "name": "Pirate Chain",
+  "description": "Pirate Chain is a privacy-focused cryptocurrency using zk-SNARKs for 100% private transactions.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/cash/pirate-chain.png",
+    "homepage": "https://piratechain.com/",
+    "twitter": "https://x.com/PirateChain"
+  }
+}

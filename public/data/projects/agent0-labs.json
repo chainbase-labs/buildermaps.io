@@ -1,0 +1,12 @@
+{
+  "id": "agent0-labs",
+  "name": "agent0 Labs",
+  "description": "AI-powered framework for testing and interacting with DeFi protocols. Enables simulation, automation, and strategy deployment for Hyperdrive and other DeFi markets.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/DevelopersTooling/agent0-labs.png",
+    "homepage": "",
+    "twitter": "https://x.com/agent0lab",
+    "github": ""
+  }
+}

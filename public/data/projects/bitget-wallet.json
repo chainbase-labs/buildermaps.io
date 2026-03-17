@@ -1,0 +1,11 @@
+{
+  "id": "bitget-wallet",
+  "name": "Bitget Wallet",
+  "description": "Bitget Wallet is a secure and user-friendly multi-chain Web3 wallet with DeFi, NFT, and DApp browser features.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/wallet/bitget-wallet.png",
+    "homepage": "https://web3.bitget.com/en",
+    "twitter": "https://x.com/BitgetWallet"
+  }
+}

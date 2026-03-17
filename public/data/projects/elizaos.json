@@ -1,0 +1,12 @@
+{
+  "id": "elizaos",
+  "name": "elizaOS",
+  "description": "Open-source TypeScript AI agent framework by ai16z DAO. Features 90+ plugins, Twitter/X integration, multi-chain support, and RAG memory system for autonomous social and trading agents.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/Frameworks/elizaos.png",
+    "homepage": "",
+    "twitter": "https://x.com/elizaOS",
+    "github": ""
+  }
+}

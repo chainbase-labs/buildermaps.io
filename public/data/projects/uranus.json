@@ -1,0 +1,12 @@
+{
+  "id": "uranus",
+  "name": "Uranus",
+  "description": "Prediction market platform.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://uranus.ag/trade/",
+    "twitter": "https://x.com/UranusPerps",
+    "logo": "/imgs/prediction_markets/Multiple-Choice/Uranus.jpg"
+  }
+}

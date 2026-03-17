@@ -1,0 +1,12 @@
+{
+  "id": "khorus",
+  "name": "Khorus",
+  "description": "Khorus is an AI-powered platform where virtual employees and robots execute tasks, collaborate, and optimize workflows in real-time. Build your AI workforce today.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/Frameworks/khorus.png",
+    "homepage": "https://office.khorus.io/",
+    "twitter": "https://x.com/khorusio",
+    "github": ""
+  }
+}

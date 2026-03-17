@@ -1,0 +1,10 @@
+{
+  "id": "tether",
+  "name": "Tether",
+  "description": "Dominant stablecoin issuer providing the primary digital fiat liquidity layer for global crypto trading and programmatic settlements.",
+  "links": {
+    "homepage": "https://tether.to/",
+    "logo": "/imgs/agentic-finance/tether.png",
+    "twitter": "https://x.com/tether"
+  }
+}

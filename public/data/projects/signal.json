@@ -1,0 +1,13 @@
+{
+  "id": "signal",
+  "name": "Signal",
+  "description": "Prediction market platform.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://signals.wtf/",
+    "twitter": "https://x.com/signalswtf",
+    "linktree": "https://signals.wtf/links/",
+    "logo": "/imgs/prediction_markets/Multiple-Choice/Signal.jpg"
+  }
+}

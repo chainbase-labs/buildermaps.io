@@ -1,0 +1,11 @@
+{
+  "id": "gotchipus",
+  "name": "Gotchipus",
+  "description": "Gotchipus is a blockchain-based gaming and NFT project on Pharos network.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/others/gotchipus.png",
+    "homepage": "https://gotchipus.com/",
+    "twitter": "https://x.com/gotchipus"
+  }
+}

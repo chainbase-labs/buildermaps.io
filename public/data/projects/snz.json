@@ -1,0 +1,11 @@
+{
+  "id": "snz",
+  "name": "SNZ",
+  "description": "SNZ is a crypto-native and community-oriented incubator and venture capital firm.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/validators/snz.png",
+    "homepage": "https://snzholding.com/",
+    "twitter": "https://x.com/snzholding"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "zcash",
+  "name": "Zcash",
+  "description": "Zcash is a privacy-protecting cryptocurrency with shielded transactions using zero-knowledge proofs.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/cash/zcash.png",
+    "homepage": "https://z.cash/",
+    "twitter": "https://x.com/Zcash"
+  }
+}

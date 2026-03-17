@@ -1,0 +1,12 @@
+{
+  "id": "firefly",
+  "name": "Firefly",
+  "description": "Social app with prediction features.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://firefly.social/about",
+    "twitter": "https://x.com/thefireflyapp",
+    "logo": "/imgs/prediction_markets/Others/Firefly.jpg"
+  }
+}

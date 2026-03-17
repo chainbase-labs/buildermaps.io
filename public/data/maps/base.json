@@ -1,0 +1,110 @@
+{
+  "sector": "Base",
+  "types": [
+    {
+      "id": "ai-agent",
+      "name": "AI Agent",
+      "projects": [
+        "bankr",
+        "fere-ai",
+        "freysa",
+        "heyelsa",
+        "netmind-ai",
+        "roba-labs",
+        "senpi",
+        "venice",
+        "virtuals"
+      ]
+    },
+    {
+      "id": "consumer-app",
+      "name": "Consumer App",
+      "projects": [
+        "district",
+        "fantasy-top",
+        "football-fun",
+        "highlight",
+        "inflynce-protocol",
+        "kaito",
+        "noice",
+        "nook",
+        "paragraph",
+        "slice",
+        "towns-app"
+      ]
+    },
+    {
+      "id": "defi",
+      "name": "DeFi",
+      "projects": [
+        "aerodrome",
+        "alien-base",
+        "avantis",
+        "beefy",
+        "definitive",
+        "extrafi",
+        "fluid",
+        "limitless",
+        "moonwel",
+        "morpho",
+        "quickswap",
+        "seamless",
+        "swapbased"
+      ]
+    },
+    {
+      "id": "gamefi",
+      "name": "GameFi",
+      "projects": [
+        "b3",
+        "blocklords",
+        "cat-town",
+        "chibi-clas",
+        "clash-of-coins",
+        "cyberlife-studios",
+        "echelon",
+        "mavia",
+        "supertrip",
+        "townies",
+        "uptopia"
+      ]
+    },
+    {
+      "id": "infra",
+      "name": "Infra",
+      "projects": [
+        "across-protocol",
+        "avail",
+        "axelar",
+        "basevol",
+        "chainbase",
+        "cypher",
+        "flock",
+        "glider",
+        "hyperlane",
+        "intuition",
+        "iopn",
+        "slice",
+        "synapse",
+        "upshot",
+        "xmtp",
+        "zkp2p"
+      ]
+    },
+    {
+      "id": "meme",
+      "name": "Meme",
+      "projects": ["brett", "mog", "mr-miggles", "ski-mask-dog", "toshi"]
+    },
+    {
+      "id": "nft",
+      "name": "NFT",
+      "projects": ["element", "lootex", "magic-eden", "opensea", "rarible"]
+    },
+    {
+      "id": "wallet",
+      "name": "Wallet",
+      "projects": ["base-app", "flipp", "rabby-wallet", "wigwam"]
+    }
+  ]
+}

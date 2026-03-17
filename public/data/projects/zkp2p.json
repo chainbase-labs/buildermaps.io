@@ -1,0 +1,11 @@
+{
+  "id": "zkp2p",
+  "name": "ZKP2P",
+  "description": "Fast, trust minimized and composable P2P onramp for crypto",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/payment/zkp2p.png",
+    "homepage": "https://www.zkp2p.xyz/",
+    "twitter": "https://x.com/zkp2p"
+  }
+}

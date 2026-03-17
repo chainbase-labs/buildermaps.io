@@ -1,0 +1,10 @@
+{
+  "id": "clawcaster",
+  "name": "Clawcaster",
+  "description": "Farcaster bridge enabling agents to post/interact on Farcaster.",
+  "links": {
+    "homepage": "https://clawcaster.com/",
+    "twitter": "https://x.com/clawcaster",
+    "logo": "/imgs/OpenClaw/The\"Molt\"Society/clawcaster.png"
+  }
+}

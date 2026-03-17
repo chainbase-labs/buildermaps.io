@@ -1,0 +1,12 @@
+{
+  "id": "awe",
+  "name": "AWE",
+  "description": "Autonomous Worlds Engine (AWE) powering persistent digital environments with thousands of AI agents. Features multi-agent simulation, World.Fun launchpad, and AWESOME MCP platform.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/AgentFi/awe.png",
+    "homepage": "",
+    "twitter": "https://x.com/awenetwork_ai",
+    "github": ""
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "zenith",
+  "name": "Zenith",
+  "description": "Unlock the DeFi",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/dex/zenith.png",
+    "homepage": "https://testnet.zenithfinance.xyz/",
+    "twitter": "https://x.com/ZenithSwapxyz"
+  }
+}

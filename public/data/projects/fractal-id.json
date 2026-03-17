@@ -1,0 +1,13 @@
+{
+  "id": "fractal-id",
+  "name": "Fractal ID",
+  "description": "Chain-agnostic decentralized identity system providing KYC/KYB verification for 250+ Web3 projects",
+  "founded": 2020,
+  "funding": null,
+  "links": {
+    "homepage": "https://web.fractal.id/",
+    "logo": "/imgs/Data/Provenance/Fractal ID.jpg",
+    "twitter": "https://x.com/Fractal_ID",
+    "github": ""
+  }
+}

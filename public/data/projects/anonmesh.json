@@ -1,0 +1,11 @@
+{
+  "id": "anonmesh",
+  "name": "anonmesh",
+  "description": "Offline-first crypto & messaging. Private / Resilient / Local",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/private-messaging/anonmesh.png",
+    "homepage": "https://www.anonme.sh/",
+    "twitter": "https://x.com/anon0mesh"
+  }
+}

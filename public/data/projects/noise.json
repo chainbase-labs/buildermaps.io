@@ -1,0 +1,12 @@
+{
+  "id": "noise",
+  "name": "Noise",
+  "description": "Prediction market platform.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://www.noise.xyz/",
+    "logo": "/imgs/prediction_markets/Others/Noise.jpg",
+    "twitter": "https://x.com/noise_xyz"
+  }
+}

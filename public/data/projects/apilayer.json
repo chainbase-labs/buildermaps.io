@@ -1,0 +1,13 @@
+{
+  "id": "apilayer",
+  "name": "APILayer",
+  "description": "Robust API service (Coinlayer) for accessing real-time and historical cryptocurrency exchange rate data from 25+ exchanges.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://apilayer.com/",
+    "logo": "/imgs/Data/Indexing/APILayer.jpg",
+    "twitter": "https://x.com/apilayer",
+    "github": ""
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "scroll",
+  "name": "Scroll",
+  "description": "Ethereum Layer 2 scaling solution using zkEVM technology. Features zero-knowledge proofs for secure, scalable smart contract execution with full EVM compatibility.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/Blockchains/scroll.png",
+    "homepage": "https://scroll.io/",
+    "twitter": "https://x.com/Scroll_ZKP",
+    "github": ""
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "safe-wallet",
+  "name": "Safe Wallet",
+  "description": "Multisig Security for your onchain assets",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/pharos/multisig/safe-wallet.png",
+    "homepage": "https://safe.global/",
+    "twitter": "https://x.com/SafeLabs_"
+  }
+}

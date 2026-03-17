@@ -1,0 +1,12 @@
+{
+  "id": "haedal",
+  "name": "Haedal",
+  "description": "Haedal is a liquid staking protocol natively built on Sui that allows users to stake SUI and receive haSUI to participate in DeFi activities.",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://haedal.xyz/",
+    "logo": "/imgs/Sui/DeFi/Haedal.png",
+    "twitter": "https://x.com/HaedalProtocol"
+  }
+}

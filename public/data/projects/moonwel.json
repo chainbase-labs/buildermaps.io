@@ -1,0 +1,12 @@
+{
+  "id": "moonwel",
+  "name": "Moonwel",
+  "description": "A user-friendly lending app built on Base and Optimism, bringing the world onchain with simple, yet powerful financial tools.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/Base/DeFi/moonwel.png",
+    "homepage": "https://moonwell.fi/",
+    "twitter": "https://x.com/MoonwellDeFi",
+    "github": ""
+  }
+}

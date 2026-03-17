@@ -1,0 +1,11 @@
+{
+  "id": "skyvision-capital",
+  "name": "SkyVision Capital",
+  "description": "Crypto-focused venture fund investing in Web3 infrastructure.",
+  "location": "Hong Kong",
+  "links": {
+    "logo": "/imgs/asian-vc/skyvision-capital.jpg",
+    "homepage": "https://www.skyvisioncapital.com/",
+    "twitter": "https://x.com/skyvisioncap"
+  }
+}

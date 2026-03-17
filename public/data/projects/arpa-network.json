@@ -1,0 +1,11 @@
+{
+  "id": "arpa-network",
+  "name": "ARPA Network",
+  "description": "ARPA Network is a new system architecture of threshold signature scheme (TSS). With an innovative protocol design and multiple unique mechanisms, ARPA Network adapts the threshold BLS scheme for blockchain.",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/confidential-compute/arpa-network.png",
+    "homepage": "https://www.arpanetwork.io/en-US",
+    "twitter": "https://x.com/arpaofficial"
+  }
+}

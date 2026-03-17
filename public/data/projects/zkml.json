@@ -1,0 +1,11 @@
+{
+  "id": "zkml",
+  "name": "zKML",
+  "description": "Unlocking Privacy, Secure Blockchain Communication, and Cross Interoperability. Harnessing machine learning to create zK-Proofs and secure multiparty computation for data privacy",
+  "location": "Global",
+  "links": {
+    "logo": "/imgs/privacy/confidential-compute/zkml.png",
+    "homepage": "https://www.zkml.systems/",
+    "twitter": "https://x.com/ZKMLsystems"
+  }
+}

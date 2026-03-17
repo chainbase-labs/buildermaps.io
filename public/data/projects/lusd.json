@@ -1,0 +1,15 @@
+{
+  "id": "lusd",
+  "name": "LUSD",
+  "description": "Decentralized overcollateralized stablecoin backed by ETH with 0% interest borrowing",
+  "founded": 2020,
+  "funding": 2400000,
+  "links": {
+    "homepage": "https://www.liquity.org/",
+    "logo": "https://s2.loli.net/2025/11/24/sKBDRwLXhgyavt5.png",
+    "twitter": "https://x.com/LiquityProtocol",
+    "telegram": "https://t.me/liquityprotocol",
+    "discord": "https://discord.gg/liquity",
+    "reddit": "https://www.liquity.org"
+  }
+}

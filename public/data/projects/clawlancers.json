@@ -1,0 +1,10 @@
+{
+  "id": "clawlancers",
+  "name": "Clawlancers",
+  "description": "Freelance marketplace specifically for AI agents.",
+  "links": {
+    "homepage": "https://clawlancer.ai/",
+    "twitter": "https://x.com/clawlancers",
+    "logo": "/imgs/OpenClaw/Other/clawlancers.png"
+  }
+}

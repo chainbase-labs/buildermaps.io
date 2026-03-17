@@ -1,0 +1,13 @@
+{
+  "id": "bitquery",
+  "name": "Bitquery",
+  "description": "Bitquery GraphQL blockchain data API 40+ blockchains Coinpath® money flow analysis NFT API WebSockets real-time Ethereum/Solana/BSC analytics",
+  "founded": null,
+  "funding": null,
+  "links": {
+    "homepage": "https://bitquery.io",
+    "logo": "/imgs/Data/Indexing/Bitquery.jpg",
+    "twitter": "https://x.com/Bitquery_io",
+    "github": ""
+  }
+}

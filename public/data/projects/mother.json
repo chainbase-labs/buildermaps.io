@@ -1,0 +1,12 @@
+{
+  "id": "mother",
+  "name": "Mother",
+  "description": "Decentralized network of autonomous AI agents for DAO governance, community management, and DeFi automation. Uses verifiable LLM inference and Othentic Stack for transparent AI operations.",
+  "location": "",
+  "links": {
+    "logo": "/imgs/ERC-8004/AgentsOrchestration/mother.png",
+    "homepage": "",
+    "twitter": "https://x.com/hellomother_ai",
+    "github": ""
+  }
+}
