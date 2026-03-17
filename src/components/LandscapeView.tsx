@@ -23,8 +23,11 @@ import {
 const EXPORT_IMAGE_PLACEHOLDER =
   "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' viewBox='0 0 56 56'%3E%3Ccircle cx='28' cy='28' r='27' fill='%23f3f4f6' stroke='%23d1d5db'/%3E%3Crect x='17' y='22' width='22' height='16' rx='3' fill='%239ca3af'/%3E%3C/svg%3E";
 
-// Threshold for project count below which flex-wrap is disabled to prevent overflow
-const PROJECT_WRAP_THRESHOLD = 5;
+// Threshold for project count below which flex-wrap is disabled to prevent overflow.
+// Sections with fewer projects than this threshold use flex-nowrap so all items stay
+// on a single row, avoiding layout issues in the exported PNG (where high-DPI rendering
+// can cause borderline-width items to wrap outside their containing box).
+const PROJECT_WRAP_THRESHOLD = 8;
 
 interface LandscapeViewProps {
   category: Category;
@@ -496,7 +499,9 @@ export function LandscapeView({ category, exportRef }: LandscapeViewProps) {
         ? "max-w-[50%]"
         : "max-w-[70%]";
     const wrapClass =
-      projectCount < PROJECT_WRAP_THRESHOLD ? "flex-nowrap" : "flex-wrap";
+      projectCount < PROJECT_WRAP_THRESHOLD
+        ? "flex-nowrap max-[568px]:flex-wrap"
+        : "flex-wrap";
 
     return (
       <div
