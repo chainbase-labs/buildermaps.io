@@ -1,0 +1,10 @@
+{
+  "id": "moonbeam",
+  "name": "Moonbeam",
+  "description": "Ethereum-compatible smart contract parachain natively accelerating cross-chain application deployment.",
+  "links": {
+    "homepage": "https://t.co/mCzIUMToC5",
+    "twitter": "https://x.com/MoonbeamNetwork",
+    "logo": "/imgs/Ambassador Program/BaseLayer/moonbeam.png"
+  }
+}

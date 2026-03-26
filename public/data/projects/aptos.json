@@ -1,0 +1,10 @@
+{
+  "id": "aptos",
+  "name": "Aptos",
+  "description": "Highly performant blockchain leveraging the Move programming language to unlock exceptional scalability and safety.",
+  "links": {
+    "homepage": "https://t.co/ZhpZrFXyGO",
+    "twitter": "https://x.com/Aptos",
+    "logo": "/imgs/Ambassador Program/BaseLayer/aptos.png"
+  }
+}

@@ -1,11 +1,12 @@
 {
   "id": "alchemy-pay",
   "name": "Alchemy Pay",
-  "description": "Crypto payment gateway enabling merchants to accept crypto and fiat payments worldwide with seamless conversion",
+  "description": "Hybrid payment infrastructure seamlessly bridging traditional fiat networks with global digital asset economies.",
   "founded": null,
   "funding": null,
   "links": {
-    "logo": "https://s2.loli.net/2025/11/24/uskHNC12g6rSQfU.jpg",
-    "twitter": "https://x.com/AlchemyPay"
+    "logo": "/imgs/Ambassador Program/infrastructure/alchemy-pay.png",
+    "twitter": "https://x.com/AlchemyPay",
+    "homepage": "https://t.co/dVFZJgx45x"
   }
 }

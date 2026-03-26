@@ -1,12 +1,12 @@
 {
   "id": "chainstack",
   "name": "Chainstack",
-  "description": "Chainstack blockchain infrastructure managed nodes 100+ protocols, APIs RPCs, enterprise-grade 99.9% SLA, global deployment",
+  "description": "Resilient enterprise-grade node management platform powering reliable and scalable Web3 infrastructure deployment.",
   "founded": 2018,
   "funding": null,
   "links": {
-    "homepage": "https://chainstack.com",
-    "logo": "/imgs/Data/Infra/Chainstack.jpg",
+    "homepage": "https://t.co/XtJAmLyVHz",
+    "logo": "/imgs/Ambassador Program/infrastructure/chainstack.png",
     "twitter": "https://x.com/ChainstackHQ",
     "github": ""
   }

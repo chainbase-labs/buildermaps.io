@@ -1,0 +1,96 @@
+{
+  "sector": "Ambassador Program",
+  "types": [
+    {
+      "id": "defi-and-trading",
+      "name": "DeFi & Trading",
+      "projects": [
+        "ave-forge",
+        "chance",
+        "dzap",
+        "goldfish",
+        "kult-games",
+        "solstice",
+        "speculatex",
+        "tea-fi",
+        "wheelx"
+      ]
+    },
+    {
+      "id": "open-ai",
+      "name": "Open AI",
+      "projects": [
+        "claude"
+      ]
+    },
+    {
+      "id": "oracle",
+      "name": "Oracle",
+      "projects": [
+        "chainlink"
+      ]
+    },
+    {
+      "id": "scaling-layer",
+      "name": "Scaling Layer",
+      "projects": [
+        "arbitrum",
+        "goat-network"
+      ]
+    },
+    {
+      "id": "base-layer",
+      "name": "Base Layer",
+      "projects": [
+        "aptos",
+        "autheo",
+        "berachain",
+        "concordium",
+        "hela-labs",
+        "injective",
+        "mandala",
+        "moonbeam",
+        "pivx",
+        "polkadot"
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "name": "infrastructure",
+      "projects": [
+        "alchemy-pay",
+        "chainstack"
+      ]
+    },
+    {
+      "id": "exchange",
+      "name": "Exchange",
+      "projects": [
+        "bingx",
+        "bybit",
+        "coinbase",
+        "gate",
+        "okx"
+      ]
+    },
+    {
+      "id": "web3-social-and-consumer-apps",
+      "name": "Web3 Social & Consumer Apps",
+      "projects": [
+        "dlicom",
+        "evolve",
+        "kreo",
+        "polycool",
+        "towns"
+      ]
+    },
+    {
+      "id": "security",
+      "name": "Security",
+      "projects": [
+        "hacken",
+        "quillaudits"
+      ]
+    }
+  ]
+}

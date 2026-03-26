@@ -1,0 +1,10 @@
+{
+  "id": "berachain",
+  "name": "Berachain",
+  "description": "High-performance EVM-compatible blockchain powered by a novel Proof-of-Liquidity consensus mechanism.",
+  "links": {
+    "homepage": "https://t.co/Y4cY2PKvrf",
+    "twitter": "https://x.com/berachain",
+    "logo": "/imgs/Ambassador Program/BaseLayer/berachain.png"
+  }
+}

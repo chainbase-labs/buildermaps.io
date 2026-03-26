@@ -1,0 +1,10 @@
+{
+  "id": "claude",
+  "name": "Claude",
+  "description": "Foundational artificial intelligence model delivering advanced reasoning and natural language processing capabilities.",
+  "links": {
+    "homepage": "https://t.co/ZhTwG8dz3D",
+    "twitter": "https://x.com/claudeai",
+    "logo": "/imgs/Ambassador Program/OpenAI/claude.png"
+  }
+}

@@ -1,12 +1,12 @@
 {
   "id": "coinbase",
   "name": "Coinbase",
-  "description": "Public crypto exchange founded 2012, $1.8B raised pre-IPO, NASDAQ direct listing April 2021 @ $87B valuation, Y Combinator alumni",
+  "description": "Crypto exchange expanding into neobank super-app with stock trading, savings accounts, debit cards, and fiat-crypto integration.",
   "founded": 2012,
   "funding": 1800000000,
   "links": {
-    "homepage": "https://www.coinbase.com/",
-    "logo": "/imgs/agentic-finance/coinbase.png",
+    "homepage": "https://t.co/O1gzmT49MK",
+    "logo": "/imgs/Ambassador Program/Exchange/coinbase.png",
     "twitter": "https://x.com/coinbase",
     "linkedin": "https://www.linkedin.com/company/coinbase"
   }

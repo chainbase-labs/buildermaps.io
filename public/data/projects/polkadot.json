@@ -1,0 +1,10 @@
+{
+  "id": "polkadot",
+  "name": "Polkadot",
+  "description": "Interoperable multichain network enabling distinct blockchains to seamlessly communicate and share protocol security.",
+  "links": {
+    "homepage": "https://t.co/aLuNv2GVIv",
+    "twitter": "https://x.com/Polkadot",
+    "logo": "/imgs/Ambassador Program/BaseLayer/polkadot.png"
+  }
+}
