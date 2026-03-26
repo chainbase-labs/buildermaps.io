@@ -1,4 +1,4 @@
-import { ArrowRight, Github, Plus } from "lucide-react";
+import { ArrowRight, Github, Plus, Twitter } from "lucide-react";
 
 import {
   countCategoryProjects,
@@ -39,6 +39,22 @@ export function HomePage({ categories, onCategoryClick }: HomePageProps) {
               BuilderMaps
             </div>
             <div className="flex items-center gap-3 max-[568px]:gap-2 shrink-0">
+              <Button
+                variant="outline"
+                size="sm"
+                className="gap-2 border-gray-300 max-[568px]:text-xs max-[568px]:px-2"
+                onClick={() => {
+                  window.open(
+                    "https://x.com/buildermaps_io",
+                    "_blank",
+                    "noopener,noreferrer"
+                  );
+                }}
+              >
+                <Twitter className="h-4 w-4 max-[568px]:h-3 max-[568px]:w-3" />
+                <span className="max-[568px]:hidden">Follow on X</span>
+                <span className="hidden max-[568px]:inline">X</span>
+              </Button>
               <Button
                 variant="outline"
                 size="sm"
