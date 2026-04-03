@@ -231,9 +231,6 @@ def apply_csv(
             logo_rel_path = default_logo_rel_path
             logo_abs_path = imgs_dir / sector / type_dir_name / f"{project_id}.png"
 
-            # If the logo already exists on the CDN, skip downloading.
-            prod_exists = production_logo_exists(logo_rel_path)
-
             has_logo_field = bool(links.get("logo"))
             should_try_download = (
                 logo_overwrite
@@ -241,7 +238,9 @@ def apply_csv(
                 or (has_logo_field and not logo_abs_path.exists())
             )
 
-            if should_try_download and not prod_exists:
+            # Always download into the repo when requested and local file is absent/overwritten,
+            # even if a remote CDN copy exists.
+            if should_try_download:
                 ok = download_logo(twitter, logo_abs_path)
                 if ok:
                     downloaded_logos += 1
@@ -343,4 +342,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
