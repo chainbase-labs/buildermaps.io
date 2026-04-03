@@ -20,7 +20,10 @@
         "debridge",
         "payman",
         "paypal",
-        "superfluid"
+        "superfluid",
+        "ampersend",
+        "protocol",
+        "conto"
       ]
     },
     {
@@ -33,7 +36,8 @@
         "ramp-labs",
         "metamask",
         "slash",
-        "agent-card"
+        "agent-card",
+        "machines"
       ]
     },
     {
@@ -49,7 +53,9 @@
         "alchemy",
         "thirdweb",
         "dynamic",
-        "locus"
+        "locus",
+        "frames",
+        "pocket"
       ]
     },
     {
@@ -70,7 +76,8 @@
         "heurist",
         "inflow",
         "openclaw",
-        "quicknode"
+        "quicknode",
+        "xmtp"
       ]
     },
     {
@@ -82,7 +89,9 @@
         "shopify",
         "openai",
         "perplexity",
-        "basis-theory"
+        "basis-theory",
+        "onetext",
+        "rye"
       ]
     },
     {
@@ -110,7 +119,11 @@
         "boba",
         "kraken",
         "pagga",
-        "heysorin"
+        "heysorin",
+        "mirra",
+        "moltlaunch",
+        "loyal",
+        "valeo"
       ]
     },
     {
@@ -126,7 +139,9 @@
         "tempo",
         "kite-ai",
         "tether",
-        "monad"
+        "monad",
+        "stable",
+        "arc"
       ]
     }
   ]

@@ -1,0 +1,10 @@
+{
+  "id": "pocket",
+  "name": "Pocket",
+  "description": "Secure self-custodial asset hub tailored to manage micro-transactions and programmatic liquidity.",
+  "links": {
+    "homepage": "https://t.co/ajO9cfqwNv",
+    "twitter": "https://x.com/PocketWallet",
+    "logo": "/imgs/Agentic Finance/AgentWallets/pocket.png"
+  }
+}
