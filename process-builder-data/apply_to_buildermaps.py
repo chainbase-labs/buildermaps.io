@@ -238,8 +238,8 @@ def apply_csv(
                 or (has_logo_field and not logo_abs_path.exists())
             )
 
-            # Always download into the repo when requested and local file is absent/overwritten,
-            # even if a remote CDN copy exists.
+            # Always attempt download when requested to ensure logo persistence
+            # in this repository, regardless of remote CDN availability.
             if should_try_download:
                 ok = download_logo(twitter, logo_abs_path)
                 if ok:
