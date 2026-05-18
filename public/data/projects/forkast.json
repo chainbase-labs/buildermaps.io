@@ -1,0 +1,10 @@
+{
+  "id": "forkast",
+  "name": "FORKAST",
+  "description": "AI-driven news and sentiment analysis engine directly feeding prediction market bots.",
+  "links": {
+    "homepage": "https://forkast.gg/",
+    "twitter": "https://x.com/Forkast",
+    "logo": "/imgs/Prediction Markets/BotInterface/forkast.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "kontos-protocol",
+  "name": "Kontos Protocol",
+  "description": "ZK-powered chain abstraction layer handling chains, accounts, assets, and operations in an intuitive abstracted way.",
+  "links": {
+    "homepage": "https://link3.to/kontos",
+    "twitter": "https://x.com/Kontosio",
+    "logo": "/imgs/MegaETH/Bridges&Interoperability/kontos-protocol.jpg"
+  }
+}

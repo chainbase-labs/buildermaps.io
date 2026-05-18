@@ -1,0 +1,10 @@
+{
+  "id": "chainflip",
+  "name": "CHAINFLIP",
+  "description": "Decentralized, trustless protocol enabling native cross-chain swaps without the need for wrapped tokens or specialized wallets.",
+  "links": {
+    "homepage": "https://chainflip.io/",
+    "twitter": "https://x.com/Chainflip",
+    "logo": "/imgs/Cross Chain/OmnichainLiquidity&Interoperability/chainflip.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "betswipe",
+  "name": "BetSwipe",
+  "description": "Tinder-style swipe interface for binary crypto and event predictions.",
+  "links": {
+    "homepage": "https://play.google.com/store/apps/details?id=com.polyswipe.app&hl=en-US",
+    "twitter": "https://x.com/BetswipeApp",
+    "logo": "/imgs/Prediction Markets/Binary/betswipe.png"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "sector": "Hyperliquid",
+  "types": [
+    {
+      "id": "core-infrastructure",
+      "name": "Core Infrastructure",
+      "projects": [
+        "hyper-foundation",
+        "hyperliquid"
+      ]
+    },
+    {
+      "id": "asset-tokenization-and-bridges",
+      "name": "Asset Tokenization & Bridges",
+      "projects": [
+        "garden-finance",
+        "mayan",
+        "relay",
+        "stargate",
+        "unit"
+      ]
+    },
+    {
+      "id": "dex",
+      "name": "DEX",
+      "projects": [
+        "hybra-finance",
+        "hyperswap",
+        "laminar",
+        "project-x-prjx",
+        "valantis-labs"
+      ]
+    },
+    {
+      "id": "dex-aggregator",
+      "name": "DEX Aggregator",
+      "projects": [
+        "gluex"
+      ]
+    },
+    {
+      "id": "lending-and-borrowing",
+      "name": "Lending & Borrowing",
+      "projects": [
+        "felix-protocol",
+        "hyperlend",
+        "hypurrfi",
+        "morpho",
+        "timeswap"
+      ]
+    },
+    {
+      "id": "liquid-staking",
+      "name": "Liquid Staking",
+      "projects": [
+        "hyperbeat",
+        "kinetiq",
+        "loopedhype",
+        "valantis"
+      ]
+    },
+    {
+      "id": "yield-and-vaults",
+      "name": "Yield & Vaults",
+      "projects": [
+        "blueberry",
+        "harmonix",
+        "hyperwave",
+        "mizu-labs",
+        "neura-vaults"
+      ]
+    },
+    {
+      "id": "stablecoins",
+      "name": "Stablecoins",
+      "projects": [
+        "felix"
+      ]
+    },
+    {
+      "id": "derivatives-and-structured-products",
+      "name": "Derivatives & Structured Products",
+      "projects": [
+        "chainsight",
+        "rysk",
+        "ventuals"
+      ]
+    },
+    {
+      "id": "launchpads",
+      "name": "Launchpads",
+      "projects": [
+        "hypurrfun",
+        "supurr",
+        "vapor"
+      ]
+    },
+    {
+      "id": "trading-tools-and-terminals",
+      "name": "Trading Tools & Terminals",
+      "projects": [
+        "based",
+        "bullpen",
+        "rage-trade",
+        "theo",
+        "voyager"
+      ]
+    },
+    {
+      "id": "oracles-and-data",
+      "name": "Oracles & Data",
+      "projects": [
+        "chainlink-ccip",
+        "hyperfolio",
+        "liquid-terminal",
+        "pyth-network",
+        "redstone"
+      ]
+    },
+    {
+      "id": "identity-and-social",
+      "name": "Identity & Social",
+      "projects": [
+        "dothype",
+        "hypurrcollective"
+      ]
+    },
+    {
+      "id": "nfts-and-gaming",
+      "name": "NFTs & Gaming",
+      "projects": [
+        "drip-trade",
+        "mintify"
+      ]
+    },
+    {
+      "id": "security-and-infrastructure",
+      "name": "Security & Infrastructure",
+      "projects": [
+        "accountable",
+        "blockaid",
+        "gelato",
+        "hyperlane",
+        "quicknode",
+        "zerodev"
+      ]
+    },
+    {
+      "id": "wallets",
+      "name": "Wallets",
+      "projects": [
+        "metamask",
+        "rabby",
+        "rainbow"
+      ]
+    }
+  ]
+}

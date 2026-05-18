@@ -1,0 +1,10 @@
+{
+  "id": "nubit",
+  "name": "Nubit",
+  "description": "Native data availability layer purposefully designed to scale the Bitcoin ecosystem securely and efficiently.",
+  "links": {
+    "homepage": "https://www.nubit.org/",
+    "twitter": "https://x.com/nubit_org",
+    "logo": "/imgs/Bitcoin ecosystem/DA/nubit.jpg"
+  }
+}

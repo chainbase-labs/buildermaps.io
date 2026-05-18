@@ -1,0 +1,10 @@
+{
+  "id": "valantis-labs",
+  "name": "Valantis Labs",
+  "description": "Highly efficient DEX using embedded liquidity for improved pricing and risk-adjusted LP yields.",
+  "links": {
+    "homepage": "https://valantis.xyz/",
+    "twitter": "https://x.com/ValantisLabs",
+    "logo": "/imgs/Hyperliquid/DEX/valantis-labs.jpg"
+  }
+}

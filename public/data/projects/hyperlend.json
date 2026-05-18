@@ -1,0 +1,10 @@
+{
+  "id": "hyperlend",
+  "name": "HyperLend",
+  "description": "Largest lending protocol on HyperEVM (Aave fork), $420M+ TVL, featuring HyperLoop leveraged loops and Unified Trading Account.",
+  "links": {
+    "homepage": "https://hyperlend.finance/",
+    "twitter": "https://x.com/hyperlendx",
+    "logo": "/imgs/Hyperliquid/Lending&Borrowing/hyperlend.jpg"
+  }
+}

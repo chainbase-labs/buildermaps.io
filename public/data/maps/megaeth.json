@@ -1,0 +1,127 @@
+{
+  "sector": "MegaETH",
+  "types": [
+    {
+      "id": "core-infrastructure",
+      "name": "Core Infrastructure",
+      "projects": [
+        "megaeth",
+        "megamafia",
+        "rabbithole",
+        "the-fluffle"
+      ]
+    },
+    {
+      "id": "dex",
+      "name": "DEX",
+      "projects": [
+        "gte",
+        "infinex",
+        "kumbaya"
+      ]
+    },
+    {
+      "id": "lending-and-borrowing",
+      "name": "Lending & Borrowing",
+      "projects": [
+        "aave-v3",
+        "lora-finance"
+      ]
+    },
+    {
+      "id": "derivatives-and-trading",
+      "name": "Derivatives & Trading",
+      "projects": [
+        "euphoria",
+        "gmx",
+        "hit-one",
+        "noise",
+        "world-markets"
+      ]
+    },
+    {
+      "id": "yield-and-vaults",
+      "name": "Yield & Vaults",
+      "projects": [
+        "beefy-finance",
+        "brix",
+        "offshore-protocol"
+      ]
+    },
+    {
+      "id": "bridges-and-interoperability",
+      "name": "Bridges & Interoperability",
+      "projects": [
+        "across",
+        "fly-magpie",
+        "garden-finance",
+        "kontos-protocol",
+        "ren-protocol"
+      ]
+    },
+    {
+      "id": "oracles-and-data",
+      "name": "Oracles & Data",
+      "projects": [
+        "chainlink-scale",
+        "kaito"
+      ]
+    },
+    {
+      "id": "prediction-markets",
+      "name": "Prediction Markets",
+      "projects": [
+        "hunch",
+        "predictfi"
+      ]
+    },
+    {
+      "id": "launchpads",
+      "name": "Launchpads",
+      "projects": [
+        "pump-party",
+        "rainmakr"
+      ]
+    },
+    {
+      "id": "gaming",
+      "name": "Gaming",
+      "projects": [
+        "awe",
+        "battlefold"
+      ]
+    },
+    {
+      "id": "nfts",
+      "name": "NFTs",
+      "projects": [
+        "mega-buddies",
+        "rabbit-mafia"
+      ]
+    },
+    {
+      "id": "trading-tools-and-bots",
+      "name": "Trading Tools & Bots",
+      "projects": [
+        "megabot"
+      ]
+    },
+    {
+      "id": "meme-and-community-tokens",
+      "name": "Meme & Community Tokens",
+      "projects": [
+        "fluffey",
+        "mega"
+      ]
+    },
+    {
+      "id": "liquid-staking-and-restaking",
+      "name": "Liquid Staking & Restaking",
+      "projects": [
+        "lido",
+        "lombard",
+        "stakestone"
+      ]
+    }
+  ]
+}

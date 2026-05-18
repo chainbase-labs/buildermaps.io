@@ -1,0 +1,9 @@
+{
+  "id": "hyperfolio",
+  "name": "HyperFolio",
+  "description": "Portfolio tracker for monitoring all HyperEVM positions and DeFi activity in one dashboard.",
+  "links": {
+    "twitter": "https://x.com/stableAPY",
+    "logo": "/imgs/Hyperliquid/Oracles&Data/hyperfolio.jpg"
+  }
+}

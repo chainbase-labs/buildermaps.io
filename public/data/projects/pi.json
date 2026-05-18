@@ -1,0 +1,10 @@
+{
+  "id": "pi",
+  "name": "PI",
+  "description": "Real-money political forecasting exchange specializing in multi-candidate elections.",
+  "links": {
+    "homepage": "https://www.predictit.org/",
+    "twitter": "https://x.com/PredictIt",
+    "logo": "/imgs/Prediction Markets/Multiple-Choice/pi.png"
+  }
+}

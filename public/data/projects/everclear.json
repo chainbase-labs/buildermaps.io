@@ -1,0 +1,10 @@
+{
+  "id": "everclear",
+  "name": "Everclear",
+  "description": "First clearing layer for Web3 designed to coordinate global liquidity and settle cross-chain intents efficiently.",
+  "links": {
+    "homepage": "https://linktr.ee/everclearorg",
+    "twitter": "https://x.com/EverclearOrg",
+    "logo": "/imgs/Cross Chain/InteroperabilityLayers/everclear.jpg"
+  }
+}

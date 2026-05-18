@@ -1,0 +1,10 @@
+{
+  "id": "thorchain",
+  "name": "THORChain",
+  "description": "Decentralized liquidity network enabling native cross-chain asset swaps without relying on wrapped or pegged tokens.",
+  "links": {
+    "homepage": "https://swap.thorchain.org/",
+    "twitter": "https://x.com/THORChain",
+    "logo": "/imgs/Cross Chain/OmnichainLiquidity&Interoperability/thorchain.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "harmonix",
+  "name": "Harmonix",
+  "description": "Vault-based yield farming protocol with deposits for earning HYPE and points through automated DeFi strategies.",
+  "links": {
+    "homepage": "https://harmonix.fi/",
+    "twitter": "https://x.com/HarmonixFi",
+    "logo": "/imgs/Hyperliquid/Yield&Vaults/harmonix.png"
+  }
+}

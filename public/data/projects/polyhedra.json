@@ -1,0 +1,10 @@
+{
+  "id": "polyhedra",
+  "name": "Polyhedra",
+  "description": "Advanced zero knowledge proof infrastructure bridging Bitcoin securely with external decentralized networks.",
+  "links": {
+    "homepage": "https://linktr.ee/Polyhedra",
+    "twitter": "https://x.com/PolyhedraZK",
+    "logo": "/imgs/Bitcoin ecosystem/Interoperability&Bridges/polyhedra.jpg"
+  }
+}

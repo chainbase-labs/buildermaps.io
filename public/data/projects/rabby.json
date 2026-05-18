@@ -1,0 +1,10 @@
+{
+  "id": "rabby",
+  "name": "Rabby",
+  "description": "Open-source non-custodial crypto wallet by DeBank, optimized for DeFi on EVM chains including HyperEVM.",
+  "links": {
+    "homepage": "https://rabby.io/",
+    "twitter": "https://x.com/Rabby_io",
+    "logo": "/imgs/Hyperliquid/Wallets/rabby.jpg"
+  }
+}

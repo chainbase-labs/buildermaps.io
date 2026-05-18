@@ -1,0 +1,10 @@
+{
+  "id": "theo",
+  "name": "Theo",
+  "description": "Framework for leveraged position management on Hyperliquid.",
+  "links": {
+    "homepage": "https://theo.xyz/",
+    "twitter": "https://x.com/theo_network",
+    "logo": "/imgs/Hyperliquid/TradingTools&Terminals/theo.png"
+  }
+}

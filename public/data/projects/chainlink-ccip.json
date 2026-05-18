@@ -1,0 +1,10 @@
+{
+  "id": "chainlink-ccip",
+  "name": "Chainlink CCIP",
+  "description": "Cross-chain interoperability protocol integrated with Hyperliquid for secure data and asset transfers.",
+  "links": {
+    "homepage": "https://chain.link/",
+    "twitter": "https://x.com/chainlink",
+    "logo": "/imgs/Hyperliquid/Oracles&Data/chainlink-ccip.jpg"
+  }
+}

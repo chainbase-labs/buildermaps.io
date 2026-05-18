@@ -1,0 +1,10 @@
+{
+  "id": "arch-network",
+  "name": "Arch Network",
+  "description": "Parallelized programmable execution layer bringing fast and scalable smart contracts directly to the Bitcoin base layer.",
+  "links": {
+    "homepage": "https://arch.network/",
+    "twitter": "https://x.com/ArchNtwrk",
+    "logo": "/imgs/Bitcoin ecosystem/Scaling/arch-network.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "crisp",
+  "name": "CRISP",
+  "description": "Bot-centric forecasting tool utilizing machine learning for predictive market analysis.",
+  "links": {
+    "homepage": "https://crisp.trade/",
+    "twitter": "https://x.com/CrispPredict",
+    "logo": "/imgs/Prediction Markets/BotInterface/crisp.jpg"
+  }
+}

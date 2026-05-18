@@ -1,0 +1,10 @@
+{
+  "id": "voyager",
+  "name": "Voyager",
+  "description": "AI-powered trading application for automated and assisted trade execution on Hyperliquid.",
+  "links": {
+    "homepage": "https://www.voyager.cx/",
+    "twitter": "https://x.com/voyager_cx",
+    "logo": "/imgs/Hyperliquid/TradingTools&Terminals/voyager.jpg"
+  }
+}

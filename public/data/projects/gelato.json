@@ -1,0 +1,10 @@
+{
+  "id": "gelato",
+  "name": "Gelato",
+  "description": "Web3 middleware for automated smart contract execution, integrated with Hyperliquid ecosystem.",
+  "links": {
+    "homepage": "https://gelato.cloud/",
+    "twitter": "https://x.com/gelatonetwork",
+    "logo": "/imgs/Hyperliquid/Security&Infrastructure/gelato.jpg"
+  }
+}

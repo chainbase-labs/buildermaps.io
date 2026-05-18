@@ -1,0 +1,10 @@
+{
+  "id": "hyperliquid",
+  "name": "Hyperliquid",
+  "description": "High-performance L1 blockchain with fully onchain order book for perpetual futures and spot trading, powered by HyperBFT consensus.",
+  "links": {
+    "homepage": "https://app.hyperliquid.xyz/",
+    "twitter": "https://x.com/HyperliquidX",
+    "logo": "/imgs/Hyperliquid/CoreInfrastructure/hyperliquid.jpg"
+  }
+}

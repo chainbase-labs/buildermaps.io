@@ -1,0 +1,10 @@
+{
+  "id": "fliq-predictions",
+  "name": "Fliq Predictions",
+  "description": "Short-form community prediction market leveraging viral trends and social sentiment.",
+  "links": {
+    "homepage": "https://linktr.ee/fliqpredictions",
+    "twitter": "https://x.com/predictonfliq",
+    "logo": "/imgs/Prediction Markets/SocialPrediction/fliq-predictions.jpg"
+  }
+}

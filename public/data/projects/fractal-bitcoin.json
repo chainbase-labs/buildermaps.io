@@ -1,0 +1,10 @@
+{
+  "id": "fractal-bitcoin",
+  "name": "Fractal Bitcoin",
+  "description": "Native scaling solution extending Bitcoin consensus through recursive virtualization to deliver infinite scalability.",
+  "links": {
+    "homepage": "https://fractalbitcoin.io/",
+    "twitter": "https://x.com/fractal_bitcoin",
+    "logo": "/imgs/Bitcoin ecosystem/Scaling/fractal-bitcoin.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "dia",
+  "name": "DIA",
+  "description": "Cross chain data oracle platform supplying transparent and verifiable asset pricing to Bitcoin decentralized finance.",
+  "links": {
+    "homepage": "https://www.diadata.org/",
+    "twitter": "https://x.com/DIAdata_org",
+    "logo": "/imgs/Bitcoin ecosystem/Oracle/dia.png"
+  }
+}

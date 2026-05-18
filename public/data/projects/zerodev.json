@@ -1,0 +1,10 @@
+{
+  "id": "zerodev",
+  "name": "ZeroDev",
+  "description": "Account abstraction infrastructure enabling smart wallets and gasless transactions on HyperEVM.",
+  "links": {
+    "homepage": "https://zerodev.app/",
+    "twitter": "https://x.com/zerodev_app",
+    "logo": "/imgs/Hyperliquid/Security&Infrastructure/zerodev.jpg"
+  }
+}

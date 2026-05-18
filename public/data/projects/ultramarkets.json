@@ -1,0 +1,10 @@
+{
+  "id": "ultramarkets",
+  "name": "Ultramarkets",
+  "description": "Advanced algorithmic trading venue tailored for machine-to-machine betting.",
+  "links": {
+    "homepage": "https://www.ultramarkets.xyz/",
+    "twitter": "https://x.com/ultramarketsxyz",
+    "logo": "/imgs/Prediction Markets/BotInterface/ultramarkets.jpg"
+  }
+}

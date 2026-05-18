@@ -1,0 +1,10 @@
+{
+  "id": "triadmarkets",
+  "name": "Triadmarkets",
+  "description": "Infrastructure framework streamlining the launch of custom market-making pools.",
+  "links": {
+    "homepage": "https://www.triadmarkets.app/",
+    "twitter": "https://x.com/triadmarkets",
+    "logo": "/imgs/Prediction Markets/Infra/triadmarkets.jpg"
+  }
+}

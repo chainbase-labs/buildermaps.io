@@ -1,0 +1,10 @@
+{
+  "id": "felix-protocol",
+  "name": "Felix Protocol",
+  "description": "First CDP protocol on HyperEVM (Liquity v2 fork), issuer of feUSD stablecoin, with stability pools for discounted liquidations.",
+  "links": {
+    "homepage": "https://felix.finance/",
+    "twitter": "https://x.com/FelixProtocol",
+    "logo": "/imgs/Hyperliquid/Lending&Borrowing/felix-protocol.jpg"
+  }
+}

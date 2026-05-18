@@ -1,0 +1,10 @@
+{
+  "id": "gte",
+  "name": "GTE",
+  "description": "Real-time spot DEX combining CLOB order book model for large-cap assets with AMM for niche assets, leveraging MegaETH's low latency.",
+  "links": {
+    "homepage": "https://www.gte.xyz/",
+    "twitter": "https://x.com/GTE_XYZ",
+    "logo": "/imgs/MegaETH/DEX/gte.jpg"
+  }
+}

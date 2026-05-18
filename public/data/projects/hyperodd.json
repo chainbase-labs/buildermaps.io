@@ -1,0 +1,10 @@
+{
+  "id": "hyperodd",
+  "name": "HyperOdd",
+  "description": "Algorithmic odds-making interface built for automated trading strategies.",
+  "links": {
+    "homepage": "https://hyperodd.com/",
+    "twitter": "https://x.com/hyperoddx",
+    "logo": "/imgs/Prediction Markets/BotInterface/hyperodd.jpg"
+  }
+}

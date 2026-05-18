@@ -1,0 +1,10 @@
+{
+  "id": "neura-vaults",
+  "name": "Neura Vaults",
+  "description": "Intelligent liquidity stack building tokenized risk-adjusted return products on Hyperliquid.",
+  "links": {
+    "homepage": "https://www.neuraprotocol.io/",
+    "twitter": "https://x.com/Neura_io",
+    "logo": "/imgs/Hyperliquid/Yield&Vaults/neura-vaults.jpg"
+  }
+}

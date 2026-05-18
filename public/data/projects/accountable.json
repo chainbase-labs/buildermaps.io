@@ -1,0 +1,10 @@
+{
+  "id": "accountable",
+  "name": "Accountable",
+  "description": "Proof-of-solvency and transparency infrastructure for HyperEVM protocols and vaults.",
+  "links": {
+    "homepage": "https://t.me/accountable_community",
+    "twitter": "https://x.com/AccountableData",
+    "logo": "/imgs/Hyperliquid/Security&Infrastructure/accountable.jpg"
+  }
+}

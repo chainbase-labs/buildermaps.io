@@ -1,0 +1,10 @@
+{
+  "id": "rootstock",
+  "name": "Rootstock",
+  "description": "Pioneer EVM-compatible Bitcoin sidechain secured directly by merge-mining with the foundational network.",
+  "links": {
+    "homepage": "https://rootstock.io/",
+    "twitter": "https://x.com/rootstock_io",
+    "logo": "/imgs/Bitcoin ecosystem/Scaling/rootstock.jpg"
+  }
+}

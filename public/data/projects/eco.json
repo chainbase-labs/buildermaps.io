@@ -1,0 +1,10 @@
+{
+  "id": "eco",
+  "name": "Eco",
+  "description": "Intent-based routing and payment protocol designed to seamlessly and efficiently transfer value across multiple networks.",
+  "links": {
+    "homepage": "https://eco.com/",
+    "twitter": "https://x.com/eco",
+    "logo": "/imgs/Cross Chain/OmnichainLiquidity&Interoperability/eco.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "fanduel",
+  "name": "FanDuel",
+  "description": "Leading traditional sportsbook featuring comprehensive multi-choice sports markets.",
+  "links": {
+    "homepage": "https://www.fanduel.com/",
+    "twitter": "https://x.com/FanDuel",
+    "logo": "/imgs/Prediction Markets/Multiple-Choice/fanduel.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "inventmoney",
+  "name": "InventMoney",
+  "description": "User-driven prediction application where creators mint their own betting scenarios.",
+  "links": {
+    "homepage": "https://inventmoney.com/",
+    "twitter": "https://x.com/InventMoneyApp",
+    "logo": "/imgs/Prediction Markets/Customisable/inventmoney.png"
+  }
+}

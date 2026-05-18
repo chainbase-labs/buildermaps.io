@@ -1,0 +1,10 @@
+{
+  "id": "hypurrcollective",
+  "name": "HypurrCollective",
+  "description": "Hyperliquid community hub and social coordination layer for ecosystem participants.",
+  "links": {
+    "homepage": "https://hypurr-collective.vercel.app/",
+    "twitter": "https://x.com/hypurr_co",
+    "logo": "/imgs/Hyperliquid/Identity&Social/hypurrcollective.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "rango",
+  "name": "Rango",
+  "description": "Comprehensive multi-chain decentralized exchange aggregator connecting various blockchains to provide optimized swap routes.",
+  "links": {
+    "homepage": "https://linktr.ee/rango_exchange",
+    "twitter": "https://x.com/RangoExchange",
+    "logo": "/imgs/Cross Chain/BridgeAggregators/rango.jpg"
+  }
+}

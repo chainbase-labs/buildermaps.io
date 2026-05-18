@@ -1,0 +1,10 @@
+{
+  "id": "hunch",
+  "name": "Hunch",
+  "description": "Mobile-first prediction market app with Pokemon card-pack mechanics, trading micro-trends through real-time settlement on MegaETH.",
+  "links": {
+    "homepage": "https://gotahunch.net/",
+    "twitter": "https://x.com/gotahunch_app",
+    "logo": "/imgs/MegaETH/PredictionMarkets/hunch.jpg"
+  }
+}

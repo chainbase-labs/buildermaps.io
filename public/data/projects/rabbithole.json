@@ -1,0 +1,10 @@
+{
+  "id": "rabbithole",
+  "name": "RabbitHole",
+  "description": "Ecosystem frontend and app discovery portal for MegaETH, organizing dApps by user intent (trading, yield, gaming, culture) with bridge and swap integration.",
+  "links": {
+    "homepage": "https://www.rabbithole.gg/",
+    "twitter": "https://x.com/rabbithole_gg",
+    "logo": "/imgs/MegaETH/CoreInfrastructure/rabbithole.jpg"
+  }
+}

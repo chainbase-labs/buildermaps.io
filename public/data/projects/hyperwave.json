@@ -1,0 +1,10 @@
+{
+  "id": "hyperwave",
+  "name": "Hyperwave",
+  "description": "DeFi SuperApp building hwHLP vault strategy, converting HLP into yield-optimized positions.",
+  "links": {
+    "homepage": "https://app.hyperwavefi.xyz/",
+    "twitter": "https://x.com/Hyperwavefi",
+    "logo": "/imgs/Hyperliquid/Yield&Vaults/hyperwave.png"
+  }
+}

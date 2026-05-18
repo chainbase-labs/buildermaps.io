@@ -1,0 +1,10 @@
+{
+  "id": "dotswap",
+  "name": "DotSwap",
+  "description": "Native automated market maker protocol streamlining seamless token swaps within the Bitcoin network.",
+  "links": {
+    "homepage": "https://swap.on.nexus/",
+    "twitter": "https://x.com/dot_swap",
+    "logo": "/imgs/Bitcoin ecosystem/DEX/dotswap.jpg"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "mizu-labs",
+  "name": "Mizu Labs",
+  "description": "Vault products providing structured yield strategies on HyperEVM.",
+  "links": {
+    "twitter": "https://x.com/MizuLabs",
+    "logo": "/imgs/Hyperliquid/Yield&Vaults/mizu-labs.jpg"
+  }
+}

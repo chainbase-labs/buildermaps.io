@@ -1,0 +1,10 @@
+{
+  "id": "liquid-terminal",
+  "name": "Liquid Terminal",
+  "description": "comprehensive data patform from the hyperliquid ecosystem",
+  "links": {
+    "homepage": "https://liquidterminal.xyz/",
+    "twitter": "https://x.com/liquidterminal",
+    "logo": "/imgs/Hyperliquid/Oracles&Data/liquid-terminal.svg"
+  }
+}
