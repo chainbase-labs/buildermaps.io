@@ -1,0 +1,10 @@
+{
+  "id": "iris",
+  "name": "Iris",
+  "description": "Dedicated mobile wallet application designed to seamlessly issue and manage Bitcoin RGB assets.",
+  "links": {
+    "homepage": "https://t.co/vZ5UJItlv7",
+    "twitter": "https://x.com/iris_wallet",
+    "logo": "/imgs/Bitcoin ecosystem/RGB/iris.jpg"
+  }
+}

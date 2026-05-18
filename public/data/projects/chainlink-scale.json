@@ -1,0 +1,10 @@
+{
+  "id": "chainlink-scale",
+  "name": "Chainlink Scale",
+  "description": "Integrated on MegaETH from day one, providing price feeds, Data Streams and CCIP cross-chain messaging, powering access to $14B+ in flagship DeFi assets.",
+  "links": {
+    "homepage": "https://chain.link/",
+    "twitter": "https://x.com/chainlink",
+    "logo": "/imgs/MegaETH/Oracles&Data/chainlink-scale.jpg"
+  }
+}

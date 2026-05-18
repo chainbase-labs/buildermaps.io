@@ -1,0 +1,10 @@
+{
+  "id": "bullpen",
+  "name": "Bullpen",
+  "description": "Cryptocurrency trading terminal optimized for Hyperliquid's order book and execution.",
+  "links": {
+    "homepage": "https://bullpen.fi/",
+    "twitter": "https://x.com/BullpenFi",
+    "logo": "/imgs/Hyperliquid/TradingTools&Terminals/bullpen.jpg"
+  }
+}

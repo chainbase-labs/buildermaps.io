@@ -1,0 +1,10 @@
+{
+  "id": "beefy-finance",
+  "name": "Beefy Finance",
+  "description": "Cross-chain yield optimizer deployed on MegaETH, auto-compounding vault strategies across multiple DeFi protocols.",
+  "links": {
+    "homepage": "https://beefy.finance/",
+    "twitter": "https://x.com/beefyfinance",
+    "logo": "/imgs/MegaETH/Yield&Vaults/beefy-finance.jpg"
+  }
+}

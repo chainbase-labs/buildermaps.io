@@ -1,0 +1,10 @@
+{
+  "id": "hyperswap",
+  "name": "Hyperswap",
+  "description": "Native AMM DEX of HyperEVM, the first and flagship decentralized exchange on the chain.",
+  "links": {
+    "homepage": "https://hyperswap.exchange/",
+    "twitter": "https://x.com/HyperSwapX",
+    "logo": "/imgs/Hyperliquid/DEX/hyperswap.jpg"
+  }
+}

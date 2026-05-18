@@ -1,0 +1,10 @@
+{
+  "id": "tbtc",
+  "name": "tBTC",
+  "description": "Trustless and permissionless wrapped Bitcoin protocol enabling secure and decentralized multi-chain asset deployment.",
+  "links": {
+    "homepage": "https://t.co/JL7K6LgvSz",
+    "twitter": "https://x.com/tBTC_project",
+    "logo": "/imgs/Bitcoin ecosystem/WrappedBTC/tbtc.jpg"
+  }
+}

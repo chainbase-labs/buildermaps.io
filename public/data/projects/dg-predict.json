@@ -1,0 +1,10 @@
+{
+  "id": "dg-predict",
+  "name": "DG Predict",
+  "description": "Algorithmic prediction interface optimized for high-frequency betting bots.",
+  "links": {
+    "homepage": "https://t.co/ogl2EqJMaX",
+    "twitter": "https://x.com/DGPredict_",
+    "logo": "/imgs/Prediction Markets/BotInterface/dg-predict.webp"
+  }
+}

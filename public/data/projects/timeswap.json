@@ -1,0 +1,10 @@
+{
+  "id": "timeswap",
+  "name": "Timeswap",
+  "description": "Oracle-free AMM-based lending protocol with fixed interest rates and zero liquidation risk.",
+  "links": {
+    "homepage": "https://link3.to/timeswap_labs",
+    "twitter": "https://x.com/TimeswapLabs",
+    "logo": "/imgs/Hyperliquid/Lending&Borrowing/timeswap.jpg"
+  }
+}

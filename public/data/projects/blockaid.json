@@ -1,0 +1,10 @@
+{
+  "id": "blockaid",
+  "name": "Blockaid",
+  "description": "Web3 security tools stopping malicious transactions before they happen, protecting users from scams and hacks.",
+  "links": {
+    "homepage": "https://blockaid.io/",
+    "twitter": "https://x.com/blockaid_",
+    "logo": "/imgs/Hyperliquid/Security&Infrastructure/blockaid.jpg"
+  }
+}

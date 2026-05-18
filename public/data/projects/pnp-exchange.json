@@ -1,0 +1,10 @@
+{
+  "id": "pnp-exchange",
+  "name": "PNP Exchange",
+  "description": "Bot-friendly speculative platform focusing on token price movement predictions.",
+  "links": {
+    "homepage": "https://t.co/qHK0MHy5Yr",
+    "twitter": "https://x.com/predictandpump",
+    "logo": "/imgs/Prediction Markets/BotInterface/pnp-exchange.jpg"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "project-x-prjx",
+  "name": "Project X (PRJX)",
+  "description": "Liquidity engine providing DEX infrastructure and atomic orderbook access on HyperEVM, top fee-earning app.",
+  "links": {
+    "twitter": "https://x.com/ProjectXlabs",
+    "logo": "/imgs/Hyperliquid/DEX/project-x-prjx.png"
+  }
+}

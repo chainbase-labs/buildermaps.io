@@ -1,0 +1,10 @@
+{
+  "id": "wormhole",
+  "name": "Wormhole",
+  "description": "Decentralized, universal message-passing network connecting multiple high-value blockchains and applications.",
+  "links": {
+    "homepage": "https://t.co/ROQlQXWwTF",
+    "twitter": "https://x.com/wormhole",
+    "logo": "/imgs/Cross Chain/MessagingProtocols/wormhole.jpg"
+  }
+}

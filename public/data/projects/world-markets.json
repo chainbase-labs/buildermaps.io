@@ -1,0 +1,10 @@
+{
+  "id": "world-markets",
+  "name": "World Markets",
+  "description": "Lending platform on MegaETH network providing borrowing and lending markets for ecosystem assets.",
+  "links": {
+    "homepage": "https://world.inc/",
+    "twitter": "https://x.com/worldmarketsinc",
+    "logo": "/imgs/MegaETH/Derivatives&Trading/world-markets.jpg"
+  }
+}

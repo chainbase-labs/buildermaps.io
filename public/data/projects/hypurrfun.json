@@ -1,0 +1,10 @@
+{
+  "id": "hypurrfun",
+  "name": "HypurrFun",
+  "description": "Telegram-based trading bot and token launchpad for Hyperliquid, enabling meme and utility token launches.",
+  "links": {
+    "homepage": "https://hypurrapp.vercel.app/",
+    "twitter": "https://x.com/Hypurrfun",
+    "logo": "/imgs/Hyperliquid/Launchpads/hypurrfun.jpg"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "megabot",
+  "name": "MegaBot",
+  "description": "High-frequency trading and sniping bot with rug prevention and MEV defense mechanisms for MegaETH traders.",
+  "links": {
+    "twitter": "https://x.com/Mega_BotETH",
+    "logo": "/imgs/MegaETH/TradingTools&Bots/megabot.jpg"
+  }
+}

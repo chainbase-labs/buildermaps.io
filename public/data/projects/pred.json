@@ -1,0 +1,10 @@
+{
+  "id": "pred",
+  "name": "PRED",
+  "description": "Programmatic trading ecosystem designed specifically for prediction market APIs.",
+  "links": {
+    "homepage": "https://t.co/ip9ACy0kwQ",
+    "twitter": "https://x.com/predofficial",
+    "logo": "/imgs/Prediction Markets/BotInterface/pred.jpg"
+  }
+}

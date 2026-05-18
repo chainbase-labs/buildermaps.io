@@ -1,0 +1,10 @@
+{
+  "id": "hyper-foundation",
+  "name": "Hyper Foundation",
+  "description": "Foundation supporting the development and growth of the Hyperliquid ecosystem.",
+  "links": {
+    "homepage": "https://hyperfoundation.org/",
+    "twitter": "https://x.com/HyperFND",
+    "logo": "/imgs/Hyperliquid/CoreInfrastructure/hyper-foundation.jpg"
+  }
+}

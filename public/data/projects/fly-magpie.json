@@ -1,0 +1,10 @@
+{
+  "id": "fly-magpie",
+  "name": "Fly (Magpie)",
+  "description": "Decentralized liquidity aggregation protocol for cross-chain swaps into MegaETH.",
+  "links": {
+    "homepage": "https://app.fly.trade/",
+    "twitter": "https://x.com/flytrade_",
+    "logo": "/imgs/MegaETH/Bridges&Interoperability/fly-magpie.jpg"
+  }
+}

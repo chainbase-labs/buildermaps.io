@@ -1,0 +1,10 @@
+{
+  "id": "megaeth",
+  "name": "MegaETH",
+  "description": "First real-time Ethereum L2 with 100k+ TPS and sub-millisecond latency, powered by specialized node architecture (sequencers, provers, full nodes) and SALT state engine.",
+  "links": {
+    "homepage": "https://www.megaeth.com/",
+    "twitter": "https://x.com/megaeth",
+    "logo": "/imgs/MegaETH/CoreInfrastructure/megaeth.jpg"
+  }
+}

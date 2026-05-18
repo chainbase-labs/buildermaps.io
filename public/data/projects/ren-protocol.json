@@ -1,0 +1,10 @@
+{
+  "id": "ren-protocol",
+  "name": "Ren Protocol",
+  "description": "Interoperability protocol enabling Bitcoin holders to participate in MegaETH DeFi securely and trustlessly.",
+  "links": {
+    "homepage": "https://renprotocol.org/",
+    "twitter": "https://x.com/renprotocol",
+    "logo": "/imgs/MegaETH/Bridges&Interoperability/ren-protocol.jpg"
+  }
+}

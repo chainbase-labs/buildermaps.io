@@ -1,0 +1,10 @@
+{
+  "id": "felix",
+  "name": "Felix",
+  "description": "Overcollateralized stablecoin minted via Felix CDP protocol, backed by HYPE, kHYPE, and BTC collateral.",
+  "links": {
+    "homepage": "https://www.usefelix.xyz/",
+    "twitter": "https://x.com/felixprotocol",
+    "logo": "/imgs/Hyperliquid/Stablecoins/felix.jpg"
+  }
+}

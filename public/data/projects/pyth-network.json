@@ -1,0 +1,10 @@
+{
+  "id": "pyth-network",
+  "name": "Pyth Network",
+  "description": "High-fidelity blockchain oracle providing real-time market data feeds for Hyperliquid markets.",
+  "links": {
+    "homepage": "https://pyth.network/",
+    "twitter": "https://x.com/PythNetwork",
+    "logo": "/imgs/Hyperliquid/Oracles&Data/pyth-network.png"
+  }
+}

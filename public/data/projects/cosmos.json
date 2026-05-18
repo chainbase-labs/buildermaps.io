@@ -1,0 +1,10 @@
+{
+  "id": "cosmos",
+  "name": "Cosmos",
+  "description": "Expansive ecosystem of interconnected blockchains communicating seamlessly through the Inter-Blockchain Communication (IBC) protocol.",
+  "links": {
+    "homepage": "https://t.co/fQa15XWIQ6",
+    "twitter": "https://x.com/cosmos",
+    "logo": "/imgs/Cross Chain/InteroperabilityLayers/cosmos.png"
+  }
+}

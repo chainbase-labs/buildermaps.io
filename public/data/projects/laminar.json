@@ -1,0 +1,10 @@
+{
+  "id": "laminar",
+  "name": "Laminar",
+  "description": "Public liquidity layer with upgraded ve(3,3) flywheel, concentrated liquidity and intent-based gasless trading.",
+  "links": {
+    "homepage": "https://econialabs.com/",
+    "twitter": "https://x.com/LaminarMarkets",
+    "logo": "/imgs/Hyperliquid/DEX/laminar.jpg"
+  }
+}

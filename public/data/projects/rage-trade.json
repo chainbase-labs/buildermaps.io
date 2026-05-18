@@ -1,0 +1,9 @@
+{
+  "id": "rage-trade",
+  "name": "Rage Trade",
+  "description": "Liquid ETH perp trading and USDC yield farming on Hyperliquid.",
+  "links": {
+    "twitter": "https://x.com/rage_trade",
+    "logo": "/imgs/Hyperliquid/TradingTools&Terminals/rage-trade.png"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "hybra-finance",
+  "name": "Hybra Finance",
+  "description": "Community-owned DEX on HyperEVM with ve(3,3) mechanics, a top fee generator with confirmed airdrop.",
+  "links": {
+    "homepage": "https://hybra.finance/",
+    "twitter": "https://x.com/HybraFinance",
+    "logo": "/imgs/Hyperliquid/DEX/hybra-finance.jpg"
+  }
+}

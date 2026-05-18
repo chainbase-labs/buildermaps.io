@@ -1,0 +1,10 @@
+{
+  "id": "predictfi",
+  "name": "PredictFi",
+  "description": "Prediction market platform for betting on politics, crypto, music, sports, and more on MegaETH.",
+  "links": {
+    "homepage": "https://www.predictfi.xyz/",
+    "twitter": "https://x.com/PredictFi",
+    "logo": "/imgs/MegaETH/PredictionMarkets/predictfi.jpg"
+  }
+}

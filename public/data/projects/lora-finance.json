@@ -1,0 +1,10 @@
+{
+  "id": "lora-finance",
+  "name": "Lora Finance",
+  "description": "DeFi protocol for renting asset price exposure on MegaETH with second-by-second fees and no liquidation risk.",
+  "links": {
+    "homepage": "https://lora.finance/",
+    "twitter": "https://x.com/LoraFinance",
+    "logo": "/imgs/MegaETH/Lending&Borrowing/lora-finance.jpg"
+  }
+}

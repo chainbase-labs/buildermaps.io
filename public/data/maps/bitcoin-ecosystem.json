@@ -1,0 +1,180 @@
+{
+  "sector": "Bitcoin ecosystem",
+  "types": [
+    {
+      "id": "btc-staking",
+      "name": "BTC Staking",
+      "projects": [
+        "babylon",
+        "bedrock",
+        "bido",
+        "bitfi",
+        "lombard",
+        "lorenzo-protocol",
+        "pstake",
+        "pumpbtc",
+        "solv-protocol",
+        "stakestone",
+        "unirouter"
+      ]
+    },
+    {
+      "id": "backed-stablecoin",
+      "name": "backed Stablecoin",
+      "projects": [
+        "avalon-labs",
+        "bima",
+        "bitsmiley",
+        "ducat",
+        "hermetica",
+        "shell-finance",
+        "yala"
+      ]
+    },
+    {
+      "id": "scaling",
+      "name": "Scaling",
+      "projects": [
+        "anduro",
+        "arch-network",
+        "b-network",
+        "bitfinity",
+        "bitlayer",
+        "bob",
+        "botanix",
+        "bouncebit",
+        "citrea",
+        "corn",
+        "exsat",
+        "fractal-bitcoin",
+        "goat",
+        "hemi",
+        "lightning-labs",
+        "liquid",
+        "merlin-chain",
+        "mezo",
+        "rooch",
+        "rootstock",
+        "stacks"
+      ]
+    },
+    {
+      "id": "dex",
+      "name": "DEX",
+      "projects": [
+        "bevmswap",
+        "bitflow",
+        "curve",
+        "dotswap",
+        "glowswap",
+        "itdrome",
+        "izumi",
+        "macaron",
+        "molten",
+        "oku-trade",
+        "sovryn",
+        "velar",
+        "velodrome"
+      ]
+    },
+    {
+      "id": "wrapped-btc",
+      "name": "Wrapped BTC",
+      "projects": [
+        "coinbase",
+        "function",
+        "ibtcnetwork",
+        "stacks",
+        "tbtc",
+        "wbtc"
+      ]
+    },
+    {
+      "id": "restaking",
+      "name": "Restaking",
+      "projects": [
+        "babylon",
+        "chakra",
+        "pell",
+        "satlayer",
+        "sui"
+      ]
+    },
+    {
+      "id": "lending",
+      "name": "Lending",
+      "projects": [
+        "avalon",
+        "layerbank",
+        "liquidium",
+        "segment"
+      ]
+    },
+    {
+      "id": "interoperability-and-bridges",
+      "name": "Interoperability & Bridges",
+      "projects": [
+        "beyond",
+        "omnibtc",
+        "omnity",
+        "orbiter",
+        "particle",
+        "polyhedra",
+        "portal",
+        "zetachain"
+      ]
+    },
+    {
+      "id": "oracle",
+      "name": "Oracle",
+      "projects": [
+        "api3",
+        "apro",
+        "dia",
+        "eo",
+        "pyth",
+        "redstone"
+      ]
+    },
+    {
+      "id": "da",
+      "name": "DA",
+      "projects": [
+        "layeredge",
+        "nubit"
+      ]
+    },
+    {
+      "id": "ordinals",
+      "name": "Ordinals",
+      "projects": [
+        "aixbt",
+        "bitcoin-punks",
+        "nodemonkes",
+        "pizza",
+        "quantum-cats",
+        "zap"
+      ]
+    },
+    {
+      "id": "wallet",
+      "name": "Wallet",
+      "projects": [
+        "okx",
+        "unisat",
+        "wizz",
+        "xverse"
+      ]
+    },
+    {
+      "id": "rgb",
+      "name": "RGB",
+      "projects": [
+        "bitlight",
+        "bitmask",
+        "iris",
+        "mycitadel"
+      ]
+    }
+  ]
+}

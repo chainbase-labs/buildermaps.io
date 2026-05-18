@@ -1,0 +1,10 @@
+{
+  "id": "hyperbeat",
+  "name": "Hyperbeat",
+  "description": "LST protocol issuing beHYPE via CoreWriter + EtherFi tech, $150M+ pre-deposits, also runs mainnet validator with P2P.org.",
+  "links": {
+    "homepage": "https://hyperbeat.org/",
+    "twitter": "https://x.com/hyperbeat",
+    "logo": "/imgs/Hyperliquid/LiquidStaking/hyperbeat.jpg"
+  }
+}

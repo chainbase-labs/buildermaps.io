@@ -1,0 +1,9 @@
+{
+  "id": "unit",
+  "name": "Unit",
+  "description": "Cross-chain asset tokenization layer enabling BTC, ETH, SOL deposits and withdrawals into Hyperliquid with institutional-grade security.",
+  "links": {
+    "homepage": "https://unit.network/",
+    "logo": "/imgs/Hyperliquid/AssetTokenization&Bridges/unit.png"
+  }
+}

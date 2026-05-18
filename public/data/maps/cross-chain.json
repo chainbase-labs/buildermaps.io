@@ -1,0 +1,83 @@
+{
+  "sector": "Cross Chain",
+  "types": [
+    {
+      "id": "messaging-protocols",
+      "name": "Messaging Protocols",
+      "projects": [
+        "axelar-network",
+        "chainlink",
+        "hyperlane",
+        "layerzero",
+        "router-protocol",
+        "wormhole"
+      ]
+    },
+    {
+      "id": "omnichain-liquidity-and-interoperability",
+      "name": "Omnichain Liquidity & Interoperability",
+      "projects": [
+        "across",
+        "allbridge",
+        "celernetwork",
+        "chainflip",
+        "changenow",
+        "defiway",
+        "dln",
+        "eco",
+        "exolix",
+        "houdini-swap",
+        "mayan",
+        "orbiter-finance",
+        "relay",
+        "rhino",
+        "stargate",
+        "synapse-labs",
+        "thorchain"
+      ]
+    },
+    {
+      "id": "native-channels-and-swaps",
+      "name": "Native Channels & Swaps",
+      "projects": [
+        "changelly",
+        "circle",
+        "hopprotocol",
+        "rubic",
+        "superbridge",
+        "symbiosis",
+        "wormhole-portal"
+      ]
+    },
+    {
+      "id": "bridge-aggregators",
+      "name": "Bridge Aggregators",
+      "projects": [
+        "1inch",
+        "bungee",
+        "gas-zip",
+        "jumper",
+        "li-fi",
+        "matcha",
+        "pancakeswap",
+        "rango",
+        "socket",
+        "squid",
+        "sushi",
+        "uniswap",
+        "velora"
+      ]
+    },
+    {
+      "id": "interoperability-layers",
+      "name": "Interoperability Layers",
+      "projects": [
+        "cosmos",
+        "everclear",
+        "hyperbridge",
+        "polkadot",
+        "zeus"
+      ]
+    }
+  ]
+}

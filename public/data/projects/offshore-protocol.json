@@ -1,0 +1,10 @@
+{
+  "id": "offshore-protocol",
+  "name": "Offshore Protocol",
+  "description": "Yield protocol operating on MegaETH, highlighted as a key live project within the Rabbithole ecosystem frontend.",
+  "links": {
+    "homepage": "https://app.offshoreprotocol.fun/",
+    "twitter": "https://x.com/OffshoreOnMega",
+    "logo": "/imgs/MegaETH/Yield&Vaults/offshore-protocol.jpg"
+  }
+}

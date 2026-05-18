@@ -1,0 +1,10 @@
+{
+  "id": "loopedhype",
+  "name": "LoopedHYPE",
+  "description": "Liquid staking wrapper providing leveraged HYPE exposure, top points holder for HyperLend and HypurrFi.",
+  "links": {
+    "homepage": "https://www.loopingcollective.org/",
+    "twitter": "https://x.com/looped_hype",
+    "logo": "/imgs/Hyperliquid/LiquidStaking/loopedhype.jpg"
+  }
+}

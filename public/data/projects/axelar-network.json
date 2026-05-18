@@ -1,0 +1,10 @@
+{
+  "id": "axelar-network",
+  "name": "Axelar Network",
+  "description": "Secure cross-chain communication network delivering scalable, plug-and-play interoperability for Web3.",
+  "links": {
+    "homepage": "https://t.co/ETbrLSABAF",
+    "twitter": "https://x.com/axelar",
+    "logo": "/imgs/Cross Chain/MessagingProtocols/axelar-network.jpg"
+  }
+}

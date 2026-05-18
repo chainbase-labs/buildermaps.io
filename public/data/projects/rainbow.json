@@ -1,0 +1,10 @@
+{
+  "id": "rainbow",
+  "name": "Rainbow",
+  "description": "Open-source self-custodial wallet with HyperEVM support.",
+  "links": {
+    "homepage": "https://rainbow.me/",
+    "twitter": "https://x.com/rainbowdotme",
+    "logo": "/imgs/Hyperliquid/Wallets/rainbow.png"
+  }
+}

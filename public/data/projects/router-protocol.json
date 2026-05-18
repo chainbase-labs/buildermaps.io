@@ -1,0 +1,10 @@
+{
+  "id": "router-protocol",
+  "name": "Router Protocol",
+  "description": "Cross-chain bridging infrastructure enabling seamless token swaps and smart contract interactions across networks.",
+  "links": {
+    "homepage": "https://t.co/ILpMiwhN74",
+    "twitter": "https://x.com/RouterProtocol",
+    "logo": "/imgs/Cross Chain/MessagingProtocols/router-protocol.jpg"
+  }
+}

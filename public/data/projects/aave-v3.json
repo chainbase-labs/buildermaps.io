@@ -1,0 +1,10 @@
+{
+  "id": "aave-v3",
+  "name": "Aave V3",
+  "description": "Largest decentralized lending protocol deployed on MegaETH mainnet from day one, with deposits exceeding $575M through incentive-driven activity.",
+  "links": {
+    "homepage": "https://aave.com/",
+    "twitter": "https://x.com/aave",
+    "logo": "/imgs/MegaETH/Lending&Borrowing/aave-v3.png"
+  }
+}

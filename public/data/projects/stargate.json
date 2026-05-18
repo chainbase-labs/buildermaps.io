@@ -1,0 +1,10 @@
+{
+  "id": "stargate",
+  "name": "Stargate",
+  "description": "Fully composable liquidity transport protocol that lives at the heart of LayerZero's omnichain DeFi ecosystem.",
+  "links": {
+    "homepage": "https://t.co/4Ox8n3HN4x",
+    "twitter": "https://x.com/StargateFinance",
+    "logo": "/imgs/Cross Chain/OmnichainLiquidity&Interoperability/stargate.png"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "chainsight",
+  "name": "ChainSight",
+  "description": "Modular data pipelines delivering price feeds, volatility indices, and risk metrics with sub-3s latency for derivative products.",
+  "links": {
+    "homepage": "http://chainsight.network/",
+    "twitter": "https://x.com/chainsight_",
+    "logo": "/imgs/Hyperliquid/Derivatives&StructuredProducts/chainsight.jpg"
+  }
+}

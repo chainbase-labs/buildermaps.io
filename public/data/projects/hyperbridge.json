@@ -1,0 +1,10 @@
+{
+  "id": "hyperbridge",
+  "name": "Hyperbridge",
+  "description": "Cryptographically secure cross-chain interoperability protocol leveraging coprocessors to enable trustless multi-chain messaging.",
+  "links": {
+    "homepage": "https://t.co/PJR3qAg9uo",
+    "twitter": "https://x.com/hyperbridge",
+    "logo": "/imgs/Cross Chain/InteroperabilityLayers/hyperbridge.png"
+  }
+}
