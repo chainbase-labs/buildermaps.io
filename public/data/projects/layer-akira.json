@@ -1,0 +1,10 @@
+{
+  "id": "layer-akira",
+  "name": "Layer Akira",
+  "description": "Hybrid order book DEX on Starknet combining onchain settlement with offchain matching for low-latency trading.",
+  "links": {
+    "homepage": "https://layerakira.xyz/",
+    "twitter": "https://x.com/LayerAkira",
+    "logo": "/imgs/projects/layer-akira.jpg"
+  }
+}

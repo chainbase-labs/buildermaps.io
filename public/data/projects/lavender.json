@@ -1,0 +1,10 @@
+{
+  "id": "lavender",
+  "name": "Lavender",
+  "description": "AI email coaching tool analyzing and improving sales emails in real-time for higher reply rates.",
+  "links": {
+    "homepage": "https://lavender.ai/",
+    "twitter": "https://x.com/lavenderhq",
+    "logo": "/imgs/projects/lavender.png"
+  }
+}

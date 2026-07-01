@@ -1,0 +1,10 @@
+{
+  "id": "voiceflow",
+  "name": "Voiceflow",
+  "description": "Platform for building, managing, and deploying AI agents and chatbots at scale.",
+  "links": {
+    "homepage": "https://voiceflow.com/",
+    "twitter": "https://x.com/voiceflow",
+    "logo": "/imgs/projects/voiceflow.jpg"
+  }
+}

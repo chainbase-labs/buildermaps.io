@@ -1,0 +1,10 @@
+{
+  "id": "tl-dv",
+  "name": "tl;dv",
+  "description": "AI meeting recorder and transcriber for Google Meet and Zoom with timestamped highlights.",
+  "links": {
+    "homepage": "https://tldv.io/",
+    "twitter": "https://x.com/tldview",
+    "logo": "/imgs/projects/tl-dv.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "poe",
+  "name": "Poe",
+  "description": "Quora's AI chat platform providing access to ChatGPT, Claude, Gemini, Llama, and other models in one interface.",
+  "links": {
+    "homepage": "https://poe.com/",
+    "twitter": "https://x.com/poe_platform",
+    "logo": "/imgs/projects/poe.jpg"
+  }
+}

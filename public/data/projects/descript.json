@@ -1,0 +1,10 @@
+{
+  "id": "descript",
+  "name": "Descript",
+  "description": "AI-powered video and podcast editor where editing video is as easy as editing a document. Text-based editing with AI features.",
+  "links": {
+    "homepage": "https://descript.com/",
+    "twitter": "https://x.com/descript",
+    "logo": "/imgs/projects/descript.jpg"
+  }
+}

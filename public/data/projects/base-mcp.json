@@ -1,0 +1,10 @@
+{
+  "id": "base-mcp",
+  "name": "Base MCP",
+  "description": "Coinbase Base L2 MCP plugin connecting AI agents to on-chain wallets for swapping, trading, and portfolio management.",
+  "links": {
+    "homepage": "https://www.base.org/",
+    "twitter": "https://x.com/base",
+    "logo": "/imgs/projects/base-mcp.jpg"
+  }
+}

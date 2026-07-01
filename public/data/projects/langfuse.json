@@ -1,0 +1,10 @@
+{
+  "id": "langfuse",
+  "name": "Langfuse",
+  "description": "Open-source LLM observability and evaluation platform for tracing, debugging, and monitoring AI agent performance.",
+  "links": {
+    "homepage": "https://langfuse.com/",
+    "twitter": "https://x.com/langfuse",
+    "logo": "/imgs/projects/langfuse.jpg"
+  }
+}

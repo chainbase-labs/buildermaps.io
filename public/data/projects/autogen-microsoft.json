@@ -1,0 +1,10 @@
+{
+  "id": "autogen-microsoft",
+  "name": "AutoGen (Microsoft)",
+  "description": "Microsoft's multi-agent framework for building conversational AI systems with human-in-the-loop workflows.",
+  "links": {
+    "homepage": "https://build.microsoft.com/en-US/home?ocid=FY26_soc_omc_br_X_BuildLIB",
+    "twitter": "https://x.com/Microsoft",
+    "logo": "/imgs/projects/autogen-microsoft.jpg"
+  }
+}

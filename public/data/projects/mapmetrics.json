@@ -1,0 +1,10 @@
+{
+  "id": "mapmetrics",
+  "name": "MapMetrics",
+  "description": "Drive-to-earn navigation app rewarding users with crypto for contributing real-time traffic and road data.",
+  "links": {
+    "homepage": "https://mapmetrics.org/",
+    "twitter": "https://x.com/MapMetrics",
+    "logo": "/imgs/projects/mapmetrics.jpg"
+  }
+}

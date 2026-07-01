@@ -1,0 +1,10 @@
+{
+  "id": "trae",
+  "name": "Trae",
+  "description": "ByteDance’s free AI IDE competing with Cursor and Windsurf. Built-in AI agent with MCP support and multi-model access.",
+  "links": {
+    "homepage": "https://trae.ai/",
+    "twitter": "https://x.com/Trae_ai",
+    "logo": "/imgs/projects/trae.jpg"
+  }
+}

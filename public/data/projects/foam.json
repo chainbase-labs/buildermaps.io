@@ -1,0 +1,10 @@
+{
+  "id": "foam",
+  "name": "FOAM",
+  "description": "Decentralized location protocol providing proof-of-location for smart contracts independent of GPS.",
+  "links": {
+    "homepage": "https://foam.space/",
+    "twitter": "https://x.com/foamspace",
+    "logo": "/imgs/projects/foam.jpg"
+  }
+}

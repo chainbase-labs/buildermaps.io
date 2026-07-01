@@ -1,0 +1,10 @@
+{
+  "id": "anthropic-agent-skills-spec",
+  "name": "Anthropic Agent Skills Spec",
+  "description": "Open specification released Dec 2025 defining the SKILL.md format. Adopted by OpenAI, Google, GitHub, Cursor, and Windsurf as the industry standard.",
+  "links": {
+    "homepage": "https://www.anthropic.com/",
+    "twitter": "https://x.com/AnthropicAI",
+    "logo": "/imgs/projects/anthropic-agent-skills-spec.jpg"
+  }
+}

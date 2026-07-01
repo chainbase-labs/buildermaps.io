@@ -1,0 +1,10 @@
+{
+  "id": "hugging-face",
+  "name": "Hugging Face",
+  "description": "Open-source AI platform hosting 1M+ models, datasets, and spaces. The GitHub of machine learning.",
+  "links": {
+    "homepage": "https://huggingface.co/",
+    "twitter": "https://x.com/huggingface",
+    "logo": "/imgs/projects/hugging-face.jpg"
+  }
+}

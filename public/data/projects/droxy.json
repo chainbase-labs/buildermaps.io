@@ -1,0 +1,10 @@
+{
+  "id": "droxy",
+  "name": "Droxy",
+  "description": "AI-powered chatbot platform for customer service, engagement, and knowledge base automation.",
+  "links": {
+    "homepage": "https://droxy.ai/",
+    "twitter": "https://x.com/DroxyAI",
+    "logo": "/imgs/projects/droxy.jpg"
+  }
+}

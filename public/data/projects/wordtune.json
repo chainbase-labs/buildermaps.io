@@ -1,0 +1,10 @@
+{
+  "id": "wordtune",
+  "name": "Wordtune",
+  "description": "AI writing assistant by AI21 Labs for rewriting, summarizing, and enhancing text with tone and style adjustments.",
+  "links": {
+    "homepage": "https://wordtune.com/",
+    "twitter": "https://x.com/WordtuneAI",
+    "logo": "/imgs/projects/wordtune.png"
+  }
+}

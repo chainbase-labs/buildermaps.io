@@ -1,0 +1,10 @@
+{
+  "id": "microsoft-designer",
+  "name": "Microsoft Designer",
+  "description": "Free AI design tool leveraging DALL-E for creating social media graphics, presentations, and marketing materials.",
+  "links": {
+    "homepage": "https://designer.microsoft.com/",
+    "twitter": "https://x.com/Microsoft",
+    "logo": "/imgs/projects/microsoft-designer.jpg"
+  }
+}

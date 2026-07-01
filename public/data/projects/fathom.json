@@ -1,0 +1,10 @@
+{
+  "id": "fathom",
+  "name": "Fathom",
+  "description": "Free AI meeting assistant that records, transcribes, and summarizes Zoom calls.",
+  "links": {
+    "homepage": "https://fathom.video/",
+    "twitter": "https://x.com/FathomHQ",
+    "logo": "/imgs/projects/fathom.jpg"
+  }
+}

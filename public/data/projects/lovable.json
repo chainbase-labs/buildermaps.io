@@ -1,0 +1,10 @@
+{
+  "id": "lovable",
+  "name": "Lovable",
+  "description": "AI-powered software engineer building full-stack web applications from natural language descriptions.",
+  "links": {
+    "homepage": "https://lovable.dev/",
+    "twitter": "https://x.com/Lovable",
+    "logo": "/imgs/projects/lovable.jpg"
+  }
+}

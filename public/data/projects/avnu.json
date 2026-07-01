@@ -1,0 +1,10 @@
+{
+  "id": "avnu",
+  "name": "AVNU",
+  "description": "Leading DEX aggregator powering most trading UX across Starknet. Routes swaps through Ekubo, Nostra, Haiko, and other liquidity sources. Gasless swaps. Trailblazer awardee.",
+  "links": {
+    "homepage": "https://www.avnu.fi/",
+    "twitter": "https://x.com/avnu_fi",
+    "logo": "/imgs/projects/avnu.jpg"
+  }
+}

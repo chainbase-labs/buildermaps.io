@@ -1,0 +1,10 @@
+{
+  "id": "dall-e-3",
+  "name": "DALL-E 3",
+  "description": "OpenAI's image generation model creating detailed images from textual descriptions, integrated into ChatGPT.",
+  "links": {
+    "homepage": "https://openai.com/dall-e-3",
+    "twitter": "https://x.com/OpenAI",
+    "logo": "/imgs/projects/dall-e-3.jpg"
+  }
+}

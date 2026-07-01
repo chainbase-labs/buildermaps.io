@@ -1,0 +1,10 @@
+{
+  "id": "gemini",
+  "name": "Gemini",
+  "description": "Google's multimodal AI for writing assistance, summarization, data analysis, and research across text, image, and code.",
+  "links": {
+    "homepage": "https://gemini.google.com/",
+    "twitter": "https://x.com/GoogleAI",
+    "logo": "/imgs/projects/gemini.jpg"
+  }
+}

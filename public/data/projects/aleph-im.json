@@ -1,0 +1,10 @@
+{
+  "id": "aleph-im",
+  "name": "Aleph im",
+  "description": "Decentralized cloud computing with cross-chain databases, computing power, and storage services.",
+  "links": {
+    "homepage": "https://aleph.im/",
+    "twitter": "https://x.com/aleph_im",
+    "logo": "/imgs/projects/aleph-im.jpg"
+  }
+}

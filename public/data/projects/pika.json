@@ -1,0 +1,10 @@
+{
+  "id": "pika",
+  "name": "Pika",
+  "description": "AI video generation and editing platform creating and modifying videos from text, images, and existing clips.",
+  "links": {
+    "homepage": "https://pika.art/",
+    "twitter": "https://x.com/pika_labs",
+    "logo": "/imgs/projects/pika.jpg"
+  }
+}

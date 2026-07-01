@@ -1,0 +1,10 @@
+{
+  "id": "stripe-agent-toolkit",
+  "name": "Stripe Agent Toolkit",
+  "description": "Official MCP server and agent toolkit for integrating Stripe payments, billing, and financial operations into AI agents.",
+  "links": {
+    "homepage": "https://stripe.com/zh-hk",
+    "twitter": "https://x.com/stripe",
+    "logo": "/imgs/projects/stripe-agent-toolkit.jpg"
+  }
+}

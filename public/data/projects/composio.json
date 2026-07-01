@@ -1,0 +1,10 @@
+{
+  "id": "composio",
+  "name": "Composio",
+  "description": "Tool integration platform connecting AI agents to 250+ apps (GitHub, Slack, Jira) via standardized interfaces.",
+  "links": {
+    "homepage": "https://composio.dev/",
+    "twitter": "https://x.com/composio",
+    "logo": "/imgs/projects/composio.jpg"
+  }
+}

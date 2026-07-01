@@ -1,0 +1,10 @@
+{
+  "id": "abacus",
+  "name": "Abacus",
+  "description": "AI tool designed for data analysis, financial modeling, and enterprise AI applications.",
+  "links": {
+    "homepage": "https://abacus.ai/",
+    "twitter": "https://x.com/AbacusAI",
+    "logo": "/imgs/projects/abacus.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "v0-vercel",
+  "name": "v0 (Vercel)",
+  "description": "Vercel's AI-powered UI generation tool creating React components from text descriptions.",
+  "links": {
+    "homepage": "https://v0.dev/",
+    "twitter": "https://x.com/v0",
+    "logo": "/imgs/projects/v0-vercel.jpg"
+  }
+}

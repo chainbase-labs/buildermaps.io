@@ -1,0 +1,10 @@
+{
+  "id": "agent-skills-addy-osmani",
+  "name": "agent-skills (Addy Osmani)",
+  "description": "23 production-grade engineering skills with 7 slash commands mapping to the full dev lifecycle. Encodes Google engineering culture. 43.8K+ GitHub stars.",
+  "links": {
+    "homepage": "https://github.com/addyosmani/agent-skills",
+    "twitter": "https://x.com/addyosmani",
+    "logo": "/imgs/projects/agent-skills-addy-osmani.jpg"
+  }
+}

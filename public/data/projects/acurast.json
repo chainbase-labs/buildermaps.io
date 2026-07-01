@@ -1,0 +1,10 @@
+{
+  "id": "acurast",
+  "name": "Acurast",
+  "description": "Decentralized serverless cloud using mobile devices as compute nodes. Cross-chain verifiable computation.",
+  "links": {
+    "homepage": "https://acurast.com/",
+    "twitter": "https://x.com/Acurast",
+    "logo": "/imgs/projects/acurast.jpg"
+  }
+}

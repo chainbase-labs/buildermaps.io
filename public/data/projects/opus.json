@@ -1,0 +1,10 @@
+{
+  "id": "opus",
+  "name": "Opus",
+  "description": "Native stablecoin protocol on Starknet issuing CASH. Supports 7 collateral types including ETH, STRK, wBTC, xSTRK. Integrates T-Bill yield via Spiko for ~18% APY.",
+  "links": {
+    "homepage": "https://opus.money/",
+    "twitter": "https://x.com/OpusMoney",
+    "logo": "/imgs/projects/opus.jpg"
+  }
+}

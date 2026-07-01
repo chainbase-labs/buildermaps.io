@@ -1,0 +1,10 @@
+{
+  "id": "slack-mcp",
+  "name": "Slack MCP",
+  "description": "Official Slack MCP server connecting AI agents to channels, messages, users, and workspace data.",
+  "links": {
+    "homepage": "https://slack.com/",
+    "twitter": "https://x.com/SlackAPI",
+    "logo": "/imgs/projects/slack-mcp.jpg"
+  }
+}

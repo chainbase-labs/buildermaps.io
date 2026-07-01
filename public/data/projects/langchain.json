@@ -1,0 +1,10 @@
+{
+  "id": "langchain",
+  "name": "LangChain",
+  "description": "Enterprise framework for building stateful, graph-based agent workflows with tool use and memory.",
+  "links": {
+    "homepage": "https://langchain.com/",
+    "twitter": "https://x.com/LangChain",
+    "logo": "/imgs/projects/langchain.jpg"
+  }
+}

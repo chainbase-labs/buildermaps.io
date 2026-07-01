@@ -1,0 +1,10 @@
+{
+  "id": "xnet",
+  "name": "XNET",
+  "description": "Decentralized wireless deploying neutral-host CBRS small cells for enterprise and carrier-grade coverage.",
+  "links": {
+    "homepage": "https://www.xnet.company/",
+    "twitter": "https://x.com/XNET_Mobile",
+    "logo": "/imgs/projects/xnet.jpg"
+  }
+}

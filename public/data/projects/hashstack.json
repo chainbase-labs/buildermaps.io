@@ -1,0 +1,10 @@
+{
+  "id": "hashstack",
+  "name": "Hashstack",
+  "description": "Niche lending protocol on Starknet offering under-collateralized loans.",
+  "links": {
+    "homepage": "https://hashstack.community/",
+    "twitter": "https://x.com/0xHashstack",
+    "logo": "/imgs/projects/hashstack.jpg"
+  }
+}

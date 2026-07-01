@@ -1,0 +1,10 @@
+{
+  "id": "claude-code",
+  "name": "Claude Code",
+  "description": "Anthropic's agentic coding tool with native SKILL.md support, MCP integration, and slash commands for the full dev lifecycle.",
+  "links": {
+    "homepage": "https://claude.ai/",
+    "twitter": "https://x.com/AnthropicAI",
+    "logo": "/imgs/projects/claude-code.jpg"
+  }
+}

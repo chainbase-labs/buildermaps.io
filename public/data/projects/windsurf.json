@@ -1,0 +1,10 @@
+{
+  "id": "windsurf",
+  "name": "Windsurf",
+  "description": "AI IDE by Codeium with Cascade agent supporting Skills format and MCP integration.",
+  "links": {
+    "homepage": "https://codeium.com/windsurf",
+    "twitter": "https://x.com/windsurf",
+    "logo": "/imgs/projects/windsurf.jpg"
+  }
+}

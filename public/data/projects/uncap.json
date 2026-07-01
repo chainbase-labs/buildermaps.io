@@ -1,0 +1,10 @@
+{
+  "id": "uncap",
+  "name": "Uncap",
+  "description": "Lending protocol on Starknet supporting BTC-collateralized borrowing as part of BTCFi ecosystem.",
+  "links": {
+    "homepage": "https://uncap.finance/",
+    "twitter": "https://x.com/uncapfinance?s=11",
+    "logo": "/imgs/projects/uncap.jpg"
+  }
+}

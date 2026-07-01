@@ -1,0 +1,10 @@
+{
+  "id": "elevenlabs",
+  "name": "ElevenLabs",
+  "description": "AI voice synthesis platform for realistic text-to-speech, voice cloning, and dubbing across 29 languages.",
+  "links": {
+    "homepage": "https://elevenlabs.io/",
+    "twitter": "https://x.com/ElevenLabs",
+    "logo": "/imgs/projects/elevenlabs.png"
+  }
+}

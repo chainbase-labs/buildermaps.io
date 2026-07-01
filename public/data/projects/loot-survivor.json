@@ -1,0 +1,10 @@
+{
+  "id": "loot-survivor",
+  "name": "Loot Survivor",
+  "description": "Fully onchain survival roguelike doing ~50% of all Starknet daily transactions. Play-to-die mechanic where every decision is permanently recorded.",
+  "links": {
+    "homepage": "https://linktr.ee/Realms.World",
+    "twitter": "https://x.com/LootRealms",
+    "logo": "/imgs/projects/loot-survivor.jpg"
+  }
+}

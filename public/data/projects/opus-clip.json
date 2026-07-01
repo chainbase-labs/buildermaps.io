@@ -1,0 +1,10 @@
+{
+  "id": "opus-clip",
+  "name": "Opus Clip",
+  "description": "AI tool that repurposes long videos into viral short clips for TikTok, Reels, and Shorts.",
+  "links": {
+    "homepage": "https://opus.pro/",
+    "twitter": "https://x.com/OpusClip",
+    "logo": "/imgs/projects/opus-clip.jpg"
+  }
+}

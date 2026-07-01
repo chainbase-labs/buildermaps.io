@@ -1,0 +1,10 @@
+{
+  "id": "vesu",
+  "name": "Vesu",
+  "description": "Primary lending/borrowing protocol on Starknet with integrated BTC LSTs and V2 upgrade powering BTCFi era. 7.3% TVL share with strong early growth.",
+  "links": {
+    "homepage": "https://vesu.xyz/lite/markets",
+    "twitter": "https://x.com/vesuxyz",
+    "logo": "/imgs/projects/vesu.jpg"
+  }
+}

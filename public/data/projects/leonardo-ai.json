@@ -1,0 +1,10 @@
+{
+  "id": "leonardo-ai",
+  "name": "Leonardo AI",
+  "description": "AI creative platform for generating production-quality images, 3D textures, and game assets.",
+  "links": {
+    "homepage": "https://leonardo.ai/",
+    "twitter": "https://x.com/LeonardoAi",
+    "logo": "/imgs/projects/leonardo-ai.jpg"
+  }
+}

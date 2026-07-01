@@ -1,0 +1,10 @@
+{
+  "id": "wix-ai",
+  "name": "Wix AI",
+  "description": "AI website builder integrated into Wix platform generating full sites, text, images, and SEO from business descriptions.",
+  "links": {
+    "homepage": "https://wix.com/",
+    "twitter": "https://x.com/Wix",
+    "logo": "/imgs/projects/wix-ai.png"
+  }
+}

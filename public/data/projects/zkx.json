@@ -1,0 +1,10 @@
+{
+  "id": "zkx",
+  "name": "ZKX",
+  "description": "Perpetual swap platform on Starknet with up to 20x leverage on major trading pairs.",
+  "links": {
+    "homepage": "https://linktr.ee/zkxprotocol",
+    "twitter": "https://x.com/ZKXProtocol",
+    "logo": "/imgs/projects/zkx.jpg"
+  }
+}

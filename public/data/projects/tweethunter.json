@@ -1,0 +1,10 @@
+{
+  "id": "tweethunter",
+  "name": "TweetHunter",
+  "description": "AI tool for Twitter growth with content inspiration, scheduling, and CRM features.",
+  "links": {
+    "homepage": "https://tweethunter.io/",
+    "twitter": "https://x.com/TweetHunterIO",
+    "logo": "/imgs/projects/tweethunter.jpg"
+  }
+}

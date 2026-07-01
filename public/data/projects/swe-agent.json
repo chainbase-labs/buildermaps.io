@@ -1,0 +1,10 @@
+{
+  "id": "swe-agent",
+  "name": "SWE-agent",
+  "description": "Open-source autonomous coding agent from Princeton that can fix GitHub issues end-to-end.",
+  "links": {
+    "homepage": "https://swe-agent.com/latest/",
+    "twitter": "https://x.com/Swe_Agent_",
+    "logo": "/imgs/projects/swe-agent.jpg"
+  }
+}

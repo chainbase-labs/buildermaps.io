@@ -1,0 +1,10 @@
+{
+  "id": "akash-network",
+  "name": "Akash Network",
+  "description": "Decentralized cloud compute marketplace with ~80% GPU utilization offering up to 85% cost savings vs centralized cloud.",
+  "links": {
+    "homepage": "https://akash.network/",
+    "twitter": "https://x.com/akashnet",
+    "logo": "/imgs/projects/akash-network.jpg"
+  }
+}

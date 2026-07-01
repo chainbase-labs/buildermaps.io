@@ -1,0 +1,10 @@
+{
+  "id": "tabnine",
+  "name": "Tabnine",
+  "description": "AI code assistant with private, secure models for enterprise teams. Supports 30+ languages and all major IDEs.",
+  "links": {
+    "homepage": "https://tabnine.com/",
+    "twitter": "https://x.com/Tabnine",
+    "logo": "/imgs/projects/tabnine.png"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "invideo",
+  "name": "InVideo",
+  "description": "AI video creation tool for producing marketing videos, social content, and explainers from text prompts.",
+  "links": {
+    "homepage": "https://invideo.io/",
+    "twitter": "https://x.com/InVideoOfficial",
+    "logo": "/imgs/projects/invideo.jpg"
+  }
+}

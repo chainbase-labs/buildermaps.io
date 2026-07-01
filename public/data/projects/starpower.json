@@ -1,0 +1,10 @@
+{
+  "id": "starpower",
+  "name": "Starpower",
+  "description": "Decentralized energy network connecting distributed energy devices for peer-to-peer energy trading.",
+  "links": {
+    "homepage": "https://starpower.world/",
+    "twitter": "https://x.com/starpowerworld",
+    "logo": "/imgs/projects/starpower.jpg"
+  }
+}

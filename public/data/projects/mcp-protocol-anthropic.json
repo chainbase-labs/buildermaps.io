@@ -1,0 +1,10 @@
+{
+  "id": "mcp-protocol-anthropic",
+  "name": "MCP Protocol (Anthropic)",
+  "description": "Open standard by Anthropic for connecting AI tools to external services. Supported by every major AI tool. Becoming the default for agent-to-service communication.",
+  "links": {
+    "homepage": "https://modelcontextprotocol.io/",
+    "twitter": "https://x.com/AnthropicAI",
+    "logo": "/imgs/projects/mcp-protocol-anthropic.jpg"
+  }
+}

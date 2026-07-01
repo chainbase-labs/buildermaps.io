@@ -1,0 +1,10 @@
+{
+  "id": "copilot",
+  "name": "Copilot",
+  "description": "Microsoft's AI-powered assistant integrating with Office, Edge, and dev tools for coding suggestions and task automation.",
+  "links": {
+    "homepage": "https://copilot.microsoft.com/",
+    "twitter": "https://x.com/Microsoft",
+    "logo": "/imgs/projects/copilot.jpg"
+  }
+}

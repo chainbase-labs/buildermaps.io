@@ -1,0 +1,10 @@
+{
+  "id": "chatbase",
+  "name": "Chatbase",
+  "description": "AI chatbot builder trained on custom data for customer support and lead generation.",
+  "links": {
+    "homepage": "https://chatbase.co/",
+    "twitter": "https://x.com/chatbase",
+    "logo": "/imgs/projects/chatbase.jpg"
+  }
+}

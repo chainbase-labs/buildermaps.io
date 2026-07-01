@@ -1,0 +1,10 @@
+{
+  "id": "klap",
+  "name": "Klap",
+  "description": "AI video editing tool that auto-generates short clips from long-form content.",
+  "links": {
+    "homepage": "https://klap.app/",
+    "twitter": "https://x.com/BitMetis",
+    "logo": "/imgs/projects/klap.jpg"
+  }
+}

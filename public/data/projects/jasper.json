@@ -1,0 +1,10 @@
+{
+  "id": "jasper",
+  "name": "Jasper",
+  "description": "AI writing assistant for marketing teams creating blog posts, ad copy, social media content, and brand-consistent writing.",
+  "links": {
+    "homepage": "https://jasper.ai/",
+    "twitter": "https://x.com/heyjasperai",
+    "logo": "/imgs/projects/jasper.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "canva",
+  "name": "Canva",
+  "description": "AI-powered design platform for creating graphics, presentations, videos, and marketing materials.",
+  "links": {
+    "homepage": "https://canva.com/",
+    "twitter": "https://x.com/canva",
+    "logo": "/imgs/projects/canva.jpg"
+  }
+}

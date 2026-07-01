@@ -1,0 +1,10 @@
+{
+  "id": "adobe-sensei",
+  "name": "Adobe Sensei",
+  "description": "AI and machine learning framework powering intelligent features across all Adobe Creative Cloud products.",
+  "links": {
+    "homepage": "https://adobe.com/sensei.html",
+    "twitter": "https://x.com/Adobe",
+    "logo": "/imgs/projects/adobe-sensei.jpg"
+  }
+}

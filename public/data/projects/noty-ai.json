@@ -1,0 +1,10 @@
+{
+  "id": "noty-ai",
+  "name": "Noty AI",
+  "description": "AI-powered meeting note-taker and action item tracker.",
+  "links": {
+    "homepage": "https://noty.ai/",
+    "twitter": "https://x.com/noty_ai",
+    "logo": "/imgs/projects/noty-ai.jpg"
+  }
+}

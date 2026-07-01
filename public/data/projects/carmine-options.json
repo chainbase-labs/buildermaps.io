@@ -1,0 +1,10 @@
+{
+  "id": "carmine-options",
+  "name": "Carmine Options",
+  "description": "Native liquidity options protocol on Starknet supporting calls and puts on ETH, STRK, wBTC, and Ekubo token.",
+  "links": {
+    "homepage": "https://carmine.finance/",
+    "twitter": "https://x.com/CarmineOptions",
+    "logo": "/imgs/projects/carmine-options.jpg"
+  }
+}

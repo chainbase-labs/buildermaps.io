@@ -1,0 +1,10 @@
+{
+  "id": "letta-memgpt",
+  "name": "Letta (MemGPT)",
+  "description": "Stateful agent framework with built-in long-term memory and REST API server. Formerly MemGPT.",
+  "links": {
+    "homepage": "https://letta.com/",
+    "twitter": "https://x.com/MemGPT",
+    "logo": "/imgs/projects/letta-memgpt.jpg"
+  }
+}

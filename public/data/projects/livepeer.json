@@ -1,0 +1,10 @@
+{
+  "id": "livepeer",
+  "name": "Livepeer",
+  "description": "Decentralized video transcoding network reducing video infrastructure costs through distributed GPU processing.",
+  "links": {
+    "homepage": "https://livepeer.org/",
+    "twitter": "https://x.com/Livepeer",
+    "logo": "/imgs/projects/livepeer.jpg"
+  }
+}

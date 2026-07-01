@@ -1,0 +1,10 @@
+{
+  "id": "fotor",
+  "name": "Fotor",
+  "description": "AI-powered photo editing tool with background removal, enhancement, and AI image generation.",
+  "links": {
+    "homepage": "https://fotor.com/",
+    "twitter": "https://x.com/Fotor",
+    "logo": "/imgs/projects/fotor.jpg"
+  }
+}

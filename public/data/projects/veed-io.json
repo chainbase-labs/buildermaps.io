@@ -1,0 +1,10 @@
+{
+  "id": "veed-io",
+  "name": "Veed.io",
+  "description": "Online AI video editor with auto-subtitles, screen recording, and AI avatars for creating professional videos in-browser.",
+  "links": {
+    "homepage": "https://veed.io/",
+    "twitter": "https://x.com/veedstudio",
+    "logo": "/imgs/projects/veed-io.png"
+  }
+}

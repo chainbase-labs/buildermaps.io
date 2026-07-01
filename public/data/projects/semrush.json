@@ -1,0 +1,10 @@
+{
+  "id": "semrush",
+  "name": "Semrush",
+  "description": "All-in-one marketing toolkit with AI-powered SEO, content marketing, and competitive analysis.",
+  "links": {
+    "homepage": "https://semrush.com/",
+    "twitter": "https://x.com/semrush",
+    "logo": "/imgs/projects/semrush.jpg"
+  }
+}

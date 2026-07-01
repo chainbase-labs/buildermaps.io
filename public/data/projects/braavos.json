@@ -1,0 +1,10 @@
+{
+  "id": "braavos",
+  "name": "Braavos",
+  "description": "Smart contract wallet for Starknet with hardware signer, multi-seed, and built-in DeFi features. Browser extension and mobile app.",
+  "links": {
+    "homepage": "https://braavos.app/",
+    "twitter": "https://x.com/myBraavos",
+    "logo": "/imgs/projects/braavos.jpg"
+  }
+}

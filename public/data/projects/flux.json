@@ -1,0 +1,10 @@
+{
+  "id": "flux",
+  "name": "Flux",
+  "description": "Decentralized cloud infrastructure with 15,000+ nodes across 50+ countries for Web3 compute.",
+  "links": {
+    "homepage": "https://runonflux.io/",
+    "twitter": "https://x.com/RunOnFlux",
+    "logo": "/imgs/projects/flux.png"
+  }
+}

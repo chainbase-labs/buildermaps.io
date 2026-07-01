@@ -1,0 +1,10 @@
+{
+  "id": "bolt-new",
+  "name": "Bolt.new",
+  "description": "Full-stack AI web builder with agent capabilities for creating and deploying apps from natural language.",
+  "links": {
+    "homepage": "https://bolt.new/",
+    "twitter": "https://x.com/boltdotnew",
+    "logo": "/imgs/projects/bolt-new.jpg"
+  }
+}

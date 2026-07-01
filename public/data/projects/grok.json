@@ -1,0 +1,10 @@
+{
+  "id": "grok",
+  "name": "Grok",
+  "description": "xAI's multimodal AI model integrated into X/Twitter with real-time information access and image generation.",
+  "links": {
+    "homepage": "https://x.ai/",
+    "twitter": "https://x.com/grok",
+    "logo": "/imgs/projects/grok.jpg"
+  }
+}

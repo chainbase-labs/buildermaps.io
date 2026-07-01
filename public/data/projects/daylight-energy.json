@@ -1,0 +1,10 @@
+{
+  "id": "daylight-energy",
+  "name": "Daylight Energy",
+  "description": "Decentralized home energy management connecting smart thermostats and EV chargers for grid balancing rewards.",
+  "links": {
+    "homepage": "https://daylight.xyz/",
+    "twitter": "https://x.com/daylightenergy",
+    "logo": "/imgs/projects/daylight-energy.jpg"
+  }
+}

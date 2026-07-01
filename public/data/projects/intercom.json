@@ -1,0 +1,10 @@
+{
+  "id": "intercom",
+  "name": "Intercom",
+  "description": "AI-first customer service platform with Fin AI agent resolving 50%+ of support queries automatically.",
+  "links": {
+    "homepage": "https://intercom.com/",
+    "twitter": "https://x.com/intercom",
+    "logo": "/imgs/projects/intercom.jpg"
+  }
+}

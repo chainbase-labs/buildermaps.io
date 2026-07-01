@@ -1,0 +1,10 @@
+{
+  "id": "render-network",
+  "name": "Render Network",
+  "description": "Decentralized GPU rendering and compute protocol. $38M+ monthly revenue, 22M+ frames rendered monthly. Largest Solana-based DePIN token.",
+  "links": {
+    "homepage": "https://rendernetwork.com/",
+    "twitter": "https://x.com/rendernetwork",
+    "logo": "/imgs/projects/render-network.jpg"
+  }
+}

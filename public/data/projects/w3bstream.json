@@ -1,0 +1,10 @@
+{
+  "id": "w3bstream",
+  "name": "W3bstream",
+  "description": "Off-chain compute infrastructure by IoTeX for verifying real-world data and triggering on-chain actions.",
+  "links": {
+    "homepage": "https://w3bstream.com/",
+    "twitter": "https://x.com/W3bstream_com",
+    "logo": "/imgs/projects/w3bstream.jpg"
+  }
+}

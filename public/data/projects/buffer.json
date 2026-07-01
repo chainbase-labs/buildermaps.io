@@ -1,0 +1,10 @@
+{
+  "id": "buffer",
+  "name": "Buffer",
+  "description": "Social media management platform with AI assistant for content creation and scheduling across platforms.",
+  "links": {
+    "homepage": "https://buffer.com/",
+    "twitter": "https://x.com/buffer",
+    "logo": "/imgs/projects/buffer.jpg"
+  }
+}

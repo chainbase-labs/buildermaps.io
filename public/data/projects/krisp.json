@@ -1,0 +1,10 @@
+{
+  "id": "krisp",
+  "name": "Krisp",
+  "description": "AI-powered noise cancellation and meeting assistant with transcription, notes, and action items.",
+  "links": {
+    "homepage": "https://krisp.ai/",
+    "twitter": "https://x.com/KrispHQ",
+    "logo": "/imgs/projects/krisp.jpg"
+  }
+}

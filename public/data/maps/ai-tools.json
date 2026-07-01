@@ -1,0 +1,158 @@
+{
+  "sector": "AI Tools",
+  "types": [
+    {
+      "id": "ai-models-and-platforms",
+      "name": "AI Models & Platforms",
+      "projects": [
+        "character-ai",
+        "cohere",
+        "grok",
+        "hugging-face",
+        "mistral-ai",
+        "poe"
+      ]
+    },
+    {
+      "id": "audio",
+      "name": "Audio",
+      "projects": ["elevenlabs", "lovo-ai", "speechify", "suno", "udio"]
+    },
+    {
+      "id": "automation",
+      "name": "Automation",
+      "projects": ["n8n", "zapier"]
+    },
+    {
+      "id": "chatbot",
+      "name": "Chatbot",
+      "projects": ["chatbase", "droxy", "intercom", "tidio", "voiceflow"]
+    },
+    {
+      "id": "coding",
+      "name": "Coding",
+      "projects": ["amazon-q-developer", "devin", "github-copilot", "tabnine"]
+    },
+    {
+      "id": "design",
+      "name": "Design",
+      "projects": [
+        "canva",
+        "clipdrop",
+        "figma",
+        "krea-ai",
+        "playground-ai",
+        "recraft",
+        "uizard"
+      ]
+    },
+    {
+      "id": "email-and-sales",
+      "name": "Email & Sales",
+      "projects": ["apollo-io", "instantly", "lavender"]
+    },
+    {
+      "id": "image",
+      "name": "Image",
+      "projects": [
+        "dall-e-3",
+        "fotor",
+        "ideogram",
+        "leonardo-ai",
+        "microsoft-designer",
+        "midjourney",
+        "stability-ai"
+      ]
+    },
+    {
+      "id": "meeting",
+      "name": "Meeting",
+      "projects": ["fathom", "fireflies", "krisp", "noty-ai", "otter", "tl-dv"]
+    },
+    {
+      "id": "office-and-collaboration",
+      "name": "Office & Collaboration",
+      "projects": ["clickup-ai", "coda-ai", "miro-ai", "notebooklm"]
+    },
+    {
+      "id": "presentation",
+      "name": "Presentation",
+      "projects": ["beautiful-ai", "decktopus", "gamma-ai", "slides-ai", "tome"]
+    },
+    {
+      "id": "productivity",
+      "name": "Productivity",
+      "projects": ["adobe-sensei", "cursor", "linear", "notion-ai", "replit"]
+    },
+    {
+      "id": "research",
+      "name": "Research",
+      "projects": [
+        "abacus",
+        "chatgpt",
+        "claude",
+        "copilot",
+        "deepseek",
+        "gemini",
+        "perplexity"
+      ]
+    },
+    {
+      "id": "seo",
+      "name": "SEO",
+      "projects": ["ahrefs", "semrush", "surfer-seo", "vidiq"]
+    },
+    {
+      "id": "social-media",
+      "name": "Social Media",
+      "projects": ["buffer", "hypefury", "tweethunter", "typefully"]
+    },
+    {
+      "id": "video",
+      "name": "Video",
+      "projects": [
+        "capcut",
+        "descript",
+        "eightify",
+        "heygen",
+        "invideo",
+        "klap",
+        "kling-ai",
+        "luma-ai",
+        "opus-clip",
+        "pika",
+        "runway",
+        "sora",
+        "veed-io"
+      ]
+    },
+    {
+      "id": "website",
+      "name": "Website",
+      "projects": [
+        "10web",
+        "bolt-new",
+        "framer",
+        "hostinger-ai",
+        "lovable",
+        "v0-vercel",
+        "webflow",
+        "wix-ai"
+      ]
+    },
+    {
+      "id": "writing-and-copywriting",
+      "name": "Writing & Copywriting",
+      "projects": [
+        "adcreative-ai",
+        "copy-ai",
+        "hix-ai",
+        "jasper",
+        "quillbot",
+        "text-blaze",
+        "wordtune",
+        "writesonic"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "starknet-foundation",
+  "name": "Starknet Foundation",
+  "description": "Foundation supporting ecosystem growth via Seed Grants (up to $25K), Propulsion Grants, DeFi Spring incentives, and BTCFi campaigns.",
+  "links": {
+    "homepage": "https://www.starknet.io/foundation/",
+    "twitter": "https://x.com/StarknetFndn",
+    "logo": "/imgs/projects/starknet-foundation.png"
+  }
+}

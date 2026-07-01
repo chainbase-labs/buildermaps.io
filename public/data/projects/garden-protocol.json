@@ -1,0 +1,10 @@
+{
+  "id": "garden-protocol",
+  "name": "Garden Protocol",
+  "description": "Direct Bitcoin liquidity protocol launched on Starknet in early 2026 for native BTC-to-Starknet bridging.",
+  "links": {
+    "homepage": "https://garden.finance/",
+    "twitter": "https://x.com/gardenfi",
+    "logo": "/imgs/projects/garden-protocol.jpg"
+  }
+}

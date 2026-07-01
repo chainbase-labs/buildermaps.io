@@ -1,0 +1,10 @@
+{
+  "id": "weatherxm",
+  "name": "WeatherXM",
+  "description": "Decentralized weather data network rewarding users for deploying weather stations.",
+  "links": {
+    "homepage": "https://weatherxm.com/",
+    "twitter": "https://x.com/WeatherXM",
+    "logo": "/imgs/projects/weatherxm.jpg"
+  }
+}

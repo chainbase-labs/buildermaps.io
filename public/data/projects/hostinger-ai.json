@@ -1,0 +1,10 @@
+{
+  "id": "hostinger-ai",
+  "name": "Hostinger AI",
+  "description": "AI website builder with hosting, auto-generating full websites with copy, images, and SEO optimization included.",
+  "links": {
+    "homepage": "https://hostinger.com/",
+    "twitter": "https://x.com/Hostinger",
+    "logo": "/imgs/projects/hostinger-ai.jpg"
+  }
+}

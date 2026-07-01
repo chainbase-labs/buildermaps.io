@@ -1,0 +1,10 @@
+{
+  "id": "notion-mcp",
+  "name": "Notion MCP",
+  "description": "Official Notion MCP server enabling AI agents to read, create, and update pages, databases, and comments.",
+  "links": {
+    "homepage": "https://notion.so/",
+    "twitter": "https://x.com/NotionHQ",
+    "logo": "/imgs/projects/notion-mcp.jpg"
+  }
+}

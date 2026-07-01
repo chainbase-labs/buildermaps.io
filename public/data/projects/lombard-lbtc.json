@@ -1,0 +1,10 @@
+{
+  "id": "lombard-lbtc",
+  "name": "Lombard (LBTC)",
+  "description": "Leading BTC LST coming to Starknet, enabling Bitcoin liquid staking within the BTCFi ecosystem.",
+  "links": {
+    "homepage": "https://linktr.ee/lombardfinance",
+    "twitter": "https://x.com/Lombard_Finance",
+    "logo": "/imgs/projects/lombard-lbtc.jpg"
+  }
+}

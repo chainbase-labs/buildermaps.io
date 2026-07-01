@@ -1,0 +1,10 @@
+{
+  "id": "continue",
+  "name": "Continue",
+  "description": "Open-source AI code assistant for VS Code and JetBrains with customizable models and MCP support.",
+  "links": {
+    "homepage": "https://continue.dev/",
+    "twitter": "https://x.com/continuedev",
+    "logo": "/imgs/projects/continue.jpg"
+  }
+}

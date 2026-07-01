@@ -1,0 +1,10 @@
+{
+  "id": "webflow",
+  "name": "Webflow",
+  "description": "Visual web development platform with AI features for building professional responsive sites without code.",
+  "links": {
+    "homepage": "https://webflow.com/",
+    "twitter": "https://x.com/webflow",
+    "logo": "/imgs/projects/webflow.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "dojo",
+  "name": "Dojo",
+  "description": "Provable onchain game engine with Entity-Component-System architecture. Powers the fully onchain gaming ecosystem on Starknet.",
+  "links": {
+    "homepage": "https://dojoengine.org/",
+    "twitter": "https://x.com/ohayo_dojo?s=11",
+    "logo": "/imgs/projects/dojo.jpg"
+  }
+}

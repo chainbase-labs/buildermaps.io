@@ -1,0 +1,10 @@
+{
+  "id": "gemini-cli",
+  "name": "Gemini CLI",
+  "description": "Google's CLI agent supporting the Agent Skills format natively for task automation and development.",
+  "links": {
+    "homepage": "https://gemini.google.com/",
+    "twitter": "https://x.com/GoogleAI",
+    "logo": "/imgs/projects/gemini-cli.jpg"
+  }
+}

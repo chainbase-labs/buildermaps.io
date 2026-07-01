@@ -1,0 +1,10 @@
+{
+  "id": "gamma-ai",
+  "name": "Gamma AI",
+  "description": "AI-powered tool for creating beautiful presentations, documents, and websites from text prompts.",
+  "links": {
+    "homepage": "https://gamma.app/",
+    "twitter": "https://x.com/GammaApp",
+    "logo": "/imgs/projects/gamma-ai.jpg"
+  }
+}

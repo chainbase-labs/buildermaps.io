@@ -1,0 +1,10 @@
+{
+  "id": "energy-web",
+  "name": "Energy Web",
+  "description": "Open-source enterprise-grade blockchain platform purpose-built for the energy sector.",
+  "links": {
+    "homepage": "https://www.energyweb.org/",
+    "twitter": "https://x.com/energywebx",
+    "logo": "/imgs/projects/energy-web.jpg"
+  }
+}

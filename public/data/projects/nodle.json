@@ -1,0 +1,10 @@
+{
+  "id": "nodle",
+  "name": "Nodle",
+  "description": "Largest smartphone-based DePIN using phones as IoT nodes for digital trust and connectivity.",
+  "links": {
+    "homepage": "https://nodle.com/",
+    "twitter": "https://x.com/NodleNetwork",
+    "logo": "/imgs/projects/nodle.png"
+  }
+}

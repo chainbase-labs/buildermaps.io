@@ -1,0 +1,10 @@
+{
+  "id": "tome",
+  "name": "Tome",
+  "description": "AI-native storytelling format generating polished presentations with text, images, and data.",
+  "links": {
+    "homepage": "https://tome.app/",
+    "twitter": "https://x.com/tome_app",
+    "logo": "/imgs/projects/tome.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "ekubo",
+  "name": "Ekubo",
+  "description": "Leading AMM DEX on Starknet with concentrated liquidity, limit orders, multi-hook extensions (up to 16 per pool), and privacy pool. TVL $10M+ via Re7 yield aggregator. Revenue 4x since swap fee switch.",
+  "links": {
+    "homepage": "https://ekubo.org/",
+    "twitter": "https://x.com/EkuboProtocol",
+    "logo": "/imgs/projects/ekubo.png"
+  }
+}

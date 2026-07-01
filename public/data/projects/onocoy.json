@@ -1,0 +1,10 @@
+{
+  "id": "onocoy",
+  "name": "Onocoy",
+  "description": "Decentralized GNSS reference station network providing high-precision positioning data globally.",
+  "links": {
+    "homepage": "https://www.onocoy.com/",
+    "twitter": "https://x.com/onocoyRTK",
+    "logo": "/imgs/projects/onocoy.png"
+  }
+}

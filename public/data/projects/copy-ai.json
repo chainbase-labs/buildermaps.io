@@ -1,0 +1,10 @@
+{
+  "id": "copy-ai",
+  "name": "Copy AI",
+  "description": "AI-powered copywriting tool generating engaging marketing copy, emails, and social posts.",
+  "links": {
+    "homepage": "https://copy.ai/",
+    "twitter": "https://x.com/copy_ai",
+    "logo": "/imgs/projects/copy-ai.jpg"
+  }
+}

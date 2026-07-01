@@ -1,0 +1,10 @@
+{
+  "id": "dephy",
+  "name": "DePHY",
+  "description": "Open-source hardware and software framework for building DePIN projects with plug-and-play device management.",
+  "links": {
+    "homepage": "https://dephy.io/",
+    "twitter": "https://x.com/dephynetwork",
+    "logo": "/imgs/projects/dephy.jpg"
+  }
+}

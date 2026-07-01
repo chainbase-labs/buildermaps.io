@@ -1,0 +1,10 @@
+{
+  "id": "fireflies",
+  "name": "Fireflies",
+  "description": "AI meeting assistant that records, transcribes, and analyzes conversations across platforms.",
+  "links": {
+    "homepage": "https://fireflies.ai/",
+    "twitter": "https://x.com/firefliesen",
+    "logo": "/imgs/projects/fireflies.jpg"
+  }
+}

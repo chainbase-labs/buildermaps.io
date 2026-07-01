@@ -1,0 +1,10 @@
+{
+  "id": "typefully",
+  "name": "Typefully",
+  "description": "AI writing and scheduling tool for X/Twitter threads, posts, and audience growth.",
+  "links": {
+    "homepage": "https://typefully.com/",
+    "twitter": "https://x.com/typefully",
+    "logo": "/imgs/projects/typefully.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "dimo",
+  "name": "DIMO",
+  "description": "Decentralized IoT network for vehicle data. Users monetize driving data while gaining automotive insights.",
+  "links": {
+    "homepage": "https://dimo.zone/",
+    "twitter": "https://x.com/DIMO_Network",
+    "logo": "/imgs/projects/dimo.jpg"
+  }
+}

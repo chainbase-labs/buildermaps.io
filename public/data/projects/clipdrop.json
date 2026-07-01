@@ -1,0 +1,10 @@
+{
+  "id": "clipdrop",
+  "name": "Clipdrop",
+  "description": "AI-powered image editing suite with background removal, upscaling, and generative fill by Stability AI.",
+  "links": {
+    "homepage": "https://clipdrop.co/",
+    "twitter": "https://x.com/clipdrop",
+    "logo": "/imgs/projects/clipdrop.jpg"
+  }
+}

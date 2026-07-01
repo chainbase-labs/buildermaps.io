@@ -1,0 +1,10 @@
+{
+  "id": "metablox",
+  "name": "Metablox",
+  "description": "Decentralized WiFi roaming protocol enabling seamless connectivity across OpenRoaming-compatible networks.",
+  "links": {
+    "homepage": "https://metablox.io/",
+    "twitter": "https://x.com/metablox",
+    "logo": "/imgs/projects/metablox.jpg"
+  }
+}

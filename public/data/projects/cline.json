@@ -1,0 +1,10 @@
+{
+  "id": "cline",
+  "name": "Cline",
+  "description": "Most popular open-source AI coding agent for VS Code. Autonomous coding with MCP tool integration and human-in-the-loop approval. 800K+ installs.",
+  "links": {
+    "homepage": "https://cline.bot/",
+    "twitter": "https://x.com/cline",
+    "logo": "/imgs/projects/cline.jpg"
+  }
+}

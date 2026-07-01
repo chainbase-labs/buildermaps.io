@@ -1,0 +1,10 @@
+{
+  "id": "cloudflare-mcp",
+  "name": "Cloudflare MCP",
+  "description": "Cloudflare's MCP server hosting enabling AI agents to connect to Workers, R2, KV, and D1 services.",
+  "links": {
+    "homepage": "https://www.cloudflare.com/",
+    "twitter": "https://x.com/Cloudflare",
+    "logo": "/imgs/projects/cloudflare-mcp.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "coda-ai",
+  "name": "Coda AI",
+  "description": "AI-powered doc platform combining docs, spreadsheets, and apps with built-in AI for writing and data analysis.",
+  "links": {
+    "homepage": "https://coda.io/",
+    "twitter": "https://x.com/coda_hq",
+    "logo": "/imgs/projects/coda-ai.jpg"
+  }
+}

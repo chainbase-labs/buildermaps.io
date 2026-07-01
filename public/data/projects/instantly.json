@@ -1,0 +1,10 @@
+{
+  "id": "instantly",
+  "name": "Instantly",
+  "description": "AI-powered cold email outreach platform with unlimited accounts, warmup, and AI personalization at scale.",
+  "links": {
+    "homepage": "https://instantly.ai/",
+    "twitter": "https://x.com/InstantlyAI",
+    "logo": "/imgs/projects/instantly.png"
+  }
+}

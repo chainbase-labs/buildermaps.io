@@ -1,0 +1,10 @@
+{
+  "id": "starknet-id",
+  "name": "Starknet ID",
+  "description": "On-chain identity protocol for Starknet. Human-readable .stark names linked to wallet addresses. Infrastructure category project.",
+  "links": {
+    "homepage": "https://starknetid.com/",
+    "twitter": "https://x.com/Starknet_id",
+    "logo": "/imgs/projects/starknet-id.jpg"
+  }
+}

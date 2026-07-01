@@ -1,0 +1,10 @@
+{
+  "id": "swarm",
+  "name": "Swarm",
+  "description": "Decentralized storage and communication protocol natively integrated with the Ethereum ecosystem.",
+  "links": {
+    "homepage": "https://www.ethswarm.org/",
+    "twitter": "https://x.com/ethswarm",
+    "logo": "/imgs/projects/swarm.jpg"
+  }
+}

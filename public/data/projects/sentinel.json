@@ -1,0 +1,10 @@
+{
+  "id": "sentinel",
+  "name": "Sentinel",
+  "description": "Decentralized VPN framework on Cosmos enabling anyone to build and monetize dVPN applications.",
+  "links": {
+    "homepage": "https://sentinel.co/",
+    "twitter": "https://x.com/SentinelP2P",
+    "logo": "/imgs/projects/sentinel.jpg"
+  }
+}

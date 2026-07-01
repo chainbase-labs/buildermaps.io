@@ -1,0 +1,10 @@
+{
+  "id": "surfer-seo",
+  "name": "Surfer SEO",
+  "description": "AI-driven SEO tool for content optimization, keyword research, and SERP analysis.",
+  "links": {
+    "homepage": "https://surferseo.com/",
+    "twitter": "https://x.com/surfer_seo",
+    "logo": "/imgs/projects/surfer-seo.jpg"
+  }
+}

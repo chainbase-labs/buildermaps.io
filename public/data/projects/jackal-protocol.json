@@ -1,0 +1,10 @@
+{
+  "id": "jackal-protocol",
+  "name": "Jackal Protocol",
+  "description": "Decentralized hot storage protocol on Cosmos with self-custodial encrypted cloud storage for Web3.",
+  "links": {
+    "homepage": "https://jackalprotocol.com/",
+    "twitter": "https://x.com/Jackal_Protocol",
+    "logo": "/imgs/projects/jackal-protocol.jpg"
+  }
+}

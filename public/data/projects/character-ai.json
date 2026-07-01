@@ -1,0 +1,10 @@
+{
+  "id": "character-ai",
+  "name": "Character.ai",
+  "description": "AI platform for creating and chatting with customizable AI characters for entertainment, roleplay, and learning.",
+  "links": {
+    "homepage": "https://character.ai/",
+    "twitter": "https://x.com/character_ai",
+    "logo": "/imgs/projects/character-ai.png"
+  }
+}

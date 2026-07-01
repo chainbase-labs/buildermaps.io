@@ -160,6 +160,13 @@ def apply_csv(
         key = headers.get(field.lower())
         return (row.get(key, "") if key else "") or ""
 
+    def get_first(row: dict, *fields: str) -> str:
+        for field in fields:
+            value = get(row, field).strip()
+            if value:
+                return value
+        return ""
+
     updated_projects = 0
     updated_maps = 0
     downloaded_logos = 0
@@ -179,7 +186,7 @@ def apply_csv(
         twitter = (get(row, "x").strip() or get(row, "twitter").strip())
         github = get(row, "github").strip()
         description = get(row, "description").strip()
-        logo = get(row, "logo").strip()
+        logo = get_first(row, "logo", "logo url", "logo_url")
 
         project_id = slugify_repo(name)
         if not project_id:

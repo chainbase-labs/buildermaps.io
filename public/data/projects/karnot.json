@@ -1,0 +1,10 @@
+{
+  "id": "karnot",
+  "name": "Karnot",
+  "description": "Rollup-as-a-Service provider for Starknet Stack appchains. Core maintainer of the Madara sequencer. Also building Arc for activity-based yields.",
+  "links": {
+    "homepage": "https://www.karnot.xyz/",
+    "twitter": "https://x.com/karnotxyz",
+    "logo": "/imgs/projects/karnot.jpg"
+  }
+}

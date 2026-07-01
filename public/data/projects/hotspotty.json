@@ -1,0 +1,10 @@
+{
+  "id": "hotspotty",
+  "name": "Hotspotty",
+  "description": "DePIN network planning and management platform for optimizing Helium, XNET, and wireless deployments.",
+  "links": {
+    "homepage": "https://hotspotty.net/",
+    "twitter": "https://x.com/hotspotty",
+    "logo": "/imgs/projects/hotspotty.png"
+  }
+}

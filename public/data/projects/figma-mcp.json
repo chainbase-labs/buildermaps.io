@@ -1,0 +1,10 @@
+{
+  "id": "figma-mcp",
+  "name": "Figma MCP",
+  "description": "Official Figma MCP server giving AI agents access to design files, components, styles, and layout data.",
+  "links": {
+    "homepage": "https://figma.com/",
+    "twitter": "https://x.com/figma",
+    "logo": "/imgs/projects/figma-mcp.jpg"
+  }
+}

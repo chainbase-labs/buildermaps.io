@@ -1,0 +1,10 @@
+{
+  "id": "hivello",
+  "name": "Hivello",
+  "description": "DePIN aggregator platform enabling users to contribute resources to multiple DePIN networks simultaneously.",
+  "links": {
+    "homepage": "https://hivello.com/",
+    "twitter": "https://x.com/HivelloOfficial",
+    "logo": "/imgs/projects/hivello.jpg"
+  }
+}

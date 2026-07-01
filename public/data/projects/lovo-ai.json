@@ -1,0 +1,10 @@
+{
+  "id": "lovo-ai",
+  "name": "Lovo AI",
+  "description": "AI voiceover and text-to-speech platform with 500+ voices for video, e-learning, and marketing.",
+  "links": {
+    "homepage": "https://lovo.ai/",
+    "twitter": "https://x.com/LOVOlabs",
+    "logo": "/imgs/projects/lovo-ai.jpg"
+  }
+}

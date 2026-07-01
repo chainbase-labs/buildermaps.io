@@ -1,0 +1,10 @@
+{
+  "id": "fleek",
+  "name": "Fleek",
+  "description": "Decentralized web hosting and edge computing platform for building and deploying Web3 sites and apps.",
+  "links": {
+    "homepage": "https://fleek.co/",
+    "twitter": "https://x.com/fleek",
+    "logo": "/imgs/projects/fleek.png"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "nethermind",
+  "name": "Nethermind",
+  "description": "Developer of Juno (Starknet full node client) and Voyager block explorer. Major Ethereum and Starknet infrastructure contributor.",
+  "links": {
+    "homepage": "https://www.nethermind.io/",
+    "twitter": "https://x.com/NethermindSec",
+    "logo": "/imgs/projects/nethermind.png"
+  }
+}

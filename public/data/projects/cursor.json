@@ -1,0 +1,10 @@
+{
+  "id": "cursor",
+  "name": "Cursor",
+  "description": "AI-first code editor with native SKILL.md reading, MCP tool support, and intelligent codebase understanding.",
+  "links": {
+    "homepage": "https://cursor.com/",
+    "twitter": "https://x.com/cursor_ai",
+    "logo": "/imgs/projects/cursor.jpg"
+  }
+}

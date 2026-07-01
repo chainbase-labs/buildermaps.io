@@ -1,0 +1,10 @@
+{
+  "id": "capcut",
+  "name": "CapCut",
+  "description": "ByteDance's free video editor with AI-powered effects, auto-captions, background removal, and text-to-video features.",
+  "links": {
+    "homepage": "https://capcut.com/",
+    "twitter": "https://x.com/capcutapp",
+    "logo": "/imgs/projects/capcut.jpg"
+  }
+}

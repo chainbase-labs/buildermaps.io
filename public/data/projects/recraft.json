@@ -1,0 +1,10 @@
+{
+  "id": "recraft",
+  "name": "Recraft",
+  "description": "AI design tool for creating vector art, icons, illustrations, and 3D images with brand-consistent style controls.",
+  "links": {
+    "homepage": "https://recraft.ai/",
+    "twitter": "https://x.com/recraftai",
+    "logo": "/imgs/projects/recraft.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "raize-club",
+  "name": "Raize Club",
+  "description": "Prediction market platform on Starknet for making predictions on various topics with onchain settlement.",
+  "links": {
+    "homepage": "https://www.raize.club/",
+    "twitter": "https://x.com/RaizeClub",
+    "logo": "/imgs/projects/raize-club.jpg"
+  }
+}

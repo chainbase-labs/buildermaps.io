@@ -1,0 +1,10 @@
+{
+  "id": "slides-ai",
+  "name": "Slides AI",
+  "description": "AI tool generating professional Google Slides presentations from text in seconds.",
+  "links": {
+    "homepage": "https://slidesai.io/",
+    "twitter": "https://x.com/SlidesAI_io",
+    "logo": "/imgs/projects/slides-ai.png"
+  }
+}

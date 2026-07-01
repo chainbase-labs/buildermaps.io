@@ -1,0 +1,10 @@
+{
+  "id": "sutando",
+  "name": "Sutando",
+  "description": "Personal AI agent for macOS running on Claude Code. Joins Zoom calls, takes screenshots, does live research, manages calendars and contacts.",
+  "links": {
+    "homepage": "https://www.everydev.ai/tools/sutando",
+    "twitter": "https://x.com/EveryDevAi",
+    "logo": "/imgs/projects/sutando.jpg"
+  }
+}

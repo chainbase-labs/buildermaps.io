@@ -1,0 +1,10 @@
+{
+  "id": "meson-network",
+  "name": "Meson Network",
+  "description": "Decentralized bandwidth marketplace aggregating idle bandwidth from long-tail users to accelerate file transfer.",
+  "links": {
+    "homepage": "https://www.meson.network/",
+    "twitter": "https://x.com/NetworkMeson",
+    "logo": "/imgs/projects/meson-network.jpg"
+  }
+}

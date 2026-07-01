@@ -1,0 +1,10 @@
+{
+  "id": "framer",
+  "name": "Framer",
+  "description": "AI-powered website builder for designing and publishing responsive sites without code.",
+  "links": {
+    "homepage": "https://framer.com/",
+    "twitter": "https://x.com/framer",
+    "logo": "/imgs/projects/framer.jpg"
+  }
+}

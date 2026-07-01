@@ -1,0 +1,10 @@
+{
+  "id": "text-blaze",
+  "name": "Text blaze",
+  "description": "Text expansion tool automating repetitive typing tasks with smart snippets and templates.",
+  "links": {
+    "homepage": "https://blaze.today/",
+    "twitter": "https://x.com/text_blaze",
+    "logo": "/imgs/projects/text-blaze.png"
+  }
+}

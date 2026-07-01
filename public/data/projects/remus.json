@@ -1,0 +1,10 @@
+{
+  "id": "remus",
+  "name": "Remus",
+  "description": "DEX on Starknet supporting token trading including Bitcoin ecosystem assets like DOG.",
+  "links": {
+    "homepage": "https://app.remusdex.xyz/",
+    "twitter": "https://x.com/RemusDEX",
+    "logo": "/imgs/projects/remus.jpg"
+  }
+}

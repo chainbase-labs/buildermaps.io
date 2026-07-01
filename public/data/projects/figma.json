@@ -1,0 +1,10 @@
+{
+  "id": "figma",
+  "name": "Figma",
+  "description": "Collaborative design tool with AI features for UI/UX design, prototyping, and developer handoff.",
+  "links": {
+    "homepage": "https://figma.com/",
+    "twitter": "https://x.com/figma",
+    "logo": "/imgs/projects/figma.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "replit-agent",
+  "name": "Replit Agent",
+  "description": "Cloud-based AI agent that builds full applications from descriptions with deployment automation.",
+  "links": {
+    "homepage": "https://replit.com/",
+    "twitter": "https://x.com/Replit",
+    "logo": "/imgs/projects/replit-agent.jpg"
+  }
+}

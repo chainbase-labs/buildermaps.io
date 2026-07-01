@@ -1,0 +1,10 @@
+{
+  "id": "decktopus",
+  "name": "Decktopus",
+  "description": "AI-powered presentation creator with smart content suggestions and professional templates.",
+  "links": {
+    "homepage": "https://decktopus.com/",
+    "twitter": "https://x.com/decktopus",
+    "logo": "/imgs/projects/decktopus.jpg"
+  }
+}

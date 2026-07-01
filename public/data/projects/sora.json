@@ -1,0 +1,10 @@
+{
+  "id": "sora",
+  "name": "Sora",
+  "description": "OpenAI's text-to-video model generating realistic and imaginative video scenes from text instructions.",
+  "links": {
+    "homepage": "https://openai.com/sora",
+    "twitter": "https://x.com/OpenAI",
+    "logo": "/imgs/projects/sora.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "coze",
+  "name": "Coze",
+  "description": "ByteDance's AI agent building platform with plugin marketplace, knowledge base, and multi-channel deployment.",
+  "links": {
+    "homepage": "https://coze.com/",
+    "twitter": "https://x.com/cozestudio_ai",
+    "logo": "/imgs/projects/coze.jpg"
+  }
+}
