@@ -1,0 +1,10 @@
+{
+  "id": "github-mcp",
+  "name": "GitHub MCP",
+  "description": "Official GitHub MCP server enabling AI agents to manage repos, issues, PRs, branches, and code search.",
+  "links": {
+    "homepage": "https://github.com/github/github-mcp-server",
+    "twitter": "https://x.com/github",
+    "logo": "https://pbs.twimg.com/profile_images/2051404708766507008/ATxxTJXO_400x400.jpg"
+  }
+}

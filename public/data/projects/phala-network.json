@@ -1,0 +1,10 @@
+{
+  "id": "phala-network",
+  "name": "Phala Network",
+  "description": "Privacy-preserving cloud computing protocol using TEE for confidential AI and DePIN workloads.",
+  "links": {
+    "homepage": "https://phala.network/",
+    "twitter": "https://x.com/PhalaNetwork",
+    "logo": "https://pbs.twimg.com/profile_images/1952779565048446978/NiMQKNgD_400x400.png"
+  }
+}

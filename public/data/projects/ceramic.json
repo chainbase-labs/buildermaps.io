@@ -1,0 +1,10 @@
+{
+  "id": "ceramic",
+  "name": "Ceramic",
+  "description": "Decentralized data network for composable data with verifiable compute on mutable streams.",
+  "links": {
+    "homepage": "https://ceramic.network/",
+    "twitter": "https://x.com/ceramicnetwork",
+    "logo": "https://pbs.twimg.com/profile_images/1889299731680997376/5Ei8Ze-r_400x400.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "depin-hub",
+  "name": "DePIN Hub",
+  "description": "DePIN project discovery and analytics platform tracking projects across compute, storage, and wireless.",
+  "links": {
+    "homepage": "https://depinhub.io/",
+    "twitter": "https://x.com/hotspotty",
+    "logo": "https://pbs.twimg.com/profile_images/1462110047639678982/2f9a0pTI_400x400.png"
+  }
+}

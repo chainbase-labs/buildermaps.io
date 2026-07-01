@@ -1,0 +1,10 @@
+{
+  "id": "layerswap",
+  "name": "Layerswap",
+  "description": "Direct bridging from Bitcoin and Ethereum to Starknet. One of only two chains (alongside ETH) with direct BTC bridging support.",
+  "links": {
+    "homepage": "https://layerswap.io/",
+    "twitter": "https://x.com/layerswap",
+    "logo": "https://pbs.twimg.com/profile_images/1635993072327639041/G_YIQ-G1_400x400.jpg"
+  }
+}

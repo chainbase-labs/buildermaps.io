@@ -1,0 +1,10 @@
+{
+  "id": "linear-mcp",
+  "name": "Linear MCP",
+  "description": "Official Linear MCP server connecting AI agents to issues, projects, cycles, and team workflows.",
+  "links": {
+    "homepage": "https://linear.app/",
+    "twitter": "https://x.com/linear",
+    "logo": "https://pbs.twimg.com/profile_images/1882353118530224128/l8meBvMg_400x400.jpg"
+  }
+}

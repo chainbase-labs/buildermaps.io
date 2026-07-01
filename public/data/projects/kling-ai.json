@@ -1,0 +1,10 @@
+{
+  "id": "kling-ai",
+  "name": "Kling AI",
+  "description": "Kuaishou's AI video generation model producing high-quality videos with realistic motion and physics.",
+  "links": {
+    "homepage": "https://klingai.com/",
+    "twitter": "https://x.com/Kling_ai",
+    "logo": "https://pbs.twimg.com/profile_images/1905183334021697536/8agjzVoq_400x400.jpg"
+  }
+}

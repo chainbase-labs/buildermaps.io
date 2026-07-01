@@ -1,0 +1,119 @@
+{
+  "sector": "DePIN",
+  "types": [
+    {
+      "id": "compute",
+      "name": "Compute",
+      "projects": [
+        "acurast",
+        "aethir",
+        "akash-network",
+        "aleph-im",
+        "bittensor",
+        "fluence",
+        "flux",
+        "gensyn",
+        "golem",
+        "iexec",
+        "io-net",
+        "livepeer",
+        "nosana",
+        "phala-network",
+        "render-network",
+        "swan-chain"
+      ]
+    },
+    {
+      "id": "storage",
+      "name": "Storage",
+      "projects": [
+        "4everland",
+        "arweave",
+        "ceramic",
+        "crust-network",
+        "filecoin",
+        "jackal-protocol",
+        "storj",
+        "swarm"
+      ]
+    },
+    {
+      "id": "wireless",
+      "name": "Wireless",
+      "projects": [
+        "helium",
+        "karrier-one",
+        "metablox",
+        "wayru",
+        "wicrypt",
+        "wifi-map",
+        "world-mobile",
+        "xnet"
+      ]
+    },
+    {
+      "id": "data-and-sensors",
+      "name": "Data & Sensors",
+      "projects": [
+        "dimo",
+        "foam",
+        "geodnet",
+        "grass",
+        "hivello",
+        "hivemapper",
+        "mapmetrics",
+        "natix",
+        "nodle",
+        "nubila",
+        "onocoy",
+        "streamr",
+        "the-graph",
+        "theta-network",
+        "weatherxm"
+      ]
+    },
+    {
+      "id": "privacy-and-vpn",
+      "name": "Privacy & VPN",
+      "projects": [
+        "masq",
+        "mysterium",
+        "nym",
+        "sentinel"
+      ]
+    },
+    {
+      "id": "energy",
+      "name": "Energy",
+      "projects": [
+        "arkreen",
+        "daylight-energy",
+        "energy-web",
+        "srcful",
+        "starpower"
+      ]
+    },
+    {
+      "id": "depin-infrastructure",
+      "name": "DePIN Infrastructure",
+      "projects": [
+        "dephy",
+        "depin-hub",
+        "hotspotty",
+        "iotex",
+        "w3bstream"
+      ]
+    },
+    {
+      "id": "cdn-and-bandwidth",
+      "name": "CDN & Bandwidth",
+      "projects": [
+        "edge-network",
+        "fleek",
+        "media-network",
+        "meson-network",
+        "synternet"
+      ]
+    }
+  ]
+}

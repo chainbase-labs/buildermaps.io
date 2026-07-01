@@ -1,0 +1,10 @@
+{
+  "id": "edge-network",
+  "name": "Edge Network",
+  "description": "Peer-to-peer CDN and cloud computing network utilizing spare device capacity for content delivery.",
+  "links": {
+    "homepage": "https://edge.network/",
+    "twitter": "https://x.com/edgenetwork",
+    "logo": "https://pbs.twimg.com/profile_images/1859014656066527232/maGuIjg8_400x400.jpg"
+  }
+}

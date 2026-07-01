@@ -1,0 +1,10 @@
+{
+  "id": "github-copilot",
+  "name": "GitHub Copilot",
+  "description": "GitHub's AI pair programmer now supporting Agent Skills format for customizable coding workflows.",
+  "links": {
+    "homepage": "https://github.com/features/copilot",
+    "twitter": "https://x.com/GitHubCopilot",
+    "logo": "https://pbs.twimg.com/profile_images/1537476644033613824/pIeVTkS5_400x400.jpg"
+  }
+}

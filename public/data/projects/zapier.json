@@ -1,0 +1,10 @@
+{
+  "id": "zapier",
+  "name": "Zapier",
+  "description": "Workflow automation platform connecting 7,000+ apps with AI-powered triggers and actions.",
+  "links": {
+    "homepage": "https://zapier.com/",
+    "twitter": "https://x.com/zapier",
+    "logo": "https://pbs.twimg.com/profile_images/1623031323849011201/APPk5y29_400x400.png"
+  }
+}

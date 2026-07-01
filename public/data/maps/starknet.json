@@ -1,0 +1,158 @@
+{
+  "sector": "Starknet",
+  "types": [
+    {
+      "id": "core-infrastructure",
+      "name": "Core Infrastructure",
+      "projects": [
+        "openzeppelin-cairo-contracts",
+        "starknet",
+        "starknet-foundation",
+        "starkware"
+      ]
+    },
+    {
+      "id": "appchains",
+      "name": "Appchains",
+      "projects": [
+        "dojo",
+        "karnot",
+        "nethermind"
+      ]
+    },
+    {
+      "id": "dex",
+      "name": "DEX",
+      "projects": [
+        "ekubo",
+        "layer-akira",
+        "nostra",
+        "remus"
+      ]
+    },
+    {
+      "id": "dex-aggregator",
+      "name": "DEX Aggregator",
+      "projects": [
+        "avnu",
+        "fibrous"
+      ]
+    },
+    {
+      "id": "perpetual-dex",
+      "name": "Perpetual DEX",
+      "projects": [
+        "extended",
+        "paradex",
+        "zkx"
+      ]
+    },
+    {
+      "id": "options-and-derivatives",
+      "name": "Options & Derivatives",
+      "projects": [
+        "carmine-options"
+      ]
+    },
+    {
+      "id": "lending-and-borrowing",
+      "name": "Lending & Borrowing",
+      "projects": [
+        "hashstack",
+        "uncap",
+        "vesu"
+      ]
+    },
+    {
+      "id": "liquid-staking",
+      "name": "Liquid Staking",
+      "projects": [
+        "endur"
+      ]
+    },
+    {
+      "id": "btcfi",
+      "name": "BTCFi",
+      "projects": [
+        "garden-protocol",
+        "lombard-lbtc",
+        "pumpbtc",
+        "solv-protocol",
+        "troves"
+      ]
+    },
+    {
+      "id": "yield",
+      "name": "Yield",
+      "projects": [
+        "midas",
+        "opus",
+        "re7-capital"
+      ]
+    },
+    {
+      "id": "bridges-and-interoperability",
+      "name": "Bridges & Interoperability",
+      "projects": [
+        "layerswap",
+        "layerzero",
+        "orbiter-finance"
+      ]
+    },
+    {
+      "id": "oracles-and-data",
+      "name": "Oracles & Data",
+      "projects": [
+        "chainlink",
+        "pragma",
+        "redstone"
+      ]
+    },
+    {
+      "id": "identity",
+      "name": "Identity",
+      "projects": [
+        "starknet-id",
+        "starknetbro"
+      ]
+    },
+    {
+      "id": "gaming",
+      "name": "Gaming",
+      "projects": [
+        "focus-tree",
+        "influence",
+        "loot-survivor"
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "AI",
+      "projects": [
+        "giza"
+      ]
+    },
+    {
+      "id": "prediction-markets",
+      "name": "Prediction Markets",
+      "projects": [
+        "raize-club"
+      ]
+    },
+    {
+      "id": "wallets",
+      "name": "Wallets",
+      "projects": [
+        "braavos",
+        "ready"
+      ]
+    },
+    {
+      "id": "institutional",
+      "name": "Institutional",
+      "projects": [
+        "bitwise-strk-etf-filed"
+      ]
+    }
+  ]
+}

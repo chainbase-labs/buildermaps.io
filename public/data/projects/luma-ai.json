@@ -1,0 +1,10 @@
+{
+  "id": "luma-ai",
+  "name": "Luma AI",
+  "description": "AI platform for 3D capture and video generation with Dream Machine model creating realistic video from text and images.",
+  "links": {
+    "homepage": "https://lumalabs.ai/",
+    "twitter": "https://x.com/LumaLabsAI",
+    "logo": "https://pbs.twimg.com/profile_images/1861041306258288640/V5yJEmjK_400x400.jpg"
+  }
+}

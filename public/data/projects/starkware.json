@@ -1,0 +1,10 @@
+{
+  "id": "starkware",
+  "name": "StarkWare",
+  "description": "Core development company behind Starknet and StarkEx. Founded by Eli Ben-Sasson (co-inventor of ZK-STARKs). Raised $273M+ total.",
+  "links": {
+    "homepage": "https://starkware.co/",
+    "twitter": "https://x.com/StarkWareLtd",
+    "logo": "https://pbs.twimg.com/profile_images/2052755072736436225/8MqkTZwc_400x400.png"
+  }
+}

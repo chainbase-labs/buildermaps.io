@@ -1,0 +1,10 @@
+{
+  "id": "wifi-map",
+  "name": "WiFi Map",
+  "description": "Community-driven database of 4.5B+ WiFi hotspots serving 150M+ users worldwide.",
+  "links": {
+    "homepage": "https://wifimap.io/",
+    "twitter": "https://x.com/wifimapapp",
+    "logo": "https://pbs.twimg.com/profile_images/2009047959443210240/jLvGFCDo_400x400.jpg"
+  }
+}

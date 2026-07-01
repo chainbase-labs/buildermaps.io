@@ -1,0 +1,10 @@
+{
+  "id": "notebooklm",
+  "name": "NotebookLM",
+  "description": "Google's AI-powered research assistant that generates summaries, Q&A, and audio overviews from uploaded documents.",
+  "links": {
+    "homepage": "https://notebooklm.google.com/",
+    "twitter": "https://x.com/NotebookLM",
+    "logo": "https://pbs.twimg.com/profile_images/1861084152054849547/uKBhfKBo_400x400.jpg"
+  }
+}

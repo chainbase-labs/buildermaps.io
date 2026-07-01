@@ -1,0 +1,10 @@
+{
+  "id": "braintrust",
+  "name": "Braintrust",
+  "description": "AI evaluation, logging, and prompt management platform for testing and improving AI agent quality.",
+  "links": {
+    "homepage": "https://braintrust.dev/",
+    "twitter": "https://x.com/braintrust",
+    "logo": "https://pbs.twimg.com/profile_images/2023446233713700868/2kunzppe_400x400.png"
+  }
+}

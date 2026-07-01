@@ -1,0 +1,10 @@
+{
+  "id": "openai-codex-cli",
+  "name": "OpenAI Codex CLI",
+  "description": "OpenAI's CLI agent with SKILL.md support, adopted the Agent Skills specification shortly after Anthropic's release.",
+  "links": {
+    "homepage": "https://openai.com/",
+    "twitter": "https://x.com/OpenAI",
+    "logo": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_400x400.jpg"
+  }
+}

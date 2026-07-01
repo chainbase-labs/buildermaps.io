@@ -1,0 +1,10 @@
+{
+  "id": "neon-mcp",
+  "name": "Neon MCP",
+  "description": "Official Neon MCP server connecting AI agents to serverless Postgres databases for queries and schema management.",
+  "links": {
+    "homepage": "https://neon.tech/",
+    "twitter": "https://x.com/neondatabase",
+    "logo": "https://pbs.twimg.com/profile_images/2014060173841600512/hcUZADWr_400x400.jpg"
+  }
+}

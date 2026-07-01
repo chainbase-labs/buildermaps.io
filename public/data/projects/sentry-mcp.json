@@ -1,0 +1,10 @@
+{
+  "id": "sentry-mcp",
+  "name": "Sentry MCP",
+  "description": "Official Sentry MCP server enabling AI agents to query errors, performance issues, and application monitoring data.",
+  "links": {
+    "homepage": "https://sentry.io/",
+    "twitter": "https://x.com/getsentry",
+    "logo": "https://pbs.twimg.com/profile_images/1988020311061917702/0OIJY0PS_400x400.png"
+  }
+}

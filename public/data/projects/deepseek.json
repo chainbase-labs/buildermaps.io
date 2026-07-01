@@ -1,0 +1,10 @@
+{
+  "id": "deepseek",
+  "name": "DeepSeek",
+  "description": "Open-source AI model with strong reasoning and coding capabilities rivaling frontier models.",
+  "links": {
+    "homepage": "https://deepseek.com/",
+    "twitter": "https://x.com/deepseek_ai",
+    "logo": "https://pbs.twimg.com/profile_images/1717417613775757312/Uk1zNOj4_400x400.jpg"
+  }
+}

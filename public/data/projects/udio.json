@@ -1,0 +1,10 @@
+{
+  "id": "udio",
+  "name": "Udio",
+  "description": "AI music creation tool generating original songs from text descriptions.",
+  "links": {
+    "homepage": "https://udio.com/",
+    "twitter": "https://x.com/udiomusic",
+    "logo": "https://pbs.twimg.com/profile_images/1923492263453155328/bM9OD2NH_400x400.jpg"
+  }
+}

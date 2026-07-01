@@ -1,0 +1,10 @@
+{
+  "id": "extended",
+  "name": "Extended",
+  "description": "Perpetual trading platform offering up to 100x leverage, originally on StarkEx, now migrated to Starknet L2. Features similar to Hyperliquid/Paradex.",
+  "links": {
+    "homepage": "https://extended.exchange/",
+    "twitter": "https://x.com/extendedapp",
+    "logo": "https://pbs.twimg.com/profile_images/1876581196173320192/pF4KQQCb_400x400.jpg"
+  }
+}

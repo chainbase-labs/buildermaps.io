@@ -1,0 +1,10 @@
+{
+  "id": "masq",
+  "name": "MASQ",
+  "description": "Decentralized mesh network providing censorship-resistant internet access through peer-to-peer routing.",
+  "links": {
+    "homepage": "https://masq.ai/",
+    "twitter": "https://x.com/MASQ_ai",
+    "logo": "https://pbs.twimg.com/profile_images/1596583039093669890/IluPln_M_400x400.png"
+  }
+}

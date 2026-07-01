@@ -1,0 +1,10 @@
+{
+  "id": "quillbot",
+  "name": "QuillBot",
+  "description": "AI paraphrasing and grammar tool for improving writing style, clarity, and academic integrity.",
+  "links": {
+    "homepage": "https://quillbot.com/",
+    "twitter": "https://x.com/TheQuillBot",
+    "logo": "https://pbs.twimg.com/profile_images/2057468314499387392/bqXVCxzz_400x400.jpg"
+  }
+}

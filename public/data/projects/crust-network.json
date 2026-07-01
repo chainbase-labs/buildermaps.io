@@ -1,0 +1,10 @@
+{
+  "id": "crust-network",
+  "name": "Crust Network",
+  "description": "Decentralized storage protocol supporting IPFS with guaranteed file availability and cross-chain support.",
+  "links": {
+    "homepage": "https://crust.network/",
+    "twitter": "https://x.com/CrustNetwork",
+    "logo": "https://pbs.twimg.com/profile_images/1878638048382156800/dFhB5dhc_400x400.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "haystack",
+  "name": "Haystack",
+  "description": "Production-ready orchestration framework for building customizable LLM applications and RAG pipelines.",
+  "links": {
+    "homepage": "https://haystack.deepset.ai/",
+    "twitter": "https://x.com/Haystack_AI",
+    "logo": "https://pbs.twimg.com/profile_images/2002051027088887808/Dsqn_9wS_400x400.jpg"
+  }
+}

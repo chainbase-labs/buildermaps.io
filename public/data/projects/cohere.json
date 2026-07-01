@@ -1,0 +1,10 @@
+{
+  "id": "cohere",
+  "name": "Cohere",
+  "description": "Enterprise AI platform with Command, Embed, and Rerank models for search, RAG, and text generation.",
+  "links": {
+    "homepage": "https://cohere.com/",
+    "twitter": "https://x.com/cohere",
+    "logo": "https://pbs.twimg.com/profile_images/1650250832909152260/760DZ0cv_400x400.png"
+  }
+}

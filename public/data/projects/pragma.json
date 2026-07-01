@@ -1,0 +1,10 @@
+{
+  "id": "pragma",
+  "name": "Pragma",
+  "description": "Native Starknet oracle built in Cairo, providing verifiable price feeds with computational proofs. Designed specifically for the STARK ecosystem.",
+  "links": {
+    "homepage": "https://pragma.build/",
+    "twitter": "https://x.com/PragmaOracle",
+    "logo": "https://pbs.twimg.com/profile_images/1759587821097005056/kG97ii_u_400x400.png"
+  }
+}

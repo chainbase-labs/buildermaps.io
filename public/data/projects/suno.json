@@ -1,0 +1,10 @@
+{
+  "id": "suno",
+  "name": "Suno",
+  "description": "AI music generation platform creating full songs with vocals, instruments, and lyrics from text prompts.",
+  "links": {
+    "homepage": "https://suno.ai/",
+    "twitter": "https://x.com/suno",
+    "logo": "https://pbs.twimg.com/profile_images/1917978610683514880/JbHhI1yH_400x400.jpg"
+  }
+}

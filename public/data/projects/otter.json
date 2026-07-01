@@ -1,0 +1,10 @@
+{
+  "id": "otter",
+  "name": "Otter",
+  "description": "AI meeting assistant that transcribes, summarizes, and organizes meeting notes in real-time.",
+  "links": {
+    "homepage": "https://otter.ai/",
+    "twitter": "https://x.com/otter_ai",
+    "logo": "https://pbs.twimg.com/profile_images/1939803039004770304/G-U0BLqC_400x400.jpg"
+  }
+}

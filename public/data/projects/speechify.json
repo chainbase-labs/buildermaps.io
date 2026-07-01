@@ -1,0 +1,10 @@
+{
+  "id": "speechify",
+  "name": "Speechify",
+  "description": "AI text-to-speech platform turning any text into natural-sounding audio with 200+ voices in 50+ languages.",
+  "links": {
+    "homepage": "https://speechify.com/",
+    "twitter": "https://x.com/SpeechifyAI",
+    "logo": "https://pbs.twimg.com/profile_images/1948066510959747072/BTfEAjIl_400x400.jpg"
+  }
+}

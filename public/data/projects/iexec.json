@@ -1,0 +1,10 @@
+{
+  "id": "iexec",
+  "name": "iExec",
+  "description": "Decentralized marketplace for cloud computing resources with confidential computing via TEE on Ethereum.",
+  "links": {
+    "homepage": "https://iex.ec/",
+    "twitter": "https://x.com/iEx_ec",
+    "logo": "https://pbs.twimg.com/profile_images/2004500686436814848/dX_Xy_I__400x400.png"
+  }
+}

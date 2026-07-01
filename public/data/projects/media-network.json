@@ -1,0 +1,10 @@
+{
+  "id": "media-network",
+  "name": "Media Network",
+  "description": "Decentralized CDN on Solana providing censorship-resistant content delivery at competitive pricing.",
+  "links": {
+    "homepage": "https://www.media.network/",
+    "twitter": "https://x.com/Media_FDN",
+    "logo": "https://pbs.twimg.com/profile_images/1820639135897423872/xYZo2qwy_400x400.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "troves",
+  "name": "Troves",
+  "description": "One-click curated yield vaults on Starknet. Auto-compounding strategies for BTC, STRK, ETH, and USDC. Curated by RE7 Labs and Unwrap Labs.",
+  "links": {
+    "homepage": "https://www.troves.fi/",
+    "twitter": "https://x.com/trovesfi",
+    "logo": "https://pbs.twimg.com/profile_images/1973297576855347200/KCDDh4Q8_400x400.jpg"
+  }
+}

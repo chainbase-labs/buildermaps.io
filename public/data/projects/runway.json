@@ -1,0 +1,10 @@
+{
+  "id": "runway",
+  "name": "Runway",
+  "description": "AI-powered creative suite for video generation, editing, and visual effects with Gen-3 Alpha model.",
+  "links": {
+    "homepage": "https://runwayml.com/",
+    "twitter": "https://x.com/runwayml",
+    "logo": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB_400x400.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "supabase-mcp",
+  "name": "Supabase MCP",
+  "description": "MCP server for connecting AI agents to Supabase databases, auth, and storage for full-stack agent applications.",
+  "links": {
+    "homepage": "https://supabase.com/",
+    "twitter": "https://x.com/supabase",
+    "logo": "https://pbs.twimg.com/profile_images/1822981431586439168/7xkKXRGQ_400x400.jpg"
+  }
+}

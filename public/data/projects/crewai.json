@@ -1,0 +1,10 @@
+{
+  "id": "crewai",
+  "name": "CrewAI",
+  "description": "Multi-agent orchestration framework where specialized AI agents collaborate on complex tasks with role-based design.",
+  "links": {
+    "homepage": "https://crewai.com/",
+    "twitter": "https://x.com/crewAIInc",
+    "logo": "https://pbs.twimg.com/profile_images/1770816346906849281/t72FgUel_400x400.jpg"
+  }
+}

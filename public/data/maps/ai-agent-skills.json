@@ -1,0 +1,93 @@
+{
+  "sector": "AI Agent Skills",
+  "types": [
+    {
+      "id": "agent-runtimes",
+      "name": "Agent Runtimes",
+      "projects": [
+        "bolt-new",
+        "claude-code",
+        "cline",
+        "cursor",
+        "gemini-cli",
+        "github-copilot",
+        "openai-codex-cli",
+        "openclaw",
+        "replit-agent",
+        "trae",
+        "windsurf"
+      ]
+    },
+    {
+      "id": "skills-and-plugins",
+      "name": "Skills & Plugins",
+      "projects": [
+        "agent-skills-addy-osmani",
+        "agentkey",
+        "anthropic-agent-skills-spec",
+        "base-mcp",
+        "figma-mcp",
+        "github-mcp",
+        "linear-mcp",
+        "neon-mcp",
+        "notion-mcp",
+        "sentry-mcp",
+        "slack-mcp",
+        "stripe-agent-toolkit",
+        "supabase-mcp"
+      ]
+    },
+    {
+      "id": "agent-orchestration",
+      "name": "Agent Orchestration",
+      "projects": [
+        "autogen-microsoft",
+        "composio",
+        "coze",
+        "crewai",
+        "dify",
+        "haystack",
+        "langchain",
+        "letta-memgpt",
+        "mastra",
+        "n8n"
+      ]
+    },
+    {
+      "id": "mcp-infrastructure",
+      "name": "MCP Infrastructure",
+      "projects": [
+        "cloudflare-mcp",
+        "mcp-protocol-anthropic",
+        "smithery",
+        "vercel-mcp"
+      ]
+    },
+    {
+      "id": "agent-tools",
+      "name": "Agent Tools",
+      "projects": [
+        "aider",
+        "continue",
+        "devin",
+        "sutando",
+        "swe-agent"
+      ]
+    },
+    {
+      "id": "security",
+      "name": "Security",
+      "projects": [
+        "prompt-guard-meta"
+      ]
+    },
+    {
+      "id": "observability",
+      "name": "Observability",
+      "projects": [
+        "braintrust",
+        "langfuse"
+      ]
+    }
+  ]
+}

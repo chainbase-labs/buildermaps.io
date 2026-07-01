@@ -1,0 +1,10 @@
+{
+  "id": "openzeppelin-cairo-contracts",
+  "name": "OpenZeppelin Cairo Contracts",
+  "description": "Audited smart contract library powering 7 of top 10 DeFi protocols on Starknet and 55% of total TVL. Zero security incidents since launch.",
+  "links": {
+    "homepage": "https://www.openzeppelin.com/",
+    "twitter": "https://x.com/OpenZeppelin",
+    "logo": "https://pbs.twimg.com/profile_images/1831782443839344640/d5BLSyQT_400x400.png"
+  }
+}

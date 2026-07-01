@@ -1,0 +1,10 @@
+{
+  "id": "amazon-q-developer",
+  "name": "Amazon Q Developer",
+  "description": "AWS AI coding assistant for building, transforming, and deploying applications across the AWS ecosystem.",
+  "links": {
+    "homepage": "https://aws.amazon.com/q/developer/",
+    "twitter": "https://x.com/awscloud",
+    "logo": "https://pbs.twimg.com/profile_images/1945121625373855744/lmMqMz7V_400x400.png"
+  }
+}

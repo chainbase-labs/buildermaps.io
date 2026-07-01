@@ -1,0 +1,10 @@
+{
+  "id": "storj",
+  "name": "Storj",
+  "description": "Enterprise-grade decentralized cloud storage with S3 compatibility, 99.99% uptime, and end-to-end encryption.",
+  "links": {
+    "homepage": "https://storj.io/",
+    "twitter": "https://x.com/Storj",
+    "logo": "https://pbs.twimg.com/profile_images/1943380472559435777/cXWUGwjL_400x400.png"
+  }
+}

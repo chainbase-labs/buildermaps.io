@@ -1,0 +1,10 @@
+{
+  "id": "midjourney",
+  "name": "Midjourney",
+  "description": "AI image generation tool producing high-quality artistic visuals from text prompts.",
+  "links": {
+    "homepage": "https://midjourney.com/",
+    "twitter": "https://x.com/midjourney",
+    "logo": "https://pbs.twimg.com/profile_images/1826028197256822784/pfgqU218_400x400.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "prompt-guard-meta",
+  "name": "Prompt Guard (Meta)",
+  "description": "Meta's open-source model for detecting prompt injection and jailbreak attempts in AI agent inputs.",
+  "links": {
+    "homepage": "https://www.meta.com/",
+    "twitter": "https://x.com/Meta",
+    "logo": "https://pbs.twimg.com/profile_images/1453818753880190978/HqrrEcrI_400x400.png"
+  }
+}

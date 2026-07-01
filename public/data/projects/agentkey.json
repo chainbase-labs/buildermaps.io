@@ -1,0 +1,10 @@
+{
+  "id": "agentkey",
+  "name": "AgentKey",
+  "description": "One-install plugin connecting any AI agent to the full internet: web search, X, TikTok, Reddit, Instagram, YouTube, and on-chain data. By Chainbase Labs. Works with Claude Code, OpenClaw, Hermes, Cursor CLI, and 10+ runtimes.",
+  "links": {
+    "homepage": "https://agentkey.app/",
+    "twitter": "https://x.com/ChainbaseHQ",
+    "logo": "https://pbs.twimg.com/profile_images/2011754699448598542/PBUDt31G_400x400.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "replit",
+  "name": "Replit",
+  "description": "AI-powered cloud IDE for building, deploying, and collaborating on software projects.",
+  "links": {
+    "homepage": "https://replit.com/",
+    "twitter": "https://x.com/Replit",
+    "logo": "https://pbs.twimg.com/profile_images/2031733558952464384/ERrHv3jK_400x400.jpg"
+  }
+}

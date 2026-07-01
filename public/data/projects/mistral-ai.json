@@ -1,0 +1,10 @@
+{
+  "id": "mistral-ai",
+  "name": "Mistral AI",
+  "description": "European AI company building frontier open-weight models. Mistral Large rivals GPT-4 at lower cost.",
+  "links": {
+    "homepage": "https://mistral.ai/",
+    "twitter": "https://x.com/MistralAI",
+    "logo": "https://pbs.twimg.com/profile_images/1996905418065375232/mzwynOLB_400x400.jpg"
+  }
+}

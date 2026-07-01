@@ -1,0 +1,10 @@
+{
+  "id": "fibrous",
+  "name": "Fibrous",
+  "description": "DEX aggregator on Starknet finding optimal swap routes across multiple liquidity sources.",
+  "links": {
+    "homepage": "https://fibrous.finance/",
+    "twitter": "https://x.com/FibrousFinance",
+    "logo": "https://pbs.twimg.com/profile_images/1910332320067747840/SGkFXgaC_400x400.jpg"
+  }
+}

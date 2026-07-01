@@ -1,0 +1,10 @@
+{
+  "id": "clickup-ai",
+  "name": "ClickUp AI",
+  "description": "Project management platform with AI writing, task summarization, action items extraction, and workflow automation.",
+  "links": {
+    "homepage": "https://clickup.com/",
+    "twitter": "https://x.com/clickup",
+    "logo": "https://pbs.twimg.com/profile_images/1954978523732643842/TCyGfr9i_400x400.jpg"
+  }
+}

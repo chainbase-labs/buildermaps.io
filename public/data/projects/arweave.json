@@ -1,0 +1,10 @@
+{
+  "id": "arweave",
+  "name": "Arweave",
+  "description": "Permanent decentralized storage with pay-once-store-forever model. Powers the Permaweb and AO compute layer.",
+  "links": {
+    "homepage": "https://arweave.org/",
+    "twitter": "https://x.com/ArweaveEco",
+    "logo": "https://pbs.twimg.com/profile_images/1235596780047339521/oRt6SiEN_400x400.jpg"
+  }
+}

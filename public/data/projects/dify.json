@@ -1,0 +1,10 @@
+{
+  "id": "dify",
+  "name": "Dify",
+  "description": "Open-source AI app development platform with visual workflow builder, RAG pipeline, and agent orchestration. 100K+ GitHub stars.",
+  "links": {
+    "homepage": "https://dify.ai/",
+    "twitter": "https://x.com/dify_ai",
+    "logo": "https://pbs.twimg.com/profile_images/1998264604145963008/v__dR1kD_400x400.jpg"
+  }
+}

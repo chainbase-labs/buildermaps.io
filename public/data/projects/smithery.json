@@ -1,0 +1,10 @@
+{
+  "id": "smithery",
+  "name": "Smithery",
+  "description": "MCP server registry and marketplace for discovering, installing, and managing MCP servers.",
+  "links": {
+    "homepage": "https://smithery.ai/",
+    "twitter": "https://x.com/SmitheryDotAI",
+    "logo": "https://pbs.twimg.com/profile_images/1983767162436382722/gAs3_0XF_400x400.jpg"
+  }
+}

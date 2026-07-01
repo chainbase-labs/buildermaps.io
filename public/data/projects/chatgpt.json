@@ -1,0 +1,10 @@
+{
+  "id": "chatgpt",
+  "name": "ChatGPT",
+  "description": "OpenAI's versatile AI assistant for generating ideas, summarizing information, answering complex questions, and code generation.",
+  "links": {
+    "homepage": "https://chat.openai.com/",
+    "twitter": "https://x.com/OpenAI",
+    "logo": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_400x400.jpg"
+  }
+}

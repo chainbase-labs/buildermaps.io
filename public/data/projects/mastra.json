@@ -1,0 +1,10 @@
+{
+  "id": "mastra",
+  "name": "Mastra",
+  "description": "TypeScript agent framework with built-in RAG, workflows, and MCP tool integration.",
+  "links": {
+    "homepage": "https://mastra.ai/",
+    "twitter": "https://x.com/mastra",
+    "logo": "https://pbs.twimg.com/profile_images/2010770369897271296/o4rz23Gd_400x400.jpg"
+  }
+}

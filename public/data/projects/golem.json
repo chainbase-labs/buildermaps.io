@@ -1,0 +1,10 @@
+{
+  "id": "golem",
+  "name": "Golem",
+  "description": "Peer-to-peer marketplace for computing power. One of the OG DePIN compute projects on Ethereum.",
+  "links": {
+    "homepage": "https://www.golem.network/",
+    "twitter": "https://x.com/golemproject",
+    "logo": "https://pbs.twimg.com/profile_images/1635277424706588672/ofWzyPt4_400x400.jpg"
+  }
+}

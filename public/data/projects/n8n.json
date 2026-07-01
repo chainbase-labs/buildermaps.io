@@ -1,0 +1,10 @@
+{
+  "id": "n8n",
+  "name": "n8n",
+  "description": "Open-source workflow automation with AI agent nodes, MCP support, self-hosting option, and 400+ integrations.",
+  "links": {
+    "homepage": "https://n8n.io/",
+    "twitter": "https://x.com/n8n_io",
+    "logo": "https://pbs.twimg.com/profile_images/2023320860442996736/VXqeLapP_400x400.jpg"
+  }
+}

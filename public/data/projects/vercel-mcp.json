@@ -1,0 +1,10 @@
+{
+  "id": "vercel-mcp",
+  "name": "Vercel MCP",
+  "description": "Vercel's MCP integration for connecting AI agents to deployment, analytics, and serverless functions.",
+  "links": {
+    "homepage": "https://vercel.com/",
+    "twitter": "https://x.com/vercel",
+    "logo": "https://pbs.twimg.com/profile_images/1767351110228918272/3Pndc5OT_400x400.png"
+  }
+}
