@@ -75,12 +75,7 @@
     {
       "id": "privacy-and-vpn",
       "name": "Privacy & VPN",
-      "projects": [
-        "masq",
-        "mysterium",
-        "nym",
-        "sentinel"
-      ]
+      "projects": ["masq", "mysterium", "nym", "sentinel"]
     },
     {
       "id": "energy",
@@ -96,13 +91,7 @@
     {
       "id": "depin-infrastructure",
       "name": "DePIN Infrastructure",
-      "projects": [
-        "dephy",
-        "depin-hub",
-        "hotspotty",
-        "iotex",
-        "w3bstream"
-      ]
+      "projects": ["dephy", "depin-hub", "hotspotty", "iotex", "w3bstream"]
     },
     {
       "id": "cdn-and-bandwidth",

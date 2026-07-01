@@ -66,28 +66,17 @@
     {
       "id": "agent-tools",
       "name": "Agent Tools",
-      "projects": [
-        "aider",
-        "continue",
-        "devin",
-        "sutando",
-        "swe-agent"
-      ]
+      "projects": ["aider", "continue", "devin", "sutando", "swe-agent"]
     },
     {
       "id": "security",
       "name": "Security",
-      "projects": [
-        "prompt-guard-meta"
-      ]
+      "projects": ["prompt-guard-meta"]
     },
     {
       "id": "observability",
       "name": "Observability",
-      "projects": [
-        "braintrust",
-        "langfuse"
-      ]
+      "projects": ["braintrust", "langfuse"]
     }
   ]
 }

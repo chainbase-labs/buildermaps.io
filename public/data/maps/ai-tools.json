@@ -16,42 +16,22 @@
     {
       "id": "audio",
       "name": "Audio",
-      "projects": [
-        "elevenlabs",
-        "lovo-ai",
-        "speechify",
-        "suno",
-        "udio"
-      ]
+      "projects": ["elevenlabs", "lovo-ai", "speechify", "suno", "udio"]
     },
     {
       "id": "automation",
       "name": "Automation",
-      "projects": [
-        "n8n",
-        "zapier"
-      ]
+      "projects": ["n8n", "zapier"]
     },
     {
       "id": "chatbot",
       "name": "Chatbot",
-      "projects": [
-        "chatbase",
-        "droxy",
-        "intercom",
-        "tidio",
-        "voiceflow"
-      ]
+      "projects": ["chatbase", "droxy", "intercom", "tidio", "voiceflow"]
     },
     {
       "id": "coding",
       "name": "Coding",
-      "projects": [
-        "amazon-q-developer",
-        "devin",
-        "github-copilot",
-        "tabnine"
-      ]
+      "projects": ["amazon-q-developer", "devin", "github-copilot", "tabnine"]
     },
     {
       "id": "design",
@@ -69,11 +49,7 @@
     {
       "id": "email-and-sales",
       "name": "Email & Sales",
-      "projects": [
-        "apollo-io",
-        "instantly",
-        "lavender"
-      ]
+      "projects": ["apollo-io", "instantly", "lavender"]
     },
     {
       "id": "image",
@@ -91,46 +67,22 @@
     {
       "id": "meeting",
       "name": "Meeting",
-      "projects": [
-        "fathom",
-        "fireflies",
-        "krisp",
-        "noty-ai",
-        "otter",
-        "tl-dv"
-      ]
+      "projects": ["fathom", "fireflies", "krisp", "noty-ai", "otter", "tl-dv"]
     },
     {
       "id": "office-and-collaboration",
       "name": "Office & Collaboration",
-      "projects": [
-        "clickup-ai",
-        "coda-ai",
-        "miro-ai",
-        "notebooklm"
-      ]
+      "projects": ["clickup-ai", "coda-ai", "miro-ai", "notebooklm"]
     },
     {
       "id": "presentation",
       "name": "Presentation",
-      "projects": [
-        "beautiful-ai",
-        "decktopus",
-        "gamma-ai",
-        "slides-ai",
-        "tome"
-      ]
+      "projects": ["beautiful-ai", "decktopus", "gamma-ai", "slides-ai", "tome"]
     },
     {
       "id": "productivity",
       "name": "Productivity",
-      "projects": [
-        "adobe-sensei",
-        "cursor",
-        "linear",
-        "notion-ai",
-        "replit"
-      ]
+      "projects": ["adobe-sensei", "cursor", "linear", "notion-ai", "replit"]
     },
     {
       "id": "research",
@@ -148,22 +100,12 @@
     {
       "id": "seo",
       "name": "SEO",
-      "projects": [
-        "ahrefs",
-        "semrush",
-        "surfer-seo",
-        "vidiq"
-      ]
+      "projects": ["ahrefs", "semrush", "surfer-seo", "vidiq"]
     },
     {
       "id": "social-media",
       "name": "Social Media",
-      "projects": [
-        "buffer",
-        "hypefury",
-        "tweethunter",
-        "typefully"
-      ]
+      "projects": ["buffer", "hypefury", "tweethunter", "typefully"]
     },
     {
       "id": "video",
