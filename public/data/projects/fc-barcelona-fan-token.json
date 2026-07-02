@@ -1,0 +1,10 @@
+{
+  "id": "fc-barcelona-fan-token",
+  "name": "FC Barcelona",
+  "description": "$BAR fan token on Socios. One of the first and most traded club fan tokens globally.",
+  "links": {
+    "homepage": "https://www.fcbarcelona.com/",
+    "logo": "/imgs/sportfi/fc-barcelona-fan-token.jpg",
+    "twitter": "https://x.com/FCBarcelona"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "topps-digital",
+  "name": "Topps Digital",
+  "description": "Classic trading card brand with blockchain football sticker collections. Champions League licensed.",
+  "links": {
+    "homepage": "https://topps.com/",
+    "logo": "/imgs/sportfi/topps-digital.jpg",
+    "twitter": "https://x.com/Topps"
+  }
+}

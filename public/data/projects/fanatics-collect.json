@@ -1,0 +1,10 @@
+{
+  "id": "fanatics-collect",
+  "name": "Fanatics Collect",
+  "description": "Fanatics' digital collectibles arm. Acquired Candy Digital. MLB, NFL, NBA licensed digital cards.",
+  "links": {
+    "homepage": "https://collect.fanatics.com/",
+    "logo": "/imgs/sportfi/fanatics-collect.jpg",
+    "twitter": "https://x.com/Collect"
+  }
+}

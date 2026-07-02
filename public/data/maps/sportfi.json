@@ -1,0 +1,95 @@
+{
+  "sector": "SportFi",
+  "types": [
+    {
+      "id": "fan-token-ecosystem",
+      "name": "Fan Token Ecosystem",
+      "projects": [
+        "chiliz",
+        "socios",
+        "argentina-fan-token",
+        "portugal-fan-token",
+        "spain-fan-token",
+        "fc-barcelona-fan-token",
+        "paris-saint-germain-fan-token",
+        "manchester-city-fan-token",
+        "juventus-fan-token",
+        "ac-milan-fan-token",
+        "inter-milan-fan-token",
+        "atalanta-fan-token",
+        "galatasaray-fan-token",
+        "as-roma-fan-token",
+        "belgium-fan-token",
+        "arsenal-fan-token"
+      ]
+    },
+    {
+      "id": "fantasy-gaming",
+      "name": "Fantasy & Gaming",
+      "projects": [
+        "sorare",
+        "footium",
+        "fifa-rivals",
+        "metasoccer",
+        "blockchain-football",
+        "matchday",
+        "karate-combat",
+        "linksdao",
+        "goals",
+        "mythical-games"
+      ]
+    },
+    {
+      "id": "sports-collectibles",
+      "name": "Sports Collectibles",
+      "projects": [
+        "nba-top-shot",
+        "ufc-strike",
+        "fifa-collect",
+        "onefootball-club",
+        "topps-digital",
+        "candy-digital",
+        "fanatics-collect"
+      ]
+    },
+    {
+      "id": "prediction-betting",
+      "name": "Prediction & Betting",
+      "projects": [
+        "azuro-sportfi",
+        "polymarket-sportfi",
+        "adi-predictstreet",
+        "overtime-markets",
+        "sx-network",
+        "bookmaker-xyz"
+      ]
+    },
+    {
+      "id": "crypto-x-sports",
+      "name": "Crypto x Sports",
+      "projects": [
+        "okx-sportfi",
+        "bingx-sportfi",
+        "crypto-sportfi",
+        "bitget-sportfi",
+        "kraken-sportfi"
+      ]
+    },
+    {
+      "id": "sportfi-infrastructure",
+      "name": "SportFi Infrastructure",
+      "projects": [
+        "fifa-blockchain",
+        "chiliz-chain",
+        "flow-blockchain",
+        "chainlink-sportfi",
+        "layerzero-sportfi",
+        "atleta-network",
+        "adi-chain",
+        "sportmonks",
+        "avalanche-sportfi",
+        "dapper-labs"
+      ]
+    }
+  ]
+}

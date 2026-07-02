@@ -1,0 +1,10 @@
+{
+  "id": "linksdao",
+  "name": "LinksDAO",
+  "description": "Web3 golf community and DAO. NFT membership grants access to golf experiences and future club ownership.",
+  "links": {
+    "homepage": "https://linksdao.io/",
+    "logo": "/imgs/sportfi/linksdao.jpg",
+    "twitter": "https://x.com/LinksDAO"
+  }
+}

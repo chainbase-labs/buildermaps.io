@@ -1,0 +1,10 @@
+{
+  "id": "matchday",
+  "name": "Matchday",
+  "description": "Football prediction and fantasy game on blockchain with gamified match prediction.",
+  "links": {
+    "homepage": "https://matchday.io/",
+    "logo": "/imgs/sportfi/matchday.jpg",
+    "twitter": "https://x.com/matchday"
+  }
+}

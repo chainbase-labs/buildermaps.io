@@ -1,0 +1,10 @@
+{
+  "id": "galatasaray-fan-token",
+  "name": "Galatasaray",
+  "description": "$GAL fan token on Socios. Massive Turkish fan base drives high trading volumes.",
+  "links": {
+    "homepage": "https://socios.com/",
+    "logo": "/imgs/sportfi/galatasaray-fan-token.jpg",
+    "twitter": "https://x.com/GalatasaraySK"
+  }
+}

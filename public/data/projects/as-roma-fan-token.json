@@ -1,0 +1,10 @@
+{
+  "id": "as-roma-fan-token",
+  "name": "AS Roma",
+  "description": "$ASR fan token on Socios. Italian Serie A with strong international following.",
+  "links": {
+    "homepage": "https://socios.com/",
+    "logo": "/imgs/sportfi/as-roma-fan-token.jpg",
+    "twitter": "https://x.com/ASRomaEN"
+  }
+}

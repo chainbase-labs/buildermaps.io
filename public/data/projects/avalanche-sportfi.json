@@ -1,0 +1,10 @@
+{
+  "id": "avalanche-sportfi",
+  "name": "Avalanche",
+  "description": "L1 powering FIFA custom blockchain. Subnet architecture for sovereign sports chains.",
+  "links": {
+    "homepage": "https://avax.network/",
+    "logo": "/imgs/sportfi/avalanche-sportfi.jpg",
+    "twitter": "https://x.com/avax"
+  }
+}

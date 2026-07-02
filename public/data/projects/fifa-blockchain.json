@@ -1,0 +1,10 @@
+{
+  "id": "fifa-blockchain",
+  "name": "FIFA Blockchain",
+  "description": "Custom Avalanche L1 for FIFA. Powers FIFA Collect, ticketing, future Web3 products. EVM-compatible.",
+  "links": {
+    "homepage": "https://www.fifa.com/",
+    "logo": "/imgs/sportfi/fifa-blockchain.jpg",
+    "twitter": "https://x.com/FIFAcom"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "adi-predictstreet",
+  "name": "ADI PredictStreet",
+  "description": "FIFA's Official Prediction Market Partner for World Cup 2026. Chainlink oracles for on-chain match verification.",
+  "links": {
+    "homepage": "https://predictstreet.com/",
+    "logo": "/imgs/sportfi/adi-predictstreet.png",
+    "twitter": "https://x.com/Predictstreet"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "chainlink-sportfi",
+  "name": "Chainlink",
+  "description": "Oracle network providing World Cup match data feeds. Powers ADI PredictStreet on-chain settlement.",
+  "links": {
+    "homepage": "https://chain.link/",
+    "logo": "/imgs/sportfi/chainlink-sportfi.jpg",
+    "twitter": "https://x.com/chainlink"
+  }
+}
