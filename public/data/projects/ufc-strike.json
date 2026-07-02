@@ -1,0 +1,10 @@
+{
+  "id": "ufc-strike",
+  "name": "UFC Strike",
+  "description": "Official UFC NFT marketplace. Fight highlights and athlete cards as digital collectibles on Flow.",
+  "links": {
+    "homepage": "https://ufcstrike.com/",
+    "logo": "/imgs/sportfi/ufc-strike.jpg",
+    "twitter": "https://x.com/UFCStrike"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "flow-blockchain",
+  "name": "Flow Blockchain",
+  "description": "L1 by Dapper Labs. Powers NBA Top Shot, UFC Strike, NFL Rivals. Purpose-built for sports collectibles.",
+  "links": {
+    "homepage": "https://flow.com/",
+    "logo": "/imgs/sportfi/flow-blockchain.jpg",
+    "twitter": "https://x.com/flow_blockchain"
+  }
+}

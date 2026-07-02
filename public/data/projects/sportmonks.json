@@ -1,0 +1,10 @@
+{
+  "id": "sportmonks",
+  "name": "SportMonks",
+  "description": "Sports data API provider. Football, cricket, F1 data feeds for Web3 prediction markets and fantasy platforms.",
+  "links": {
+    "homepage": "https://sportmonks.com/",
+    "logo": "/imgs/sportfi/sportmonks.png",
+    "twitter": "https://x.com/SportMonks_com"
+  }
+}

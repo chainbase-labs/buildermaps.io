@@ -1,0 +1,10 @@
+{
+  "id": "chiliz-chain",
+  "name": "Chiliz Chain",
+  "description": "Dedicated sports L1 blockchain. Fan token issuance and DeFi. Now omnichain via LayerZero on Solana and Base.",
+  "links": {
+    "homepage": "https://chiliz.com/",
+    "logo": "/imgs/sportfi/chiliz-chain.png",
+    "twitter": "https://x.com/Chiliz"
+  }
+}

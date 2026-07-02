@@ -1,0 +1,10 @@
+{
+  "id": "atleta-network",
+  "name": "Atleta Network",
+  "description": "Modular multi-layer EVM sports blockchain. Purpose-built L1 for SportFi applications.",
+  "links": {
+    "homepage": "https://atleta.network/",
+    "logo": "/imgs/sportfi/atleta-network.jpg",
+    "twitter": "https://x.com/Atleta_Network"
+  }
+}

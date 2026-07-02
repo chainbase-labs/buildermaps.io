@@ -1,0 +1,10 @@
+{
+  "id": "belgium-fan-token",
+  "name": "$BELG",
+  "description": "Belgium national team fan token on Socios. World Cup trading volume spikes during matches.",
+  "links": {
+    "homepage": "https://socios.com/",
+    "logo": "/imgs/sportfi/belgium-fan-token.jpg",
+    "twitter": "https://x.com/BelRedDevils"
+  }
+}

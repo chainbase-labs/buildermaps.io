@@ -1,0 +1,10 @@
+{
+  "id": "fifa-rivals",
+  "name": "FIFA Rivals",
+  "description": "Official FIFA-licensed mobile game by Mythical Games. Free-to-play blockchain football on iOS and Android.",
+  "links": {
+    "homepage": "https://fifarivals.com/",
+    "logo": "/imgs/sportfi/fifa-rivals.jpg",
+    "twitter": "https://x.com/MythicalGames"
+  }
+}

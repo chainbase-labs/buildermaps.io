@@ -1,0 +1,10 @@
+{
+  "id": "polymarket-sportfi",
+  "name": "Polymarket",
+  "description": "World's largest prediction market. ~$2B World Cup volume. Match outcomes, Golden Boot, group stage markets.",
+  "links": {
+    "homepage": "https://polymarket.com/",
+    "logo": "/imgs/sportfi/polymarket-sportfi.jpg",
+    "twitter": "https://x.com/Polymarket"
+  }
+}

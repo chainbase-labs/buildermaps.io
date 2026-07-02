@@ -1,0 +1,10 @@
+{
+  "id": "bookmaker-xyz",
+  "name": "bookmaker.xyz",
+  "description": "Leading Azuro-powered betting dApp. Self-custodied World Cup betting with instant withdrawals.",
+  "links": {
+    "homepage": "https://bookmaker.xyz/",
+    "logo": "/imgs/sportfi/bookmaker-xyz.jpg",
+    "twitter": "https://x.com/bookmakerxyz"
+  }
+}

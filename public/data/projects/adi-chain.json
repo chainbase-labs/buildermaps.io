@@ -1,0 +1,10 @@
+{
+  "id": "adi-chain",
+  "name": "ADI Chain",
+  "description": "L1 blockchain powering ADI PredictStreet. In-stadium activations at FIFA Fan Festivals during World Cup 2026.",
+  "links": {
+    "homepage": "https://adichain.io/",
+    "logo": "/imgs/sportfi/adi-chain.jpg",
+    "twitter": "https://x.com/ADIChain_"
+  }
+}

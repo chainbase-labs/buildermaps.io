@@ -1,0 +1,10 @@
+{
+  "id": "overtime-markets",
+  "name": "Overtime Markets",
+  "description": "On-chain sports markets on Optimism and Arbitrum. AMM-based football and multi-sport prediction.",
+  "links": {
+    "homepage": "https://overtimemarkets.xyz/",
+    "logo": "/imgs/sportfi/overtime-markets.jpg",
+    "twitter": "https://x.com/overtime_io"
+  }
+}
