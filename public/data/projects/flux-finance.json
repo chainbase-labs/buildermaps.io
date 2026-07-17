@@ -1,0 +1,10 @@
+{
+  "id": "flux-finance",
+  "name": "Flux Finance",
+  "description": "Ondo lending venue for borrowing against tokenized securities including OUSG. Bridges tokenized asset collateral with DeFi.",
+  "links": {
+    "homepage": "https://fluxfinance.com/",
+    "logo": "/imgs/tokenized-stocks/flux-finance.jpg",
+    "twitter": "https://x.com/FluxDeFi"
+  }
+}

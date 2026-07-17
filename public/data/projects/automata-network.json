@@ -1,0 +1,10 @@
+{
+  "id": "automata-network",
+  "name": "Automata Network",
+  "description": "TEE Coprocessor Multi-Prover AVS for hardware-based verification and decentralization.",
+  "links": {
+    "homepage": "https://ata.network/",
+    "logo": "/imgs/restaking/automata-network.jpg",
+    "twitter": "https://x.com/AutomataNetwork"
+  }
+}

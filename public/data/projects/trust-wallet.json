@@ -1,0 +1,10 @@
+{
+  "id": "trust-wallet",
+  "name": "Trust Wallet",
+  "description": "Multi-chain wallet in xStocks Alliance. Widest chain support for holding tokenized equities.",
+  "links": {
+    "homepage": "https://trustwallet.com/",
+    "logo": "/imgs/tokenized-stocks/trust-wallet.jpg",
+    "twitter": "https://x.com/TrustWallet"
+  }
+}

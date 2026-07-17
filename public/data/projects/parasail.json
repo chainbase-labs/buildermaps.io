@@ -1,0 +1,10 @@
+{
+  "id": "parasail",
+  "name": "Parasail",
+  "description": "First restaking layer for DePIN. $100M+ TVL. 20+ DePIN project integrations.",
+  "links": {
+    "homepage": "https://parasail.network/",
+    "logo": "/imgs/restaking/parasail.jpg",
+    "twitter": "https://x.com/parasailnetwork"
+  }
+}

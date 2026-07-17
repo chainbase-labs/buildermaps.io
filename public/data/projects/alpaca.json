@@ -1,0 +1,10 @@
+{
+  "id": "alpaca",
+  "name": "Alpaca",
+  "description": "US broker-dealer and custodian holding underlying shares for Ondo and xStocks tokenized equities. Brokerage API infrastructure for tokenization platforms.",
+  "links": {
+    "homepage": "https://alpaca.markets/",
+    "logo": "/imgs/tokenized-stocks/alpaca.jpg",
+    "twitter": "https://x.com/AlpacaHQ"
+  }
+}

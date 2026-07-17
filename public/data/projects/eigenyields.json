@@ -1,0 +1,10 @@
+{
+  "id": "eigenyields",
+  "name": "EigenYields",
+  "description": "Top EigenLayer node operator by TVL. Runs validation for 18+ AVSs with institutional-grade infrastructure.",
+  "links": {
+    "homepage": "https://eigenyields.com/",
+    "logo": "/imgs/restaking/eigenyields.jpg",
+    "twitter": "https://x.com/EigenYields"
+  }
+}

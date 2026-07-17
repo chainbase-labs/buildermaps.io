@@ -1,0 +1,10 @@
+{
+  "id": "bitgo",
+  "name": "BitGo",
+  "description": "Institutional custody for Robinhood Chain day-one infrastructure. Qualified custodian for tokenized asset platforms.",
+  "links": {
+    "homepage": "https://bitgo.com/",
+    "logo": "/imgs/tokenized-stocks/bitgo.jpg",
+    "twitter": "https://x.com/BitGo"
+  }
+}

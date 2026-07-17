@@ -1,0 +1,148 @@
+{
+  "sector": "Tokenized Stocks",
+  "types": [
+    {
+      "id": "issuance",
+      "name": "Issuance",
+      "projects": [
+        "ondo-finance",
+        "securitize",
+        "backed-finance",
+        "dinari",
+        "tzero",
+        "superstate",
+        "swarm-markets",
+        "etherfuse",
+        "remora-markets",
+        "openstock",
+        "st0x"
+      ]
+    },
+    {
+      "id": "pre-ipo",
+      "name": "Pre-IPO",
+      "projects": [
+        "republic",
+        "prestocks",
+        "jarsy",
+        "ventuals",
+        "tessera"
+      ]
+    },
+    {
+      "id": "chains",
+      "name": "Chains",
+      "projects": [
+        "robinhood-chain",
+        "plume-network",
+        "polymesh",
+        "solana",
+        "avalanche",
+        "base"
+      ]
+    },
+    {
+      "id": "cex-brokerage",
+      "name": "CEX & Brokerage",
+      "projects": [
+        "kraken",
+        "bybit",
+        "coinbase",
+        "gemini",
+        "kucoin",
+        "gate",
+        "bitget",
+        "mexc",
+        "binance",
+        "etoro",
+        "bitpanda",
+        "inx",
+        "figure-markets"
+      ]
+    },
+    {
+      "id": "dex-trading",
+      "name": "DEX & Trading",
+      "projects": [
+        "backpack",
+        "arcus",
+        "jupiter",
+        "raydium",
+        "meteora",
+        "orca",
+        "uniswap",
+        "lighter",
+        "rialto",
+        "1inch",
+        "byreal",
+        "native",
+        "arrakis"
+      ]
+    },
+    {
+      "id": "stock-perps",
+      "name": "Stock Perps",
+      "projects": [
+        "hyperliquid",
+        "tradexyz",
+        "felix",
+        "ostium",
+        "meridian",
+        "synthetix",
+        "morpher"
+      ]
+    },
+    {
+      "id": "oracle-data",
+      "name": "Oracle & Data",
+      "projects": [
+        "chainlink",
+        "pyth-network",
+        "redstone",
+        "rwa"
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "projects": [
+        "oasis",
+        "broadridge",
+        "alpaca",
+        "apex-fintech",
+        "bitgo",
+        "alchemy",
+        "dtcc",
+        "chainalysis",
+        "ethena",
+        "paxos",
+        "circle"
+      ]
+    },
+    {
+      "id": "defi-wallets",
+      "name": "DeFi & Wallets",
+      "projects": [
+        "kamino",
+        "morpho",
+        "flux-finance",
+        "phantom",
+        "metamask",
+        "solflare",
+        "trust-wallet",
+        "okx-wallet"
+      ]
+    },
+    {
+      "id": "tradfi-institutions",
+      "name": "TradFi Institutions",
+      "projects": [
+        "blackrock",
+        "franklin-templeton",
+        "wisdomtree",
+        "nasdaq",
+        "intercontinental-exchange"
+      ]
+    }
+  ]
+}

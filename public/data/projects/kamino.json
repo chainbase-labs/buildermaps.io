@@ -1,0 +1,10 @@
+{
+  "id": "kamino",
+  "name": "Kamino",
+  "description": "First major DeFi lender accepting tokenized stocks as collateral. Borrow stablecoins against xStocks and Ondo tokens. $2B+ TVL largest Solana lending market.",
+  "links": {
+    "homepage": "https://kamino.finance/",
+    "logo": "/imgs/tokenized-stocks/kamino.jpg",
+    "twitter": "https://x.com/kamino"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "witnesschain",
+  "name": "WitnessChain",
+  "description": "DePIN coordination AVS. Physical state consensus protocol unifying DePIN economies.",
+  "links": {
+    "homepage": "https://witnesschain.com/",
+    "logo": "/imgs/restaking/witnesschain.jpg",
+    "twitter": "https://x.com/witnesschain"
+  }
+}

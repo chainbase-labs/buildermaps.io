@@ -1,0 +1,10 @@
+{
+  "id": "zircuit",
+  "name": "Zircuit",
+  "description": "ZK rollup with restaking-powered security. Triple reward stacking: LRT + EigenLayer + Zircuit points.",
+  "links": {
+    "homepage": "https://zircuit.com/",
+    "logo": "/imgs/restaking/zircuit.png",
+    "twitter": "https://x.com/Zircuit"
+  }
+}

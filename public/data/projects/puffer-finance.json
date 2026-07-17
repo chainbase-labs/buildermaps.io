@@ -1,0 +1,10 @@
+{
+  "id": "puffer-finance",
+  "name": "Puffer Finance",
+  "description": "Anti-slashing LRT protocol issuing pufETH. DVT integration and permissionless validator setup.",
+  "links": {
+    "homepage": "https://puffer.fi/",
+    "logo": "/imgs/restaking/puffer-finance.jpg",
+    "twitter": "https://x.com/puffer_finance"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "remora-markets",
+  "name": "Remora Markets",
+  "description": "Issuer of rStocks \u2014 tokenized equities including Strategy Copper and S&P500 tokens. Retail-accessible tokenized stock products.",
+  "links": {
+    "homepage": "https://remora.markets/",
+    "logo": "/imgs/tokenized-stocks/remora-markets.jpg",
+    "twitter": "https://x.com/remoramarkets"
+  }
+}

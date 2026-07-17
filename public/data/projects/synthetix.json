@@ -1,0 +1,10 @@
+{
+  "id": "synthetix",
+  "name": "Synthetix",
+  "description": "Pioneer of onchain synthetic assets. Enables synthetic exposure to stocks forex commodities via derivatives liquidity protocol.",
+  "links": {
+    "homepage": "https://synthetix.io/",
+    "logo": "/imgs/tokenized-stocks/synthetix.png",
+    "twitter": "https://x.com/synthetix"
+  }
+}

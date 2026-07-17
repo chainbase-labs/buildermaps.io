@@ -1,0 +1,10 @@
+{
+  "id": "eoracle",
+  "name": "eOracle",
+  "description": "Decentralized oracle network natively integrated with EigenLayer for real-world data delivery.",
+  "links": {
+    "homepage": "https://eoracle.io/",
+    "logo": "/imgs/restaking/eoracle.jpg",
+    "twitter": "https://x.com/eo_network"
+  }
+}

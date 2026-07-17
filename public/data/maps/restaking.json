@@ -1,0 +1,103 @@
+{
+  "sector": "Restaking",
+  "types": [
+    {
+      "id": "restaking-platforms",
+      "name": "Restaking Platforms",
+      "projects": [
+        "eigenlayer",
+        "symbiotic",
+        "karak",
+        "nektar-network",
+        "imua"
+      ]
+    },
+    {
+      "id": "liquid-restaking",
+      "name": "Liquid Restaking",
+      "projects": [
+        "ether-fi",
+        "renzo",
+        "puffer-finance",
+        "kelp-dao",
+        "swell",
+        "mellow-protocol",
+        "inception-lrt",
+        "stakestone",
+        "eigenpie",
+        "mantle-meth",
+        "infrared",
+        "pendle",
+        "morpho",
+        "gearbox"
+      ]
+    },
+    {
+      "id": "avs",
+      "name": "AVS",
+      "projects": [
+        "eigenda",
+        "altlayer",
+        "espresso-systems",
+        "hyperlane",
+        "lagrange",
+        "brevis",
+        "eoracle",
+        "witnesschain",
+        "automata-network",
+        "aligned-layer",
+        "ritual",
+        "omnity-network",
+        "drosera",
+        "cyber",
+        "xterio",
+        "space-and-time",
+        "caldera",
+        "zircuit",
+        "redstone",
+        "ava-protocol",
+        "polyhedra"
+      ]
+    },
+    {
+      "id": "bitcoin-restaking",
+      "name": "Bitcoin Restaking",
+      "projects": [
+        "babylon-labs",
+        "lombard",
+        "solv-protocol",
+        "pumpbtc",
+        "bouncebit",
+        "corn",
+        "bob",
+        "bedrock",
+        "lorenzo-protocol"
+      ]
+    },
+    {
+      "id": "solana-restaking",
+      "name": "Solana Restaking",
+      "projects": [
+        "solayer",
+        "jito",
+        "cambrian"
+      ]
+    },
+    {
+      "id": "restaking-infrastructure",
+      "name": "Restaking Infrastructure",
+      "projects": [
+        "parasail",
+        "blockdaemon",
+        "eigenexplorer",
+        "othentic",
+        "p2p-validator",
+        "nethermind",
+        "gauntlet",
+        "ssv-network",
+        "obol-network",
+        "eigenyields"
+      ]
+    }
+  ]
+}

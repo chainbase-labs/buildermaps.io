@@ -1,0 +1,10 @@
+{
+  "id": "infrared",
+  "name": "Infrared",
+  "description": "Berachain liquid staking and restaking protocol. Optimizes PoL (Proof of Liquidity) rewards.",
+  "links": {
+    "homepage": "https://infrared.finance/",
+    "logo": "/imgs/restaking/infrared.jpg",
+    "twitter": "https://x.com/InfraredFinance"
+  }
+}

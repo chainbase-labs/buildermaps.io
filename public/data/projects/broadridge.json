@@ -1,0 +1,10 @@
+{
+  "id": "broadridge",
+  "name": "Broadridge",
+  "description": "Financial infrastructure giant handling proxy voting disclosures and shareholder communications for tokenized stock holders via ProxyVote. Partnered with Ondo.",
+  "links": {
+    "homepage": "https://broadridge.com/",
+    "logo": "/imgs/tokenized-stocks/broadridge.png",
+    "twitter": "https://x.com/Broadridge"
+  }
+}

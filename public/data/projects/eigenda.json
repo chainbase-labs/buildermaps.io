@@ -1,0 +1,10 @@
+{
+  "id": "eigenda",
+  "name": "EigenDA",
+  "description": "Flagship data availability AVS. 10 MB/s throughput for rollups. Used by Mantle, AltLayer, Celo.",
+  "links": {
+    "homepage": "https://www.eigencloud.xyz/",
+    "logo": "/imgs/restaking/eigenda.jpg",
+    "twitter": "https://x.com/eigen_da"
+  }
+}

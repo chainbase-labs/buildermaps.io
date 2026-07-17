@@ -1,0 +1,10 @@
+{
+  "id": "rialto",
+  "name": "Rialto",
+  "description": "Onchain spot exchange on Robinhood Chain and Arbitrum for crypto equities ETFs commodities and pre-IPO assets.",
+  "links": {
+    "homepage": "https://rialto.xyz/",
+    "logo": "/imgs/tokenized-stocks/rialto.png",
+    "twitter": "https://x.com/rialto_xyz"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "dtcc",
+  "name": "DTCC",
+  "description": "Settles nearly all US securities ($114T custody). Began production trades of tokenized Russell 1000 equities July 2026. 50-firm working group writing tokenization standards. Full launch October 2026.",
+  "links": {
+    "homepage": "https://dtcc.com/",
+    "logo": "/imgs/tokenized-stocks/dtcc.jpg",
+    "twitter": "https://x.com/The_DTCC"
+  }
+}

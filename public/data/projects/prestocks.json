@@ -1,0 +1,10 @@
+{
+  "id": "prestocks",
+  "name": "PreStocks",
+  "description": "Solana-based tokenized pre-IPO stocks backed 1:1 via SPV. OpenAI Anthropic Canva SpaceX and 20+ private companies. $1.39B volume 25K+ holders. No minimums 24/7 DEX trading.",
+  "links": {
+    "homepage": "https://prestocks.com/",
+    "logo": "/imgs/tokenized-stocks/prestocks.jpg",
+    "twitter": "https://x.com/PreStocks"
+  }
+}

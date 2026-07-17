@@ -1,0 +1,10 @@
+{
+  "id": "mellow-protocol",
+  "name": "Mellow Protocol",
+  "description": "Permissionless modular LRT vaults on Symbiotic. Backed by Lido for customizable risk profiles.",
+  "links": {
+    "homepage": "https://mellow.finance/",
+    "logo": "/imgs/restaking/mellow-protocol.jpg",
+    "twitter": "https://x.com/mellowprotocol"
+  }
+}

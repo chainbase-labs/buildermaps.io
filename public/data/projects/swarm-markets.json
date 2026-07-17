@@ -1,0 +1,10 @@
+{
+  "id": "swarm-markets",
+  "name": "Swarm Markets",
+  "description": "BaFin-regulated DeFi platform issuing tokenized stocks and bonds. Compliant onchain trading of tokenized securities for EU users.",
+  "links": {
+    "homepage": "https://swarm.com/",
+    "logo": "/imgs/tokenized-stocks/swarm-markets.jpg",
+    "twitter": "https://x.com/SwarmMarkets"
+  }
+}

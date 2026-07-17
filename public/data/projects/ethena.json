@@ -1,0 +1,10 @@
+{
+  "id": "ethena",
+  "name": "Ethena",
+  "description": "Synthetic dollar USDe \u2014 settlement asset for Meridian RWA perps on Robinhood Chain. Key stablecoin rail for tokenized equity trading.",
+  "links": {
+    "homepage": "https://ethena.fi/",
+    "logo": "/imgs/tokenized-stocks/ethena.jpg",
+    "twitter": "https://x.com/ethena_labs"
+  }
+}

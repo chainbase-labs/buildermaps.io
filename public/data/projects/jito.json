@@ -1,0 +1,10 @@
+{
+  "id": "jito",
+  "name": "Jito",
+  "description": "Largest Solana liquid staking expanding to restaking. JitoSOL plus MEV infrastructure.",
+  "links": {
+    "homepage": "https://jito.network/",
+    "logo": "/imgs/restaking/jito.png",
+    "twitter": "https://x.com/jito_sol"
+  }
+}

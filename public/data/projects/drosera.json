@@ -1,0 +1,10 @@
+{
+  "id": "drosera",
+  "name": "Drosera",
+  "description": "Security incident response AVS. Decentralized first-responder collective for protocol emergencies.",
+  "links": {
+    "homepage": "https://drosera.io/",
+    "logo": "/imgs/restaking/drosera.jpg",
+    "twitter": "https://x.com/DroseraNetwork"
+  }
+}

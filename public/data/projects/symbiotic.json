@@ -1,0 +1,10 @@
+{
+  "id": "symbiotic",
+  "name": "Symbiotic",
+  "description": "Permissionless modular restaking supporting any ERC-20 as collateral. Backed by Lido co-founders. $1.7B+ TVL.",
+  "links": {
+    "homepage": "https://symbiotic.fi/",
+    "logo": "/imgs/restaking/symbiotic.png",
+    "twitter": "https://x.com/symbioticfi"
+  }
+}

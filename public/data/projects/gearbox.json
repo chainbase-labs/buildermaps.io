@@ -1,0 +1,10 @@
+{
+  "id": "gearbox",
+  "name": "Gearbox",
+  "description": "Composable leverage protocol. Enables leveraged restaking strategies with LRT collateral on EigenLayer.",
+  "links": {
+    "homepage": "https://gearbox.fi/",
+    "logo": "/imgs/restaking/gearbox.png",
+    "twitter": "https://x.com/GearboxProtocol"
+  }
+}

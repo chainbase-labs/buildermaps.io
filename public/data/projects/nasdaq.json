@@ -1,0 +1,10 @@
+{
+  "id": "nasdaq",
+  "name": "Nasdaq",
+  "description": "Proposed equity token design approved by SEC March 2026 \u2014 stocks tradable and settled via tokens. Building 24/7 tokenized securities infrastructure.",
+  "links": {
+    "homepage": "https://nasdaq.com/",
+    "logo": "/imgs/tokenized-stocks/nasdaq.jpg",
+    "twitter": "https://x.com/Nasdaq"
+  }
+}

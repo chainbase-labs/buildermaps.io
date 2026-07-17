@@ -1,0 +1,10 @@
+{
+  "id": "pendle",
+  "name": "Pendle",
+  "description": "Largest yield trading platform. Splits LRT yield into PT/YT for fixed and variable rate trading. Key LRT liquidity venue.",
+  "links": {
+    "homepage": "https://pendle.finance/",
+    "logo": "/imgs/restaking/pendle.jpg",
+    "twitter": "https://x.com/pendle_fi"
+  }
+}

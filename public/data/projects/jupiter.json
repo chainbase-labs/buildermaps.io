@@ -1,0 +1,10 @@
+{
+  "id": "jupiter",
+  "name": "Jupiter",
+  "description": "Largest Solana DEX aggregator routing xStocks Ondo and PreStocks trades for best execution. Partnered with Ondo to bring 200+ tokenized stocks to Solana.",
+  "links": {
+    "homepage": "https://jup.ag/",
+    "logo": "/imgs/tokenized-stocks/jupiter.jpg",
+    "twitter": "https://x.com/JupiterExchange"
+  }
+}

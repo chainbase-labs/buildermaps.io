@@ -1,0 +1,10 @@
+{
+  "id": "superstate",
+  "name": "Superstate",
+  "description": "Regulated onchain asset manager. Opening Bell \u2014 only platform where the token IS the SEC-registered share with onchain cap table. Issued as SPL on Solana and ERC-20 on Ethereum.",
+  "links": {
+    "homepage": "https://superstate.co/",
+    "logo": "/imgs/tokenized-stocks/superstate.jpg",
+    "twitter": "https://x.com/SuperstateInc"
+  }
+}

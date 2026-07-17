@@ -1,0 +1,10 @@
+{
+  "id": "obol-network",
+  "name": "Obol Network",
+  "description": "Distributed validator middleware using Charon DVT client. Enables multi-operator ETH validation for restaking resilience.",
+  "links": {
+    "homepage": "https://obol.org/",
+    "logo": "/imgs/restaking/obol-network.jpg",
+    "twitter": "https://x.com/obol_collective"
+  }
+}
