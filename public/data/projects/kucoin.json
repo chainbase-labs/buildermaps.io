@@ -1,0 +1,10 @@
+{
+  "id": "kucoin",
+  "name": "KuCoin",
+  "description": "xStocks tokenized equities denominated in USDT for 41M+ users in 200+ regions. Chainlink Proof of Reserves integration.",
+  "links": {
+    "homepage": "https://kucoin.com/",
+    "logo": "/imgs/tokenized-stocks/kucoin.jpg",
+    "twitter": "https://x.com/kucoincom"
+  }
+}

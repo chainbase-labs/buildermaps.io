@@ -1,0 +1,10 @@
+{
+  "id": "etoro",
+  "name": "eToro",
+  "description": "Trading platform investing in tokenized equity infrastructure. Led $12.5M round in perp exchange Extended. Acquired ZenGo self-custody wallet.",
+  "links": {
+    "homepage": "https://etoro.com/",
+    "logo": "/imgs/tokenized-stocks/etoro.jpg",
+    "twitter": "https://x.com/eToro"
+  }
+}

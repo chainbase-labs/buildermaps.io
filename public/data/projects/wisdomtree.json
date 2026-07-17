@@ -1,0 +1,10 @@
+{
+  "id": "wisdomtree",
+  "name": "WisdomTree",
+  "description": "Asset manager issuing regulated tokenized money-market and treasury funds. WisdomTree Prime consumer app for tokenized asset access.",
+  "links": {
+    "homepage": "https://wisdomtree.com/",
+    "logo": "/imgs/tokenized-stocks/wisdomtree.jpg",
+    "twitter": "https://x.com/WisdomTreeFunds"
+  }
+}

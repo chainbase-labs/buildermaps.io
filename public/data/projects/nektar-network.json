@@ -1,0 +1,10 @@
+{
+  "id": "nektar-network",
+  "name": "Nektar Network",
+  "description": "Restaking protocol focused on operator incentive alignment. Deep staking industry team experience.",
+  "links": {
+    "homepage": "https://nektar.network/",
+    "logo": "/imgs/restaking/nektar-network.jpg",
+    "twitter": "https://x.com/nektarnetwork"
+  }
+}

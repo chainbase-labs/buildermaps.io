@@ -1,0 +1,10 @@
+{
+  "id": "swell",
+  "name": "Swell",
+  "description": "Liquid staking (swETH) and restaking (rswETH) protocol. Non-custodial with professional validators.",
+  "links": {
+    "homepage": "https://swellnetwork.io/",
+    "logo": "/imgs/restaking/swell.jpg",
+    "twitter": "https://x.com/swellnetworkio"
+  }
+}

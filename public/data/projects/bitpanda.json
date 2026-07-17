@@ -1,0 +1,10 @@
+{
+  "id": "bitpanda",
+  "name": "Bitpanda",
+  "description": "EU multi-asset platform offering real stocks ETFs alongside crypto. 3.5M+ users. Bridge between traditional brokerage and tokenized assets.",
+  "links": {
+    "homepage": "https://bitpanda.com/",
+    "logo": "/imgs/tokenized-stocks/bitpanda.jpg",
+    "twitter": "https://x.com/bitpanda"
+  }
+}

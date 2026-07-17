@@ -1,0 +1,10 @@
+{
+  "id": "xterio",
+  "name": "Xterio",
+  "description": "Gaming-focused EigenLayer AVS using MACH fast finality. OP Stack rollup tailored for gaming workloads.",
+  "links": {
+    "homepage": "https://xterio.com/",
+    "logo": "/imgs/restaking/xterio.jpg",
+    "twitter": "https://x.com/XterioGames"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "ava-protocol",
+  "name": "Ava Protocol",
+  "description": "Event-driven automation AVS. Autonomous super-transactions triggered by time, price, and contract events.",
+  "links": {
+    "homepage": "https://avaprotocol.org/",
+    "logo": "/imgs/restaking/ava-protocol.jpg",
+    "twitter": "https://x.com/ava_protocol"
+  }
+}

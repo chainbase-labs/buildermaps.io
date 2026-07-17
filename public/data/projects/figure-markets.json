@@ -1,0 +1,10 @@
+{
+  "id": "figure-markets",
+  "name": "Figure Markets",
+  "description": "Blockchain-native marketplace for tokenized securities lending and trading built on Provenance blockchain.",
+  "links": {
+    "homepage": "https://figure.markets/",
+    "logo": "/imgs/tokenized-stocks/figure-markets.png",
+    "twitter": "https://x.com/FigureMarkets"
+  }
+}

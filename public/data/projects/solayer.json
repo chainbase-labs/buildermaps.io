@@ -1,0 +1,10 @@
+{
+  "id": "solayer",
+  "name": "Solayer",
+  "description": "Leading SOL restaking. $155M pre-mainnet. Building InfiniSVM hardware-accelerated blockchain.",
+  "links": {
+    "homepage": "https://solayer.org/",
+    "logo": "/imgs/restaking/solayer.jpg",
+    "twitter": "https://x.com/solayer_labs"
+  }
+}

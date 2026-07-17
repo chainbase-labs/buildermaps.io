@@ -1,0 +1,10 @@
+{
+  "id": "espresso-systems",
+  "name": "Espresso Systems",
+  "description": "Decentralized shared sequencing for rollups with Ethereum-consistent ordering.",
+  "links": {
+    "homepage": "https://espressosys.com/",
+    "logo": "/imgs/restaking/espresso-systems.png",
+    "twitter": "https://x.com/EspressoSys"
+  }
+}

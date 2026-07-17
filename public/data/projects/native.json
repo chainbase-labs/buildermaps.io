@@ -1,0 +1,10 @@
+{
+  "id": "native",
+  "name": "Native",
+  "description": "Onchain price discovery and execution system deployed on Robinhood Chain. Previously on Ethereum BNB Chain Arbitrum Base.",
+  "links": {
+    "homepage": "https://native.org/",
+    "logo": "/imgs/tokenized-stocks/native.png",
+    "twitter": "https://x.com/native_fi"
+  }
+}

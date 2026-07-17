@@ -1,0 +1,10 @@
+{
+  "id": "blackrock",
+  "name": "BlackRock",
+  "description": "World's largest asset manager. BUIDL fund ($2.5B) administered by Securitize across 8 chains \u2014 first regulated fund as DeFi collateral. IVV ETF first tokenized under SEC custodial model.",
+  "links": {
+    "homepage": "https://blackrock.com/",
+    "logo": "/imgs/tokenized-stocks/blackrock.jpg",
+    "twitter": "https://x.com/BlackRock"
+  }
+}

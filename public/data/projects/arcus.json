@@ -1,0 +1,10 @@
+{
+  "id": "arcus",
+  "name": "Arcus",
+  "description": "Stock token and crypto DEX co-built by dYdX Labs and Robinhood Crypto on Robinhood Chain. Spot and perpetuals with token allocation to dYdX community.",
+  "links": {
+    "homepage": "https://arcus.trade/",
+    "logo": "/imgs/tokenized-stocks/arcus.png",
+    "twitter": "https://x.com/arcus_xyz"
+  }
+}

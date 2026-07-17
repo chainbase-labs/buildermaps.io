@@ -1,0 +1,10 @@
+{
+  "id": "backpack",
+  "name": "Backpack",
+  "description": "Regulated exchange combining brokerage with onchain settlement on Solana. Sourced tokenized SpaceX shares directly as broker-dealer on listing day. Leader in tokenized equity spot volume.",
+  "links": {
+    "homepage": "https://backpack.exchange/",
+    "logo": "/imgs/tokenized-stocks/backpack.jpg",
+    "twitter": "https://x.com/Backpack"
+  }
+}

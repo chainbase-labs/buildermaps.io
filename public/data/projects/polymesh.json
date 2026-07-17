@@ -1,0 +1,10 @@
+{
+  "id": "polymesh",
+  "name": "Polymesh",
+  "description": "Purpose-built L1 for regulated securities. Built-in identity permissions and compliance for tokenizing stocks bonds and ETFs.",
+  "links": {
+    "homepage": "https://polymesh.network/",
+    "logo": "/imgs/tokenized-stocks/polymesh.png",
+    "twitter": "https://x.com/PolymeshNetwork"
+  }
+}

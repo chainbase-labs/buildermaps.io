@@ -1,0 +1,10 @@
+{
+  "id": "chainalysis",
+  "name": "Chainalysis",
+  "description": "Blockchain intelligence for compliance monitoring of tokenized securities platforms and regulated onchain markets.",
+  "links": {
+    "homepage": "https://chainalysis.com/",
+    "logo": "/imgs/tokenized-stocks/chainalysis.png",
+    "twitter": "https://x.com/chainalysis"
+  }
+}

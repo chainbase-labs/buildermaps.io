@@ -1,0 +1,10 @@
+{
+  "id": "p2p-validator",
+  "name": "P2P Validator",
+  "description": "Non-custodial staking and restaking infrastructure provider. Major EigenLayer and Symbiotic operator.",
+  "links": {
+    "homepage": "https://p2p.org/",
+    "logo": "/imgs/restaking/p2p-validator.png",
+    "twitter": "https://x.com/P2Pvalidator"
+  }
+}

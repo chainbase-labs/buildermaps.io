@@ -1,0 +1,10 @@
+{
+  "id": "mantle-meth",
+  "name": "Mantle mETH",
+  "description": "Mantle liquid staking token mETH with cmETH for restaking. 11% of all liquid restaking TVL. Deep Mantle ecosystem.",
+  "links": {
+    "homepage": "https://meth.mantle.xyz/",
+    "logo": "/imgs/restaking/mantle-meth.png",
+    "twitter": "https://x.com/mETHProtocol"
+  }
+}

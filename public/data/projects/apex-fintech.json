@@ -1,0 +1,10 @@
+{
+  "id": "apex-fintech",
+  "name": "Apex Fintech",
+  "description": "Clearing and custody powering Coinbase US stock trading. Institutional back-end for brokerage-to-blockchain convergence.",
+  "links": {
+    "homepage": "https://apexfintechsolutions.com/",
+    "logo": "/imgs/tokenized-stocks/apex-fintech.png",
+    "twitter": "https://x.com/apexfintech"
+  }
+}

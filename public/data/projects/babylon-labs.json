@@ -1,0 +1,10 @@
+{
+  "id": "babylon-labs",
+  "name": "Babylon Labs",
+  "description": "BTC-native staking with $3.39B TVL. Self-custodial staking to secure PoS chains without bridging.",
+  "links": {
+    "homepage": "https://babylonlabs.io/",
+    "logo": "/imgs/restaking/babylon-labs.jpg",
+    "twitter": "https://x.com/babylonlabs_io"
+  }
+}

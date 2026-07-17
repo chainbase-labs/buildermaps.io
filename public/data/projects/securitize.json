@@ -1,0 +1,10 @@
+{
+  "id": "securitize",
+  "name": "Securitize",
+  "description": "Leading tokenization infrastructure with SEC-regulated ATS broker-dealer and transfer agent. Administers BlackRock BUIDL ($2.5B). First public company to tokenize own NYSE shares (SECZ) at IPO \u2014 $295M onchain.",
+  "links": {
+    "homepage": "https://securitize.io/",
+    "logo": "/imgs/tokenized-stocks/securitize.jpg",
+    "twitter": "https://x.com/Securitize"
+  }
+}

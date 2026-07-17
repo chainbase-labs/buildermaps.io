@@ -1,0 +1,10 @@
+{
+  "id": "kelp-dao",
+  "name": "Kelp DAO",
+  "description": "LRT platform issuing rsETH. Rebranded to Kernel DAO. 10+ L2s and 120+ DeFi integrations.",
+  "links": {
+    "homepage": "https://kelpdao.xyz/",
+    "logo": "/imgs/restaking/kelp-dao.jpg",
+    "twitter": "https://x.com/KelpDAO"
+  }
+}

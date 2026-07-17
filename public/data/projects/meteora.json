@@ -1,0 +1,10 @@
+{
+  "id": "meteora",
+  "name": "Meteora",
+  "description": "Solana DLMM providing market-making for tokenized stocks including PreStocks pre-IPO tokens. Bin-based concentrated liquidity for equity pairs.",
+  "links": {
+    "homepage": "https://meteora.ag/",
+    "logo": "/imgs/tokenized-stocks/meteora.jpg",
+    "twitter": "https://x.com/MeteoraAG"
+  }
+}

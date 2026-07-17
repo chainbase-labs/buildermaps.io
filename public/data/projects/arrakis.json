@@ -1,0 +1,10 @@
+{
+  "id": "arrakis",
+  "name": "Arrakis",
+  "description": "Onchain liquidity management protocol deployed on Robinhood Chain for stock token market making.",
+  "links": {
+    "homepage": "https://arrakis.finance/",
+    "logo": "/imgs/tokenized-stocks/arrakis.jpg",
+    "twitter": "https://x.com/ArrakisFinance"
+  }
+}

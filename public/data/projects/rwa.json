@@ -1,0 +1,10 @@
+{
+  "id": "rwa",
+  "name": "RWA",
+  "description": "Leading analytics platform tracking tokenized equities treasuries and RWA markets. Industry-standard data source for onchain stock metrics.",
+  "links": {
+    "homepage": "https://rwa.xyz/",
+    "logo": "/imgs/tokenized-stocks/rwa.jpg",
+    "twitter": "https://x.com/rwa_xyz"
+  }
+}

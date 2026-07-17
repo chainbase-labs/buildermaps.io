@@ -1,0 +1,10 @@
+{
+  "id": "intercontinental-exchange",
+  "name": "Intercontinental Exchange",
+  "description": "NYSE parent company. Partnered with Securitize March 2026 to build tokenized equity securities infrastructure. Developing onchain settlement platform.",
+  "links": {
+    "homepage": "https://ice.com/",
+    "logo": "/imgs/tokenized-stocks/intercontinental-exchange.jpg",
+    "twitter": "https://x.com/ICE_Markets"
+  }
+}

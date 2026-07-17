@@ -1,0 +1,10 @@
+{
+  "id": "raydium",
+  "name": "Raydium",
+  "description": "Primary AMM for xStocks onchain liquidity on Solana. Tokenized stock LP pools live since day one of xStocks launch. Founding xStocks Alliance member.",
+  "links": {
+    "homepage": "https://raydium.io/",
+    "logo": "/imgs/tokenized-stocks/raydium.jpg",
+    "twitter": "https://x.com/Raydium"
+  }
+}

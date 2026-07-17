@@ -1,0 +1,10 @@
+{
+  "id": "openstock",
+  "name": "OpenStock",
+  "description": "Tokenized equity issuance ecosystem tracked by CoinGecko. Onchain stock token products.",
+  "links": {
+    "homepage": "https://openstock.xyz/",
+    "logo": "/imgs/tokenized-stocks/openstock.jpg",
+    "twitter": "https://x.com/OpenStack"
+  }
+}

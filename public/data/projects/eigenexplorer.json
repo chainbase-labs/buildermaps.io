@@ -1,0 +1,10 @@
+{
+  "id": "eigenexplorer",
+  "name": "EigenExplorer",
+  "description": "Analytics platform tracking EigenLayer operators, AVSs, and restaking metrics.",
+  "links": {
+    "homepage": "https://eigenexplorer.com/",
+    "logo": "/imgs/restaking/eigenexplorer.jpg",
+    "twitter": "https://x.com/eigenexplorer"
+  }
+}

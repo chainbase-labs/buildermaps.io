@@ -1,0 +1,10 @@
+{
+  "id": "ostium",
+  "name": "Ostium",
+  "description": "First decentralized venue listing equity perpetuals on individual US stocks priced off Nasdaq data. $50B+ cumulative volume on Arbitrum. RWA perps on stocks indices FX commodities.",
+  "links": {
+    "homepage": "https://ostium.app/",
+    "logo": "/imgs/tokenized-stocks/ostium.jpg",
+    "twitter": "https://x.com/Ostium"
+  }
+}

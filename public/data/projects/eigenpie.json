@@ -1,0 +1,10 @@
+{
+  "id": "eigenpie",
+  "name": "Eigenpie",
+  "description": "Magpie sub-DAO issuing isolated LRTs for each LST on EigenLayer. 12 unique restaking tokens.",
+  "links": {
+    "homepage": "https://eigenlayer.magpiexyz.io/",
+    "logo": "/imgs/restaking/eigenpie.jpg",
+    "twitter": "https://x.com/Eigenpiexyz_io"
+  }
+}

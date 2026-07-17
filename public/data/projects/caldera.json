@@ -1,0 +1,10 @@
+{
+  "id": "caldera",
+  "name": "Caldera",
+  "description": "Rollup-as-a-Service platform with EigenDA integration. One-click rollup deployment with restaked security.",
+  "links": {
+    "homepage": "https://caldera.xyz/",
+    "logo": "/imgs/restaking/caldera.jpg",
+    "twitter": "https://x.com/Calderaxyz"
+  }
+}

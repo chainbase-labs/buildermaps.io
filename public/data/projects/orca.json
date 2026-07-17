@@ -1,0 +1,10 @@
+{
+  "id": "orca",
+  "name": "Orca",
+  "description": "Leading Solana concentrated-liquidity AMM by DEX volume. Whirlpools support tokenized equity pairs.",
+  "links": {
+    "homepage": "https://orca.so/",
+    "logo": "/imgs/tokenized-stocks/orca.jpg",
+    "twitter": "https://x.com/orca_so"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "karak",
+  "name": "Karak",
+  "description": "Universal multi-asset multi-chain restaking. Rebranded to OpenGDP. Supports stablecoins to WBTC as collateral.",
+  "links": {
+    "homepage": "https://karak.network/",
+    "logo": "/imgs/restaking/karak.jpg",
+    "twitter": "https://x.com/OpenGDP"
+  }
+}

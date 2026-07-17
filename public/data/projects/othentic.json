@@ -1,0 +1,10 @@
+{
+  "id": "othentic",
+  "name": "Othentic",
+  "description": "AVS development framework for building and deploying AVSs on EigenLayer with simplified tooling and BLS verification.",
+  "links": {
+    "homepage": "https://othentic.xyz/",
+    "logo": "/imgs/restaking/othentic.jpg",
+    "twitter": "https://x.com/0xOthentic"
+  }
+}

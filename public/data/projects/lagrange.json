@@ -1,0 +1,10 @@
+{
+  "id": "lagrange",
+  "name": "Lagrange",
+  "description": "ZK coprocessor and State Committee infra for optimistic rollups with super-linear security.",
+  "links": {
+    "homepage": "https://lagrange.dev/",
+    "logo": "/imgs/restaking/lagrange.png",
+    "twitter": "https://x.com/lagrangedev"
+  }
+}

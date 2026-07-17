@@ -1,0 +1,10 @@
+{
+  "id": "cyber",
+  "name": "Cyber",
+  "description": "L2 for social built as EigenLayer AVS. Enables social dApps beyond finance for connecting and sharing value.",
+  "links": {
+    "homepage": "https://cyber.co/",
+    "logo": "/imgs/restaking/cyber.jpg",
+    "twitter": "https://x.com/BuildOnCyber"
+  }
+}
