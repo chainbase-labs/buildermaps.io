@@ -1,10 +1,10 @@
 {
   "id": "rainbow",
   "name": "Rainbow",
-  "description": "Open-source self-custodial wallet with HyperEVM support.",
+  "description": "Consumer self-custody wallet for EVM networks. Listed in Arc's official ecosystem directory.",
   "links": {
-    "homepage": "https://rainbow.me/",
+    "homepage": "https://rainbow.me",
     "twitter": "https://x.com/rainbowdotme",
-    "logo": "/imgs/Hyperliquid/Wallets/rainbow.png"
+    "logo": "/imgs/Arc/Wallets/rainbow.png"
   }
 }

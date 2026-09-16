@@ -1,0 +1,10 @@
+{
+  "id": "proof-of-play",
+  "name": "Proof of Play",
+  "description": "Game studio running its own Orbit chains — Pirate Nation was the first fully onchain game to ship a dedicated L3.",
+  "links": {
+    "homepage": "https://proofofplay.com/",
+    "twitter": "https://x.com/ProofOfPlay",
+    "logo": "/imgs/Arbitrum/OrbitChains/proof-of-play.jpg"
+  }
+}

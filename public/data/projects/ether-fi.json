@@ -1,10 +1,10 @@
 {
   "id": "ether-fi",
-  "name": "Ether.Fi",
-  "description": "Non-custodial Ethereum liquid staking protocol for ETH rewards and liquidity via eETH tokens.",
+  "name": "ether fi",
+  "description": "Largest liquid restaking protocol. eETH and weETH are core yield-bearing collateral in Arbitrum lending and Pendle markets.",
   "links": {
-    "homepage": "https://www.ether.fi/",
-    "logo": "/imgs/restaking/ether-fi.jpg",
-    "twitter": "https://x.com/EtherFi"
+    "homepage": "https://ether.fi/",
+    "logo": "/imgs/Arbitrum/LiquidStaking&Restaking/ether-fi.jpg",
+    "twitter": "https://x.com/ether_fi"
   }
 }

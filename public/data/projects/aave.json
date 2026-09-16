@@ -1,0 +1,10 @@
+{
+  "id": "aave",
+  "name": "Aave",
+  "description": "Non-custodial lending protocol for supplying and borrowing assets. Circle announced Aave as an expected Arc launch integration.",
+  "links": {
+    "homepage": "http://aave.com",
+    "twitter": "https://x.com/aave",
+    "logo": "/imgs/Arc/DeFi/aave.png"
+  }
+}

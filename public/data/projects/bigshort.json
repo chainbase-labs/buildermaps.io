@@ -1,0 +1,10 @@
+{
+  "id": "bigshort",
+  "name": "BigShort",
+  "description": "Arc launchpad offering a two-sided market concept. Mainnet deployment status requires confirmation.",
+  "links": {
+    "homepage": "https://app.bigshort.xyz/",
+    "twitter": "https://x.com/Bigshortdotxyz",
+    "logo": "/imgs/Arc/Launchpads/bigshort.jpg"
+  }
+}

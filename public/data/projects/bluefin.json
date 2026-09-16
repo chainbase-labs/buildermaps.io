@@ -1,12 +1,12 @@
 {
   "id": "bluefin",
   "name": "Bluefin",
-  "description": "Bluefin is a decentralized exchange for trading perpetual swaps with high performance and low fees on Sui.",
+  "description": "Leading perp DEX on Sui. Orderbook trading with sub-second finality. Institutional backing from Polychain and SIG.",
   "founded": null,
   "funding": null,
   "links": {
     "homepage": "https://bluefin.io/",
-    "logo": "/imgs/Sui/DeFi/Bluefin.png",
+    "logo": "/imgs/Perp DEX/OrderbookPerpDEX/bluefin.jpg",
     "twitter": "https://x.com/bluefinapp"
   }
 }

@@ -1,0 +1,10 @@
+{
+  "id": "jones-dao",
+  "name": "Jones DAO",
+  "description": "Structured yield vaults built on Arbitrum DeFi primitives — leveraged and delta-neutral strategies packaged as single tokens.",
+  "links": {
+    "homepage": "https://jonesdao.io/",
+    "twitter": "https://x.com/DAOCentral",
+    "logo": "/imgs/Arbitrum/Lending&Yield/jones-dao.jpg"
+  }
+}

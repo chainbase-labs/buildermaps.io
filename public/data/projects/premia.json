@@ -1,0 +1,10 @@
+{
+  "id": "premia",
+  "name": "Premia",
+  "description": "Decentralized options protocol with automated market making for calls and puts on Arbitrum.",
+  "links": {
+    "homepage": "https://premia.blue/",
+    "twitter": "https://x.com/KyanExchange",
+    "logo": "/imgs/Arbitrum/Perps&Derivatives/premia.jpg"
+  }
+}

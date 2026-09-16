@@ -1,0 +1,10 @@
+{
+  "id": "velocity",
+  "name": "Velocity",
+  "description": "Leading Solana perp DEX. Cross-margin yield-bearing collateral sub-400ms execution. Go-to venue for Solana-native traders.",
+  "links": {
+    "homepage": "https://velocity.exchange/",
+    "twitter": "https://x.com/VelocityDEX",
+    "logo": "/imgs/Perp DEX/OrderbookPerpDEX/velocity.png"
+  }
+}

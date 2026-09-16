@@ -1,0 +1,10 @@
+{
+  "id": "centrifuge",
+  "name": "Centrifuge",
+  "description": "Infrastructure for tokenizing and managing real-world assets. Listed in Arc's official ecosystem directory.",
+  "links": {
+    "homepage": "http://centrifuge.io",
+    "twitter": "https://x.com/centrifuge",
+    "logo": "/imgs/Arc/RWA/centrifuge.jpg"
+  }
+}

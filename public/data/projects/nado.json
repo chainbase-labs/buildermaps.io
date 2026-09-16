@@ -1,0 +1,10 @@
+{
+  "id": "nado",
+  "name": "Nado",
+  "description": "CLOB DEX on Kraken's Ink L2 by ex-Kraken team. Unified cross-margin for spot margin and perps. 5-15ms latency with self-custody. First venue accepting xStocks as perp collateral.",
+  "links": {
+    "homepage": "https://nado.xyz/",
+    "twitter": "https://x.com/nadoHQ",
+    "logo": "/imgs/Perp DEX/OrderbookPerpDEX/nado.jpg"
+  }
+}

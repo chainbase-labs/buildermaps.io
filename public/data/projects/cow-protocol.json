@@ -1,0 +1,10 @@
+{
+  "id": "cow-protocol",
+  "name": "CoW Protocol",
+  "description": "Batch auction DEX settling at uniform clearing prices. Structurally removes sandwich risk for Arbitrum traders.",
+  "links": {
+    "homepage": "https://cow.fi/",
+    "twitter": "https://x.com/CoWSwap",
+    "logo": "/imgs/Arbitrum/DEX&Trading/cow-protocol.jpg"
+  }
+}

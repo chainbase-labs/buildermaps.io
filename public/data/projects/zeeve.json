@@ -1,0 +1,10 @@
+{
+  "id": "zeeve",
+  "name": "Zeeve",
+  "description": "Enterprise RaaS with production deployments across OP Stack Orbit CDK and ZK stacks. DA flexibility with blobs Celestia EigenDA and Avail support.",
+  "links": {
+    "homepage": "https://zeeve.io/",
+    "twitter": "https://x.com/0xZeeve",
+    "logo": "/imgs/Modular Blockchain/Rollup-as-a-Service/zeeve.jpg"
+  }
+}

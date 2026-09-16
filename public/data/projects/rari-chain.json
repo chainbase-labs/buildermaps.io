@@ -1,0 +1,10 @@
+{
+  "id": "rari-chain",
+  "name": "RARI Chain",
+  "description": "NFT-focused Orbit chain built by Rarible with enforced onchain royalties. Governed by the RARI DAO.",
+  "links": {
+    "homepage": "https://rarichain.org/",
+    "twitter": "https://x.com/RariChain",
+    "logo": "/imgs/Arbitrum/OrbitChains/rari-chain.jpg"
+  }
+}

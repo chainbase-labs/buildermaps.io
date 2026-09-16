@@ -1,0 +1,10 @@
+{
+  "id": "solscan",
+  "name": "Solscan",
+  "description": "Primary Solana block explorer — transaction inspection token holder lists and account histories.",
+  "links": {
+    "homepage": "https://solscan.io/",
+    "twitter": "https://x.com/solscanofficial",
+    "logo": "/imgs/Onchain Trading Tools/Analytics&Discovery/solscan.jpg"
+  }
+}

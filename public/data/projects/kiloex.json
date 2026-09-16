@@ -1,0 +1,10 @@
+{
+  "id": "kiloex",
+  "name": "KiloEx",
+  "description": "Retail-friendly perp DEX on BNB Chain Base and opBNB. Oracle-based execution backed by Binance Labs.",
+  "links": {
+    "homepage": "https://kiloex.io/",
+    "twitter": "https://x.com/KiloEx_perp",
+    "logo": "/imgs/Perp DEX/Pool-basedPerpDEX/kiloex.jpg"
+  }
+}

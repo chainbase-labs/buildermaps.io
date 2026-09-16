@@ -1,10 +1,10 @@
 {
   "id": "aerodrome",
   "name": "Aerodrome",
-  "description": "Aerodrome Finance: The central liquidity hub on Base network.",
+  "description": "Automated market maker with liquidity incentives. Circle named Aerodrome among protocols expected to support Arc at public mainnet launch.",
   "location": "",
   "links": {
-    "logo": "/imgs/Base/DeFi/aerodrome.png",
+    "logo": "/imgs/Arc/DeFi/aerodrome.png",
     "homepage": "https://aerodrome.finance/",
     "twitter": "https://x.com/AerodromeFi",
     "github": ""

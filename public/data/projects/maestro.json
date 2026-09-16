@@ -1,0 +1,10 @@
+{
+  "id": "maestro",
+  "name": "Maestro",
+  "description": "Longest-running multi-chain Telegram bot — Ethereum Solana Base BSC and more. Method sniping call channels and volume-tier cashback.",
+  "links": {
+    "homepage": "https://maestrobots.com/",
+    "twitter": "https://x.com/MaestroBots",
+    "logo": "/imgs/Onchain Trading Tools/TelegramBots/maestro.jpg"
+  }
+}

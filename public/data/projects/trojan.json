@@ -1,0 +1,10 @@
+{
+  "id": "trojan",
+  "name": "Trojan",
+  "description": "Feature-dense Telegram bot with copy trading DCA limit orders and The Arena gamification layer. Volume-tiered cashback and MetaMask integration on Solana.",
+  "links": {
+    "homepage": "https://trojan.com/",
+    "twitter": "https://x.com/TrojanOnSolana",
+    "logo": "/imgs/Onchain Trading Tools/TelegramBots/trojan.jpg"
+  }
+}

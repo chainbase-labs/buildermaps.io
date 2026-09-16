@@ -1,0 +1,10 @@
+{
+  "id": "hibachi",
+  "name": "Hibachi",
+  "description": "Building a stablecoin-native foreign-exchange venue on Arc, with orderbook execution and verifiable settlement.",
+  "links": {
+    "homepage": "https://hibachi.xyz/",
+    "twitter": "https://x.com/hibachi_xyz",
+    "logo": "/imgs/Arc/Trading/hibachi.png"
+  }
+}

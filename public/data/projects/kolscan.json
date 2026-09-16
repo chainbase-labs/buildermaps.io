@@ -1,0 +1,10 @@
+{
+  "id": "kolscan",
+  "name": "Kolscan",
+  "description": "Public leaderboard tracking KOL wallet PnL on Solana — verifies whether callers actually hold what they promote.",
+  "links": {
+    "homepage": "https://kolscan.io/",
+    "twitter": "https://x.com/kolscan",
+    "logo": "/imgs/Onchain Trading Tools/Analytics&Discovery/kolscan.jpg"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "sector": "Smart Wallets",
+  "types": [
+    {
+      "id": "smart-account-infra",
+      "name": "Smart Account Infra",
+      "projects": [
+        "alchemy",
+        "biconomy",
+        "candide",
+        "etherspot",
+        "gelato",
+        "openfort",
+        "pimlico",
+        "rhinestone",
+        "safe-wallet",
+        "stackup",
+        "thirdweb",
+        "zerodev"
+      ]
+    },
+    {
+      "id": "embedded-wallets",
+      "name": "Embedded Wallets",
+      "projects": [
+        "circle",
+        "coinbase-developer-platform",
+        "crossmint",
+        "dynamic",
+        "particle",
+        "portal",
+        "privy",
+        "reown",
+        "web3auth"
+      ]
+    },
+    {
+      "id": "key-management",
+      "name": "Key Management",
+      "projects": [
+        "cubist",
+        "dfns",
+        "fireblocks",
+        "lit-protocol",
+        "turnkey",
+        "zengo"
+      ]
+    },
+    {
+      "id": "wallet-apps",
+      "name": "Wallet Apps",
+      "projects": [
+        "ambire",
+        "argent",
+        "backpack",
+        "coinbase-wallet",
+        "family",
+        "metamask",
+        "okx-wallet",
+        "phantom",
+        "rabby",
+        "rainbow",
+        "trust-wallet",
+        "zerion"
+      ]
+    },
+    {
+      "id": "chain-abstraction",
+      "name": "Chain Abstraction",
+      "projects": [
+        "enso",
+        "near-intents",
+        "okto",
+        "onebalance",
+        "socket"
+      ]
+    }
+  ]
+}

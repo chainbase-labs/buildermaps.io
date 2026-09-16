@@ -1,0 +1,10 @@
+{
+  "id": "rocket-pool",
+  "name": "Rocket Pool",
+  "description": "Decentralized ETH staking with permissionless node operators. rETH bridges to Arbitrum for DeFi use.",
+  "links": {
+    "homepage": "https://rocketpool.net/",
+    "twitter": "https://x.com/Rocket_Pool",
+    "logo": "/imgs/Arbitrum/LiquidStaking&Restaking/rocket-pool.jpg"
+  }
+}

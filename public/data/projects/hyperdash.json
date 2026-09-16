@@ -1,0 +1,10 @@
+{
+  "id": "hyperdash",
+  "name": "Hyperdash",
+  "description": "Hyperliquid analytics and trading terminal. Whale tracking position monitoring and trader leaderboards.",
+  "links": {
+    "homepage": "https://hyperdash.info/",
+    "twitter": "https://x.com/hypurrdash",
+    "logo": "/imgs/Perp DEX/Terminal&CopyTrading/hyperdash.jpg"
+  }
+}

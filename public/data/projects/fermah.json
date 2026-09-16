@@ -1,0 +1,10 @@
+{
+  "id": "fermah",
+  "name": "Fermah",
+  "description": "Universal proving marketplace matching proof requests with optimal provers. Protocol-agnostic — supports SP1 RISC Zero and other zkVMs.",
+  "links": {
+    "homepage": "https://fermah.xyz/",
+    "twitter": "https://x.com/fermah_xyz",
+    "logo": "/imgs/Modular Blockchain/ZKProving/fermah.jpg"
+  }
+}

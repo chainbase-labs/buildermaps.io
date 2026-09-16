@@ -1,10 +1,10 @@
 {
   "id": "lighter",
   "name": "Lighter",
-  "description": "ZK-powered perpetual and spot exchange on Robinhood Chain. $11M LIT committed to Robinhood community. Stock token and crypto perps via Robinhood Wallet.",
+  "description": "ZK-verified matching engine with provable correctness. $25B weekly volume 248K monthly active addresses. Zero-fee model. TGE Dec 2025. Deployed on Robinhood Chain for tokenized stock perps.",
   "links": {
     "homepage": "https://lighter.xyz/",
-    "logo": "/imgs/tokenized-stocks/lighter.jpg",
+    "logo": "/imgs/Perp DEX/OrderbookPerpDEX/lighter.jpg",
     "twitter": "https://x.com/Lighter_xyz"
   }
 }

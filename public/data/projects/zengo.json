@@ -1,0 +1,10 @@
+{
+  "id": "zengo",
+  "name": "Zengo",
+  "description": "Consumer MPC wallet with no seed phrase — 3FA recovery using biometrics. Longest-running keyless consumer wallet.",
+  "links": {
+    "homepage": "https://zengo.com/",
+    "twitter": "https://x.com/Zengo",
+    "logo": "/imgs/Smart Wallets/KeyManagement/zengo.jpg"
+  }
+}

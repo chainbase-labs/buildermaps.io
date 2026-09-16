@@ -1,0 +1,10 @@
+{
+  "id": "web3auth",
+  "name": "Web3Auth",
+  "description": "MPC social login across 30+ chains including Aptos Sui Cosmos and Bitcoin. Acquired by Consensys and folded into MetaMask's seedless login.",
+  "links": {
+    "homepage": "https://web3auth.io/",
+    "twitter": "https://x.com/web3auth",
+    "logo": "/imgs/Smart Wallets/EmbeddedWallets/web3auth.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "mosslings",
+  "name": "Mosslings",
+  "description": "Arc game centered on building, crafting and trading. The official profile links to its Telegram game entry point.",
+  "links": {
+    "homepage": "https://t.me/MosslingsPlay",
+    "twitter": "https://x.com/PlayMossling",
+    "logo": "/imgs/Arc/Consumer/mosslings.jpg"
+  }
+}

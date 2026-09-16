@@ -1,10 +1,10 @@
 {
   "id": "synapse",
   "name": "Synapse",
-  "description": "Synapse is a cross-chain bridge protocol enabling seamless asset transfers between different blockchain networks.",
+  "description": "Cross-chain bridge and messaging network with long-standing Arbitrum liquidity pools.",
   "location": "",
   "links": {
-    "logo": "/imgs/Base/Infra/synapse.png",
+    "logo": "/imgs/Arbitrum/Bridges&Interop/synapse.jpg",
     "homepage": "https://synapseprotocol.com/",
     "twitter": "https://x.com/SynapseProtocol",
     "github": ""

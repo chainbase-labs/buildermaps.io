@@ -1,0 +1,10 @@
+{
+  "id": "synthra",
+  "name": "Synthra",
+  "description": "Chain-abstracted trading platform combining spot swaps, liquidity routing and perpetuals. Announced an Arc launch for September 16.",
+  "links": {
+    "homepage": "https://synthra.org/",
+    "twitter": "https://x.com/synthra_finance",
+    "logo": "/imgs/Arc/Trading/synthra.jpg"
+  }
+}

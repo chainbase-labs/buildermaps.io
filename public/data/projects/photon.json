@@ -1,0 +1,10 @@
+{
+  "id": "photon",
+  "name": "Photon",
+  "description": "Lightweight browser terminal known for raw execution speed. Auto-adjusting priority fees and Jito-based MEV protection. Long-standing power-user default on Solana.",
+  "links": {
+    "homepage": "https://photon-sol.tinyastro.io/",
+    "twitter": "https://x.com/tradewithPhoton",
+    "logo": "/imgs/Onchain Trading Tools/WebTerminals/photon.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "rhinestone",
+  "name": "Rhinestone",
+  "description": "Module infrastructure for ERC-7579 smart accounts — the app-store layer letting wallets add and remove capabilities. Also builds Omni Account for cross-chain execution.",
+  "links": {
+    "homepage": "https://rhinestone.dev/",
+    "twitter": "https://x.com/rhinestonewtf",
+    "logo": "/imgs/Smart Wallets/SmartAccountInfra/rhinestone.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "arbitrum-orbit",
+  "name": "Arbitrum Orbit",
+  "description": "Arbitrum's L3 appchain framework. Powers Xai ApeChain Proof of Play and gaming-focused chains. Customizable with Stylus for Rust/C++ smart contracts.",
+  "links": {
+    "homepage": "https://arbitrum.io/orbit",
+    "twitter": "https://x.com/arbitrum",
+    "logo": "/imgs/Modular Blockchain/RollupFrameworks/arbitrum-orbit.jpg"
+  }
+}

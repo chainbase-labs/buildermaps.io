@@ -1,10 +1,10 @@
 {
   "id": "timeswap",
   "name": "Timeswap",
-  "description": "Oracle-free AMM-based lending protocol with fixed interest rates and zero liquidation risk.",
+  "description": "Oracle-less fixed-maturity lending with non-liquidatable loans against any ERC-20.",
   "links": {
-    "homepage": "https://link3.to/timeswap_labs",
+    "homepage": "https://timeswap.io/",
     "twitter": "https://x.com/TimeswapLabs",
-    "logo": "/imgs/Hyperliquid/Lending&Borrowing/timeswap.jpg"
+    "logo": "/imgs/Arbitrum/Lending&Yield/timeswap.jpg"
   }
 }

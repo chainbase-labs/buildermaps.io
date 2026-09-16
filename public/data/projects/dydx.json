@@ -1,0 +1,10 @@
+{
+  "id": "dydx",
+  "name": "dYdX",
+  "description": "Perp DEX pioneer on its own Cosmos appchain. Mature governance and long track record. dYdX Labs co-built Arcus DEX on Robinhood Chain with Robinhood Crypto.",
+  "links": {
+    "homepage": "https://dydx.exchange/",
+    "twitter": "https://x.com/dYdX",
+    "logo": "/imgs/Perp DEX/OrderbookPerpDEX/dydx.png"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "sidoor",
+  "name": "Sidoor",
+  "description": "Arc trading terminal combining token discovery, bridging, token launches and trading tools.",
+  "links": {
+    "homepage": "http://sidoor.trade",
+    "twitter": "https://x.com/Sidoorxyz",
+    "logo": "/imgs/Arc/Trading/sidoor.png"
+  }
+}

@@ -1,10 +1,10 @@
 {
   "id": "chainlink-ccip",
   "name": "Chainlink CCIP",
-  "description": "Cross-chain interoperability protocol integrated with Hyperliquid for secure data and asset transfers.",
+  "description": "Cross-Chain Interoperability Protocol — enterprise-grade cross-chain messaging and token transfers backed by Chainlink's decentralized oracle network.",
   "links": {
-    "homepage": "https://chain.link/",
+    "homepage": "https://chain.link/cross-chain",
     "twitter": "https://x.com/chainlink",
-    "logo": "/imgs/Hyperliquid/Oracles&Data/chainlink-ccip.jpg"
+    "logo": "/imgs/Modular Blockchain/Interop&Messaging/chainlink-ccip.jpg"
   }
 }

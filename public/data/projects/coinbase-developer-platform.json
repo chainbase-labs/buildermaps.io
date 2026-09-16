@@ -1,11 +1,11 @@
 {
   "id": "coinbase-developer-platform",
   "name": "Coinbase Developer Platform",
-  "description": "Robust suite of APIs and enterprise-grade tools for building scalable on-chain applications.",
+  "description": "CDP Embedded Wallets (formerly WaaS) — MPC-based with optional smart accounts. Native iOS SDK with passkey integration and first-class agent tooling on Base.",
   "location": "Global",
   "links": {
-    "homepage": "https://www.coinbase.com/developer-platform",
-    "logo": "https://pbs.twimg.com/profile_images/1963276257157840896/OiKkC0Je_400x400.jpg",
+    "homepage": "https://coinbase.com/developer-platform",
+    "logo": "/imgs/Smart Wallets/EmbeddedWallets/coinbase-developer-platform.jpg",
     "twitter": "https://x.com/CoinbaseDev"
   }
 }

@@ -1,10 +1,10 @@
 {
   "id": "puffer-finance",
-  "name": "Puffer Finance",
-  "description": "Anti-slashing LRT protocol issuing pufETH. DVT integration and permissionless validator setup.",
+  "name": "Puffer",
+  "description": "Native liquid restaking with anti-slashing technology. pufETH circulates across Arbitrum DeFi.",
   "links": {
     "homepage": "https://puffer.fi/",
-    "logo": "/imgs/restaking/puffer-finance.jpg",
+    "logo": "/imgs/Arbitrum/LiquidStaking&Restaking/puffer-finance.jpg",
     "twitter": "https://x.com/puffer_finance"
   }
 }

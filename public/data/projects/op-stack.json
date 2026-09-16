@@ -1,0 +1,10 @@
+{
+  "id": "op-stack",
+  "name": "OP Stack",
+  "description": "Optimism's open-source modular rollup framework. Powers Base Worldchain Zora Mode and 40+ chains in the Superchain. Most deployed rollup stack by chain count.",
+  "links": {
+    "homepage": "https://stack.optimism.io/",
+    "twitter": "https://x.com/Optimism",
+    "logo": "/imgs/Modular Blockchain/RollupFrameworks/op-stack.jpg"
+  }
+}

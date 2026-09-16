@@ -1,11 +1,11 @@
 {
   "id": "fluid",
   "name": "Fluid",
-  "description": "Making lending and borrowing on DeFi easier, safer, and more efficient.",
+  "description": "Shared liquidity infrastructure for lending, borrowing and trading. Listed in Arc's official ecosystem directory.",
   "location": "",
   "links": {
-    "logo": "/imgs/Base/DeFi/fluid.png",
-    "homepage": "https://fluid.io/",
+    "logo": "/imgs/Arc/DeFi/fluid.jpg",
+    "homepage": "http://fluid.io",
     "twitter": "https://x.com/0xfluid",
     "github": ""
   }

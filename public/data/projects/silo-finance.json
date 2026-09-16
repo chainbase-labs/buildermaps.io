@@ -1,0 +1,10 @@
+{
+  "id": "silo-finance",
+  "name": "Silo Finance",
+  "description": "Isolated-market lending — each asset gets its own risk silo so long-tail listings cannot contaminate the whole protocol.",
+  "links": {
+    "homepage": "https://silo.finance/",
+    "twitter": "https://x.com/SiloFinance",
+    "logo": "/imgs/Arbitrum/Lending&Yield/silo-finance.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "snapshot",
+  "name": "Snapshot",
+  "description": "Gasless offchain voting used by ArbitrumDAO and most protocol governance on the chain.",
+  "links": {
+    "homepage": "https://snapshot.box/",
+    "twitter": "https://x.com/SnapshotLabs",
+    "logo": "/imgs/Arbitrum/Infrastructure&Tooling/snapshot.jpg"
+  }
+}

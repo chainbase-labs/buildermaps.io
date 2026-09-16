@@ -1,0 +1,10 @@
+{
+  "id": "polygon-cdk",
+  "name": "Polygon CDK",
+  "description": "Polygon's Chain Development Kit for ZK-powered L2s connected via AggLayer. Powers OKX X Layer Immutable zkEVM and Astar zkEVM.",
+  "links": {
+    "homepage": "https://polygon.technology/polygon-cdk",
+    "twitter": "https://x.com/0xPolygon",
+    "logo": "/imgs/Modular Blockchain/RollupFrameworks/polygon-cdk.jpg"
+  }
+}

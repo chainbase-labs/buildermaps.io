@@ -1,10 +1,10 @@
 {
   "id": "dynamic",
   "name": "Dynamic",
-  "description": "Frictionless authentication layer providing intelligent multi-chain wallet onboarding for modern Web3 users and programs.",
+  "description": "MPC-based platform unifying embedded and external wallet connection. Acquired by Fireblocks — bringing institutional custody to consumer onboarding.",
   "links": {
     "homepage": "https://dynamic.xyz/",
-    "logo": "/imgs/agentic-finance/dynamic.png",
+    "logo": "/imgs/Smart Wallets/EmbeddedWallets/dynamic.png",
     "twitter": "https://x.com/dynamic_xyz"
   }
 }

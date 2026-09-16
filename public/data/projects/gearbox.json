@@ -1,10 +1,10 @@
 {
   "id": "gearbox",
   "name": "Gearbox",
-  "description": "Composable leverage protocol. Enables leveraged restaking strategies with LRT collateral on EigenLayer.",
+  "description": "Composable leverage protocol — credit accounts let users take undercollateralized leverage into whitelisted DeFi strategies.",
   "links": {
     "homepage": "https://gearbox.fi/",
-    "logo": "/imgs/restaking/gearbox.png",
+    "logo": "/imgs/Arbitrum/Lending&Yield/gearbox.png",
     "twitter": "https://x.com/GearboxProtocol"
   }
 }

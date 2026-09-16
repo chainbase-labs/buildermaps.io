@@ -1,0 +1,10 @@
+{
+  "id": "aka-fun",
+  "name": "aka.fun",
+  "description": "Arc token launchpad combining token issuance, trading-fee distribution and an RWA treasury design.",
+  "links": {
+    "homepage": "https://aka.fun",
+    "twitter": "https://x.com/akadotfun",
+    "logo": "/imgs/Arc/Launchpads/aka-fun.jpg"
+  }
+}

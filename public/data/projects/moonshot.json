@@ -1,0 +1,10 @@
+{
+  "id": "moonshot",
+  "name": "Moonshot",
+  "description": "Simplest onchain buying flow with fiat onramp and tokenized stocks. 2M+ users — the mainstream entry point to memecoin trading.",
+  "links": {
+    "homepage": "https://moonshot.com/",
+    "twitter": "https://x.com/moonshot",
+    "logo": "/imgs/Onchain Trading Tools/MobileApps/moonshot.jpg"
+  }
+}

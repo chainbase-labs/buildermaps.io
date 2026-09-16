@@ -1,0 +1,10 @@
+{
+  "id": "xai",
+  "name": "Xai",
+  "description": "Gaming-dedicated Orbit L3 co-developed with Offchain Labs using AnyTrust. Abstracted wallets for players and higher gas limits for developers.",
+  "links": {
+    "homepage": "https://xai.games/",
+    "twitter": "https://x.com/XAI_GAMES",
+    "logo": "/imgs/Arbitrum/OrbitChains/xai.jpg"
+  }
+}

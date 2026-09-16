@@ -1,11 +1,11 @@
 {
   "id": "axelar",
   "name": "Axelar",
-  "description": "Axelar is the Gateway to Onchain Finance, a decentralized network and development platform securely connecting the world's blockchains and financial infrastructure.",
+  "description": "Interoperability network connecting blockchains and applications. Listed in Arc's official ecosystem directory.",
   "location": "",
   "links": {
-    "logo": "/imgs/Base/Infra/axelar.png",
-    "homepage": "https://www.axelar.network/",
+    "logo": "/imgs/Arc/Infrastructure/axelar.jpg",
+    "homepage": "http://axelar.network",
     "twitter": "https://x.com/axelar",
     "github": ""
   }

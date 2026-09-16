@@ -1,12 +1,12 @@
 {
   "id": "beefy",
   "name": "Beefy",
-  "description": "Beefy is a Decentralized, Multichain Yield Optimizer that allows its users to earn compound interest on their crypto holdings. Beefy earns you the highest APYs with safety and efficiency in mind.",
+  "description": "Multi-chain autocompounder with one of the widest vault selections on Arbitrum.",
   "location": "",
   "links": {
-    "logo": "/imgs/monad/beefy.png",
+    "logo": "/imgs/Arbitrum/Lending&Yield/beefy.jpg",
     "homepage": "https://beefy.com/",
-    "twitter": "https://x.com/BeefyFinance",
+    "twitter": "https://x.com/beefyfinance",
     "github": ""
   }
 }

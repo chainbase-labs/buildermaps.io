@@ -1,0 +1,120 @@
+{
+  "sector": "Arc",
+  "types": [
+    {
+      "id": "trading",
+      "name": "Trading",
+      "projects": [
+        "edgex",
+        "hibachi",
+        "o1-exchange",
+        "radar-dex",
+        "sidoor",
+        "synthra",
+        "tower"
+      ]
+    },
+    {
+      "id": "defi",
+      "name": "DeFi",
+      "projects": [
+        "aave",
+        "aerodrome",
+        "curve",
+        "fluid",
+        "lunya",
+        "maple",
+        "morpho",
+        "superform",
+        "uniswap",
+        "unitflow"
+      ]
+    },
+    {
+      "id": "wallets",
+      "name": "Wallets",
+      "projects": [
+        "blockradar",
+        "dfns",
+        "exodus",
+        "fireblocks",
+        "ledger",
+        "metamask",
+        "privy",
+        "rabby-wallet",
+        "rainbow",
+        "safepal",
+        "zerion"
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "projects": [
+        "across",
+        "alchemy",
+        "axelar",
+        "blockscout",
+        "chainlink",
+        "chronicle-labs",
+        "circle",
+        "drpc",
+        "goldsky",
+        "hinkal",
+        "layerzero",
+        "quicknode",
+        "redstone"
+      ]
+    },
+    {
+      "id": "launchpads",
+      "name": "Launchpads",
+      "projects": [
+        "act-fun",
+        "aka-fun",
+        "arcane",
+        "archemist",
+        "arcpad",
+        "ayoo",
+        "bigshort",
+        "ellipse-fun",
+        "eve-fun",
+        "flutch",
+        "lift",
+        "minara-fun",
+        "sashimi-fun",
+        "tolly",
+        "ubi-fun",
+        "warp",
+        "zyora"
+      ]
+    },
+    {
+      "id": "payments",
+      "name": "Payments",
+      "projects": [
+        "crossmint",
+        "nexora",
+        "xylonet"
+      ]
+    },
+    {
+      "id": "rwa",
+      "name": "RWA",
+      "projects": [
+        "centrifuge",
+        "long"
+      ]
+    },
+    {
+      "id": "consumer",
+      "name": "Consumer",
+      "projects": [
+        "arclens",
+        "mosslings",
+        "orixa",
+        "orixa-domains"
+      ]
+    }
+  ]
+}

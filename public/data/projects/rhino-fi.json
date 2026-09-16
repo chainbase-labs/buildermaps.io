@@ -1,0 +1,10 @@
+{
+  "id": "rhino-fi",
+  "name": "rhino.fi",
+  "description": "Multi-chain bridge and DeFi aggregator with low-cost transfers between Arbitrum and 20+ networks.",
+  "links": {
+    "homepage": "https://rhino.fi/",
+    "twitter": "https://x.com/rhinofi",
+    "logo": "/imgs/Arbitrum/Bridges&Interop/rhino-fi.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "tolly",
+  "name": "Tolly",
+  "description": "Arc platform combining a token launchpad, trading terminal and onchain discovery tools.",
+  "links": {
+    "homepage": "https://tollylabs.com/",
+    "twitter": "https://x.com/TollyLabs",
+    "logo": "/imgs/Arc/Launchpads/tolly.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "yearn",
+  "name": "Yearn",
+  "description": "Original yield aggregator — automated vault strategies routing capital across Arbitrum lending and LP opportunities.",
+  "links": {
+    "homepage": "https://yearn.fi/",
+    "twitter": "https://x.com/yearnfi",
+    "logo": "/imgs/Arbitrum/Lending&Yield/yearn.png"
+  }
+}

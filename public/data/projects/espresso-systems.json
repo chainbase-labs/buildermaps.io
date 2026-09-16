@@ -1,10 +1,10 @@
 {
   "id": "espresso-systems",
   "name": "Espresso Systems",
-  "description": "Decentralized shared sequencing for rollups with Ethereum-consistent ordering.",
+  "description": "Most well-funded shared sequencer — HotShot consensus protocol coordinating transaction ordering across L2 rollups. Integrated with Injective and multiple Ethereum rollups. Improves cross-chain composability.",
   "links": {
     "homepage": "https://espressosys.com/",
-    "logo": "/imgs/restaking/espresso-systems.png",
+    "logo": "/imgs/Modular Blockchain/SharedSequencing/espresso-systems.png",
     "twitter": "https://x.com/EspressoSys"
   }
 }

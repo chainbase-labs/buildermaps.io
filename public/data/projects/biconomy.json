@@ -1,0 +1,10 @@
+{
+  "id": "biconomy",
+  "name": "Biconomy",
+  "description": "Nexus modular smart account with strong paymaster tooling and broad multi-chain coverage. Supports both ERC-4337 and EIP-7702 delegation flows.",
+  "links": {
+    "homepage": "https://biconomy.io/",
+    "twitter": "https://x.com/biconomy",
+    "logo": "/imgs/Smart Wallets/SmartAccountInfra/biconomy.jpg"
+  }
+}

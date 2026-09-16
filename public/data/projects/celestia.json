@@ -1,0 +1,10 @@
+{
+  "id": "celestia",
+  "name": "Celestia",
+  "description": "First modular DA layer — independent L1 with Data Availability Sampling (DAS). Dominates DA market share. Matcha upgrade doubling block sizes to 128MB. Fibre Blockspace targets 1Tbps throughput.",
+  "links": {
+    "homepage": "https://celestia.org/",
+    "twitter": "https://x.com/Celestia",
+    "logo": "/imgs/Modular Blockchain/DataAvailability/celestia.jpg"
+  }
+}

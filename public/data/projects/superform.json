@@ -1,10 +1,10 @@
 {
   "id": "superform",
   "name": "Superform",
-  "description": "Universal cross chain yield marketplace for decentralized finance.",
+  "description": "Onchain financial app providing access to yield, trading and payments. Included in the supplied Arc ecosystem map; Arc deployment status requires confirmation.",
   "links": {
-    "homepage": "https://t.co/O2XoVnh3Bf",
-    "logo": "https://pbs.twimg.com/profile_images/1937588443166416896/4S5X6QSi_400x400.png",
+    "homepage": "http://superform.xyz",
+    "logo": "/imgs/Arc/DeFi/superform.png",
     "twitter": "https://x.com/superformxyz"
   }
 }

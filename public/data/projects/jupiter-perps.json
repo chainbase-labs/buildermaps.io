@@ -1,0 +1,10 @@
+{
+  "id": "jupiter-perps",
+  "name": "Jupiter Perps",
+  "description": "Largest Solana pool-based perps via JLP pool. Zero slippage oracle execution. Integrated into Jupiter's dominant aggregator front-end.",
+  "links": {
+    "homepage": "https://jup.ag/perps",
+    "twitter": "https://x.com/JupiterExchange",
+    "logo": "/imgs/Perp DEX/Pool-basedPerpDEX/jupiter-perps.jpg"
+  }
+}

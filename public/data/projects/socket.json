@@ -1,10 +1,10 @@
 {
   "id": "socket",
-  "name": "SOCKET",
-  "description": "Interoperability protocol enabling seamless asset and data transfers across chains to power unified Web3 experiences.",
+  "name": "Socket",
+  "description": "Modular order flow and chain-abstraction layer — Bungee routing plus infrastructure for unified cross-chain UX.",
   "links": {
-    "homepage": "https://linktr.ee/socketprotocol",
-    "twitter": "https://x.com/SOCKETProtocol",
-    "logo": "/imgs/Cross Chain/BridgeAggregators/socket.jpg"
+    "homepage": "https://socket.tech/",
+    "twitter": "https://x.com/SocketDotTech",
+    "logo": "/imgs/Smart Wallets/ChainAbstraction/socket.jpg"
   }
 }

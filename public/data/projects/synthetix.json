@@ -1,10 +1,10 @@
 {
   "id": "synthetix",
   "name": "Synthetix",
-  "description": "Pioneer of onchain synthetic assets. Enables synthetic exposure to stocks forex commodities via derivatives liquidity protocol.",
+  "description": "OG synthetic asset protocol. Synthetix Perps v3 powers derivatives liquidity across Ethereum and Base. SNX debt pool as counterparty.",
   "links": {
     "homepage": "https://synthetix.io/",
-    "logo": "/imgs/tokenized-stocks/synthetix.png",
+    "logo": "/imgs/Perp DEX/Pool-basedPerpDEX/synthetix.png",
     "twitter": "https://x.com/synthetix"
   }
 }

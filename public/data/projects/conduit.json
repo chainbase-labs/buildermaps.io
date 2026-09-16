@@ -1,0 +1,10 @@
+{
+  "id": "conduit",
+  "name": "Conduit",
+  "description": "Production-grade RaaS with strong DevOps tooling. Three-step no-code rollup deployment. Powers Zora Base Camp Mode and other major L2s. Deep OP Stack expertise.",
+  "links": {
+    "homepage": "https://conduit.xyz/",
+    "twitter": "https://x.com/conduitxyz",
+    "logo": "/imgs/Modular Blockchain/Rollup-as-a-Service/conduit.jpg"
+  }
+}

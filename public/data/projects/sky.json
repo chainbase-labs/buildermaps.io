@@ -1,0 +1,10 @@
+{
+  "id": "sky",
+  "name": "Sky",
+  "description": "Formerly MakerDAO. USDS and the Sky Savings Rate reach Arbitrum through the Spark deployment.",
+  "links": {
+    "homepage": "https://sky.money/",
+    "twitter": "https://x.com/SkyEcosystem",
+    "logo": "/imgs/Arbitrum/Stablecoins&RWA/sky.jpg"
+  }
+}

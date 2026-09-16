@@ -1,0 +1,10 @@
+{
+  "id": "derive",
+  "name": "Derive",
+  "description": "Formerly Lyra — onchain options and structured products with portfolio margin and automated vaults.",
+  "links": {
+    "homepage": "https://derive.xyz/",
+    "twitter": "https://x.com/derivexyz",
+    "logo": "/imgs/Arbitrum/Perps&Derivatives/derive.jpg"
+  }
+}

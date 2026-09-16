@@ -1,11 +1,11 @@
 {
   "id": "chainlink",
   "name": "Chainlink",
-  "description": "Industry-standard decentralized oracle network securely connecting smart contracts to critical off-chain data feeds.",
+  "description": "Oracle and interoperability infrastructure. Circle announced Chainlink among expected Arc launch integrations.",
   "founded": 2017,
   "funding": 32000000,
   "links": {
-    "homepage": "https://t.co/BAUYJHD623",
+    "homepage": "https://chain.link",
     "twitter": "https://x.com/chainlink",
     "github": "https://github.com/smartcontractkit",
     "telegram": "https://t.me/chainlinkofficial",
@@ -13,6 +13,6 @@
     "linkedin": "https://www.linkedin.com/company/chainlink-labs",
     "medium": "https://blog.chain.link",
     "reddit": "https://reddit.com/r/chainlink",
-    "logo": "/imgs/Ambassador Program/Oracle/chainlink.png"
+    "logo": "/imgs/Arc/Infrastructure/chainlink.jpg"
   }
 }

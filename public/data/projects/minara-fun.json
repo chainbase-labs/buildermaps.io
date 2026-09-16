@@ -1,0 +1,10 @@
+{
+  "id": "minara-fun",
+  "name": "Minara.fun",
+  "description": "Arc launchpad for tokens with USDC-denominated liquidity.",
+  "links": {
+    "homepage": "http://minara.fun",
+    "twitter": "https://x.com/minarafun",
+    "logo": "/imgs/Arc/Launchpads/minara-fun.jpg"
+  }
+}

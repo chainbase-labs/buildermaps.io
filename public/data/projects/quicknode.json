@@ -1,13 +1,13 @@
 {
   "id": "quicknode",
-  "name": "QuickNode",
-  "description": "QuickNode is a web3 developer platform providing RPC endpoints, node infrastructure, APIs, and tooling for teams building on Flare and other blockchain networks.",
+  "name": "Quicknode",
+  "description": "Blockchain RPC and developer infrastructure. Listed in Arc's official ecosystem directory.",
   "founded": null,
   "funding": null,
   "links": {
     "homepage": "https://www.quicknode.com/",
-    "logo": "/imgs/agentic-finance/quicknode.jpg",
-    "twitter": "https://x.com/QuickNode",
+    "logo": "/imgs/Arc/Infrastructure/quicknode.jpg",
+    "twitter": "https://x.com/Quicknode",
     "github": ""
   }
 }

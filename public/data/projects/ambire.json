@@ -1,0 +1,10 @@
+{
+  "id": "ambire",
+  "name": "Ambire",
+  "description": "Smart account wallet with gas payment in stablecoins transaction batching and EIP-7702 support for existing EOAs.",
+  "links": {
+    "homepage": "https://ambire.com/",
+    "twitter": "https://x.com/AmbireWallet",
+    "logo": "/imgs/Smart Wallets/WalletApps/ambire.jpg"
+  }
+}

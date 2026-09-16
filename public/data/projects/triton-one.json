@@ -1,11 +1,11 @@
 {
   "id": "triton-one",
   "name": "Triton One",
-  "description": "Triton One is a high-performance RPC service for the Sui network, designed for speed, reliability, and scalability.",
+  "description": "High-performance Solana RPC provider serving latency-sensitive trading infrastructure and validators.",
   "founded": null,
   "funding": null,
   "links": {
-    "logo": "/imgs/Sui/InfraTools/Triton One.png",
+    "logo": "/imgs/Onchain Trading Tools/ExecutionInfra/triton-one.jpg",
     "twitter": "https://x.com/triton_one",
     "homepage": "https://triton.one/",
     "discord": "https://discord.gg/Vsjpghdhb3"

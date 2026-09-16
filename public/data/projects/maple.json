@@ -1,0 +1,10 @@
+{
+  "id": "maple",
+  "name": "Maple",
+  "description": "Onchain asset-management and lending platform. Listed in Arc's official ecosystem directory.",
+  "links": {
+    "homepage": "http://maple.finance",
+    "twitter": "https://x.com/maplefinance",
+    "logo": "/imgs/Arc/DeFi/maple.jpg"
+  }
+}

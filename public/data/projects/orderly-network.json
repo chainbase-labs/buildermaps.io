@@ -1,0 +1,10 @@
+{
+  "id": "orderly-network",
+  "name": "Orderly Network",
+  "description": "Omnichain CLOB liquidity layer powering 40+ perp front-ends across EVM Solana and Sui. Shared orderbook infrastructure — the 'liquidity layer of Web3'.",
+  "links": {
+    "homepage": "https://orderly.network/",
+    "twitter": "https://x.com/OrderlyNetwork",
+    "logo": "/imgs/Perp DEX/Aggregator/orderly-network.jpg"
+  }
+}

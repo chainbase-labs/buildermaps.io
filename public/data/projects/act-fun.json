@@ -1,0 +1,10 @@
+{
+  "id": "act-fun",
+  "name": "ACT FUN",
+  "description": "Token launchpad and trading terminal offering configurable liquidity-pool graduation on Arc.",
+  "links": {
+    "homepage": "http://actfun.pro",
+    "twitter": "https://x.com/actfunxyz",
+    "logo": "/imgs/Arc/Launchpads/act-fun.jpg"
+  }
+}

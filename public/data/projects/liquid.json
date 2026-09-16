@@ -1,10 +1,10 @@
 {
   "id": "liquid",
   "name": "Liquid",
-  "description": "Bitcoin sidechain network facilitating rapid and highly confidential digital asset transactions.",
+  "description": "Non-custodial mobile-first perp aggregator integrating Hyperliquid Lighter and Ostium. One-tap cross-venue execution.",
   "links": {
-    "homepage": "https://liquid.net/",
-    "twitter": "https://x.com/Liquid_BTC",
-    "logo": "/imgs/Bitcoin ecosystem/Scaling/liquid.jpg"
+    "homepage": "https://liquid.trading/",
+    "twitter": "https://x.com/liquidtrading",
+    "logo": "/imgs/Perp DEX/Aggregator/liquid.jpg"
   }
 }

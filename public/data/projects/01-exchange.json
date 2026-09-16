@@ -1,0 +1,10 @@
+{
+  "id": "01-exchange",
+  "name": "01 Exchange",
+  "description": "Perp DEX powered by the N1 blockchain. Private invitation-only testnet.",
+  "links": {
+    "homepage": "https://01.xyz/",
+    "twitter": "https://x.com/01Exchange",
+    "logo": "/imgs/Perp DEX/Upcoming/01-exchange.jpg"
+  }
+}

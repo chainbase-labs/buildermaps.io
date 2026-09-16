@@ -1,0 +1,10 @@
+{
+  "id": "etherspot",
+  "name": "Etherspot",
+  "description": "Skandha bundler and modular smart account SDK with broad chain coverage. Long-running independent AA provider.",
+  "links": {
+    "homepage": "https://etherspot.io/",
+    "twitter": "https://x.com/etherspot",
+    "logo": "/imgs/Smart Wallets/SmartAccountInfra/etherspot.jpg"
+  }
+}

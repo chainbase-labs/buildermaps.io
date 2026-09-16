@@ -1,0 +1,10 @@
+{
+  "id": "dex-screener",
+  "name": "DEX Screener",
+  "description": "The default chart and token discovery layer for onchain trading. Real-time pairs across every major chain with trending boards and alerts.",
+  "links": {
+    "homepage": "https://dexscreener.com/",
+    "twitter": "https://x.com/dexscreener",
+    "logo": "/imgs/Onchain Trading Tools/Analytics&Discovery/dex-screener.jpg"
+  }
+}

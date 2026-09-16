@@ -1,0 +1,10 @@
+{
+  "id": "zerion",
+  "name": "Zerion",
+  "description": "Self-custody wallet with portfolio tracking and onchain trading. Included in the supplied Arc ecosystem map; Arc deployment status requires confirmation.",
+  "links": {
+    "homepage": "https://download.zerion.io/hwvTT",
+    "twitter": "https://x.com/zerion",
+    "logo": "/imgs/Arc/Wallets/zerion.jpg"
+  }
+}

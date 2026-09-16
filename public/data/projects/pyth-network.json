@@ -1,10 +1,10 @@
 {
   "id": "pyth-network",
   "name": "Pyth Network",
-  "description": "High-fidelity blockchain oracle providing real-time market data feeds for Hyperliquid markets.",
+  "description": "High-frequency oracle powering most major perp DEXs including Drift Hyperliquid HIP-3 markets and Synthetix. Sub-second price updates from first-party publishers.",
   "links": {
     "homepage": "https://pyth.network/",
     "twitter": "https://x.com/PythNetwork",
-    "logo": "/imgs/Hyperliquid/Oracles&Data/pyth-network.png"
+    "logo": "/imgs/Perp DEX/Oracle&Infrastructure/pyth-network.jpg"
   }
 }

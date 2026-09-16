@@ -1,10 +1,10 @@
 {
   "id": "backpack",
   "name": "Backpack",
-  "description": "Regulated exchange combining brokerage with onchain settlement on Solana. Sourced tokenized SpaceX shares directly as broker-dealer on listing day. Leader in tokenized equity spot volume.",
+  "description": "xNFT-native wallet paired with a regulated exchange. Popular with Solana power users.",
   "links": {
-    "homepage": "https://backpack.exchange/",
-    "logo": "/imgs/tokenized-stocks/backpack.jpg",
+    "homepage": "https://backpack.app/",
+    "logo": "/imgs/Smart Wallets/WalletApps/backpack.jpg",
     "twitter": "https://x.com/Backpack"
   }
 }

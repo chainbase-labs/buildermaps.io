@@ -1,0 +1,10 @@
+{
+  "id": "stackup",
+  "name": "Stackup",
+  "description": "Open-source ERC-4337 bundler and paymaster service. One of the original independent infra providers for account abstraction.",
+  "links": {
+    "homepage": "https://stackup.sh/",
+    "twitter": "https://x.com/stackup_fi",
+    "logo": "/imgs/Smart Wallets/SmartAccountInfra/stackup.jpg"
+  }
+}

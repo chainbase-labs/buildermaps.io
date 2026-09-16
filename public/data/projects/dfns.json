@@ -1,0 +1,10 @@
+{
+  "id": "dfns",
+  "name": "DFNS",
+  "description": "Wallet and key-management infrastructure for institutions and fintechs. Listed in Arc's official ecosystem directory.",
+  "links": {
+    "homepage": "http://dfns.co",
+    "twitter": "https://x.com/dfnsHQ",
+    "logo": "/imgs/Arc/Wallets/dfns.png"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "nexora",
+  "name": "Nexora",
+  "description": "Building USDC payment and financial-control infrastructure for AI agents on Arc.",
+  "links": {
+    "homepage": "http://nexorafi.app",
+    "twitter": "https://x.com/nexorafi",
+    "logo": "/imgs/Arc/Payments/nexora.jpg"
+  }
+}

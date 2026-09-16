@@ -1,0 +1,10 @@
+{
+  "id": "archemist",
+  "name": "Archemist",
+  "description": "Arc token launchpad with creator-fee distribution and a social launch bot. Its official profile reports mainnet availability.",
+  "links": {
+    "homepage": "http://archemist.fun",
+    "twitter": "https://x.com/Archemistdotfun",
+    "logo": "/imgs/Arc/Launchpads/archemist.jpg"
+  }
+}

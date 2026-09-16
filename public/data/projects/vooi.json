@@ -1,0 +1,10 @@
+{
+  "id": "vooi",
+  "name": "Vooi",
+  "description": "Perp DEX aggregator routing across Hyperliquid Orderly Aster and more. One balance zero gas no bridges. Chain abstraction with AI infrastructure.",
+  "links": {
+    "homepage": "https://vooi.io/",
+    "twitter": "https://x.com/vooi_io",
+    "logo": "/imgs/Perp DEX/Aggregator/vooi.jpg"
+  }
+}

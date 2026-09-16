@@ -1,0 +1,10 @@
+{
+  "id": "kerneldao",
+  "name": "KernelDAO",
+  "description": "Formerly Kelp DAO — rsETH liquid restaking with multi-chain distribution including Arbitrum.",
+  "links": {
+    "homepage": "https://kerneldao.com/",
+    "twitter": "https://x.com/kernel_dao",
+    "logo": "/imgs/Arbitrum/LiquidStaking&Restaking/kerneldao.jpg"
+  }
+}

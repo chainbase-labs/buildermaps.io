@@ -1,0 +1,10 @@
+{
+  "id": "coinbase-wallet",
+  "name": "Coinbase Wallet",
+  "description": "Coinbase Smart Wallet — passkey-native onboarding with no extension or seed phrase. One of the two largest smart account deployers alongside Safe.",
+  "links": {
+    "homepage": "https://wallet.coinbase.com/",
+    "twitter": "https://x.com/CoinbaseWallet",
+    "logo": "/imgs/Smart Wallets/WalletApps/coinbase-wallet.jpg"
+  }
+}

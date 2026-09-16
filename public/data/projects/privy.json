@@ -1,10 +1,10 @@
 {
   "id": "privy",
   "name": "Privy",
-  "description": "Developer framework delivering embedded secure authentication and hidden wallets for programmatic applications.",
+  "description": "Embedded-wallet infrastructure with authentication and key management. Listed in Arc's official ecosystem directory.",
   "links": {
-    "homepage": "https://privy.io/",
-    "logo": "/imgs/agentic-finance/privy.jpg",
+    "homepage": "https://privy.io",
+    "logo": "/imgs/Arc/Wallets/privy.jpg",
     "twitter": "https://x.com/privy_io"
   }
 }

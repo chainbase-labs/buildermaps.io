@@ -1,0 +1,10 @@
+{
+  "id": "stryke",
+  "name": "Stryke",
+  "description": "Formerly Dopex — options liquidity built on concentrated liquidity positions so LPs earn option premia.",
+  "links": {
+    "homepage": "https://stryke.xyz/",
+    "twitter": "https://x.com/stryke_xyz",
+    "logo": "/imgs/Arbitrum/Perps&Derivatives/stryke.jpg"
+  }
+}

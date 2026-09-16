@@ -1,0 +1,10 @@
+{
+  "id": "radiant-capital",
+  "name": "Radiant Capital",
+  "description": "Cross-chain money market that originated on Arbitrum. Suffered a major exploit in October 2024 and has operated in a reduced capacity since.",
+  "links": {
+    "homepage": "https://radiant.capital/",
+    "twitter": "https://x.com/RDNTCapital",
+    "logo": "/imgs/Arbitrum/Lending&Yield/radiant-capital.jpg"
+  }
+}

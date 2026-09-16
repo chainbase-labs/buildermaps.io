@@ -1,0 +1,10 @@
+{
+  "id": "angle",
+  "name": "Angle",
+  "description": "Euro stablecoin issuer (EURA) with a yield-bearing savings product. The main non-USD stablecoin presence on Arbitrum.",
+  "links": {
+    "homepage": "https://angle.money/",
+    "twitter": "https://x.com/AngleProtocol",
+    "logo": "/imgs/Arbitrum/Stablecoins&RWA/angle.jpg"
+  }
+}

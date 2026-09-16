@@ -1,0 +1,10 @@
+{
+  "id": "pirate-nation",
+  "name": "Pirate Nation",
+  "description": "Fully onchain RPG by Proof of Play running on its own Orbit chain. Reference implementation for autonomous world design.",
+  "links": {
+    "homepage": "https://piratenation.game/",
+    "twitter": "https://x.com/PirateNationNFT",
+    "logo": "/imgs/Arbitrum/Gaming&NFT/pirate-nation.jpg"
+  }
+}

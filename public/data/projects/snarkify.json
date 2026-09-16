@@ -1,0 +1,10 @@
+{
+  "id": "snarkify",
+  "name": "Snarkify",
+  "description": "ZK proving infrastructure offering managed prover services and GPU-accelerated proof generation for rollups and ZK applications.",
+  "links": {
+    "homepage": "https://snarkify.io/",
+    "twitter": "https://x.com/Snarkify_ZKP",
+    "logo": "/imgs/Modular Blockchain/ZKProving/snarkify.png"
+  }
+}

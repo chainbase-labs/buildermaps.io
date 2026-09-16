@@ -1,11 +1,11 @@
 {
   "id": "brevis",
-  "name": "Brevis ",
-  "description": "Brevis is a ZK coprocessor for smart contracts enabling trustless cross-chain data access.",
+  "name": "Brevis",
+  "description": "Pico modular zkVM plus zkCoprocessor. Prism achieved 6.9s average proof time on 64x RTX 5090 cluster — record under Ethereum Foundation RTP framework. 96.8% real-time proving coverage.",
   "location": "Global",
   "links": {
-    "logo": "/imgs/privacy/zk/brevis.png",
-    "homepage": "brevis.network",
+    "logo": "/imgs/Modular Blockchain/ZKProving/brevis.jpg",
+    "homepage": "https://brevis.network/",
     "twitter": "https://x.com/brevis_zk"
   }
 }

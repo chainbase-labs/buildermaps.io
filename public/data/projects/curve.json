@@ -1,12 +1,12 @@
 {
   "id": "curve",
   "name": "Curve",
-  "description": "Overcollateralized stablecoin with LLAMMA soft-liquidation mechanism",
+  "description": "Decentralized exchange focused on stablecoin liquidity. Listed in Arc's official ecosystem directory.",
   "founded": 2023,
   "funding": null,
   "links": {
-    "homepage": "https://www.curve.finance/",
-    "logo": "/imgs/monad/curve.jpg",
+    "homepage": "https://www.curve.finance",
+    "logo": "/imgs/Arc/DeFi/curve.jpg",
     "twitter": "https://x.com/CurveFinance",
     "telegram": "https://t.me/curvefi",
     "discord": "https://discord.gg/curve",

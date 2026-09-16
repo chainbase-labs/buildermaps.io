@@ -1,0 +1,10 @@
+{
+  "id": "overnight",
+  "name": "Overnight",
+  "description": "USD+ yield-bearing stablecoin that passes underlying DeFi yield to holders via daily rebases.",
+  "links": {
+    "homepage": "https://overnight.fi/",
+    "twitter": "https://x.com/overnight_fi",
+    "logo": "/imgs/Arbitrum/Stablecoins&RWA/overnight.jpg"
+  }
+}

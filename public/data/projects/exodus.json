@@ -1,0 +1,10 @@
+{
+  "id": "exodus",
+  "name": "Exodus",
+  "description": "Multichain self-custody wallet for managing and exchanging digital assets. Listed in Arc's official ecosystem directory.",
+  "links": {
+    "homepage": "https://www.exodus.com",
+    "twitter": "https://x.com/exodus",
+    "logo": "/imgs/Arc/Wallets/exodus.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "frax",
+  "name": "Frax",
+  "description": "frxETH and sfrxETH liquid staking plus frxUSD stablecoin. Long-standing Arbitrum liquidity across Curve and Convex-style venues.",
+  "links": {
+    "homepage": "https://frax.finance/",
+    "twitter": "https://x.com/fraxfinance",
+    "logo": "/imgs/Arbitrum/LiquidStaking&Restaking/frax.jpg"
+  }
+}

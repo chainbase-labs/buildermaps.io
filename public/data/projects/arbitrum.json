@@ -1,11 +1,11 @@
 {
   "id": "arbitrum",
-  "name": "Arbitrum",
-  "description": "Leading Ethereum Layer-2 scaling solution delivering high-throughput and low-cost transaction environments.",
+  "name": "Arbitrum Foundation",
+  "description": "Steward of the Arbitrum DAO and ARB treasury. Oversees Arbitrum One and the Nova AnyTrust chain. Funds ecosystem growth through STIP grants and Gaming Ventures.",
   "location": "",
   "links": {
-    "logo": "/imgs/Ambassador Program/ScalingLayer/arbitrum.png",
-    "homepage": "https://t.co/sXAprMetrj",
+    "logo": "/imgs/Arbitrum/Infrastructure&Tooling/arbitrum.jpg",
+    "homepage": "https://arbitrum.foundation/",
     "twitter": "https://x.com/arbitrum",
     "github": ""
   }

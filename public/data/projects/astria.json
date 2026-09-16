@@ -1,0 +1,10 @@
+{
+  "id": "astria",
+  "name": "Astria",
+  "description": "Shared sequencer network for rollups enabling cross-rollup atomic composability. Designed for the modular stack. Shutdown and restart in 2025 highlighted RaaS infrastructure risks.",
+  "links": {
+    "homepage": "https://astria.org/",
+    "twitter": "https://x.com/AstriaOrg",
+    "logo": "/imgs/Modular Blockchain/SharedSequencing/astria.jpg"
+  }
+}

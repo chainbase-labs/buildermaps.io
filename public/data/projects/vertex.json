@@ -1,0 +1,10 @@
+{
+  "id": "vertex",
+  "name": "Vertex",
+  "description": "Hybrid orderbook-AMM perp DEX on Arbitrum with cross-margin. Edge synchronous orderbook shares liquidity across chains.",
+  "links": {
+    "homepage": "https://vertexprotocol.com/",
+    "twitter": "https://x.com/vertex_protocol",
+    "logo": "/imgs/Perp DEX/OrderbookPerpDEX/vertex.jpg"
+  }
+}

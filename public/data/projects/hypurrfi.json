@@ -1,10 +1,10 @@
 {
   "id": "hypurrfi",
   "name": "HypurrFi",
-  "description": "Debt servicing infrastructure with pooled and isolated markets, issuer of USDXL overcollateralized synthetic dollar.",
+  "description": "Hyperliquid-native lending market. Borrow against HYPE and LSTs to loop into perp collateral strategies.",
   "links": {
-    "homepage": "https://hypurrfi.com/",
+    "homepage": "https://hypurr.fi/",
     "twitter": "https://x.com/hypurrfi",
-    "logo": "/imgs/Hyperliquid/Lending&Borrowing/hypurrfi.jpg"
+    "logo": "/imgs/Perp DEX/Ecosystem&Collateral/hypurrfi.jpg"
   }
 }

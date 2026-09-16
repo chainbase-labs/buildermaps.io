@@ -1,10 +1,10 @@
 {
   "id": "robinhood-chain",
   "name": "Robinhood Chain",
-  "description": "Ethereum L2 built on Arbitrum. Launched July 2026 with Stock Tokens in 120+ countries. 2000+ token catalog. AI-native purpose-built for tokenized equities. Day-one DeFi ecosystem.",
+  "description": "Arbitrum Orbit L2 that reached mainnet July 1 2026. Stock Tokens for 120+ countries with a day-one DeFi ecosystem — the most visible institutional bet on the Arbitrum stack.",
   "links": {
     "homepage": "https://robinhood.com/",
-    "logo": "/imgs/tokenized-stocks/robinhood-chain.png",
+    "logo": "/imgs/Arbitrum/OrbitChains/robinhood-chain.png",
     "twitter": "https://x.com/RobinhoodApp"
   }
 }

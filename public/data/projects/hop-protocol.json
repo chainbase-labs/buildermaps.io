@@ -1,0 +1,10 @@
+{
+  "id": "hop-protocol",
+  "name": "Hop Protocol",
+  "description": "Rollup-to-rollup token bridge using bonded liquidity for fast exits from Arbitrum.",
+  "links": {
+    "homepage": "https://hop.exchange/",
+    "twitter": "https://x.com/HopProtocol",
+    "logo": "/imgs/Arbitrum/Bridges&Interop/hop-protocol.jpg"
+  }
+}

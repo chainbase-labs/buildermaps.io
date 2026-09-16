@@ -1,10 +1,10 @@
 {
   "id": "gmx",
   "name": "GMX",
-  "description": "Leading decentralized perpetual and spot exchange integrated on MegaETH mainnet from day one alongside Chainlink Scale.",
+  "description": "Pioneer of pool-based perps on Arbitrum and Avalanche. GLP/GM pools earn real trading fees. Zero price-impact trades at oracle price. The original 'real yield' protocol.",
   "links": {
     "homepage": "https://gmx.io/",
     "twitter": "https://x.com/GMX_IO",
-    "logo": "/imgs/MegaETH/Derivatives&Trading/gmx.jpg"
+    "logo": "/imgs/Perp DEX/Pool-basedPerpDEX/gmx.jpg"
   }
 }

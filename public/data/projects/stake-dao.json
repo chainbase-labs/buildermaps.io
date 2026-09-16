@@ -1,0 +1,10 @@
+{
+  "id": "stake-dao",
+  "name": "Stake DAO",
+  "description": "Yield and governance aggregator with liquid lockers for veToken positions across Arbitrum protocols.",
+  "links": {
+    "homepage": "https://stakedao.org/",
+    "twitter": "https://x.com/StakeDAOHQ",
+    "logo": "/imgs/Arbitrum/Lending&Yield/stake-dao.jpg"
+  }
+}

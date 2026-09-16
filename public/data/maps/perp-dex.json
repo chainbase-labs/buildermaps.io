@@ -1,0 +1,111 @@
+{
+  "sector": "Perp DEX",
+  "types": [
+    {
+      "id": "orderbook-perp-dex",
+      "name": "Orderbook Perp DEX",
+      "projects": [
+        "aevo",
+        "apex-protocol",
+        "aster",
+        "bluefin",
+        "dydx",
+        "edgex",
+        "extended",
+        "grvt",
+        "helix",
+        "hibachi",
+        "hyperliquid",
+        "lighter",
+        "nado",
+        "pacifica",
+        "paradex",
+        "reya",
+        "satori",
+        "variational",
+        "velocity",
+        "vertex"
+      ]
+    },
+    {
+      "id": "pool-based-perp-dex",
+      "name": "Pool-based Perp DEX",
+      "projects": [
+        "apollox",
+        "avantis",
+        "gains-network",
+        "gmx",
+        "jupiter-perps",
+        "kiloex",
+        "mux-protocol",
+        "ostium",
+        "polynomial",
+        "synthetix"
+      ]
+    },
+    {
+      "id": "hip-3-builder-markets",
+      "name": "HIP-3 Builder Markets",
+      "projects": [
+        "felix",
+        "kinetiq",
+        "tradexyz",
+        "ventuals"
+      ]
+    },
+    {
+      "id": "aggregator",
+      "name": "Aggregator",
+      "projects": [
+        "liquid",
+        "orderly-network",
+        "rage-trade",
+        "symmio",
+        "vooi"
+      ]
+    },
+    {
+      "id": "terminal-and-copy-trading",
+      "name": "Terminal & Copy Trading",
+      "projects": [
+        "brahma",
+        "bullpen",
+        "copin",
+        "dexari",
+        "hyperdash",
+        "insilico-terminal",
+        "pear-protocol"
+      ]
+    },
+    {
+      "id": "oracle-and-infrastructure",
+      "name": "Oracle & Infrastructure",
+      "projects": [
+        "chainlink",
+        "injective",
+        "pyth-network",
+        "redstone",
+        "starkware",
+        "stork"
+      ]
+    },
+    {
+      "id": "ecosystem-and-collateral",
+      "name": "Ecosystem & Collateral",
+      "projects": [
+        "ethena",
+        "hypurrfi",
+        "standx"
+      ]
+    },
+    {
+      "id": "upcoming",
+      "name": "Upcoming",
+      "projects": [
+        "01-exchange",
+        "decibel",
+        "risex"
+      ]
+    }
+  ]
+}

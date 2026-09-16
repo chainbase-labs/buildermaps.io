@@ -1,0 +1,10 @@
+{
+  "id": "fabric-cryptography",
+  "name": "Fabric Cryptography",
+  "description": "Building Verifiable Processing Units (VPUs) — custom silicon for ZK proof generation. $33M raised. Hardware approach to making proofs as cheap as possible.",
+  "links": {
+    "homepage": "https://fabriccryptography.com/",
+    "twitter": "https://x.com/FabricCrypto",
+    "logo": "/imgs/Modular Blockchain/ZKHardware/fabric-cryptography.jpg"
+  }
+}

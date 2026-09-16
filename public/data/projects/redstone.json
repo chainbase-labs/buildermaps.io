@@ -1,11 +1,11 @@
 {
   "id": "redstone",
   "name": "RedStone",
-  "description": "Modular oracle infrastructure specializing in yield-bearing collateral for DeFi lending markets",
+  "description": "Oracle infrastructure supplying onchain price data. Listed in Arc's official ecosystem directory.",
   "founded": 2021,
   "funding": 23000000,
   "links": {
-    "homepage": "https://www.redstone.finance/",
+    "homepage": "https://redstone.finance/",
     "twitter": "https://x.com/redstone_defi",
     "github": "https://github.com/redstone-finance",
     "telegram": "https://t.me/redstoneoracles",
@@ -13,6 +13,6 @@
     "linkedin": "https://www.linkedin.com/company/redstone-finance",
     "medium": "https://medium.com/redstone-finance",
     "reddit": "https://redstone.finance",
-    "logo": "/imgs/prediction_markets/Infra/RedStone.png"
+    "logo": "/imgs/Arc/Infrastructure/redstone.jpg"
   }
 }

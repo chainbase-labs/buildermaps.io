@@ -1,0 +1,10 @@
+{
+  "id": "insilico-terminal",
+  "name": "Insilico Terminal",
+  "description": "Professional-grade execution terminal for perp DEXs and CEXs. Advanced order types and portfolio management.",
+  "links": {
+    "homepage": "https://insilicoterminal.com/",
+    "twitter": "https://x.com/InsilicoTrading",
+    "logo": "/imgs/Perp DEX/Terminal&CopyTrading/insilico-terminal.jpg"
+  }
+}

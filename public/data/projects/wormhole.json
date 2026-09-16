@@ -1,10 +1,10 @@
 {
   "id": "wormhole",
   "name": "Wormhole",
-  "description": "Decentralized, universal message-passing network connecting multiple high-value blockchains and applications.",
+  "description": "Cross-chain messaging platform with NTT (Native Token Transfers) framework. Guardian-based security model connecting EVM Solana Cosmos and Move chains.",
   "links": {
     "homepage": "https://wormhole.com/",
     "twitter": "https://x.com/wormhole",
-    "logo": "/imgs/Cross Chain/MessagingProtocols/wormhole.jpg"
+    "logo": "/imgs/Modular Blockchain/Interop&Messaging/wormhole.jpg"
   }
 }

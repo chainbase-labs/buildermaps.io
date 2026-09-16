@@ -1,0 +1,10 @@
+{
+  "id": "radius",
+  "name": "Radius",
+  "description": "Shared sequencing layer using encrypted mempools for censorship resistance and MEV protection. Trustless sequencing without relying on a single centralized operator.",
+  "links": {
+    "homepage": "https://theradius.xyz/",
+    "twitter": "https://x.com/radius",
+    "logo": "/imgs/Modular Blockchain/SharedSequencing/radius.png"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "near-intents",
+  "name": "NEAR Intents",
+  "description": "Intent-based execution layer letting users express outcomes rather than transactions. Chain signatures allow NEAR accounts to control assets on other chains.",
+  "links": {
+    "homepage": "https://near.org/intents",
+    "twitter": "https://x.com/NEARProtocol",
+    "logo": "/imgs/Smart Wallets/ChainAbstraction/near-intents.jpg"
+  }
+}

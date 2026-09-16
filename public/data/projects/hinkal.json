@@ -1,11 +1,11 @@
 {
   "id": "hinkal",
   "name": "Hinkal",
-  "description": "Hinkal is an institutional-grade, self-custodial protocol designed to empower\n      users with full control over their on-chain assets, mirroring the secure standards of traditional\n      finance. It allows both individual and institutional users to manage assets and transact on major\n      dApps without publicly disclosing wallet addresses.",
+  "description": "Stablecoin privacy infrastructure. Identified in the Arc community launch list for confidential USDC transfers; Arc deployment status requires confirmation.",
   "location": "Global",
   "links": {
-    "logo": "/imgs/privacy/defi-wallets/hinkal.png",
-    "homepage": "https://hinkal.pro/",
+    "logo": "/imgs/Arc/Infrastructure/hinkal.jpg",
+    "homepage": "http://hinkal.io",
     "twitter": "https://x.com/hinkal_protocol"
   }
 }

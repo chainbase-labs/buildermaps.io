@@ -1,10 +1,10 @@
 {
   "id": "kinetiq",
   "name": "Kinetiq",
-  "description": "Dominant native LST protocol, $850M+ TVL, issuing kHYPE with CoreWriter-powered direct validator staking and StakeHub auto-rebalancing.",
+  "description": "Hyperliquid liquid staking (kHYPE) leader. Launched HIP-3 markets leveraging staked HYPE. Economic connective tissue of HL ecosystem.",
   "links": {
     "homepage": "https://kinetiq.xyz/",
-    "twitter": "https://x.com/Kinetiq_xyz",
-    "logo": "/imgs/Hyperliquid/LiquidStaking/kinetiq.jpg"
+    "twitter": "https://x.com/kinetiq_xyz",
+    "logo": "/imgs/Perp DEX/HIP-3BuilderMarkets/kinetiq.jpg"
   }
 }

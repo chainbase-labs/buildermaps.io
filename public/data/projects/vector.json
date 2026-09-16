@@ -1,0 +1,10 @@
+{
+  "id": "vector",
+  "name": "Vector",
+  "description": "Social-first trading terminal blending a feed of trader activity with one-click execution. Discovery through people rather than charts.",
+  "links": {
+    "homepage": "https://vector.fun/",
+    "twitter": "https://x.com/VECTORDOTFUN",
+    "logo": "/imgs/Onchain Trading Tools/WebTerminals/vector.jpg"
+  }
+}

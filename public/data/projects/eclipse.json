@@ -1,0 +1,10 @@
+{
+  "id": "eclipse",
+  "name": "Eclipse",
+  "description": "SVM (Solana Virtual Machine) execution layer settled on Ethereum with Celestia DA. Brings Solana speed to Ethereum security. First SVM L2.",
+  "links": {
+    "homepage": "https://eclipse.xyz/",
+    "twitter": "https://x.com/EclipseFND",
+    "logo": "/imgs/Modular Blockchain/RollupFrameworks/eclipse.jpg"
+  }
+}

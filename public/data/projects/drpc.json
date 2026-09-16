@@ -1,0 +1,10 @@
+{
+  "id": "drpc",
+  "name": "dRPC",
+  "description": "RPC infrastructure for blockchain applications. Listed in Arc's official ecosystem directory.",
+  "links": {
+    "homepage": "https://drpc.org/",
+    "twitter": "https://x.com/dRPCorg",
+    "logo": "/imgs/Arc/Infrastructure/drpc.png"
+  }
+}

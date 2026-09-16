@@ -1,0 +1,10 @@
+{
+  "id": "camelot",
+  "name": "Camelot",
+  "description": "The native Arbitrum DEX — launchpad-style listings plus concentrated liquidity. Go-to venue for new Arbitrum projects bootstrapping liquidity.",
+  "links": {
+    "homepage": "https://camelot.exchange/",
+    "twitter": "https://x.com/CamelotDEX",
+    "logo": "/imgs/Arbitrum/DEX&Trading/camelot.jpg"
+  }
+}

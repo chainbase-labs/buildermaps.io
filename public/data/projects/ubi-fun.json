@@ -1,0 +1,10 @@
+{
+  "id": "ubi-fun",
+  "name": "UBI.fun",
+  "description": "Uniswap v4-based launchpad on Arc with fee distribution for creators and holders.",
+  "links": {
+    "homepage": "http://ubi.fun",
+    "twitter": "https://x.com/UBIdotFUN",
+    "logo": "/imgs/Arc/Launchpads/ubi-fun.jpg"
+  }
+}

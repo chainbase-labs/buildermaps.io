@@ -1,0 +1,10 @@
+{
+  "id": "standx",
+  "name": "StandX",
+  "description": "Perp DEX on Solana and BNB Chain using native interest-bearing stablecoin DUSD as margin.",
+  "links": {
+    "homepage": "https://standx.com/",
+    "twitter": "https://x.com/StandX_Official",
+    "logo": "/imgs/Perp DEX/Ecosystem&Collateral/standx.jpg"
+  }
+}

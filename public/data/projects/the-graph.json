@@ -1,12 +1,12 @@
 {
   "id": "the-graph",
   "name": "The Graph",
-  "description": "Decentralized protocol for indexing and querying blockchain data across 90+ networks",
+  "description": "Decentralized indexing protocol — the 'Google of blockchains'. Subgraphs index onchain data across 80+ networks enabling dApp queries. Essential infrastructure for modular chain data access.",
   "founded": 2018,
   "funding": 67500000,
   "links": {
-    "homepage": "https://thegraph.com",
-    "logo": "/imgs/Data/Indexing/The Graph.jpg",
+    "homepage": "https://thegraph.com/",
+    "logo": "/imgs/Modular Blockchain/Indexing&Data/the-graph.jpg",
     "twitter": "https://x.com/graphprotocol",
     "github": ""
   }

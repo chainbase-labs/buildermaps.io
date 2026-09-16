@@ -1,10 +1,10 @@
 {
   "id": "axiom",
   "name": "Axiom",
-  "description": "Onchain application builder focused on agent tools and hackathon projects.",
+  "description": "Dominant onchain trading terminal — roughly 50% Solana bot market share and top revenue-generating app in crypto. Proprietary execution engine with snipes perps yield and wallet tracking. Hyperliquid perps via builder codes.",
   "links": {
-    "homepage": "https://www.clawbots",
-    "twitter": "https://x.com/AxiomBot",
-    "logo": "/imgs/OpenClaw/Dev&AgentBuilders/axiom.png"
+    "homepage": "https://axiom.trade/",
+    "twitter": "https://x.com/AxiomExchange",
+    "logo": "/imgs/Onchain Trading Tools/WebTerminals/axiom.jpg"
   }
 }

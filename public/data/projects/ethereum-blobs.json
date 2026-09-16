@@ -1,0 +1,10 @@
+{
+  "id": "ethereum-blobs",
+  "name": "Ethereum Blobs",
+  "description": "Native Ethereum DA via EIP-4844 blob transactions. The default lowest-cost option for rollups posting data back to Ethereum L1. PeerDAS upgrade expanding blob capacity.",
+  "links": {
+    "homepage": "https://ethereum.org/",
+    "twitter": "https://x.com/ethereum",
+    "logo": "/imgs/Modular Blockchain/DataAvailability/ethereum-blobs.jpg"
+  }
+}

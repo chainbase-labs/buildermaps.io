@@ -1,0 +1,10 @@
+{
+  "id": "onebalance",
+  "name": "OneBalance",
+  "description": "Credible accounts giving users one unified balance across chains — no bridging or gas token juggling required.",
+  "links": {
+    "homepage": "https://onebalance.io/",
+    "twitter": "https://x.com/onebalance_io",
+    "logo": "/imgs/Smart Wallets/ChainAbstraction/onebalance.jpg"
+  }
+}

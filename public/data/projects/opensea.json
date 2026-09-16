@@ -1,10 +1,10 @@
 {
   "id": "opensea",
   "name": "OpenSea",
-  "description": "OpenSea, exchange everything — token trading and NFT marketplace. Welcome to the best place to discover, trade, and create onchain.",
+  "description": "Largest multi-chain NFT marketplace with full Arbitrum support for collections and gaming assets.",
   "location": "",
   "links": {
-    "logo": "/imgs/monad/opensea.png",
+    "logo": "/imgs/Arbitrum/Gaming&NFT/opensea.jpg",
     "homepage": "https://opensea.io/",
     "twitter": "https://x.com/opensea",
     "github": ""

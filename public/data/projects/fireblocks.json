@@ -1,0 +1,10 @@
+{
+  "id": "fireblocks",
+  "name": "Fireblocks",
+  "description": "Institutional infrastructure for custody, stablecoins and digital-asset operations. Circle announced Fireblocks among expected Arc launch integrations.",
+  "links": {
+    "homepage": "https://fireblocks.com",
+    "twitter": "https://x.com/FireblocksHQ",
+    "logo": "/imgs/Arc/Wallets/fireblocks.png"
+  }
+}

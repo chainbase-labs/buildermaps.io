@@ -1,0 +1,10 @@
+{
+  "id": "ankr-raas",
+  "name": "Ankr RaaS",
+  "description": "RaaS bundled with Ankr's existing RPC node and infrastructure services. Multi-framework support for teams already in the Ankr ecosystem.",
+  "links": {
+    "homepage": "https://ankr.com/rollup-as-a-service/",
+    "twitter": "https://x.com/ankr",
+    "logo": "/imgs/Modular Blockchain/Rollup-as-a-Service/ankr-raas.jpg"
+  }
+}

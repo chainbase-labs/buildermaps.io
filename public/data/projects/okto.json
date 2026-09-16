@@ -1,0 +1,10 @@
+{
+  "id": "okto",
+  "name": "Okto",
+  "description": "Chain-abstracted wallet with unified balances across EVM Solana and Cosmos plus native Hyperliquid trading.",
+  "links": {
+    "homepage": "https://okto.tech/",
+    "twitter": "https://x.com/Okto_web3",
+    "logo": "/imgs/Smart Wallets/ChainAbstraction/okto.jpg"
+  }
+}

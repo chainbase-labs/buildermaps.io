@@ -1,10 +1,10 @@
 {
   "id": "bullpen",
   "name": "Bullpen",
-  "description": "Cryptocurrency trading terminal optimized for Hyperliquid's order book and execution.",
+  "description": "Onchain trading terminal for Hyperliquid perps Solana spot (memecoins) and Polymarket prediction markets in one app.",
   "links": {
     "homepage": "https://bullpen.fi/",
     "twitter": "https://x.com/BullpenFi",
-    "logo": "/imgs/Hyperliquid/TradingTools&Terminals/bullpen.jpg"
+    "logo": "/imgs/Perp DEX/Terminal&CopyTrading/bullpen.jpg"
   }
 }
