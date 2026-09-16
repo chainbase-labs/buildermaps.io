@@ -1,11 +1,11 @@
 {
   "id": "morpho",
   "name": "Morpho",
-  "description": "Morpho is a decentralized lending protocol that optimizes capital efficiency by matching lenders and borrowers peer-to-peer.",
+  "description": "Open lending protocol connecting lenders and borrowers. Circle announced Morpho as an expected Arc launch integration.",
   "location": "Global",
   "links": {
-    "logo": "/imgs/monad/morpho.png",
-    "homepage": "https://app.morpho.org/ethereum/earn",
+    "logo": "/imgs/Arc/DeFi/morpho.jpg",
+    "homepage": "http://markets.morpho.org",
     "twitter": "https://x.com/Morpho"
   }
 }

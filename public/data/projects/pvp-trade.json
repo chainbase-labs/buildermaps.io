@@ -1,0 +1,10 @@
+{
+  "id": "pvp-trade",
+  "name": "PvP Trade",
+  "description": "Social Telegram trading bot for Hyperliquid — copy positions and compete on PnL with friends.",
+  "links": {
+    "homepage": "https://pvp.trade/",
+    "twitter": "https://x.com/pvp_dot_trade",
+    "logo": "/imgs/Onchain Trading Tools/CopyTrading/pvp-trade.jpg"
+  }
+}

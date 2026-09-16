@@ -1,12 +1,12 @@
 {
   "id": "goldsky",
   "name": "Goldsky",
-  "description": "Goldsky blockchain data indexing real-time subgraphs, Mirror pipelines, high-performance infrastructure, The Graph alternative",
+  "description": "Blockchain indexing and data-streaming infrastructure. Included in the supplied Arc ecosystem map; Arc service availability requires confirmation.",
   "founded": 2022,
   "funding": null,
   "links": {
     "homepage": "https://goldsky.com",
-    "logo": "/imgs/Data/Indexing/Goldsky.jpg",
+    "logo": "/imgs/Arc/Infrastructure/goldsky.jpg",
     "twitter": "https://x.com/goldskyio",
     "github": ""
   }

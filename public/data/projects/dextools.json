@@ -1,0 +1,10 @@
+{
+  "id": "dextools",
+  "name": "DEXTools",
+  "description": "Veteran token analytics platform with pair explorer hot pairs and contract health checks across EVM chains.",
+  "links": {
+    "homepage": "https://dextools.io/",
+    "twitter": "https://x.com/DEXToolsApp",
+    "logo": "/imgs/Onchain Trading Tools/Analytics&Discovery/dextools.png"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "long",
+  "name": "Long",
+  "description": "Early Arc project describing its focus as stock-related onchain markets. Asset backing and deployment status require confirmation.",
+  "links": {
+    "homepage": "https://long.supply/",
+    "twitter": "https://x.com/Longdotsupply",
+    "logo": "/imgs/Arc/RWA/long.jpg"
+  }
+}

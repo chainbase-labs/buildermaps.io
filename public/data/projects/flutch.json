@@ -1,0 +1,10 @@
+{
+  "id": "flutch",
+  "name": "Flutch",
+  "description": "Token-launch infrastructure included in the Arc community launch list. Mainnet deployment status requires confirmation.",
+  "links": {
+    "homepage": "https://flutch.fun/",
+    "twitter": "https://x.com/Flutchdotfun",
+    "logo": "/imgs/Arc/Launchpads/flutch.jpg"
+  }
+}

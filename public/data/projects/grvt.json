@@ -1,0 +1,10 @@
+{
+  "id": "grvt",
+  "name": "GRVT",
+  "description": "Hybrid exchange on ZKsync Validium. CEX-level UX with self-custody and ZK privacy. Perps and options. Compliance-focused for institutions.",
+  "links": {
+    "homepage": "https://grvt.io/",
+    "twitter": "https://x.com/grvt_io",
+    "logo": "/imgs/Perp DEX/OrderbookPerpDEX/grvt.jpg"
+  }
+}

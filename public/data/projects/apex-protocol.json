@@ -1,0 +1,10 @@
+{
+  "id": "apex-protocol",
+  "name": "ApeX Protocol",
+  "description": "Multi-chain perp DEX with orderbook model. Elastic AMM and smart liquidity. Backed by Bybit ecosystem.",
+  "links": {
+    "homepage": "https://apex.exchange/",
+    "twitter": "https://x.com/OfficialApeXdex",
+    "logo": "/imgs/Perp DEX/OrderbookPerpDEX/apex-protocol.png"
+  }
+}

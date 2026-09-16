@@ -1,12 +1,12 @@
 {
   "id": "portal",
   "name": "Portal",
-  "description": "Portal Bridge, powered by Wormhole, facilitates multi-chain bridging to Sui from 22+ supported chains.",
+  "description": "MPC wallet infrastructure for fintechs and exchanges with built-in compliance and asset management APIs.",
   "founded": null,
   "funding": null,
   "links": {
-    "homepage": "https://portalbridge.com/",
-    "logo": "/imgs/Sui/Bridge/Portal.png",
-    "twitter": "https://x.com/portalbridge_"
+    "homepage": "https://portalhq.io/",
+    "logo": "/imgs/Smart Wallets/EmbeddedWallets/portal.jpg",
+    "twitter": "https://x.com/portal_hq"
   }
 }

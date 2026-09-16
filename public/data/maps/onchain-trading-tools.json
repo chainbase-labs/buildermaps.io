@@ -1,0 +1,82 @@
+{
+  "sector": "Onchain Trading Tools",
+  "types": [
+    {
+      "id": "web-terminals",
+      "name": "Web Terminals",
+      "projects": [
+        "axiom",
+        "gmgn",
+        "jupiter",
+        "photon",
+        "terminal",
+        "vector"
+      ]
+    },
+    {
+      "id": "telegram-bots",
+      "name": "Telegram Bots",
+      "projects": [
+        "banana-gun",
+        "bloom",
+        "bonkbot",
+        "maestro",
+        "shuriken",
+        "trojan",
+        "unibot"
+      ]
+    },
+    {
+      "id": "mobile-apps",
+      "name": "Mobile Apps",
+      "projects": [
+        "dexari",
+        "fomo",
+        "moby",
+        "moonshot",
+        "phantom",
+        "pump-fun"
+      ]
+    },
+    {
+      "id": "analytics-and-discovery",
+      "name": "Analytics & Discovery",
+      "projects": [
+        "arkham",
+        "birdeye",
+        "bubblemaps",
+        "defillama",
+        "dex-screener",
+        "dextools",
+        "dune",
+        "kolscan",
+        "nansen",
+        "solscan"
+      ]
+    },
+    {
+      "id": "execution-infra",
+      "name": "Execution Infra",
+      "projects": [
+        "astralane",
+        "bloxroute",
+        "helius",
+        "jito",
+        "quicknode",
+        "temporal",
+        "triton-one"
+      ]
+    },
+    {
+      "id": "copy-trading",
+      "name": "Copy Trading",
+      "projects": [
+        "copin",
+        "hyperdash",
+        "insilico-terminal",
+        "pear-protocol",
+        "pvp-trade"
+      ]
+    }
+  ]
+}

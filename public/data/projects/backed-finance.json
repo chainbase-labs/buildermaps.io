@@ -1,10 +1,10 @@
 {
   "id": "backed-finance",
   "name": "Backed Finance",
-  "description": "Issuer of xStocks \u2014 largest tokenized equity framework with $25B+ transaction volume and 80K+ onchain holders. 1:1 backed under Liechtenstein prospectus. Being acquired by Kraken.",
+  "description": "Issuer of xStocks. Tokenized equities including Nasdaq Circle and Robinhood trackers trade on Arbitrum.",
   "links": {
     "homepage": "https://backed.fi/",
-    "logo": "/imgs/tokenized-stocks/backed-finance.jpg",
+    "logo": "/imgs/Arbitrum/Stablecoins&RWA/backed-finance.jpg",
     "twitter": "https://x.com/BackedFi"
   }
 }

@@ -1,10 +1,10 @@
 {
   "id": "gmgn",
   "name": "GMGN",
-  "description": "- World-leading on-chain trading terminal: zero-lag new token spotting, millisecond instant buys-stay ahead, double your win rate! - Fastest X Tracker pushes and wallets tracking to seize opportunities first - Multi-metrics parsing on-chain data & AI narrative analysis + the most representative trading page design-master it & become a trading Degen",
+  "description": "Multi-chain trenches terminal across Solana Ethereum Base BSC TRON and Monad. Strongest smart-money and KOL wallet analytics in the category. Telegram bot plus web and mobile.",
   "links": {
-    "homepage": "https://gmgn.ai/?chain=monad",
-    "logo": "/imgs/monad/gmgn.webp",
+    "homepage": "https://gmgn.ai/",
+    "logo": "/imgs/Onchain Trading Tools/WebTerminals/gmgn.jpg",
     "twitter": "https://x.com/gmgnai"
   }
 }

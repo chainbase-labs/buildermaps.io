@@ -1,12 +1,12 @@
 {
   "id": "altlayer",
   "name": "AltLayer",
-  "description": "AltLayer restaked rollups protocol decentralized verification EigenLayer AVS multi-chain Ethereum/Arbitrum/Optimism $14.4M Polychain",
+  "description": "Restaked rollup RaaS with three EigenLayer AVSes — MACH (fast finality) VITAL (verification) SQUAD (decentralized sequencing). Broadest framework and DA support. Only RaaS with native AVS security modules.",
   "founded": 2021,
   "funding": null,
   "links": {
     "homepage": "https://altlayer.io/",
-    "logo": "/imgs/restaking/altlayer.jpg",
+    "logo": "/imgs/Modular Blockchain/Rollup-as-a-Service/altlayer.jpg",
     "twitter": "https://x.com/alt_layer"
   }
 }

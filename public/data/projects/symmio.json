@@ -1,0 +1,10 @@
+{
+  "id": "symmio",
+  "name": "Symmio",
+  "description": "Intent-based derivatives infrastructure. OTC perps engine powering IntentX and other front-ends with solver-provided liquidity.",
+  "links": {
+    "homepage": "https://symm.io/",
+    "twitter": "https://x.com/symm_io",
+    "logo": "/imgs/Perp DEX/Aggregator/symmio.jpg"
+  }
+}

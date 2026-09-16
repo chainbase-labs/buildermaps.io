@@ -1,0 +1,10 @@
+{
+  "id": "orixa-domains",
+  "name": "Orixa Domains",
+  "description": "Arc-focused onchain identity and domain-name project incubated by Orixa.",
+  "links": {
+    "homepage": "http://orixa.domains",
+    "twitter": "https://x.com/OrixaDomains",
+    "logo": "/imgs/Arc/Consumer/orixa-domains.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "satori",
+  "name": "Satori",
+  "description": "Perp DEX deployed across zkSync Linea Scroll Base and other L2s. Orderbook model with unified liquidity.",
+  "links": {
+    "homepage": "https://satori.finance/",
+    "twitter": "https://x.com/SatoriFinance",
+    "logo": "/imgs/Perp DEX/OrderbookPerpDEX/satori.jpg"
+  }
+}

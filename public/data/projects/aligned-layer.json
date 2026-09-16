@@ -1,10 +1,10 @@
 {
   "id": "aligned-layer",
   "name": "Aligned Layer",
-  "description": "Universal ZK proof verification layer. Cheaper and faster than direct Ethereum verification.",
+  "description": "Universal ZK verification layer on Ethereum. Aggregates and verifies proofs from any proving system at low cost — 90% cheaper than native Ethereum verification.",
   "links": {
     "homepage": "https://alignedlayer.com/",
-    "logo": "/imgs/restaking/aligned-layer.jpg",
+    "logo": "/imgs/Modular Blockchain/ZKProving/aligned-layer.jpg",
     "twitter": "https://x.com/alignedlayer"
   }
 }

@@ -1,10 +1,10 @@
 {
   "id": "kyberswap",
   "name": "KyberSwap",
-  "description": "KyberSwap is a decentralized trading solution that helps users find optimized token swap rates by routing trades through multiple DEXs and other liquidity sources across multiple chains.",
+  "description": "DEX aggregator and dynamic AMM routing Arbitrum trades across dozens of liquidity sources.",
   "links": {
-    "homepage": "https://kyberswap.com/swap/monad",
-    "logo": "/imgs/monad/kyberswap.webp",
+    "homepage": "https://kyberswap.com/",
+    "logo": "/imgs/Arbitrum/DEX&Trading/kyberswap.jpg",
     "twitter": "https://x.com/KyberNetwork"
   }
 }

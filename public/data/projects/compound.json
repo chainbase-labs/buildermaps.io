@@ -1,0 +1,10 @@
+{
+  "id": "compound",
+  "name": "Compound",
+  "description": "Original DeFi money market. Comet deployment on Arbitrum offers single-borrow-asset markets with simplified risk.",
+  "links": {
+    "homepage": "https://compound.finance/",
+    "twitter": "https://x.com/compoundfinance",
+    "logo": "/imgs/Arbitrum/Lending&Yield/compound.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "ellipse-fun",
+  "name": "ellipse.fun",
+  "description": "Building a launchpad for stock-backed tokens on Arc. The former rwarc.fun account redirects to this brand; backing and availability require confirmation.",
+  "links": {
+    "homepage": "https://ellipse.fun",
+    "twitter": "https://x.com/ellipsefun",
+    "logo": "/imgs/Arc/Launchpads/ellipse-fun.jpg"
+  }
+}

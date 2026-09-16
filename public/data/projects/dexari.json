@@ -1,0 +1,10 @@
+{
+  "id": "dexari",
+  "name": "Dexari",
+  "description": "Mobile-first Hyperliquid trading app. CEX-grade UX with self-custody perps in your pocket.",
+  "links": {
+    "homepage": "https://dexari.com/",
+    "twitter": "https://x.com/Dexari",
+    "logo": "/imgs/Perp DEX/Terminal&CopyTrading/dexari.jpg"
+  }
+}

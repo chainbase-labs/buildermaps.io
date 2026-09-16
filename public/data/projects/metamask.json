@@ -1,10 +1,10 @@
 {
   "id": "metamask",
   "name": "MetaMask",
-  "description": "Leading self custodial Web3 wallet and gateway.",
+  "description": "Self-custody wallet for EVM applications. Circle announced MetaMask among providers expected to support USDC access on Arc.",
   "links": {
-    "homepage": "https://t.co/8UNUrlaqUe",
-    "logo": "/imgs/agentic-finance/metamask.jpg",
+    "homepage": "https://metamask.io/",
+    "logo": "/imgs/Arc/Wallets/metamask.jpg",
     "twitter": "https://x.com/MetaMask"
   }
 }

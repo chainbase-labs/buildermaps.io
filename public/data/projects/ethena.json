@@ -1,10 +1,10 @@
 {
   "id": "ethena",
   "name": "Ethena",
-  "description": "Synthetic dollar USDe \u2014 settlement asset for Meridian RWA perps on Robinhood Chain. Key stablecoin rail for tokenized equity trading.",
+  "description": "Synthetic dollar USDe generated via perp funding-rate arbitrage — the largest systematic user of perp DEX liquidity. USDe used as margin collateral across venues.",
   "links": {
     "homepage": "https://ethena.fi/",
-    "logo": "/imgs/tokenized-stocks/ethena.jpg",
-    "twitter": "https://x.com/ethena_labs"
+    "logo": "/imgs/Perp DEX/Ecosystem&Collateral/ethena.jpg",
+    "twitter": "https://x.com/ethena"
   }
 }

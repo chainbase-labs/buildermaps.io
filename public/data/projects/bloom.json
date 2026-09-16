@@ -1,0 +1,10 @@
+{
+  "id": "bloom",
+  "name": "Bloom",
+  "description": "Multi-chain Telegram bot with browser extension and AFK sniping. Niche feature set favored by advanced snipers.",
+  "links": {
+    "homepage": "https://bloombot.app/",
+    "twitter": "https://x.com/BloomTradingBot",
+    "logo": "/imgs/Onchain Trading Tools/TelegramBots/bloom.jpg"
+  }
+}

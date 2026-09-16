@@ -1,11 +1,11 @@
 {
   "id": "layerzero",
   "name": "LayerZero",
-  "description": "LayerZero is a cross-chain messaging protocol that enables information sharing across blockchains, providing a secure method for messages to be sent between decentralized applications. LayerZero V2 enables applications to utilize a modular security stack to confirm and validate messages from other blockchains. LayerZero also provides a pathway for any chain to integrate Flare’s secure and decentralized data.",
+  "description": "Cross-chain messaging infrastructure for interoperable applications and assets. Listed in Arc's official ecosystem directory.",
   "links": {
-    "homepage": "https://layerzero.network/",
-    "logo": "https://flare.builders/icons/layerzero.png",
-    "twitter": "https://x.com/layerzero_core",
+    "homepage": "http://layerzero.network",
+    "logo": "/imgs/Arc/Infrastructure/layerzero.jpg",
+    "twitter": "https://x.com/LayerZero_Core",
     "telegram": "https://t.me/joinchat",
     "discord": "https://discord.gg/ktbvm8Nkcr",
     "github": "https://github.com/LayerZero-Labs/LayerZero-v2"

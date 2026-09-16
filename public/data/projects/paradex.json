@@ -1,10 +1,10 @@
 {
   "id": "paradex",
   "name": "Paradex",
-  "description": "High-performance perps DEX built as Starknet appchain, incubated by Paradigm. $244B+ cumulative volume, $400M+ daily. Zero-fee retail trading, ZK-encrypted accounts hiding positions and liquidation levels.",
+  "description": "Privacy-enabled zero-fee perps DEX on Starknet appchain. Incubated by Paradigm. Hundreds of markets including pre-market trading. Institutional-grade privacy with atomic settlement.",
   "links": {
     "homepage": "https://paradex.trade/",
     "twitter": "https://x.com/paradex",
-    "logo": "/imgs/projects/paradex.jpg"
+    "logo": "/imgs/Perp DEX/OrderbookPerpDEX/paradex.jpg"
   }
 }

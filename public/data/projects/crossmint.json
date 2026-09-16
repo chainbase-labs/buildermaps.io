@@ -1,12 +1,12 @@
 {
   "id": "crossmint",
   "name": "Crossmint",
-  "description": "Enterprise blockchain infrastructure enabling embedded wallets and NFT management for AI agents",
+  "description": "APIs for stablecoin payments, wallets and token checkout. Listed in Arc's official ecosystem directory.",
   "founded": 2021,
   "funding": 43600000,
   "links": {
-    "homepage": "https://www.crossmint.com/",
-    "logo": "/imgs/agentic-finance/crossmint.png",
+    "homepage": "https://crossmint.com/",
+    "logo": "/imgs/Arc/Payments/crossmint.png",
     "twitter": "https://x.com/crossmint",
     "youtube": "https://www.crossmint.com"
   }

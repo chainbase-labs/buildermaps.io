@@ -1,0 +1,10 @@
+{
+  "id": "argent",
+  "name": "Argent",
+  "description": "Smart-account consumer wallet pioneer — social recovery and guardians before ERC-4337 existed. Now Starknet-focused.",
+  "links": {
+    "homepage": "https://argent.xyz/",
+    "twitter": "https://x.com/argentHQ",
+    "logo": "/imgs/Smart Wallets/WalletApps/argent.png"
+  }
+}

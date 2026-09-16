@@ -1,0 +1,10 @@
+{
+  "id": "apechain",
+  "name": "ApeChain",
+  "description": "Orbit L3 for the ApeCoin ecosystem with APE as native gas. Launched with 60+ apps across DeFi NFTs and gaming plus sub-100ms blocks.",
+  "links": {
+    "homepage": "https://apechain.com/",
+    "twitter": "https://x.com/apecoin",
+    "logo": "/imgs/Arbitrum/OrbitChains/apechain.jpg"
+  }
+}

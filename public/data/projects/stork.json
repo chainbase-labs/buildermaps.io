@@ -1,0 +1,10 @@
+{
+  "id": "stork",
+  "name": "Stork",
+  "description": "Ultra-low-latency oracle for perp DEXs. Powers real-time price feeds for orderbook exchanges.",
+  "links": {
+    "homepage": "https://stork.network/",
+    "twitter": "https://x.com/StorkOracle",
+    "logo": "/imgs/Perp DEX/Oracle&Infrastructure/stork.jpg"
+  }
+}

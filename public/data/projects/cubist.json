@@ -1,0 +1,10 @@
+{
+  "id": "cubist",
+  "name": "Cubist",
+  "description": "Hardware-backed key management with policy enforcement — CubeSigner for validators exchanges and wallet builders.",
+  "links": {
+    "homepage": "https://cubist.dev/",
+    "twitter": "https://x.com/cubistdev",
+    "logo": "/imgs/Smart Wallets/KeyManagement/cubist.jpg"
+  }
+}

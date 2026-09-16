@@ -1,0 +1,10 @@
+{
+  "id": "mux-protocol",
+  "name": "MUX Protocol",
+  "description": "Multi-chain perp protocol with aggregated liquidity routing. Deep institutional-friendly pools across Arbitrum BNB Chain Avalanche.",
+  "links": {
+    "homepage": "https://mux.network/",
+    "twitter": "https://x.com/muxprotocol",
+    "logo": "/imgs/Perp DEX/Pool-basedPerpDEX/mux-protocol.png"
+  }
+}

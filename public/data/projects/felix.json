@@ -1,10 +1,10 @@
 {
   "id": "felix",
   "name": "Felix",
-  "description": "Overcollateralized stablecoin minted via Felix CDP protocol, backed by HYPE, kHYPE, and BTC collateral.",
+  "description": "HIP-3 builder deploying equity perps settled in USDH with RedStone feeds. Also Hyperliquid-native CDP stablecoin and lending markets.",
   "links": {
-    "homepage": "https://www.usefelix.xyz/",
+    "homepage": "https://usefelix.xyz/",
     "twitter": "https://x.com/felixprotocol",
-    "logo": "/imgs/Hyperliquid/Stablecoins/felix.jpg"
+    "logo": "/imgs/Perp DEX/HIP-3BuilderMarkets/felix.jpg"
   }
 }

@@ -1,0 +1,10 @@
+{
+  "id": "maverick",
+  "name": "Maverick",
+  "description": "Dynamic distribution AMM where liquidity automatically follows price — capital efficient for correlated pairs.",
+  "links": {
+    "homepage": "https://mav.xyz/",
+    "twitter": "https://x.com/mavprotocol",
+    "logo": "/imgs/Arbitrum/DEX&Trading/maverick.jpg"
+  }
+}

@@ -1,10 +1,10 @@
 {
   "id": "stargate",
   "name": "Stargate",
-  "description": "Fully composable liquidity transport protocol that lives at the heart of LayerZero's omnichain DeFi ecosystem.",
+  "description": "Unified liquidity transport built on LayerZero — native asset transfers into Arbitrum without wrapped tokens.",
   "links": {
     "homepage": "https://stargate.finance/",
     "twitter": "https://x.com/StargateFinance",
-    "logo": "/imgs/Cross Chain/OmnichainLiquidity&Interoperability/stargate.png"
+    "logo": "/imgs/Arbitrum/Bridges&Interop/stargate.png"
   }
 }

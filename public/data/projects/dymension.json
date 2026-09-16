@@ -1,0 +1,10 @@
+{
+  "id": "dymension",
+  "name": "Dymension",
+  "description": "Modular settlement layer for RollApps — application-specific rollups with IBC interop. RollApp Development Kit for rapid deployment in the Cosmos ecosystem.",
+  "links": {
+    "homepage": "https://dymension.xyz/",
+    "twitter": "https://x.com/dymension",
+    "logo": "/imgs/Modular Blockchain/RollupFrameworks/dymension.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "risc-zero",
+  "name": "RISC Zero",
+  "description": "RISC-V zkVM with dual strategy — Bonsai hosted prover-as-a-service for enterprises plus Boundless open decentralized proof market for permissionless GPU/CPU proving.",
+  "links": {
+    "homepage": "https://risczero.com/",
+    "twitter": "https://x.com/RiscZero",
+    "logo": "/imgs/Modular Blockchain/ZKProving/risc-zero.jpg"
+  }
+}

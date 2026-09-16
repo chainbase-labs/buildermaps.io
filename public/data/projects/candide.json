@@ -1,0 +1,10 @@
+{
+  "id": "candide",
+  "name": "Candide",
+  "description": "Voltaire open-source bundler plus a recovery-focused smart account. Builds public-good AA infrastructure.",
+  "links": {
+    "homepage": "https://candide.dev/",
+    "twitter": "https://x.com/candidelabs",
+    "logo": "/imgs/Smart Wallets/SmartAccountInfra/candide.png"
+  }
+}

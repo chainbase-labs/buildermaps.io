@@ -1,0 +1,10 @@
+{
+  "id": "arclens",
+  "name": "Arclens",
+  "description": "Arc ecosystem directory and research hub for discovering projects and tracking onchain activity.",
+  "links": {
+    "homepage": "http://arclenz.xyz",
+    "twitter": "https://x.com/arclens_app",
+    "logo": "/imgs/Arc/Consumer/arclens.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "tally",
+  "name": "Tally",
+  "description": "Onchain governance interface where ArbitrumDAO proposals and delegate voting are executed.",
+  "links": {
+    "homepage": "https://tally.xyz/",
+    "twitter": "https://x.com/tallyxyz",
+    "logo": "/imgs/Arbitrum/Infrastructure&Tooling/tally.jpg"
+  }
+}

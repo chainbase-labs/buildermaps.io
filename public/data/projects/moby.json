@@ -1,0 +1,10 @@
+{
+  "id": "moby",
+  "name": "Moby",
+  "description": "Mobile-native terminal built around smart-money discovery — tracks roughly 18000 smart wallets across Solana and Base. Flat 0.75% fee.",
+  "links": {
+    "homepage": "https://moby.win/",
+    "twitter": "https://x.com/mobyagent",
+    "logo": "/imgs/Onchain Trading Tools/MobileApps/moby.jpg"
+  }
+}

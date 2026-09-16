@@ -1,0 +1,10 @@
+{
+  "id": "shuriken",
+  "name": "Shuriken",
+  "description": "Multi-chain Telegram trading bot with sniping and copy trading across Solana and EVM chains.",
+  "links": {
+    "homepage": "https://shuriken.trade/",
+    "twitter": "https://x.com/ShurikenTrade",
+    "logo": "/imgs/Onchain Trading Tools/TelegramBots/shuriken.jpg"
+  }
+}

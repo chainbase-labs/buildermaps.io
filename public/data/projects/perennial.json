@@ -1,0 +1,10 @@
+{
+  "id": "perennial",
+  "name": "Perennial",
+  "description": "Composable derivatives primitive letting developers build custom perpetual markets on top of a shared liquidity engine.",
+  "links": {
+    "homepage": "https://perennial.finance/",
+    "twitter": "https://x.com/perenniallabs",
+    "logo": "/imgs/Arbitrum/Perps&Derivatives/perennial.jpg"
+  }
+}

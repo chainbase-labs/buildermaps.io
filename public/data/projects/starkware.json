@@ -1,10 +1,10 @@
 {
   "id": "starkware",
   "name": "StarkWare",
-  "description": "Core development company behind Starknet and StarkEx. Founded by Eli Ben-Sasson (co-inventor of ZK-STARKs). Raised $273M+ total.",
+  "description": "ZK-rollup tech powering 16% of global perp volume — Paradex Extended and EdgeX all run on Starknet/StarkEx infrastructure.",
   "links": {
     "homepage": "https://starkware.co/",
     "twitter": "https://x.com/StarkWareLtd",
-    "logo": "/imgs/projects/starkware.jpg"
+    "logo": "/imgs/Perp DEX/Oracle&Infrastructure/starkware.jpg"
   }
 }

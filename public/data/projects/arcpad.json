@@ -1,0 +1,10 @@
+{
+  "id": "arcpad",
+  "name": "ArcPad",
+  "description": "Arc memecoin launchpad designed around locked Uniswap liquidity and trading-fee distribution.",
+  "links": {
+    "homepage": "https://arcpad.meme",
+    "twitter": "https://x.com/arcpad_meme",
+    "logo": "/imgs/Arc/Launchpads/arcpad.png"
+  }
+}

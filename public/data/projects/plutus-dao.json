@@ -1,0 +1,10 @@
+{
+  "id": "plutus-dao",
+  "name": "Plutus DAO",
+  "description": "Governance aggregator for Arbitrum protocols — locks and directs veTokens on behalf of depositors.",
+  "links": {
+    "homepage": "https://plutusdao.io/",
+    "twitter": "https://x.com/plutus_fi_x",
+    "logo": "/imgs/Arbitrum/Lending&Yield/plutus-dao.jpg"
+  }
+}

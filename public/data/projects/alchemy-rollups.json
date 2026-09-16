@@ -1,0 +1,10 @@
+{
+  "id": "alchemy-rollups",
+  "name": "Alchemy Rollups",
+  "description": "Alchemy's managed rollup deployment service. Leverages Alchemy's existing node and API infrastructure for seamless rollup operation.",
+  "links": {
+    "homepage": "https://alchemy.com/rollups",
+    "twitter": "https://x.com/Alchemy",
+    "logo": "/imgs/Modular Blockchain/Rollup-as-a-Service/alchemy-rollups.jpg"
+  }
+}

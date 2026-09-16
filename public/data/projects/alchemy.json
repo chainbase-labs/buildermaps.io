@@ -1,12 +1,12 @@
 {
   "id": "alchemy",
   "name": "Alchemy",
-  "description": "Web3 developer platform with $10.2B valuation, $564M total funding from a16z, Lightspeed, Silver Lake, $5M Everyone Onchain Fund",
+  "description": "Blockchain development platform offering RPC, data and wallet APIs. Listed in Arc's official ecosystem directory.",
   "founded": 2017,
   "funding": 564000000,
   "links": {
-    "homepage": "https://www.alchemy.com/",
-    "logo": "/imgs/agentic-finance/alchemy.jpg",
+    "homepage": "http://alchemy.com",
+    "logo": "/imgs/Arc/Infrastructure/alchemy.jpg",
     "twitter": "https://x.com/Alchemy",
     "telegram": "https://t.me/Alchemy_official",
     "linkedin": "https://www.linkedin.com/company/alchemyinc"

@@ -1,0 +1,10 @@
+{
+  "id": "umami",
+  "name": "Umami",
+  "description": "Delta-neutral vault products built around GMX liquidity for hedged real yield.",
+  "links": {
+    "homepage": "https://umami.finance/",
+    "twitter": "https://x.com/UmamiFinance",
+    "logo": "/imgs/Arbitrum/Lending&Yield/umami.png"
+  }
+}

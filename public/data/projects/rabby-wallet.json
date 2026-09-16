@@ -1,10 +1,10 @@
 {
   "id": "rabby-wallet",
   "name": "Rabby Wallet",
-  "description": "The game-changing wallet for Ethereum and all EVM chains",
+  "description": "Self-custody wallet for Ethereum and EVM applications. Included in the supplied Arc ecosystem map; Arc deployment status requires confirmation.",
   "location": "",
   "links": {
-    "logo": "/imgs/Base/Wallet/rabby-wallet.png",
+    "logo": "/imgs/Arc/Wallets/rabby-wallet.jpg",
     "homepage": "https://rabby.io/",
     "twitter": "https://x.com/Rabby_io",
     "github": ""

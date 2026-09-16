@@ -1,0 +1,10 @@
+{
+  "id": "aster",
+  "name": "Aster",
+  "description": "Multi-chain perp DEX with ~20% global market share. $30B weekly volume. 1001x max leverage. Simple Mode for retail Pro Mode with hidden orders grid strategies and 24/7 stock perps. Trade & Earn yield collateral.",
+  "links": {
+    "homepage": "https://asterdex.com/",
+    "twitter": "https://x.com/Aster_DEX",
+    "logo": "/imgs/Perp DEX/OrderbookPerpDEX/aster.jpg"
+  }
+}

@@ -1,12 +1,12 @@
 {
   "id": "arkham",
   "name": "Arkham",
-  "description": "Blockchain analytics platform using AI to deanonymize on-chain data with Intel Exchange for buying and selling address labels",
+  "description": "Onchain intelligence platform deanonymizing wallets into entities. Also runs an exchange and an information bounty marketplace.",
   "founded": 2020,
   "funding": 12500000,
   "links": {
-    "homepage": "https://arkm.com",
-    "logo": "/imgs/Data/Analytics/arkham.jpg",
+    "homepage": "https://arkm.com/",
+    "logo": "/imgs/Onchain Trading Tools/Analytics&Discovery/arkham.jpg",
     "twitter": "https://x.com/arkham",
     "github": ""
   }

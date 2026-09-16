@@ -1,0 +1,10 @@
+{
+  "id": "gains-network",
+  "name": "Gains Network",
+  "description": "gTrade — synthetic perps on crypto forex and stocks via gDAI vault. Up to 150x on crypto 1000x on forex. Live on Arbitrum and Polygon.",
+  "links": {
+    "homepage": "https://gains.trade/",
+    "twitter": "https://x.com/GainsNetwork_io",
+    "logo": "/imgs/Perp DEX/Pool-basedPerpDEX/gains-network.jpg"
+  }
+}

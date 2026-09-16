@@ -1,0 +1,10 @@
+{
+  "id": "arcane",
+  "name": "Arcane",
+  "description": "Arc token-launch platform. Mainnet deployment status requires confirmation.",
+  "links": {
+    "homepage": "http://arcane.fi",
+    "twitter": "https://x.com/Arcanedotfi",
+    "logo": "/imgs/Arc/Launchpads/arcane.jpg"
+  }
+}

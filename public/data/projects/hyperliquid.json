@@ -1,10 +1,10 @@
 {
   "id": "hyperliquid",
   "name": "Hyperliquid",
-  "description": "High-performance L1 blockchain with fully onchain order book for perpetual futures and spot trading, powered by HyperBFT consensus.",
+  "description": "Dominant perp DEX — app-specific L1 with fully onchain orderbook. $41B weekly volume $9.5B open interest 70% peak market share. HyperCore + HyperEVM + HIP-3 builder markets make it the 'AWS of markets'.",
   "links": {
-    "homepage": "https://app.hyperliquid.xyz/",
+    "homepage": "https://hyperliquid.xyz/",
     "twitter": "https://x.com/HyperliquidX",
-    "logo": "/imgs/Hyperliquid/CoreInfrastructure/hyperliquid.jpg"
+    "logo": "/imgs/Perp DEX/OrderbookPerpDEX/hyperliquid.jpg"
   }
 }

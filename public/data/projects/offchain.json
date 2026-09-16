@@ -1,0 +1,10 @@
+{
+  "id": "offchain",
+  "name": "Offchain",
+  "description": "The team that built Arbitrum. Maintains the Nitro stack BOLD permissionless validation and Stylus for Rust and C++ contracts.",
+  "links": {
+    "homepage": "https://offchainlabs.com/",
+    "twitter": "https://x.com/OffchainLabs",
+    "logo": "/imgs/Arbitrum/Infrastructure&Tooling/offchain.jpg"
+  }
+}

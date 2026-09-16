@@ -1,10 +1,10 @@
 {
   "id": "gelato",
   "name": "Gelato",
-  "description": "Web3 middleware for automated smart contract execution, integrated with Hyperliquid ecosystem.",
+  "description": "Web3 infrastructure platform with RaaS plus native automation relay and oracle services. Broadest framework coverage including ZKsync Elastic Chain. Powers Re.al Lisk and other chains.",
   "links": {
-    "homepage": "https://gelato.cloud/",
+    "homepage": "https://gelato.network/",
     "twitter": "https://x.com/gelatonetwork",
-    "logo": "/imgs/Hyperliquid/Security&Infrastructure/gelato.jpg"
+    "logo": "/imgs/Modular Blockchain/Rollup-as-a-Service/gelato.jpg"
   }
 }

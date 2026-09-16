@@ -1,12 +1,12 @@
 {
   "id": "hyperlane",
   "name": "Hyperlane",
-  "description": "Hyperlane is the open interoperability framework for bridging, issuance, swaps, and message passing anywhere across 130+ blockchains and 7 VMs",
+  "description": "Permissionless interoperability protocol — deploy cross-chain messaging to any chain without governance approval. Modular security via Interchain Security Modules (ISMs).",
   "location": "",
   "links": {
-    "logo": "/imgs/Base/Infra/hyperlane.png",
-    "homepage": "https://www.hyperlane.xyz/",
-    "twitter": "https://x.com/hyperlane",
+    "logo": "/imgs/Modular Blockchain/Interop&Messaging/hyperlane.jpg",
+    "homepage": "https://hyperlane.xyz/",
+    "twitter": "https://x.com/Hyperlane",
     "github": ""
   }
 }

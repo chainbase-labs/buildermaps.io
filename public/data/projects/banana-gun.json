@@ -1,0 +1,10 @@
+{
+  "id": "banana-gun",
+  "name": "Banana Gun",
+  "description": "Ethereum-first sniper with the lowest manual buy fee in the category (0.5%). Distributes 40% of all trading fees to BANANA holders every four hours. Banana Pro web terminal with 20+ widgets.",
+  "links": {
+    "homepage": "https://bananagun.io/",
+    "twitter": "https://x.com/bananagun",
+    "logo": "/imgs/Onchain Trading Tools/TelegramBots/banana-gun.jpg"
+  }
+}

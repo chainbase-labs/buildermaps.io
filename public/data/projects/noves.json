@@ -1,0 +1,10 @@
+{
+  "id": "noves",
+  "name": "Noves",
+  "description": "Transaction interpretation API — translates raw onchain data into human-readable format across modular chains.",
+  "links": {
+    "homepage": "https://noves.fi/",
+    "twitter": "https://x.com/Noves_fi",
+    "logo": "/imgs/Modular Blockchain/Indexing&Data/noves.jpg"
+  }
+}

@@ -1,10 +1,10 @@
 {
   "id": "renzo",
   "name": "Renzo",
-  "description": "Renzo: institutional-grade DeFi gateway with one-click access to advanced restaking & liquidity yields. Manages strategies and liquid restaking for EigenLayer, Symbiotic, Jito. Unifies DeFi in one interface for institutions & retail. Assets & vaults provide diversified, composable exposure. Secure, efficient, compliant, scalable.",
+  "description": "Liquid restaking issuing ezETH with native Arbitrum deployment and deep Pendle market activity.",
   "links": {
-    "homepage": "https://app.renzoprotocol.com/restaking",
-    "logo": "/imgs/monad/renzo.webp",
-    "twitter": "https://x.com/RenzoProtocol"
+    "homepage": "https://renzoprotocol.com/",
+    "logo": "/imgs/Arbitrum/LiquidStaking&Restaking/renzo.jpg",
+    "twitter": "https://x.com/RenzoAI"
   }
 }

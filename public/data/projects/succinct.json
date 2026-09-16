@@ -1,0 +1,10 @@
+{
+  "id": "succinct",
+  "name": "Succinct",
+  "description": "SP1 zkVM — leading general-purpose zero-knowledge virtual machine built on RISC-V with LLVM IR frontend. Succinct Prover Network (SPN) is a decentralized proving marketplace. $PROVE token. Powers Ethereum L1 real-time proving.",
+  "links": {
+    "homepage": "https://succinct.xyz/",
+    "twitter": "https://x.com/SuccinctLabs",
+    "logo": "/imgs/Modular Blockchain/ZKProving/succinct.jpg"
+  }
+}

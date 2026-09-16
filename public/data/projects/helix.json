@@ -1,0 +1,10 @@
+{
+  "id": "helix",
+  "name": "Helix",
+  "description": "Flagship orderbook DEX on Injective. Perps spot and RWA markets with zero gas fees.",
+  "links": {
+    "homepage": "https://helixapp.com/",
+    "twitter": "https://x.com/HelixMarkets",
+    "logo": "/imgs/Perp DEX/OrderbookPerpDEX/helix.jpg"
+  }
+}

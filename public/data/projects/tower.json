@@ -1,0 +1,10 @@
+{
+  "id": "tower",
+  "name": "Tower",
+  "description": "Arc-native stablecoin DEX aggregator that routes swaps across liquidity venues. Developing cross-chain execution tools.",
+  "links": {
+    "homepage": "https://www.tower.exchange",
+    "twitter": "https://x.com/TowerExchange",
+    "logo": "/imgs/Arc/Trading/tower.jpg"
+  }
+}

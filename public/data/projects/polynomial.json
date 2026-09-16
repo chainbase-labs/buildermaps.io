@@ -1,0 +1,10 @@
+{
+  "id": "polynomial",
+  "name": "Polynomial",
+  "description": "Derivatives super-app on its own Ethereum L3. Perps powered by Synthetix v3 liquidity.",
+  "links": {
+    "homepage": "https://polynomial.fi/",
+    "twitter": "https://x.com/PolynomialFi",
+    "logo": "/imgs/Perp DEX/Pool-basedPerpDEX/polynomial.jpg"
+  }
+}

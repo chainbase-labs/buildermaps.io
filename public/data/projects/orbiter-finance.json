@@ -1,10 +1,10 @@
 {
   "id": "orbiter-finance",
   "name": "Orbiter Finance",
-  "description": "Decentralized optimistic cross-rollup bridge supporting low-cost, instant transfers primarily for Ethereum L2s.",
+  "description": "Low-cost L2-to-L2 bridge specializing in fast transfers between rollups including Arbitrum.",
   "links": {
-    "homepage": "https://www.orbiter.finance/",
+    "homepage": "https://orbiter.finance/",
     "twitter": "https://x.com/Orbiter_Finance",
-    "logo": "/imgs/Cross Chain/OmnichainLiquidity&Interoperability/orbiter-finance.jpg"
+    "logo": "/imgs/Arbitrum/Bridges&Interop/orbiter-finance.jpg"
   }
 }

@@ -1,0 +1,10 @@
+{
+  "id": "near-da",
+  "name": "NEAR DA",
+  "description": "NEAR Protocol's DA solution offering low-cost data availability for Ethereum rollups. Leverages NEAR's sharded architecture for high throughput at fraction of Ethereum blob costs.",
+  "links": {
+    "homepage": "https://near.org/data-availability",
+    "twitter": "https://x.com/NEARProtocol",
+    "logo": "/imgs/Modular Blockchain/DataAvailability/near-da.jpg"
+  }
+}

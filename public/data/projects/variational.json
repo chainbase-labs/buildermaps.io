@@ -1,0 +1,10 @@
+{
+  "id": "variational",
+  "name": "Variational",
+  "description": "Perp protocol with peer-to-peer OTC architecture. $9.6B monthly volume. Omni product offers one-click trading with automated market maker counterparty.",
+  "links": {
+    "homepage": "https://variational.io/",
+    "twitter": "https://x.com/variational_io",
+    "logo": "/imgs/Perp DEX/OrderbookPerpDEX/variational.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "enso",
+  "name": "Enso",
+  "description": "Shortcut execution engine bundling multi-step DeFi actions into a single call across chains.",
+  "links": {
+    "homepage": "https://enso.build/",
+    "twitter": "https://x.com/EnsoBuild",
+    "logo": "/imgs/Smart Wallets/ChainAbstraction/enso.jpg"
+  }
+}

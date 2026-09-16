@@ -1,11 +1,11 @@
 {
   "id": "safe-wallet",
-  "name": "Safe Wallet",
-  "description": "Multisig Security for your onchain assets",
+  "name": "Safe",
+  "description": "The battle-tested standard for smart accounts — multisig treasury wallet powering DAOs teams and consumer products like Gnosis Pay. Millions of Safes deployed across 12+ chains.",
   "location": "Global",
   "links": {
-    "logo": "/imgs/pharos/multisig/safe-wallet.png",
+    "logo": "/imgs/Smart Wallets/SmartAccountInfra/safe-wallet.jpg",
     "homepage": "https://safe.global/",
-    "twitter": "https://x.com/SafeLabs_"
+    "twitter": "https://x.com/safe"
   }
 }

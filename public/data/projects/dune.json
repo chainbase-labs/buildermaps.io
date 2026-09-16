@@ -1,12 +1,12 @@
 {
   "id": "dune",
   "name": "Dune",
-  "description": "Dune Analytics SQL blockchain query platform 100+ chains Ethereum/Solana/Bitcoin, free dashboards, APIs/DataShare, interactive visualizations",
+  "description": "Community SQL analytics platform — the source of most public dashboards tracking bot volumes and terminal market share.",
   "founded": 2018,
   "funding": null,
   "links": {
-    "homepage": "https://dune.com/home",
+    "homepage": "https://dune.com/",
     "twitter": "https://x.com/Dune",
-    "logo": "/imgs/Data/Infra/Dune.jpg"
+    "logo": "/imgs/Onchain Trading Tools/Analytics&Discovery/dune.jpg"
   }
 }

@@ -1,11 +1,11 @@
 {
   "id": "uniswap",
   "name": "Uniswap",
-  "description": "Industry leading decentralized exchange protocol facilitating automated token swaps and liquidity provision.",
+  "description": "Decentralized exchange infrastructure for permissionless swaps and liquidity pools. Circle announced Uniswap among expected Arc launch integrations.",
   "location": "Global",
   "links": {
-    "homepage": "https://uniswap.org/",
-    "logo": "/imgs/monad/uniswap.png",
+    "homepage": "http://app.uniswap.org",
+    "logo": "/imgs/Arc/DeFi/uniswap.jpg",
     "twitter": "https://x.com/Uniswap"
   }
 }

@@ -1,0 +1,10 @@
+{
+  "id": "warp",
+  "name": "Warp",
+  "description": "Arc launchpad and trading terminal incorporating USDC bridging.",
+  "links": {
+    "homepage": "http://circlewarp.fun",
+    "twitter": "https://x.com/circlewarp",
+    "logo": "/imgs/Arc/Launchpads/warp.jpg"
+  }
+}

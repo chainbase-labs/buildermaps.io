@@ -1,0 +1,10 @@
+{
+  "id": "helius",
+  "name": "Helius",
+  "description": "Leading Solana RPC and developer platform. Powers the data and transaction layer behind many terminals and bots.",
+  "links": {
+    "homepage": "https://helius.dev/",
+    "twitter": "https://x.com/Helius",
+    "logo": "/imgs/Onchain Trading Tools/ExecutionInfra/helius.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "brahma",
+  "name": "Brahma",
+  "description": "Onchain execution and account infrastructure. Console enables automated perp strategies with programmable guardrails.",
+  "links": {
+    "homepage": "https://brahma.fi/",
+    "twitter": "https://x.com/BrahmaFi",
+    "logo": "/imgs/Perp DEX/Terminal&CopyTrading/brahma.jpg"
+  }
+}

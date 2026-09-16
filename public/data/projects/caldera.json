@@ -1,10 +1,10 @@
 {
   "id": "caldera",
   "name": "Caldera",
-  "description": "Rollup-as-a-Service platform with EigenDA integration. One-click rollup deployment with restaked security.",
+  "description": "Leading RaaS platform — deploy production L2/L3 rollups across OP Stack Arbitrum Orbit ZK Stack Polygon CDK and Eclipse SVM. Powers ApeChain Manta Plume RARI Chain Treasure. Metalayer cross-chain messaging. $25M Series A.",
   "links": {
     "homepage": "https://caldera.xyz/",
-    "logo": "/imgs/restaking/caldera.jpg",
+    "logo": "/imgs/Modular Blockchain/Rollup-as-a-Service/caldera.jpg",
     "twitter": "https://x.com/Calderaxyz"
   }
 }

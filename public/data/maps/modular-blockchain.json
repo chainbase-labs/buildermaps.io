@@ -1,0 +1,96 @@
+{
+  "sector": "Modular Blockchain",
+  "types": [
+    {
+      "id": "data-availability",
+      "name": "Data Availability",
+      "projects": [
+        "0g",
+        "avail",
+        "celestia",
+        "eigenda",
+        "ethereum-blobs",
+        "near-da"
+      ]
+    },
+    {
+      "id": "rollup-as-a-service",
+      "name": "Rollup-as-a-Service",
+      "projects": [
+        "alchemy-rollups",
+        "altlayer",
+        "ankr-raas",
+        "caldera",
+        "conduit",
+        "gelato",
+        "zeeve"
+      ]
+    },
+    {
+      "id": "shared-sequencing",
+      "name": "Shared Sequencing",
+      "projects": [
+        "astria",
+        "espresso-systems",
+        "nodekit",
+        "radius"
+      ]
+    },
+    {
+      "id": "zk-proving",
+      "name": "ZK Proving",
+      "projects": [
+        "aligned-layer",
+        "brevis",
+        "fermah",
+        "risc-zero",
+        "snarkify",
+        "succinct",
+        "zkm"
+      ]
+    },
+    {
+      "id": "zk-hardware",
+      "name": "ZK Hardware",
+      "projects": [
+        "cysic",
+        "fabric-cryptography"
+      ]
+    },
+    {
+      "id": "rollup-frameworks",
+      "name": "Rollup Frameworks",
+      "projects": [
+        "arbitrum-orbit",
+        "dymension",
+        "eclipse",
+        "initia",
+        "op-stack",
+        "polygon-cdk"
+      ]
+    },
+    {
+      "id": "interop-and-messaging",
+      "name": "Interop & Messaging",
+      "projects": [
+        "axelar",
+        "chainlink-ccip",
+        "hyperlane",
+        "layerzero",
+        "polygon-agglayer",
+        "polymer-labs",
+        "wormhole"
+      ]
+    },
+    {
+      "id": "indexing-and-data",
+      "name": "Indexing & Data",
+      "projects": [
+        "blockscout",
+        "goldsky",
+        "noves",
+        "the-graph"
+      ]
+    }
+  ]
+}

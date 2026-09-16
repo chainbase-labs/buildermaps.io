@@ -1,0 +1,10 @@
+{
+  "id": "notional",
+  "name": "Notional",
+  "description": "Fixed-rate fixed-term lending — predictable borrowing costs rather than floating utilization curves.",
+  "links": {
+    "homepage": "https://notional.finance/",
+    "twitter": "https://x.com/NotionalFinance",
+    "logo": "/imgs/Arbitrum/Lending&Yield/notional.jpg"
+  }
+}

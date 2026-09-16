@@ -1,0 +1,175 @@
+{
+  "sector": "Arbitrum",
+  "types": [
+    {
+      "id": "dex-and-trading",
+      "name": "DEX & Trading",
+      "projects": [
+        "1inch",
+        "balancer",
+        "bebop",
+        "camelot",
+        "cow-protocol",
+        "curve",
+        "fluid",
+        "kyberswap",
+        "lfj-gg",
+        "maverick",
+        "odos",
+        "pancakeswap",
+        "ramses",
+        "sushiswap",
+        "uniswap"
+      ]
+    },
+    {
+      "id": "perps-and-derivatives",
+      "name": "Perps & Derivatives",
+      "projects": [
+        "contango",
+        "derive",
+        "gains-network",
+        "gmx",
+        "hmx",
+        "mux-protocol",
+        "ostium",
+        "perennial",
+        "premia",
+        "rage-trade",
+        "stryke",
+        "symmio",
+        "vertex"
+      ]
+    },
+    {
+      "id": "lending-and-yield",
+      "name": "Lending & Yield",
+      "projects": [
+        "aave",
+        "beefy",
+        "compound",
+        "dolomite",
+        "equilibria",
+        "gearbox",
+        "jones-dao",
+        "morpho",
+        "notional",
+        "pendle",
+        "penpie",
+        "plutus-dao",
+        "radiant-capital",
+        "silo-finance",
+        "stake-dao",
+        "timeswap",
+        "umami",
+        "yearn"
+      ]
+    },
+    {
+      "id": "stablecoins-and-rwa",
+      "name": "Stablecoins & RWA",
+      "projects": [
+        "angle",
+        "backed-finance",
+        "circle",
+        "ethena",
+        "ondo-finance",
+        "overnight",
+        "securitize",
+        "sky",
+        "spark",
+        "tether"
+      ]
+    },
+    {
+      "id": "orbit-chains",
+      "name": "Orbit Chains",
+      "projects": [
+        "apechain",
+        "proof-of-play",
+        "rari-chain",
+        "robinhood-chain",
+        "sanko",
+        "xai"
+      ]
+    },
+    {
+      "id": "gaming-and-nft",
+      "name": "Gaming & NFT",
+      "projects": [
+        "battlefly",
+        "element",
+        "ex-populus",
+        "games-gg",
+        "magic-eden",
+        "opensea",
+        "pirate-nation",
+        "smolverse",
+        "spartadex",
+        "the-beacon",
+        "treasure",
+        "zeeverse"
+      ]
+    },
+    {
+      "id": "bridges-and-interop",
+      "name": "Bridges & Interop",
+      "projects": [
+        "across",
+        "debridge",
+        "hop-protocol",
+        "layerzero",
+        "li-fi",
+        "orbiter-finance",
+        "rhino-fi",
+        "socket",
+        "stargate",
+        "synapse"
+      ]
+    },
+    {
+      "id": "infrastructure-and-tooling",
+      "name": "Infrastructure & Tooling",
+      "projects": [
+        "alchemy",
+        "altlayer",
+        "arbitrum",
+        "blockscout",
+        "caldera",
+        "chainlink",
+        "conduit",
+        "defillama",
+        "dune",
+        "galxe",
+        "gelato",
+        "goldsky",
+        "layer3",
+        "nansen",
+        "offchain",
+        "pyth-network",
+        "quicknode",
+        "redstone",
+        "safe-wallet",
+        "snapshot",
+        "subsquid",
+        "tally",
+        "tenderly",
+        "the-graph"
+      ]
+    },
+    {
+      "id": "liquid-staking-and-restaking",
+      "name": "Liquid Staking & Restaking",
+      "projects": [
+        "ether-fi",
+        "frax",
+        "kerneldao",
+        "lido",
+        "puffer-finance",
+        "renzo",
+        "rocket-pool",
+        "swell"
+      ]
+    }
+  ]
+}

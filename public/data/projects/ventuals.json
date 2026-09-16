@@ -1,10 +1,10 @@
 {
   "id": "ventuals",
   "name": "Ventuals",
-  "description": "Pre-IPO perpetual futures on private company valuations, bringing private markets access to DeFi.",
+  "description": "Pre-IPO perps on Hyperliquid HIP-3. Synthetic exposure to private company valuations (OpenAI SpaceX Cursor) with hybrid oracle.",
   "links": {
-    "homepage": "https://app.ventuals.com/",
+    "homepage": "https://ventuals.com/",
     "twitter": "https://x.com/ventuals",
-    "logo": "/imgs/Hyperliquid/Derivatives&StructuredProducts/ventuals.png"
+    "logo": "/imgs/Perp DEX/HIP-3BuilderMarkets/ventuals.png"
   }
 }

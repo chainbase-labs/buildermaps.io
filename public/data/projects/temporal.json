@@ -1,0 +1,10 @@
+{
+  "id": "temporal",
+  "name": "Temporal",
+  "description": "Nozomi transaction relay — sub-slot landing service for Solana traders competing on submission latency.",
+  "links": {
+    "homepage": "https://nozomi.temporal.xyz/",
+    "twitter": "https://x.com/temporal_xyz",
+    "logo": "/imgs/Onchain Trading Tools/ExecutionInfra/temporal.jpg"
+  }
+}

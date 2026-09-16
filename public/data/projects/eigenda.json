@@ -1,10 +1,10 @@
 {
   "id": "eigenda",
   "name": "EigenDA",
-  "description": "Flagship data availability AVS. 10 MB/s throughput for rollups. Used by Mantle, AltLayer, Celo.",
+  "description": "Ethereum-aligned DA layer secured by restaked ETH via EigenLayer. 100MB/s throughput — industry-leading. V2 live. Bundled by default in Caldera Conduit AltLayer Gelato RaaS platforms.",
   "links": {
-    "homepage": "https://www.eigencloud.xyz/",
-    "logo": "/imgs/restaking/eigenda.jpg",
+    "homepage": "https://eigenda.com/",
+    "logo": "/imgs/Modular Blockchain/DataAvailability/eigenda.jpg",
     "twitter": "https://x.com/eigen_da"
   }
 }

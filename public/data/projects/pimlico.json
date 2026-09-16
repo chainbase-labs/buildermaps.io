@@ -1,0 +1,10 @@
+{
+  "id": "pimlico",
+  "name": "Pimlico",
+  "description": "The account-agnostic infrastructure pick — Alto bundler paymaster API and permissionless.js SDK that pair with any account contract rather than locking you into one.",
+  "links": {
+    "homepage": "https://pimlico.io/",
+    "twitter": "https://x.com/pimlicoHQ",
+    "logo": "/imgs/Smart Wallets/SmartAccountInfra/pimlico.jpg"
+  }
+}

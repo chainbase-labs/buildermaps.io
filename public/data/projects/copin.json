@@ -1,0 +1,10 @@
+{
+  "id": "copin",
+  "name": "Copin",
+  "description": "Copy-trading and trader analytics across 20+ perp DEXs. Mirror top onchain traders' positions automatically.",
+  "links": {
+    "homepage": "https://copin.io/",
+    "twitter": "https://x.com/Copin_io",
+    "logo": "/imgs/Perp DEX/Terminal&CopyTrading/copin.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "zkm",
+  "name": "ZKM",
+  "description": "General-purpose zkVM exploring lightweight and ecosystem-compatible proving solutions. Hybrid MIPS and RISC-V approach.",
+  "links": {
+    "homepage": "https://zkm.io/",
+    "twitter": "https://x.com/ProjectZKM",
+    "logo": "/imgs/Modular Blockchain/ZKProving/zkm.jpg"
+  }
+}

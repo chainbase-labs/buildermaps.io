@@ -1,9 +1,10 @@
 {
   "id": "fomo",
-  "name": "fomo",
-  "description": "fomo is a trading app for the rest of us. Discover top traders and trending tokens in real time. Follow strategies, track positions, and share your own moves.  From Bitcoin to memes - access any asset in seconds. Fast, transparent, and intuitive for everyone, not just crypto natives.",
+  "name": "Fomo",
+  "description": "Social copy-trading mobile app with 500K+ traders and Apple Pay onramp. Follow people rather than data.",
   "links": {
-    "homepage": "https://fomo.family/?utm_source=monad_website&utm_medium=home_page&utm_id=monad_home_page",
-    "logo": "/imgs/monad/fomo.webp"
+    "homepage": "https://fomo.biz/",
+    "logo": "/imgs/Onchain Trading Tools/MobileApps/fomo.jpg",
+    "twitter": "https://x.com/fomo"
   }
 }

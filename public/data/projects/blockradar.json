@@ -1,0 +1,10 @@
+{
+  "id": "blockradar",
+  "name": "Blockradar",
+  "description": "Non-custodial stablecoin wallet and settlement infrastructure for fintechs. Listed in Arc's official ecosystem directory.",
+  "links": {
+    "homepage": "https://blockradar.co",
+    "twitter": "https://x.com/BlockradarHQ",
+    "logo": "/imgs/Arc/Wallets/blockradar.jpg"
+  }
+}

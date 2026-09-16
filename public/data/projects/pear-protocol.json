@@ -1,0 +1,10 @@
+{
+  "id": "pear-protocol",
+  "name": "Pear Protocol",
+  "description": "Pair-trading terminal — long one asset short another in a single position. Built on Hyperliquid and Symmio liquidity.",
+  "links": {
+    "homepage": "https://pear.garden/",
+    "twitter": "https://x.com/pear_protocol",
+    "logo": "/imgs/Perp DEX/Terminal&CopyTrading/pear-protocol.jpg"
+  }
+}

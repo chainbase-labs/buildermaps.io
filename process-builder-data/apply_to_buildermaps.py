@@ -21,8 +21,27 @@ import json
 import re
 import sys
 import time
-from urllib.parse import quote
+from collections import defaultdict
 from pathlib import Path
+from urllib.parse import quote, urlparse
+
+GENERIC_NAME_TOKENS = {
+    "wallet",
+    "wallets",
+    "platform",
+    "protocol",
+    "app",
+    "apps",
+    "labs",
+    "lab",
+    "network",
+    "networks",
+    "foundation",
+    "finance",
+    "exchange",
+    "dao",
+    "chain",
+}
 
 
 def slugify_repo(text: str) -> str:
@@ -59,10 +78,140 @@ def extract_twitter_handle(twitter_url: str) -> str:
     return ""
 
 
-def download_logo(twitter_url: str, save_path: Path, timeout_s: int = 10) -> bool:
+def normalize_url(url: str) -> str:
+    """Normalize URLs for loose equality checks."""
+    value = (url or "").strip()
+    if not value:
+        return ""
+
+    parsed = urlparse(value if "://" in value else f"https://{value}")
+    netloc = parsed.netloc.lower()
+    if netloc.startswith("www."):
+        netloc = netloc[4:]
+    path = re.sub(r"/+$", "", parsed.path or "")
+    return f"{netloc}{path}"
+
+
+def guess_logo_extension(logo_url: str) -> str:
+    """Best-effort file extension detection for downloaded logos."""
+    suffix = Path(urlparse((logo_url or "").strip()).path).suffix.lower()
+    return suffix if suffix in {".png", ".jpg", ".jpeg", ".webp", ".svg"} else ".png"
+
+
+def names_are_compatible(existing_name: str, incoming_name: str) -> bool:
+    """Return True when two names likely refer to the same top-level project."""
+    existing_slug = slugify_repo(existing_name)
+    incoming_slug = slugify_repo(incoming_name)
+    if not existing_slug or not incoming_slug:
+        return False
+    if existing_slug == incoming_slug:
+        return True
+
+    existing_tokens = [token for token in existing_slug.split("-") if token]
+    incoming_tokens = [token for token in incoming_slug.split("-") if token]
+    shorter, longer = sorted((existing_tokens, incoming_tokens), key=len)
+    if longer[: len(shorter)] != shorter:
+        return False
+
+    extra_tokens = set(longer[len(shorter) :])
+    return bool(extra_tokens) and extra_tokens.issubset(GENERIC_NAME_TOKENS)
+
+
+def index_project(
+    project_indexes: dict[str, dict[str, set[str]]], project: dict, project_id: str
+) -> None:
+    """Add a project to lookup indexes."""
+    project_name = (project.get("name") or "").strip().lower()
+    if project_name:
+        project_indexes["name"][project_name].add(project_id)
+
+    links = project.get("links") if isinstance(project.get("links"), dict) else {}
+
+    homepage = normalize_url(links.get("homepage", ""))
+    if homepage:
+        project_indexes["homepage"][homepage].add(project_id)
+
+    twitter_handle = extract_twitter_handle(links.get("twitter", "")).lower()
+    if twitter_handle:
+        project_indexes["twitter"][twitter_handle].add(project_id)
+
+    github = normalize_url(links.get("github", ""))
+    if github:
+        project_indexes["github"][github].add(project_id)
+
+    project_indexes["project_names"][project_id] = project_name
+
+
+def build_project_indexes(projects_dir: Path) -> dict[str, dict[str, set[str]]]:
+    """Build lookup indexes for existing project files."""
+    project_indexes: dict[str, dict[str, set[str]]] = {
+        "name": defaultdict(set),
+        "homepage": defaultdict(set),
+        "twitter": defaultdict(set),
+        "github": defaultdict(set),
+        "project_names": {},
+    }
+
+    for project_path in sorted(projects_dir.glob("*.json")):
+        project = load_json(project_path)
+        project_id = str(project.get("id") or project_path.stem)
+        index_project(project_indexes, project, project_id)
+
+    return project_indexes
+
+
+def resolve_project_id(
+    name: str,
+    website: str,
+    twitter: str,
+    github: str,
+    projects_dir: Path,
+    project_indexes: dict[str, dict[str, set[str]]],
+) -> str:
+    """Reuse an existing project ID when the CSV row clearly matches one."""
+    slugified_name = slugify_repo(name)
+    if (projects_dir / f"{slugified_name}.json").exists():
+        return slugified_name
+
+    def find_compatible_match(candidate_ids: set[str]) -> str:
+        compatible_ids = {
+            candidate_id
+            for candidate_id in candidate_ids
+            if names_are_compatible(
+                str(project_indexes["project_names"].get(candidate_id, "")), name
+            )
+        }
+        return next(iter(compatible_ids)) if len(compatible_ids) == 1 else ""
+
+    homepage_matches = project_indexes["homepage"].get(normalize_url(website), set())
+    homepage_match = find_compatible_match(homepage_matches)
+    if homepage_match:
+        return homepage_match
+
+    twitter_handle = extract_twitter_handle(twitter).lower()
+    twitter_matches = project_indexes["twitter"].get(twitter_handle, set())
+    twitter_match = find_compatible_match(twitter_matches)
+    if twitter_match:
+        return twitter_match
+
+    github_matches = project_indexes["github"].get(normalize_url(github), set())
+    github_match = find_compatible_match(github_matches)
+    if github_match:
+        return github_match
+
+    name_matches = project_indexes["name"].get(name.strip().lower(), set())
+    if len(name_matches) == 1:
+        return next(iter(name_matches))
+
+    return slugified_name
+
+
+def download_logo(logo_url: str, twitter_url: str, save_path: Path, timeout_s: int = 10) -> bool:
     """
-    Download Twitter/X avatar using unavatar API.
-    Mirrors `process-builder-data/processor.py` behavior.
+    Download a project logo.
+
+    Prefer the explicit logo URL from CSV; fall back to a Twitter/X avatar via
+    unavatar when only a social handle is available.
     """
     try:
         import requests  # type: ignore
@@ -72,14 +221,16 @@ def download_logo(twitter_url: str, save_path: Path, timeout_s: int = 10) -> boo
             "Install via process-builder-data/requirements.txt"
         ) from e
 
-    twitter_handle = extract_twitter_handle(twitter_url)
-    if not twitter_handle:
-        return False
-
-    api_url = f"https://unavatar.io/twitter/{twitter_handle}"
     save_path.parent.mkdir(parents=True, exist_ok=True)
 
-    resp = requests.get(api_url, timeout=timeout_s)
+    source_url = (logo_url or "").strip()
+    if not source_url:
+        twitter_handle = extract_twitter_handle(twitter_url)
+        if not twitter_handle:
+            return False
+        source_url = f"https://unavatar.io/twitter/{twitter_handle}"
+
+    resp = requests.get(source_url, timeout=timeout_s)
     if resp.status_code != 200 or not resp.content:
         return False
 
@@ -139,6 +290,7 @@ def apply_csv(
     projects_dir = repo_root / "public" / "data" / "projects"
     maps_dir = repo_root / "public" / "data" / "maps"
     imgs_dir = repo_root / "public" / "imgs"
+    project_indexes = build_project_indexes(projects_dir)
 
     if not csv_file.exists():
         raise FileNotFoundError(f"CSV file not found: {csv_file}")
@@ -188,7 +340,9 @@ def apply_csv(
         description = get(row, "description").strip()
         logo = get_first(row, "logo", "logo url", "logo_url")
 
-        project_id = slugify_repo(name)
+        project_id = resolve_project_id(
+            name, website, twitter, github, projects_dir, project_indexes
+        )
         if not project_id:
             raise ValueError(f"Could not compute project id from name: {name}")
 
@@ -227,16 +381,21 @@ def apply_csv(
         # - If CSV explicitly provides logo URL/path, use it and do NOT auto-download.
         # - Otherwise set a deterministic local path based on sector/type/project id.
         type_dir_name = type_name.replace(" ", "")
-        default_logo_rel_path = f"/imgs/{sector}/{type_dir_name}/{project_id}.png"
-        if logo:
+        logo_extension = guess_logo_extension(logo) if download_logos else ".png"
+        default_logo_rel_path = (
+            f"/imgs/{sector}/{type_dir_name}/{project_id}{logo_extension}"
+        )
+        if logo and not download_logos:
             links["logo"] = logo
         else:
             links["logo"] = default_logo_rel_path
 
         # Optional logo download
-        if download_logos and twitter and not logo:
+        if download_logos:
             logo_rel_path = default_logo_rel_path
-            logo_abs_path = imgs_dir / sector / type_dir_name / f"{project_id}.png"
+            logo_abs_path = imgs_dir / sector / type_dir_name / (
+                f"{project_id}{logo_extension}"
+            )
 
             has_logo_field = bool(links.get("logo"))
             should_try_download = (
@@ -248,7 +407,7 @@ def apply_csv(
             # Always attempt download when requested to ensure logo persistence
             # in this repository, regardless of remote CDN availability.
             if should_try_download:
-                ok = download_logo(twitter, logo_abs_path)
+                ok = download_logo(logo, twitter, logo_abs_path)
                 if ok:
                     downloaded_logos += 1
                 # If download fails, keep existing logo (if any)
@@ -260,6 +419,7 @@ def apply_csv(
 
         write_json(project_path, project)
         updated_projects += 1
+        index_project(project_indexes, project, project_id)
 
         # ---- maps ----
         sector_slug = slugify_repo(sector)

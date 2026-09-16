@@ -1,10 +1,10 @@
 {
   "id": "tether",
   "name": "Tether",
-  "description": "Dominant stablecoin issuer providing the primary digital fiat liquidity layer for global crypto trading and programmatic settlements.",
+  "description": "USDT issuer with major Arbitrum supply. Core settlement asset across the chain's DEX and perp venues.",
   "links": {
     "homepage": "https://tether.to/",
-    "logo": "/imgs/agentic-finance/tether.png",
+    "logo": "/imgs/Arbitrum/Stablecoins&RWA/tether.png",
     "twitter": "https://x.com/tether"
   }
 }

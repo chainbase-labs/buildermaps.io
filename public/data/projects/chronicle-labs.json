@@ -1,0 +1,10 @@
+{
+  "id": "chronicle-labs",
+  "name": "Chronicle Labs",
+  "description": "Oracle platform providing verifiable price feeds and asset data. Listed in Arc's official ecosystem directory.",
+  "links": {
+    "homepage": "https://chroniclelabs.org/",
+    "twitter": "https://x.com/ChronicleLabs",
+    "logo": "/imgs/Arc/Infrastructure/chronicle-labs.png"
+  }
+}

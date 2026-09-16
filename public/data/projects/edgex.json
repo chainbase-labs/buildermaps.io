@@ -1,0 +1,10 @@
+{
+  "id": "edgex",
+  "name": "edgeX",
+  "description": "Perpetuals trading platform covering crypto and global assets. Included in the supplied Arc launch map; Arc deployment status requires confirmation.",
+  "links": {
+    "homepage": "http://edgex.exchange",
+    "twitter": "https://x.com/edgeX_exchange",
+    "logo": "/imgs/Arc/Trading/edgex.jpg"
+  }
+}

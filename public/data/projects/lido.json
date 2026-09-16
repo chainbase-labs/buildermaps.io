@@ -1,10 +1,10 @@
 {
   "id": "lido",
   "name": "Lido",
-  "description": "Lido is an open-source liquid staking protocol that makes Ethereum staking simple and accessible. Users can stake ETH through professional node operators and receive liquid staking tokens that integrate broadly across DeFi. Lido also offers staking-related tools like CSM for home staking and Lido Earn, a one-stop shop for DeFi strategies.",
+  "description": "Largest liquid staking protocol. wstETH on Arbitrum is the most widely accepted ETH collateral across the chain's lending markets.",
   "links": {
     "homepage": "https://lido.fi/",
-    "logo": "/imgs/monad/lido.webp",
+    "logo": "/imgs/Arbitrum/LiquidStaking&Restaking/lido.jpg",
     "twitter": "https://x.com/LidoFinance"
   }
 }

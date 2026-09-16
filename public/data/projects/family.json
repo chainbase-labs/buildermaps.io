@@ -1,0 +1,10 @@
+{
+  "id": "family",
+  "name": "Family",
+  "description": "Design-forward smart contract wallet with social recovery. Also maintains ConnectKit used across Ethereum apps.",
+  "links": {
+    "homepage": "https://family.co/",
+    "twitter": "https://x.com/family",
+    "logo": "/imgs/Smart Wallets/WalletApps/family.png"
+  }
+}

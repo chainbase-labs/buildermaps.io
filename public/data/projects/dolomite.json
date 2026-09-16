@@ -1,0 +1,10 @@
+{
+  "id": "dolomite",
+  "name": "Dolomite",
+  "description": "Capital-efficient money market where deposited collateral keeps earning external rewards while being borrowed against. Supports 1000+ assets.",
+  "links": {
+    "homepage": "https://dolomite.io/",
+    "twitter": "https://x.com/Dolomite_io",
+    "logo": "/imgs/Arbitrum/Lending&Yield/dolomite.jpg"
+  }
+}

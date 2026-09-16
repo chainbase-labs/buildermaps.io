@@ -1,0 +1,10 @@
+{
+  "id": "unibot",
+  "name": "Unibot",
+  "description": "Original Ethereum Telegram trading bot that defined the category in 2023. Still active on Ethereum with sniping and limit orders.",
+  "links": {
+    "homepage": "https://unibot.app/",
+    "twitter": "https://x.com/TeamUnibot",
+    "logo": "/imgs/Onchain Trading Tools/TelegramBots/unibot.jpg"
+  }
+}

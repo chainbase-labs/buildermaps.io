@@ -1,10 +1,10 @@
 {
   "id": "avail",
   "name": "Avail",
-  "description": "Avail is a modular blockchain for data availability, providing a secure foundation for rollups and other scaling solutions.",
+  "description": "Modular DA layer with integrated interop (Nexus) and shared security stack. Framework-agnostic — supports Arbitrum Orbit OP Stack Polygon CDK. Backed by Founders Fund and Dragonfly.",
   "location": "",
   "links": {
-    "logo": "/imgs/Base/Infra/avail.png",
+    "logo": "/imgs/Modular Blockchain/DataAvailability/avail.jpg",
     "homepage": "https://availproject.org/",
     "twitter": "https://x.com/AvailProject",
     "github": ""

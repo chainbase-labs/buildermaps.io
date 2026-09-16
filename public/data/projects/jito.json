@@ -1,10 +1,10 @@
 {
   "id": "jito",
   "name": "Jito",
-  "description": "Largest Solana liquid staking expanding to restaking. JitoSOL plus MEV infrastructure.",
+  "description": "MEV infrastructure of Solana — Block Engine and bundle system that nearly every sniping bot routes through for landing priority.",
   "links": {
     "homepage": "https://jito.network/",
-    "logo": "/imgs/restaking/jito.png",
-    "twitter": "https://x.com/jito_sol"
+    "logo": "/imgs/Onchain Trading Tools/ExecutionInfra/jito.png",
+    "twitter": "https://x.com/jito"
   }
 }

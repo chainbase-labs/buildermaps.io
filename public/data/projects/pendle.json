@@ -1,10 +1,10 @@
 {
   "id": "pendle",
   "name": "Pendle",
-  "description": "Largest yield trading platform. Splits LRT yield into PT/YT for fixed and variable rate trading. Key LRT liquidity venue.",
+  "description": "Yield tokenization splitting assets into principal and yield tokens. The bulk of Pendle's yield-trading TVL sits on Arbitrum.",
   "links": {
     "homepage": "https://pendle.finance/",
-    "logo": "/imgs/restaking/pendle.jpg",
+    "logo": "/imgs/Arbitrum/Lending&Yield/pendle.jpg",
     "twitter": "https://x.com/pendle_fi"
   }
 }

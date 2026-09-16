@@ -1,0 +1,10 @@
+{
+  "id": "equilibria",
+  "name": "Equilibria",
+  "description": "Competing Pendle booster converting PENDLE into a liquid staked position with enhanced LP yields.",
+  "links": {
+    "homepage": "https://equilibria.fi/",
+    "twitter": "https://x.com/Equilibriafi",
+    "logo": "/imgs/Arbitrum/Lending&Yield/equilibria.png"
+  }
+}

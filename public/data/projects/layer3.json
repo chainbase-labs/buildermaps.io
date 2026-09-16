@@ -1,0 +1,10 @@
+{
+  "id": "layer3",
+  "name": "Layer3",
+  "description": "Onchain quest platform driving user onboarding and activity across Arbitrum applications.",
+  "links": {
+    "homepage": "https://layer3.xyz/",
+    "twitter": "https://x.com/layer3xyz",
+    "logo": "/imgs/Arbitrum/Infrastructure&Tooling/layer3.jpg"
+  }
+}

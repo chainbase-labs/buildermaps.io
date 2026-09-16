@@ -1,10 +1,10 @@
 {
   "id": "li-fi",
-  "name": "LI.FI",
-  "description": "Advanced bridge and decentralized exchange aggregator providing seamless cross-chain swapping and routing for decentralized applications.",
+  "name": "Li.Fi",
+  "description": "Bridge and DEX aggregation API powering cross-chain routing into Arbitrum for wallets and apps.",
   "links": {
-    "homepage": "https://link3.to/lifi",
+    "homepage": "https://li.fi/",
     "twitter": "https://x.com/lifiprotocol",
-    "logo": "/imgs/Cross Chain/BridgeAggregators/li-fi.png"
+    "logo": "/imgs/Arbitrum/Bridges&Interop/li-fi.png"
   }
 }

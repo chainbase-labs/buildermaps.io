@@ -1,0 +1,10 @@
+{
+  "id": "odos",
+  "name": "Odos",
+  "description": "Smart order routing aggregator splitting trades across multiple pools for better execution than single-venue swaps.",
+  "links": {
+    "homepage": "https://odos.xyz/",
+    "twitter": "https://x.com/odosprotocol",
+    "logo": "/imgs/Arbitrum/DEX&Trading/odos.jpg"
+  }
+}

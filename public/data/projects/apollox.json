@@ -1,0 +1,10 @@
+{
+  "id": "apollox",
+  "name": "ApolloX",
+  "description": "APX Finance — perp DEX with ALP pool model on BNB Chain. V2 offers onchain perps with deep liquidity.",
+  "links": {
+    "homepage": "https://apollox.finance/",
+    "twitter": "https://x.com/APX_Finance",
+    "logo": "/imgs/Perp DEX/Pool-basedPerpDEX/apollox.png"
+  }
+}

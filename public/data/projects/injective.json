@@ -1,10 +1,10 @@
 {
   "id": "injective",
   "name": "Injective",
-  "description": "Lightning-fast interoperable blockchain optimized specifically for constructing premier Web3 financial applications.",
+  "description": "Finance-focused L1 with native orderbook module. Powers Helix and other perp front-ends with MEV-resistant matching.",
   "links": {
-    "homepage": "https://t.co/dObvZmZORj",
+    "homepage": "https://injective.com/",
     "twitter": "https://x.com/injective",
-    "logo": "/imgs/Ambassador Program/BaseLayer/injective.png"
+    "logo": "/imgs/Perp DEX/Oracle&Infrastructure/injective.jpg"
   }
 }

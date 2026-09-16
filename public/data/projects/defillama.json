@@ -1,13 +1,13 @@
 {
   "id": "defillama",
   "name": "DefiLlama",
-  "description": "DefiLlama is the go-to platform for tracking DeFi on Sui, providing open and transparent analytics on TVL, liquidity, and protocol activity.",
+  "description": "Neutral open-source TVL volume and fee data across every chain and protocol. The reference dataset for the whole industry.",
   "founded": 2021,
   "funding": null,
   "links": {
-    "logo": "/imgs/Sui/Analytics/DefiLlama.png",
+    "logo": "/imgs/Onchain Trading Tools/Analytics&Discovery/defillama.jpg",
     "twitter": "https://x.com/DefiLlama",
-    "homepage": "https://defillama.com",
+    "homepage": "https://defillama.com/",
     "discord": "https://discord.gg/Vsjpghdhb3"
   }
 }

@@ -1,0 +1,10 @@
+{
+  "id": "bonkbot",
+  "name": "BONKbot",
+  "description": "Most popular Solana Telegram bot — tap-and-trade simplicity with serious backend infrastructure. Strong MEV protection and the default entry point for new onchain traders.",
+  "links": {
+    "homepage": "https://bonkbot.io/",
+    "twitter": "https://x.com/bonkbot_io",
+    "logo": "/imgs/Onchain Trading Tools/TelegramBots/bonkbot.jpg"
+  }
+}

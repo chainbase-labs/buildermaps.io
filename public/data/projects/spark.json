@@ -1,0 +1,10 @@
+{
+  "id": "spark",
+  "name": "Spark",
+  "description": "Sky's DeFi arm — USDS savings rate and liquidity layer deployed on Arbitrum.",
+  "links": {
+    "homepage": "https://spark.fi/",
+    "twitter": "https://x.com/spark",
+    "logo": "/imgs/Arbitrum/Stablecoins&RWA/spark.png"
+  }
+}

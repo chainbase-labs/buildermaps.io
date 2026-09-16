@@ -1,12 +1,12 @@
 {
   "id": "across",
   "name": "Across",
-  "description": "Across Protocol optimistic cross-chain bridge, UMA oracle verification, intents-based, 60-80% lower gas costs, fast ETH/WBTC/USDC/USDT",
+  "description": "Intent-based cross-chain transfer protocol. Listed in Arc's official ecosystem directory.",
   "founded": 2021,
   "funding": null,
   "links": {
-    "homepage": "https://across.to/",
-    "logo": "/imgs/monad/across.jpg",
+    "homepage": "http://across.to",
+    "logo": "/imgs/Arc/Infrastructure/across.jpg",
     "twitter": "https://x.com/AcrossProtocol"
   }
 }

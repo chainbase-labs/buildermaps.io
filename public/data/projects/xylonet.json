@@ -1,0 +1,10 @@
+{
+  "id": "xylonet",
+  "name": "XyloNet",
+  "description": "Arc-focused liquidity and payments application developing identity-based transfers, swaps and bridging.",
+  "links": {
+    "homepage": "http://xylonet.xyz",
+    "twitter": "https://x.com/Xylonet_",
+    "logo": "/imgs/Arc/Payments/xylonet.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "hmx",
+  "name": "HMX",
+  "description": "Perp DEX built on top of GMX liquidity with cross-margin and up to 1000x leverage on forex pairs.",
+  "links": {
+    "homepage": "https://hmx.org/",
+    "twitter": "https://x.com/HMXorg",
+    "logo": "/imgs/Arbitrum/Perps&Derivatives/hmx.jpg"
+  }
+}

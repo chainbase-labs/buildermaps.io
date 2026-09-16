@@ -1,0 +1,10 @@
+{
+  "id": "contango",
+  "name": "Contango",
+  "description": "Builds leveraged looping positions across lending markets automatically — synthetic perps from spot money markets.",
+  "links": {
+    "homepage": "https://contango.xyz/",
+    "twitter": "https://x.com/Contango_xyz",
+    "logo": "/imgs/Arbitrum/Perps&Derivatives/contango.jpg"
+  }
+}

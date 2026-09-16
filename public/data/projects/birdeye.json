@@ -1,13 +1,13 @@
 {
   "id": "birdeye",
   "name": "Birdeye",
-  "description": "Birdeye is a blockchain data aggregator designed for traders, providing real-time market insights and data-driven analysis tools.",
+  "description": "Solana-first data aggregator with token analytics wallet tracking and trading APIs powering many downstream terminals.",
   "founded": null,
   "funding": null,
   "links": {
-    "logo": "/imgs/monad/birdeye.png",
+    "logo": "/imgs/Onchain Trading Tools/Analytics&Discovery/birdeye.jpg",
     "twitter": "https://x.com/birdeye_so",
-    "homepage": "https://www.birdeye.so/",
+    "homepage": "https://birdeye.so/",
     "discord": "https://discord.gg/Vsjpghdhb3"
   }
 }

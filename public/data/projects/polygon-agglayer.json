@@ -1,0 +1,10 @@
+{
+  "id": "polygon-agglayer",
+  "name": "Polygon AggLayer",
+  "description": "Aggregation layer unifying ZK-proven chains into a single network with shared bridge and liquidity. Aims to make multi-chain feel like one chain.",
+  "links": {
+    "homepage": "https://polygon.technology/agglayer",
+    "twitter": "https://x.com/AggLayer",
+    "logo": "/imgs/Modular Blockchain/Interop&Messaging/polygon-agglayer.jpg"
+  }
+}

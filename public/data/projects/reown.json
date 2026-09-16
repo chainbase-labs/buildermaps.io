@@ -1,0 +1,10 @@
+{
+  "id": "reown",
+  "name": "Reown",
+  "description": "Formerly WalletConnect — AppKit and WalletKit toolkits for wallet connection embedded wallets and onchain UX across chains.",
+  "links": {
+    "homepage": "https://reown.com/",
+    "twitter": "https://x.com/reown_",
+    "logo": "/imgs/Smart Wallets/EmbeddedWallets/reown.jpg"
+  }
+}

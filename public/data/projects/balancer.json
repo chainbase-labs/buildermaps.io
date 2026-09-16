@@ -1,10 +1,10 @@
 {
   "id": "balancer",
   "name": "Balancer",
-  "description": "Balancer is a programmable and customizable DEX and AMM infrastructure supporting multiple pool types: Weighted and Stable Pools (both available as Boosted for yield generation via lending protocols), LBPs for fair token launches, and reCLAMMs for passive concentrated liquidity. All pools are extendable via V3 hooks for custom logic",
+  "description": "Programmable AMM with weighted and boosted pools. Underpins LP strategies and yield products across the Arbitrum DeFi stack.",
   "links": {
-    "homepage": "https://balancer.fi/pools",
-    "logo": "/imgs/monad/balancer.webp",
+    "homepage": "https://balancer.fi/",
+    "logo": "/imgs/Arbitrum/DEX&Trading/balancer.jpg",
     "twitter": "https://x.com/Balancer"
   }
 }

@@ -1,0 +1,10 @@
+{
+  "id": "ramses",
+  "name": "Ramses",
+  "description": "ve(3,3) DEX built for Arbitrum — concentrated liquidity with emissions directed by vote-escrowed governance.",
+  "links": {
+    "homepage": "https://ramses.exchange/",
+    "twitter": "https://x.com/RamsesExchange",
+    "logo": "/imgs/Arbitrum/DEX&Trading/ramses.jpg"
+  }
+}

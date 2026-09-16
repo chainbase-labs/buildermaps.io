@@ -1,0 +1,10 @@
+{
+  "id": "decibel",
+  "name": "Decibel",
+  "description": "Fully onchain trading engine natively built on Aptos. Public testnet with mainnet expected 2026.",
+  "links": {
+    "homepage": "https://decibel.trade/",
+    "twitter": "https://x.com/DecibelTrade",
+    "logo": "/imgs/Perp DEX/Upcoming/decibel.jpg"
+  }
+}

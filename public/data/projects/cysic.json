@@ -1,0 +1,10 @@
+{
+  "id": "cysic",
+  "name": "Cysic",
+  "description": "ZK hardware acceleration — custom ASIC and FPGA designs for proof generation. Making ZK proving faster and cheaper at the silicon level.",
+  "links": {
+    "homepage": "https://cysic.xyz/",
+    "twitter": "https://x.com/cysic_xyz",
+    "logo": "/imgs/Modular Blockchain/ZKHardware/cysic.jpg"
+  }
+}

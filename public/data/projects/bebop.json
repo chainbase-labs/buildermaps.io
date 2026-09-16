@@ -1,0 +1,10 @@
+{
+  "id": "bebop",
+  "name": "Bebop",
+  "description": "RFQ trading venue with professional market maker quotes and gasless multi-token swaps.",
+  "links": {
+    "homepage": "https://bebop.xyz/",
+    "twitter": "https://x.com/bebop_dex",
+    "logo": "/imgs/Arbitrum/DEX&Trading/bebop.jpg"
+  }
+}

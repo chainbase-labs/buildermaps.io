@@ -1,0 +1,10 @@
+{
+  "id": "radar-dex",
+  "name": "Radar DEX",
+  "description": "Arc token scanner and trading terminal with launch tools. Previously branded ArcDEXScan.",
+  "links": {
+    "homepage": "https://radardex.pro/",
+    "twitter": "https://x.com/ArcDEXScan",
+    "logo": "/imgs/Arc/Trading/radar-dex.jpg"
+  }
+}
