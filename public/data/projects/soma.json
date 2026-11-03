@@ -1,0 +1,10 @@
+{
+  "id": "soma",
+  "name": "SOMA",
+  "description": "SN114 · Context compression layer for agents delivered via MCP.",
+  "links": {
+    "homepage": "https://github.com/DendriteHQ/SOMA",
+    "twitter": "https://x.com/SomaSubnet",
+    "logo": "/imgs/Bittensor/Agents&Apps/soma.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "green-compute",
+  "name": "Green Compute",
+  "description": "SN110 · Enterprise inference on verifiably green-energy GPU hardware.",
+  "links": {
+    "homepage": "https://github.com/Rich-Kids-of-TAO/rkt-subnet",
+    "twitter": "https://x.com/green_compute_",
+    "logo": "/imgs/Bittensor/Compute/green-compute.jpg"
+  }
+}

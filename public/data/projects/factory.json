@@ -1,0 +1,10 @@
+{
+  "id": "factory",
+  "name": "Factory",
+  "description": "Droid agents for delegated engineering work with IDE and Zed integrations plus enterprise controls.",
+  "links": {
+    "homepage": "https://factory.ai/",
+    "twitter": "https://x.com/FactoryAI",
+    "logo": "/imgs/AI Coding Agents/Cloud&AsyncAgents/factory.jpg"
+  }
+}

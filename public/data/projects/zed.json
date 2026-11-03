@@ -1,0 +1,10 @@
+{
+  "id": "zed",
+  "name": "Zed",
+  "description": "Rust-built high-performance editor with native agent panel. Authored the Agent Client Protocol that lets any agent plug into any editor.",
+  "links": {
+    "homepage": "https://zed.dev/",
+    "twitter": "https://x.com/zeddotdev",
+    "logo": "/imgs/AI Coding Agents/AIIDEs/zed.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "jetbrains-ai",
+  "name": "JetBrains AI",
+  "description": "Junie agent and AI Assistant built into IntelliJ PyCharm and the rest of the JetBrains suite for teams that won't leave their existing IDE.",
+  "links": {
+    "homepage": "https://jetbrains.com/ai/",
+    "twitter": "https://x.com/jetbrains",
+    "logo": "/imgs/AI Coding Agents/AIIDEs/jetbrains-ai.jpg"
+  }
+}

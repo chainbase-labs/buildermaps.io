@@ -1,0 +1,10 @@
+{
+  "id": "virtune",
+  "name": "Virtune",
+  "description": "Issuer of a Bittensor ETP listed on Nasdaq Stockholm.",
+  "links": {
+    "homepage": "https://virtune.com",
+    "twitter": "https://x.com/VirtuneAB",
+    "logo": "/imgs/Bittensor/Capital&Institutions/virtune.jpg"
+  }
+}

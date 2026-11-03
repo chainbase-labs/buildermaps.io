@@ -1,0 +1,10 @@
+{
+  "id": "claude-squad",
+  "name": "Claude Squad",
+  "description": "Terminal UI for supervising many coding agents at once in isolated git worktrees.",
+  "links": {
+    "homepage": "https://smtg-ai.github.io/claude-squad/",
+    "twitter": "https://x.com/ClaudeSquadAI",
+    "logo": "/imgs/AI Coding Agents/Orchestration&Infra/claude-squad.jpg"
+  }
+}

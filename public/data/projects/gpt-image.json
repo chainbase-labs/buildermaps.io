@@ -1,0 +1,10 @@
+{
+  "id": "gpt-image",
+  "name": "GPT Image",
+  "description": "OpenAI's native image generation and editing model in ChatGPT and API.",
+  "links": {
+    "homepage": "https://openai.com",
+    "twitter": "https://x.com/OpenAI",
+    "logo": "/imgs/AI Video/ImageModels/gpt-image.jpg"
+  }
+}

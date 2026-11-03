@@ -1,0 +1,10 @@
+{
+  "id": "semgrep",
+  "name": "Semgrep",
+  "description": "Static analysis and security scanning with AI triage. The security layer most teams pair with an AI reviewer.",
+  "links": {
+    "homepage": "https://semgrep.dev/",
+    "twitter": "https://x.com/semgrep",
+    "logo": "/imgs/AI Coding Agents/CodeReview&QA/semgrep.jpg"
+  }
+}

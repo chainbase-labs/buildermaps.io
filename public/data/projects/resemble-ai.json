@@ -1,0 +1,10 @@
+{
+  "id": "resemble-ai",
+  "name": "Resemble AI",
+  "description": "Voice AI company behind the open-source Chatterbox TTS models.",
+  "links": {
+    "homepage": "https://resemble.ai",
+    "twitter": "https://x.com/resembleai",
+    "logo": "/imgs/Open Source AI/Multimodal/resemble-ai.png"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "nomic",
+  "name": "Nomic",
+  "description": "Creators of GPT4All and open embedding models.",
+  "links": {
+    "homepage": "https://nomic.ai",
+    "twitter": "https://x.com/nomic_ai",
+    "logo": "/imgs/Open Source AI/LocalAI/nomic.jpg"
+  }
+}

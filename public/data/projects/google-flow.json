@@ -1,0 +1,10 @@
+{
+  "id": "google-flow",
+  "name": "Google Flow",
+  "description": "Google's AI filmmaking tool built on Veo for scenes and storyboards.",
+  "links": {
+    "homepage": "https://labs.google",
+    "twitter": "https://x.com/GoogleLabs",
+    "logo": "/imgs/AI Video/CreativePlatforms/google-flow.png"
+  }
+}

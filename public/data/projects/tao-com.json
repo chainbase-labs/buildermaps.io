@@ -1,0 +1,10 @@
+{
+  "id": "tao-com",
+  "name": "TAO.com",
+  "description": "Bittensor app for staking and trading subnet tokens.",
+  "links": {
+    "homepage": "https://tao.com",
+    "twitter": "https://x.com/taodotcom",
+    "logo": "/imgs/Bittensor/Foundation&Tools/tao-com.png"
+  }
+}

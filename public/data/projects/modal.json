@@ -1,0 +1,10 @@
+{
+  "id": "modal",
+  "name": "Modal",
+  "description": "Serverless compute platform widely used to run agent workloads and sandboxed code execution at scale.",
+  "links": {
+    "homepage": "https://modal.com/",
+    "twitter": "https://x.com/modal",
+    "logo": "/imgs/AI Coding Agents/Orchestration&Infra/modal.jpg"
+  }
+}

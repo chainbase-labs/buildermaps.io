@@ -1,10 +1,10 @@
 {
   "id": "ideogram",
   "name": "Ideogram",
-  "description": "AI image generator with superior text rendering in images and photorealistic outputs.",
+  "description": "Image model known for accurate text rendering and design.",
   "links": {
-    "homepage": "https://ideogram.ai/",
+    "homepage": "https://ideogram.ai",
     "twitter": "https://x.com/ideogram_ai",
-    "logo": "/imgs/projects/ideogram.jpg"
+    "logo": "/imgs/AI Video/ImageModels/ideogram.jpg"
   }
 }

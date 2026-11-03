@@ -1,0 +1,10 @@
+{
+  "id": "together-ai",
+  "name": "Together AI",
+  "description": "AI cloud and research lab for training and serving open models.",
+  "links": {
+    "homepage": "https://together.ai",
+    "twitter": "https://x.com/togethercompute",
+    "logo": "/imgs/Open Source AI/Inference/together-ai.jpg"
+  }
+}

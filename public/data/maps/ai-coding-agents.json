@@ -1,0 +1,137 @@
+{
+  "sector": "AI Coding Agents",
+  "types": [
+    {
+      "id": "terminal-agents",
+      "name": "Terminal Agents",
+      "projects": [
+        "aider",
+        "amp",
+        "claude-code",
+        "codex-cli",
+        "crush",
+        "goose",
+        "opencode",
+        "warp"
+      ]
+    },
+    {
+      "id": "ai-ides",
+      "name": "AI IDEs",
+      "projects": [
+        "cursor",
+        "devin-desktop",
+        "google-antigravity",
+        "jetbrains-ai",
+        "kiro",
+        "pearai",
+        "replit",
+        "zed"
+      ]
+    },
+    {
+      "id": "china-ecosystem",
+      "name": "China Ecosystem",
+      "projects": [
+        "codebuddy",
+        "codegeex",
+        "comate",
+        "marscode",
+        "qoder",
+        "trae"
+      ]
+    },
+    {
+      "id": "ide-extensions",
+      "name": "IDE Extensions",
+      "projects": [
+        "augment-code",
+        "cline",
+        "continue",
+        "github-copilot",
+        "kilo-code",
+        "refact-ai",
+        "sourcegraph",
+        "supermaven",
+        "tabby",
+        "tabnine"
+      ]
+    },
+    {
+      "id": "cloud-and-async-agents",
+      "name": "Cloud & Async Agents",
+      "projects": [
+        "codegen",
+        "cognition",
+        "cosine",
+        "factory",
+        "jules",
+        "openhands",
+        "tembo"
+      ]
+    },
+    {
+      "id": "app-builders",
+      "name": "App Builders",
+      "projects": [
+        "base44",
+        "bolt",
+        "create",
+        "dyad",
+        "lovable",
+        "onlook",
+        "softgen",
+        "v0"
+      ]
+    },
+    {
+      "id": "code-review-and-qa",
+      "name": "Code Review & QA",
+      "projects": [
+        "codacy",
+        "coderabbit",
+        "graphite",
+        "greptile",
+        "macroscope",
+        "qodo",
+        "semgrep",
+        "snyk",
+        "sonar"
+      ]
+    },
+    {
+      "id": "orchestration-and-infra",
+      "name": "Orchestration & Infra",
+      "projects": [
+        "claude-squad",
+        "conductor",
+        "daytona",
+        "e2b",
+        "modal",
+        "omnara",
+        "openrouter",
+        "smithery",
+        "swe-bench",
+        "terminal-bench",
+        "terragon",
+        "vibe-kanban"
+      ]
+    },
+    {
+      "id": "coding-models",
+      "name": "Coding Models",
+      "projects": [
+        "claude-opus",
+        "codestral",
+        "deepseek",
+        "gemini",
+        "glm",
+        "gpt-codex",
+        "grok-code",
+        "kimi",
+        "minimax",
+        "qwen-coder"
+      ]
+    }
+  ]
+}

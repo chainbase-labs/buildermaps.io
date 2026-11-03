@@ -1,0 +1,10 @@
+{
+  "id": "tabby",
+  "name": "Tabby",
+  "description": "Self-hosted open-source coding assistant. The common choice for teams that cannot send code to any external API.",
+  "links": {
+    "homepage": "https://tabby.tabbyml.com/",
+    "twitter": "https://x.com/Tabby_ML",
+    "logo": "/imgs/AI Coding Agents/IDEExtensions/tabby.jpg"
+  }
+}

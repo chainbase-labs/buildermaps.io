@@ -1,0 +1,10 @@
+{
+  "id": "bitmind",
+  "name": "BitMind",
+  "description": "SN34 · Decentralized deepfake and AI-generated media detection.",
+  "links": {
+    "homepage": "https://bitmind.ai",
+    "twitter": "https://x.com/bitmind",
+    "logo": "/imgs/Bittensor/Security&Trust/bitmind.jpg"
+  }
+}

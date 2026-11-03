@@ -1,0 +1,10 @@
+{
+  "id": "arena",
+  "name": "Arena",
+  "description": "Crowdsourced model leaderboards, formerly LMArena.",
+  "links": {
+    "homepage": "https://arena.ai",
+    "twitter": "https://x.com/arena",
+    "logo": "/imgs/Open Source AI/Hubs&Benchmarks/arena.jpg"
+  }
+}

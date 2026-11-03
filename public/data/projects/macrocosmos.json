@@ -1,12 +1,12 @@
 {
   "id": "macrocosmos",
   "name": "Macrocosmos",
-  "description": "Macrocosmos Bittensor AI subnets SN13/25/37 democratized decentralized supercomputer protein-folding LLM fine-tuning datasets TAO",
+  "description": "Bittensor lab running IOTA, a distributed pre-training network.",
   "founded": 2023,
   "funding": null,
   "links": {
-    "homepage": "https://www.macrocosmos.ai/",
-    "logo": "/imgs/AI_Crypto/Infra/Macrocosmos.jpg",
+    "homepage": "https://macrocosmos.ai",
+    "logo": "/imgs/Open Source AI/DecentralizedTraining/macrocosmos.jpg",
     "twitter": "https://x.com/MacrocosmosAI",
     "github": ""
   }

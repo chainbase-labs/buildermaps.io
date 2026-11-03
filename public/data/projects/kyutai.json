@@ -1,0 +1,10 @@
+{
+  "id": "kyutai",
+  "name": "Kyutai",
+  "description": "Open-science lab behind Moshi and open speech models.",
+  "links": {
+    "homepage": "https://kyutai.org",
+    "twitter": "https://x.com/kyutai_labs",
+    "logo": "/imgs/Open Source AI/Multimodal/kyutai.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "jules",
+  "name": "Jules",
+  "description": "Google's asynchronous coding agent. Clones a repo into a cloud VM works in the background and returns a pull request.",
+  "links": {
+    "homepage": "https://jules.google/",
+    "twitter": "https://x.com/GoogleLabs",
+    "logo": "/imgs/AI Coding Agents/Cloud&AsyncAgents/jules.png"
+  }
+}

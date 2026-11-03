@@ -1,0 +1,10 @@
+{
+  "id": "laion",
+  "name": "LAION",
+  "description": "Nonprofit releasing open datasets and models for multimodal AI.",
+  "links": {
+    "homepage": "https://laion.ai",
+    "twitter": "https://x.com/laion_ai",
+    "logo": "/imgs/Open Source AI/Research&Nonprofits/laion.jpg"
+  }
+}

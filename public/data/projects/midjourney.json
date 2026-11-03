@@ -1,10 +1,10 @@
 {
   "id": "midjourney",
   "name": "Midjourney",
-  "description": "AI image generation tool producing high-quality artistic visuals from text prompts.",
+  "description": "Independent lab behind leading aesthetic image models and video V1.",
   "links": {
-    "homepage": "https://midjourney.com/",
+    "homepage": "https://midjourney.com",
     "twitter": "https://x.com/midjourney",
-    "logo": "/imgs/projects/midjourney.jpg"
+    "logo": "/imgs/AI Video/ImageModels/midjourney.jpg"
   }
 }

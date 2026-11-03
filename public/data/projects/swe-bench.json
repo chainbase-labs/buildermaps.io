@@ -1,0 +1,10 @@
+{
+  "id": "swe-bench",
+  "name": "SWE-bench",
+  "description": "Benchmark built from real GitHub issues and the longest-standing measure of agent coding ability. SWE-bench Pro and Verified are the common enterprise references.",
+  "links": {
+    "homepage": "https://swebench.com/",
+    "twitter": "https://x.com/jyangballin",
+    "logo": "/imgs/AI Coding Agents/Orchestration&Infra/swe-bench.jpg"
+  }
+}

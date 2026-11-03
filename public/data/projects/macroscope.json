@@ -1,0 +1,10 @@
+{
+  "id": "macroscope",
+  "name": "Macroscope",
+  "description": "Usage-priced GitHub review with Check Run Agents and a CI-validated detect-fix-validate loop. Led bug detection benchmarks at 48%.",
+  "links": {
+    "homepage": "https://macroscope.com/",
+    "twitter": "https://x.com/Macroscope",
+    "logo": "/imgs/AI Coding Agents/CodeReview&QA/macroscope.jpg"
+  }
+}

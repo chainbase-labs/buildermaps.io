@@ -1,0 +1,10 @@
+{
+  "id": "onlook",
+  "name": "Onlook",
+  "description": "Visual editor for React codebases — design directly on a live app and write the changes back to real code.",
+  "links": {
+    "homepage": "https://onlook.com/",
+    "twitter": "https://x.com/onlookdev",
+    "logo": "/imgs/AI Coding Agents/AppBuilders/onlook.jpg"
+  }
+}

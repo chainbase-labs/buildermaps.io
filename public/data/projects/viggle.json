@@ -1,0 +1,10 @@
+{
+  "id": "viggle",
+  "name": "Viggle",
+  "description": "Character animation app that puts any character into motion videos.",
+  "links": {
+    "homepage": "https://viggle.ai",
+    "twitter": "https://x.com/ViggleAI",
+    "logo": "/imgs/AI Video/CreativePlatforms/viggle.jpg"
+  }
+}

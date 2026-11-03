@@ -1,0 +1,10 @@
+{
+  "id": "qodo",
+  "name": "Qodo",
+  "description": "Formerly CodiumAI. Qodo Merge dispatches specialized agents in parallel for bugs quality security and test coverage. Qodo Gen covers IDE-side test generation. Open-source core with self-hosting.",
+  "links": {
+    "homepage": "https://qodo.ai/",
+    "twitter": "https://x.com/QodoAI",
+    "logo": "/imgs/AI Coding Agents/CodeReview&QA/qodo.png"
+  }
+}

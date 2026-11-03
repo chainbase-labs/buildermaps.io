@@ -1,10 +1,10 @@
 {
   "id": "zeus",
   "name": "Zeus",
-  "description": "Permissionless cross-chain communication network designed to securely bring Bitcoin liquidity directly onto the Solana blockchain.",
+  "description": "SN18 · Decentralized ML weather forecasting for energy traders.",
   "links": {
-    "homepage": "https://app.zeusnetwork.xyz/",
-    "twitter": "https://x.com/ZeusNetworkHQ",
-    "logo": "/imgs/Cross Chain/InteroperabilityLayers/zeus.jpg"
+    "homepage": "https://zeussubnet.com",
+    "twitter": "https://x.com/zeussubnet",
+    "logo": "/imgs/Bittensor/Science&Robotics/zeus.jpg"
   }
 }

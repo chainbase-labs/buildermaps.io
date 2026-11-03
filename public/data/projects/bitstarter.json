@@ -1,0 +1,10 @@
+{
+  "id": "bitstarter",
+  "name": "Bitstarter",
+  "description": "Launchpad and accelerator for new Bittensor subnets.",
+  "links": {
+    "homepage": "https://www.bitstarter.ai/",
+    "twitter": "https://x.com/bitstarterAI",
+    "logo": "/imgs/Bittensor/Capital&Institutions/bitstarter.jpg"
+  }
+}

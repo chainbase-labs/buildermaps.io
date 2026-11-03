@@ -1,0 +1,10 @@
+{
+  "id": "quantum-compute",
+  "name": "Quantum Compute",
+  "description": "SN48 · Open marketplace for quantum computing on simulators and real QPUs.",
+  "links": {
+    "homepage": "https://qbittensorlabs.com",
+    "twitter": "https://x.com/QuantumSN48",
+    "logo": "/imgs/Bittensor/Science&Robotics/quantum-compute.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "score",
+  "name": "Score",
+  "description": "SN44 · Computer vision that turns any camera into a smart sensor.",
+  "links": {
+    "homepage": "https://github.com/score-technologies/turbovision",
+    "twitter": "https://x.com/webuildscore",
+    "logo": "/imgs/Bittensor/Data&Media/score.jpg"
+  }
+}

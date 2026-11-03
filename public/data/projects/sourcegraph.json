@@ -1,0 +1,10 @@
+{
+  "id": "sourcegraph",
+  "name": "Sourcegraph",
+  "description": "Code intelligence platform behind Amp. Code search and context retrieval across massive monorepos for both humans and agents.",
+  "links": {
+    "homepage": "https://sourcegraph.com/",
+    "twitter": "https://x.com/sourcegraph",
+    "logo": "/imgs/AI Coding Agents/IDEExtensions/sourcegraph.jpg"
+  }
+}

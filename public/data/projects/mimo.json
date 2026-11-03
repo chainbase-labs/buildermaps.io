@@ -1,0 +1,10 @@
+{
+  "id": "mimo",
+  "name": "MiMo",
+  "description": "Xiaomi's open MiMo models for reasoning, agents and embodied AI.",
+  "links": {
+    "homepage": "https://mimo.xiaomi.com",
+    "twitter": "https://x.com/XiaomiMiMo",
+    "logo": "/imgs/Open Source AI/BigTech/mimo.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "bitsec",
+  "name": "Bitsec",
+  "description": "SN60 · AI agents that find and fix exploits in codebases.",
+  "links": {
+    "homepage": "https://bitsec.ai",
+    "twitter": "https://x.com/bitsecai",
+    "logo": "/imgs/Bittensor/Security&Trust/bitsec.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "tao-bot",
+  "name": "tao.bot",
+  "description": "Research and trading terminal for Bittensor subnets.",
+  "links": {
+    "homepage": "https://tao.bot",
+    "twitter": "https://x.com/taodotbot",
+    "logo": "/imgs/Bittensor/Foundation&Tools/tao-bot.png"
+  }
+}

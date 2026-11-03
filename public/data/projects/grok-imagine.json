@@ -1,0 +1,10 @@
+{
+  "id": "grok-imagine",
+  "name": "Grok Imagine",
+  "description": "xAI's image and video generation model with synchronized audio.",
+  "links": {
+    "homepage": "https://grok.com",
+    "twitter": "https://x.com/xai",
+    "logo": "/imgs/AI Video/FrontierModels/grok-imagine.jpg"
+  }
+}

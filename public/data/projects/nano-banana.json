@@ -1,0 +1,10 @@
+{
+  "id": "nano-banana",
+  "name": "Nano Banana",
+  "description": "Google's Gemini image generation and editing model.",
+  "links": {
+    "homepage": "https://gemini.google",
+    "twitter": "https://x.com/GeminiApp",
+    "logo": "/imgs/AI Video/ImageModels/nano-banana.png"
+  }
+}

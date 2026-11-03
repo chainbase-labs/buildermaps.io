@@ -1,0 +1,10 @@
+{
+  "id": "nova",
+  "name": "NOVA",
+  "description": "SN68 · Crowdsourced AI drug molecule discovery.",
+  "links": {
+    "homepage": "https://github.com/metanova-labs/nova",
+    "twitter": "https://x.com/metanova_labs",
+    "logo": "/imgs/Bittensor/Science&Robotics/nova.png"
+  }
+}

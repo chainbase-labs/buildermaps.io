@@ -1,10 +1,10 @@
 {
   "id": "swarm",
   "name": "Swarm",
-  "description": "Decentralized storage and communication protocol natively integrated with the Ethereum ecosystem.",
+  "description": "SN124 · Open-source autopilot network for autonomous drone flight.",
   "links": {
-    "homepage": "https://www.ethswarm.org/",
-    "twitter": "https://x.com/ethswarm",
-    "logo": "/imgs/projects/swarm.jpg"
+    "homepage": "https://swarm124.com",
+    "twitter": "https://x.com/SwarmSubnet",
+    "logo": "/imgs/Bittensor/Science&Robotics/swarm.jpg"
   }
 }

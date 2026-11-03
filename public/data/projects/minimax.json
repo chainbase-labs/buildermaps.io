@@ -1,0 +1,10 @@
+{
+  "id": "minimax",
+  "name": "MiniMax",
+  "description": "Open-weight MiniMax M-series models with sparse attention and 1M context.",
+  "links": {
+    "homepage": "https://minimax.io",
+    "twitter": "https://x.com/MiniMax_AI",
+    "logo": "/imgs/Open Source AI/FrontierLabs/minimax.jpg"
+  }
+}

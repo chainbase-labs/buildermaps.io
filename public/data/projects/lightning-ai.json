@@ -1,0 +1,10 @@
+{
+  "id": "lightning-ai",
+  "name": "Lightning AI",
+  "description": "Creators of PyTorch Lightning and an AI development platform.",
+  "links": {
+    "homepage": "https://lightning.ai",
+    "twitter": "https://x.com/LightningAI",
+    "logo": "/imgs/Open Source AI/Training/lightning-ai.jpg"
+  }
+}

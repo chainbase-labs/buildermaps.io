@@ -1,0 +1,10 @@
+{
+  "id": "pareton",
+  "name": "Pareton",
+  "description": "SN10 · Competitive inference optimization patches for vLLM and SGLang serving.",
+  "links": {
+    "homepage": "https://pareton.ai",
+    "twitter": "https://x.com/pareton_ai",
+    "logo": "/imgs/Bittensor/Inference/pareton.jpg"
+  }
+}

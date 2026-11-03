@@ -1,0 +1,10 @@
+{
+  "id": "open-source-initiative",
+  "name": "Open Source Initiative",
+  "description": "Steward of the Open Source Definition and the Open Source AI Definition.",
+  "links": {
+    "homepage": "https://opensource.org",
+    "twitter": "https://x.com/OpenSourceOrg",
+    "logo": "/imgs/Open Source AI/Research&Nonprofits/open-source-initiative.jpg"
+  }
+}

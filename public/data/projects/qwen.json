@@ -1,0 +1,10 @@
+{
+  "id": "qwen",
+  "name": "Qwen",
+  "description": "Alibaba's open model family spanning text, vision, audio and coding.",
+  "links": {
+    "homepage": "https://qwen.ai",
+    "twitter": "https://x.com/Alibaba_Qwen",
+    "logo": "/imgs/Open Source AI/BigTech/qwen.jpg"
+  }
+}

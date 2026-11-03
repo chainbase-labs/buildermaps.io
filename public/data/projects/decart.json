@@ -1,0 +1,10 @@
+{
+  "id": "decart",
+  "name": "Decart",
+  "description": "Real-time generative video and interactive world models.",
+  "links": {
+    "homepage": "https://decart.ai",
+    "twitter": "https://x.com/DecartAI",
+    "logo": "/imgs/AI Video/WorldModels&3D/decart.jpg"
+  }
+}

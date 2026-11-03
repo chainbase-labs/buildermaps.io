@@ -1,0 +1,10 @@
+{
+  "id": "snyk",
+  "name": "Snyk",
+  "description": "Developer security platform scanning dependencies and AI-generated code for vulnerabilities before merge.",
+  "links": {
+    "homepage": "https://snyk.io/",
+    "twitter": "https://x.com/snyksec",
+    "logo": "/imgs/AI Coding Agents/CodeReview&QA/snyk.png"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "sakana-ai",
+  "name": "Sakana AI",
+  "description": "Tokyo lab publishing open research on evolutionary and nature-inspired AI.",
+  "links": {
+    "homepage": "https://sakana.ai",
+    "twitter": "https://x.com/SakanaAILabs",
+    "logo": "/imgs/Open Source AI/SpecializedLabs/sakana-ai.jpg"
+  }
+}

@@ -1,10 +1,10 @@
 {
   "id": "smithery",
   "name": "Smithery",
-  "description": "MCP server registry and marketplace for discovering, installing, and managing MCP servers.",
+  "description": "Registry and hosting for MCP servers and agent skills — the package manager layer of the agent ecosystem.",
   "links": {
     "homepage": "https://smithery.ai/",
     "twitter": "https://x.com/SmitheryDotAI",
-    "logo": "/imgs/projects/smithery.jpg"
+    "logo": "/imgs/AI Coding Agents/Orchestration&Infra/smithery.jpg"
   }
 }

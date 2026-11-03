@@ -1,0 +1,10 @@
+{
+  "id": "synthesia",
+  "name": "Synthesia",
+  "description": "Enterprise AI avatar video platform for training and communications.",
+  "links": {
+    "homepage": "https://synthesia.io",
+    "twitter": "https://x.com/synthesiaIO",
+    "logo": "/imgs/AI Video/AIAvatars/synthesia.png"
+  }
+}

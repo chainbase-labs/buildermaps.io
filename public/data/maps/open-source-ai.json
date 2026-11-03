@@ -1,0 +1,129 @@
+{
+  "sector": "Open Source AI",
+  "types": [
+    {
+      "id": "big-tech",
+      "name": "Big Tech",
+      "projects": [
+        "ernie",
+        "gemma",
+        "gpt-oss",
+        "hunyuan",
+        "llama",
+        "longcat",
+        "mimo",
+        "nemotron",
+        "qwen"
+      ]
+    },
+    {
+      "id": "frontier-labs",
+      "name": "Frontier Labs",
+      "projects": [
+        "deepseek",
+        "glm",
+        "kimi",
+        "minimax",
+        "mistral-ai",
+        "reflection-ai",
+        "stepfun"
+      ]
+    },
+    {
+      "id": "specialized-labs",
+      "name": "Specialized Labs",
+      "projects": [
+        "arcee-ai",
+        "liquid-ai",
+        "sakana-ai",
+        "sarvam-ai",
+        "upstage",
+        "zyphra"
+      ]
+    },
+    {
+      "id": "research-and-nonprofits",
+      "name": "Research & Nonprofits",
+      "projects": [
+        "ai2",
+        "bigcode",
+        "cohere",
+        "common-crawl",
+        "eleutherai",
+        "laion",
+        "mbzuai",
+        "open-source-initiative",
+        "tii"
+      ]
+    },
+    {
+      "id": "multimodal",
+      "name": "Multimodal",
+      "projects": [
+        "black-forest-labs",
+        "kyutai",
+        "ltx",
+        "resemble-ai",
+        "stability-ai",
+        "wan"
+      ]
+    },
+    {
+      "id": "training",
+      "name": "Training",
+      "projects": [
+        "axolotl",
+        "deepspeed",
+        "lightning-ai",
+        "pytorch",
+        "ray",
+        "tinker",
+        "unsloth"
+      ]
+    },
+    {
+      "id": "inference",
+      "name": "Inference",
+      "projects": ["modular", "sglang", "together-ai", "vllm"]
+    },
+    {
+      "id": "local-ai",
+      "name": "Local AI",
+      "projects": [
+        "comfyui",
+        "exo",
+        "jan",
+        "llama-cpp",
+        "lm-studio",
+        "nomic",
+        "ollama",
+        "open-webui"
+      ]
+    },
+    {
+      "id": "hubs-and-benchmarks",
+      "name": "Hubs & Benchmarks",
+      "projects": [
+        "arena",
+        "artificial-analysis",
+        "civitai",
+        "hugging-face",
+        "kaggle",
+        "modelscope",
+        "openrouter"
+      ]
+    },
+    {
+      "id": "decentralized-training",
+      "name": "Decentralized Training",
+      "projects": [
+        "flock-io",
+        "gensyn",
+        "macrocosmos",
+        "nous-research",
+        "pluralis-research",
+        "prime-intellect"
+      ]
+    }
+  ]
+}

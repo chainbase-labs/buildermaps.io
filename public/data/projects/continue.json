@@ -1,10 +1,10 @@
 {
   "id": "continue",
   "name": "Continue",
-  "description": "Open-source AI code assistant for VS Code and JetBrains with customizable models and MCP support.",
+  "description": "Open-source framework for building custom AI assistants inside VS Code and JetBrains. 20K+ GitHub stars.",
   "links": {
     "homepage": "https://continue.dev/",
     "twitter": "https://x.com/continuedev",
-    "logo": "/imgs/projects/continue.jpg"
+    "logo": "/imgs/AI Coding Agents/IDEExtensions/continue.jpg"
   }
 }

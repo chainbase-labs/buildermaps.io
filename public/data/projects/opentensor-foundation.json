@@ -1,0 +1,10 @@
+{
+  "id": "opentensor-foundation",
+  "name": "Opentensor Foundation",
+  "description": "Foundation stewarding the Bittensor protocol and ecosystem.",
+  "links": {
+    "homepage": "https://bittensor.com",
+    "twitter": "https://x.com/opentensor",
+    "logo": "/imgs/Bittensor/Foundation&Tools/opentensor-foundation.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "veo",
+  "name": "Veo",
+  "description": "Google DeepMind's flagship video model with native audio and 4K output.",
+  "links": {
+    "homepage": "https://deepmind.google",
+    "twitter": "https://x.com/GoogleDeepMind",
+    "logo": "/imgs/AI Video/FrontierModels/veo.jpg"
+  }
+}

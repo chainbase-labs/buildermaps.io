@@ -1,0 +1,10 @@
+{
+  "id": "unsloth",
+  "name": "Unsloth",
+  "description": "Open-source library for faster, low-memory fine-tuning and RL.",
+  "links": {
+    "homepage": "https://unsloth.ai",
+    "twitter": "https://x.com/UnslothAI",
+    "logo": "/imgs/Open Source AI/Training/unsloth.jpg"
+  }
+}

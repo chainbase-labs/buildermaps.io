@@ -1,0 +1,10 @@
+{
+  "id": "talisman",
+  "name": "Talisman",
+  "description": "Multichain wallet supporting TAO staking and subnet tokens.",
+  "links": {
+    "homepage": "https://talisman.xyz",
+    "twitter": "https://x.com/wearetalisman",
+    "logo": "/imgs/Bittensor/Foundation&Tools/talisman.jpg"
+  }
+}

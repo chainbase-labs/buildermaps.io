@@ -1,0 +1,10 @@
+{
+  "id": "pixverse",
+  "name": "PixVerse",
+  "description": "AI video generator focused on fast, effects-driven social clips.",
+  "links": {
+    "homepage": "https://pixverse.ai",
+    "twitter": "https://x.com/PixVerse",
+    "logo": "/imgs/AI Video/FrontierModels/pixverse.jpg"
+  }
+}

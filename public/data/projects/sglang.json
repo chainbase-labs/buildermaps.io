@@ -1,0 +1,10 @@
+{
+  "id": "sglang",
+  "name": "SGLang",
+  "description": "Fast open-source serving framework from the LMSYS team.",
+  "links": {
+    "homepage": "https://github.com/sgl-project/sglang",
+    "twitter": "https://x.com/lmsysorg",
+    "logo": "/imgs/Open Source AI/Inference/sglang.jpg"
+  }
+}

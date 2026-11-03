@@ -1,0 +1,10 @@
+{
+  "id": "graphite",
+  "name": "Graphite",
+  "description": "SN43 · Continuously verified financial knowledge graph.",
+  "links": {
+    "homepage": "https://graphite-ai.net",
+    "twitter": "https://x.com/GraphiteSubnet",
+    "logo": "/imgs/Bittensor/Data&Media/graphite.png"
+  }
+}

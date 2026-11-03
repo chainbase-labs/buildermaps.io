@@ -1,0 +1,10 @@
+{
+  "id": "vllm",
+  "name": "vLLM",
+  "description": "High-throughput open-source inference engine for LLMs.",
+  "links": {
+    "homepage": "https://vllm.ai",
+    "twitter": "https://x.com/vllm_project",
+    "logo": "/imgs/Open Source AI/Inference/vllm.jpg"
+  }
+}

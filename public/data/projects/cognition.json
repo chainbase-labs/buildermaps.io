@@ -1,0 +1,10 @@
+{
+  "id": "cognition",
+  "name": "Cognition",
+  "description": "The company behind Devin and Devin Desktop. Acquired Windsurf in July 2025 and now ships both the autonomous cloud engineer and the IDE under one roof.",
+  "links": {
+    "homepage": "https://cognition.ai/",
+    "twitter": "https://x.com/cognition",
+    "logo": "/imgs/AI Coding Agents/Cloud&AsyncAgents/cognition.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "hedra",
+  "name": "Hedra",
+  "description": "Expressive character video generation powered by Character-3.",
+  "links": {
+    "homepage": "https://hedra.com",
+    "twitter": "https://x.com/hedra_labs",
+    "logo": "/imgs/AI Video/AIAvatars/hedra.jpg"
+  }
+}

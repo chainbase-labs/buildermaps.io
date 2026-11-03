@@ -1,0 +1,10 @@
+{
+  "id": "quasar",
+  "name": "Quasar",
+  "description": "SN24 · Subnet tackling the long-context barrier for language models.",
+  "links": {
+    "homepage": "https://github.com/SILX-LABS/QUASAR-SUBNET",
+    "twitter": "https://x.com/QuasarModels",
+    "logo": "/imgs/Bittensor/Training&Models/quasar.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "cosine",
+  "name": "Cosine",
+  "description": "Genie autonomous engineer trained on how human developers actually solve problems rather than only on final diffs.",
+  "links": {
+    "homepage": "https://cosine.sh/",
+    "twitter": "https://x.com/CosineAI",
+    "logo": "/imgs/AI Coding Agents/Cloud&AsyncAgents/cosine.png"
+  }
+}

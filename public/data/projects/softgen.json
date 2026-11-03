@@ -1,0 +1,10 @@
+{
+  "id": "softgen",
+  "name": "Softgen",
+  "description": "Autonomous web app builder handling full-stack generation from a single product description.",
+  "links": {
+    "homepage": "https://softgen.ai/",
+    "twitter": "https://x.com/SoftgenAI",
+    "logo": "/imgs/AI Coding Agents/AppBuilders/softgen.jpg"
+  }
+}

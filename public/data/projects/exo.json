@@ -1,0 +1,10 @@
+{
+  "id": "exo",
+  "name": "Exo",
+  "description": "Runs large models across a cluster of everyday devices.",
+  "links": {
+    "homepage": "https://exolabs.net",
+    "twitter": "https://x.com/exolabs",
+    "logo": "/imgs/Open Source AI/LocalAI/exo.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "desearch",
+  "name": "Desearch",
+  "description": "SN22 · Real-time, verifiable web and X data search for AI agents.",
+  "links": {
+    "homepage": "https://desearch.ai",
+    "twitter": "https://x.com/desearch_ai",
+    "logo": "/imgs/Bittensor/Agents&Apps/desearch.jpg"
+  }
+}

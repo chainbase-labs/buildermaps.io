@@ -1,0 +1,10 @@
+{
+  "id": "refact-ai",
+  "name": "Refact.ai",
+  "description": "Open-source agent with self-hosting and fine-tuning on your own codebase. Strong SWE-bench Verified results for an OSS tool.",
+  "links": {
+    "homepage": "https://refact.ai/",
+    "twitter": "https://x.com/refact_ai",
+    "logo": "/imgs/AI Coding Agents/IDEExtensions/refact-ai.jpg"
+  }
+}

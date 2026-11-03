@@ -1,0 +1,10 @@
+{
+  "id": "gemma",
+  "name": "Gemma",
+  "description": "Google DeepMind's family of open models, now on Gemma 4.",
+  "links": {
+    "homepage": "https://ai.google.dev",
+    "twitter": "https://x.com/GoogleDeepMind",
+    "logo": "/imgs/Open Source AI/BigTech/gemma.jpg"
+  }
+}

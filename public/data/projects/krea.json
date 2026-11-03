@@ -1,0 +1,10 @@
+{
+  "id": "krea",
+  "name": "Krea",
+  "description": "Creative suite for real-time image and video generation across models.",
+  "links": {
+    "homepage": "https://krea.ai",
+    "twitter": "https://x.com/krea_ai",
+    "logo": "/imgs/AI Video/CreativePlatforms/krea.jpg"
+  }
+}

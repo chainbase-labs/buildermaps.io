@@ -1,0 +1,10 @@
+{
+  "id": "omnara",
+  "name": "Omnara",
+  "description": "Mobile and web control plane for coding agents — monitor and steer long-running sessions from your phone.",
+  "links": {
+    "homepage": "https://omnara.com/",
+    "twitter": "https://x.com/omnaraai",
+    "logo": "/imgs/AI Coding Agents/Orchestration&Infra/omnara.jpg"
+  }
+}

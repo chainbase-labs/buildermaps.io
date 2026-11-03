@@ -1,0 +1,10 @@
+{
+  "id": "gpt-oss",
+  "name": "gpt-oss",
+  "description": "OpenAI's open-weight reasoning models released under Apache 2.0.",
+  "links": {
+    "homepage": "https://openai.com",
+    "twitter": "https://x.com/OpenAI",
+    "logo": "/imgs/Open Source AI/BigTech/gpt-oss.jpg"
+  }
+}

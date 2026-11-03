@@ -1,10 +1,10 @@
 {
   "id": "aider",
   "name": "Aider",
-  "description": "AI pair programming tool in the terminal supporting multi-file editing with git integration.",
+  "description": "Git-native terminal pair programmer with 39K+ GitHub stars. Auto-commits every change so the repo history doubles as an undo log. The original open-source terminal agent.",
   "links": {
     "homepage": "https://aider.chat/",
     "twitter": "https://x.com/paulgauthier",
-    "logo": "/imgs/projects/aider.jpg"
+    "logo": "/imgs/AI Coding Agents/TerminalAgents/aider.jpg"
   }
 }

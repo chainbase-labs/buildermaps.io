@@ -1,10 +1,10 @@
 {
   "id": "gemini",
   "name": "Gemini",
-  "description": "Google's multimodal AI for writing assistance, summarization, data analysis, and research across text, image, and code.",
+  "description": "Google's frontier model family behind Antigravity and Jules with very large context windows for whole-repo reasoning.",
   "links": {
-    "homepage": "https://gemini.google.com/",
-    "twitter": "https://x.com/GoogleAI",
-    "logo": "/imgs/projects/gemini.jpg"
+    "homepage": "https://deepmind.google/",
+    "twitter": "https://x.com/GoogleDeepMind",
+    "logo": "/imgs/AI Coding Agents/CodingModels/gemini.jpg"
   }
 }

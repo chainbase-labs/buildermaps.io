@@ -1,0 +1,10 @@
+{
+  "id": "skyreels",
+  "name": "SkyReels",
+  "description": "Skywork's open-source video models and AI short-drama platform.",
+  "links": {
+    "homepage": "https://skyreels.ai",
+    "twitter": "https://x.com/Skywork_ai",
+    "logo": "/imgs/AI Video/OpenSource&Infra/skyreels.png"
+  }
+}

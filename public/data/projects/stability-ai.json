@@ -1,10 +1,10 @@
 {
   "id": "stability-ai",
   "name": "Stability AI",
-  "description": "Open-source AI company behind Stable Diffusion for image generation, editing, and video creation.",
+  "description": "Open generative models for image, video, 3D and audio.",
   "links": {
-    "homepage": "https://stability.ai/",
+    "homepage": "https://stability.ai",
     "twitter": "https://x.com/StabilityAI",
-    "logo": "/imgs/projects/stability-ai.png"
+    "logo": "/imgs/Open Source AI/Multimodal/stability-ai.jpg"
   }
 }

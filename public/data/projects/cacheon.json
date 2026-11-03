@@ -1,0 +1,10 @@
+{
+  "id": "cacheon",
+  "name": "Cacheon",
+  "description": "SN14 · Miners write optimized GPU kernels to speed up LLM inference.",
+  "links": {
+    "homepage": "https://github.com/latent-to/cacheon",
+    "twitter": "https://x.com/cacheon_ai",
+    "logo": "/imgs/Bittensor/Inference/cacheon.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "terragon",
+  "name": "Terragon",
+  "description": "Cloud runner for Claude Code tasks launched from a browser with parallel task execution.",
+  "links": {
+    "homepage": "https://terragonlabs.com/",
+    "twitter": "https://x.com/terragonlabs",
+    "logo": "/imgs/AI Coding Agents/Orchestration&Infra/terragon.jpg"
+  }
+}

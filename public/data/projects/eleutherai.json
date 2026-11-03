@@ -1,0 +1,10 @@
+{
+  "id": "eleutherai",
+  "name": "EleutherAI",
+  "description": "Nonprofit open AI research lab behind Pythia and the LM Evaluation Harness.",
+  "links": {
+    "homepage": "https://eleuther.ai",
+    "twitter": "https://x.com/AiEleuther",
+    "logo": "/imgs/Open Source AI/Research&Nonprofits/eleutherai.jpg"
+  }
+}

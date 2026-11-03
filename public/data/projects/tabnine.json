@@ -1,10 +1,10 @@
 {
   "id": "tabnine",
   "name": "Tabnine",
-  "description": "AI code assistant with private, secure models for enterprise teams. Supports 30+ languages and all major IDEs.",
+  "description": "Privacy-first assistant with on-premise and air-gapped deployment. The usual pick for regulated industries that cannot send code to a vendor cloud.",
   "links": {
     "homepage": "https://tabnine.com/",
-    "twitter": "https://x.com/Tabnine",
-    "logo": "/imgs/projects/tabnine.png"
+    "twitter": "https://x.com/tabnine",
+    "logo": "/imgs/AI Coding Agents/IDEExtensions/tabnine.png"
   }
 }

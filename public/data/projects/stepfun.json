@@ -1,0 +1,10 @@
+{
+  "id": "stepfun",
+  "name": "StepFun",
+  "description": "Open multimodal models across text, speech, image and video.",
+  "links": {
+    "homepage": "https://stepfun.com",
+    "twitter": "https://x.com/StepFun_ai",
+    "logo": "/imgs/Open Source AI/FrontierLabs/stepfun.jpg"
+  }
+}

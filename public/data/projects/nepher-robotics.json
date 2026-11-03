@@ -1,0 +1,10 @@
+{
+  "id": "nepher-robotics",
+  "name": "Nepher Robotics",
+  "description": "SN49 · Sim-to-real robotics policy tournaments in Isaac Sim.",
+  "links": {
+    "homepage": "https://nepher.ai",
+    "twitter": "https://x.com/nepher_robotics",
+    "logo": "/imgs/Bittensor/Science&Robotics/nepher-robotics.png"
+  }
+}

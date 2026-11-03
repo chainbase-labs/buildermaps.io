@@ -1,0 +1,10 @@
+{
+  "id": "trajectoryrl",
+  "name": "TrajectoryRL",
+  "description": "SN11 · Competition to build the cheapest safe AI agent policies.",
+  "links": {
+    "homepage": "https://trajrl.com",
+    "twitter": "https://x.com/TrajectoryRL",
+    "logo": "/imgs/Bittensor/Training&Models/trajectoryrl.jpg"
+  }
+}

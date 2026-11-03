@@ -1,0 +1,10 @@
+{
+  "id": "lm-studio",
+  "name": "LM Studio",
+  "description": "Desktop app for discovering and running local LLMs.",
+  "links": {
+    "homepage": "https://lmstudio.ai",
+    "twitter": "https://x.com/LMStudio",
+    "logo": "/imgs/Open Source AI/LocalAI/lm-studio.jpg"
+  }
+}

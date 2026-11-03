@@ -1,0 +1,10 @@
+{
+  "id": "connitoai",
+  "name": "ConnitoAI",
+  "description": "SN102 · Decentralized training of modular Mixture-of-Experts LLMs.",
+  "links": {
+    "homepage": "https://connito.ai",
+    "twitter": "https://x.com/ConnitoAI",
+    "logo": "/imgs/Bittensor/Training&Models/connitoai.jpg"
+  }
+}

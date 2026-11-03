@@ -1,0 +1,10 @@
+{
+  "id": "chipforge",
+  "name": "ChipForge",
+  "description": "SN108 · Miners compete to design AI accelerator chips.",
+  "links": {
+    "homepage": "https://github.com/TatsuProject/ChipForge_SN108",
+    "twitter": "https://x.com/TatsuEcosystem",
+    "logo": "/imgs/Bittensor/Science&Robotics/chipforge.jpg"
+  }
+}

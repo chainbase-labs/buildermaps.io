@@ -1,0 +1,10 @@
+{
+  "id": "thor",
+  "name": "THOR",
+  "description": "SN112 · Open-source robotics institute building physical-AI training data.",
+  "links": {
+    "homepage": "https://thormachines.ai",
+    "twitter": "https://x.com/THORMachines",
+    "logo": "/imgs/Bittensor/Science&Robotics/thor.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "blockmachine",
+  "name": "Blockmachine",
+  "description": "SN19 · Decentralized RPC and archive node marketplace.",
+  "links": {
+    "homepage": "https://blockmachine.io",
+    "twitter": "https://x.com/blockmachine_io",
+    "logo": "/imgs/Bittensor/Compute/blockmachine.jpg"
+  }
+}

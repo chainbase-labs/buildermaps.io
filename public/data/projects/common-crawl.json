@@ -1,0 +1,10 @@
+{
+  "id": "common-crawl",
+  "name": "Common Crawl",
+  "description": "Nonprofit maintaining the open web crawl used to train most open LLMs.",
+  "links": {
+    "homepage": "https://commoncrawl.org",
+    "twitter": "https://x.com/CommonCrawl",
+    "logo": "/imgs/Open Source AI/Research&Nonprofits/common-crawl.jpg"
+  }
+}

@@ -1,10 +1,10 @@
 {
   "id": "replit",
   "name": "Replit",
-  "description": "AI-powered cloud IDE for building, deploying, and collaborating on software projects.",
+  "description": "Browser-based cloud IDE whose Agent builds and deploys full applications with no local setup. Bridges the gap between app builder and real development environment.",
   "links": {
     "homepage": "https://replit.com/",
     "twitter": "https://x.com/Replit",
-    "logo": "/imgs/projects/replit.jpg"
+    "logo": "/imgs/AI Coding Agents/AIIDEs/replit.jpg"
   }
 }

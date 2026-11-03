@@ -1,0 +1,10 @@
+{
+  "id": "moonvalley",
+  "name": "Moonvalley",
+  "description": "Marey, a production-grade video model trained only on licensed data.",
+  "links": {
+    "homepage": "https://moonvalley.com",
+    "twitter": "https://x.com/moonvalley",
+    "logo": "/imgs/AI Video/FrontierModels/moonvalley.jpg"
+  }
+}

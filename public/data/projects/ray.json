@@ -1,0 +1,10 @@
+{
+  "id": "ray",
+  "name": "Ray",
+  "description": "Anyscale's open-source framework for scaling AI training and serving.",
+  "links": {
+    "homepage": "https://ray.io",
+    "twitter": "https://x.com/anyscalecompute",
+    "logo": "/imgs/Open Source AI/Training/ray.jpg"
+  }
+}

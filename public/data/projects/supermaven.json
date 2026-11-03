@@ -1,0 +1,10 @@
+{
+  "id": "supermaven",
+  "name": "Supermaven",
+  "description": "Ultra-low-latency completion engine known for a 1M-token context window. Team acquired by Cursor in 2024 with the product still available.",
+  "links": {
+    "homepage": "https://supermaven.com/",
+    "twitter": "https://x.com/SupermavenAI",
+    "logo": "/imgs/AI Coding Agents/IDEExtensions/supermaven.jpg"
+  }
+}
