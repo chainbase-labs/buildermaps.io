@@ -1,0 +1,10 @@
+{
+  "id": "chutes",
+  "name": "Chutes",
+  "description": "SN64 · Serverless AI inference on decentralized GPUs, run in TEEs.",
+  "links": {
+    "homepage": "https://chutes.ai",
+    "twitter": "https://x.com/chutes_ai",
+    "logo": "/imgs/Bittensor/Inference/chutes.jpg"
+  }
+}

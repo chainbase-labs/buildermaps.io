@@ -1,0 +1,10 @@
+{
+  "id": "greptile",
+  "name": "Greptile",
+  "description": "Agentic reviewer that indexes the whole repository and follows nested calls across files. v4 raised comment acceptance from 30% to 43%.",
+  "links": {
+    "homepage": "https://greptile.com/",
+    "twitter": "https://x.com/greptile",
+    "logo": "/imgs/AI Coding Agents/CodeReview&QA/greptile.jpg"
+  }
+}

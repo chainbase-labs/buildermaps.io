@@ -1,10 +1,10 @@
 {
   "id": "runway",
   "name": "Runway",
-  "description": "AI-powered creative suite for video generation, editing, and visual effects with Gen-3 Alpha model.",
+  "description": "AI video studio with Gen-4.5 generation and Aleph video-to-video editing.",
   "links": {
-    "homepage": "https://runwayml.com/",
+    "homepage": "https://runwayml.com",
     "twitter": "https://x.com/runwayml",
-    "logo": "/imgs/projects/runway.jpg"
+    "logo": "/imgs/AI Video/FrontierModels/runway.jpg"
   }
 }

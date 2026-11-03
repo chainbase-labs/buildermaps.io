@@ -1,0 +1,10 @@
+{
+  "id": "openrouter",
+  "name": "OpenRouter",
+  "description": "Unified API and usage rankings across open and closed models.",
+  "links": {
+    "homepage": "https://openrouter.ai",
+    "twitter": "https://x.com/OpenRouter",
+    "logo": "/imgs/Open Source AI/Hubs&Benchmarks/openrouter.jpg"
+  }
+}

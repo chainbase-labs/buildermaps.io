@@ -1,0 +1,10 @@
+{
+  "id": "kapwing",
+  "name": "Kapwing",
+  "description": "Collaborative online video editor with AI generation, subtitles and dubbing.",
+  "links": {
+    "homepage": "https://kapwing.com",
+    "twitter": "https://x.com/KapwingApp",
+    "logo": "/imgs/AI Video/Editing&Clipping/kapwing.jpg"
+  }
+}

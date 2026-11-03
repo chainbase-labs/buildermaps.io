@@ -1,0 +1,10 @@
+{
+  "id": "minos",
+  "name": "Minos",
+  "description": "SN107 · Competitive DNA variant calling for precision genomics.",
+  "links": {
+    "homepage": "https://theminos.ai",
+    "twitter": "https://x.com/theminos_ai",
+    "logo": "/imgs/Bittensor/Science&Robotics/minos.jpg"
+  }
+}

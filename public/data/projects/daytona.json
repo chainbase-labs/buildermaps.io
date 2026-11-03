@@ -1,0 +1,10 @@
+{
+  "id": "daytona",
+  "name": "Daytona",
+  "description": "Infrastructure for spinning up isolated development environments on demand for agent workloads.",
+  "links": {
+    "homepage": "https://daytona.io/",
+    "twitter": "https://x.com/daytonaio",
+    "logo": "/imgs/AI Coding Agents/Orchestration&Infra/daytona.jpg"
+  }
+}

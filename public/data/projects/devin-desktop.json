@@ -1,0 +1,10 @@
+{
+  "id": "devin-desktop",
+  "name": "Devin Desktop",
+  "description": "Formerly Windsurf — renamed by Cognition in June 2026. Agent command center with a full IDE behind it running third-party agents like Codex and Claude via the Agent Client Protocol.",
+  "links": {
+    "homepage": "https://windsurf.com/",
+    "twitter": "https://x.com/windsurf_ai",
+    "logo": "/imgs/AI Coding Agents/AIIDEs/devin-desktop.png"
+  }
+}

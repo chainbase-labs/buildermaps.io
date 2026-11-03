@@ -1,0 +1,10 @@
+{
+  "id": "bolt",
+  "name": "Bolt",
+  "description": "StackBlitz's in-browser full-stack builder. Prompt run and deploy entirely in the browser with no local environment.",
+  "links": {
+    "homepage": "https://bolt.new/",
+    "twitter": "https://x.com/boltdotnew",
+    "logo": "/imgs/AI Coding Agents/AppBuilders/bolt.jpg"
+  }
+}

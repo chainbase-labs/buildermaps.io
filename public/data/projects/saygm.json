@@ -1,0 +1,10 @@
+{
+  "id": "saygm",
+  "name": "SayGM",
+  "description": "SN28 · Confidential gateway to Claude, GPT and Gemini routed to the cheapest miner.",
+  "links": {
+    "homepage": "https://saygm.com",
+    "twitter": "https://x.com/say_gm_",
+    "logo": "/imgs/Bittensor/Inference/saygm.png"
+  }
+}

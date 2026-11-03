@@ -1,10 +1,10 @@
 {
   "id": "cursor",
   "name": "Cursor",
-  "description": "AI-first code editor with native SKILL.md reading, MCP tool support, and intelligent codebase understanding.",
+  "description": "The dominant AI-native editor — VS Code fork with agent mode cloud agents and Bugbot review. Hit $500M ARR in under two years. Acquired by SpaceX in August 2026 and continues shipping as a product.",
   "links": {
     "homepage": "https://cursor.com/",
     "twitter": "https://x.com/cursor_ai",
-    "logo": "/imgs/projects/cursor.jpg"
+    "logo": "/imgs/AI Coding Agents/AIIDEs/cursor.jpg"
   }
 }

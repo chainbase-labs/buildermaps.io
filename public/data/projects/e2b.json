@@ -1,0 +1,10 @@
+{
+  "id": "e2b",
+  "name": "E2B",
+  "description": "Secure cloud sandboxes for running AI-generated code. The execution substrate under many cloud coding agents.",
+  "links": {
+    "homepage": "https://e2b.dev/",
+    "twitter": "https://x.com/e2b",
+    "logo": "/imgs/AI Coding Agents/Orchestration&Infra/e2b.jpg"
+  }
+}

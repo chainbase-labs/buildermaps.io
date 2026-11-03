@@ -1,0 +1,10 @@
+{
+  "id": "codex-cli",
+  "name": "Codex CLI",
+  "description": "OpenAI's coding agent running locally from the terminal with a matching cloud mode. Roughly tied with Claude Code as the most complete agent — terminal IDE desktop and cloud with MCP and subagent support.",
+  "links": {
+    "homepage": "https://openai.com/codex",
+    "twitter": "https://x.com/OpenAI",
+    "logo": "/imgs/AI Coding Agents/TerminalAgents/codex-cli.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "kiro",
+  "name": "Kiro",
+  "description": "AWS spec-driven agentic IDE. Turns a written spec into tasks then implements them — structure-first rather than chat-first.",
+  "links": {
+    "homepage": "https://kiro.dev/",
+    "twitter": "https://x.com/kirodotdev",
+    "logo": "/imgs/AI Coding Agents/AIIDEs/kiro.jpg"
+  }
+}

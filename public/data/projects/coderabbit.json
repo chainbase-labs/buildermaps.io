@@ -1,0 +1,10 @@
+{
+  "id": "coderabbit",
+  "name": "CodeRabbit",
+  "description": "The most-installed AI app on GitHub and GitLab. Reviews every PR for bugs security and maintainability with the broadest platform coverage including Azure DevOps and Bitbucket.",
+  "links": {
+    "homepage": "https://coderabbit.ai/",
+    "twitter": "https://x.com/coderabbitai",
+    "logo": "/imgs/AI Coding Agents/CodeReview&QA/coderabbit.jpg"
+  }
+}

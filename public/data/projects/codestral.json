@@ -1,0 +1,10 @@
+{
+  "id": "codestral",
+  "name": "Codestral",
+  "description": "Mistral's dedicated code model with open weights and strong fill-in-the-middle performance for completion workloads.",
+  "links": {
+    "homepage": "https://mistral.ai/",
+    "twitter": "https://x.com/MistralAI",
+    "logo": "/imgs/AI Coding Agents/CodingModels/codestral.jpg"
+  }
+}

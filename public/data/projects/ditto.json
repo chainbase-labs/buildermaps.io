@@ -1,0 +1,10 @@
+{
+  "id": "ditto",
+  "name": "Ditto",
+  "description": "SN118 · Shared long-term memory and context layer for AI agents.",
+  "links": {
+    "homepage": "https://heyditto.ai",
+    "twitter": "https://x.com/heydittoai",
+    "logo": "/imgs/Bittensor/Agents&Apps/ditto.jpg"
+  }
+}

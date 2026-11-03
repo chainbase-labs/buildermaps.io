@@ -1,0 +1,10 @@
+{
+  "id": "modular",
+  "name": "Modular",
+  "description": "MAX inference engine and Mojo language for portable AI performance.",
+  "links": {
+    "homepage": "https://modular.com",
+    "twitter": "https://x.com/Modular",
+    "logo": "/imgs/Open Source AI/Inference/modular.png"
+  }
+}

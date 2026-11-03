@@ -1,0 +1,10 @@
+{
+  "id": "llama-cpp",
+  "name": "llama.cpp",
+  "description": "C/C++ inference engine and GGUF format powering local LLMs.",
+  "links": {
+    "homepage": "https://github.com/ggml-org/llama.cpp",
+    "twitter": "https://x.com/ggerganov",
+    "logo": "/imgs/Open Source AI/LocalAI/llama-cpp.jpg"
+  }
+}

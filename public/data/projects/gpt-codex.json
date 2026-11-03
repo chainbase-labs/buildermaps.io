@@ -1,0 +1,10 @@
+{
+  "id": "gpt-codex",
+  "name": "GPT Codex",
+  "description": "OpenAI's coding-tuned frontier models powering Codex CLI and cloud. Roughly tied with Claude at the top of agent benchmarks.",
+  "links": {
+    "homepage": "https://openai.com/",
+    "twitter": "https://x.com/OpenAIDevs",
+    "logo": "/imgs/AI Coding Agents/CodingModels/gpt-codex.jpg"
+  }
+}

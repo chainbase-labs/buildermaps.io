@@ -1,0 +1,10 @@
+{
+  "id": "opencode",
+  "name": "OpenCode",
+  "description": "Open-source BYOK terminal agent scoring 53.6 on the AA Coding Agent Index. Free tier plus a $10/mo hosted option — the leading open alternative to Claude Code.",
+  "links": {
+    "homepage": "https://opencode.ai/",
+    "twitter": "https://x.com/opencode",
+    "logo": "/imgs/AI Coding Agents/TerminalAgents/opencode.png"
+  }
+}

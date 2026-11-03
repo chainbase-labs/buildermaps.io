@@ -1,0 +1,10 @@
+{
+  "id": "axolotl",
+  "name": "Axolotl",
+  "description": "Open-source framework for fine-tuning open models.",
+  "links": {
+    "homepage": "https://axolotl.ai",
+    "twitter": "https://x.com/axolotl_ai",
+    "logo": "/imgs/Open Source AI/Training/axolotl.jpg"
+  }
+}

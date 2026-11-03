@@ -1,0 +1,10 @@
+{
+  "id": "kimi",
+  "name": "Kimi",
+  "description": "Moonshot AI's open-weight Kimi models for agentic and coding tasks.",
+  "links": {
+    "homepage": "https://moonshot.ai",
+    "twitter": "https://x.com/Kimi_Moonshot",
+    "logo": "/imgs/Open Source AI/FrontierLabs/kimi.jpg"
+  }
+}

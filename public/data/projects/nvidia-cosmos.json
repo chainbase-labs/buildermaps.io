@@ -1,0 +1,10 @@
+{
+  "id": "nvidia-cosmos",
+  "name": "NVIDIA Cosmos",
+  "description": "Open world foundation models for physical AI and video simulation.",
+  "links": {
+    "homepage": "https://nvidia.com",
+    "twitter": "https://x.com/NVIDIAAI",
+    "logo": "/imgs/AI Video/WorldModels&3D/nvidia-cosmos.png"
+  }
+}

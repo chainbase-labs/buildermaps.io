@@ -1,0 +1,10 @@
+{
+  "id": "it-s-ai",
+  "name": "It's AI",
+  "description": "SN32 · AI-generated text detection used by schools and businesses.",
+  "links": {
+    "homepage": "https://its-ai.org",
+    "twitter": "https://x.com/ai_detection",
+    "logo": "/imgs/Bittensor/Security&Trust/it-s-ai.jpg"
+  }
+}

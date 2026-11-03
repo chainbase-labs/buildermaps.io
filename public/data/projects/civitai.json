@@ -1,0 +1,10 @@
+{
+  "id": "civitai",
+  "name": "Civitai",
+  "description": "Community hub for sharing and running open image and video models.",
+  "links": {
+    "homepage": "https://civitai.com",
+    "twitter": "https://x.com/HelloCivitai",
+    "logo": "/imgs/Open Source AI/Hubs&Benchmarks/civitai.jpg"
+  }
+}

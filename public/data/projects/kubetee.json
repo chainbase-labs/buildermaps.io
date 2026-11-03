@@ -1,0 +1,10 @@
+{
+  "id": "kubetee",
+  "name": "KubeTEE",
+  "description": "SN90 · Confidential AI factory running jobs inside TEE-secured Kubernetes pods.",
+  "links": {
+    "homepage": "https://kubetee.ai",
+    "twitter": "https://x.com/KubeTEEAI",
+    "logo": "/imgs/Bittensor/Compute/kubetee.jpg"
+  }
+}

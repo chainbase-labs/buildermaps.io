@@ -1,0 +1,10 @@
+{
+  "id": "hailuo-ai",
+  "name": "Hailuo AI",
+  "description": "MiniMax's video generation platform for text- and image-to-video.",
+  "links": {
+    "homepage": "https://hailuoai.video",
+    "twitter": "https://x.com/Hailuo_AI",
+    "logo": "/imgs/AI Video/FrontierModels/hailuo-ai.jpg"
+  }
+}

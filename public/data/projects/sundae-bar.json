@@ -1,0 +1,10 @@
+{
+  "id": "sundae-bar",
+  "name": "sundae_bar",
+  "description": "SN121 · Enterprise AI agent marketplace supplied by subnet-built skills.",
+  "links": {
+    "homepage": "https://sundaebar.ai",
+    "twitter": "https://x.com/sundaebar_ai",
+    "logo": "/imgs/Bittensor/Agents&Apps/sundae-bar.png"
+  }
+}

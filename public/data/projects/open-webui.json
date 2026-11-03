@@ -1,0 +1,10 @@
+{
+  "id": "open-webui",
+  "name": "Open WebUI",
+  "description": "Self-hosted AI interface for running open models.",
+  "links": {
+    "homepage": "https://openwebui.com",
+    "twitter": "https://x.com/OpenWebUI",
+    "logo": "/imgs/Open Source AI/LocalAI/open-webui.jpg"
+  }
+}

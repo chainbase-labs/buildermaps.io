@@ -1,0 +1,10 @@
+{
+  "id": "terminal-bench",
+  "name": "Terminal-Bench",
+  "description": "The reference benchmark for coding agents in real terminal environments. Version 4.0 is the leaderboard the industry now cites.",
+  "links": {
+    "homepage": "https://tbench.ai/",
+    "twitter": "https://x.com/terminalbench",
+    "logo": "/imgs/AI Coding Agents/Orchestration&Infra/terminal-bench.jpg"
+  }
+}

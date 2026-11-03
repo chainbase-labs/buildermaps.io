@@ -1,0 +1,10 @@
+{
+  "id": "arcee-ai",
+  "name": "Arcee AI",
+  "description": "Open-weight small and mid-size models built for enterprise customization.",
+  "links": {
+    "homepage": "https://arcee.ai",
+    "twitter": "https://x.com/arcee_ai",
+    "logo": "/imgs/Open Source AI/SpecializedLabs/arcee-ai.jpg"
+  }
+}

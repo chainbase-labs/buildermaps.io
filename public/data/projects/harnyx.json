@@ -1,0 +1,10 @@
+{
+  "id": "harnyx",
+  "name": "Harnyx",
+  "description": "SN67 · Deep research API with structured, cited answers from competing miners.",
+  "links": {
+    "homepage": "https://harnyx.ai",
+    "twitter": "https://x.com/harnyx_ai",
+    "logo": "/imgs/Bittensor/Agents&Apps/harnyx.png"
+  }
+}

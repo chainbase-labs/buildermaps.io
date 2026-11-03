@@ -1,0 +1,10 @@
+{
+  "id": "wan",
+  "name": "Wan",
+  "description": "Alibaba's open-weight video generation model family.",
+  "links": {
+    "homepage": "https://wan.video",
+    "twitter": "https://x.com/Alibaba_Wan",
+    "logo": "/imgs/Open Source AI/Multimodal/wan.jpg"
+  }
+}

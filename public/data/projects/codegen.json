@@ -1,0 +1,10 @@
+{
+  "id": "codegen",
+  "name": "Codegen",
+  "description": "Cloud agents that pick up Linear tickets and Slack requests then open pull requests with no IDE involved.",
+  "links": {
+    "homepage": "https://codegen.com/",
+    "twitter": "https://x.com/codegen",
+    "logo": "/imgs/AI Coding Agents/Cloud&AsyncAgents/codegen.jpg"
+  }
+}

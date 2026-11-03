@@ -1,0 +1,10 @@
+{
+  "id": "llama",
+  "name": "Llama",
+  "description": "Meta's open-weight Llama model family, including Llama 4.",
+  "links": {
+    "homepage": "https://llama.com",
+    "twitter": "https://x.com/AIatMeta",
+    "logo": "/imgs/Open Source AI/BigTech/llama.png"
+  }
+}

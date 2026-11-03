@@ -1,0 +1,10 @@
+{
+  "id": "grayscale",
+  "name": "Grayscale",
+  "description": "Issuer of the Grayscale Bittensor Trust.",
+  "links": {
+    "homepage": "https://grayscale.com",
+    "twitter": "https://x.com/Grayscale",
+    "logo": "/imgs/Bittensor/Capital&Institutions/grayscale.png"
+  }
+}

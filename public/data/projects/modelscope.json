@@ -1,0 +1,10 @@
+{
+  "id": "modelscope",
+  "name": "ModelScope",
+  "description": "Alibaba's open model hub and community.",
+  "links": {
+    "homepage": "https://modelscope.cn",
+    "twitter": "https://x.com/ModelScope2022",
+    "logo": "/imgs/Open Source AI/Hubs&Benchmarks/modelscope.jpg"
+  }
+}

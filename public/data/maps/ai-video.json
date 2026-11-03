@@ -1,0 +1,94 @@
+{
+  "sector": "AI Video",
+  "types": [
+    {
+      "id": "frontier-models",
+      "name": "Frontier Models",
+      "projects": [
+        "adobe-firefly",
+        "grok-imagine",
+        "hailuo-ai",
+        "kling-ai",
+        "luma-ai",
+        "moonvalley",
+        "pika",
+        "pixverse",
+        "runway",
+        "veo",
+        "vidu"
+      ]
+    },
+    {
+      "id": "open-source-and-infra",
+      "name": "Open Source & Infra",
+      "projects": [
+        "civitai",
+        "comfyui",
+        "fal",
+        "ltx",
+        "skyreels",
+        "stability-ai",
+        "tencent-hunyuan",
+        "twelve-labs",
+        "wan"
+      ]
+    },
+    {
+      "id": "image-models",
+      "name": "Image Models",
+      "projects": [
+        "black-forest-labs",
+        "gpt-image",
+        "ideogram",
+        "midjourney",
+        "nano-banana",
+        "qwen-image",
+        "recraft"
+      ]
+    },
+    {
+      "id": "creative-platforms",
+      "name": "Creative Platforms",
+      "projects": [
+        "freepik",
+        "google-flow",
+        "higgsfield",
+        "invideo",
+        "krea",
+        "lovart",
+        "openart",
+        "viggle"
+      ]
+    },
+    {
+      "id": "ai-avatars",
+      "name": "AI Avatars",
+      "projects": ["d-id", "hedra", "heygen", "synthesia", "tavus"]
+    },
+    {
+      "id": "editing-and-clipping",
+      "name": "Editing & Clipping",
+      "projects": [
+        "capcut",
+        "descript",
+        "kapwing",
+        "opusclip",
+        "riverside",
+        "topaz-labs",
+        "veed"
+      ]
+    },
+    {
+      "id": "world-models-and-3d",
+      "name": "World Models & 3D",
+      "projects": [
+        "decart",
+        "meshy",
+        "nvidia-cosmos",
+        "odyssey",
+        "tripo",
+        "world-labs"
+      ]
+    }
+  ]
+}

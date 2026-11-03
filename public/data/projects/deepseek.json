@@ -1,10 +1,10 @@
 {
   "id": "deepseek",
   "name": "DeepSeek",
-  "description": "Open-source AI model with strong reasoning and coding capabilities rivaling frontier models.",
+  "description": "Open-weight frontier reasoning and coding models under MIT license.",
   "links": {
-    "homepage": "https://deepseek.com/",
+    "homepage": "https://deepseek.com",
     "twitter": "https://x.com/deepseek_ai",
-    "logo": "/imgs/projects/deepseek.jpg"
+    "logo": "/imgs/Open Source AI/FrontierLabs/deepseek.jpg"
   }
 }

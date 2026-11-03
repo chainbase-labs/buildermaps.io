@@ -1,0 +1,10 @@
+{
+  "id": "sonar",
+  "name": "Sonar",
+  "description": "SonarQube and SonarCloud — the incumbent code quality platform now adding AI-generated code assurance.",
+  "links": {
+    "homepage": "https://sonarsource.com/",
+    "twitter": "https://x.com/SonarSource",
+    "logo": "/imgs/AI Coding Agents/CodeReview&QA/sonar.jpg"
+  }
+}

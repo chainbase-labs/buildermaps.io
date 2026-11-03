@@ -1,0 +1,10 @@
+{
+  "id": "openhands",
+  "name": "OpenHands",
+  "description": "Leading open-source autonomous development platform. Consistently among the top GitHub trending agent repos and the default self-hosted alternative to Devin.",
+  "links": {
+    "homepage": "https://all-hands.dev/",
+    "twitter": "https://x.com/allhands_ai",
+    "logo": "/imgs/AI Coding Agents/Cloud&AsyncAgents/openhands.jpg"
+  }
+}

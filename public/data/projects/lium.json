@@ -1,0 +1,10 @@
+{
+  "id": "lium",
+  "name": "Lium",
+  "description": "SN51 · Agent-first GPU cloud renting NVIDIA GPUs from decentralized providers.",
+  "links": {
+    "homepage": "https://lium.io",
+    "twitter": "https://x.com/lium_io",
+    "logo": "/imgs/Bittensor/Compute/lium.png"
+  }
+}

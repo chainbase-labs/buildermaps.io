@@ -1,10 +1,10 @@
 {
   "id": "heygen",
   "name": "HeyGen",
-  "description": "AI video creation platform for generating talking avatar videos, translations, and personalized video content.",
+  "description": "AI avatar videos, video translation and Video Agent for businesses.",
   "links": {
-    "homepage": "https://heygen.com/",
+    "homepage": "https://heygen.com",
     "twitter": "https://x.com/HeyGen",
-    "logo": "/imgs/projects/heygen.jpg"
+    "logo": "/imgs/AI Video/AIAvatars/heygen.jpg"
   }
 }

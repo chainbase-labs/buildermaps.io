@@ -1,0 +1,10 @@
+{
+  "id": "marscode",
+  "name": "MarsCode",
+  "description": "ByteDance's cloud IDE and coding assistant with a generous free tier. Sister product to Trae.",
+  "links": {
+    "homepage": "https://marscode.com/",
+    "twitter": "https://x.com/ByteDanceTalk",
+    "logo": "/imgs/AI Coding Agents/ChinaEcosystem/marscode.jpg"
+  }
+}

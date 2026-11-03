@@ -1,0 +1,10 @@
+{
+  "id": "engy",
+  "name": "engy",
+  "description": "SN53 · Cryptographically verified inference for frontier open models.",
+  "links": {
+    "homepage": "https://github.com/hanlinai/engy",
+    "twitter": "https://x.com/engyai",
+    "logo": "/imgs/Bittensor/Inference/engy.jpg"
+  }
+}

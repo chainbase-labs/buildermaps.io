@@ -1,0 +1,10 @@
+{
+  "id": "synth",
+  "name": "Synth",
+  "description": "SN50 · Probabilistic price-path forecasts for crypto and tokenized stocks.",
+  "links": {
+    "homepage": "https://synthdata.co",
+    "twitter": "https://x.com/SynthdataCo",
+    "logo": "/imgs/Bittensor/Finance&Prediction/synth.jpg"
+  }
+}

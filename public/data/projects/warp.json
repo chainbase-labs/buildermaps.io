@@ -1,10 +1,10 @@
 {
   "id": "warp",
   "name": "Warp",
-  "description": "Arc launchpad and trading terminal incorporating USDC bridging.",
+  "description": "Terminal-native agentic development environment that runs and supervises multiple coding agents in parallel from one command line.",
   "links": {
-    "homepage": "http://circlewarp.fun",
-    "twitter": "https://x.com/circlewarp",
-    "logo": "/imgs/Arc/Launchpads/warp.jpg"
+    "homepage": "https://warp.dev/",
+    "twitter": "https://x.com/warpdotdev",
+    "logo": "/imgs/AI Coding Agents/TerminalAgents/warp.jpg"
   }
 }

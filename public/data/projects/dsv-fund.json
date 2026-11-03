@@ -1,0 +1,10 @@
+{
+  "id": "dsv-fund",
+  "name": "DSV Fund",
+  "description": "Venture fund backing Bittensor subnet teams.",
+  "links": {
+    "homepage": "https://dsvfund.com",
+    "twitter": "https://x.com/dsvfund",
+    "logo": "/imgs/Bittensor/Capital&Institutions/dsv-fund.jpg"
+  }
+}

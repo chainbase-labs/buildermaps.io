@@ -1,0 +1,10 @@
+{
+  "id": "flock-io",
+  "name": "FLock.io",
+  "description": "Decentralized federated learning and model training network.",
+  "links": {
+    "homepage": "https://flock.io",
+    "twitter": "https://x.com/flock_io",
+    "logo": "/imgs/Open Source AI/DecentralizedTraining/flock-io.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "goose",
+  "name": "Goose",
+  "description": "Open-source local-first agent framework from Block. Bring your own model write execute and debug entirely from the CLI with no vendor lock-in.",
+  "links": {
+    "homepage": "https://block.github.io/goose/",
+    "twitter": "https://x.com/goose_oss",
+    "logo": "/imgs/AI Coding Agents/TerminalAgents/goose.jpg"
+  }
+}

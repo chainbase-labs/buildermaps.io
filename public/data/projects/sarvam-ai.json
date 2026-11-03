@@ -1,0 +1,10 @@
+{
+  "id": "sarvam-ai",
+  "name": "Sarvam AI",
+  "description": "Indian lab building open models for Indic languages and speech.",
+  "links": {
+    "homepage": "https://sarvam.ai",
+    "twitter": "https://x.com/SarvamAI",
+    "logo": "/imgs/Open Source AI/SpecializedLabs/sarvam-ai.png"
+  }
+}

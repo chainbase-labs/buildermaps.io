@@ -1,0 +1,10 @@
+{
+  "id": "deepspeed",
+  "name": "DeepSpeed",
+  "description": "Open-source library for large-scale distributed training and inference.",
+  "links": {
+    "homepage": "https://deepspeed.ai",
+    "twitter": "https://x.com/DeepSpeedAI",
+    "logo": "/imgs/Open Source AI/Training/deepspeed.jpg"
+  }
+}

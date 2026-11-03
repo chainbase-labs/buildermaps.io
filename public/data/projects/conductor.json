@@ -1,0 +1,10 @@
+{
+  "id": "conductor",
+  "name": "Conductor",
+  "description": "Desktop app for running many Claude Code agents in parallel across isolated git worktrees.",
+  "links": {
+    "homepage": "https://conductor.build/",
+    "twitter": "https://x.com/conductor_build",
+    "logo": "/imgs/AI Coding Agents/Orchestration&Infra/conductor.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "streetvision",
+  "name": "StreetVision",
+  "description": "SN72 · NATIX's street-level imagery for autonomous driving and maps.",
+  "links": {
+    "homepage": "https://natix.network",
+    "twitter": "https://x.com/NATIXNetwork",
+    "logo": "/imgs/Bittensor/Data&Media/streetvision.jpg"
+  }
+}

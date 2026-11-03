@@ -1,10 +1,10 @@
 {
   "id": "trae",
   "name": "Trae",
-  "description": "ByteDance’s free AI IDE competing with Cursor and Windsurf. Built-in AI agent with MCP support and multi-model access.",
+  "description": "ByteDance's AI-native IDE with a builder mode and free access to frontier models. Strongest adoption across Asian developer markets.",
   "links": {
     "homepage": "https://trae.ai/",
     "twitter": "https://x.com/Trae_ai",
-    "logo": "/imgs/projects/trae.jpg"
+    "logo": "/imgs/AI Coding Agents/ChinaEcosystem/trae.jpg"
   }
 }

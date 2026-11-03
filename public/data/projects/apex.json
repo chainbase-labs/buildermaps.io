@@ -1,0 +1,10 @@
+{
+  "id": "apex",
+  "name": "Apex",
+  "description": "SN1 · Macrocosmos' flagship general intelligence and optimization subnet.",
+  "links": {
+    "homepage": "https://github.com/macrocosm-os/apex",
+    "twitter": "https://x.com/MacrocosmosAI",
+    "logo": "/imgs/Bittensor/Training&Models/apex.jpg"
+  }
+}

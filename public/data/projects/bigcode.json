@@ -1,0 +1,10 @@
+{
+  "id": "bigcode",
+  "name": "BigCode",
+  "description": "Open scientific collaboration behind the StarCoder code models.",
+  "links": {
+    "homepage": "https://bigcode-project.org",
+    "twitter": "https://x.com/BigCodeProject",
+    "logo": "/imgs/Open Source AI/Research&Nonprofits/bigcode.jpg"
+  }
+}

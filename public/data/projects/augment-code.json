@@ -1,0 +1,10 @@
+{
+  "id": "augment-code",
+  "name": "Augment Code",
+  "description": "Enterprise agent built around a 200K-token context engine for large legacy codebases. 70.6% on SWE-bench Verified.",
+  "links": {
+    "homepage": "https://augmentcode.com/",
+    "twitter": "https://x.com/augmentcode",
+    "logo": "/imgs/AI Coding Agents/IDEExtensions/augment-code.jpg"
+  }
+}

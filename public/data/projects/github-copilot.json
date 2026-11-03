@@ -1,10 +1,10 @@
 {
   "id": "github-copilot",
   "name": "GitHub Copilot",
-  "description": "GitHub's AI pair programmer now supporting Agent Skills format for customizable coding workflows.",
+  "description": "The most widely deployed coding assistant with roughly 15M developers. Agent mode issue-to-PR automation and Agent HQ for orchestrating multiple agents inside GitHub.",
   "links": {
     "homepage": "https://github.com/features/copilot",
-    "twitter": "https://x.com/GitHubCopilot",
-    "logo": "/imgs/projects/github-copilot.jpg"
+    "twitter": "https://x.com/github",
+    "logo": "/imgs/AI Coding Agents/IDEExtensions/github-copilot.jpg"
   }
 }

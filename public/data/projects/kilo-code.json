@@ -1,0 +1,10 @@
+{
+  "id": "kilo-code",
+  "name": "Kilo Code",
+  "description": "Open-source VS Code agent with 500+ models via OpenRouter and four structured modes — Architect Code Debug and Orchestrator.",
+  "links": {
+    "homepage": "https://kilocode.ai/",
+    "twitter": "https://x.com/kilocode",
+    "logo": "/imgs/AI Coding Agents/IDEExtensions/kilo-code.jpg"
+  }
+}

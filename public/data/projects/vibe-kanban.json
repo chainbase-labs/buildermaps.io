@@ -1,0 +1,10 @@
+{
+  "id": "vibe-kanban",
+  "name": "Vibe Kanban",
+  "description": "Kanban board for orchestrating multiple coding agents — queue review and merge agent work like a task board.",
+  "links": {
+    "homepage": "https://vibekanban.com/",
+    "twitter": "https://x.com/vibekanban",
+    "logo": "/imgs/AI Coding Agents/Orchestration&Infra/vibe-kanban.jpg"
+  }
+}

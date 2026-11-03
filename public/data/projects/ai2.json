@@ -1,0 +1,10 @@
+{
+  "id": "ai2",
+  "name": "Ai2",
+  "description": "Nonprofit lab behind fully open OLMo models with open data and training code.",
+  "links": {
+    "homepage": "https://allenai.org",
+    "twitter": "https://x.com/allen_ai",
+    "logo": "/imgs/Open Source AI/Research&Nonprofits/ai2.png"
+  }
+}

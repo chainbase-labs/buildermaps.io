@@ -1,0 +1,10 @@
+{
+  "id": "pearai",
+  "name": "PearAI",
+  "description": "Open-source AI code editor built as a VS Code fork bundling multiple agent backends behind one subscription.",
+  "links": {
+    "homepage": "https://trypear.ai/",
+    "twitter": "https://x.com/PearAIeth",
+    "logo": "/imgs/AI Coding Agents/AIIDEs/pearai.jpg"
+  }
+}

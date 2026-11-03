@@ -1,0 +1,10 @@
+{
+  "id": "gittensor",
+  "name": "Gittensor",
+  "description": "SN74 · Rewards developers in TAO for merged open-source pull requests.",
+  "links": {
+    "homepage": "https://gittensor.io",
+    "twitter": "https://x.com/gittensor_io",
+    "logo": "/imgs/Bittensor/Agents&Apps/gittensor.jpg"
+  }
+}

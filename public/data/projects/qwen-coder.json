@@ -1,0 +1,10 @@
+{
+  "id": "qwen-coder",
+  "name": "Qwen Coder",
+  "description": "Alibaba's open-weight coding model series. Powers Qoder and Qoder CN and is the most widely deployed open coding model globally.",
+  "links": {
+    "homepage": "https://qwen.ai/",
+    "twitter": "https://x.com/Alibaba_Qwen",
+    "logo": "/imgs/AI Coding Agents/CodingModels/qwen-coder.jpg"
+  }
+}

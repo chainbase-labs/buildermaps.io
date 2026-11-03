@@ -1,0 +1,10 @@
+{
+  "id": "redteam",
+  "name": "RedTeam",
+  "description": "SN61 · Pays ethical hackers to break bot-detection systems.",
+  "links": {
+    "homepage": "https://theredteam.io",
+    "twitter": "https://x.com/_redteam_",
+    "logo": "/imgs/Bittensor/Security&Trust/redteam.jpg"
+  }
+}

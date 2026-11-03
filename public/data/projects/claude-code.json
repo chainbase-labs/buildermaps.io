@@ -1,10 +1,10 @@
 {
   "id": "claude-code",
   "name": "Claude Code",
-  "description": "Anthropic's agentic coding tool with native SKILL.md support, MCP integration, and slash commands for the full dev lifecycle.",
+  "description": "Anthropic's terminal-first agent and the category benchmark leader. Reads a whole codebase plans edits runs commands and connects to tools through MCP. Tops Terminal-Bench 4.0 with Opus 5.5. The Claude Agent SDK exposes the same harness as a library.",
   "links": {
-    "homepage": "https://claude.ai/",
+    "homepage": "https://claude.com/claude-code",
     "twitter": "https://x.com/AnthropicAI",
-    "logo": "/imgs/projects/claude-code.jpg"
+    "logo": "/imgs/AI Coding Agents/TerminalAgents/claude-code.jpg"
   }
 }

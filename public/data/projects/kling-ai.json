@@ -1,10 +1,10 @@
 {
   "id": "kling-ai",
   "name": "Kling AI",
-  "description": "Kuaishou's AI video generation model producing high-quality videos with realistic motion and physics.",
+  "description": "Kuaishou's video model; Kling 4.0 adds native 30-second 4K HDR generation.",
   "links": {
-    "homepage": "https://klingai.com/",
+    "homepage": "https://kling.ai",
     "twitter": "https://x.com/Kling_ai",
-    "logo": "/imgs/projects/kling-ai.jpg"
+    "logo": "/imgs/AI Video/FrontierModels/kling-ai.jpg"
   }
 }

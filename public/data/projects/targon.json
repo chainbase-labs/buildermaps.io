@@ -1,0 +1,10 @@
+{
+  "id": "targon",
+  "name": "Targon",
+  "description": "SN4 · Confidential compute marketplace for verifiable AI workloads by Manifold Labs.",
+  "links": {
+    "homepage": "https://targon.com",
+    "twitter": "https://x.com/TargonCompute",
+    "logo": "/imgs/Bittensor/Compute/targon.jpg"
+  }
+}

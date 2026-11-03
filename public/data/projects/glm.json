@@ -1,0 +1,10 @@
+{
+  "id": "glm",
+  "name": "GLM",
+  "description": "Z.ai's open-weight GLM models for reasoning, coding and agents.",
+  "links": {
+    "homepage": "https://z.ai",
+    "twitter": "https://x.com/Zai_org",
+    "logo": "/imgs/Open Source AI/FrontierLabs/glm.jpg"
+  }
+}

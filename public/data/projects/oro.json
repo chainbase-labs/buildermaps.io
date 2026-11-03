@@ -1,0 +1,10 @@
+{
+  "id": "oro",
+  "name": "ORO",
+  "description": "SN15 · Open arena where AI shopping agents compete on real tasks.",
+  "links": {
+    "homepage": "https://oroagents.com",
+    "twitter": "https://x.com/oroagents",
+    "logo": "/imgs/Bittensor/Agents&Apps/oro.jpg"
+  }
+}

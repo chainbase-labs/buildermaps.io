@@ -1,0 +1,10 @@
+{
+  "id": "conjectures",
+  "name": "Conjectures",
+  "description": "SN66 · TAO bounties for machine-verified proofs of open math conjectures.",
+  "links": {
+    "homepage": "https://conjectures.io",
+    "twitter": "https://x.com/conjectures_io",
+    "logo": "/imgs/Bittensor/Science&Robotics/conjectures.jpg"
+  }
+}

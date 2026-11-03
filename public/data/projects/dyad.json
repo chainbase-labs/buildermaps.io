@@ -1,0 +1,10 @@
+{
+  "id": "dyad",
+  "name": "Dyad",
+  "description": "Local open-source app builder. Runs on your machine with your own API keys instead of a hosted sandbox.",
+  "links": {
+    "homepage": "https://dyad.sh/",
+    "twitter": "https://x.com/dyad_sh",
+    "logo": "/imgs/AI Coding Agents/AppBuilders/dyad.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "tencent-hunyuan",
+  "name": "Tencent Hunyuan",
+  "description": "Tencent's AI lab behind open-source HunyuanVideo and world models.",
+  "links": {
+    "homepage": "https://hunyuan.tencent.com",
+    "twitter": "https://x.com/TencentHunyuan",
+    "logo": "/imgs/AI Video/OpenSource&Infra/tencent-hunyuan.jpg"
+  }
+}

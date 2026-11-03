@@ -1,0 +1,10 @@
+{
+  "id": "taostats",
+  "name": "Taostats",
+  "description": "Leading Bittensor explorer, analytics and staking platform.",
+  "links": {
+    "homepage": "https://taostats.io",
+    "twitter": "https://x.com/taostats",
+    "logo": "/imgs/Bittensor/Foundation&Tools/taostats.jpg"
+  }
+}

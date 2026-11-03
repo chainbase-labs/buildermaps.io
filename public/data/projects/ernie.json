@@ -1,0 +1,10 @@
+{
+  "id": "ernie",
+  "name": "ERNIE",
+  "description": "Baidu's ERNIE model family with open-source releases.",
+  "links": {
+    "homepage": "https://ernie.baidu.com",
+    "twitter": "https://x.com/Baidu_Inc",
+    "logo": "/imgs/Open Source AI/BigTech/ernie.jpg"
+  }
+}

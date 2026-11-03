@@ -1,0 +1,10 @@
+{
+  "id": "crush",
+  "name": "Crush",
+  "description": "Charm's open-source terminal coding agent built on the Bubble Tea TUI stack with multi-model support.",
+  "links": {
+    "homepage": "https://charm.land/",
+    "twitter": "https://x.com/charmcli",
+    "logo": "/imgs/AI Coding Agents/TerminalAgents/crush.jpg"
+  }
+}

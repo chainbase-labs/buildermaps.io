@@ -1,0 +1,10 @@
+{
+  "id": "pytorch",
+  "name": "PyTorch",
+  "description": "The open-source deep learning framework behind most AI research.",
+  "links": {
+    "homepage": "https://pytorch.org",
+    "twitter": "https://x.com/PyTorch",
+    "logo": "/imgs/Open Source AI/Training/pytorch.jpg"
+  }
+}

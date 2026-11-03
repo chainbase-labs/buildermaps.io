@@ -1,0 +1,10 @@
+{
+  "id": "claude-opus",
+  "name": "Claude Opus",
+  "description": "Anthropic's frontier model family and the current top scorer on Terminal-Bench 4.0 when paired with Claude Code. The default backend for most agent harnesses.",
+  "links": {
+    "homepage": "https://claude.com/",
+    "twitter": "https://x.com/claudeai",
+    "logo": "/imgs/AI Coding Agents/CodingModels/claude-opus.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "liquid-ai",
+  "name": "Liquid AI",
+  "description": "Efficient open-weight foundation models (LFM) for on-device AI.",
+  "links": {
+    "homepage": "https://liquid.ai",
+    "twitter": "https://x.com/liquidai",
+    "logo": "/imgs/Open Source AI/SpecializedLabs/liquid-ai.jpg"
+  }
+}

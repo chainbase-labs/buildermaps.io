@@ -1,0 +1,10 @@
+{
+  "id": "jan",
+  "name": "Jan",
+  "description": "Open-source ChatGPT alternative that runs fully offline.",
+  "links": {
+    "homepage": "https://jan.ai",
+    "twitter": "https://x.com/jandotai",
+    "logo": "/imgs/Open Source AI/LocalAI/jan.jpg"
+  }
+}

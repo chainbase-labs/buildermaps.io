@@ -1,0 +1,10 @@
+{
+  "id": "ltx",
+  "name": "LTX",
+  "description": "Lightricks' open-weight LTX video generation models.",
+  "links": {
+    "homepage": "https://ltx.video",
+    "twitter": "https://x.com/Lightricks",
+    "logo": "/imgs/Open Source AI/Multimodal/ltx.jpg"
+  }
+}

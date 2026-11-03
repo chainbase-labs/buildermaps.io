@@ -1,0 +1,10 @@
+{
+  "id": "pluralis-research",
+  "name": "Pluralis Research",
+  "description": "Protocol learning research for decentralized pipeline-parallel training.",
+  "links": {
+    "homepage": "https://pluralis.ai",
+    "twitter": "https://x.com/Pluralis",
+    "logo": "/imgs/Open Source AI/DecentralizedTraining/pluralis-research.jpg"
+  }
+}

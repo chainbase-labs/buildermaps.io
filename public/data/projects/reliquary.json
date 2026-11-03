@@ -1,0 +1,10 @@
+{
+  "id": "reliquary",
+  "name": "Reliquary",
+  "description": "SN81 · The RL layer of Bittensor: decentralized GRPO post-training.",
+  "links": {
+    "homepage": "https://reliqua.ai",
+    "twitter": "https://x.com/reliquary_ai",
+    "logo": "/imgs/Bittensor/Training&Models/reliquary.jpg"
+  }
+}

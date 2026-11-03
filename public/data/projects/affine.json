@@ -1,0 +1,10 @@
+{
+  "id": "affine",
+  "name": "Affine",
+  "description": "SN120 · Reinforcement learning subnet that mines verifiable reasoning.",
+  "links": {
+    "homepage": "https://github.com/affinefoundation/affine",
+    "twitter": "https://x.com/affine_io",
+    "logo": "/imgs/Bittensor/Training&Models/affine.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "veed",
+  "name": "VEED",
+  "description": "Online video editor with AI subtitles, avatars and generation.",
+  "links": {
+    "homepage": "https://veed.io",
+    "twitter": "https://x.com/veedstudio",
+    "logo": "/imgs/AI Video/Editing&Clipping/veed.png"
+  }
+}

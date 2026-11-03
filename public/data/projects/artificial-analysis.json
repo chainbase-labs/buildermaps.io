@@ -1,0 +1,10 @@
+{
+  "id": "artificial-analysis",
+  "name": "Artificial Analysis",
+  "description": "Independent benchmarks comparing open and closed model performance.",
+  "links": {
+    "homepage": "https://artificialanalysis.ai",
+    "twitter": "https://x.com/ArtificialAnlys",
+    "logo": "/imgs/Open Source AI/Hubs&Benchmarks/artificial-analysis.jpg"
+  }
+}

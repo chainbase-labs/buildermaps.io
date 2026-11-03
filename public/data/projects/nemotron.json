@@ -1,0 +1,10 @@
+{
+  "id": "nemotron",
+  "name": "Nemotron",
+  "description": "NVIDIA's open models and datasets; founder of the Nemotron Coalition of open labs.",
+  "links": {
+    "homepage": "https://nvidia.com",
+    "twitter": "https://x.com/NVIDIAAI",
+    "logo": "/imgs/Open Source AI/BigTech/nemotron.png"
+  }
+}

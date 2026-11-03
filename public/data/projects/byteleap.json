@@ -1,0 +1,10 @@
+{
+  "id": "byteleap",
+  "name": "ByteLeap",
+  "description": "SN128 · Decentralized GPU cloud renting bare-metal servers and VMs.",
+  "links": {
+    "homepage": "https://byteleap.ai",
+    "twitter": "https://x.com/byteleap_ai",
+    "logo": "/imgs/Bittensor/Compute/byteleap.jpg"
+  }
+}

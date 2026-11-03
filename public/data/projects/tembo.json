@@ -1,0 +1,10 @@
+{
+  "id": "tembo",
+  "name": "Tembo",
+  "description": "Autonomous agent that triages incoming issues and ships fixes as PRs with a focus on backend and database work.",
+  "links": {
+    "homepage": "https://tembo.io/",
+    "twitter": "https://x.com/tembo",
+    "logo": "/imgs/AI Coding Agents/Cloud&AsyncAgents/tembo.jpg"
+  }
+}

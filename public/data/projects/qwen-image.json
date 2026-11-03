@@ -1,0 +1,10 @@
+{
+  "id": "qwen-image",
+  "name": "Qwen-Image",
+  "description": "Alibaba's open image generation and editing models.",
+  "links": {
+    "homepage": "https://qwen.ai",
+    "twitter": "https://x.com/Alibaba_Qwen",
+    "logo": "/imgs/AI Video/ImageModels/qwen-image.jpg"
+  }
+}

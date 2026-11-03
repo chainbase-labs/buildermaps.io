@@ -1,0 +1,10 @@
+{
+  "id": "codacy",
+  "name": "Codacy",
+  "description": "Automated code quality and security platform with AI review and guardrails for agent-written code.",
+  "links": {
+    "homepage": "https://codacy.com/",
+    "twitter": "https://x.com/Codacy",
+    "logo": "/imgs/AI Coding Agents/CodeReview&QA/codacy.png"
+  }
+}

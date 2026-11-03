@@ -1,0 +1,10 @@
+{
+  "id": "adobe-firefly",
+  "name": "Adobe Firefly",
+  "description": "Adobe's commercially safe generative video and image models.",
+  "links": {
+    "homepage": "https://firefly.adobe.com",
+    "twitter": "https://x.com/AdobeFirefly",
+    "logo": "/imgs/AI Video/FrontierModels/adobe-firefly.jpg"
+  }
+}

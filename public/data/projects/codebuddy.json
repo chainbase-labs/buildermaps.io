@@ -1,0 +1,10 @@
+{
+  "id": "codebuddy",
+  "name": "CodeBuddy",
+  "description": "Tencent Cloud's full-stack AI coding product — CLI plugin and standalone IDE. Used by roughly 85% of Tencent engineers and runs Hunyuan plus DeepSeek as a dual engine.",
+  "links": {
+    "homepage": "https://codebuddy.tencent.com/",
+    "twitter": "https://x.com/TencentGlobal",
+    "logo": "/imgs/AI Coding Agents/ChinaEcosystem/codebuddy.jpg"
+  }
+}

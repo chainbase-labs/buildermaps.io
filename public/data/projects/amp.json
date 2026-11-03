@@ -1,0 +1,10 @@
+{
+  "id": "amp",
+  "name": "Amp",
+  "description": "Sourcegraph's agentic coding tool. Free tier usable with an existing ChatGPT subscription or your own API key.",
+  "links": {
+    "homepage": "https://ampcode.com/",
+    "twitter": "https://x.com/ampcode",
+    "logo": "/imgs/AI Coding Agents/TerminalAgents/amp.jpg"
+  }
+}

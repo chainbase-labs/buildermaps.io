@@ -1,0 +1,10 @@
+{
+  "id": "comate",
+  "name": "Comate",
+  "description": "Baidu's Wenxin Kuaima — multi-agent collaboration with Figma-to-code conversion and the strongest project-level understanding among domestic plugins.",
+  "links": {
+    "homepage": "https://comate.baidu.com/",
+    "twitter": "https://x.com/Baidu_Inc",
+    "logo": "/imgs/AI Coding Agents/ChinaEcosystem/comate.jpg"
+  }
+}

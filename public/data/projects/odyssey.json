@@ -1,0 +1,10 @@
+{
+  "id": "odyssey",
+  "name": "Odyssey",
+  "description": "Interactive video world models streamed in real time.",
+  "links": {
+    "homepage": "https://odyssey.ml",
+    "twitter": "https://x.com/odysseyml",
+    "logo": "/imgs/AI Video/WorldModels&3D/odyssey.jpg"
+  }
+}

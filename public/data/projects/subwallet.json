@@ -1,0 +1,10 @@
+{
+  "id": "subwallet",
+  "name": "SubWallet",
+  "description": "Multichain wallet with TAO staking support.",
+  "links": {
+    "homepage": "https://subwallet.app",
+    "twitter": "https://x.com/subwalletapp",
+    "logo": "/imgs/Bittensor/Foundation&Tools/subwallet.jpg"
+  }
+}

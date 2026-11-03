@@ -1,0 +1,10 @@
+{
+  "id": "computehorde",
+  "name": "ComputeHorde",
+  "description": "SN12 · Trusted decentralized GPU compute for validators across Bittensor.",
+  "links": {
+    "homepage": "https://computehorde.io",
+    "twitter": "https://x.com/ComputeHorde",
+    "logo": "/imgs/Bittensor/Compute/computehorde.jpg"
+  }
+}

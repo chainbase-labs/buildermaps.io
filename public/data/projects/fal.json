@@ -1,0 +1,10 @@
+{
+  "id": "fal",
+  "name": "fal",
+  "description": "Generative media platform serving image, video and audio models via API.",
+  "links": {
+    "homepage": "https://fal.ai",
+    "twitter": "https://x.com/fal",
+    "logo": "/imgs/AI Video/OpenSource&Infra/fal.jpg"
+  }
+}

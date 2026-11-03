@@ -1,0 +1,10 @@
+{
+  "id": "upstage",
+  "name": "Upstage",
+  "description": "Korean lab behind the open-weight Solar model family.",
+  "links": {
+    "homepage": "https://upstage.ai",
+    "twitter": "https://x.com/upstageai",
+    "logo": "/imgs/Open Source AI/SpecializedLabs/upstage.jpg"
+  }
+}

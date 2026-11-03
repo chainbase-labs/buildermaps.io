@@ -1,0 +1,10 @@
+{
+  "id": "openart",
+  "name": "OpenArt",
+  "description": "AI storytelling platform for creating consistent characters and videos.",
+  "links": {
+    "homepage": "https://openart.ai",
+    "twitter": "https://x.com/openart_ai",
+    "logo": "/imgs/AI Video/CreativePlatforms/openart.jpg"
+  }
+}

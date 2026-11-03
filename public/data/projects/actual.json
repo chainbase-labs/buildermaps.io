@@ -1,0 +1,10 @@
+{
+  "id": "actual",
+  "name": "Actual",
+  "description": "SN95 · Private local inference network running on hardware users already own.",
+  "links": {
+    "homepage": "https://actual.inc",
+    "twitter": "https://x.com/actualinc",
+    "logo": "/imgs/Bittensor/Inference/actual.jpg"
+  }
+}

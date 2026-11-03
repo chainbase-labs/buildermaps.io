@@ -1,0 +1,10 @@
+{
+  "id": "black-forest-labs",
+  "name": "Black Forest Labs",
+  "description": "Creators of FLUX, including open-weight image generation models.",
+  "links": {
+    "homepage": "https://bfl.ai",
+    "twitter": "https://x.com/bfl_ai",
+    "logo": "/imgs/Open Source AI/Multimodal/black-forest-labs.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "comfyui",
+  "name": "ComfyUI",
+  "description": "Open-source node-based engine for running image and video models.",
+  "links": {
+    "homepage": "https://comfy.org",
+    "twitter": "https://x.com/ComfyUI",
+    "logo": "/imgs/Open Source AI/LocalAI/comfyui.jpg"
+  }
+}

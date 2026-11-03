@@ -1,0 +1,10 @@
+{
+  "id": "google-antigravity",
+  "name": "Google Antigravity",
+  "description": "Google's agent-first IDE that replaced Gemini CLI for consumer users. Free individual tier with AI Pro and Ultra plans raising limits.",
+  "links": {
+    "homepage": "https://antigravity.google/",
+    "twitter": "https://x.com/GoogleAI",
+    "logo": "/imgs/AI Coding Agents/AIIDEs/google-antigravity.jpg"
+  }
+}

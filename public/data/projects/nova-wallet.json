@@ -1,0 +1,10 @@
+{
+  "id": "nova-wallet",
+  "name": "Nova Wallet",
+  "description": "Mobile wallet with native Bittensor staking support.",
+  "links": {
+    "homepage": "https://novawallet.io",
+    "twitter": "https://x.com/NovaWalletApp",
+    "logo": "/imgs/Bittensor/Foundation&Tools/nova-wallet.jpg"
+  }
+}

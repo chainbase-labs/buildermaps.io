@@ -1,0 +1,10 @@
+{
+  "id": "reflection-ai",
+  "name": "Reflection AI",
+  "description": "Open frontier lab that unveiled Beam, a 501B open-weight model, in Oct 2026.",
+  "links": {
+    "homepage": "https://reflection.ai",
+    "twitter": "https://x.com/reflection_ai",
+    "logo": "/imgs/Open Source AI/FrontierLabs/reflection-ai.jpg"
+  }
+}

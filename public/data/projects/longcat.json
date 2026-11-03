@@ -1,0 +1,10 @@
+{
+  "id": "longcat",
+  "name": "LongCat",
+  "description": "Meituan's open models, incl. 1.6T LongCat-2.0 trained on Chinese chips.",
+  "links": {
+    "homepage": "https://longcat.ai",
+    "twitter": "https://x.com/Meituan_LongCat",
+    "logo": "/imgs/Open Source AI/BigTech/longcat.png"
+  }
+}

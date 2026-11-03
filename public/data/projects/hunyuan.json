@@ -1,0 +1,10 @@
+{
+  "id": "hunyuan",
+  "name": "Hunyuan",
+  "description": "Tencent's open models for language, image, video and 3D.",
+  "links": {
+    "homepage": "https://hunyuan.tencent.com",
+    "twitter": "https://x.com/TencentHunyuan",
+    "logo": "/imgs/Open Source AI/BigTech/hunyuan.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "openroboto",
+  "name": "OpenRoboto",
+  "description": "SN80 · Open competition to improve robotics models and egocentric data.",
+  "links": {
+    "homepage": "https://github.com/openroboto-ai/openroboto-subnet",
+    "twitter": "https://x.com/openroboto",
+    "logo": "/imgs/Bittensor/Science&Robotics/openroboto.jpg"
+  }
+}

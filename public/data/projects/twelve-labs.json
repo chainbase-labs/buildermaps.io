@@ -1,0 +1,10 @@
+{
+  "id": "twelve-labs",
+  "name": "Twelve Labs",
+  "description": "Video understanding models for search, analysis and summarization.",
+  "links": {
+    "homepage": "https://twelvelabs.io",
+    "twitter": "https://x.com/twelvelabs",
+    "logo": "/imgs/AI Video/OpenSource&Infra/twelve-labs.jpg"
+  }
+}

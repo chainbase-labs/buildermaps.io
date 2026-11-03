@@ -1,0 +1,10 @@
+{
+  "id": "vidu",
+  "name": "Vidu",
+  "description": "Shengshu's video model and platform for consistent characters and ad production.",
+  "links": {
+    "homepage": "https://vidu.com",
+    "twitter": "https://x.com/ViduAI_official",
+    "logo": "/imgs/AI Video/FrontierModels/vidu.jpg"
+  }
+}

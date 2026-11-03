@@ -1,0 +1,10 @@
+{
+  "id": "yanez",
+  "name": "Yanez",
+  "description": "SN54 · Synthetic identities to stress-test identity verification models.",
+  "links": {
+    "homepage": "https://github.com/yanez-compliance/MIID-subnet",
+    "twitter": "https://x.com/yanez__ai",
+    "logo": "/imgs/Bittensor/Security&Trust/yanez.png"
+  }
+}

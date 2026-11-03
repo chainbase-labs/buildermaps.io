@@ -1,0 +1,137 @@
+{
+  "sector": "Bittensor",
+  "types": [
+    {
+      "id": "inference",
+      "name": "Inference",
+      "projects": ["actual", "cacheon", "chutes", "engy", "pareton", "saygm"]
+    },
+    {
+      "id": "compute",
+      "name": "Compute",
+      "projects": [
+        "blockmachine",
+        "byteleap",
+        "computehorde",
+        "green-compute",
+        "hippius",
+        "kubetee",
+        "lium",
+        "targon"
+      ]
+    },
+    {
+      "id": "training-and-models",
+      "name": "Training & Models",
+      "projects": [
+        "affine",
+        "apex",
+        "connitoai",
+        "gradients",
+        "hone",
+        "iota",
+        "quasar",
+        "reliquary",
+        "trajectoryrl"
+      ]
+    },
+    {
+      "id": "agents-and-apps",
+      "name": "Agents & Apps",
+      "projects": [
+        "desearch",
+        "ditto",
+        "gittensor",
+        "harnyx",
+        "leadpoet",
+        "oro",
+        "ridges",
+        "soma",
+        "sundae-bar"
+      ]
+    },
+    {
+      "id": "data-and-media",
+      "name": "Data & Media",
+      "projects": [
+        "404-gen",
+        "bitcast",
+        "graphite",
+        "herald",
+        "readyai",
+        "score",
+        "streetvision",
+        "vidaio"
+      ]
+    },
+    {
+      "id": "finance-and-prediction",
+      "name": "Finance & Prediction",
+      "projects": [
+        "almanac",
+        "astrid",
+        "endure",
+        "mantis",
+        "mvtrx",
+        "numinous",
+        "synth",
+        "vanta"
+      ]
+    },
+    {
+      "id": "security-and-trust",
+      "name": "Security & Trust",
+      "projects": [
+        "aurelius",
+        "bitmind",
+        "bitsec",
+        "it-s-ai",
+        "redteam",
+        "trishool",
+        "ur",
+        "yanez"
+      ]
+    },
+    {
+      "id": "science-and-robotics",
+      "name": "Science & Robotics",
+      "projects": [
+        "chipforge",
+        "conjectures",
+        "minos",
+        "nepher-robotics",
+        "nova",
+        "openroboto",
+        "quantum-compute",
+        "swarm",
+        "thor",
+        "zeus"
+      ]
+    },
+    {
+      "id": "foundation-and-tools",
+      "name": "Foundation & Tools",
+      "projects": [
+        "nova-wallet",
+        "opentensor-foundation",
+        "subwallet",
+        "talisman",
+        "tao-bot",
+        "tao-com",
+        "taostats"
+      ]
+    },
+    {
+      "id": "capital-and-institutions",
+      "name": "Capital & Institutions",
+      "projects": [
+        "bitstarter",
+        "bitwise",
+        "dsv-fund",
+        "grayscale",
+        "virtune",
+        "xtao"
+      ]
+    }
+  ]
+}

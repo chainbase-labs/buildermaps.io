@@ -1,0 +1,10 @@
+{
+  "id": "vidaio",
+  "name": "Vidaio",
+  "description": "SN85 · AI video upscaling and compression.",
+  "links": {
+    "homepage": "https://github.com/vidAio-subnet/vidaio-subnet",
+    "twitter": "https://x.com/vidaio_",
+    "logo": "/imgs/Bittensor/Data&Media/vidaio.jpg"
+  }
+}

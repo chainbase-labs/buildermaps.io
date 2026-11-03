@@ -1,0 +1,10 @@
+{
+  "id": "grok-code",
+  "name": "Grok Code",
+  "description": "xAI's coding-tuned model line offered at aggressive pricing and integrated into several third-party agents.",
+  "links": {
+    "homepage": "https://x.ai/",
+    "twitter": "https://x.com/xai",
+    "logo": "/imgs/AI Coding Agents/CodingModels/grok-code.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "tinker",
+  "name": "Tinker",
+  "description": "Thinking Machines' API for fine-tuning open-weight models.",
+  "links": {
+    "homepage": "https://thinkingmachines.ai",
+    "twitter": "https://x.com/thinkymachines",
+    "logo": "/imgs/Open Source AI/Training/tinker.jpg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "codegeex",
+  "name": "CodeGeeX",
+  "description": "Zhipu AI's open-source assistant supporting 300+ languages. Free and self-hostable — the default zero-budget option in China.",
+  "links": {
+    "homepage": "https://codegeex.cn/",
+    "twitter": "https://x.com/codegeex_ai",
+    "logo": "/imgs/AI Coding Agents/ChinaEcosystem/codegeex.jpg"
+  }
+}

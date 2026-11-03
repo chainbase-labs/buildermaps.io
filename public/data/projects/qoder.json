@@ -1,0 +1,10 @@
+{
+  "id": "qoder",
+  "name": "Qoder",
+  "description": "Alibaba's agentic IDE on Qwen-Coder with Repo Wiki for large codebases and Quest mode for long autonomous tasks. The domestic line Qoder CN was renamed from Tongyi Lingma on 20 May 2026 and moved to credits billing.",
+  "links": {
+    "homepage": "https://qoder.com/",
+    "twitter": "https://x.com/qoder_ai_ide",
+    "logo": "/imgs/AI Coding Agents/ChinaEcosystem/qoder.jpg"
+  }
+}

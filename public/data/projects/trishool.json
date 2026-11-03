@@ -1,0 +1,10 @@
+{
+  "id": "trishool",
+  "name": "Trishool",
+  "description": "SN23 · AI alignment protocol that red-teams models to harden guard models.",
+  "links": {
+    "homepage": "https://github.com/trishoolai/trishool-phase2",
+    "twitter": "https://x.com/trishoolai",
+    "logo": "/imgs/Bittensor/Security&Trust/trishool.jpg"
+  }
+}
